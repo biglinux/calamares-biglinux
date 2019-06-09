@@ -1,0 +1,27 @@
+---
+componentName:   biglinux
+welcomeStyleCalamares: true
+
+strings:
+    productName:         BigLinux
+    shortProductName:    BigLinux
+    version:             10
+    shortVersion:        10
+    versionedName:       BigLinux
+    shortVersionedName:  BigLinux 10
+    bootloaderEntryName: BigLinux
+    productUrl:          https://www.biglinux.com.br
+    supportUrl:          https://www.biglinux.com.br
+    releaseNotesUrl:     https://www.biglinux.com.br
+
+images:
+    productLogo:         "biglinux-logo.png"
+    productIcon:         "biglinux-logo.png"
+    productWelcome:      "biglinux-logo.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#000000"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#0067ff"
