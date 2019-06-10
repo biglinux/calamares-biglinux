@@ -85,6 +85,8 @@ sequence:
         - mhwdcfg
         - hwclock
         - services
+        - grubcfg
+        - grubcfg-fix
         - bootloader
         - postcfg
         - btrfs-fix
