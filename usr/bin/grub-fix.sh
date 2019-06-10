@@ -2,7 +2,9 @@
 
 sed -i "s|GRUB_CMDLINE_LINUX_DEFAULT=\"|GRUB_CMDLINE_LINUX_DEFAULT=\"$(cat /proc/cmdline | sed 's|initrd=.*||g;s|.*union=overlay||g;s|toram||g;s|quiet||g;s|splash||g')|g" $*
 
-echo 'GRUB_THEME=/boot/grub/themes/biglinux/theme.txt' >>  $*
+sed -i 's|GRUB_THEME=.*|GRUB_THEME=/boot/grub/themes/biglinux/theme.txt|g' $*
+
+sed -i 's|GRUB_SAVEDEFAULT=true|GRUB_SAVEDEFAULT=false|g' $*
 
 
 #Change default desktop in sddm to use in livecd
