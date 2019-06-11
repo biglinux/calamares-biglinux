@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sed -i "s|GRUB_CMDLINE_LINUX_DEFAULT=\"|GRUB_CMDLINE_LINUX_DEFAULT=\"$(cat /proc/cmdline | sed 's|initrd=.*||g;s|.*union=overlay||g;s|toram||g;s|quiet||g;s|splash||g')|g" $*
+sed -i "s|GRUB_CMDLINE_LINUX_DEFAULT=\"|GRUB_CMDLINE_LINUX_DEFAULT=\"$(cat /proc/cmdline | sed 's|initrd=.*||g;s|.*union=overlay||g;s|toram||g;s|quiet||g;s|splash||g;s|.*driver=free ||g;s|misobasedir=manjaro ||g;s|misolabel=M1804 ||g')|g" $*
 
 sed -i 's|GRUB_THEME=.*|GRUB_THEME=/boot/grub/themes/biglinux/theme.txt|g' $*
 
