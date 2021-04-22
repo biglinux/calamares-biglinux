@@ -1,6 +1,14 @@
 #!/bin/bash
 
 
+
+
+
+
+
+
+
+
 if [ ! -f "/etc/calamares/biglinux" ]; then
 
 # Simplify welcome
@@ -11,46 +19,64 @@ showKnownIssuesUrl:     false
 showReleaseNotesUrl:    false
 
 requirements:
-    requiredStorage:    10
-    requiredRam:        1.0
+    internetCheckUrl: http://networkcheck.kde.org
+    requiredStorage:    4
+    requiredRam:        0.5
     check:
-        - storage
-        - ram
-        - power
-        - internet
-        - root
+      - storage
+      - ram
+      - power
+      - internet
+      - root
     required:
-        - storage
-        - ram
-        - root' > /etc/calamares/modules/welcome.conf
-        
-
+      - storage
+      - ram
+      - root
+geoip:
+    style:  "json"
+    url:    "https://ipapi.co/json"
+    selector: "country"' > /etc/calamares/modules/welcome.conf
 
 # Force btrfs compression using zstd
 sed -i 's|subvol=@", partition.get("options", ""|subvol=@", partition.get("options", "compress-force=zstd"|g' /usr/lib/calamares/modules/mount/main.py
 sed -i 's|subvol=@home", partition.get("options", ""|subvol=@home", partition.get("options", "compress-force=zstd"|g' /usr/lib/calamares/modules/mount/main.py
-sed -i 's|autodefrag|autodefrag,compress-force=zstd:1|g;s|compress=lzo|ssd|g' /usr/share/calamares/modules/fstab.conf
+sed -i 's|autodefrag|usebackuproot,space_cache,discard=async,autodefrag,compress-force=zstd:2|g;s|compress=lzo|ssd|g' /usr/share/calamares/modules/fstab.conf
 
 # Use btrfs for default
 sed -i 's|defaultFileSystemType.*"ext4"|defaultFileSystemType:  "btrfs"|g' /usr/share/calamares/modules/partition.conf
 
 
-# Remove root password
-echo '---
+echo '
+---
 defaultGroups:
+    - cdrom
+    - floppy
+    - audio
+    - dip
+    - video
+    - plugdev
+    - netdev
+    - lpadmin
+    - scanner
+    - bluetooth
+    - vboxsf
+    - sambashare
+    - input
+    - scard
     - lp
     - network
     - power
     - sys
     - wheel
-    - vboxsf
 autologinGroup:  autologin
 doAutologin:     false
 sudoersGroup:    wheel
 setRootPassword: false
-doReusePassword: true
+doReusePassword: false
 availableShells: /bin/bash, /bin/zsh
-avatarFilePath:  ~/.face' > /etc/calamares/modules/users.conf
+avatarFilePath:  ~/.face
+userShell:       /bin/bash' > /etc/calamares/modules/users.conf
+
 
 
 # General configuration
@@ -68,7 +94,6 @@ sequence:
     - exec:
         - partition
         - mount
-        - btrfs
         - unpackfs
         - networkcfg
         - machineid
@@ -98,7 +123,11 @@ branding: biglinux
 
 prompt-install: true
 
-dont-chroot: false' > /etc/calamares/settings.conf
+dont-chroot: false
+oem-setup: false
+disable-cancel: false
+disable-cancel-during-exec: false
+quit-at-end: false' > /etc/calamares/settings.conf
 
 
 touch /etc/calamares/biglinux

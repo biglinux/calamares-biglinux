@@ -1,21 +1,3 @@
-/* === This file is part of Calamares - <http://github.com/calamares> ===
- *
- *   Copyright 2015, Teo Mrnjavac <teo@kde.org>
- *   Copyright 2018, Jonathan Carter <jcc@debian.org>
- *
- *   Calamares is free software: you can redistribute it and/or modify
- *   it under the terms of the GNU General Public License as published by
- *   the Free Software Foundation, or (at your option) any later version.
- *
- *   Calamares is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- *   GNU General Public License for more details.
- *
- *   You should have received a copy of the GNU General Public License
- *   along with Calamares. If not, see <http://www.gnu.org/licenses/>.
- */
-
 import QtQuick 2.0;
 import calamares.slideshow 1.0;
 
@@ -24,27 +6,131 @@ Presentation
     id: presentation
 
     Timer {
-        interval: 20000
+        interval: 17000
+        running: true
         repeat: true
         onTriggered: presentation.goToNextSlide()
     }
+Slide 
+{
+        anchors.fill: parent
 
-    Slide {
+        Image {
+            id: background
+            source: "pt/00.jpg"
+            anchors.fill: parent
+        
+        }
+}   
+Slide 
+{
+        anchors.fill: parent
+
         Image {
             id: background1
-            source: "/usr/share/wallpapers/BigLinux09.jpg"
-            width: 1920; height: 1080
-            fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
+            source: "pt/01.jpg"
+            anchors.fill: parent
+        
         }
-        Text {
-            anchors.horizontalCenter: background1.horizontalCenter
-            anchors.top: background1.bottom
-            text: "Installing..."
-            wrapMode: Text.WordWrap
-            width: 600
-            horizontalAlignment: Text.Center
+}   
+Slide 
+{
+        anchors.fill: parent
+
+        Image {
+            id: background2
+            source: "pt/02.jpg"
+            anchors.fill: parent
+        
+    }
+}   
+Slide 
+{
+        anchors.fill: parent
+
+        Image {
+            id: background3
+            source: "pt/03.jpg"
+            anchors.fill: parent
+        
         }
     }
 
+Slide 
+{
+        anchors.fill: parent
+
+        Image {
+            id: background4
+            source: "pt/04.jpg"
+            anchors.fill: parent
+        
+    }
+}   
+
+
+Slide 
+{
+        anchors.fill: parent
+
+        Image {
+            id: background5
+            source: "pt/05.jpg"
+            anchors.fill: parent
+        
+    }
+}   
+
+
+Slide 
+{
+        anchors.fill: parent
+
+        Image {
+            id: background6
+            source: "pt/06.jpg"
+            anchors.fill: parent
+        
+    }
+}   
+
+
+Slide 
+{
+        anchors.fill: parent
+
+        Image {
+            id: background7
+            source: "pt/07.jpg"
+            anchors.fill: parent
+        
+    }
+}   
+
+
+Slide 
+{
+        anchors.fill: parent
+
+        Image {
+            id: background8
+            source: "pt/08.jpg"
+            anchors.fill: parent
+        
+    }
+}
+
+
+Slide 
+{
+        anchors.fill: parent
+
+        Image {
+            id: background9
+            source: "pt/09.jpg"
+            anchors.fill: parent
+        
+    }
+}   
+    
 }
