@@ -42,12 +42,12 @@ geoip:
 
 
 
-sed -i 's|mount_option,|mount_option, "compress-force=zstd",|g' /usr/lib/calamares/modules/mount/main.py
+sed -i 's|mount_option,|mount_option, "compress-force=zstd,space_cache=v2",|g' /usr/lib/calamares/modules/mount/main.py
 
 
 
 
-sed -i 's|space_cache|usebackuproot,space_cache,discard=async,autodefrag,compress-force=zstd:2,commit=10|g;s|ssd,compress=zstd,commit=120|ssd|g' /usr/share/calamares/modules/fstab.conf
+sed -i 's|space_cache|usebackuproot,space_cache=v2,discard=async,autodefrag,compress-force=zstd:2,commit=10|g;s|ssd,compress=zstd,commit=120|ssd|g' /usr/share/calamares/modules/fstab.conf
 
 # Use btrfs for default
 sed -i 's|defaultFileSystemType.*"ext4"|defaultFileSystemType:  "btrfs"|g' /usr/share/calamares/modules/partition.conf
