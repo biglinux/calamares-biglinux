@@ -1,0 +1,382 @@
+#!/bin/bash
+
+rm -f /tmp/biglinux-wait-install
+
+
+
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=calamares-settings-biglinux
+
+# Import BigControlCenter base modules / Importa os módulos básicos do BigControlCenter
+# That's include jquery and materialize / Isso inclui o jquery e o materialize
+# http://materializecss.com/
+. /usr/share/bigbashview/bcc/shell/base.sh
+
+
+cat << EOF
+<style>
+
+body {
+			background-image: url(bg.jpg) !important;
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #000;
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+padding: 0px;
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+font-weight: 250;
+color: rgba(255, 255, 255, 1);
+font-family: 'Droid Sans';
+  text-align: left;
+  text-justify: inter-word;
+}
+
+.bar:before {
+	background-attachment: fixed;
+}
+
+
+
+#page2 {
+	margin-right: 4%;
+	margin-left: 4%;
+	height: 100%;
+}
+
+
+#middle {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: ubuntu;
+    font-weight: 400;
+    line-height: 22px;
+    min-width: 880px;
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 15px;
+    padding-top: 3%;
+    font-size: 18px;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-top: 0px;
+    border-bottom: 0px;
+    argin-bottom: 0px;
+    height: 100%;
+    top: 0%;
+}
+
+div#version {
+    margin-top: 48px;
+}
+
+.input-field.col label {
+    left: 0.75rem;
+color: #c5f4ff;
+    font-size: 18px;
+}
+
+.input-field {
+    position: relative;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+.bar {
+  position: relative;
+  background: rgba(0, 0, 0, 0.54);
+  box-shadow: 0px 0px 95px 0px rgba(0,0,0,1);
+	height: 100%;
+}
+
+.bar:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  top: 0; right: 0; left: 0;
+  filter: blur(15px);
+  -webkit-filter: blur(15px);
+	height: 100%;
+}
+
+.material-tooltip {font-family:ubuntu;
+font-weight:400;font-size:18px;
+line-height: 120%;}
+
+.with-gap {color: #ffffff !important;
+font-size:20px !important;
+margin-left:20px;
+margin-right:20px;
+}
+
+div#contentbig {
+    display: inline-flex;
+}
+
+
+
+label.tooltipped.with-gap {
+    margin-top: 14px;
+    margin-left: 21px;
+    margin-right: 50px;
+}
+
+
+div#bigfooter {
+    margin: auto;
+    width: 426px;
+        margin-top:50px;
+    margin-bottom:0px;
+
+}
+
+.btn, .btn-large {
+    margin: 33px;
+    color: #fff !important;
+}
+
+
+img {
+    vertical-align: text-bottom;
+    margin-right: 7px;
+}
+
+
+[type="checkbox"]:checked + label:before {
+    border-right: 2px solid #00ffe7 !important;
+    border-bottom: 2px solid #00ffe7 !important;
+}
+
+.btn, .btn-large {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.backdrop {
+    background-color: rgba(111, 111, 111, 1) !important;
+}
+
+a {
+    color: #b3dfff !important;
+}
+
+.material-tooltip {font-family:ubuntu;
+    font-weight:400;font-size:18px !important;
+    line-height: 120%;
+    border-radius: 20px !important;
+    box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.75);
+
+}
+
+.with-gap {color: #ffffff !important;
+font-size:20px !important;
+margin-left:20px;
+margin-right:20px;
+margin-top:10%;
+}
+
+
+.xanmodAlert {
+    align-content: flex-end;
+    display: inline-flex;
+    color: #faff00;
+}
+
+</style>
+
+
+
+
+EOF
+
+
+  echo '
+  <body>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/usr/share/bigbashview/bcc/css/base.css">
+    <link rel="stylesheet" type="text/css" href="/usr/share/bigbashview/bcc/materialize/css/materialize.css">
+    <script src="/usr/share/bigbashview/bcc/materialize/js/jquery.js"></script>
+    <script src="/usr/share/bigbashview/bcc/materialize/js/materialize.js"></script>
+    <script src="/usr/share/bigbashview/bcc/js/big.js"></script>
+  </head>'
+  echo '<title>' $"Instalador BigLinux" '</title>'
+
+
+tooltip_btrfs=$"A partição Btrfs trás diversas melhorias para o sistema,
+<br>
+por exemplo, compactação de dados e pontos de restauração.
+<br><br>
+Em algumas configurações de particionamento o Btrfs pode ser incompatível.
+<br><br>
+Recomendo utilizar Btrfs, mas se a instalação não funcionar<br>
+corretamente experimente instalar utilizando EXT4."
+
+tooltip_fsync=$"Além das vantagens do Btrfs, esta opção desativa
+as chamadas de fsync de todos os programas.
+<br><br>
+Isso torna o sistema mais responsivo, porém, caso falte energia,
+<br>
+pode ser que os arquivos salvos nos últimos segundos não estejam
+<br>
+realmente salvos, então, ao ligar novamente o computador as últimas
+<br>
+modificações podem ter sido revertidas.
+<br><br>
+Geralmente essa é a melhor opção para instalar o BigLinux.
+"
+
+tooltip_ext4=$"Este é o tipo de particionamento mais tradicional
+<br>
+para sistemas Linux, porém, possui menos recursos
+<br>
+que o particionamento Btrfs."
+
+tooltop_xanmod=$"Se algum dispositivo do seu computador não foi detectado
+<br>
+corretamente pelo kernel generic, utilize o kernel xanmod."
+
+tooltip_debian=$"Esse é o kernel recomendado para a maioria dos computadores,
+<br>
+porém, se algum dispositivo do seu computador não está funcionando corretamente,
+<br>experimente utilizar o kernel xanmod."
+
+tooltip_nvidia=$"Foi detectada uma placa de vídeo Nvidia nesse computador.<br><br>
+Para obter melhor desempenho da sua placa de vídeo é necessário instalar o driver<br>
+proprietário, deseja que essa instalação seja feita automaticamente?"
+
+
+
+
+cp -f /etc/calamares/modules/partition.conf-bkp /etc/calamares/modules/partition.conf
+cp -f /etc/calamares/modules/packages.conf-bkp /etc/calamares/modules/packages.conf
+
+
+if [ -e "/etc/calamares/modules/partition.conf-bkp" ]; then
+    cp -f /etc/calamares/modules/partition.conf-bkp /etc/calamares/modules/partition.conf
+    cp -f /etc/calamares/modules/packages.conf-bkp /etc/calamares/modules/packages.conf
+fi
+
+
+
+
+# Import tweaks for themev
+echo '<link rel="stylesheet" type="text/css" href="theme.css">'
+
+
+echo '<div id=page2>'
+echo '<div id="middle" class="bar">'
+
+###############
+# Start Content
+
+
+# xanmodVersion="$(ls /boot/vmlinuz-*xanmod* | sed 's|.*vmlinuz-||g')"
+# debianVersion="$(ls /boot/vmlinuz-*generic* | sed 's|.*vmlinuz-||g')"
+# 
+# if [ "$(uname -r | grep xanmod)" != "" ]; then
+#     xanmodCheked=checked
+#     kernel=Xanmod
+#     versionRunning="$xanmodVersion"
+#     versionAnother="$debianVersion"
+# else
+#     debianChecked=checked
+#     versionRunning="$debianVersion"
+#     versionAnother="$xanmodVersion"
+# fi
+
+echo "<center>" $"Obrigado por escolher o BigLinux $(lsb_release -rs)." "</center>"
+echo "<br><br><li>"
+echo $"Siga os próximos passos para efetuar a instalação no seu computador."
+echo "<br><br><li>"
+echo $"Em caso de dúvidas sobre as opções abaixo, utilize a configuração padrão e prossiga com a instalação."
+echo "<br><br><li>"
+echo $"Se precisar de ajuda com a instalação ou uso do sistema utilize nosso fórum:" "<a onclick=\"_run('./forum.run')\">https://forum.biglinux.com.br</a>" '<p></font>'
+
+echo '<form action="wait.sh.htm">'
+
+
+
+
+
+    
+
+echo '<div class="input-field col s6">'
+echo '<input name="option" type="radio" id="btrfs_disable_sync" value="btrfs_disable_sync" checked>'
+echo '<label for="btrfs_disable_sync" class="tooltipped with-gap" data-position="top" data-delay="50" data-tooltip="' "$tooltip_fsync" '">'
+echo $"Btrfs sem fsync"
+echo '</label>'
+
+echo '<input name="option" type="radio" id="btrfs_sync" value="btrfs_sync">'
+echo '<label for="btrfs_sync" class="tooltipped with-gap" data-position="top" data-delay="50" data-tooltip="' "$tooltip_btrfs" '">'
+echo $"Btrfs"
+echo '</label>'
+
+echo '<input name="option" type="radio" id="ext4" value="ext4">'
+echo '<label for="ext4" class="tooltipped with-gap" data-position="top" data-delay="50" data-tooltip="' "$tooltip_ext4" '">'
+echo $"EXT4"
+echo '</label>'
+echo '</div>'
+
+
+
+
+
+
+
+    
+# if [ "$(lspci | grep -i vga | grep -i nvidia)" != "" ]; then
+# 
+#     NVIDIA_VERSION="$(nvidia-detector)"
+#     XANMOD_ALERT=$" - Não recomendado com driver proprietário Nvidia"
+# 
+#     echo '<div class="input-field col s6">
+#       <input name="nvidia" type="checkbox" id="nvidia" value="y"' "checked" '/>
+#       <label for="nvidia" class="tooltipped" data-position="top" data-delay="50" data-tooltip="'" $tooltip_nvidia "'">' $"Instalar o driver proprietário: $NVIDIA_VERSION" '</label>
+#     </div>'
+# fi
+
+    
+# echo '<div class="input-field col s6">
+#       <input name="debian" type="checkbox" id="debian" value="y"' "$debianChecked" '/>
+#       <label for="debian" class="tooltipped" data-position="top" data-delay="50" data-tooltip="'" $tooltip_debian "'">' $"Kernel Generic - $debianVersion" '</label>
+#     </div>
+#     <div class="input-field col s6">
+#       <input name="xanmod" type="checkbox" id="xanmod" value="y"' "$xanmodCheked" '/>
+#       <label for="xanmod" class="tooltipped" data-position="top" data-delay="50" data-tooltip="'" $tooltop_xanmod "'">' $"Kernel Xanmod - $xanmodVersion" '<div class="xanmodAlert">' "$XANMOD_ALERT" '</div></label>
+#     </div>
+# '
+
+
+
+
+
+# 
+# echo '<div id=version><center>' $"Kernel em uso no momento: $versionRunning" '</center></div>'
+# 
+
+
+
+
+
+##############
+# Start footer
+echo "<div id=bigfooter>"
+          echo '<a href="/usr/share/bigbashview/close.sh" class="btn blue-grey darken-1"><img src=cancel.png>'$"Cancelar"'</a>'
+          echo '<button type="submit" class="btn blue-grey darken-1" name="action"><img src=ok.png>'$"Próximo"'</button>'
+echo '</form></div>'
+
+###################
+# Close content div
+echo '</div></div>'
+#########
+# The end
+echo '</body>'

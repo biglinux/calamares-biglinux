@@ -1,12 +1,8 @@
 #!/bin/bash
 
-
-
-
-
-
-
-
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=calamares-settings-biglinux
 
 
 if [ ! -f "/etc/calamares/biglinux" ]; then
@@ -141,6 +137,8 @@ touch /etc/calamares/biglinux
 
 fi
 
+cd /usr/share/bigbashview/bcc/apps/bigbashview-calamares/
+bigbashview -n $"Instalar o BigLinux" index.sh.htm
 
 # Start calamares
 /usr/bin/calamares-manjaro

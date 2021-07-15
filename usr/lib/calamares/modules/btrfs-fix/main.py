@@ -48,6 +48,6 @@ def run():
     subprocess.call(["mv", root_mount_point + '/boot2/boot/', root_mount_point + '/boot/'])
 
     subprocess.call(["/usr/lib/calamares/modules/btrfs-fix/compress", root_mount_point])
-
+    subprocess.call(["rm", "-Rf", root_mount_point + '/boot2'])
 
     return None

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+
+sudo -u biglinux brave-browser https://forum.biglinux.com.br
