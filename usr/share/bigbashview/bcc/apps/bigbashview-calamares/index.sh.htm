@@ -1,215 +1,11 @@
 #!/bin/bash
 
-rm -f /tmp/biglinux-wait-install
-
-
+export LANGUAGE=$(cat /tmp/big_language)
+export LANG=$(cat /tmp/big_language)
 
 #Translation
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=calamares-settings-biglinux
-
-# Import BigControlCenter base modules / Importa os módulos básicos do BigControlCenter
-# That's include jquery and materialize / Isso inclui o jquery e o materialize
-# http://materializecss.com/
-. /usr/share/bigbashview/bcc/shell/base.sh
-
-
-cat << EOF
-<style>
-
-body {
-			background-image: url(bg.jpg) !important;
-			background-position: center center;
-			background-repeat:  no-repeat;
-			background-attachment: fixed;
-			background-size:  cover;
-			background-color: #000;
-margin-top: 0px;
-margin-left: 0px;
-margin-right: 0px;
-margin-bottom: 0px;
-padding: 0px;
-text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
-font-weight: 250;
-color: rgba(255, 255, 255, 1);
-font-family: 'Droid Sans';
-  text-align: left;
-  text-justify: inter-word;
-}
-
-.bar:before {
-	background-attachment: fixed;
-}
-
-
-
-#page2 {
-	margin-right: 4%;
-	margin-left: 4%;
-	height: 100%;
-}
-
-
-#middle {
-    display: table-cell;
-    vertical-align: middle;
-    font-family: ubuntu;
-    font-weight: 400;
-    line-height: 22px;
-    min-width: 880px;
-    width: 100%;
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-bottom: 15px;
-    padding-top: 3%;
-    font-size: 18px;
-    display: block;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-top: 0px;
-    border-bottom: 0px;
-    argin-bottom: 0px;
-    height: 100%;
-    top: 0%;
-}
-
-div#version {
-    margin-top: 48px;
-}
-
-.input-field.col label {
-    left: 0.75rem;
-color: #c5f4ff;
-    font-size: 18px;
-}
-
-.input-field {
-    position: relative;
-    margin-top: 1rem;
-    text-align: center;
-}
-
-
-.bar {
-  position: relative;
-  background: rgba(0, 0, 0, 0.54);
-  box-shadow: 0px 0px 95px 0px rgba(0,0,0,1);
-	height: 100%;
-}
-
-.bar:before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  height: 100%;
-  top: 0; right: 0; left: 0;
-  filter: blur(15px);
-  -webkit-filter: blur(15px);
-	height: 100%;
-}
-
-.material-tooltip {font-family:ubuntu;
-font-weight:400;font-size:18px;
-line-height: 120%;}
-
-.with-gap {color: #ffffff !important;
-font-size:20px !important;
-margin-left:20px;
-margin-right:20px;
-}
-
-div#contentbig {
-    display: inline-flex;
-}
-
-
-
-label.tooltipped.with-gap {
-    margin-top: 14px;
-    margin-left: 21px;
-    margin-right: 50px;
-}
-
-
-div#bigfooter {
-    margin: auto;
-    width: 426px;
-        margin-top:50px;
-    margin-bottom:0px;
-
-}
-
-.btn, .btn-large {
-    margin: 33px;
-    color: #fff !important;
-}
-
-
-img {
-    vertical-align: text-bottom;
-    margin-right: 7px;
-}
-
-
-[type="checkbox"]:checked + label:before {
-    border-right: 2px solid #00ffe7 !important;
-    border-bottom: 2px solid #00ffe7 !important;
-}
-
-.btn, .btn-large {
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
-}
-
-.backdrop {
-    background-color: rgba(111, 111, 111, 1) !important;
-}
-
-a {
-    color: #b3dfff !important;
-}
-
-.material-tooltip {font-family:ubuntu;
-    font-weight:400;font-size:18px !important;
-    line-height: 120%;
-    border-radius: 20px !important;
-    box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.75);
-
-}
-
-.with-gap {color: #ffffff !important;
-font-size:20px !important;
-margin-left:20px;
-margin-right:20px;
-margin-top:10%;
-}
-
-
-.xanmodAlert {
-    align-content: flex-end;
-    display: inline-flex;
-    color: #faff00;
-}
-
-</style>
-
-
-
-
-EOF
-
-
-  echo '
-  <body>
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/usr/share/bigbashview/bcc/css/base.css">
-    <link rel="stylesheet" type="text/css" href="/usr/share/bigbashview/bcc/materialize/css/materialize.css">
-    <script src="/usr/share/bigbashview/bcc/materialize/js/jquery.js"></script>
-    <script src="/usr/share/bigbashview/bcc/materialize/js/materialize.js"></script>
-    <script src="/usr/share/bigbashview/bcc/js/big.js"></script>
-  </head>'
-  echo '<title>' $"Instalador BigLinux" '</title>'
-
 
 tooltip_btrfs=$"A partição Btrfs trás diversas melhorias para o sistema,
 <br>
@@ -220,8 +16,11 @@ Em algumas configurações de particionamento o Btrfs pode ser incompatível.
 Recomendo utilizar Btrfs, mas se a instalação não funcionar<br>
 corretamente experimente instalar utilizando EXT4."
 
-tooltip_fsync=$"Além das vantagens do Btrfs, esta opção desativa
-as chamadas de fsync de todos os programas.
+tooltip_fsync=$"A partição Btrfs trás diversas melhorias para o sistema,
+<br>
+por exemplo, compactação de dados e pontos de restauração.
+<br><br>
+Essa opção também desativa as chamadas de fsync de todos os programas.
 <br><br>
 Isso torna o sistema mais responsivo, porém, caso falte energia,
 <br>
@@ -239,144 +38,196 @@ tooltip_ext4=$"Este é o tipo de particionamento mais tradicional
 para sistemas Linux, porém, possui menos recursos
 <br>
 que o particionamento Btrfs."
-
-tooltop_xanmod=$"Se algum dispositivo do seu computador não foi detectado
-<br>
-corretamente pelo kernel generic, utilize o kernel xanmod."
-
-tooltip_debian=$"Esse é o kernel recomendado para a maioria dos computadores,
-<br>
-porém, se algum dispositivo do seu computador não está funcionando corretamente,
-<br>experimente utilizar o kernel xanmod."
-
-tooltip_nvidia=$"Foi detectada uma placa de vídeo Nvidia nesse computador.<br><br>
-Para obter melhor desempenho da sua placa de vídeo é necessário instalar o driver<br>
-proprietário, deseja que essa instalação seja feita automaticamente?"
+      
 
 
+  echo '
+  <body>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/usr/share/bigbashview/bcc/materialize/css/materialize.css">
+    <script src="/usr/share/bigbashview/bcc/materialize/js/jquery.js"></script>
+    <script src="/usr/share/bigbashview/bcc/materialize/js/materialize.js"></script>
+    <script src="/usr/share/bigbashview/bcc/js/big.js"></script>
+  </head>'
+
+echo '<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />'
+
+cat << EOF
+<style>
 
 
-cp -f /etc/calamares/modules/partition.conf-bkp /etc/calamares/modules/partition.conf
-cp -f /etc/calamares/modules/packages.conf-bkp /etc/calamares/modules/packages.conf
+body {
+    background-image: url(/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/bg.jpg);
+    margin-top: 6px;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+    text-align-last: center;
+    margin: 0;
+}
+
+div#centered {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#page2 {
+    margin-right: 7%;
+    margin-left: 7%;
+    height: 100%;
+}
 
 
-if [ -e "/etc/calamares/modules/partition.conf-bkp" ]; then
-    cp -f /etc/calamares/modules/partition.conf-bkp /etc/calamares/modules/partition.conf
-    cp -f /etc/calamares/modules/packages.conf-bkp /etc/calamares/modules/packages.conf
-fi
+#middle {
+    vertical-align: middle;
+    width: 100%;
+    max-width: 1100px;
+    padding-bottom: 15px;
+    padding-top: 1%;
+    font-size: 18px;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-top: 0px;
+    margin: auto;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    height: 100%;
+    top: 0%;
+    display: inline-table;
+}
+
+
+.bar {
+  position: relative;
+  background: rgba(0,0,0,0.65);
+  box-shadow: 0px 0px 95px 0px rgba(0,0,0,1);
+	height: 100%;
+}
+
+.bar:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  top: 0; right: 0; left: 0;
+  filter: blur(15px);
+  -webkit-filter: blur(15px);
+	height: 100%;
+}
+
+
+body {
+    background-image: url(/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/bg.jpg);
+    margin-top: 6px;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+    text-align-last: center;
+    margin: 0;
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+font-weight: 250;
+color: rgba(255, 255, 255, 1);
+font-family: 'Droid Sans';
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+.material-tooltip {font-family:ubuntu;
+font-weight:400;font-size:18px;
+line-height: 120%;}
+
+
+h1 {margin: 0px;
+margin-right: 7px;
+margin-left: 7px;
+text-align:center;font-family:ubuntu;font-weight:400;font-size:18px;color:#fff;text-shadow:0em 0.05em 0 rgba(0,0,0,0.35)}
+button {color:#454545;background:transparent;border-width:2px;border-style: solid;border-color: #454545;position:relative;margin:1em;display:inline-block;padding:0.5em 1em;transition:all 0.3s ease-in-out;text-align:center;
+font-family:ubuntu;font-weight:bold;font-size:18px}
+button:before, button:after {content:'';display:block;position:absolute;border-color:#454545;box-sizing:border-box;border-style:solid;width:1em;height:1em;transition:all 0.3s ease-in-out}
+button:before {top:-6px;left:-6px;border-width:2px 0 0 2px;z-index:5;}
+button:after {bottom:-6px;right:-6px;border-width:0 2px 2px 0;}
+button:hover:before, button:hover:after {width:calc(100% + 12px);
+  height:calc(100% + 12px);border-color:#fff}
+button:hover {color:#353535;background-color:#fff;border-color:#fff}
+.panel {max-width:960px;text-align:center;position:relative;margin:auto;}
+
+.borderless button {border-color:rgba(0,0,0,0);color:#999}
+.borderless button:hover {border-color:#353535;background-color:transparent;color:#353535}
+.borderless button:before, .borderless button:after {border-color:transparent;}
+.borderless button:hover:before, .borderless button:hover:after {width:calc(100% + 12px); height:calc(100% + 12px);border-color:#353535}
+
+.bw button {color:#fff;border-color:#fff;text-shadow:0 1px 1px rgba(0,0,0,0.1);
+height: 74px;
+vertical-align: middle;
+box-shadow:0 1px 3px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.1) inset
+}
+.bw button:before, .bw button:after  {border-color:#fff}
+.bw button:hover:before, .bw button:hover:after {width:calc(100% + 12px);
+  height:calc(100% + 12px);border-color:#353535;}
+.bw button:hover {color:#fff;background-color:#353535;border-color:#353535}
+.blue .panel {max-width:960px;text-align:center;position:relative;margin:auto;}
+
+
+label.tooltipped.with-gap {
+    margin-top: 10px;
+    margin-left: 21px;
+    margin-right: 50px;
+}
+
+.backdrop {
+background-color: rgba(101, 101, 101, 1);
+}
+
+.material-tooltip {font-family:ubuntu;
+font-weight:400;font-size:16px;
+border-radius: 15px;
+padding: 15px;
+box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.75);
+line-height: 120%;}
+
+</style>
 
 
 
+EOF
 
-# Import tweaks for themev
-echo '<link rel="stylesheet" type="text/css" href="theme.css">'
 
 
 echo '<div id=page2>'
 echo '<div id="middle" class="bar">'
-
-###############
-# Start Content
-
-
-# xanmodVersion="$(ls /boot/vmlinuz-*xanmod* | sed 's|.*vmlinuz-||g')"
-# debianVersion="$(ls /boot/vmlinuz-*generic* | sed 's|.*vmlinuz-||g')"
-# 
-# if [ "$(uname -r | grep xanmod)" != "" ]; then
-#     xanmodCheked=checked
-#     kernel=Xanmod
-#     versionRunning="$xanmodVersion"
-#     versionAnother="$debianVersion"
-# else
-#     debianChecked=checked
-#     versionRunning="$debianVersion"
-#     versionAnother="$xanmodVersion"
-# fi
-
-echo "<center>" $"Obrigado por escolher o BigLinux $(lsb_release -rs)." "</center>"
-echo "<br><br><li>"
-echo $"Siga os próximos passos para efetuar a instalação no seu computador."
-echo "<br><br><li>"
-echo $"Em caso de dúvidas sobre as opções abaixo, utilize a configuração padrão e prossiga com a instalação."
-echo "<br><br><li>"
-echo $"Se precisar de ajuda com a instalação ou uso do sistema utilize nosso fórum:" "<a onclick=\"_run('./forum.run')\">https://forum.biglinux.com.br</a>" '<p></font>'
-
-echo '<form action="wait.sh.htm">'
+echo '<div id="centered"><h1>'
+echo '<div id="top-text">'
 
 
+echo "<center>" $"Obrigado por escolher o BigLinux." "</center>"
+echo "<br><br>"
 
+echo $"Passe o mouse sobre as opções a seguir para mais informações sobre<br>as opções de particionamento, em caso de duvidas<br>utilize a opção recomendada." '<p></font>'
 
+echo "<br><br>"
 
-    
+echo '</div><div class="panel bw">'
+echo '<a href="wait.sh.htm?option=btrfs_disable_sync" class="css_btn_class black-text tooltipped" data-position="top" data-delay="150" data-tooltip="' $tooltip_fsync '"><button>' $"Btrfs sem fsync" '<br>' $"(Recomendado)" '</button></a>'
 
-echo '<div class="input-field col s6">'
-echo '<input name="option" type="radio" id="btrfs_disable_sync" value="btrfs_disable_sync" checked>'
-echo '<label for="btrfs_disable_sync" class="tooltipped with-gap" data-position="top" data-delay="50" data-tooltip="' "$tooltip_fsync" '">'
-echo $"Btrfs sem fsync"
-echo '</label>'
+echo '<a href="wait.sh.htm?option=btrfs_sync" class="css_btn_class black-text tooltipped" data-position="top" data-delay="150" data-tooltip="' $tooltip_btrfs '"><button>' $"Btrfs com fsync" '</button></a>'
 
-echo '<input name="option" type="radio" id="btrfs_sync" value="btrfs_sync">'
-echo '<label for="btrfs_sync" class="tooltipped with-gap" data-position="top" data-delay="50" data-tooltip="' "$tooltip_btrfs" '">'
-echo $"Btrfs"
-echo '</label>'
+echo '<a href="wait.sh.htm?option=ext4" class="css_btn_class black-text tooltipped" data-position="top" data-delay="150" data-tooltip="' $tooltip_ext4 '"><button>' $"EXT4" '</button></a>'
 
-echo '<input name="option" type="radio" id="ext4" value="ext4">'
-echo '<label for="ext4" class="tooltipped with-gap" data-position="top" data-delay="50" data-tooltip="' "$tooltip_ext4" '">'
-echo $"EXT4"
-echo '</label>'
-echo '</div>'
+echo "<br><br><br><br><br>"
 
+echo $"O sistema esta em modo"
+[ -d /sys/firmware/efi ] && echo ' UEFI' || echo ' BIOS (Legacy)'
+echo $"e com o kernel" "$(uname -r | cut -f1 -d-)"
 
-
-
-
-
-
-    
-# if [ "$(lspci | grep -i vga | grep -i nvidia)" != "" ]; then
-# 
-#     NVIDIA_VERSION="$(nvidia-detector)"
-#     XANMOD_ALERT=$" - Não recomendado com driver proprietário Nvidia"
-# 
-#     echo '<div class="input-field col s6">
-#       <input name="nvidia" type="checkbox" id="nvidia" value="y"' "checked" '/>
-#       <label for="nvidia" class="tooltipped" data-position="top" data-delay="50" data-tooltip="'" $tooltip_nvidia "'">' $"Instalar o driver proprietário: $NVIDIA_VERSION" '</label>
-#     </div>'
-# fi
-
-    
-# echo '<div class="input-field col s6">
-#       <input name="debian" type="checkbox" id="debian" value="y"' "$debianChecked" '/>
-#       <label for="debian" class="tooltipped" data-position="top" data-delay="50" data-tooltip="'" $tooltip_debian "'">' $"Kernel Generic - $debianVersion" '</label>
-#     </div>
-#     <div class="input-field col s6">
-#       <input name="xanmod" type="checkbox" id="xanmod" value="y"' "$xanmodCheked" '/>
-#       <label for="xanmod" class="tooltipped" data-position="top" data-delay="50" data-tooltip="'" $tooltop_xanmod "'">' $"Kernel Xanmod - $xanmodVersion" '<div class="xanmodAlert">' "$XANMOD_ALERT" '</div></label>
-#     </div>
-# '
-
-
-
-
-
-# 
-# echo '<div id=version><center>' $"Kernel em uso no momento: $versionRunning" '</center></div>'
-# 
-
-
-
-
-
-##############
-# Start footer
-echo "<div id=bigfooter>"
-          echo '<a href="/usr/share/bigbashview/close.sh" class="btn blue-grey darken-1"><img src=cancel.png>'$"Cancelar"'</a>'
-          echo '<button type="submit" class="btn blue-grey darken-1" name="action"><img src=ok.png>'$"Próximo"'</button>'
-echo '</form></div>'
-
-###################
-# Close content div
-echo '</div></div>'
-#########
-# The end
-echo '</body>'
+echo "</div></div>"
+echo "</div></div>"

@@ -138,7 +138,7 @@ touch /etc/calamares/biglinux
 fi
 
 cd /usr/share/bigbashview/bcc/apps/bigbashview-calamares/
-bigbashview -n $"Instalar o BigLinux" index.sh.htm
+bigbashview -n $"Instalar o BigLinux" -s 1100x550 index.sh.htm
 
 # Start calamares
 /usr/bin/calamares-manjaro
