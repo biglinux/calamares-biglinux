@@ -1,12 +1,10 @@
 #!/bin/bash
 
-#sed -i "s|GRUB_CMDLINE_LINUX_DEFAULT=\"|GRUB_CMDLINE_LINUX_DEFAULT=\"$(cat /proc/cmdline | sed 's|toram||g;s|splash||g;s|.*driver=free||;s|.*driver=nonfree||g;s|misobasedir=manjaro ||g;s|misolabel=M1804 ||g')|g" $*
+#sed -i "s|GRUB_CMDLINE_LINUX_DEFAULT=\"|GRUB_CMDLINE_LINUX_DEFAULT=\"$(cat /proc/cmdline | sed 's|.*misolabel=[[:alnum:]_-]*||g;s|bootsplash.bootfile=[[:alnum:]/_-]*||g;s|quiet systemd.show_status=1||g;s|driver=nonfree||g;s|driver=free||g;s|nouveau.modeset=0 i915.modeset=1 radeon.modeset=1||g;s|nouveau.modeset=1 i915.modeset=1 radeon.modeset=1||g')|g" $*
 
-sed -i "s|GRUB_CMDLINE_LINUX_DEFAULT=\"|GRUB_CMDLINE_LINUX_DEFAULT=\"$(cat /proc/cmdline | sed 's|.*misolabel=[[:alnum:]_-]*||g;s|bootsplash.bootfile=[[:alnum:]/_-]*||g;s|quiet systemd.show_status=1||g;s|driver=nonfree||g;s|driver=free||g;s|nouveau.modeset=0 i915.modeset=1 radeon.modeset=1||g')|g" $*
+cat /proc/cmdline | sed 's|.*misolabel=[[:alnum:]_-]*||g;s|driver=nonfree||g;s|driver=free||g'
 
-
-
-#sed -i "s|security=apparmor ||g;s|apparmor1 ||g;s|udev.log_priority=3||g;s|quiet| quiet splash |g')|g" $*
+sed 's|  *| |g' $*
 
 sed -i 's|GRUB_THEME=.*|GRUB_THEME="/boot/grub/themes/biglinux/theme.txt"|g' $*
 
