@@ -9,4 +9,8 @@
 # find $1/var -type d -exec btrfs property set {} compression zstd \;
 # find $1/tmp -type d -exec btrfs property set {} compression zstd \;
 
-find $1/usr/share/grub -type d -exec btrfs property set {} compression lzo \;
+find $1/usr/share/grub -exec btrfs property set {} compression lzo \;
+find $1/boot -exec btrfs property set {} compression lzo \;
+
+btrfs filesystem defragment -clzo -r $1/usr/share/grub
+btrfs filesystem defragment -clzo -r $1/boot

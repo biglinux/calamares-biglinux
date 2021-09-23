@@ -1,0 +1,109 @@
+#: /home/bruno/codigo-pacotes/calamares-biglinux/usr/bin/calamares-biglinux:142
+msgid "Instalar o BigLinux"
+msgstr "Instalar o BigLinux"
+
+#: /home/bruno/codigo-pacotes/calamares-biglinux/usr/share/bigbashview/bcc/apps/bigbashview-calamares/index.sh.htm:11
+msgid ""
+"A partição Btrfs trás diversas melhorias para o sistema,\n"
+"<br>\n"
+"por exemplo, compactação de dados e pontos de restauração.\n"
+"<br><br>\n"
+"Em algumas configurações de particionamento o Btrfs pode ser incompatível.\n"
+"<br><br>\n"
+"Recomendo utilizar Btrfs, mas se a instalação não funcionar<br>\n"
+"corretamente experimente instalar utilizando EXT4."
+msgstr ""
+"A partição Btrfs trás diversas melhorias para o sistema,\n"
+"<br>\n"
+"por exemplo, compactação de dados e pontos de restauração.\n"
+"<br><br>\n"
+"Em algumas configurações de particionamento o Btrfs pode ser incompatível.\n"
+"<br><br>\n"
+"Recomendo utilizar Btrfs, mas se a instalação não funcionar<br>\n"
+"corretamente experimente instalar utilizando EXT4."
+
+#: /home/bruno/codigo-pacotes/calamares-biglinux/usr/share/bigbashview/bcc/apps/bigbashview-calamares/index.sh.htm:20
+msgid ""
+"A partição Btrfs trás diversas melhorias para o sistema,\n"
+"<br>\n"
+"por exemplo, compactação de dados e pontos de restauração.\n"
+"<br><br>\n"
+"Essa opção também desativa as chamadas de fsync de todos os programas.\n"
+"<br><br>\n"
+"Isso torna o sistema mais responsivo, porém, caso falte energia,\n"
+"<br>\n"
+"pode ser que os arquivos salvos nos últimos segundos não estejam\n"
+"<br>\n"
+"realmente salvos, então, ao ligar novamente o computador as últimas\n"
+"<br>\n"
+"modificações podem ter sido revertidas.\n"
+"<br><br>\n"
+"Geralmente essa é a melhor opção para instalar o BigLinux.\n"
+msgstr ""
+"A partição Btrfs trás diversas melhorias para o sistema,\n"
+"<br>\n"
+"por exemplo, compactação de dados e pontos de restauração.\n"
+"<br><br>\n"
+"Essa opção também desativa as chamadas de fsync de todos os programas.\n"
+"<br><br>\n"
+"Isso torna o sistema mais responsivo, porém, caso falte energia,\n"
+"<br>\n"
+"pode ser que os arquivos salvos nos últimos segundos não estejam\n"
+"<br>\n"
+"realmente salvos, então, ao ligar novamente o computador as últimas\n"
+"<br>\n"
+"modificações podem ter sido revertidas.\n"
+"<br><br>\n"
+"Geralmente essa é a melhor opção para instalar o BigLinux.\n"
+
+#: /home/bruno/codigo-pacotes/calamares-biglinux/usr/share/bigbashview/bcc/apps/bigbashview-calamares/index.sh.htm:37
+msgid ""
+"Este é o tipo de particionamento mais tradicional\n"
+"<br>\n"
+"para sistemas Linux, porém, possui menos recursos\n"
+"<br>\n"
+"que o particionamento Btrfs."
+msgstr ""
+"Este é o tipo de particionamento mais tradicional\n"
+"<br>\n"
+"para sistemas Linux, porém, possui menos recursos\n"
+"<br>\n"
+"que o particionamento Btrfs."
+
+#: /home/bruno/codigo-pacotes/calamares-biglinux/usr/share/bigbashview/bcc/apps/bigbashview-calamares/index.sh.htm:213
+msgid "Obrigado por escolher o BigLinux."
+msgstr "Obrigado por escolher o BigLinux."
+
+#: /home/bruno/codigo-pacotes/calamares-biglinux/usr/share/bigbashview/bcc/apps/bigbashview-calamares/index.sh.htm:216
+msgid ""
+"Passe o mouse sobre as opções a seguir para mais informações sobre<br>as "
+"opções de particionamento, em caso de duvidas<br>utilize a opção recomendada."
+""
+msgstr ""
+"Passe o mouse sobre as opções a seguir para mais informações sobre<br>as "
+"opções de particionamento, em caso de duvidas<br>utilize a opção recomendada."
+""
+
+#: /home/bruno/codigo-pacotes/calamares-biglinux/usr/share/bigbashview/bcc/apps/bigbashview-calamares/index.sh.htm:221
+msgid "Btrfs sem fsync"
+msgstr "Btrfs sem fsync"
+
+#: /home/bruno/codigo-pacotes/calamares-biglinux/usr/share/bigbashview/bcc/apps/bigbashview-calamares/index.sh.htm:221
+msgid "(Recomendado)"
+msgstr "(Recomendado)"
+
+#: /home/bruno/codigo-pacotes/calamares-biglinux/usr/share/bigbashview/bcc/apps/bigbashview-calamares/index.sh.htm:223
+msgid "Btrfs com fsync"
+msgstr "Btrfs com fsync"
+
+#: /home/bruno/codigo-pacotes/calamares-biglinux/usr/share/bigbashview/bcc/apps/bigbashview-calamares/index.sh.htm:225
+msgid "EXT4"
+msgstr "EXT4"
+
+#: /home/bruno/codigo-pacotes/calamares-biglinux/usr/share/bigbashview/bcc/apps/bigbashview-calamares/index.sh.htm:229
+msgid "O sistema esta em modo"
+msgstr "O sistema esta em modo"
+
+#: /home/bruno/codigo-pacotes/calamares-biglinux/usr/share/bigbashview/bcc/apps/bigbashview-calamares/index.sh.htm:231
+msgid "e com o kernel"
+msgstr "e com o kernel"

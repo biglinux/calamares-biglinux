@@ -39,15 +39,6 @@ def run():
     :return:
     """
     root_mount_point = libcalamares.globalstorage.value("rootMountPoint")
-    subprocess.call(["umount", root_mount_point + '/boot/efi'])
-    subprocess.call(["btrfs", "filesystem", "defragment", "-r", root_mount_point + '/boot'])
-    subprocess.call(["mkdir", root_mount_point + '/boot2'])
-    subprocess.call(["btrfs", "property", "set", root_mount_point + '/boot2/', "compression", "lzo"])
-    subprocess.call(["cp", "-Rf", root_mount_point + '/boot/', root_mount_point + '/boot2/boot/'])
-    subprocess.call(["rm", "-Rf", root_mount_point + '/boot/'])
-    subprocess.call(["mv", root_mount_point + '/boot2/boot/', root_mount_point + '/boot/'])
-
     subprocess.call(["/usr/lib/calamares/modules/btrfs-fix/compress", root_mount_point])
-    subprocess.call(["rm", "-Rf", root_mount_point + '/boot2'])
 
     return None

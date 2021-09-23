@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# disable swap on disk
+for diskswap in $(blkid | grep 'TYPE="swap"' | grep -v zram | cut -f1 -d:)
+do
+    sudo swapoff $diskswap
+done
+
 #Translation
 LANGUAGE=$LANG:en
 export TEXTDOMAINDIR="/usr/share/locale"
@@ -79,9 +85,12 @@ setRootPassword: false
 doReusePassword: false
 availableShells: /bin/bash, /bin/zsh
 avatarFilePath:  ~/.face
-userShell:       /bin/bash' > /etc/calamares/modules/users.conf
+userShell:       /bin/bash
+passwordRequirements:
+    nonempty: true' > /etc/calamares/modules/users.conf
 
 
+sed -i 's|initialSwapChoice: none|initialSwapChoice: small|g' /etc/calamares/modules/partition.conf
 
 # General configuration
 echo '---

@@ -1,43 +1,39 @@
 #!/bin/bash
-
+ 
 #Translation
-LANGUAGE=$LANG:en
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=bigbashview-calamares
-
+ 
 # Import BigControlCenter base modules / Importa os módulos básicos do BigControlCenter
-
-
+ 
+ 
 touch /tmp/biglinux-wait-install
-
+ 
 #cp -f /calamares/desktop/modules/partition.conf /calamares/desktop/modules/partition.conf-bkp
 #cp -f /calamares/desktop/modules/packages.conf /calamares/desktop/modules/packages.conf-bkp
-
-
+ 
+ 
 OIFS=$IFS
 IFS=$'\n'
-
-
-
+ 
+ 
+ 
 if [ "$option" = "btrfs_disable_sync" ]; then
     > /tmp/use_disable_fsync
     cp -f /usr/share/bigbashview/bcc/apps/bigbashview-calamares/partition.conf /etc/calamares/modules/partition.conf
 fi
-
+ 
 if [ "$option" = "btrfs_sync" ]; then
     rm -f /tmp/use_disable_fsync
     cp -f /usr/share/bigbashview/bcc/apps/bigbashview-calamares/partition.conf /etc/calamares/modules/partition.conf
 fi
-
+ 
 if [ "$option" = "ext4" ]; then
     rm -f /tmp/use_disable_fsync
     rm -f /etc/calamares/modules/partition.conf
 fi
 
-
-
-
-
+ 
 # if [ "$xanmod" != "y" ]; then
 #     for i  in  $(dpkg-query -W --showformat='${Package}\n' | grep xanmod | grep -v xanmod-repository); do
 # 
@@ -54,13 +50,15 @@ fi
 # 
 #     done
 # fi
-
-
-
+ 
+ 
+ 
 IFS=$OIFS
-
-
+ 
+ 
 echo '
 <body onload=window.location="/usr/share/bigbashview/close.sh">
 '
-
+ 
+ 
+ 
