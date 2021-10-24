@@ -18,11 +18,15 @@ sed -i 's|GRUB_SAVEDEFAULT=true|GRUB_SAVEDEFAULT=false|g;s|quiet quiet|quiet|g' 
 
 
 #Change default desktop in sddm to use in livecd
-echo "[Last]
-Session=$(cat /tmp/big_desktop_changed)" > $(echo "$*" | sed 's|etc/default/grub|var/lib/sddm/state.conf|g')
+# echo "[Last]
+# Session=$(cat /tmp/big_desktop_changed)" > $(echo "$*" | sed 's|etc/default/grub|var/lib/sddm/state.conf|g')
 
-sed -i "s|Session=plasma.desktop|Session=$(cat /tmp/big_desktop_changed | rev | cut -f1 -d/ | rev)|g" $(echo "$*" | sed 's|etc/default/grub|etc/sddm.conf|g')
+# sed -i "s|Session=plasma.desktop|Session=$(cat /tmp/big_desktop_changed | rev | cut -f1 -d/ | rev)|g" $(echo "$*" | sed 's|etc/default/grub|etc/sddm.conf|g')
 
+
+# Save default KDE configuration
+
+cp -f "/etc/big_desktop_changed" $(echo "$*" | sed 's|etc/default/grub/etc/big_desktop_changed|g')
 
 if [ -e "/tmp/use_disable_fsync" ]; then
     echo "/usr/lib/disable-fsync.so" > $(echo "$*" | sed 's|etc/default/grub|etc/ld.so.preload|g')
