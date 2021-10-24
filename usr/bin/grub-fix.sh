@@ -26,7 +26,7 @@ sed -i 's|GRUB_SAVEDEFAULT=true|GRUB_SAVEDEFAULT=false|g;s|quiet quiet|quiet|g' 
 
 # Save default KDE configuration
 
-cp -f "/etc/big_desktop_changed" $(echo "$*" | sed 's|etc/default/grub/etc/big_desktop_changed|g')
+cp -f "/etc/big_desktop_changed" $(echo "$*" | sed 's|etc/default/grub|/etc/big_desktop_changed|g')
 
 if [ -e "/tmp/use_disable_fsync" ]; then
     echo "/usr/lib/disable-fsync.so" > $(echo "$*" | sed 's|etc/default/grub|etc/ld.so.preload|g')
