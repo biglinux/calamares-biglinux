@@ -147,6 +147,63 @@ touch /etc/calamares/biglinux
 
 fi
 
+#save EFI partitions
+rm -f /tmp/efi-partitions
+mkdir -p /boot/efi
+
+DEVICE_LIVE_BOOT_TMP="$(readlink -f "$(df -h /run/miso/bootmnt/ | awk '{ print $1 }' | grep '/dev/')" | sed 's|/dev/||'g)"
+if [ "$(echo "$DEVICE_LIVE_BOOT_TMP" | grep dm)" != "" ];
+then
+    DEVICE_LIVE_BOOT="$(ls /sys/block/${DEVICE_LIVE_BOOT_TMP}/slaves | sed 's|[0-9]||g')"
+else
+    DEVICE_LIVE_BOOT="$DEVICE_LIVE_BOOT_TMP"
+fi
+
+
+for i in $(LANG=C fdisk -l | grep -e "EFI System" -e "FAT" | cut -f1 -d" " | grep -v "$DEVICE_LIVE_BOOT")
+do
+    umount -l /boot/efi
+    mount "$i" /boot/efi
+    if [ -d /boot/efi/EFI ];
+    then
+        echo "$i" >> /tmp/efi-partitions
+    fi
+    umount -l /boot/efi
+
+done
+
+
+
+# boot EFI without partition EFI
+if [ -d /sys/firmware/efi ] && [ "$(cat /tmp/efi-partitions)" = "" ] ;
+then
+LIVEBOOT=EFI
+PARTITION=LEGACY
+zenity --question --text=$"O boot atual está utilizando o modo EFI, porém não encontrei nenhuma partição EFI neste computador, se este computador já possui outro sistema instalado e você pretende que ele permaneça instalado, provavelmente será necessário alterar a configuração na BIOS para fazer boot em modo Legacy, também chamado de modo BIOS.
+
+Deseja prosseguir com com a instalação em modo EFI?" --width=300 --height=100 --title=$"Instalar o sistema"
+    if [ "$?" = "1" ];
+    then
+        exit
+    fi
+fi
+
+
+# boot legacy and partition EFI
+if [ ! -d /sys/firmware/efi ] && [ "$(cat /tmp/efi-partitions)" != "" ] ;
+then
+LIVEBOOT=LEGACY
+PARTITION=EFI
+zenity --question --text=$"O boot atual está utilizando o modo Legacy/BIOS, porém encontrei pelo menos uma partição EFI neste computador. Para que a instalação seja bem sucedida, provavelmente será necessário alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI.
+
+Deseja prosseguir com com a instalação em modo Legacy/BIOS?" --width=300 --height=100 --title=$"Instalar o sistema"
+    if [ "$?" = "1" ];
+    then
+        exit
+    fi
+fi
+
+
 cd /usr/share/bigbashview/bcc/apps/bigbashview-calamares/
 bigbashview -n $"Instalar o BigLinux" -s 1100x550 index.sh.htm
 
