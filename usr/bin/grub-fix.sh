@@ -5,9 +5,7 @@
 
 sed -i "s|GRUB_CMDLINE_LINUX_DEFAULT=\"|GRUB_CMDLINE_LINUX_DEFAULT=\"$(sed 's|BOOT_IMAGE=/boot/vmlinuz-x86_64 ||g;s| driver=nonfree||g;s| driver=free||g' /proc/cmdline) |g" $*
 
-
-
-sed 's|  *| |g' $*
+sed -i 's|BOOT_IMAGE=/boot/vmlinuz-x86_64||g' $*
 
 sed -i 's|GRUB_THEME=.*|GRUB_THEME="/boot/grub/themes/biglinux/theme.txt"|g' $*
 
