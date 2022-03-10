@@ -131,6 +131,45 @@ Slide
             anchors.fill: parent
         
     }
+} 
+
+
+Slide 
+{
+        anchors.fill: parent
+
+        Image {
+            id: background10
+            source: "pt/10.jpg"
+            anchors.fill: parent
+        
+    }
+} 
+
+
+Slide 
+{
+        anchors.fill: parent
+
+        Image {
+            id: background11
+            source: "pt/11.jpg"
+            anchors.fill: parent
+        
+    }
+} 
+
+
+Slide 
+{
+        anchors.fill: parent
+
+        Image {
+            id: background12
+            source: "pt/12.jpg"
+            anchors.fill: parent
+        
+    }
 }   
     
 }

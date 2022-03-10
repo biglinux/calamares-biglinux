@@ -1,14 +1,14 @@
 # Maintainer: Bruno Goncalves <biglinux.com.br>
 
 pkgname=calamares-biglinux
-pkgver=1_r29_2021_10_24
+pkgver=1_r29_2022_02_10
 pkgrel=1
 arch=('any')
 license=('')
 url="https://github.com/biglinux/bigbashview"
 pkgdesc="Calamares tweaks to BigLinux, like using btrfs+zstd for default"
 
-source=('git+https://github.com/biglinux/calamares-biglinux.git')
+source=('git+https://github.com/BarnabediKartola/calamares-biglinux')
 sha256sums=('SKIP')
 makedepends=('git')
 install=${pkgname}.install
