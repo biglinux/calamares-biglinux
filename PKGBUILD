@@ -1,7 +1,7 @@
 # Maintainer: Bruno Goncalves <biglinux.com.br>
 
 pkgname=calamares-biglinux
-pkgver=1_r29_2022_02_10
+pkgver=1_r35_2022_03_10
 pkgrel=1
 arch=('any')
 license=('')

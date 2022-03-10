@@ -2,7 +2,7 @@
 componentName:           biglinux
 welcomeStyleCalamares:   true
 welcomeExpandingLogo:    true
-windowExpanding:         1024px,735px
+windowSize:         1024px,735px
 
 
 strings:
