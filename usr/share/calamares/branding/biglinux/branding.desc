@@ -2,7 +2,7 @@
 componentName:           biglinux
 welcomeStyleCalamares:   true
 welcomeExpandingLogo:    true
-windowExpanding:         normal
+windowSize:         1024px,735px
 
 
 strings:
@@ -26,6 +26,7 @@ slideshow:               "show.qml"
 slideshowAPI:            2
 
 style:
-   sidebarBackground:    "#214478"
-   sidebarText:          "#FFFFFF"
-   sidebarTextSelect:    "#0067ff"
+   sidebarBackground:    "#1e4379"
+   sidebarText:          "#ffffff"
+   sidebarTextSelect:    "#00ffff"
+   sidebarTextHighlight: "#002a44"
