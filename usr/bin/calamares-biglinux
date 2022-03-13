@@ -12,6 +12,18 @@ export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=calamares-settings-biglinux
 
 
+if [ "${LANG:0:2}" = "pt" ]
+then
+    sed 's|pt/|pt/|g' /usr/share/calamares/branding/biglinux/show.qml
+elif [ "${LANG:0:2}" = "es" ]
+then
+    sed 's|pt/|es/|g' /usr/share/calamares/branding/biglinux/show.qml
+
+else
+    sed 's|pt/|en/|g' /usr/share/calamares/branding/biglinux/show.qml
+fi
+
+
 if [ ! -f "/etc/calamares/biglinux" ]; then
 
 # Simplify welcome
@@ -205,7 +217,9 @@ fi
 
 
 cd /usr/share/bigbashview/bcc/apps/bigbashview-calamares/
-bigbashview -n $"Instalar o BigLinux" -s 1100x550 index.sh.htm
+bigbashview -n $"Instalar o BigLinux" -s 1100x650 index.sh.htm
 
 # Start calamares
-/usr/bin/calamares-manjaro
+if [ -e "/tmp/start_calamares" ]; then
+    sudo /usr/bin/calamares-manjaro --platformtheme breeze
+fi

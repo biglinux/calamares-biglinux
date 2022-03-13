@@ -16,24 +16,27 @@ touch /tmp/biglinux-wait-install
 OIFS=$IFS
 IFS=$'\n'
  
- 
- 
+rm -f /tmp/start_calamares 
+
 if [ "$option" = "btrfs_disable_sync" ]; then
     > /tmp/use_disable_fsync
     cp -f /usr/share/bigbashview/bcc/apps/bigbashview-calamares/partition.conf /etc/calamares/modules/partition.conf
+    > /tmp/start_calamares
 fi
  
 if [ "$option" = "btrfs_sync" ]; then
     rm -f /tmp/use_disable_fsync
     cp -f /usr/share/bigbashview/bcc/apps/bigbashview-calamares/partition.conf /etc/calamares/modules/partition.conf
+    > /tmp/start_calamares
 fi
  
 if [ "$option" = "ext4" ]; then
     rm -f /tmp/use_disable_fsync
     rm -f /etc/calamares/modules/partition.conf
+    > /tmp/start_calamares
 fi
 
- 
+
 # if [ "$xanmod" != "y" ]; then
 #     for i  in  $(dpkg-query -W --showformat='${Package}\n' | grep xanmod | grep -v xanmod-repository); do
 # 

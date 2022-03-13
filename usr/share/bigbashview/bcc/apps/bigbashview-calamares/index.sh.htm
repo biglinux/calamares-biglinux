@@ -8,122 +8,91 @@ LANGUAGE=$LANG:en
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=calamares-settings-biglinux
 
+
+
+DEFAULT=$"PADRÃO"
+PERFORMANCE=$"DESEMPENHO"
+COMPATIBILITY=$"COMPATIBILIDADE"
+COMPRESS=$"Compacta os dados"
+SNAPSHOT=$"Pontos de restauração"
+FSYNC=$"Adia a gravação dos dados"
+OLD_PARTITION_TABLE=$"Funciona com tabelas de particionamento antigas"
+BTRFS_WITH_FSYNC=$"BTRFS com fsync"
+BTRFS_WITHOUT_FSYNC=$"BTRFS sem fsync"
+SELECT=$"SELECIONAR"
+TITLE=$"Instalar no HD"
+
 cat << EOF
-<!DOCTYPE html>
-<html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Opção de particionamento - Calamares</title>
+  <title>$TITLE</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
-
-<div class="login">
-  <div class="wrap">
-
-<div class="user">
-  
-  
-    <div id="toggle-wrap">
-      <div id="toggle-terms">
-        <div id="cross">
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-    </div>
-    <!-- TERMS -->
-        <div class="recovery">
-          <h2>Ajuda</h2>
-          <p class="small">BigLinux - www.biglinux.com.br</p>
-          <h3>BTRFS sem fsync</h3>
-          <p></p>
-          <p>A partição BTRFS trás diversas melhorias para o sistema, por exemplo, compactação de dados e pontos de restauração.</p>
-          <p>Em algumas configurações de particionamento o BTRFS pode ser incompatível.</p>
-          <p>Recomendo utilizar BTRFS, mas se a instalação não funcionar
-            corretamente experimente instalar utilizando EXT4.</p>
-
-
-          <h3>BTRFS com fsync</h3>
-          <p></p>
-          <p>A partição BTRFS trás diversas melhorias para o sistema, por exemplo, compactação de dados e pontos de restauração.</p>
-          <p>Essa opção também desativa as chamadas de fsync de todos os programas.</p>
-          <p>Isso torna o sistema mais responsivo, porém, caso falte energia, pode ser que os arquivos salvos nos últimos segundos não estejam realmente salvos, então, ao ligar novamente o computador as últimas modificações podem ter sido revertidas.</p>
-          </p>Geralmente essa é a melhor opção para instalar o BigLinux.</p>
-
-      <h3>EXT</h3>
-      <p></p>      
-      <p>Este é o tipo de particionamento mais tradicional para sistemas Linux, porém, possui menos recursos que o particionamento BTRFS.</p>
-      <br style="clear: left;" />  
-      <p class="small">Dúvidas, sugestões e comentários acesse fórum do BigLinux</p>
-    </div>  
-  
-<div class="logo">
-  <a href="#"><img src="logo-big-trans-branco.png" alt=""></a>
-</div>
-  <!-- ACTIONS -->
-  <div class="form-wrap">
-    <div class="form-wrap tabs-content">
-      <span>
-        <h2>Obrigado por escolher o BigLinux</h2>
-        <br style="clear: left;" />
-      </span>
-
-    </div>
-
-    <!-- TABS CONTENT -->
-    <div class="tabs-content">
-      <!-- TABS CONTENT LOGIN -->
-      <div id="login-tab-content" class="active">
-        <form class="login-form">
-        <div class="icon120x120">
-			<img  class="icon120x120" src="icon-grid-big-partition.png">
-        </div>
-          
-        <h4 style="border: 1px solid #666; margin: auto; width: 70%; padding: 10px;">
-		  <label for="remember_me">Passe o mouse sobre as opções a seguir para mais informações sobre as opções de particionamento, em caso de dúvidas utilize a opção recomendada. </label>
-		</h4>
-        
-          
-        <br style="clear: left;" />
-        <ul id="menu-lista" style="vertical-align: top; vertical-align: text-top;">
-          <li style="vertical-align: top; vertical-align: text-top;"><input type="submit" class="button" value="BTRFS sem fsync" style="width: 200px; height: 50px; font-size: 21px;" onclick="window.location.href='wait.sh.htm?option=btrfs_disable_sync'"><br>(Recomendado)</li>
-          <li style="vertical-align: top; vertical-align: text-top;"><input type="submit" class="button" value="BTRFS com fsync" style="width: 200px; height: 50px; font-size: 21px;" onclick="window.location.href='wait.sh.htm?option=btrfs_sync'"></li>
-          <li style="vertical-align: top; vertical-align: text-top;"><input type="submit" class="button" value="EXT4" style="width: 100px; height: 50px; font-size: 21px;" onclick="window.location.href='wait.sh.htm?option=ext4'"></li>
-        </ul>
-
-        <br style="clear: left;" /> 
-        <div class="form-wrap tabs-content">
-          <span>
-            <h3>
+<!-- partial:index.partial.html -->
 EOF
+
+echo '
+      <div class=info>'
 echo $"O sistema esta em modo"
 [ -d /sys/firmware/efi ] && echo ' UEFI' || echo ' BIOS (Legacy)'
 echo $"e com o kernel" "$(uname -r | cut -f1 -d-)"
+echo '</div>'
+
 cat << EOF
-			</h3>
-          </span>
-        </div>
+<div class="background">
 
-        <br style="clear: left;" /> 
+  <div class="container"> 
 
-        </form>
-        
-        <div class="help-action">
-          <p><i class="fa fa-arrow-left inactive" aria-hidden="true"></i><a class="forgot" href="#">Ajuda-me</a></p>
-        </div>        
+    <div class="panel calamares-big-table"> 
+      <div class="calamares-big-plan">
+        <img src="icon-big-enterprise-plain.png" alt="" class="calamares-big-img" style="width: 100px;">
+        <h3 class="calamares-big-header">$DEFAULT</h3>
+        <ul class="calamares-big-features">
+          <li class="calamares-big-features-item li-check">$COMPRESS</li>
+          <li class="calamares-big-features-item li-check">$SNAPSHOT</li>
+          <li class="calamares-big-features-item li-checknone">$FSYNC</li>
+          <li class="calamares-big-features-item li-checknone">$OLD_PARTITION_TABLE</li>          
+          
+        </ul>
+        <span class="calamares-big-leg">$BTRFS_WITH_FSYNC</span>
+        <a href="wait.sh.htm?option=btrfs_disable_sync" class="calamares-big-button">$SELECT</a>
       </div>
 
+      <div class="calamares-big-plan">
+        <img src="icon-big-plain.png" alt="" class="calamares-big-img" style="width: 100px;">
+        <h3 class="calamares-big-header">$PERFORMANCE</h3>
+        <ul class="calamares-big-features">
+          <li class="calamares-big-features-item li-check">$COMPRESS</li>
+          <li class="calamares-big-features-item li-check">$SNAPSHOT</li>
+          <li class="calamares-big-features-item li-check">$FSYNC</li>
+          <li class="calamares-big-features-item li-checknone">$OLD_PARTITION_TABLE</li>       
+        </ul>
+        <span class="calamares-big-leg">$BTRFS_WITHOUT_FSYNC</span>
+        <a href="wait.sh.htm?option=btrfs_sync" class="calamares-big-button is-featured">$SELECT</a>
+      </div>
+      
+      <div class="calamares-big-plan">
+        <img src="icon-big-paper-plain.png" alt="" class="calamares-big-img" style="width: 100px;">
+        <h3 class="calamares-big-header">$COMPATIBILITY</h3>
+        <ul class="calamares-big-features">
+          <li class="calamares-big-features-item li-checknone">$COMPRESS</li>
+          <li class="calamares-big-features-item li-checknone">$SNAPSHOT</li>
+          <li class="calamares-big-features-item li-checknone">$FSYNC</li>
+          <li class="calamares-big-features-item li-check">$OLD_PARTITION_TABLE</li>
+        </ul>
+        <span class="calamares-big-leg">EXT4</span>
+        <a href="wait.sh.htm?option=ext4" class="calamares-big-button">$SELECT</a>
+      </div>
     </div>
-  </div>
 </div>
 
-</div>
-</div>
-<!-- partial -->
-  <script src='/usr/share/bigbashview/bcc/materialize/js/jquery.js'></script><script  src="./script.js"></script>
 
+
+        </div>
+      </div>
 </body>
 </html>
+
 EOF
