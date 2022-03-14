@@ -35,7 +35,7 @@ EOF
 
 echo '
       <div class=info>'
-echo $"O sistema esta em modo"
+echo $"O sistema está em modo"
 [ -d /sys/firmware/efi ] && echo ' UEFI' || echo ' BIOS (Legacy)'
 echo $"e com o kernel" "$(uname -r | cut -f1 -d-)"
 echo '</div>'
@@ -74,7 +74,7 @@ cat << EOF
       </div>
       
       <div class="calamares-big-plan">
-        <img src="icon-big-paper-plain.png" alt="" class="calamares-big-img" style="width: 100px;">
+        <img src="icon-big-antonov-plain.png" alt="" class="calamares-big-img" style="width: 100px;">
         <h3 class="calamares-big-header">$COMPATIBILITY</h3>
         <ul class="calamares-big-features">
           <li class="calamares-big-features-item li-checknone">$COMPRESS</li>
