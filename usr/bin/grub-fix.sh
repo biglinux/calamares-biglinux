@@ -27,7 +27,7 @@ sed -i "s|Session=plasma.desktop|Session=plasma-biglinux-x11.desktop|g" $(echo "
 cp -f "/etc/big_desktop_changed" $(echo "$*" | sed 's|etc/default/grub|/etc/big_desktop_changed|g')
 
 if [ -e "/tmp/use_disable_fsync" ]; then
-    echo "/usr/lib/disable-fsync.so" > $(echo "$*" | sed 's|etc/default/grub|etc/ld.so.conf.d/disable-fsync.conf|g')
+    echo "/usr/lib/disable-fsync.so" > $(echo "$*" | sed 's|etc/default/grub|etc/ld.so.preload|g')
 fi
 
 
