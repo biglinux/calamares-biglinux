@@ -217,7 +217,7 @@ fi
 
 
 cd /usr/share/bigbashview/bcc/apps/bigbashview-calamares/
-bigbashview -n $"Instalar o BigLinux" -s 1100x650 index.sh.htm
+QT_QUICK_BACKEND=software QMLSCENE_DEVICE=softwarecontext QTWEBENGINE_CHROMIUM_FLAGS="--disable-logging --disable-gpu --no-sandbox --single-process --disable-gpu-compositing" bigbashview -n $"Instalar o BigLinux" -s 1100x650 index.sh.htm
 
 # Start calamares
 if [ -e "/tmp/start_calamares" ]; then
