@@ -14,13 +14,13 @@ export TEXTDOMAIN=calamares-biglinux
 
 if [ "${LANG:0:2}" = "pt" ]
 then
-    sed 's|pt/|pt/|g' /usr/share/calamares/branding/biglinux/show.qml
+    sed -i 's|pt/|pt/|g' /usr/share/calamares/branding/biglinux/show.qml
 elif [ "${LANG:0:2}" = "es" ]
 then
-    sed 's|pt/|es/|g' /usr/share/calamares/branding/biglinux/show.qml
+    sed -i 's|pt/|es/|g' /usr/share/calamares/branding/biglinux/show.qml
 
 else
-    sed 's|pt/|en/|g' /usr/share/calamares/branding/biglinux/show.qml
+    sed -i 's|pt/|en/|g' /usr/share/calamares/branding/biglinux/show.qml
 fi
 
 
@@ -46,11 +46,7 @@ requirements:
     required:
       - storage
       - ram
-      - root
-geoip:
-    style:  "json"
-    url:    "https://ipapi.co/json"
-    selector: "country"' > /etc/calamares/modules/welcome.conf
+      - root' > /etc/calamares/modules/welcome.conf
 
 # Force btrfs compression using zstd
 
