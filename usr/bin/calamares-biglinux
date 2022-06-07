@@ -9,7 +9,7 @@ done
 #Translation
 LANGUAGE=$LANG:en
 export TEXTDOMAINDIR="/usr/share/locale"
-export TEXTDOMAIN=calamares-settings-biglinux
+export TEXTDOMAIN=calamares-biglinux
 
 
 if [ "${LANG:0:2}" = "pt" ]
