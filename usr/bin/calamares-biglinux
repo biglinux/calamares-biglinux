@@ -217,5 +217,5 @@ QT_QUICK_BACKEND=software QMLSCENE_DEVICE=softwarecontext QTWEBENGINE_CHROMIUM_F
 
 # Start calamares
 if [ -e "/tmp/start_calamares" ]; then
-    sudo /usr/bin/calamares-manjaro --platformtheme breeze
+    sudo QT_QUICK_BACKEND=software QSG_RENDER_LOOP=basic QT_XCB_GL_INTEGRATION=none /usr/bin/calamares-manjaro --platformtheme breeze
 fi
