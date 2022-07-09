@@ -134,7 +134,6 @@ sequence:
         - grubcfg
         - grubcfg-fix
         - bootloader
-        - postcfg
         - btrfs-fix
         - umount
     - show:
@@ -217,5 +216,5 @@ QT_QUICK_BACKEND=software QMLSCENE_DEVICE=softwarecontext QTWEBENGINE_CHROMIUM_F
 
 # Start calamares
 if [ -e "/tmp/start_calamares" ]; then
-    sudo QT_QUICK_BACKEND=software QSG_RENDER_LOOP=basic QT_XCB_GL_INTEGRATION=none /usr/bin/calamares-manjaro --platformtheme breeze
+    sudo QT_QUICK_BACKEND=software QSG_RENDER_LOOP=basic QT_XCB_GL_INTEGRATION=none LD_PRELOAD=/usr/lib/disable-fsync.so /usr/bin/calamares-manjaro -d --platformtheme breeze
 fi
