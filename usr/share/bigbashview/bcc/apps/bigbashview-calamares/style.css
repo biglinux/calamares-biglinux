@@ -10,6 +10,7 @@ body {
   margin:0;
   padding: 0;
   height:100%;
+  background: #bec5cd;
 }
 
 *, *:before, *:after {
@@ -41,10 +42,10 @@ body {
 }
 
 .container {
-  margin: 0 auto;
-  padding: 50px 0 50px;
-  max-width: 960px;
-  width: 100%;
+    margin: 0 auto;
+    padding: 50px 5px 55px 5px;
+    max-width: 960px;
+    width: 100%;
 }
 
 .panel {
@@ -62,7 +63,7 @@ body {
   flex-direction: column;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 790px) {
   .calamares-big-table {
     flex-direction: row;
   }
@@ -75,13 +76,16 @@ body {
 .calamares-big-plan {
   border-bottom: 1px solid #3c3a3a;
   padding: 25px;
+  
+  
+  
 }
 
 .calamares-big-plan:last-child {
   border-bottom: none;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 790px) {
   .calamares-big-plan {
     border-bottom: none;
     border-right: 1px solid #c5cad3;
@@ -168,12 +172,13 @@ body {
 }
 
 .info {
-    position: absolute !important;
+    position: fixed;
     bottom: 0px;
     padding: 15px;
     z-index: 20;
     width: 100%;
     text-align: center;
     background-color: white;
-
+    display: block;
+    border-top: 1px solid #c5cad3;
 }

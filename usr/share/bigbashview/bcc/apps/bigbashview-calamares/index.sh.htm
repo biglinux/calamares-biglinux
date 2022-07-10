@@ -1,4 +1,14 @@
 #!/bin/bash
+##################################
+#  Author1: Bruno Goncalves (www.biglinux.com.br) 
+#  Author2: Rafael Ruscher (rruscher@gmail.com)  
+#  Date:    2022/02/28 
+#  Modified:2022/07/10 
+#  
+#  Description: Calamares modified usage of BigLinux 
+#  
+# Licensed by GPL V2 or greater
+##################################
 
 export LANGUAGE=$(cat /tmp/big_language)
 export LANG=$(cat /tmp/big_language)
@@ -47,7 +57,7 @@ cat << EOF
 
     <div class="panel calamares-big-table"> 
       <div class="calamares-big-plan">
-        <img src="icon-big-plain.png" alt="" class="calamares-big-img" style="width: 100px;">
+        <img src="icon-big-plain.png" alt="Boeing 747" class="calamares-big-img" style="width: 100px;">
         <h3 class="calamares-big-header">$DEFAULT</h3>
         <ul class="calamares-big-features">
           <li class="calamares-big-features-item li-check">$COMPRESS</li>
@@ -61,7 +71,7 @@ cat << EOF
       </div>
 
       <div class="calamares-big-plan">
-        <img src="icon-big-enterprise-plain.png" alt="" class="calamares-big-img" style="width: 100px;">
+        <img src="icon-big-enterprise-plain.png" alt="Enterprise" class="calamares-big-img" style="width: 100px;">
         <h3 class="calamares-big-header">$PERFORMANCE</h3>
         <ul class="calamares-big-features">
           <li class="calamares-big-features-item li-check">$COMPRESS</li>
@@ -74,7 +84,7 @@ cat << EOF
       </div>
       
       <div class="calamares-big-plan">
-        <img src="icon-big-antonov-plain.png" alt="" class="calamares-big-img" style="width: 100px;">
+        <img src="icon-big-antonov-plain.png" alt="Antonov-225 Mriya" class="calamares-big-img" style="width: 100px;">
         <h3 class="calamares-big-header">$COMPATIBILITY</h3>
         <ul class="calamares-big-features">
           <li class="calamares-big-features-item li-checknone">$COMPRESS</li>
