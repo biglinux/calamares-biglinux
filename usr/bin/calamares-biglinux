@@ -134,6 +134,7 @@ sequence:
         - grubcfg
         - grubcfg-fix
         - bootloader
+        - postcfg
         - btrfs-fix
         - umount
     - show:
