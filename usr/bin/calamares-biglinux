@@ -213,9 +213,9 @@ fi
 
 
 cd /usr/share/bigbashview/bcc/apps/bigbashview-calamares/
-QT_QUICK_BACKEND=software QMLSCENE_DEVICE=softwarecontext QTWEBENGINE_CHROMIUM_FLAGS="--disable-logging --disable-gpu --no-sandbox --single-process --disable-gpu-compositing" bigbashview -n $"Instalar o BigLinux" -s 1100x650 index.sh.htm
+QT_QUICK_BACKEND=software QMLSCENE_DEVICE=softwarecontext QTWEBENGINE_CHROMIUM_FLAGS="--disable-logging --disable-gpu --no-sandbox --single-process --disable-gpu-compositing" bigbashview -n $"Instalar o BigLinux" -s 1100x650 index.sh.htm -i /usr/share/icons/hicolor/scalable/apps/icon-big-hd-install.svg
 
 # Start calamares
 if [ -e "/tmp/start_calamares" ]; then
-    sudo QT_QUICK_BACKEND=software QSG_RENDER_LOOP=basic QT_XCB_GL_INTEGRATION=none /usr/bin/calamares-manjaro -d --platformtheme breeze -i /usr/share/icons/hicolor/scalable/apps/icon-big-hd-install.svg
+    sudo QT_QUICK_BACKEND=software QSG_RENDER_LOOP=basic QT_XCB_GL_INTEGRATION=none /usr/bin/calamares-manjaro -d --platformtheme breeze
 fi
