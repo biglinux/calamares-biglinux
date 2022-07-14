@@ -19,7 +19,7 @@ strings:
 
 images:
     productLogo:         "logo.png"
-    productIcon:         "big-logo.png"
+    productIcon:         "/usr/share/icons/hicolor/scalable/apps/icon-big-hd-install.svg"
     productWelcome:      "big-welcome.png"
 
 slideshow:               "show.qml"
