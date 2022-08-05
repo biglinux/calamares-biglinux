@@ -1,3 +1,33 @@
+function closeMessage(el) {
+  el.addClass('is-hidden');
+}
+
+$('.js-messageClose').on('click', function(e) {
+  closeMessage($(this).closest('.Message'));
+});
+
+$('#js-helpMe').on('click', function(e) {
+  alert('Help you we will, young padawan');
+  closeMessage($(this).closest('.Message'));
+});
+
+$('#js-authMe').on('click', function(e) {
+  alert('Okelidokeli, requesting data transfer.');
+  closeMessage($(this).closest('.Message'));
+});
+
+$('#js-showMe').on('click', function(e) {
+  alert("You're off to our help section. See you later!");
+  closeMessage($(this).closest('.Message'));
+});
+
+$(document).ready(function() {
+  setTimeout(function() {
+    closeMessage($('#js-timer'));
+  }, 9000);
+});
+
+
 /* LOGIN - MAIN.JS - dp 2017 */
 // LOGIN TABS
 $(function () {
@@ -106,3 +136,15 @@ $(function () {
     return false;
   });
 });
+
+// LIGHT OR DARK MODE
+const toggleButton = document.querySelector(".dark-light");
+
+toggleButton.addEventListener("click", () => {
+  document.body.classList.toggle("light-mode");
+  _run('/usr/share/bigbashview/bcc/shell/setbgcolor.sh "' + document.body.classList.contains('light-mode') + '"');
+});
+
+
+
+
