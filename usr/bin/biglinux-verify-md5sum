@@ -1,0 +1,58 @@
+#!/bin/sh
+
+#Translation
+LANGUAGE=$LANG:en
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=calamares-biglinux
+
+cd /run/miso/bootmnt/manjaro/x86_64/
+#cd /home/biglinux/x86_64/
+
+rm -f  /tmp/md5sum_big_fail
+
+Message=$"Verificando o arquivo:"
+Message2=$"Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+
+(
+echo "10"
+echo "# $Message2 \n\n $Message desktopfs.sfs"
+md5sum --status -c desktopfs.md5
+if [ "$?" != "0" ] ; then
+    echo 1 > /tmp/md5sum_big_fail
+fi
+echo "50"
+echo "# $Message2 \n\n $Message livefs.sfs"
+md5sum --status -c livefs.md5
+if [ "$?" != "0" ] ; then
+    echo 1 > /tmp/md5sum_big_fail
+fi
+echo "60"
+echo "# $Message2 \n\n $Message mhwdfs.sfs"
+md5sum --status -c mhwdfs.md5
+if [ "$?" != "0" ] ; then
+    echo 1 > /tmp/md5sum_big_fail
+fi
+echo "80"
+echo "# $Message2 \n\n $Message rootfs.sfs"
+md5sum --status -c rootfs.md5
+if [ "$?" != "0" ] ; then
+    echo 1 > /tmp/md5sum_big_fail
+fi
+) |
+zenity --auto-close --progress \
+  --title=$"Verificando integridade do sistema" \
+  --text="$Message2" \
+  --percentage=0
+
+verify=$?
+
+if [ "$verify" = -1 ] || [ "$(cat /tmp/md5sum_big_fail 2>/dev/null)" = "1" ] ; then
+        zenity --error \
+          --text=$"Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+elif [ "$verify" = 0 ] ; then
+        zenity --info \
+          --text=$"Os arquivos estão integros."
+else
+        zenity --info \
+          --text=$"Verificação cancelada."
+fi
