@@ -199,8 +199,8 @@ que ele permaneça instalado, provavelmente será necessário alterar a
 configuração na BIOS para fazer boot em modo Legacy, também 
 chamado de modo BIOS.
 " \
---button=$" Continue"!gtk-apply:0 \
 --button=$" Fechar"!gtk-cancel:1 \
+--button=$" Continue"!gtk-apply:0 \
 --center --on-top --borders=20 --title=$"Instalar o sistema" \
 --window-icon="/usr/share/icons/hicolor/scalable/apps/icon-big-hd-install.svg"
 
@@ -226,8 +226,8 @@ menos uma partição EFI neste computador.
 Para que a instalação seja bem sucedida, provavelmente será necessário 
 alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI.
 " \
---button=$" Continue"!gtk-apply:0 \
 --button=$" Fechar"!gtk-cancel:1 \
+--button=$" Continue"!gtk-apply:0 \
 --center --on-top --borders=20 --title=$"Instalar o sistema" \
 --window-icon="/usr/share/icons/hicolor/scalable/apps/icon-big-hd-install.svg"
 
