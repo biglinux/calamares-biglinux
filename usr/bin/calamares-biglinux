@@ -187,9 +187,23 @@ if [ -d /sys/firmware/efi ] && [ "$(cat /tmp/efi-partitions)" = "" ] ;
 then
 LIVEBOOT=EFI
 PARTITION=LEGACY
-zenity --question --text=$"O boot atual está utilizando o modo EFI, porém não encontrei nenhuma partição EFI neste computador, se este computador já possui outro sistema instalado e você pretende que ele permaneça instalado, provavelmente será necessário alterar a configuração na BIOS para fazer boot em modo Legacy, também chamado de modo BIOS.
+yad --image=drive-harddisk --image-on-top --form --width=500 --height=100 --fixed \
+--align=center \
+--field="<b>Deseja prosseguir com com a instalação em modo EFI?</b>
+:LBL" \
+--text "O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma 
+partição EFI neste computador.
 
-Deseja prosseguir com com a instalação em modo EFI?" --width=300 --height=100 --title=$"Instalar o sistema"
+Se este computador já possui outro sistema instalado e você pretende 
+que ele permaneça instalado, provavelmente será necessário alterar a 
+configuração na BIOS para fazer boot em modo Legacy, também 
+chamado de modo BIOS.
+" \
+--button=$" Continue"!gtk-apply:0 \
+--button=$" Fechar"!gtk-cancel:1 \
+--center --on-top --borders=20 --title=$"Instalar o sistema" \
+--window-icon="/usr/share/icons/hicolor/scalable/apps/icon-big-hd-install.svg"
+
     if [ "$?" = "1" ];
     then
         exit
@@ -202,9 +216,21 @@ if [ ! -d /sys/firmware/efi ] && [ "$(cat /tmp/efi-partitions)" != "" ] ;
 then
 LIVEBOOT=LEGACY
 PARTITION=EFI
-zenity --question --text=$"O boot atual está utilizando o modo Legacy/BIOS, porém encontrei pelo menos uma partição EFI neste computador. Para que a instalação seja bem sucedida, provavelmente será necessário alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI.
+yad --image=drive-harddisk --image-on-top --form --width=500 --height=100 --fixed \
+--align=center \
+--field="<b>Deseja prosseguir com com a instalação em modo Legacy/BIOS?</b>
+:LBL" \
+--text "O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo 
+menos uma partição EFI neste computador. 
 
-Deseja prosseguir com com a instalação em modo Legacy/BIOS?" --width=300 --height=100 --title=$"Instalar o sistema"
+Para que a instalação seja bem sucedida, provavelmente será necessário 
+alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI.
+" \
+--button=$" Continue"!gtk-apply:0 \
+--button=$" Fechar"!gtk-cancel:1 \
+--center --on-top --borders=20 --title=$"Instalar o sistema" \
+--window-icon="/usr/share/icons/hicolor/scalable/apps/icon-big-hd-install.svg"
+
     if [ "$?" = "1" ];
     then
         exit
