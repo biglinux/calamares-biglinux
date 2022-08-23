@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Kontrol af filen:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Kontrol af fejl i download eller USB-stick, det kan tage et par minutter..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Kontrolsystemets tilstand"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Fejl fundet, download systemet igen eller brug en anden USB-stick."
+
+msgid "Os arquivos estão integros."
+msgstr "Filerne er integreret."
+
+msgid "Verificação cancelada."
+msgstr "Check annulleret."
+
+msgid " Continue"
+msgstr " Fortsæt"
+
+msgid " Fechar"
+msgstr " Lukke"
+
+msgid "Instalar o sistema"
+msgstr "Installer systemet"
+
+msgid "Instalar o BigLinux"
+msgstr "Installer BigLinux"
+
+msgid "PADRÃO"
+msgstr "MØNSTER"
+
+msgid "DESEMPENHO"
+msgstr "PRÆSTATION"
+
+msgid "COMPATIBILIDADE"
+msgstr "KOMPATIBILITET"
+
+msgid "Compacta os dados"
+msgstr "Komprimerer dataene"
+
+msgid "Pontos de restauração"
+msgstr "Gendannelsespunkter"
+
+msgid "Adia a gravação dos dados"
+msgstr "Afstå fra registrering af data"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Fungerer med gamle partitioneringstabeller"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS med fsync"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS uden fsync"
+
+msgid "SELECIONAR"
+msgstr "MARKERE"
+
+msgid "Instalar no HD"
+msgstr "Installer på HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Brug ikke /boot separat"
+
+msgid "O sistema está em modo"
+msgstr "Systemet er i"
+
+msgid "e com o kernel"
+msgstr "og med kernen"

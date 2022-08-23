@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Sprawdzanie pliku:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Sprawdzanie błędów w pobieraniu lub pamięci USB może potrwać kilka minut..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Sprawdzanie kondycji systemu"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Znaleziono błąd, ponownie pobierz system lub użyj innej pamięci USB."
+
+msgid "Os arquivos estão integros."
+msgstr "Pliki są zintegrowane."
+
+msgid "Verificação cancelada."
+msgstr "Sprawdź anulowane."
+
+msgid " Continue"
+msgstr " Kontynuuj"
+
+msgid " Fechar"
+msgstr " Zamykać"
+
+msgid "Instalar o sistema"
+msgstr "Zainstaluj system"
+
+msgid "Instalar o BigLinux"
+msgstr "Zainstaluj BigLinux"
+
+msgid "PADRÃO"
+msgstr "DESEŃ"
+
+msgid "DESEMPENHO"
+msgstr "WYDAJNOŚĆ"
+
+msgid "COMPATIBILIDADE"
+msgstr "ZGODNOŚĆ"
+
+msgid "Compacta os dados"
+msgstr "Kompaktowanie danych"
+
+msgid "Pontos de restauração"
+msgstr "Punkty przywracania"
+
+msgid "Adia a gravação dos dados"
+msgstr "Rejestrowanie danych o zaprzestaniu"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Współpracuje ze starymi tablicami partycjonowania"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS z fsync"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS bez fsync"
+
+msgid "SELECIONAR"
+msgstr "WYBRAĆ"
+
+msgid "Instalar no HD"
+msgstr "Zainstaluj na HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Nie używaj /boot oddzielnie"
+
+msgid "O sistema está em modo"
+msgstr "System jest w"
+
+msgid "e com o kernel"
+msgstr "i z jądrem"

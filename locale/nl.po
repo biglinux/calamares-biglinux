@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Het bestand controleren:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Controleren op fouten in de download of USB-stick, het kan enkele minuten duren..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Systeemstatus controleren"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Fout gevonden, download het systeem opnieuw of gebruik een andere USB-stick."
+
+msgid "Os arquivos estão integros."
+msgstr "De bestanden zijn geïntegreerd."
+
+msgid "Verificação cancelada."
+msgstr "Vink geannuleerd aan."
+
+msgid " Continue"
+msgstr " Ga door"
+
+msgid " Fechar"
+msgstr " Sluiten"
+
+msgid "Instalar o sistema"
+msgstr "Installeer het systeem"
+
+msgid "Instalar o BigLinux"
+msgstr "Installeer BigLinux"
+
+msgid "PADRÃO"
+msgstr "PATROON"
+
+msgid "DESEMPENHO"
+msgstr "VOORSTELLING"
+
+msgid "COMPATIBILIDADE"
+msgstr "COMPATIBILITEIT"
+
+msgid "Compacta os dados"
+msgstr "Comprimeert de gegevens"
+
+msgid "Pontos de restauração"
+msgstr "Herstelpunten"
+
+msgid "Adia a gravação dos dados"
+msgstr "Desist dataregistratie"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Werkt met oude partitioneringstabellen"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS met fsync"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS zonder fsync"
+
+msgid "SELECIONAR"
+msgstr "SELECTEREN"
+
+msgid "Instalar no HD"
+msgstr "Installeren op HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Gebruik /boot niet apart"
+
+msgid "O sistema está em modo"
+msgstr "Het systeem is in"
+
+msgid "e com o kernel"
+msgstr "en met de kernel"

@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "ファイルのチェック:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "ダウンロードまたはUSBスティックのエラーを確認すると、数分かかることがあります..."
+
+msgid "Verificando integridade do sistema"
+msgstr "システム正常性の検査"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "エラーが見つかりました。システムを再ダウンロードするか、別のUSBスティックを使用します。"
+
+msgid "Os arquivos estão integros."
+msgstr "ファイルが統合されます。"
+
+msgid "Verificação cancelada."
+msgstr "チェックが取り消されました。"
+
+msgid " Continue"
+msgstr " 続けます"
+
+msgid " Fechar"
+msgstr " 閉める"
+
+msgid "Instalar o sistema"
+msgstr "システムのインストール"
+
+msgid "Instalar o BigLinux"
+msgstr "BigLinux のインストール"
+
+msgid "PADRÃO"
+msgstr "パターン"
+
+msgid "DESEMPENHO"
+msgstr "パフォーマンス"
+
+msgid "COMPATIBILIDADE"
+msgstr "互換性"
+
+msgid "Compacta os dados"
+msgstr "データを圧縮"
+
+msgid "Pontos de restauração"
+msgstr "復元ポイント"
+
+msgid "Adia a gravação dos dados"
+msgstr "データ記録の中止"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "古いパーティションテーブルで動作します"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS と fsync"
+
+msgid "BTRFS sem fsync"
+msgstr "同期なしの BTRFS"
+
+msgid "SELECIONAR"
+msgstr "選ぶ"
+
+msgid "Instalar no HD"
+msgstr "HDにインストール"
+
+msgid "* Não utilize /boot separado"
+msgstr "* /boot を別々に使用しないでください"
+
+msgid "O sistema está em modo"
+msgstr "システムは"
+
+msgid "e com o kernel"
+msgstr "カーネルで"

@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Controllo del file:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr ""
+"Verificando la presenza di errori nel download o nella chiavetta USB, potrebbero essere necessari "
+"alcuni minuti ..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Verifica dell'integrità del sistema"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Errore trovato, scaricare nuovamente il sistema o utilizzare un'altra chiavetta USB."
+
+msgid "Os arquivos estão integros."
+msgstr "I file sono integrati."
+
+msgid "Verificação cancelada."
+msgstr "Assegno annullato."
+
+msgid " Continue"
+msgstr " Continua"
+
+msgid " Fechar"
+msgstr " Chiudere"
+
+msgid "Instalar o sistema"
+msgstr "Installare il sistema"
+
+msgid "Instalar o BigLinux"
+msgstr "Installare BigLinux"
+
+msgid "PADRÃO"
+msgstr "MODELLO"
+
+msgid "DESEMPENHO"
+msgstr "PRESTAZIONE"
+
+msgid "COMPATIBILIDADE"
+msgstr "COMPATIBILITÀ"
+
+msgid "Compacta os dados"
+msgstr "Compatta i dati"
+
+msgid "Pontos de restauração"
+msgstr "Punti di ripristino"
+
+msgid "Adia a gravação dos dados"
+msgstr "Desistere dalla registrazione dei dati"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Funziona con vecchie tabelle di partizionamento"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS con fsync"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS senza fsync"
+
+msgid "SELECIONAR"
+msgstr "SELEZIONARE"
+
+msgid "Instalar no HD"
+msgstr "Installazione su HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Non utilizzare /boot separatamente"
+
+msgid "O sistema está em modo"
+msgstr "Il sistema è in"
+
+msgid "e com o kernel"
+msgstr "e con il kernel"

@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Перевірка файлу:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Перевірка на помилки в завантаженні або USB-накопичувачі може зайняти кілька хвилин..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Перевірка справності системи"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Знайдена помилка, заново скачайте систему або скористайтеся іншим USB-накопичувачем."
+
+msgid "Os arquivos estão integros."
+msgstr "Файли інтегровані."
+
+msgid "Verificação cancelada."
+msgstr "Перевірка скасована."
+
+msgid " Continue"
+msgstr " Продовжуй"
+
+msgid " Fechar"
+msgstr " Закрити"
+
+msgid "Instalar o sistema"
+msgstr "Встановлюємо систему"
+
+msgid "Instalar o BigLinux"
+msgstr "Встановіть BigLinux"
+
+msgid "PADRÃO"
+msgstr "ВІЗЕРУНОК"
+
+msgid "DESEMPENHO"
+msgstr "ПРОДУКТИВНІСТЬ"
+
+msgid "COMPATIBILIDADE"
+msgstr "СУМІСНОСТІ"
+
+msgid "Compacta os dados"
+msgstr "Стискає дані"
+
+msgid "Pontos de restauração"
+msgstr "Відновлення контрольних точок"
+
+msgid "Adia a gravação dos dados"
+msgstr "Запис даних desist"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Робота зі старими таблицями розбиття на розділи"
+
+msgid "BTRFS com fsync"
+msgstr "БТРФС з фсинхроном"
+
+msgid "BTRFS sem fsync"
+msgstr "БТРФС без fsync"
+
+msgid "SELECIONAR"
+msgstr "ВИБЕРІТЬ"
+
+msgid "Instalar no HD"
+msgstr "Установка на HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Не використовуйте /boot окремо"
+
+msgid "O sistema está em modo"
+msgstr "Система знаходиться в"
+
+msgid "e com o kernel"
+msgstr "і з ядром"
