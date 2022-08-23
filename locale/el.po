@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Έλεγχος του αρχείου:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Ελέγχοντας για σφάλματα στο κατέβασμα ή στο USB stick, μπορεί να χρειαστούν μερικά λεπτά..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Έλεγχος της εύρυθμης λειτουργίας του συστήματος"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Παρουσιάστηκε σφάλμα, κατεβάστε ξανά το σύστημα ή χρησιμοποιήστε άλλο USB stick."
+
+msgid "Os arquivos estão integros."
+msgstr "Τα αρχεία είναι ενσωματωμένα."
+
+msgid "Verificação cancelada."
+msgstr "Ο έλεγχος ακυρώθηκε."
+
+msgid " Continue"
+msgstr " Συνέχισε"
+
+msgid " Fechar"
+msgstr " Κλείνω"
+
+msgid "Instalar o sistema"
+msgstr "Εγκαταστήστε το σύστημα"
+
+msgid "Instalar o BigLinux"
+msgstr "Εγκαταστήστε το Μεγάλο Λινού"
+
+msgid "PADRÃO"
+msgstr "ΠΡΌΤΥΠΟ"
+
+msgid "DESEMPENHO"
+msgstr "ΕΚΤΈΛΕΣΗ"
+
+msgid "COMPATIBILIDADE"
+msgstr "ΣΥΜΒΑΤΌΤΗΤΑ"
+
+msgid "Compacta os dados"
+msgstr "Συμπυκνώνει τα δεδομένα"
+
+msgid "Pontos de restauração"
+msgstr "Σημεία επαναφοράς"
+
+msgid "Adia a gravação dos dados"
+msgstr "Παράλειψη καταγραφής δεδομένων"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Λειτουργεί με παλιούς πίνακες διαμέρισης"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS με fsync"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS χωρίς fsync"
+
+msgid "SELECIONAR"
+msgstr "ΔΙΑΛΈΓΩ"
+
+msgid "Instalar no HD"
+msgstr "Εγκατάσταση σε HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Μην χρησιμοποιείτε το /boot ξεχωριστά"
+
+msgid "O sistema está em modo"
+msgstr "Το σύστημα είναι σε"
+
+msgid "e com o kernel"
+msgstr "και με τον πυρήνα"

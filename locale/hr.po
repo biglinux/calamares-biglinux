@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Provjera datoteke:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Provjera pogrešaka u preuzimanju ili USB sticku može potrajati nekoliko minuta ..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Provjera stanja sustava"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Pronađena je pogreška, ponovno preuzmite sustav ili upotrijebite drugi USB stick."
+
+msgid "Os arquivos estão integros."
+msgstr "Datoteke su integrirane."
+
+msgid "Verificação cancelada."
+msgstr "Provjera je otkazana."
+
+msgid " Continue"
+msgstr " Nastavi"
+
+msgid " Fechar"
+msgstr " Blizak"
+
+msgid "Instalar o sistema"
+msgstr "Instaliranje sustava"
+
+msgid "Instalar o BigLinux"
+msgstr "Instaliraj BigLinux"
+
+msgid "PADRÃO"
+msgstr "UZORAK"
+
+msgid "DESEMPENHO"
+msgstr "IZVEDBA"
+
+msgid "COMPATIBILIDADE"
+msgstr "KOMPATIBILNOST"
+
+msgid "Compacta os dados"
+msgstr "Sažima podatke"
+
+msgid "Pontos de restauração"
+msgstr "Vrati točke"
+
+msgid "Adia a gravação dos dados"
+msgstr "Odustajanje od snimanja podataka"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Radi sa starim stolovima za particioniranje"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS s fsync-om"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS bez fsynca"
+
+msgid "SELECIONAR"
+msgstr "ODABIRATI"
+
+msgid "Instalar no HD"
+msgstr "Instaliraj na HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Ne koristite /boot zasebno"
+
+msgid "O sistema está em modo"
+msgstr "Sustav je u programu"
+
+msgid "e com o kernel"
+msgstr "i s jezgrom"

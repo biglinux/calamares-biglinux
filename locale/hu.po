@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "A fájl ellenőrzése:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "A letöltési vagy USB-meghajtó hibáinak ellenőrzése eltarthat néhány percig..."
+
+msgid "Verificando integridade do sistema"
+msgstr "A rendszer állapotának ellenőrzése"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Hiba történt, töltse le újra a rendszert, vagy használjon másik USB-meghajtót."
+
+msgid "Os arquivos estão integros."
+msgstr "A fájlok integrálva vannak."
+
+msgid "Verificação cancelada."
+msgstr "Ellenőrzés törölve."
+
+msgid " Continue"
+msgstr " Folytasd"
+
+msgid " Fechar"
+msgstr " Bezár"
+
+msgid "Instalar o sistema"
+msgstr "Telepítse a rendszert"
+
+msgid "Instalar o BigLinux"
+msgstr "Telepítse a BigLinux-ot"
+
+msgid "PADRÃO"
+msgstr "MINTA"
+
+msgid "DESEMPENHO"
+msgstr "TELJESÍTMÉNY"
+
+msgid "COMPATIBILIDADE"
+msgstr "KOMPATIBILITÁS"
+
+msgid "Compacta os dados"
+msgstr "Tömöríti az adatokat"
+
+msgid "Pontos de restauração"
+msgstr "Pontok visszaállítása"
+
+msgid "Adia a gravação dos dados"
+msgstr "Az adatok rögzítésének megszüntetése"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Régi particionálási táblázatokkal működik"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS fsync-kel"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS fsync nélkül"
+
+msgid "SELECIONAR"
+msgstr "KIVÁLASZT"
+
+msgid "Instalar no HD"
+msgstr "Telepítés HD-re"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Ne használja külön a /boot parancsot"
+
+msgid "O sistema está em modo"
+msgstr "A rendszer a"
+
+msgid "e com o kernel"
+msgstr "és a kernellel"

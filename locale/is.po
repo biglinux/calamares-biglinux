@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Athugun á skránni:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Að leita að villum í niðurhali eða USB-staf, það getur tekið nokkrar mínútur ..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Athugun á heilsu kerfisins"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Villa fannst, halaðu niður kerfinu aftur eða notaðu annan USB-staf."
+
+msgid "Os arquivos estão integros."
+msgstr "Skrárnar eru samþættar."
+
+msgid "Verificação cancelada."
+msgstr "Ávísun hætt við."
+
+msgid " Continue"
+msgstr " Haltu áfram"
+
+msgid " Fechar"
+msgstr " Loka"
+
+msgid "Instalar o sistema"
+msgstr "Setja upp kerfið"
+
+msgid "Instalar o BigLinux"
+msgstr "Settu upp BigLinux"
+
+msgid "PADRÃO"
+msgstr "MYNSTUR"
+
+msgid "DESEMPENHO"
+msgstr "FRAMKVÆMD"
+
+msgid "COMPATIBILIDADE"
+msgstr "SAMHÆFI"
+
+msgid "Compacta os dados"
+msgstr "Þéttir gögnin"
+
+msgid "Pontos de restauração"
+msgstr "Endurheimta stig"
+
+msgid "Adia a gravação dos dados"
+msgstr "Desist gagnaskráning"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Vinnur með gömul skiptingarborð"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS með fsync"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS án fsync"
+
+msgid "SELECIONAR"
+msgstr "VELJA"
+
+msgid "Instalar no HD"
+msgstr "Setja upp HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Ekki nota / ræsa sérstaklega"
+
+msgid "O sistema está em modo"
+msgstr "Kerfið er í"
+
+msgid "e com o kernel"
+msgstr "og með kjarnanum"

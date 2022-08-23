@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Tiedoston tarkistaminen:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Latauksen tai USB-tikun virheiden tarkistaminen, se voi kestää muutaman minuutin..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Järjestelmän kunnon tarkistaminen"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Virhe löytyi, lataa järjestelmä uudelleen tai käytä toista USB-tikkua."
+
+msgid "Os arquivos estão integros."
+msgstr "Tiedostot on integroitu."
+
+msgid "Verificação cancelada."
+msgstr "Tarkistus peruutettu."
+
+msgid " Continue"
+msgstr " Jatka"
+
+msgid " Fechar"
+msgstr " Sulkea"
+
+msgid "Instalar o sistema"
+msgstr "Asenna järjestelmä"
+
+msgid "Instalar o BigLinux"
+msgstr "Asenna BigLinux"
+
+msgid "PADRÃO"
+msgstr "KUVIO"
+
+msgid "DESEMPENHO"
+msgstr "SUORITUSKYKY"
+
+msgid "COMPATIBILIDADE"
+msgstr "YHTEENSOPIVUUS"
+
+msgid "Compacta os dados"
+msgstr "Tiivistää tiedot"
+
+msgid "Pontos de restauração"
+msgstr "Palautuspisteet"
+
+msgid "Adia a gravação dos dados"
+msgstr "Tietojen tallennuksen lopettaminen"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Toimii vanhojen osiointitaulukoiden kanssa"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS ja fsync"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS ilman fsynciä"
+
+msgid "SELECIONAR"
+msgstr "VALIKOIDA"
+
+msgid "Instalar no HD"
+msgstr "Asenna HD-levylle"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Älä käytä /boot-toimintoa erikseen"
+
+msgid "O sistema está em modo"
+msgstr "Järjestelmä on käytössä"
+
+msgid "e com o kernel"
+msgstr "ja ytimen kanssa"

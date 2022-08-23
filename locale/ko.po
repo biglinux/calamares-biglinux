@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "파일 검사:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "다운로드 또는 USB 스틱의 오류를 확인하면 몇 분 정도 걸릴 수 있습니다 ..."
+
+msgid "Verificando integridade do sistema"
+msgstr "시스템 상태 확인"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "오류가 발견되었거나 시스템을 다시 다운로드하거나 다른 USB 스틱을 사용하십시오."
+
+msgid "Os arquivos estão integros."
+msgstr "파일이 통합됩니다."
+
+msgid "Verificação cancelada."
+msgstr "확인이 취소되었습니다."
+
+msgid " Continue"
+msgstr " 계속  해"
+
+msgid " Fechar"
+msgstr " 닫다"
+
+msgid "Instalar o sistema"
+msgstr "시스템 설치"
+
+msgid "Instalar o BigLinux"
+msgstr "빅리눅스 설치"
+
+msgid "PADRÃO"
+msgstr "무늬"
+
+msgid "DESEMPENHO"
+msgstr "공연"
+
+msgid "COMPATIBILIDADE"
+msgstr "호환성"
+
+msgid "Compacta os dados"
+msgstr "데이터 압축"
+
+msgid "Pontos de restauração"
+msgstr "복원 지점"
+
+msgid "Adia a gravação dos dados"
+msgstr "데시스트 데이터 기록"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "이전 파티션 테이블에서 작동합니다."
+
+msgid "BTRFS com fsync"
+msgstr "fsync가있는 BTRFS"
+
+msgid "BTRFS sem fsync"
+msgstr "fsync가없는 BTRFS"
+
+msgid "SELECIONAR"
+msgstr "고르다"
+
+msgid "Instalar no HD"
+msgstr "HD에 설치"
+
+msgid "* Não utilize /boot separado"
+msgstr "* /boot를 별도로 사용하지 마십시오."
+
+msgid "O sistema está em modo"
+msgstr "시스템이 시작 중입니다."
+
+msgid "e com o kernel"
+msgstr "그리고 커널과 함께"

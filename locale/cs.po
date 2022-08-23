@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Kontrola souboru:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Kontrola chyb ve stahování nebo USB flash disku může trvat několik minut ..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Kontrola stavu systému"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Chyba nalezena, znovu stáhněte systém nebo použijte jiný USB flash disk."
+
+msgid "Os arquivos estão integros."
+msgstr "Soubory jsou integrovány."
+
+msgid "Verificação cancelada."
+msgstr "Kontrola byla zrušena."
+
+msgid " Continue"
+msgstr " Tak do toho"
+
+msgid " Fechar"
+msgstr " Zavřít"
+
+msgid "Instalar o sistema"
+msgstr "Instalace systému"
+
+msgid "Instalar o BigLinux"
+msgstr "Instalace BigLinuxu"
+
+msgid "PADRÃO"
+msgstr "VZOR"
+
+msgid "DESEMPENHO"
+msgstr "PŘEDSTAVENÍ"
+
+msgid "COMPATIBILIDADE"
+msgstr "KOMPATIBILITA"
+
+msgid "Compacta os dados"
+msgstr "Komprimuje data"
+
+msgid "Pontos de restauração"
+msgstr "Body obnovení"
+
+msgid "Adia a gravação dos dados"
+msgstr "Upuštění od zaznamenávání dat"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Pracuje se starými dělícími tabulkami"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS s fsync"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS bez fsync"
+
+msgid "SELECIONAR"
+msgstr "VYBRAT"
+
+msgid "Instalar no HD"
+msgstr "Instalace na HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Nepoužívejte /boot samostatně"
+
+msgid "O sistema está em modo"
+msgstr "Systém je v"
+
+msgid "e com o kernel"
+msgstr "a s jádrem"

@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Faili kontrollimine:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Allalaadimise või USB-pulga vigade kontrollimine võib võtta paar minutit ..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Süsteemi seisundi kontrollimine"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Viga leiti, laadige süsteem uuesti alla või kasutage mõnda muud USB-mälupulka."
+
+msgid "Os arquivos estão integros."
+msgstr "Failid on integreeritud."
+
+msgid "Verificação cancelada."
+msgstr "Tšekk tühistatud."
+
+msgid " Continue"
+msgstr " Jätka"
+
+msgid " Fechar"
+msgstr " Sulgema"
+
+msgid "Instalar o sistema"
+msgstr "Paigaldage süsteem"
+
+msgid "Instalar o BigLinux"
+msgstr "Installige BigLinux"
+
+msgid "PADRÃO"
+msgstr "MUSTER"
+
+msgid "DESEMPENHO"
+msgstr "JÕUDLUST"
+
+msgid "COMPATIBILIDADE"
+msgstr "ÜHILDUVUSE"
+
+msgid "Compacta os dados"
+msgstr "Tihendab andmeid"
+
+msgid "Pontos de restauração"
+msgstr "Punktide taastamine"
+
+msgid "Adia a gravação dos dados"
+msgstr "Andmete salvestamise lõpetamine"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Töötab vanade partitsioonitabelitega"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS koos fsynciga"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS ilma fsyncita"
+
+msgid "SELECIONAR"
+msgstr "VALIMA"
+
+msgid "Instalar no HD"
+msgstr "Installige HD-le"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Ära kasuta /boot eraldi"
+
+msgid "O sistema está em modo"
+msgstr "Süsteem on sees"
+
+msgid "e com o kernel"
+msgstr "ja tuumaga"
