@@ -99,6 +99,13 @@ userShell:       /bin/bash
 passwordRequirements:
     nonempty: true' > /etc/calamares/modules/users.conf
 
+    
+echo '---
+keyrings:
+    - archlinux
+    - manjaro
+    - biglinux' > /etc/calamares/modules/postcfg.conf
+    
 
 sed -i 's|initialSwapChoice: none|initialSwapChoice: small|g' /etc/calamares/modules/partition.conf
 
