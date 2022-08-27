@@ -64,7 +64,7 @@ sed -i 's|btrfs: defaults|btrfs: defaults,noatime,usebackuproot,space_cache=v2,d
 sed -i 's|defaultFileSystemType.*"ext4"|defaultFileSystemType:  "btrfs"|g' /usr/share/calamares/modules/partition.conf
 
 # not disable pacman-init
-sed -i '/^disable:/,$d' /usr/share/calamares/modules/services.conf
+# sed -i '/^disable:/,$d' /usr/share/calamares/modules/services.conf
 
 echo '
 ---
