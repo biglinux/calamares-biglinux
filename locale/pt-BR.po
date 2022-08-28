@@ -15,9 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#
 msgid "Verificando o arquivo:"
 msgstr "Verificando o arquivo:"
 
+#
 msgid ""
 "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns "
 "minutos..."
@@ -25,68 +27,90 @@ msgstr ""
 "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns "
 "minutos..."
 
+#
 msgid "Verificando integridade do sistema"
 msgstr "Verificando integridade do sistema"
 
+#
 msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
 msgstr "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
 
+#
 msgid "Os arquivos estão integros."
 msgstr "Os arquivos estão integros."
 
+#
 msgid "Verificação cancelada."
 msgstr "Verificação cancelada."
 
+#
 msgid " Continue"
 msgstr " Continue"
 
+#
 msgid " Fechar"
 msgstr " Fechar"
 
+#
 msgid "Instalar o sistema"
 msgstr "Instalar o sistema"
 
+#
 msgid "Instalar o BigLinux"
 msgstr "Instalar o BigLinux"
 
+#
 msgid "PADRÃO"
 msgstr "PADRÃO"
 
+#
 msgid "DESEMPENHO"
 msgstr "DESEMPENHO"
 
+#
 msgid "COMPATIBILIDADE"
 msgstr "COMPATIBILIDADE"
 
+#
 msgid "Compacta os dados"
 msgstr "Compacta os dados"
 
+#
 msgid "Pontos de restauração"
 msgstr "Pontos de restauração"
 
+#
 msgid "Adia a gravação dos dados"
 msgstr "Adia a gravação dos dados"
 
+#
 msgid "Funciona com tabelas de particionamento antigas"
 msgstr "Funciona com tabelas de particionamento antigas"
 
+#
 msgid "BTRFS com fsync"
 msgstr "BTRFS com fsync"
 
+#
 msgid "BTRFS sem fsync"
 msgstr "BTRFS sem fsync"
 
+#
 msgid "SELECIONAR"
 msgstr "SELECIONAR"
 
+#
 msgid "Instalar no HD"
 msgstr "Instalar no HD"
 
+#
 msgid "* Não utilize /boot separado"
 msgstr "* Não utilize /boot separado"
 
+#
 msgid "O sistema está em modo"
 msgstr "O sistema está em modo"
 
+#
 msgid "e com o kernel"
 msgstr "e com o kernel"
