@@ -1,5 +1,20 @@
 #!/bin/bash
 
+
+while [  "$(ps -e | grep biglinux-verify)" != "" ]; do
+    sleep 1
+done
+
+# md5sum
+if [ ! -f "/tmp/checksum_biglinux_ok.html" ]; then
+
+    /usr/bin/biglinux-verify-md5sum
+
+    if [ -f "/tmp/md5sum_big_fail" ]; then
+        exit 1
+    fi
+fi
+
 # disable swap on disk
 for diskswap in $(blkid | grep 'TYPE="swap"' | grep -v zram | cut -f1 -d:)
 do
@@ -187,6 +202,12 @@ do
     fi
     umount -l /boot/efi
 
+done
+
+# Umount partitions
+for i in $(blkid | grep -v 'TYPE="swap"'| grep -v 'TYPE="squashfs"' | grep -v '^/dev/sr0' | cut -f1 -d":")
+do
+    umount "$i"
 done
 
 

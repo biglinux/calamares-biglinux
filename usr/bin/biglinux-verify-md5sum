@@ -55,4 +55,5 @@ elif [ "$verify" = 0 ] ; then
 else
         zenity --info \
           --text=$"Verificação cancelada."
+        echo 1 > /tmp/md5sum_big_fail
 fi
