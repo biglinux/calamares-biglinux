@@ -192,7 +192,7 @@ else
 fi
 
 
-for i in $(LANG=C fdisk -l | grep -e "EFI System" -e "FAT" | cut -f1 -d" " | grep -v "$DEVICE_LIVE_BOOT")
+for i in $(LANGUAGE=C fdisk -l | grep -e "EFI System" -e "FAT" | cut -f1 -d" " | grep -v "$DEVICE_LIVE_BOOT")
 do
     umount -l /boot/efi
     mount "$i" /boot/efi
