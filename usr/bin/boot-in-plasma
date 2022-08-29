@@ -9,6 +9,9 @@ echo "startkde-biglinux classic" > /tmp/biglightdm
 echo "startkde-biglinux classic" > /tmp/big_desktop_changed-calamares
 echo "startkde-biglinux classic" > /tmp/big_desktop_changed
 
+biglinux-themes.sh --apply breeze
+change-plasma-theme --apply classic quiet
+
 #Fix to use in calamares
 #sudo cp -f /tmp/big_desktop_changed-calamares /var/lib/sddm/state.conf
 sudo cp -f /tmp/big_desktop_theme /etc/default-theme-biglinux
