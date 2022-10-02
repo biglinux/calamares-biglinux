@@ -85,6 +85,10 @@ sed -i 's|defaultFileSystemType.*"ext4"|defaultFileSystemType:  "btrfs"|g' /usr/
 # not disable pacman-init
 # sed -i '/^disable:/,$d' /usr/share/calamares/modules/services.conf
 
+#disable pacman-key populate
+sed -i '/init_keyring/s/^/#/' /usr/lib/calamares/modules/postcfg/main.py
+sed -i '/self.populate_keyring/s/^/#/' /usr/lib/calamares/modules/postcfg/main.py
+
 echo '
 ---
 defaultGroups:
