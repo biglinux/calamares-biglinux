@@ -32,7 +32,9 @@ fi
  
 if [ "$option" = "ext4" ]; then
     rm -f /tmp/use_disable_fsync
-    rm -f /etc/calamares/modules/partition.conf
+    #rm -f /etc/calamares/modules/partition.conf
+    cp -f /usr/share/bigbashview/bcc/apps/bigbashview-calamares/partition.conf /etc/calamares/modules/partition.conf
+    sed -i 's/defaultFileSystemType.*/defaultFileSystemType: "ext4"/' /etc/calamares/modules/partition.conf
     > /tmp/start_calamares
 fi
 
