@@ -77,7 +77,9 @@ sed -i 's|mount_option,|mount_option, "compress-force=zstd,space_cache=v2",|g' /
 # btrfs: defaults,noatime,autodefrag,compress=zstd
 
 
-sed -i 's|btrfs: defaults|btrfs: defaults,noatime,rescue=all,space_cache=v2,discard=async,autodefrag,compress-force=zstd:2,commit=10|g' /usr/share/calamares/modules/fstab.conf
+sed -i 's|btrfs: defaults|btrfs: defaults,noatime,space_cache=v2,discard=async,autodefrag,compress-force=zstd:2,commit=10|g' /usr/share/calamares/modules/fstab.conf
+
+#,rescue=all
 
 # Use btrfs for default
 sed -i 's|defaultFileSystemType.*"ext4"|defaultFileSystemType:  "btrfs"|g' /usr/share/calamares/modules/partition.conf
