@@ -1,0 +1,123 @@
+f#!/bin/bash
+##################################
+#  Author1: Bruno Goncalves (www.biglinux.com.br) 
+#  Author2: Rafael Ruscher (rruscher@gmail.com)  
+#  Date:    2022/02/28 
+#  Modified:2022/08/05 
+#  
+#  Description: Calamares modified usage of BigLinux 
+#  
+# Licensed by GPL V2 or greater
+##################################
+
+#Translation
+LANGUAGE=$LANG:en
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=calamares-biglinux
+
+DEFAULT=$"PADRÃO"
+CUSTOM=$"PERSONALIZADA"
+DEFAULT_OR_CUSTOM_TITLE=$"INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+CUSTOM_OR_MINIMAL=$"INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+CUSTOM_OR_MINIMAL_DESC=$"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de instalação vai depender da velocidade da internet."
+SECOND_CONFIRM_CUSTOM=$"REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+SECOND_CONFIRM_CUSTOM_DESC=$"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente prosseguir?"
+LESS_PKGS=$"MENOS PROGRAMAS"
+OTHER_DESKTOP=$"OUTROS DESKTOPS"
+OTHER_DESKTOP_CONFIRM=$"UTILIZAR REALMENTE OUTRO DESKTOP"
+BACK_DEFAULT=$"VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+DEFAULT_OR_CUSTOM_TITLE_DESC=$"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por usuários experientes."
+SELECT=$"SELECIONAR"
+
+cat << EOF
+<head>
+  <meta charset="UTF-8">
+  <title>$TITLE</title>
+  <script src="/usr/share/bigbashview/bcc/materialize/js/jquery.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+EOF
+
+# Get body tag with color light or not
+/usr/share/bigbashview/bcc/shell/getbgcolor.sh
+
+cat <<EOF
+<div class="dark-light">
+    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+    </svg>
+</div>
+EOF
+
+echo '<div class=info>'
+echo $"O sistema está em modo"
+echo '<strong>'
+[ -d /sys/firmware/efi ] && echo ' UEFI' || echo ' BIOS (Legacy)'
+echo '</strong>'
+echo $"e com o kernel" 
+echo '<strong>'
+echo "$(uname -r | cut -f1 -d-)" 
+echo '</strong>'
+echo '</div>'
+
+cat << EOF
+
+  <div class="container"> 
+    <div class="panel calamares-big-table"> 
+      <div class="calamares-big-plan" id=customSystem>
+        <img src="icon-big-hd-install.svg" alt="Install" class="calamares-big-img" style="width: 100px;">
+        <h3 class="calamares-big-header">$DEFAULT_OR_CUSTOM_TITLE</h3>
+        <div class="p">
+        <br>$DEFAULT_OR_CUSTOM_TITLE_DESC<br><br>
+        </div>
+        <div class="p"> </div>
+        <a href="#" onclick="customInstall()" class="calamares-big-button">$CUSTOM</a>
+        <a href="wait.sh.htm?option=$option" class="calamares-big-button is-featured">$DEFAULT</a>
+      </div>
+
+
+      
+      <div class="calamares-big-plan" id=confirm hidden>
+        <img src="icon-big-hd-install.svg" alt="Install" class="calamares-big-img" style="width: 100px;">
+        <h3 class="calamares-big-header">$CUSTOM_OR_MINIMAL</h3>
+        <div class="p">
+        <br>$CUSTOM_OR_MINIMAL_DESC<br><br>
+        </div>
+        <div class="p"> </div>
+        <a href="#" onclick="customInstallConfirm()" class="calamares-big-button">$OTHER_DESKTOP</a>
+        <a href="less_pkgs.sh.htm?option=$option" class="calamares-big-button is-featured">$LESS_PKGS</a>
+      </div>
+      
+      
+      <div class="calamares-big-plan" id=installConfirm hidden>
+        <img src="icon-big-hd-install.svg" alt="Install" class="calamares-big-img" style="width: 100px;">
+        <h3 class="calamares-big-header"><font color=red>$SECOND_CONFIRM_CUSTOM</font></h3>
+        <div class="p">
+        <br>$SECOND_CONFIRM_CUSTOM_DESC<br><br>
+        </div>
+        <div class="p"> </div>
+        <a href="other_desktop.sh.htm?option=$option" class="calamares-big-button">$OTHER_DESKTOP_CONFIRM</a>
+        <a href="#" onclick="confirmNo()" class="calamares-big-button is-featured">$BACK_DEFAULT</a>
+      </div>
+      
+    <div class="calamares-big-plan" id="confirm" hidden>
+    <button class="warning" onclick="confirmYes()">Yes</button>
+    <button onclick="confirmNo()">No</button>  
+  </div>
+      
+    </div>
+  </div>
+
+  
+  
+  <div class="logo">
+      <img id="btn-big" src="logo.svg" class="logo-biglinux">
+  </div>
+<script  src="./script.js"></script>
+
+
+
+
+</body>
+</html>
+EOF
