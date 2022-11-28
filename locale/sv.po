@@ -125,3 +125,89 @@ msgstr ""
 "\n"
 "För att installationen ska lyckas måste du förmodligen \n"
 "ändra inställningen i BIOS för att starta i EFI- eller UEFI-läge."
+
+msgid "PERSONALIZADA"
+msgstr "SED"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "BEKRÄFTA OCH FORTSÄTT MED INSTALLATIONEN"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "VÄLJ SKRIVBORD"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "INSTALLERA MED FÄRRE PROGRAM ELLER ANVÄNDA ETT ANNAT SKRIVBORD?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"För att installera ett annat skrivbord måste du ladda ner under installationen, installationstiden "
+"beror på internetets hastighet."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "VILL DU VERKLIGEN INSTALLERA ETT ANNAT SKRIVBORD?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux har designats och testats på sin standardinstallation, andra stationära datorer underhålls "
+"av användare av BigLinux-communityn och har färre anpassningar och tester, vill du verkligen "
+"fortsätta?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "FÄRRE PROGRAM"
+
+msgid "OUTROS DESKTOPS"
+msgstr "ANDRA STATIONÄRA DATORER"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "ANVÄND FAKTISKT ETT ANNAT SKRIVBORD"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Om du är osäker på standardinstallationen bör anpassade alternativ endast användas av erfarna "
+"användare."
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "TILLBAKA OCH ANVÄND STANDARDINSTALLATIONEN"
+
+msgid "Personalizar a instalação:"
+msgstr "Anpassa installationen:"
+
+msgid "INSTALAR"
+msgstr "INSTALLERA"
+
+msgid "DESKTOP"
+msgstr "SKRIVBORD"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "VILKA PAKET VILL DU INTE HA I SYSTEMET?"
+
+msgid "Selecionar todos"
+msgstr "Markera alla"
+
+msgid "Desmarcar todos"
+msgstr "Avmarkera alla"
+
+msgid "Deepin"
+msgstr "Deepin"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "Betraktas som en av de vackraste skrivborden som finns."
+
+msgid "Ukui"
+msgstr "Ukui"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr "Desktop skapat för den kinesiska allmänheten, men som blir populärt i andra länder."
+
+msgid "Gnome"
+msgstr "Gnom"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "En av de mest använda stationära datorerna i Linux-världen."

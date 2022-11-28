@@ -125,3 +125,89 @@ msgstr ""
 "\n"
 "Щоб установка пройшла успішно, ймовірно, вам потрібно буде \n"
 "змінити настройку в BIOS для завантаження в режим EFI або UEFI."
+
+msgid "PERSONALIZADA"
+msgstr "НЕСТАНДАРТНИЙ"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "ПІДТВЕРДЬТЕ ТА ПРОДОВЖУЙТЕ ІНСТАЛЯЦІЮ"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "ВИБЕРІТЬ РОБОЧИЙ СТІЛ"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "ІНСТАЛЮВАТИ З МЕНШОЮ КІЛЬКІСТЮ ПРОГРАМ АБО ВИКОРИСТОВУВАТИ ІНШИЙ РОБОЧИЙ СТІЛ?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Для установки іншого робочого столу потрібно буде завантажити при установці, час установки буде "
+"залежати від швидкості інтернету."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "ДІЙСНО ХОЧЕТЕ ВСТАНОВИТИ ІНШИЙ РОБОЧИЙ СТІЛ?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux був розроблений і протестований на його стандартній установці, інші настільні комп'ютери "
+"підтримуються користувачами спільноти BigLinux і мають менше налаштувань і тестів, дійсно хочете "
+"продовжити?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "МЕНШЕ ПРОГРАМ"
+
+msgid "OUTROS DESKTOPS"
+msgstr "ІНШІ НАСТІЛЬНІ КОМП'ЮТЕРИ"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "ФАКТИЧНО ВИКОРИСТОВУЙТЕ ІНШИЙ РОБОЧИЙ СТІЛ"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Якщо сумніваєтеся зробити стандартну установку, призначені для користувача опції повинні "
+"використовуватися тільки досвідченими користувачами."
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "ПОВЕРНІТЬСЯ НАЗАД І СКОРИСТАЙТЕСЯ СТАНДАРТНОЮ УСТАНОВКОЮ"
+
+msgid "Personalizar a instalação:"
+msgstr "Налаштуйте установку:"
+
+msgid "INSTALAR"
+msgstr "ІНСТАЛЮВАТИ"
+
+msgid "DESKTOP"
+msgstr "НАСТІЛЬНИЙ"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "ЯКІ ПАКЕТИ ВИ НЕ ХОЧЕТЕ В СИСТЕМІ?"
+
+msgid "Selecionar todos"
+msgstr "Виділити всі"
+
+msgid "Desmarcar todos"
+msgstr "Зняти прапорець для всіх"
+
+msgid "Deepin"
+msgstr "Діпін"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "Вважаються одними з найкрасивіших настільних комп'ютерів, що є."
+
+msgid "Ukui"
+msgstr "Укуй"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr "Робочий стіл створений для китайської публіки, але який стає популярним і в інших країнах."
+
+msgid "Gnome"
+msgstr "Гном"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "Один з найбільш широко використовуваних настільних комп'ютерів у світі Linux."

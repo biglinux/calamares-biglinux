@@ -123,3 +123,89 @@ msgstr ""
 "\n"
 "Ahhoz, hogy a telepítés sikeres legyen, valószínűleg \n"
 "módosítsa a BIOS beállítását az EFI vagy UEFI módba való indításhoz."
+
+msgid "PERSONALIZADA"
+msgstr "SZOKÁS"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "ERŐSÍTSE MEG ÉS FOLYTASSA A TELEPÍTÉST"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "VÁLASSZA AZ ASZTALT"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "KEVESEBB PROGRAMMAL TELEPÍT, VAGY MÁSIK ASZTALT HASZNÁL?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Egy másik asztal telepítéséhez a telepítés során le kell tölteni, a telepítési idő az internet "
+"sebességétől függ."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "TÉNYLEG SZERETNE EGY MÁSIK ASZTALT TELEPÍTENI?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"A BigLinuxot a szokásos telepítésén tervezték és tesztelték, más asztali számítógépeket a BigLinux "
+"közösség felhasználói tartanak karban, és kevesebb testreszabással és teszttel rendelkeznek, "
+"valóban folytatni akarják?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "KEVESEBB PROGRAM"
+
+msgid "OUTROS DESKTOPS"
+msgstr "EGYÉB ASZTALI SZÁMÍTÓGÉPEK"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "VALÓJÁBAN HASZNÁLJON MÁSIK ASZTALT"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Ha kétségei vannak a szabványos telepítéssel, az egyéni beállításokat csak tapasztalt felhasználók "
+"használhatják."
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "VISSZA ÉS HASZNÁLJA A SZABVÁNYOS TELEPÍTÉST"
+
+msgid "Personalizar a instalação:"
+msgstr "A telepítés testreszabása:"
+
+msgid "INSTALAR"
+msgstr "FELSZEREL"
+
+msgid "DESKTOP"
+msgstr "ASZTAL"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "MILYEN CSOMAGOKAT NEM SZERETNE A RENDSZERBEN?"
+
+msgid "Selecionar todos"
+msgstr "Az összes kijelölése"
+
+msgid "Desmarcar todos"
+msgstr "Törölje az összes jelölését"
+
+msgid "Deepin"
+msgstr "Mélyben"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "Az egyik legszebb asztali számítógépnek tekintik."
+
+msgid "Ukui"
+msgstr "Ukui"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr "A kínai közönség számára létrehozott asztali számítógép, amely más országokban is népszerűvé válik."
+
+msgid "Gnome"
+msgstr "Manó"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "Az egyik legszélesebb körben használt asztali számítógép a Linux világában."

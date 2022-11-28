@@ -125,3 +125,91 @@ msgstr ""
 "\n"
 "Damit die Installation erfolgreich ist, müssen Sie wahrscheinlich \n"
 "Ändern Sie die Einstellung im BIOS, um im EFI- oder UEFI-Modus zu starten."
+
+msgid "PERSONALIZADA"
+msgstr "GEWOHNHEIT"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "BESTÄTIGEN SIE DIE INSTALLATION UND FAHREN SIE FORT"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "DESKTOP AUSWÄHLEN"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "MIT WENIGER PROGRAMMEN INSTALLIEREN ODER EINEN ANDEREN DESKTOP VERWENDEN?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Um einen anderen Desktop zu installieren, muss er während der Installation heruntergeladen werden, "
+"die Installationszeit hängt von der Geschwindigkeit des Internets ab."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "MÖCHTEN SIE WIRKLICH EINEN ANDEREN DESKTOP INSTALLIEREN?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux wurde auf seiner Standardinstallation entworfen und getestet, andere Desktops werden von "
+"Benutzern der BigLinux-Community gepflegt und haben weniger Anpassungen und Tests, wollen Sie "
+"wirklich fortfahren?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "WENIGER PROGRAMME"
+
+msgid "OUTROS DESKTOPS"
+msgstr "ANDERE DESKTOPS"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "TATSÄCHLICH EINEN ANDEREN DESKTOP VERWENDEN"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Im Zweifelsfall führen Sie die Standardinstallation durch, benutzerdefinierte Optionen sollten nur "
+"von erfahrenen Benutzern verwendet werden."
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "ZURÜCK UND VERWENDEN SIE DIE STANDARDINSTALLATION"
+
+msgid "Personalizar a instalação:"
+msgstr "Installation anpassen:"
+
+msgid "INSTALAR"
+msgstr "INSTALLIEREN"
+
+msgid "DESKTOP"
+msgstr "DESKTOP"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "WELCHE PAKETE MÖCHTEN SIE NICHT IM SYSTEM HABEN?"
+
+msgid "Selecionar todos"
+msgstr "Alle auswählen"
+
+msgid "Desmarcar todos"
+msgstr "Deaktivieren Sie alle"
+
+msgid "Deepin"
+msgstr "Deepin"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "Gilt als einer der schönsten Desktops, die es gibt."
+
+msgid "Ukui"
+msgstr "Ukui"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr ""
+"Desktop, der für die chinesische Öffentlichkeit entwickelt wurde, aber in anderen Ländern immer "
+"beliebter wird."
+
+msgid "Gnome"
+msgstr "Gnom"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "Einer der am weitesten verbreiteten Desktops in der Linux-Welt."

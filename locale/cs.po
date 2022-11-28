@@ -123,3 +123,88 @@ msgstr ""
 "\n"
 "Aby byla instalace úspěšná, budete pravděpodobně muset \n"
 "změňte nastavení v systému BIOS tak, aby se spustilo do režimu EFI nebo UEFI."
+
+msgid "PERSONALIZADA"
+msgstr "ZVYK"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "POTVRĎTE A POKRAČUJTE V INSTALACI"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "ZVOLTE STOLNÍ POČÍTAČ"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "INSTALOVAT S MENŠÍM POČTEM PROGRAMŮ NEBO POUŽÍVAT JINOU PLOCHU?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Chcete-li nainstalovat další pracovní plochu bude muset stáhnout během instalace, doba instalace "
+"bude záviset na rychlosti internetu."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "OPRAVDU CHCETE NAINSTALOVAT DALŠÍ PRACOVNÍ PLOCHU?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux byl navržen a testován na své standardní instalaci, ostatní desktopy jsou udržovány "
+"uživateli komunity BigLinux a mají méně úprav a testů, opravdu chcete pokračovat?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "MÉNĚ PROGRAMŮ"
+
+msgid "OUTROS DESKTOPS"
+msgstr "OSTATNÍ STOLNÍ POČÍTAČE"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "VE SKUTEČNOSTI POUŽIJTE JINOU PRACOVNÍ PLOCHU"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"V případě pochybností proveďte standardní instalaci, vlastní možnosti by měly být používány pouze "
+"zkušenými uživateli."
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "ZPĚT A POUŽIJTE STANDARDNÍ INSTALACI"
+
+msgid "Personalizar a instalação:"
+msgstr "Přizpůsobení instalace:"
+
+msgid "INSTALAR"
+msgstr "NAINSTALOVAT"
+
+msgid "DESKTOP"
+msgstr "PLOCHA"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "JAKÉ BALÍČKY V SYSTÉMU NECHCETE?"
+
+msgid "Selecionar todos"
+msgstr "Vybrat vše"
+
+msgid "Desmarcar todos"
+msgstr "Zrušte zaškrtnutí všech"
+
+msgid "Deepin"
+msgstr "Hluboký"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "Považován za jeden z nejkrásnějších stolních počítačů."
+
+msgid "Ukui"
+msgstr "Ukui"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr "Desktop vytvořený pro čínskou veřejnost, ale který se stává populární v jiných zemích."
+
+msgid "Gnome"
+msgstr "Skřítek"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "Jeden z nejpoužívanějších desktopů ve světě Linuxu."

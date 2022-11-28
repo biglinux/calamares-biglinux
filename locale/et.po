@@ -124,3 +124,86 @@ msgstr ""
 "\n"
 "Et installimine õnnestuks, peate tõenäoliselt \n"
 "muutke BIOS-i sätet EFI või UEFI režiimi käivitamiseks."
+
+msgid "PERSONALIZADA"
+msgstr "KOMME"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "KINNITAGE JA JÄTKAKE INSTALLIMIST"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "VALIGE TÖÖLAUD"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "KAS INSTALLIDA VÄHEMATE PROGRAMMIDEGA VÕI KASUTADA MÕNDA MUUD TÖÖLAUDA?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Teise töölaua installimiseks tuleb installimise ajal alla laadida, installiaeg sõltub Interneti "
+"kiirusest."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "KAS SOOVITE TÕESTI INSTALLIDA TEISE TÖÖLAUA?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux on loodud ja testitud selle standardinstallimisel, teisi lauaarvuteid hooldavad BigLinuxi "
+"kogukonna kasutajad ning neil on vähem kohandusi ja teste, kas soovite tõesti jätkata?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "VÄHEM PROGRAMME"
+
+msgid "OUTROS DESKTOPS"
+msgstr "MUUD LAUAARVUTID"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "TEGELIKULT KASUTAGE MÕNDA MUUD TÖÖLAUDA"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr "Kui kahtlete standardinstallimises, peaksid kohandatud valikuid kasutama ainult kogenud kasutajad."
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "TAGASI JA KASUTAGE STANDARDPAIGALDUST"
+
+msgid "Personalizar a instalação:"
+msgstr "Installimise kohandamine:"
+
+msgid "INSTALAR"
+msgstr "INSTALLIDA"
+
+msgid "DESKTOP"
+msgstr "TÖÖLAUA"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "MILLISEID PAKETTE TE SÜSTEEMIS EI SOOVI?"
+
+msgid "Selecionar todos"
+msgstr "Vali kõik"
+
+msgid "Desmarcar todos"
+msgstr "Tühjendage kõik"
+
+msgid "Deepin"
+msgstr "Deepin"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "Seda peetakse üheks kõige ilusamaks töölauaks."
+
+msgid "Ukui"
+msgstr "Ukui"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr "Hiina avalikkusele loodud töölaud, kuid mis on muutumas populaarseks teistes riikides."
+
+msgid "Gnome"
+msgstr "Gnome"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "Üks kõige laialdasemalt kasutatavaid lauaarvuteid Linuxi maailmas."

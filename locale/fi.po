@@ -123,3 +123,88 @@ msgstr ""
 "\n"
 "Jotta asennus onnistuisi, sinun on todennäköisesti \n"
 "muuta BIOSin asetusta käynnistääksesi EFI- tai UEFI-tilaan."
+
+msgid "PERSONALIZADA"
+msgstr "TAPA"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "VAHVISTA JA JATKA ASENNUSTA"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "VALITSE TYÖPÖYTÄ"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "ASENNATKO VÄHEMMÄN OHJELMIA TAI KÄYTÄTKÖ TOISTA TYÖPÖYTÄÄ?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Jos haluat asentaa toisen työpöydän, se on ladattava asennuksen aikana, asennusaika riippuu "
+"Internetin nopeudesta."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "HALUATKO TODELLA ASENTAA TOISEN TYÖPÖYDÄN?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux on suunniteltu ja testattu sen vakioasennuksessa, muita työpöytiä ylläpitävät "
+"BigLinux-yhteisön käyttäjät ja niillä on vähemmän mukautuksia ja testejä, haluatko todella jatkaa?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "VÄHEMMÄN OHJELMIA"
+
+msgid "OUTROS DESKTOPS"
+msgstr "MUUT TYÖPÖYDÄT"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "KÄYTÄ ITSE ASIASSA TOISTA TYÖPÖYTÄÄ"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Jos olet epävarma, tee vakioasennus, mukautettuja vaihtoehtoja tulisi käyttää vain kokeneilla "
+"käyttäjillä."
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "TAKAISIN JA KÄYTÄ VAKIOASENNUSTA"
+
+msgid "Personalizar a instalação:"
+msgstr "Mukauta asennusta:"
+
+msgid "INSTALAR"
+msgstr "ASENTAA"
+
+msgid "DESKTOP"
+msgstr "TYÖPÖYTÄ"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "MITÄ PAKETTEJA ET HALUA JÄRJESTELMÄÄN?"
+
+msgid "Selecionar todos"
+msgstr "Valitse kaikki"
+
+msgid "Desmarcar todos"
+msgstr "Poista kaikkien valinnat"
+
+msgid "Deepin"
+msgstr "Syvä"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "Pidetään yhtenä kauneimmista työpöydistä."
+
+msgid "Ukui"
+msgstr "Ukui"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr "Työpöytä on luotu Kiinan yleisölle, mutta josta on tulossa suosittu muissa maissa."
+
+msgid "Gnome"
+msgstr "Maahinen"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "Yksi yleisimmin käytetyistä työpöydistä Linux-maailmassa."

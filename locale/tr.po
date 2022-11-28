@@ -124,3 +124,89 @@ msgstr ""
 "\n"
 "Yüklemenin başarılı olması için, muhtemelen \n"
 "EFI veya UEFI moduna önyükleme yapmak için BIOS'taki ayarı değiştirin."
+
+msgid "PERSONALIZADA"
+msgstr "TÖRE"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "ONAYLAYIN VE YÜKLEMEYE DEVAM EDIN"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "MASAÜSTÜ'NÜ SEÇİN"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "DAHA AZ PROGRAMLA MI YÜKLÜYORSUNUZ YOKSA BAŞKA BIR MASAÜSTÜ MÜ KULLANIYORSUNUZ?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Başka bir masaüstü kurmak için kurulum sırasında indirilmesi gerekecektir, kurulum süresi "
+"internetin hızına bağlı olacaktır."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "GERÇEKTEN BAŞKA BIR MASAÜSTÜ YÜKLEMEK MI ISTIYORSUNUZ?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux standart kurulumunda tasarlanmış ve test edilmiştir, diğer masaüstleri BigLinux "
+"topluluğunun kullanıcıları tarafından korunur ve daha az özelleştirme ve teste sahiptir, gerçekten "
+"devam etmek ister misiniz?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "DAHA AZ PROGRAM"
+
+msgid "OUTROS DESKTOPS"
+msgstr "DİĞER MASAÜSTÜ BİLGİSAYARLARI"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "ASLINDA BAŞKA BIR MASAÜSTÜ KULLANIN"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Standart kurulumdan şüphe ediyorsanız, özel seçenekler yalnızca deneyimli kullanıcılar tarafından "
+"kullanılmalıdır."
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "GERI DÖNÜN VE STANDART YÜKLEMEYI KULLANIN"
+
+msgid "Personalizar a instalação:"
+msgstr "Kurulumu özelleştirme:"
+
+msgid "INSTALAR"
+msgstr "YÜKLEMEK"
+
+msgid "DESKTOP"
+msgstr "MASAÜSTÜ"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "SISTEMDE HANGI PAKETLERI ISTEMIYORSUNUZ?"
+
+msgid "Selecionar todos"
+msgstr "Tümünü seç"
+
+msgid "Desmarcar todos"
+msgstr "Tümünün işaretini kaldır"
+
+msgid "Deepin"
+msgstr "Derin"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "Var olan en güzel masaüstlerinden biri olarak kabul edilir."
+
+msgid "Ukui"
+msgstr "Ukui dili"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr "Çin halkı için yaratılmış, ancak diğer ülkelerde popüler hale gelen masaüstü."
+
+msgid "Gnome"
+msgstr "Gnome"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "Linux dünyasında en yaygın kullanılan masaüstlerinden biri."

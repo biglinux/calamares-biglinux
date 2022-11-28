@@ -123,3 +123,82 @@ msgstr ""
 "\n"
 "要使安装成功，您可能需要\n"
 "更改 BIOS 中的设置以启动到 EFI 或 UEFI 模式。"
+
+msgid "PERSONALIZADA"
+msgstr "习惯"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "确认并继续安装"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "选择桌面"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "使用较少的程序安装或使用其他桌面？"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr "要安装另一个桌面，需要在安装过程中下载，安装时间将取决于互联网的速度。"
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "确实要安装另一个桌面？"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr "BigLinux 已经在其标准安装上进行了设计和测试，其他桌面由 BigLinux 社区的用户维护，并且自定义和测试较少，真的想继续吗？"
+
+msgid "MENOS PROGRAMAS"
+msgstr "更少的程序"
+
+msgid "OUTROS DESKTOPS"
+msgstr "其他桌面"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "实际使用其他桌面"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr "如果有疑问，请执行标准安装，自定义选项应仅由有经验的用户使用。"
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "返回并使用标准安装"
+
+msgid "Personalizar a instalação:"
+msgstr "自定义安装："
+
+msgid "INSTALAR"
+msgstr "安装"
+
+msgid "DESKTOP"
+msgstr "桌面"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "您不希望系统中出现哪些软件包？"
+
+msgid "Selecionar todos"
+msgstr "全选"
+
+msgid "Desmarcar todos"
+msgstr "取消选中全部"
+
+msgid "Deepin"
+msgstr "深度操作系统"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "被认为是最漂亮的桌面之一。"
+
+msgid "Ukui"
+msgstr "乌奎"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr "桌面是为中国公众创建的，但在其他国家越来越受欢迎。"
+
+msgid "Gnome"
+msgstr "侏儒"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "Linux 世界中使用最广泛的桌面之一。"

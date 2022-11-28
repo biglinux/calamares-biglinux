@@ -123,3 +123,84 @@ msgstr ""
 "\n"
 "インストールを成功させるには、おそらく次のことが必要になるでしょう。\n"
 "BIOS の設定を変更して、EFI または UEFI モードで起動します。"
+
+msgid "PERSONALIZADA"
+msgstr "習慣"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "インストールを確認して続行します"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "デスクトップを選択"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "より少ないプログラムでインストールするか、別のデスクトップを使用しますか?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr "別のデスクトップをインストールするには、インストール中にダウンロードする必要があり、インストール時間はインターネットの速度によって異なります。"
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "本当に別のデスクトップをインストールしたいですか?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinuxは標準インストールで設計およびテストされており、他のデスクトップはBigLinuxコミュニティのユーザーによって保守されており、カスタマイズとテストが少なくなっていますが、本当に続行し"
+"たいですか?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "より少ないプログラム"
+
+msgid "OUTROS DESKTOPS"
+msgstr "その他のデスクトップ"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "実際に別のデスクトップを使用する"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr "標準インストールが疑わしい場合は、経験豊富なユーザーのみがカスタムオプションを使用する必要があります。"
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "戻って標準インストールを使用する"
+
+msgid "Personalizar a instalação:"
+msgstr "インストールのカスタマイズ:"
+
+msgid "INSTALAR"
+msgstr "取り付ける"
+
+msgid "DESKTOP"
+msgstr "デスクトップ"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "システムに不要なパッケージは何ですか?"
+
+msgid "Selecionar todos"
+msgstr "すべて選択"
+
+msgid "Desmarcar todos"
+msgstr "すべてチェックを外します"
+
+msgid "Deepin"
+msgstr "ディーピン"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "そこにある最も美しいデスクトップの1つと考えられています。"
+
+msgid "Ukui"
+msgstr "宇久井"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr "デスクトップは中国国民向けに作成されましたが、他の国でも人気が高まっています。"
+
+msgid "Gnome"
+msgstr "ノーム"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "Linuxの世界で最も広く使用されているデスクトップの1つ。"
