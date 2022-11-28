@@ -210,3 +210,30 @@ msgstr "Spiriduș"
 
 msgid "Um dos desktops mais utilizados no mundo Linux."
 msgstr "Unul dintre cele mai utilizate desktop-uri din lumea Linux."
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "Mediul desktop format din fuziunea proiectelor lxde și razor-qt."
+
+msgid "CuteFish"
+msgstr "Cutefish"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "Mediul desktop axat pe simplitate, frumusețe și practic."
+
+msgid "MATE"
+msgstr "PRIETEN"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "Mediul desktop intuitiv și atractiv este continuarea GNOME 2."
+
+msgid "XFCE"
+msgstr "XFCE"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "Mediu desktop ușor și rapid."
+
+msgid "Cinnamon"
+msgstr "Scorțișoară"

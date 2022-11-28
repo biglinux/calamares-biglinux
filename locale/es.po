@@ -211,3 +211,30 @@ msgstr "Gnomo"
 
 msgid "Um dos desktops mais utilizados no mundo Linux."
 msgstr "Uno de los escritorios más utilizados en el mundo Linux."
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "Entorno de escritorio formado a partir de la fusión de los proyectos lxde y razor-qt."
+
+msgid "CuteFish"
+msgstr "Lindo pez"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "Entorno de escritorio centrado en la simplicidad, la belleza y la practicidad."
+
+msgid "MATE"
+msgstr "COMPAÑERO"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "El entorno de escritorio intuitivo y atractivo es la continuación de GNOME 2."
+
+msgid "XFCE"
+msgstr "XFCE"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "Entorno de escritorio ligero y rápido."
+
+msgid "Cinnamon"
+msgstr "Canela"

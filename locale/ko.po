@@ -202,3 +202,30 @@ msgstr "격언"
 
 msgid "Um dos desktops mais utilizados no mundo Linux."
 msgstr "Linux 세계에서 가장 널리 사용되는 데스크톱 중 하나입니다."
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "데스크탑 환경은 lxde와 면도기 - qt 프로젝트의 합병으로 형성되었습니다."
+
+msgid "CuteFish"
+msgstr "귀염어"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "데스크탑 환경은 단순성, 아름다움 및 실용성에 중점을 둡니다."
+
+msgid "MATE"
+msgstr "짝"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "직관적이고 매력적인 데스크탑 환경은 그놈 2의 연속입니다."
+
+msgid "XFCE"
+msgstr "증권 시세 표시기"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "가볍고 빠른 데스크탑 환경."
+
+msgid "Cinnamon"
+msgstr "계 피"

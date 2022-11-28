@@ -209,3 +209,30 @@ msgstr "Gnom"
 
 msgid "Um dos desktops mais utilizados no mundo Linux."
 msgstr "Jeden z najczęściej używanych komputerów stacjonarnych w świecie Linuksa."
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "Środowisko graficzne powstałe z połączenia projektów lxde i razor-qt."
+
+msgid "CuteFish"
+msgstr "Cutefish"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "Środowisko graficzne nastawione na prostotę, piękno i praktyczność."
+
+msgid "MATE"
+msgstr "KUMPEL"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "Intuicyjne i atrakcyjne środowisko graficzne jest kontynuacją GNOME 2."
+
+msgid "XFCE"
+msgstr "XFCE"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "Lekkie i szybkie środowisko graficzne."
+
+msgid "Cinnamon"
+msgstr "Cynamon"

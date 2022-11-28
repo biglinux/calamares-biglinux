@@ -204,3 +204,30 @@ msgstr "ノーム"
 
 msgid "Um dos desktops mais utilizados no mundo Linux."
 msgstr "Linuxの世界で最も広く使用されているデスクトップの1つ。"
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "lxde プロジェクトと razor-qt プロジェクトの合併から形成されたデスクトップ環境。"
+
+msgid "CuteFish"
+msgstr "かわいい魚"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "シンプルさ、美しさ、実用性に焦点を当てたデスクトップ環境。"
+
+msgid "MATE"
+msgstr "メイト"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "直感的で魅力的なデスクトップ環境は、GNOME 2の続きです。"
+
+msgid "XFCE"
+msgstr "ティッカー"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "軽量で高速なデスクトップ環境。"
+
+msgid "Cinnamon"
+msgstr "シナモン"

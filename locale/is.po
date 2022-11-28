@@ -208,3 +208,30 @@ msgstr "Dvergur"
 
 msgid "Um dos desktops mais utilizados no mundo Linux."
 msgstr "Eitt af mest notuðu skjáborðum í Linux heiminum."
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "Skrifborðsumhverfi myndað við samruna lxde og razor-qt verkefna."
+
+msgid "CuteFish"
+msgstr "Sætfiskur"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "Skrifborðsumhverfi lögð áhersla á einfaldleika, fegurð og hagkvæmni."
+
+msgid "MATE"
+msgstr "VINUR"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "Innsæi og aðlaðandi skrifborðsumhverfi er framhald GNOME 2."
+
+msgid "XFCE"
+msgstr "XFCE"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "Léttur og fljótur skrifborð umhverfi."
+
+msgid "Cinnamon"
+msgstr "Kanill"

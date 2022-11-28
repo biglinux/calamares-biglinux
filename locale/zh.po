@@ -202,3 +202,30 @@ msgstr "侏儒"
 
 msgid "Um dos desktops mais utilizados no mundo Linux."
 msgstr "Linux 世界中使用最广泛的桌面之一。"
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "由 lxde 和 razor-qt 项目合并而成的桌面环境。"
+
+msgid "CuteFish"
+msgstr "可爱的鱼"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "桌面环境专注于简单、美观和实用。"
+
+msgid "MATE"
+msgstr "伴侣"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "直观而有吸引力的桌面环境是GNOME 2的延续。"
+
+msgid "XFCE"
+msgstr "XFCE"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "轻量级和快速的桌面环境。"
+
+msgid "Cinnamon"
+msgstr "肉桂"

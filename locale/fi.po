@@ -208,3 +208,30 @@ msgstr "Maahinen"
 
 msgid "Um dos desktops mais utilizados no mundo Linux."
 msgstr "Yksi yleisimmin käytetyistä työpöydistä Linux-maailmassa."
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "Työpöytäympäristö muodostui lxde- ja razor-qt-projektien yhdistämisestä."
+
+msgid "CuteFish"
+msgstr "Söpökala"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "Työpöytäympäristö keskittyi yksinkertaisuuteen, kauneuteen ja käytännöllisyyteen."
+
+msgid "MATE"
+msgstr "PERÄMIES"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "Intuitiivinen ja houkutteleva työpöytäympäristö on jatkoa GNOME 2:lle."
+
+msgid "XFCE"
+msgstr "XFCE"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "Kevyt ja nopea työpöytäympäristö."
+
+msgid "Cinnamon"
+msgstr "Kaneli"

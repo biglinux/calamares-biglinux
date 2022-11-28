@@ -194,3 +194,30 @@ msgstr  ""
 #
 msgid   "Um dos desktops mais utilizados no mundo Linux."
 msgstr  ""
+#
+msgid   "LXQt"
+msgstr  ""
+#
+msgid   "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr  ""
+#
+msgid   "CuteFish"
+msgstr  ""
+#
+msgid   "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr  ""
+#
+msgid   "MATE"
+msgstr  ""
+#
+msgid   "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr  ""
+#
+msgid   "XFCE"
+msgstr  ""
+#
+msgid   "Ambiente desktop leve e rápido."
+msgstr  ""
+#
+msgid   "Cinnamon"
+msgstr  ""

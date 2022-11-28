@@ -209,3 +209,30 @@ msgstr "Гном"
 
 msgid "Um dos desktops mais utilizados no mundo Linux."
 msgstr "Один из наиболее широко используемых настольных компьютеров в мире Linux."
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "Окружение рабочего стола образовалось в результате слияния проектов lxde и razor-qt."
+
+msgid "CuteFish"
+msgstr "Милая рыбка"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "Окружение рабочего стола ориентировано на простоту, красоту и практичность."
+
+msgid "MATE"
+msgstr "ТОВАРИЩ"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "Интуитивно понятная и привлекательная среда рабочего стола является продолжением GNOME 2."
+
+msgid "XFCE"
+msgstr "XFCE"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "Легкая и быстрая среда рабочего стола."
+
+msgid "Cinnamon"
+msgstr "Корица"

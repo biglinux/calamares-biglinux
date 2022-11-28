@@ -204,3 +204,30 @@ msgstr "גמד"
 
 msgid "Um dos desktops mais utilizados no mundo Linux."
 msgstr "אחד השולחנות השולחניים הנפוצים ביותר בעולם הלינוקס."
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "סביבת שולחן העבודה נוצרה ממיזוג של פרויקטים של lxde ו- Razor-qt."
+
+msgid "CuteFish"
+msgstr "דג חמוד"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "סביבת שולחן העבודה התמקדה בפשטות, יופי ופרקטיות."
+
+msgid "MATE"
+msgstr "חבר"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "סביבת שולחן עבודה אינטואיטיבית ואטרקטיבית היא ההמשך של GNOME 2."
+
+msgid "XFCE"
+msgstr "XFCE"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "סביבת שולחן עבודה קלה ומהירה."
+
+msgid "Cinnamon"
+msgstr "קינמון"
