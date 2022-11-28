@@ -1,0 +1,4 @@
+cutefish
+lightdm
+libpamac-flatpak-plugin
+brave-browser

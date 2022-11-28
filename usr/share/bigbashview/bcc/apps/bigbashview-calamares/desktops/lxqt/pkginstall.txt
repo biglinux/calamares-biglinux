@@ -1,0 +1,4 @@
+lxqt
+lightdm
+libpamac-flatpak-plugin
+brave-browser
