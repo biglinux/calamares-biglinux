@@ -1321,3 +1321,12 @@ img {
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -300, -225, 0, 1);
   }
 }
+
+
+.container-community {
+  width:100%;
+  height:auto;
+  padding:1%;
+  font-size: 20px;
+}
+

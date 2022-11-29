@@ -1,5 +1,6 @@
 xfce4
 xfce4-goodies
 lightdm
+lightdm-gtk-greeter
 libpamac-flatpak-plugin
 brave-browser
