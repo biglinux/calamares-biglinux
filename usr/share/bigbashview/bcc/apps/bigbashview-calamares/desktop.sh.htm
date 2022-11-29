@@ -21,7 +21,7 @@ DEFAULT_OR_CUSTOM_TITLE=$"INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
 CUSTOM_OR_MINIMAL=$"INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
 CUSTOM_OR_MINIMAL_DESC=$"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de instalação vai depender da velocidade da internet."
 SECOND_CONFIRM_CUSTOM=$"REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-SECOND_CONFIRM_CUSTOM_DESC=$"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente prosseguir?"
+SECOND_CONFIRM_CUSTOM_DESC=$"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente prosseguir?"
 LESS_PKGS=$"MENOS PROGRAMAS"
 OTHER_DESKTOP=$"OUTROS DESKTOPS"
 OTHER_DESKTOP_CONFIRM=$"UTILIZAR REALMENTE OUTRO DESKTOP"
@@ -90,11 +90,14 @@ cat << EOF
       
       
       <div class="calamares-big-plan" id=installConfirm hidden>
-        <img src="icon-big-hd-install.svg" alt="Install" class="calamares-big-img" style="width: 100px;">
-        <h3 class="calamares-big-header"><font color=red>$SECOND_CONFIRM_CUSTOM</font></h3>
+        <img src="big-community.svg" alt="Install" class="calamares-big-img" style="width: 100px;">
+        <h3 class="calamares-big-header"><font color=red style="font-size: 40px;">BIG COMMUNITY</font></h3>
         <div class="p">
-        <br>$SECOND_CONFIRM_CUSTOM_DESC<br><br>
+        
+        <div class="container-community">$SECOND_CONFIRM_CUSTOM_DESC</div>
+        
         </div>
+        <br>
         <div class="p"> </div>
         <a href="other_desktop.sh.htm?option=$option" class="calamares-big-button">$OTHER_DESKTOP_CONFIRM</a>
         <a href="#" onclick="confirmNo()" class="calamares-big-button is-featured">$BACK_DEFAULT</a>
