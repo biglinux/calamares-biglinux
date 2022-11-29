@@ -1,5 +1,0 @@
-ukui
-lightdm
-lightdm-gtk-greeter
-libpamac-flatpak-plugin
-brave-browser

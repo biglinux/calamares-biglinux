@@ -1,6 +1,0 @@
-mate
-mate-extra
-lightdm
-lightdm-slick-greeter
-libpamac-flatpak-plugin
-brave-browser

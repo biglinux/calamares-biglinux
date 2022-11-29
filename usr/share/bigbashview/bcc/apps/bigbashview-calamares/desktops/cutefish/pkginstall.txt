@@ -1,6 +1,0 @@
-cutefish
-sddm
-sddm-xorg-failsafe
-sddm-theme-biglinux
-libpamac-flatpak-plugin
-brave-browser
