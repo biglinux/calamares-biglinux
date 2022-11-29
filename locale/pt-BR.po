@@ -15,111 +15,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#
-msgid "Verificando o arquivo:"
-msgstr "Verificando o arquivo:"
-
-#
-msgid ""
-"Verificando se ocorreram erros no download ou pendrive, pode demorar alguns "
-"minutos..."
-msgstr ""
-"Verificando se ocorreram erros no download ou pendrive, pode demorar alguns "
-"minutos..."
-
-#
-msgid "Verificando integridade do sistema"
-msgstr "Verificando integridade do sistema"
-
-#
-msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
-msgstr "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
-
-#
-msgid "Os arquivos estão integros."
-msgstr "Os arquivos estão integros."
-
-#
-msgid "Verificação cancelada."
-msgstr "Verificação cancelada."
-
-#
-msgid " Continue"
-msgstr " Continue"
-
-#
-msgid " Fechar"
-msgstr " Fechar"
-
-#
-msgid "Instalar o sistema"
-msgstr "Instalar o sistema"
-
-#
-msgid "Instalar o BigLinux"
-msgstr "Instalar o BigLinux"
-
-#
-msgid "PADRÃO"
-msgstr "PADRÃO"
-
-#
-msgid "DESEMPENHO"
-msgstr "DESEMPENHO"
-
-#
-msgid "COMPATIBILIDADE"
-msgstr "COMPATIBILIDADE"
-
-#
-msgid "Compacta os dados"
-msgstr "Compacta os dados"
-
-#
-msgid "Pontos de restauração"
-msgstr "Pontos de restauração"
-
-#
-msgid "Adia a gravação dos dados"
-msgstr "Adia a gravação dos dados"
-
-#
-msgid "Funciona com tabelas de particionamento antigas"
-msgstr "Funciona com tabelas de particionamento antigas"
-
-#
-msgid "BTRFS com fsync"
-msgstr "BTRFS com fsync"
-
-#
-msgid "BTRFS sem fsync"
-msgstr "BTRFS sem fsync"
-
-#
-msgid "SELECIONAR"
-msgstr "SELECIONAR"
-
-#
-msgid "Instalar no HD"
-msgstr "Instalar no HD"
-
-#
-msgid "* Não utilize /boot separado"
-msgstr "* Não utilize /boot separado"
-
-#
-msgid "O sistema está em modo"
-msgstr "O sistema está em modo"
-
-#
-msgid "e com o kernel"
-msgstr "e com o kernel"
-
-#
 msgid "Deseja prosseguir com com a instalação em modo EFI?"
 msgstr "Deseja prosseguir com com a instalação em modo EFI?"
 
-#
 msgid ""
 "O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém "
 "não encontrei nenhuma \n"
@@ -139,11 +37,18 @@ msgstr ""
 "configuração na BIOS para fazer boot em modo Legacy, também \n"
 "chamado de modo BIOS."
 
-#
+msgid " Fechar"
+msgstr " Fechar"
+
+msgid " Continue"
+msgstr " Continue"
+
+msgid "Instalar o sistema"
+msgstr "Instalar o sistema"
+
 msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
 msgstr "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
 
-#
 msgid ""
 "O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</"
 "span>, porém encontrei pelo \n"
@@ -159,154 +64,188 @@ msgstr ""
 "Para que a instalação seja bem sucedida, provavelmente será necessário \n"
 "alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
 
-#
-msgid "PERSONALIZADA"
-msgstr "PERSONALIZADA"
+msgid "Instalar o BigLinux"
+msgstr "Instalar o BigLinux"
 
-#
-msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
-msgstr "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgid "Verificando o arquivo:"
+msgstr "Verificando o arquivo:"
 
-#
+msgid ""
+"Verificando se ocorreram erros no download ou pendrive, pode demorar alguns "
+"minutos..."
+msgstr ""
+"Verificando se ocorreram erros no download ou pendrive, pode demorar alguns "
+"minutos..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Verificando integridade do sistema"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+
+msgid "Os arquivos estão integros."
+msgstr "Os arquivos estão integros."
+
+msgid "Verificação cancelada."
+msgstr "Verificação cancelada."
+
 msgid "ESCOLHA O DESKTOP"
 msgstr "ESCOLHA O DESKTOP"
 
-#
-msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-msgstr "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-
-#
-msgid ""
-"Para instalar outro desktop será necessário fazer o download durante a "
-"instalação, o tempo de instalação vai depender da velocidade da internet."
-msgstr ""
-"Para instalar outro desktop será necessário fazer o download durante a "
-"instalação, o tempo de instalação vai depender da velocidade da internet."
-
-#
-msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-msgstr "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-
-#
-msgid ""
-"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops "
-"são mantidos por usuários da comunidade BigLinux e possuem menos "
-"personalizações e testes, deseja realmente prosseguir?"
-msgstr ""
-"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops "
-"são mantidos por usuários da comunidade BigLinux e possuem menos "
-"personalizações e testes, deseja realmente prosseguir?"
-
-#
-msgid "MENOS PROGRAMAS"
-msgstr "MENOS PROGRAMAS"
-
-#
-msgid "OUTROS DESKTOPS"
-msgstr "OUTROS DESKTOPS"
-
-#
-msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
-msgstr "UTILIZAR REALMENTE OUTRO DESKTOP"
-
-#
-msgid ""
-"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser "
-"utilizadas apenas por usuários experientes."
-msgstr ""
-"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser "
-"utilizadas apenas por usuários experientes."
-
-#
 msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
 msgstr "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
 
-#
-msgid "Personalizar a instalação:"
-msgstr "Personalizar a instalação:"
-
-#
 msgid "INSTALAR"
 msgstr "INSTALAR"
 
-#
 msgid "DESKTOP"
 msgstr "DESKTOP"
 
-#
-msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
-msgstr "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgid "O sistema está em modo"
+msgstr "O sistema está em modo"
 
-#
-msgid "Selecionar todos"
-msgstr "Selecionar todos"
+msgid "e com o kernel"
+msgstr "e com o kernel"
 
-#
-msgid "Desmarcar todos"
-msgstr "Desmarcar todos"
+msgid "PADRÃO"
+msgstr "PADRÃO"
 
-#
-msgid "Deepin"
-msgstr "Deepin"
+msgid "DESEMPENHO"
+msgstr "DESEMPENHO"
 
-#
-msgid "Considerado um dos desktops mais bonitos que existem."
-msgstr "Considerado um dos desktops mais bonitos que existem."
+msgid "COMPATIBILIDADE"
+msgstr "COMPATIBILIDADE"
 
-#
-msgid "Ukui"
-msgstr "Ukui"
+msgid "Compacta os dados"
+msgstr "Compacta os dados"
 
-#
-msgid ""
-"Desktop criado para o público chinês, mas que está se popularizando em "
-"outros países."
-msgstr ""
-"Desktop criado para o público chinês, mas que está se popularizando em "
-"outros países."
+msgid "Pontos de restauração"
+msgstr "Pontos de restauração"
 
-#
-msgid "Gnome"
-msgstr "Gnome"
+msgid "Adia a gravação dos dados"
+msgstr "Adia a gravação dos dados"
 
-#
-msgid "Um dos desktops mais utilizados no mundo Linux."
-msgstr "Um dos desktops mais utilizados no mundo Linux."
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Funciona com tabelas de particionamento antigas"
 
-#
-msgid "LXQt"
-msgstr "LXQt"
+msgid "BTRFS com fsync"
+msgstr "BTRFS com fsync"
 
-#
-msgid ""
-"Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
-msgstr ""
-"Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgid "BTRFS sem fsync"
+msgstr "BTRFS sem fsync"
 
-#
-msgid "CuteFish"
-msgstr "CuteFish"
+msgid "SELECIONAR"
+msgstr "SELECIONAR"
 
-#
-msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
-msgstr "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgid "Instalar no HD"
+msgstr "Instalar no HD"
 
-#
-msgid "MATE"
-msgstr "MATE"
+msgid "* Não utilize /boot separado"
+msgstr "* Não utilize /boot separado"
 
-#
-msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
-msgstr "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
-
-#
 msgid "XFCE"
 msgstr "XFCE"
 
-#
 msgid "Ambiente desktop leve e rápido."
 msgstr "Ambiente desktop leve e rápido."
 
-#
+msgid "Ukui"
+msgstr "Ukui"
+
+msgid ""
+"Desktop criado para o público chinês, mas que está se popularizando em "
+"outros países."
+msgstr ""
+"Desktop criado para o público chinês, mas que está se popularizando em "
+"outros países."
+
+msgid "Gnome"
+msgstr "Gnome"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "Um dos desktops mais utilizados no mundo Linux."
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid ""
+"Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr ""
+"Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+
+msgid "Deepin"
+msgstr "Deepin"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "Considerado um dos desktops mais bonitos que existem."
+
 msgid "Cinnamon"
 msgstr "Cinnamon"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+
+msgid "CuteFish"
+msgstr "CuteFish"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+
+msgid "MATE"
+msgstr "MATE"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+
+msgid "PERSONALIZADA"
+msgstr "PERSONALIZADA"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a "
+"instalação, o tempo de instalação vai depender da velocidade da internet."
+msgstr ""
+"Para instalar outro desktop será necessário fazer o download durante a "
+"instalação, o tempo de instalação vai depender da velocidade da internet."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops "
+"são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops "
+"são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "MENOS PROGRAMAS"
+
+msgid "OUTROS DESKTOPS"
+msgstr "OUTROS DESKTOPS"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "UTILIZAR REALMENTE OUTRO DESKTOP"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser "
+"utilizadas apenas por usuários experientes."
+msgstr ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser "
+"utilizadas apenas por usuários experientes."
+
+msgid "Selecionar todos"
+msgstr "Selecionar todos"
+
+msgid "Desmarcar todos"
+msgstr "Desmarcar todos"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+
+msgid "Personalizar a instalação:"
+msgstr "Personalizar a instalação:"
