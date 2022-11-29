@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Provjera datoteke:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Provjera pogrešaka u preuzimanju ili USB sticku može potrajati nekoliko minuta ..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Provjera stanja sustava"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Pronađena je pogreška, ponovno preuzmite sustav ili upotrijebite drugi USB stick."
+
+msgid "Os arquivos estão integros."
+msgstr "Datoteke su integrirane."
+
+msgid "Verificação cancelada."
+msgstr "Provjera je otkazana."
+
+msgid " Continue"
+msgstr " Nastavi"
+
+msgid " Fechar"
+msgstr " Blizak"
+
+msgid "Instalar o sistema"
+msgstr "Instaliranje sustava"
+
+msgid "Instalar o BigLinux"
+msgstr "Instaliraj BigLinux"
+
+msgid "PADRÃO"
+msgstr "UZORAK"
+
+msgid "DESEMPENHO"
+msgstr "IZVEDBA"
+
+msgid "COMPATIBILIDADE"
+msgstr "KOMPATIBILNOST"
+
+msgid "Compacta os dados"
+msgstr "Sažima podatke"
+
+msgid "Pontos de restauração"
+msgstr "Vrati točke"
+
+msgid "Adia a gravação dos dados"
+msgstr "Odustajanje od snimanja podataka"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Radi sa starim stolovima za particioniranje"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS s fsync-om"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS bez fsynca"
+
+msgid "SELECIONAR"
+msgstr "ODABIRATI"
+
+msgid "Instalar no HD"
+msgstr "Instaliraj na HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Ne koristite /boot zasebno"
+
+msgid "O sistema está em modo"
+msgstr "Sustav je u programu"
+
+msgid "e com o kernel"
+msgstr "i s jezgrom"
+
+msgid "Deseja prosseguir com com a instalação em modo EFI?"
+msgstr "Želite li nastaviti s instalacijom u EFI načinu rada?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
+"partição EFI neste computador.\n"
+"\n"
+"Se este computador já possui outro sistema instalado e você pretende \n"
+"que ele permaneça instalado, provavelmente será necessário alterar a \n"
+"configuração na BIOS para fazer boot em modo Legacy, também \n"
+"chamado de modo BIOS."
+msgstr ""
+"Trenutno pokretanje koristi <span color='#CC2222'>EFI način rada</span>, ali nisam pronašao nijedan "
+"\n"
+"EFI particija na ovom računalu.\n"
+"\n"
+"Ako ovo računalo već ima instaliran drugi sustav i namjeravate to učiniti \n"
+"da ostane instaliran, vjerojatno ćete morati promijeniti \n"
+"konfiguracija u BIOS-u za pokretanje u naslijeđenom načinu rada, također \n"
+"naziva se BIOS način rada."
+
+msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
+msgstr "Želite li nastaviti s instalacijom u naslijeđenom/BIOS načinu rada?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
+"menos uma partição EFI neste computador. \n"
+"\n"
+"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
+"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
+msgstr ""
+"Trenutno pokretanje koristi <span color='#CC2222'>Legacy/BIOS način rada, ali</span> pronašao sam \n"
+"najmanje jedna EFI particija na ovom računalu. \n"
+"\n"
+"Da bi instalacija bila uspješna, vjerojatno ćete morati \n"
+"promijenite postavku u BIOS-u za pokretanje u EFI ili UEFI način rada."
+
+msgid "PERSONALIZADA"
+msgstr "OBIČAJ"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "POTVRDA I NASTAVAK INSTALACIJE"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "ODABIR RADNE POVRŠINE"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "INSTALIRATI S MANJE PROGRAMA ILI KORISTITI DRUGU RADNU POVRŠINU?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Da biste instalirali drugu radnu površinu morat ćete preuzeti tijekom instalacije, vrijeme "
+"instalacije ovisit će o brzini interneta."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "STVARNO ŽELITE INSTALIRATI DRUGU RADNU POVRŠINU?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux je dizajniran i testiran na svojoj standardnoj instalaciji, druge radne površine održavaju "
+"korisnici BigLinux zajednice i imaju manje prilagodbi i testova, stvarno žele nastaviti?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "MANJE PROGRAMA"
+
+msgid "OUTROS DESKTOPS"
+msgstr "OSTALE RADNE POVRŠINE"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "ZAPRAVO KORISTI DRUGU RADNU POVRŠINU"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Ako u nedoumici napravite standardnu instalaciju, prilagođene opcije trebaju koristiti samo iskusni "
+"korisnici."
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "NATRAG I KORISTI STANDARDNU INSTALACIJU"
+
+msgid "Personalizar a instalação:"
+msgstr "Prilagodba instalacije:"
+
+msgid "INSTALAR"
+msgstr "INSTALIRATI"
+
+msgid "DESKTOP"
+msgstr "RADNA POVRŠINA"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "KOJE PAKETE NE ŽELITE U SUSTAVU?"
+
+msgid "Selecionar todos"
+msgstr "Odaberi sve"
+
+msgid "Desmarcar todos"
+msgstr "Poništite sve"
+
+msgid "Deepin"
+msgstr "Deepin"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "Smatra se jednom od najljepših radnih površina koje postoje."
+
+msgid "Ukui"
+msgstr "Ukui"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr "Radna površina stvorena za kinesku javnost, ali koja postaje popularna u drugim zemljama."
+
+msgid "Gnome"
+msgstr "Patuljak"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "Jedna od najčešće korištenih stolnih računala u Linux svijetu."
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "Desktop okruženje nastalo spajanjem lxde i razor-qt projekata."
+
+msgid "CuteFish"
+msgstr "Slatka riba"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "Desktop okruženje usmjereno na jednostavnost, ljepotu i praktičnost."
+
+msgid "MATE"
+msgstr "DRUG"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "Intuitivno i atraktivno desktop okruženje nastavak je GNOME 2."
+
+msgid "XFCE"
+msgstr "XFCE"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "Lagano i brzo stolno okruženje."
+
+msgid "Cinnamon"
+msgstr "Cimet"

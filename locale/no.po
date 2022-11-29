@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Kontrollerer filen:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Ser etter feil i nedlastingen eller USB-pinnen, kan det ta noen minutter ..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Kontrollerer systemtilstanden"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Feil funnet, last ned systemet på nytt eller bruk en annen USB-pinne."
+
+msgid "Os arquivos estão integros."
+msgstr "Filene er integrert."
+
+msgid "Verificação cancelada."
+msgstr "Sjekk avbrutt."
+
+msgid " Continue"
+msgstr " Fortsett"
+
+msgid " Fechar"
+msgstr " Lukke"
+
+msgid "Instalar o sistema"
+msgstr "Installere systemet"
+
+msgid "Instalar o BigLinux"
+msgstr "Installere BigLinux"
+
+msgid "PADRÃO"
+msgstr "MØNSTER"
+
+msgid "DESEMPENHO"
+msgstr "PRESTASJON"
+
+msgid "COMPATIBILIDADE"
+msgstr "FORENLIGHET"
+
+msgid "Compacta os dados"
+msgstr "Komprimerer dataene"
+
+msgid "Pontos de restauração"
+msgstr "Gjenopprettingspunkter"
+
+msgid "Adia a gravação dos dados"
+msgstr "Desist dataopptak"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Fungerer med gamle partisjoneringstabeller"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS med fsync"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS uten fsync"
+
+msgid "SELECIONAR"
+msgstr "VELGE"
+
+msgid "Instalar no HD"
+msgstr "Installere på HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Ikke bruk /boot separat"
+
+msgid "O sistema está em modo"
+msgstr "Systemet er i"
+
+msgid "e com o kernel"
+msgstr "og med kjernen"
+
+msgid "Deseja prosseguir com com a instalação em modo EFI?"
+msgstr "Vil du fortsette installasjonen i EFI-modus?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
+"partição EFI neste computador.\n"
+"\n"
+"Se este computador já possui outro sistema instalado e você pretende \n"
+"que ele permaneça instalado, provavelmente será necessário alterar a \n"
+"configuração na BIOS para fazer boot em modo Legacy, também \n"
+"chamado de modo BIOS."
+msgstr ""
+"Gjeldende oppstart bruker <span color='#CC2222'>EFI-modus</span>, men jeg har ikke funnet noen \n"
+"EFI-partisjon på denne datamaskinen.\n"
+"\n"
+"Hvis denne datamaskinen allerede har et annet system installert, og du har tenkt å \n"
+"at den forblir installert, må du sannsynligvis endre \n"
+"konfigurasjon i BIOS for å starte opp i eldre modus, også \n"
+"bios-modus."
+
+msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
+msgstr "Vil du fortsette installasjonen i eldre/BIOS-modus?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
+"menos uma partição EFI neste computador. \n"
+"\n"
+"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
+"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
+msgstr ""
+"Gjeldende oppstart bruker <span color='#CC2222'>eldre/BIOS-modus, men</span> jeg fant av \n"
+"minst én EFI-partisjon på denne datamaskinen. \n"
+"\n"
+"For at installasjonen skal lykkes, må du sannsynligvis \n"
+"endre innstillingen i BIOS for å starte opp i EFI- eller UEFI-modus."
+
+msgid "PERSONALIZADA"
+msgstr "SKIKK"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "BEKREFT OG FORTSETT MED INSTALLASJONEN"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "VELG SKRIVEBORD"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "INSTALLERE MED FÆRRE PROGRAMMER ELLER BRUKE ET ANNET SKRIVEBORD?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"For å installere et annet skrivebord må du laste ned under installasjonen, installasjonstiden vil "
+"avhenge av hastigheten på internett."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "VIL DU VIRKELIG INSTALLERE ET ANNET SKRIVEBORD?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux har blitt designet og testet på sin standardinstallasjon, andre skrivebord vedlikeholdes "
+"av brukere av BigLinux-fellesskapet og har færre tilpasninger og tester, vil du virkelig fortsette?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "FÆRRE PROGRAMMER"
+
+msgid "OUTROS DESKTOPS"
+msgstr "ANDRE SKRIVEBORD"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "FAKTISK BRUKE ET ANNET SKRIVEBORD"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Hvis du er i tvil om standardinstallasjonen, bør tilpassede alternativer bare brukes av erfarne "
+"brukere."
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "TILBAKE OG BRUK STANDARDINSTALLASJONEN"
+
+msgid "Personalizar a instalação:"
+msgstr "Tilpass installasjonen:"
+
+msgid "INSTALAR"
+msgstr "INSTALLERE"
+
+msgid "DESKTOP"
+msgstr "SKRIVEBORD"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "HVILKE PAKKER DU IKKE VIL HA I SYSTEMET?"
+
+msgid "Selecionar todos"
+msgstr "Merke alle"
+
+msgid "Desmarcar todos"
+msgstr "Fjern merket for alle"
+
+msgid "Deepin"
+msgstr "Deepin"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "Betraktet som en av de vakreste skrivebordene som finnes."
+
+msgid "Ukui"
+msgstr "Ukui"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr "Desktop opprettet for den kinesiske offentligheten, men som blir populær i andre land."
+
+msgid "Gnome"
+msgstr "Gnom"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "En av de mest brukte stasjonære i Linux-verdenen."
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "Skrivebordsmiljø dannet fra sammenslåingen av lxde- og razor-qt-prosjekter."
+
+msgid "CuteFish"
+msgstr "Søt fisk"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "Skrivebordsmiljø fokusert på enkelhet, skjønnhet og praktisk."
+
+msgid "MATE"
+msgstr "KAMERAT"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "Intuitivt og attraktivt skrivebordsmiljø er fortsettelsen av GNOME 2."
+
+msgid "XFCE"
+msgstr "XFCE"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "Lett og raskt skrivebordsmiljø."
+
+msgid "Cinnamon"
+msgstr "Kanel"

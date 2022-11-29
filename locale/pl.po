@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Sprawdzanie pliku:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Sprawdzanie błędów w pobieraniu lub pamięci USB może potrwać kilka minut..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Sprawdzanie kondycji systemu"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Znaleziono błąd, ponownie pobierz system lub użyj innej pamięci USB."
+
+msgid "Os arquivos estão integros."
+msgstr "Pliki są zintegrowane."
+
+msgid "Verificação cancelada."
+msgstr "Sprawdź anulowane."
+
+msgid " Continue"
+msgstr " Kontynuuj"
+
+msgid " Fechar"
+msgstr " Zamykać"
+
+msgid "Instalar o sistema"
+msgstr "Zainstaluj system"
+
+msgid "Instalar o BigLinux"
+msgstr "Zainstaluj BigLinux"
+
+msgid "PADRÃO"
+msgstr "DESEŃ"
+
+msgid "DESEMPENHO"
+msgstr "WYDAJNOŚĆ"
+
+msgid "COMPATIBILIDADE"
+msgstr "ZGODNOŚĆ"
+
+msgid "Compacta os dados"
+msgstr "Kompaktowanie danych"
+
+msgid "Pontos de restauração"
+msgstr "Punkty przywracania"
+
+msgid "Adia a gravação dos dados"
+msgstr "Rejestrowanie danych o zaprzestaniu"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Współpracuje ze starymi tablicami partycjonowania"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS z fsync"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS bez fsync"
+
+msgid "SELECIONAR"
+msgstr "WYBRAĆ"
+
+msgid "Instalar no HD"
+msgstr "Zainstaluj na HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Nie używaj /boot oddzielnie"
+
+msgid "O sistema está em modo"
+msgstr "System jest w"
+
+msgid "e com o kernel"
+msgstr "i z jądrem"
+
+msgid "Deseja prosseguir com com a instalação em modo EFI?"
+msgstr "Czy chcesz kontynuować instalację w trybie EFI?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
+"partição EFI neste computador.\n"
+"\n"
+"Se este computador já possui outro sistema instalado e você pretende \n"
+"que ele permaneça instalado, provavelmente será necessário alterar a \n"
+"configuração na BIOS para fazer boot em modo Legacy, também \n"
+"chamado de modo BIOS."
+msgstr ""
+"Obecny rozruch korzysta z <span color='#CC2222'>trybu EFI</span>, ale nie znalazłem żadnego \n"
+"EfI na tym komputerze.\n"
+"\n"
+"Jeśli na tym komputerze jest już zainstalowany inny system i zamierzasz \n"
+"że pozostaje zainstalowany, prawdopodobnie będziesz musiał zmienić \n"
+"konfiguracja w BIOS-ie do uruchamiania w trybie Legacy, również \n"
+"nazywany trybem BIOS."
+
+msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
+msgstr "Czy chcesz kontynuować instalację w trybie Legacy/BIOS?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
+"menos uma partição EFI neste computador. \n"
+"\n"
+"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
+"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
+msgstr ""
+"Obecny rozruch korzysta z <span color='#CC2222'>trybu Legacy / BIOS, ale</span> znalazłem przez \n"
+"co najmniej jedna partycja EFI na tym komputerze. \n"
+"\n"
+"Aby instalacja zakończyła się pomyślnie, prawdopodobnie będziesz musiał \n"
+"zmień ustawienie w BIOS-ie, aby uruchomić system w trybie EFI lub UEFI."
+
+msgid "PERSONALIZADA"
+msgstr "ZWYCZAJ"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "POTWIERDŹ I KONTYNUUJ INSTALACJĘ"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "WYBIERZ PULPIT"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "INSTALUJESZ Z MNIEJSZĄ LICZBĄ PROGRAMÓW LUB UŻYWASZ INNEGO PULPITU?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Aby zainstalować inny pulpit będzie musiał pobrać podczas instalacji, czas instalacji będzie "
+"zależał od szybkości Internetu."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "NAPRAWDĘ CHCESZ ZAINSTALOWAĆ INNY PULPIT?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux został zaprojektowany i przetestowany na standardowej instalacji, inne komputery "
+"stacjonarne są utrzymywane przez użytkowników społeczności BigLinux i mają mniej dostosowań i "
+"testów, naprawdę chcesz kontynuować?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "MNIEJ PROGRAMÓW"
+
+msgid "OUTROS DESKTOPS"
+msgstr "INNE KOMPUTERY STACJONARNE"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "FAKTYCZNIE UŻYJ INNEGO PULPITU"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"W razie wątpliwości do standardowej instalacji, niestandardowe opcje powinny być używane tylko "
+"przez doświadczonych użytkowników."
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "WRÓĆ I UŻYJ STANDARDOWEJ INSTALACJI"
+
+msgid "Personalizar a instalação:"
+msgstr "Dostosuj instalację:"
+
+msgid "INSTALAR"
+msgstr "INSTALOWAĆ"
+
+msgid "DESKTOP"
+msgstr "PULPIT"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "JAKICH PAKIETÓW NIE CHCESZ W SYSTEMIE?"
+
+msgid "Selecionar todos"
+msgstr "Zaznacz wszystko"
+
+msgid "Desmarcar todos"
+msgstr "Odznacz wszystkie"
+
+msgid "Deepin"
+msgstr "Deepin •"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "Uważany za jeden z najpiękniejszych pulpitów."
+
+msgid "Ukui"
+msgstr "Ukui •"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr "Pulpit stworzony dla chińskiej publiczności, ale który staje się popularny w innych krajach."
+
+msgid "Gnome"
+msgstr "Gnom"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "Jeden z najczęściej używanych komputerów stacjonarnych w świecie Linuksa."
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "Środowisko graficzne powstałe z połączenia projektów lxde i razor-qt."
+
+msgid "CuteFish"
+msgstr "Cutefish"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "Środowisko graficzne nastawione na prostotę, piękno i praktyczność."
+
+msgid "MATE"
+msgstr "KUMPEL"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "Intuicyjne i atrakcyjne środowisko graficzne jest kontynuacją GNOME 2."
+
+msgid "XFCE"
+msgstr "XFCE"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "Lekkie i szybkie środowisko graficzne."
+
+msgid "Cinnamon"
+msgstr "Cynamon"

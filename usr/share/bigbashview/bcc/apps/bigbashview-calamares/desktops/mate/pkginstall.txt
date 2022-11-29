@@ -1,0 +1,5 @@
+mate
+mate-extra
+lightdm
+libpamac-flatpak-plugin
+brave-browser

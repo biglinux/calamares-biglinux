@@ -1,0 +1,240 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Перевірка файлу:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Перевірка на помилки в завантаженні або USB-накопичувачі може зайняти кілька хвилин..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Перевірка справності системи"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Знайдена помилка, заново скачайте систему або скористайтеся іншим USB-накопичувачем."
+
+msgid "Os arquivos estão integros."
+msgstr "Файли інтегровані."
+
+msgid "Verificação cancelada."
+msgstr "Перевірка скасована."
+
+msgid " Continue"
+msgstr " Продовжуй"
+
+msgid " Fechar"
+msgstr " Закрити"
+
+msgid "Instalar o sistema"
+msgstr "Встановлюємо систему"
+
+msgid "Instalar o BigLinux"
+msgstr "Встановіть BigLinux"
+
+msgid "PADRÃO"
+msgstr "ВІЗЕРУНОК"
+
+msgid "DESEMPENHO"
+msgstr "ПРОДУКТИВНІСТЬ"
+
+msgid "COMPATIBILIDADE"
+msgstr "СУМІСНОСТІ"
+
+msgid "Compacta os dados"
+msgstr "Стискає дані"
+
+msgid "Pontos de restauração"
+msgstr "Відновлення контрольних точок"
+
+msgid "Adia a gravação dos dados"
+msgstr "Запис даних desist"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Робота зі старими таблицями розбиття на розділи"
+
+msgid "BTRFS com fsync"
+msgstr "БТРФС з фсинхроном"
+
+msgid "BTRFS sem fsync"
+msgstr "БТРФС без fsync"
+
+msgid "SELECIONAR"
+msgstr "ВИБЕРІТЬ"
+
+msgid "Instalar no HD"
+msgstr "Установка на HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Не використовуйте /boot окремо"
+
+msgid "O sistema está em modo"
+msgstr "Система знаходиться в"
+
+msgid "e com o kernel"
+msgstr "і з ядром"
+
+msgid "Deseja prosseguir com com a instalação em modo EFI?"
+msgstr "Ви хочете продовжити встановлення в режимі EFI?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
+"partição EFI neste computador.\n"
+"\n"
+"Se este computador já possui outro sistema instalado e você pretende \n"
+"que ele permaneça instalado, provavelmente será necessário alterar a \n"
+"configuração na BIOS para fazer boot em modo Legacy, também \n"
+"chamado de modo BIOS."
+msgstr ""
+"Поточне завантаження використовується <span color='#CC2222'>в режимі EFI</span>, але я не знайшов "
+"жодного \n"
+"Розділ EFI на цьому комп'ютері.\n"
+"\n"
+"Якщо на цьому комп'ютері вже встановлена інша система і ви маєте намір \n"
+"щоб він залишався встановленим, вам, ймовірно, потрібно буде змінити \n"
+"настройка в BIOS для завантаження в Legacy режимі, також \n"
+"називається режимом BIOS."
+
+msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
+msgstr "Ви хочете продовжити встановлення в режимі Legacy/BIOS?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
+"menos uma partição EFI neste computador. \n"
+"\n"
+"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
+"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
+msgstr ""
+"Поточне завантаження використовується в <span color='#CC2222'>режимі Legacy/BIOS, але</span> я "
+"знайшов по \n"
+"принаймні один розділ EFI на цьому комп'ютері. \n"
+"\n"
+"Щоб установка пройшла успішно, ймовірно, вам потрібно буде \n"
+"змінити настройку в BIOS для завантаження в режим EFI або UEFI."
+
+msgid "PERSONALIZADA"
+msgstr "НЕСТАНДАРТНИЙ"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "ПІДТВЕРДЬТЕ ТА ПРОДОВЖУЙТЕ ІНСТАЛЯЦІЮ"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "ВИБЕРІТЬ РОБОЧИЙ СТІЛ"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "ІНСТАЛЮВАТИ З МЕНШОЮ КІЛЬКІСТЮ ПРОГРАМ АБО ВИКОРИСТОВУВАТИ ІНШИЙ РОБОЧИЙ СТІЛ?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Для установки іншого робочого столу потрібно буде завантажити при установці, час установки буде "
+"залежати від швидкості інтернету."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "ДІЙСНО ХОЧЕТЕ ВСТАНОВИТИ ІНШИЙ РОБОЧИЙ СТІЛ?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux був розроблений і протестований на його стандартній установці, інші настільні комп'ютери "
+"підтримуються користувачами спільноти BigLinux і мають менше налаштувань і тестів, дійсно хочете "
+"продовжити?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "МЕНШЕ ПРОГРАМ"
+
+msgid "OUTROS DESKTOPS"
+msgstr "ІНШІ НАСТІЛЬНІ КОМП'ЮТЕРИ"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "ФАКТИЧНО ВИКОРИСТОВУЙТЕ ІНШИЙ РОБОЧИЙ СТІЛ"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Якщо сумніваєтеся зробити стандартну установку, призначені для користувача опції повинні "
+"використовуватися тільки досвідченими користувачами."
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "ПОВЕРНІТЬСЯ НАЗАД І СКОРИСТАЙТЕСЯ СТАНДАРТНОЮ УСТАНОВКОЮ"
+
+msgid "Personalizar a instalação:"
+msgstr "Налаштуйте установку:"
+
+msgid "INSTALAR"
+msgstr "ІНСТАЛЮВАТИ"
+
+msgid "DESKTOP"
+msgstr "НАСТІЛЬНИЙ"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "ЯКІ ПАКЕТИ ВИ НЕ ХОЧЕТЕ В СИСТЕМІ?"
+
+msgid "Selecionar todos"
+msgstr "Виділити всі"
+
+msgid "Desmarcar todos"
+msgstr "Зняти прапорець для всіх"
+
+msgid "Deepin"
+msgstr "Діпін"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "Вважаються одними з найкрасивіших настільних комп'ютерів, що є."
+
+msgid "Ukui"
+msgstr "Укуй"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr "Робочий стіл створений для китайської публіки, але який стає популярним і в інших країнах."
+
+msgid "Gnome"
+msgstr "Гном"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "Один з найбільш широко використовуваних настільних комп'ютерів у світі Linux."
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "Настільне середовище утворилося в результаті злиття lxde і бритви-qt проектів."
+
+msgid "CuteFish"
+msgstr "симпатичні рибки"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "Настільна обстановка орієнтована на простоту, красу і практичність."
+
+msgid "MATE"
+msgstr "МАТЕ"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "Інтуїтивно зрозуміле та привабливе середовище робочого столу є продовженням GNOME 2."
+
+msgid "XFCE"
+msgstr "XFCE"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "Легке та швидке середовище робочого столу."
+
+msgid "Cinnamon"
+msgstr "Кориця"

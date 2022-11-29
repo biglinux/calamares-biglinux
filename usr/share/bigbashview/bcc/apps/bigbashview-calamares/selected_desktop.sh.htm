@@ -1,0 +1,116 @@
+#!/bin/bash
+##################################
+#  Author1: Bruno Goncalves (www.biglinux.com.br) 
+#  Author2: Rafael Ruscher (rruscher@gmail.com)  
+#  Date:    2022/02/28 
+#  Modified:2022/08/05 
+#  
+#  Description: Calamares modified usage of BigLinux 
+#  
+# Licensed by GPL V2 or greater
+##################################
+
+#Translation
+LANGUAGE=$LANG:en
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=calamares-biglinux
+
+DEFAULT=$"PADRÃO"
+CUSTOM=$"PERSONALIZADA"
+CONFIRM_AND_INSTALL=$"CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+DEFAULT_OR_CUSTOM_TITLE=$"ESCOLHA O DESKTOP"
+CUSTOM_OR_MINIMAL=$"INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+CUSTOM_OR_MINIMAL_DESC=$"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de instalação vai depender da velocidade da internet."
+SECOND_CONFIRM_CUSTOM=$"REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+SECOND_CONFIRM_CUSTOM_DESC=$"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente prosseguir?"
+LESS_PKGS=$"MENOS PROGRAMAS"
+OTHER_DESKTOP=$"OUTROS DESKTOPS"
+OTHER_DESKTOP_CONFIRM=$"UTILIZAR REALMENTE OUTRO DESKTOP"
+DEFAULT_OR_CUSTOM_TITLE_DESC=$"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por usuários experientes."
+BACK_DEFAULT=$"VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+SELECT=$"SELECIONAR"
+CUSTOM_PKGS=$"Personalizar a instalação:"
+
+cat << EOF
+<head>
+  <meta charset="UTF-8">
+  <title>$TITLE</title>
+  <script src="/usr/share/bigbashview/bcc/materialize/js/jquery.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+EOF
+
+# Get body tag with color light or not
+/usr/share/bigbashview/bcc/shell/getbgcolor.sh
+
+cat <<EOF
+<div class="dark-light">
+    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+    </svg>
+</div>
+EOF
+
+echo '<div class=info>'
+echo $"O sistema está em modo"
+echo '<strong>'
+[ -d /sys/firmware/efi ] && echo ' UEFI' || echo ' BIOS (Legacy)'
+echo '</strong>'
+echo $"e com o kernel" 
+echo '<strong>'
+echo "$(uname -r | cut -f1 -d-)" 
+echo '</strong>'
+echo '</div>'
+
+cat << EOF
+
+  <div class="container" style="display: grid;"> 
+    <div class="panel calamares-big-table"> 
+      <div class="calamares-big-plan" id=customSystem>
+        <h3 class="calamares-big-header" style="text-transform: uppercase;">$desktop_selected</h3>
+        <h3 class="calamares-big-header">$CUSTOM_PKGS</h3>
+        <div class="p"></div>
+        
+EOF
+
+
+
+. desktops/${desktop_selected}/desc.sh
+
+echo '<form action=wait.sh.htm>'
+echo '<input type="hidden" id="use_custom_desktop" name="use_custom_desktop" value="yes">'
+echo "<input type=\"hidden\" id=\"option\" name=\"option\" value=\"$option\">"
+echo "<div class=desktop_content>"
+echo "<h3 class="calamares-big-header">Pacotes para instalar:</h3>"
+echo '<br><textarea id="install_packages" name="install_packages">'
+cat desktops/${desktop_selected}/pkginstall.txt
+echo '</textarea></div>'
+
+echo "<div class=desktop_content>"
+echo "<h3 class="calamares-big-header">Pacotes para remover:</h3>"
+echo '<br><textarea id="remove_packages" name="remove_packages">'
+cat desktops/${desktop_selected}/pkgremove.txt
+echo '</textarea></div>'
+
+echo "<div class=desktop_content>"
+echo "<h3 class="calamares-big-header">Gerenciador de login:</h3>"
+
+echo "<br><input type=\"text\" id=\"login_manager\" name=\"login_manager\" value=\"$(cat desktops/${desktop_selected}/login.txt)\"></div>"
+
+  
+
+cat << EOF
+        <input type="submit" class="calamares-big-button" value="$CONFIRM_AND_INSTALL">
+<br><br>
+<a href="desktop.sh.htm?option=$option" class="calamares-big-button is-featured">$BACK_DEFAULT</a>
+
+      </div>
+    </div>
+  </div>
+  <div class="logo">
+      <img id="btn-big" src="logo.svg" class="logo-biglinux">
+  </div>
+<script  src="./script.js"></script>
+</body>
+</html>
+EOF

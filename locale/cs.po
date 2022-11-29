@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Kontrola souboru:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Kontrola chyb ve stahování nebo USB flash disku může trvat několik minut ..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Kontrola stavu systému"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Chyba nalezena, znovu stáhněte systém nebo použijte jiný USB flash disk."
+
+msgid "Os arquivos estão integros."
+msgstr "Soubory jsou integrovány."
+
+msgid "Verificação cancelada."
+msgstr "Kontrola byla zrušena."
+
+msgid " Continue"
+msgstr " Tak do toho"
+
+msgid " Fechar"
+msgstr " Zavřít"
+
+msgid "Instalar o sistema"
+msgstr "Instalace systému"
+
+msgid "Instalar o BigLinux"
+msgstr "Instalace BigLinuxu"
+
+msgid "PADRÃO"
+msgstr "VZOR"
+
+msgid "DESEMPENHO"
+msgstr "PŘEDSTAVENÍ"
+
+msgid "COMPATIBILIDADE"
+msgstr "KOMPATIBILITA"
+
+msgid "Compacta os dados"
+msgstr "Komprimuje data"
+
+msgid "Pontos de restauração"
+msgstr "Body obnovení"
+
+msgid "Adia a gravação dos dados"
+msgstr "Upuštění od zaznamenávání dat"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Pracuje se starými dělícími tabulkami"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS s fsync"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS bez fsync"
+
+msgid "SELECIONAR"
+msgstr "VYBRAT"
+
+msgid "Instalar no HD"
+msgstr "Instalace na HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Nepoužívejte /boot samostatně"
+
+msgid "O sistema está em modo"
+msgstr "Systém je v"
+
+msgid "e com o kernel"
+msgstr "a s jádrem"
+
+msgid "Deseja prosseguir com com a instalação em modo EFI?"
+msgstr "Chcete pokračovat v instalaci v režimu EFI?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
+"partição EFI neste computador.\n"
+"\n"
+"Se este computador já possui outro sistema instalado e você pretende \n"
+"que ele permaneça instalado, provavelmente será necessário alterar a \n"
+"configuração na BIOS para fazer boot em modo Legacy, também \n"
+"chamado de modo BIOS."
+msgstr ""
+"Aktuální boot používá <span color='#CC2222'>režim EFI</span>, ale nenašel jsem žádný \n"
+"Oddíl EFI v tomto počítači.\n"
+"\n"
+"Pokud je v tomto počítači již nainstalován jiný systém a vy jej hodláte \n"
+"že zůstane nainstalován, budete pravděpodobně muset změnit \n"
+"konfigurace v systému BIOS pro spuštění v režimu Legacy, také \n"
+"nazývaný režim BIOS."
+
+msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
+msgstr "Chcete pokračovat v instalaci v režimu Legacy/BIOS?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
+"menos uma partição EFI neste computador. \n"
+"\n"
+"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
+"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
+msgstr ""
+"Aktuální boot používá <span color='#CC2222'>režim Legacy/BIOS, ale</span> našel jsem ho \n"
+"alespoň jeden oddíl EFI v tomto počítači. \n"
+"\n"
+"Aby byla instalace úspěšná, budete pravděpodobně muset \n"
+"změňte nastavení v systému BIOS tak, aby se spustilo do režimu EFI nebo UEFI."
+
+msgid "PERSONALIZADA"
+msgstr "ZVYK"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "POTVRĎTE A POKRAČUJTE V INSTALACI"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "ZVOLTE STOLNÍ POČÍTAČ"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "INSTALOVAT S MENŠÍM POČTEM PROGRAMŮ NEBO POUŽÍVAT JINOU PLOCHU?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Chcete-li nainstalovat další pracovní plochu bude muset stáhnout během instalace, doba instalace "
+"bude záviset na rychlosti internetu."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "OPRAVDU CHCETE NAINSTALOVAT DALŠÍ PRACOVNÍ PLOCHU?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux byl navržen a testován na své standardní instalaci, ostatní desktopy jsou udržovány "
+"uživateli komunity BigLinux a mají méně úprav a testů, opravdu chcete pokračovat?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "MÉNĚ PROGRAMŮ"
+
+msgid "OUTROS DESKTOPS"
+msgstr "OSTATNÍ STOLNÍ POČÍTAČE"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "VE SKUTEČNOSTI POUŽIJTE JINOU PRACOVNÍ PLOCHU"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"V případě pochybností proveďte standardní instalaci, vlastní možnosti by měly být používány pouze "
+"zkušenými uživateli."
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "ZPĚT A POUŽIJTE STANDARDNÍ INSTALACI"
+
+msgid "Personalizar a instalação:"
+msgstr "Přizpůsobení instalace:"
+
+msgid "INSTALAR"
+msgstr "NAINSTALOVAT"
+
+msgid "DESKTOP"
+msgstr "PLOCHA"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "JAKÉ BALÍČKY V SYSTÉMU NECHCETE?"
+
+msgid "Selecionar todos"
+msgstr "Vybrat vše"
+
+msgid "Desmarcar todos"
+msgstr "Zrušte zaškrtnutí všech"
+
+msgid "Deepin"
+msgstr "Hluboký"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "Považován za jeden z nejkrásnějších stolních počítačů."
+
+msgid "Ukui"
+msgstr "Ukui"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr "Desktop vytvořený pro čínskou veřejnost, ale který se stává populární v jiných zemích."
+
+msgid "Gnome"
+msgstr "Skřítek"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "Jeden z nejpoužívanějších desktopů ve světě Linuxu."
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "Desktopové prostředí vzniklo sloučením projektů lxde a razor-qt."
+
+msgid "CuteFish"
+msgstr "Roztomilá ryba"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "Desktopové prostředí zaměřené na jednoduchost, krásu a praktičnost."
+
+msgid "MATE"
+msgstr "KAMARÁD"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "Intuitivní a atraktivní pracovní prostředí je pokračováním GNOME 2."
+
+msgid "XFCE"
+msgstr "XFCE"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "Lehké a rychlé desktopové prostředí."
+
+msgid "Cinnamon"
+msgstr "Skořice"

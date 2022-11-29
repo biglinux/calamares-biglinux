@@ -1,0 +1,5 @@
+xfce4
+xfce4-goodies
+lightdm
+libpamac-flatpak-plugin
+brave-browser

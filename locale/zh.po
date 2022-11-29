@@ -1,0 +1,231 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "检查文件："
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "检查下载或USB记忆棒中的错误，可能需要几分钟..."
+
+msgid "Verificando integridade do sistema"
+msgstr "检查系统运行状况"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "发现错误，请重新下载系统或使用另一个USB记忆棒。"
+
+msgid "Os arquivos estão integros."
+msgstr "文件已集成。"
+
+msgid "Verificação cancelada."
+msgstr "检查已取消。"
+
+msgid " Continue"
+msgstr " 继续"
+
+msgid " Fechar"
+msgstr " 关闭"
+
+msgid "Instalar o sistema"
+msgstr "安装系统"
+
+msgid "Instalar o BigLinux"
+msgstr "安装 BigLinux"
+
+msgid "PADRÃO"
+msgstr "模式"
+
+msgid "DESEMPENHO"
+msgstr "性能"
+
+msgid "COMPATIBILIDADE"
+msgstr "兼容性"
+
+msgid "Compacta os dados"
+msgstr "压缩数据"
+
+msgid "Pontos de restauração"
+msgstr "还原点"
+
+msgid "Adia a gravação dos dados"
+msgstr "停止数据记录"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "适用于旧的分区表"
+
+msgid "BTRFS com fsync"
+msgstr "带同步的 BTRFS"
+
+msgid "BTRFS sem fsync"
+msgstr "不带同步的 BTRFS"
+
+msgid "SELECIONAR"
+msgstr "选择"
+
+msgid "Instalar no HD"
+msgstr "在 HD 上安装"
+
+msgid "* Não utilize /boot separado"
+msgstr "* 请勿单独使用 /boot"
+
+msgid "O sistema está em modo"
+msgstr "系统位于"
+
+msgid "e com o kernel"
+msgstr "和内核"
+
+msgid "Deseja prosseguir com com a instalação em modo EFI?"
+msgstr "是否要在 EFI 模式下继续安装？"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
+"partição EFI neste computador.\n"
+"\n"
+"Se este computador já possui outro sistema instalado e você pretende \n"
+"que ele permaneça instalado, provavelmente será necessário alterar a \n"
+"configuração na BIOS para fazer boot em modo Legacy, também \n"
+"chamado de modo BIOS."
+msgstr ""
+"当前启动正在使用 <span color='#CC2222'>EFI 模式</span>，但我没有找到任何\n"
+"此计算机上的 EFI 分区。\n"
+"\n"
+"如果此计算机已安装其他系统，并且您打算\n"
+"它保持已安装状态，您可能需要更改\n"
+"在 BIOS 中进行配置以在传统模式下启动，并且\n"
+"称为 BIOS 模式。"
+
+msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
+msgstr "是否要在传统/BIOS 模式下继续安装？"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
+"menos uma partição EFI neste computador. \n"
+"\n"
+"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
+"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
+msgstr ""
+"当前启动正在使用 <span color='#CC2222'>传统/BIOS 模式，但我</span>发现\n"
+"此计算机上至少有一个 EFI 分区。\n"
+"\n"
+"要使安装成功，您可能需要\n"
+"更改 BIOS 中的设置以启动到 EFI 或 UEFI 模式。"
+
+msgid "PERSONALIZADA"
+msgstr "习惯"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "确认并继续安装"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "选择桌面"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "使用较少的程序安装或使用其他桌面？"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr "要安装另一个桌面，需要在安装过程中下载，安装时间将取决于互联网的速度。"
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "确实要安装另一个桌面？"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr "BigLinux 已经在其标准安装上进行了设计和测试，其他桌面由 BigLinux 社区的用户维护，并且自定义和测试较少，真的想继续吗？"
+
+msgid "MENOS PROGRAMAS"
+msgstr "更少的程序"
+
+msgid "OUTROS DESKTOPS"
+msgstr "其他桌面"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "实际使用其他桌面"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr "如果有疑问，请执行标准安装，自定义选项应仅由有经验的用户使用。"
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "返回并使用标准安装"
+
+msgid "Personalizar a instalação:"
+msgstr "自定义安装："
+
+msgid "INSTALAR"
+msgstr "安装"
+
+msgid "DESKTOP"
+msgstr "桌面"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "您不希望系统中出现哪些软件包？"
+
+msgid "Selecionar todos"
+msgstr "全选"
+
+msgid "Desmarcar todos"
+msgstr "取消选中全部"
+
+msgid "Deepin"
+msgstr "深度操作系统"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "被认为是最漂亮的桌面之一。"
+
+msgid "Ukui"
+msgstr "乌奎"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr "桌面是为中国公众创建的，但在其他国家越来越受欢迎。"
+
+msgid "Gnome"
+msgstr "侏儒"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "Linux 世界中使用最广泛的桌面之一。"
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "由 lxde 和 razor-qt 项目合并而成的桌面环境。"
+
+msgid "CuteFish"
+msgstr "可爱的鱼"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "桌面环境专注于简单、美观和实用。"
+
+msgid "MATE"
+msgstr "伴侣"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "直观而有吸引力的桌面环境是GNOME 2的延续。"
+
+msgid "XFCE"
+msgstr "XFCE"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "轻量级和快速的桌面环境。"
+
+msgid "Cinnamon"
+msgstr "肉桂"

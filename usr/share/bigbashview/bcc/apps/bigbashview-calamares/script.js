@@ -147,4 +147,76 @@ toggleButton.addEventListener("click", () => {
 
 
 
+//show the confirmation div
+  function customInstall() {
+    document.getElementById("confirm").hidden=false
+    document.getElementById("customSystem").hidden=true
+  }
 
+  function customInstallConfirm() {
+    document.getElementById("installConfirm").hidden=false
+    document.getElementById("customSystem").hidden=true
+    document.getElementById("confirm").hidden=true
+  }
+
+  
+  //hide the confirmation div
+  function confirmNo() {
+    document.getElementById("confirm").hidden=true
+    document.getElementById("installConfirm").hidden=true
+    document.getElementById("customSystem").hidden=false
+  }
+
+// Select all checkbox
+function selects(){  
+    var ele=document.getElementsByName('pkg_rm');  
+    for(var i=0; i<ele.length; i++){  
+        if(ele[i].type=='checkbox')  
+            ele[i].checked=true;  
+    }  
+}  
+function deSelect(){  
+    var ele=document.getElementsByName('pkg_rm');  
+    for(var i=0; i<ele.length; i++){  
+        if(ele[i].type=='checkbox')  
+            ele[i].checked=false;  
+          
+    }  
+}   
+
+//Other desktop
+popup = {
+  init: function(){
+    $('figure').click(function(){
+      popup.open($(this));
+    });
+    
+    $(document).on('click', '.popup img', function(){
+      return false;
+    }).on('click', '.popup', function(){
+      popup.close();
+    })
+  },
+  open: function($figure) {
+    $('.gallery').addClass('pop');
+    $popup = $('<div class="popup" />').appendTo($('body'));
+    $fig = $figure.clone().appendTo($('.popup'));
+    $bg = $('<div class="bg" />').appendTo($('.popup'));
+    $close = $('<div class="close"><svg><use xlink:href="#close"></use></svg></div>').appendTo($fig);
+    $shadow = $('<div class="shadow" />').appendTo($fig);
+    src = $('img', $fig).attr('src');
+    $shadow.css({backgroundImage: 'url(' + src + ')'});
+    $bg.css({backgroundImage: 'url(' + src + ')'});
+    setTimeout(function(){
+      $('.popup').addClass('pop');
+    }, 10);
+  },
+  close: function(){
+    $('.gallery, .popup').removeClass('pop');
+    setTimeout(function(){
+      $('.popup').remove()
+    }, 100);
+  }
+}
+
+popup.init()

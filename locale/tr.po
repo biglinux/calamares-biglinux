@@ -1,0 +1,239 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Dosyayı kontrol etme:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "İndirme veya USB bellekteki hataları kontrol etmek, birkaç dakika sürebilir ..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Sistem durumunu denetleme"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Hata bulundu, sistemi yeniden indirin veya başka bir USB bellek kullanın."
+
+msgid "Os arquivos estão integros."
+msgstr "Dosyalar entegredir."
+
+msgid "Verificação cancelada."
+msgstr "Kontrol iptal edildi."
+
+msgid " Continue"
+msgstr " Devam et"
+
+msgid " Fechar"
+msgstr " Kapatmak"
+
+msgid "Instalar o sistema"
+msgstr "Sistemi kurun"
+
+msgid "Instalar o BigLinux"
+msgstr "BigLinux'u yükleyin"
+
+msgid "PADRÃO"
+msgstr "DESEN"
+
+msgid "DESEMPENHO"
+msgstr "PERFORMANS"
+
+msgid "COMPATIBILIDADE"
+msgstr "UYUMLULUK"
+
+msgid "Compacta os dados"
+msgstr "Verileri sıkıştırır"
+
+msgid "Pontos de restauração"
+msgstr "Geri yükleme noktaları"
+
+msgid "Adia a gravação dos dados"
+msgstr "Desist veri kaydı"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Eski bölümleme tablolarıyla çalışır"
+
+msgid "BTRFS com fsync"
+msgstr "Fsync ile BTRFS"
+
+msgid "BTRFS sem fsync"
+msgstr "Fsync olmadan BTRFS"
+
+msgid "SELECIONAR"
+msgstr "SEÇMEK"
+
+msgid "Instalar no HD"
+msgstr "HD'ye yükleyin"
+
+msgid "* Não utilize /boot separado"
+msgstr "* /boot komutunu ayrı ayrı kullanmayın"
+
+msgid "O sistema está em modo"
+msgstr "Sistem şu şekildedir:"
+
+msgid "e com o kernel"
+msgstr "ve çekirdek ile"
+
+msgid "Deseja prosseguir com com a instalação em modo EFI?"
+msgstr "EFI modunda yüklemeye devam etmek istiyor musunuz?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
+"partição EFI neste computador.\n"
+"\n"
+"Se este computador já possui outro sistema instalado e você pretende \n"
+"que ele permaneça instalado, provavelmente será necessário alterar a \n"
+"configuração na BIOS para fazer boot em modo Legacy, também \n"
+"chamado de modo BIOS."
+msgstr ""
+"Geçerli önyükleme <span color='#CC2222'>EFI modunu</span> kullanıyor, ancak herhangi bir şey "
+"bulamadım \n"
+"Bu bilgisayardaki EFI bölümü.\n"
+"\n"
+"Bu bilgisayarda zaten yüklü başka bir sistem varsa ve \n"
+"yüklü olarak kaldığını, muhtemelen \n"
+"Eski modda önyükleme yapmak için BIOS'ta yapılandırma, ayrıca \n"
+"BIOS modu olarak adlandırılır."
+
+msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
+msgstr "Yüklemeye Eski/BIOS modunda devam etmek istiyor musunuz?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
+"menos uma partição EFI neste computador. \n"
+"\n"
+"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
+"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
+msgstr ""
+"Mevcut önyükleme Eski / <span color='#CC2222'>BIOS modunu kullanıyor, ancak</span> \n"
+"Bu bilgisayarda en az bir EFI bölümü. \n"
+"\n"
+"Yüklemenin başarılı olması için, muhtemelen \n"
+"EFI veya UEFI moduna önyükleme yapmak için BIOS'taki ayarı değiştirin."
+
+msgid "PERSONALIZADA"
+msgstr "TÖRE"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "ONAYLAYIN VE YÜKLEMEYE DEVAM EDIN"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "MASAÜSTÜ'NÜ SEÇİN"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "DAHA AZ PROGRAMLA MI YÜKLÜYORSUNUZ YOKSA BAŞKA BIR MASAÜSTÜ MÜ KULLANIYORSUNUZ?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Başka bir masaüstü kurmak için kurulum sırasında indirilmesi gerekecektir, kurulum süresi "
+"internetin hızına bağlı olacaktır."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "GERÇEKTEN BAŞKA BIR MASAÜSTÜ YÜKLEMEK MI ISTIYORSUNUZ?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux standart kurulumunda tasarlanmış ve test edilmiştir, diğer masaüstleri BigLinux "
+"topluluğunun kullanıcıları tarafından korunur ve daha az özelleştirme ve teste sahiptir, gerçekten "
+"devam etmek ister misiniz?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "DAHA AZ PROGRAM"
+
+msgid "OUTROS DESKTOPS"
+msgstr "DİĞER MASAÜSTÜ BİLGİSAYARLARI"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "ASLINDA BAŞKA BIR MASAÜSTÜ KULLANIN"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Standart kurulumdan şüphe ediyorsanız, özel seçenekler yalnızca deneyimli kullanıcılar tarafından "
+"kullanılmalıdır."
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "GERI DÖNÜN VE STANDART YÜKLEMEYI KULLANIN"
+
+msgid "Personalizar a instalação:"
+msgstr "Kurulumu özelleştirme:"
+
+msgid "INSTALAR"
+msgstr "YÜKLEMEK"
+
+msgid "DESKTOP"
+msgstr "MASAÜSTÜ"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "SISTEMDE HANGI PAKETLERI ISTEMIYORSUNUZ?"
+
+msgid "Selecionar todos"
+msgstr "Tümünü seç"
+
+msgid "Desmarcar todos"
+msgstr "Tümünün işaretini kaldır"
+
+msgid "Deepin"
+msgstr "Derin"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "Var olan en güzel masaüstlerinden biri olarak kabul edilir."
+
+msgid "Ukui"
+msgstr "Ukui dili"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr "Çin halkı için yaratılmış, ancak diğer ülkelerde popüler hale gelen masaüstü."
+
+msgid "Gnome"
+msgstr "Gnome"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "Linux dünyasında en yaygın kullanılan masaüstlerinden biri."
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "Lxde ve razor-qt projelerinin birleşmesinden oluşan masaüstü ortamı."
+
+msgid "CuteFish"
+msgstr "Şirin balık"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "Masaüstü ortamı basitlik, güzellik ve pratikliğe odaklanmıştır."
+
+msgid "MATE"
+msgstr "ARKADAŞ"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "Sezgisel ve çekici masaüstü ortamı GNOME 2'nin devamıdır."
+
+msgid "XFCE"
+msgstr "cesaret"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "Hafif ve hızlı masaüstü ortamı."
+
+msgid "Cinnamon"
+msgstr "Tarçın"

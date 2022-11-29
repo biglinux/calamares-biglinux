@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Athugun á skránni:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Að leita að villum í niðurhali eða USB-staf, það getur tekið nokkrar mínútur ..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Athugun á heilsu kerfisins"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Villa fannst, halaðu niður kerfinu aftur eða notaðu annan USB-staf."
+
+msgid "Os arquivos estão integros."
+msgstr "Skrárnar eru samþættar."
+
+msgid "Verificação cancelada."
+msgstr "Ávísun hætt við."
+
+msgid " Continue"
+msgstr " Haltu áfram"
+
+msgid " Fechar"
+msgstr " Loka"
+
+msgid "Instalar o sistema"
+msgstr "Setja upp kerfið"
+
+msgid "Instalar o BigLinux"
+msgstr "Settu upp BigLinux"
+
+msgid "PADRÃO"
+msgstr "MYNSTUR"
+
+msgid "DESEMPENHO"
+msgstr "FRAMKVÆMD"
+
+msgid "COMPATIBILIDADE"
+msgstr "SAMHÆFI"
+
+msgid "Compacta os dados"
+msgstr "Þéttir gögnin"
+
+msgid "Pontos de restauração"
+msgstr "Endurheimta stig"
+
+msgid "Adia a gravação dos dados"
+msgstr "Desist gagnaskráning"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Vinnur með gömul skiptingarborð"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS með fsync"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS án fsync"
+
+msgid "SELECIONAR"
+msgstr "VELJA"
+
+msgid "Instalar no HD"
+msgstr "Setja upp HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Ekki nota / ræsa sérstaklega"
+
+msgid "O sistema está em modo"
+msgstr "Kerfið er í"
+
+msgid "e com o kernel"
+msgstr "og með kjarnanum"
+
+msgid "Deseja prosseguir com com a instalação em modo EFI?"
+msgstr "Viltu halda áfram með uppsetninguna í EFI ham?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
+"partição EFI neste computador.\n"
+"\n"
+"Se este computador já possui outro sistema instalado e você pretende \n"
+"que ele permaneça instalado, provavelmente será necessário alterar a \n"
+"configuração na BIOS para fazer boot em modo Legacy, também \n"
+"chamado de modo BIOS."
+msgstr ""
+"Núverandi stígvél er að nota <span color='#CC2222'>EFI ham</span>, en ég hef ekki fundið neina \n"
+"EFI skipting á þessari tölvu.\n"
+"\n"
+"Ef þessi tölva er þegar með annað kerfi uppsett og þú ætlar að \n"
+"að það sé áfram uppsett þarftu líklega að breyta \n"
+"stillingar í BIOS til að ræsa í Legacy ham, einnig \n"
+"kallast BIOS hamur."
+
+msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
+msgstr "Viltu halda áfram með uppsetninguna í Legacy / BIOS ham?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
+"menos uma partição EFI neste computador. \n"
+"\n"
+"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
+"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
+msgstr ""
+"Núverandi stígvél er að nota <span color='#CC2222'>Legacy / BIOS ham, en</span> ég fann með \n"
+"að minnsta kosti ein EFI skipting á þessari tölvu. \n"
+"\n"
+"Til að uppsetningin nái árangri þarftu líklega að \n"
+"breyttu stillingunni í BIOS til að ræsa í EFI eða UEFI ham."
+
+msgid "PERSONALIZADA"
+msgstr "VENJA"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "STAÐFESTA OG HALDA ÁFRAM MEÐ UPPSETNINGU"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "VELJA SKJÁBORÐ"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "SETJA UPP MEÐ FÆRRI FORRITUM EÐA NOTA ANNAÐ SKJÁBORÐ?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Til að setja upp annað skjáborð þarf að hlaða niður meðan á uppsetningu stendur, uppsetningartíminn "
+"fer eftir hraða internetsins."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "VILTU ÖRUGGLEGA SETJA UPP ANNAÐ SKJÁBORÐ?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux hefur verið hannað og prófað á venjulegri uppsetningu, öðrum skjáborðum er viðhaldið af "
+"notendum BigLinux samfélagsins og hafa færri sérsniðnar og prófanir, viltu virkilega halda áfram?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "FÆRRI FORRIT"
+
+msgid "OUTROS DESKTOPS"
+msgstr "ÖNNUR SKJÁBORÐ"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "NOTA REYNDAR ANNAÐ SKJÁBORÐ"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Ef vafi leikur á venjulegri uppsetningu, ættu sérsniðnir valkostir aðeins að vera notaðir af "
+"reyndum notendum."
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "AFTUR OG NOTAÐU VENJULEGU UPPSETNINGUNA"
+
+msgid "Personalizar a instalação:"
+msgstr "Sérsníða uppsetningu:"
+
+msgid "INSTALAR"
+msgstr "EMBÆTTI"
+
+msgid "DESKTOP"
+msgstr "SKJÁBORÐ"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "HVAÐA PAKKA VILTU EKKI HAFA Í KERFINU?"
+
+msgid "Selecionar todos"
+msgstr "Velja allt"
+
+msgid "Desmarcar todos"
+msgstr "Taktu hakið úr öllu"
+
+msgid "Deepin"
+msgstr "Deepin"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "Talið eitt fallegasta skjáborð sem til eru."
+
+msgid "Ukui"
+msgstr "Ukui"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr "Desktop búið til fyrir kínverska almenning, en sem er að verða vinsæll í öðrum löndum."
+
+msgid "Gnome"
+msgstr "Dvergur"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "Eitt af mest notuðu skjáborðum í Linux heiminum."
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "Skrifborðsumhverfi myndað við samruna lxde og razor-qt verkefna."
+
+msgid "CuteFish"
+msgstr "Sætfiskur"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "Skrifborðsumhverfi lögð áhersla á einfaldleika, fegurð og hagkvæmni."
+
+msgid "MATE"
+msgstr "VINUR"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "Innsæi og aðlaðandi skrifborðsumhverfi er framhald GNOME 2."
+
+msgid "XFCE"
+msgstr "XFCE"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "Léttur og fljótur skrifborð umhverfi."
+
+msgid "Cinnamon"
+msgstr "Kanill"

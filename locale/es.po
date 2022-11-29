@@ -1,0 +1,240 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Comprobación del archivo:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Comprobando si hay errores en la descarga o en la memoria USB, puede tardar unos minutos..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Comprobación del estado del sistema"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Error encontrado, vuelva a descargar el sistema o use otra memoria USB."
+
+msgid "Os arquivos estão integros."
+msgstr "Los archivos están integrados."
+
+msgid "Verificação cancelada."
+msgstr "Cheque cancelado."
+
+msgid " Continue"
+msgstr " Sigue"
+
+msgid " Fechar"
+msgstr " Cerrar"
+
+msgid "Instalar o sistema"
+msgstr "Instalar el sistema"
+
+msgid "Instalar o BigLinux"
+msgstr "Instalar BigLinux"
+
+msgid "PADRÃO"
+msgstr "POR DEFECTO"
+
+msgid "DESEMPENHO"
+msgstr "RENDIMIENTO"
+
+msgid "COMPATIBILIDADE"
+msgstr "COMPATIBILIDAD"
+
+msgid "Compacta os dados"
+msgstr "Compacta los datos"
+
+msgid "Pontos de restauração"
+msgstr "Puntos de restauración"
+
+msgid "Adia a gravação dos dados"
+msgstr "Desistir del registro de datos"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Funciona con tablas de particiones antiguas"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS con fsync"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS sin fsync"
+
+msgid "SELECIONAR"
+msgstr "ESCOGER"
+
+msgid "Instalar no HD"
+msgstr "Instalar en HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* No utilice /boot por separado"
+
+msgid "O sistema está em modo"
+msgstr "El sistema está en"
+
+msgid "e com o kernel"
+msgstr "y con el kernel"
+
+msgid "Deseja prosseguir com com a instalação em modo EFI?"
+msgstr "¿Desea continuar con la instalación en modo EFI?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
+"partição EFI neste computador.\n"
+"\n"
+"Se este computador já possui outro sistema instalado e você pretende \n"
+"que ele permaneça instalado, provavelmente será necessário alterar a \n"
+"configuração na BIOS para fazer boot em modo Legacy, também \n"
+"chamado de modo BIOS."
+msgstr ""
+"El arranque actual está utilizando <span color='#CC2222'>el modo EFI</span>, pero no he encontrado "
+"ninguno \n"
+"Partición EFI en este equipo.\n"
+"\n"
+"Si este equipo ya tiene otro sistema instalado y tiene la intención de \n"
+"que permanezca instalado, probablemente tendrá que cambiar el \n"
+"configuración en el BIOS para arrancar en modo heredado, también \n"
+"llamado modo BIOS."
+
+msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
+msgstr "¿Desea continuar con la instalación en modo Legacy/BIOS?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
+"menos uma partição EFI neste computador. \n"
+"\n"
+"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
+"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
+msgstr ""
+"El arranque actual está usando <span color='#CC2222'>el modo Legacy/BIOS, pero</span> lo encontré "
+"por el \n"
+"al menos una partición EFI en este equipo. \n"
+"\n"
+"Para que la instalación sea exitosa, es probable que deba \n"
+"cambie la configuración del BIOS para arrancar en modo EFI o UEFI."
+
+msgid "PERSONALIZADA"
+msgstr "COSTUMBRE"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "CONFIRME Y CONTINÚE CON LA INSTALACIÓN"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "ELIJA ESCRITORIO"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "¿INSTALAR CON MENOS PROGRAMAS O USAR OTRO ESCRITORIO?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Para instalar otro escritorio tendrá que descargar durante la instalación, el tiempo de instalación "
+"dependerá de la velocidad de Internet."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "¿REALMENTE QUIERES INSTALAR OTRO ESCRITORIO?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux ha sido diseñado y probado en su instalación estándar, otros escritorios son mantenidos "
+"por usuarios de la comunidad BigLinux y tienen menos personalizaciones y pruebas, ¿realmente "
+"quieres continuar?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "MENOS PROGRAMAS"
+
+msgid "OUTROS DESKTOPS"
+msgstr "OTROS ESCRITORIOS"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "EN REALIDAD, USE OTRO ESCRITORIO"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"En caso de duda, realice la instalación estándar, las opciones personalizadas deben ser utilizadas "
+"solo por usuarios experimentados."
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "VOLVER Y USAR LA INSTALACIÓN ESTÁNDAR"
+
+msgid "Personalizar a instalação:"
+msgstr "Personalizar la instalación:"
+
+msgid "INSTALAR"
+msgstr "INSTALAR"
+
+msgid "DESKTOP"
+msgstr "ESCRITORIO"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "¿QUÉ PAQUETES NO DESEA EN EL SISTEMA?"
+
+msgid "Selecionar todos"
+msgstr "Seleccionar todo"
+
+msgid "Desmarcar todos"
+msgstr "Desmarcar todo"
+
+msgid "Deepin"
+msgstr "Deepin"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "Considerado uno de los escritorios más bonitos que existen."
+
+msgid "Ukui"
+msgstr "Ukui"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr "Escritorio creado para el público chino, pero que se está popularizando en otros países."
+
+msgid "Gnome"
+msgstr "Gnomo"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "Uno de los escritorios más utilizados en el mundo Linux."
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "Entorno de escritorio formado a partir de la fusión de los proyectos lxde y razor-qt."
+
+msgid "CuteFish"
+msgstr "Lindo pez"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "Entorno de escritorio centrado en la simplicidad, la belleza y la practicidad."
+
+msgid "MATE"
+msgstr "COMPAÑERO"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "El entorno de escritorio intuitivo y atractivo es la continuación de GNOME 2."
+
+msgid "XFCE"
+msgstr "XFCE"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "Entorno de escritorio ligero y rápido."
+
+msgid "Cinnamon"
+msgstr "Canela"

@@ -1,0 +1,233 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "בדיקת הקובץ:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "בדיקת שגיאות בהורדה או במקל USB, זה עשוי לקחת כמה דקות..."
+
+msgid "Verificando integridade do sistema"
+msgstr "בדיקת תקינות המערכת"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "השגיאה שנמצאה, הורד מחדש את המערכת או השתמש במקל USB אחר."
+
+msgid "Os arquivos estão integros."
+msgstr "הקבצים משולבים."
+
+msgid "Verificação cancelada."
+msgstr "הבדיקה בוטלה."
+
+msgid " Continue"
+msgstr " תמשיך"
+
+msgid " Fechar"
+msgstr " קרוב"
+
+msgid "Instalar o sistema"
+msgstr "התקנת המערכת"
+
+msgid "Instalar o BigLinux"
+msgstr "התקן את BigLinux"
+
+msgid "PADRÃO"
+msgstr "תבנית"
+
+msgid "DESEMPENHO"
+msgstr "ביצועים"
+
+msgid "COMPATIBILIDADE"
+msgstr "תאימות"
+
+msgid "Compacta os dados"
+msgstr "דחיסת הנתונים"
+
+msgid "Pontos de restauração"
+msgstr "שחזור נקודות"
+
+msgid "Adia a gravação dos dados"
+msgstr "הקלטת נתונים של Desist"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "עובד עם טבלאות מחיצות ישנות"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS עם fsync"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS ללא fsync"
+
+msgid "SELECIONAR"
+msgstr "בחר"
+
+msgid "Instalar no HD"
+msgstr "התקנה ב-HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* אין להשתמש /לאתחל בנפרד"
+
+msgid "O sistema está em modo"
+msgstr "המערכת נמצאת ב"
+
+msgid "e com o kernel"
+msgstr "ועם הגרעין"
+
+msgid "Deseja prosseguir com com a instalação em modo EFI?"
+msgstr "האם ברצונך להמשיך בהתקנה במצב EFI?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
+"partição EFI neste computador.\n"
+"\n"
+"Se este computador já possui outro sistema instalado e você pretende \n"
+"que ele permaneça instalado, provavelmente será necessário alterar a \n"
+"configuração na BIOS para fazer boot em modo Legacy, também \n"
+"chamado de modo BIOS."
+msgstr ""
+"האתחול הנוכחי משתמש <span color='#CC2222'>במצב EFI</span>, אך לא מצאתי \n"
+"מחיצת EFI במחשב זה.\n"
+"\n"
+"אם במחשב זה כבר מותקנת מערכת אחרת ואתה מתכוון \n"
+"שהוא נשאר מותקן, כנראה שתצטרך לשנות את \n"
+"תצורה ב- BIOS לאתחול במצב מדור קודם, גם \n"
+"נקרא מצב BIOS."
+
+msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
+msgstr "האם ברצונך להמשיך בהתקנה במצב מדור קודם/BIOS?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
+"menos uma partição EFI neste computador. \n"
+"\n"
+"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
+"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
+msgstr ""
+"האתחול הנוכחי משתמש <span color='#CC2222'>במצב מדור קודם/BIOS, אך</span> מצאתי לפי \n"
+"לפחות מחיצת EFI אחת במחשב זה. \n"
+"\n"
+"כדי שההתקנה תצליח, כנראה שתצטרכו \n"
+"שנה את ההגדרה ב- BIOS כדי לאתחל למצב EFI או UEFI."
+
+msgid "PERSONALIZADA"
+msgstr "מנהג"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "אשר והמשך בהתקנה"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "בחר שולחן עבודה"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "להתקין עם פחות תוכניות או להשתמש בשולחן עבודה אחר?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr "כדי להתקין שולחן עבודה אחר יצטרך להוריד במהלך ההתקנה, זמן ההתקנה יהיה תלוי במהירות האינטרנט."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "באמת רוצה להתקין שולחן עבודה אחר?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux תוכנן ונבדק על ההתקנה הסטנדרטית שלו, שולחנות עבודה אחרים מתוחזקים על ידי משתמשים של קהילת "
+"BigLinux ויש להם פחות התאמות אישיות ובדיקות, באמת רוצה להמשיך?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "פחות תוכניות"
+
+msgid "OUTROS DESKTOPS"
+msgstr "מחשבים שולחניים אחרים"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "למעשה השתמש בשולחן עבודה אחר"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr "אם יש ספק לבצע את ההתקנה הרגילה, אפשרויות מותאמות אישית יש להשתמש רק על ידי משתמשים מנוסים."
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "חזור והשתמש בהתקנה הרגילה"
+
+msgid "Personalizar a instalação:"
+msgstr "התאמה אישית של ההתקנה:"
+
+msgid "INSTALAR"
+msgstr "התקין"
+
+msgid "DESKTOP"
+msgstr "שולחן עבודה"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "אילו חבילות אתה לא רוצה במערכת?"
+
+msgid "Selecionar todos"
+msgstr "בחר הכל"
+
+msgid "Desmarcar todos"
+msgstr "בטל את הסימון של הכל"
+
+msgid "Deepin"
+msgstr "דיפין"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "נחשב לאחד שולחנות העבודה היפים ביותר שיש."
+
+msgid "Ukui"
+msgstr "אוקוי"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr "שולחן העבודה נוצר עבור הציבור הסיני, אבל אשר הופך פופולרי במדינות אחרות."
+
+msgid "Gnome"
+msgstr "גמד"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "אחד השולחנות השולחניים הנפוצים ביותר בעולם הלינוקס."
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "סביבת שולחן העבודה נוצרה ממיזוג של פרויקטים של lxde ו- Razor-qt."
+
+msgid "CuteFish"
+msgstr "דג חמוד"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "סביבת שולחן העבודה התמקדה בפשטות, יופי ופרקטיות."
+
+msgid "MATE"
+msgstr "חבר"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "סביבת שולחן עבודה אינטואיטיבית ואטרקטיבית היא ההמשך של GNOME 2."
+
+msgid "XFCE"
+msgstr "XFCE"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "סביבת שולחן עבודה קלה ומהירה."
+
+msgid "Cinnamon"
+msgstr "קינמון"

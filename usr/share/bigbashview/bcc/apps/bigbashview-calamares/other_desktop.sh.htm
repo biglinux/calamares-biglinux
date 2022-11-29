@@ -1,0 +1,131 @@
+#!/bin/bash
+##################################
+#  Author1: Bruno Goncalves (www.biglinux.com.br) 
+#  Author2: Rafael Ruscher (rruscher@gmail.com)  
+#  Date:    2022/02/28 
+#  Modified:2022/08/05 
+#  
+#  Description: Calamares modified usage of BigLinux 
+#  
+# Licensed by GPL V2 or greater
+##################################
+
+#Translation
+LANGUAGE=$LANG:en
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=calamares-biglinux
+
+DEFAULT_OR_CUSTOM_TITLE=$"ESCOLHA O DESKTOP"
+BACK_DEFAULT=$"VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+INSTALL=$"INSTALAR"
+DESKTOP=$"DESKTOP"
+
+cat << EOF
+<head>
+  <meta charset="UTF-8">
+  <title>$TITLE</title>
+  <script src="/usr/share/bigbashview/bcc/materialize/js/jquery.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+EOF
+
+# Get body tag with color light or not
+/usr/share/bigbashview/bcc/shell/getbgcolor.sh
+
+cat <<EOF
+
+
+
+<div class="dark-light">
+    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+    </svg>
+</div>
+EOF
+
+echo '<div class=info>'
+echo $"O sistema está em modo"
+echo '<strong>'
+[ -d /sys/firmware/efi ] && echo ' UEFI' || echo ' BIOS (Legacy)'
+echo '</strong>'
+echo $"e com o kernel" 
+echo '<strong>'
+echo "$(uname -r | cut -f1 -d-)" 
+echo '</strong>'
+echo '</div>'
+
+cat << EOF
+
+  <!--<div class="container" style="display: grid;"> -->
+  <div class="container"> 
+  
+  
+  
+    <div class="panel calamares-big-table"> 
+      <div class="calamares-big-plan" id=customSystem>
+        <img src="icon-desktop.svg" alt="Desktop" class="calamares-big-img" style="width: 100px;">
+        <h3 class="calamares-big-header">$DEFAULT_OR_CUSTOM_TITLE</h3>
+        <div class="p"></div>
+        
+<div class="gallery">
+EOF
+i=0
+for DESKTOP_NAME  in $(ls desktops); do
+i=$((i+1))
+. desktops/${DESKTOP_NAME}/desc.sh
+cat << EOF          
+  <figure>
+    <img src="desktops/${DESKTOP_NAME}/image.jpg" alt="$DESKTOP_NAME_DESC" />
+    <span class="text">$i. $DESKTOP_NAME_DESC</span>
+    <figcaption>$DESKTOP_NAME_DESC <small>$DESKTOP_INFO_DESC</small>
+      <a href="selected_desktop.sh.htm?option=$option&desktop_selected=${DESKTOP_NAME}" class="calamares-big-button is-featured" style="font-size: 15px;">$INSTALL</a>
+    </figcaption>
+  </figure>
+EOF
+done
+cat << EOF            
+</div>        
+        
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none;">
+  <symbol id="close" viewBox="0 0 18 18">
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M9,0.493C4.302,0.493,0.493,4.302,0.493,9S4.302,17.507,9,17.507
+			S17.507,13.698,17.507,9S13.698,0.493,9,0.493z M12.491,11.491c0.292,0.296,0.292,0.773,0,1.068c-0.293,0.295-0.767,0.295-1.059,0
+			l-2.435-2.457L6.564,12.56c-0.292,0.295-0.766,0.295-1.058,0c-0.292-0.295-0.292-0.772,0-1.068L7.94,9.035L5.435,6.507
+			c-0.292-0.295-0.292-0.773,0-1.068c0.293-0.295,0.766-0.295,1.059,0l2.504,2.528l2.505-2.528c0.292-0.295,0.767-0.295,1.059,0
+			s0.292,0.773,0,1.068l-2.505,2.528L12.491,11.491z"/>
+  </symbol>
+</svg>         
+        
+        
+        
+        
+        
+        
+        
+        
+       
+        
+<!--# EOF
+# 
+# for DESKTOP_NAME  in $(ls desktops); do
+# 
+# . desktops/${DESKTOP_NAME}/desc.sh
+# 
+# #  echo "<a href=\"selected_desktop.sh.htm?option=$option&desktop_selected=${DESKTOP_NAME}\"><div class=desktop_content>"
+# #  echo "<div><div class=desktop_name>$DESKTOP_NAME_DESC</div><div class=desktop_image><img src=\"desktops/${DESKTOP_NAME}/image.jpg\"></div><div class=desktop_desc>$DESKTOP_INFO_DESC</div></div>"
+# #  echo '</a></div>'
+# done
+# 
+# cat << EOF-->
+        <a href="desktop.sh.htm?option=$option" class="calamares-big-button is-featured">$BACK_DEFAULT</a>
+       
+      </div>
+    </div>
+  </div>
+  <div class="logo">
+      <img id="btn-big" src="logo.svg" class="logo-biglinux">
+  </div>
+<script  src="./script.js"></script>
+</body>
+</html>
+EOF

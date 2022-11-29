@@ -4,14 +4,8 @@
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=bigbashview-calamares
  
-# Import BigControlCenter base modules / Importa os módulos básicos do BigControlCenter
- 
  
 touch /tmp/biglinux-wait-install
- 
-#cp -f /calamares/desktop/modules/partition.conf /calamares/desktop/modules/partition.conf-bkp
-#cp -f /calamares/desktop/modules/packages.conf /calamares/desktop/modules/packages.conf-bkp
- 
  
 OIFS=$IFS
 IFS=$'\n'
@@ -32,29 +26,187 @@ fi
  
 if [ "$option" = "ext4" ]; then
     rm -f /tmp/use_disable_fsync
-    rm -f /etc/calamares/modules/partition.conf
+    #rm -f /etc/calamares/modules/partition.conf
+    cp -f /usr/share/bigbashview/bcc/apps/bigbashview-calamares/partition.conf /etc/calamares/modules/partition.conf
+    sed -i 's/defaultFileSystemType.*/defaultFileSystemType: "ext4"/' /etc/calamares/modules/partition.conf
     > /tmp/start_calamares
 fi
 
+if [ "$use_custom_desktop" = "yes" ]; then
+echo '---
+unpack:
+    - source: "/run/miso/bootmnt/manjaro/x86_64/rootfs.sfs"
+      sourcefs: "squashfs"
+      destination: ""' > /etc/calamares/modules/unpackfs.conf
 
-# if [ "$xanmod" != "y" ]; then
-#     for i  in  $(dpkg-query -W --showformat='${Package}\n' | grep xanmod | grep -v xanmod-repository); do
-# 
-#         echo "      - '$i'" >> /calamares/desktop/modules/packages.conf
-# 
-#     done
-# fi
-# 
-# 
-# if [ "$debian" != "y" ]; then
-#     for i  in  $(dpkg-query -W --showformat='${Package}\n' | grep -e linux.*generic -e linux.*common); do
-# 
-#         echo "      - '$i'" >> /calamares/desktop/modules/packages.conf
-# 
-#     done
-# fi
+else
+
+echo '---
+unpack:
+    - source: "/run/miso/bootmnt/manjaro/x86_64/rootfs.sfs"
+      sourcefs: "squashfs"
+      destination: ""
+    - source: "/run/miso/bootmnt/manjaro/x86_64/desktopfs.sfs"
+      sourcefs: "squashfs"
+      destination: ""' > /etc/calamares/modules/unpackfs.conf
+fi
+
+if [ "$use_custom_desktop" = "yes" ]; then
+echo '---
+
+backend: pamac
+
+skip_if_no_internet: false
+update_db: true
+update_system: false
+
+pacman:
+    num_retries: 0
+    disable_download_timeout: false
+    needed_only: false
+
+operations:
+ - install:' > /etc/calamares/modules/packages.conf
+
+    for package  in $install_packages; do
+        echo "   - $package" >> /etc/calamares/modules/packages.conf
+    done
+
+    if [ "$remove_packages" != "" ]; then
+        echo ' - remove:' >> /etc/calamares/modules/packages.conf
+
+        echo '   - --cascade' >> /etc/calamares/modules/packages.conf
+        
+        for package  in $remove_packages; do
+            echo "   - $package" >> /etc/calamares/modules/packages.conf
+        done
+    fi
+fi
+
+
+if [ "$less_pkgs" = "yes" ]; then
+echo '---
+
+backend: pamac
+
+skip_if_no_internet: false
+update_db: false
+update_system: false
+
+pacman:
+    num_retries: 0
+    disable_download_timeout: false
+    needed_only: false
+
+operations:' > /etc/calamares/modules/packages.conf
+
+    if [ "$pkg_rm" != "" ]; then
+        echo ' - remove:' >> /etc/calamares/modules/packages.conf
+        echo "        - --cascade;${pkg_rm}" | sed 's|;|\n        - |g' >> /etc/calamares/modules/packages.conf
+    fi
+fi
+
+ 
+# General configuration
+echo '---
+modules-search: [ local ]
+
+instances:
+  
+- id:       initialize_pacman
+  module:   shellprocess
+  config:   shellprocess_initialize_pacman.conf
+
+- id:       displaymanager_biglinux
+  module:   shellprocess
+  config:   shellprocess_displaymanager_biglinux.conf
+  
+sequence:
+    - show:
+        - welcome
+        - locale
+        - keyboard
+        - partition
+        - users
+        - summary
+    - exec:
+        - partition
+        - mount
+        - unpackfs
+        - networkcfg
+        - machineid
+        - fstab
+        - locale
+        - keyboard' > /etc/calamares/settings.conf
+
+# Change desktop
+if [ "$use_custom_desktop" = "yes" ]; then
+echo '        - shellprocess@initialize_pacman
+        - packages' >> /etc/calamares/settings.conf
+    if [ "$login_manager" != "" ]; then
+        echo '        - shellprocess@displaymanager_biglinux' >> /etc/calamares/settings.conf
+    fi
+fi
+
+# Only remove packages
+if [ "$pkg_rm" != "" ]; then
+echo '        - packages' >> /etc/calamares/settings.conf
+fi
+
+echo '        - localecfg
+        - luksopenswaphookcfg
+        - luksbootkeyfile
+        - initcpiocfg
+        - initcpio
+        - users
+        - displaymanager
+        - mhwdcfg
+        - hwclock
+        - services
+        - grubcfg
+        - grubcfg-fix
+        - bootloader
+        - postcfg
+        - btrfs-fix
+        - umount
+    - show:
+        - finished   
+
+branding: biglinux
+
+prompt-install: true
+
+dont-chroot: false
+oem-setup: false
+disable-cancel: false
+disable-cancel-during-exec: false
+quit-at-end: false' >> /etc/calamares/settings.conf
+
+
+# start keys in pacman
+echo '---
+
+dontChroot: false
+
+script:
+ - "pacman-key --init"
+ - command: "pacman-key --populate archlinux manjaro biglinux"
+   timeout: 1200
+
+i18n:
+ name: "Init pacman-key"' > /etc/calamares/modules/shellprocess_initialize_pacman.conf
  
  
+# Change display manager
+echo "---
+
+dontChroot: false
+
+script:
+ - \"systemctl enable $login_manager\"
+
+i18n:
+ name: \"Enable login manager\"" > /etc/calamares/modules/shellprocess_displaymanager_biglinux.conf
  
 IFS=$OIFS
  

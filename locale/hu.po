@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "A fájl ellenőrzése:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "A letöltési vagy USB-meghajtó hibáinak ellenőrzése eltarthat néhány percig..."
+
+msgid "Verificando integridade do sistema"
+msgstr "A rendszer állapotának ellenőrzése"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Hiba történt, töltse le újra a rendszert, vagy használjon másik USB-meghajtót."
+
+msgid "Os arquivos estão integros."
+msgstr "A fájlok integrálva vannak."
+
+msgid "Verificação cancelada."
+msgstr "Ellenőrzés törölve."
+
+msgid " Continue"
+msgstr " Folytasd"
+
+msgid " Fechar"
+msgstr " Bezár"
+
+msgid "Instalar o sistema"
+msgstr "Telepítse a rendszert"
+
+msgid "Instalar o BigLinux"
+msgstr "Telepítse a BigLinux-ot"
+
+msgid "PADRÃO"
+msgstr "MINTA"
+
+msgid "DESEMPENHO"
+msgstr "TELJESÍTMÉNY"
+
+msgid "COMPATIBILIDADE"
+msgstr "KOMPATIBILITÁS"
+
+msgid "Compacta os dados"
+msgstr "Tömöríti az adatokat"
+
+msgid "Pontos de restauração"
+msgstr "Pontok visszaállítása"
+
+msgid "Adia a gravação dos dados"
+msgstr "Az adatok rögzítésének megszüntetése"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Régi particionálási táblázatokkal működik"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS fsync-kel"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS fsync nélkül"
+
+msgid "SELECIONAR"
+msgstr "KIVÁLASZT"
+
+msgid "Instalar no HD"
+msgstr "Telepítés HD-re"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Ne használja külön a /boot parancsot"
+
+msgid "O sistema está em modo"
+msgstr "A rendszer a"
+
+msgid "e com o kernel"
+msgstr "és a kernellel"
+
+msgid "Deseja prosseguir com com a instalação em modo EFI?"
+msgstr "Szeretné folytatni a telepítést EFI módban?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
+"partição EFI neste computador.\n"
+"\n"
+"Se este computador já possui outro sistema instalado e você pretende \n"
+"que ele permaneça instalado, provavelmente será necessário alterar a \n"
+"configuração na BIOS para fazer boot em modo Legacy, também \n"
+"chamado de modo BIOS."
+msgstr ""
+"A jelenlegi rendszerindítás <span color='#CC2222'>EFI módot</span> használ, de nem találtam ilyet \n"
+"EFI partíció ezen a számítógépen.\n"
+"\n"
+"Ha ezen a számítógépen már telepítve van egy másik rendszer, és a \n"
+"hogy továbbra is telepítve marad, valószínűleg meg kell változtatnia a \n"
+"konfiguráció a BIOS-ban a Legacy módban történő indításhoz, szintén \n"
+"BIOS módnak nevezik."
+
+msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
+msgstr "Szeretné folytatni a telepítést Legacy / BIOS módban?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
+"menos uma partição EFI neste computador. \n"
+"\n"
+"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
+"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
+msgstr ""
+"A jelenlegi rendszerindítás <span color='#CC2222'>Legacy/BIOS módot használ, de</span> a \n"
+"legalább egy EFI partíció ezen a számítógépen. \n"
+"\n"
+"Ahhoz, hogy a telepítés sikeres legyen, valószínűleg \n"
+"módosítsa a BIOS beállítását az EFI vagy UEFI módba való indításhoz."
+
+msgid "PERSONALIZADA"
+msgstr "SZOKÁS"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "ERŐSÍTSE MEG ÉS FOLYTASSA A TELEPÍTÉST"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "VÁLASSZA AZ ASZTALT"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "KEVESEBB PROGRAMMAL TELEPÍT, VAGY MÁSIK ASZTALT HASZNÁL?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Egy másik asztal telepítéséhez a telepítés során le kell tölteni, a telepítési idő az internet "
+"sebességétől függ."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "TÉNYLEG SZERETNE EGY MÁSIK ASZTALT TELEPÍTENI?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"A BigLinuxot a szokásos telepítésén tervezték és tesztelték, más asztali számítógépeket a BigLinux "
+"közösség felhasználói tartanak karban, és kevesebb testreszabással és teszttel rendelkeznek, "
+"valóban folytatni akarják?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "KEVESEBB PROGRAM"
+
+msgid "OUTROS DESKTOPS"
+msgstr "EGYÉB ASZTALI SZÁMÍTÓGÉPEK"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "VALÓJÁBAN HASZNÁLJON MÁSIK ASZTALT"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Ha kétségei vannak a szabványos telepítéssel, az egyéni beállításokat csak tapasztalt felhasználók "
+"használhatják."
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "VISSZA ÉS HASZNÁLJA A SZABVÁNYOS TELEPÍTÉST"
+
+msgid "Personalizar a instalação:"
+msgstr "A telepítés testreszabása:"
+
+msgid "INSTALAR"
+msgstr "FELSZEREL"
+
+msgid "DESKTOP"
+msgstr "ASZTAL"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "MILYEN CSOMAGOKAT NEM SZERETNE A RENDSZERBEN?"
+
+msgid "Selecionar todos"
+msgstr "Az összes kijelölése"
+
+msgid "Desmarcar todos"
+msgstr "Törölje az összes jelölését"
+
+msgid "Deepin"
+msgstr "Mélyben"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "Az egyik legszebb asztali számítógépnek tekintik."
+
+msgid "Ukui"
+msgstr "Ukui"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr "A kínai közönség számára létrehozott asztali számítógép, amely más országokban is népszerűvé válik."
+
+msgid "Gnome"
+msgstr "Manó"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "Az egyik legszélesebb körben használt asztali számítógép a Linux világában."
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "Az lxde és a razor-qt projektek egyesüléséből kialakult asztali környezet."
+
+msgid "CuteFish"
+msgstr "Aranyos hal"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "Az asztali környezet az egyszerűségre, a szépségre és a praktikumra összpontosított."
+
+msgid "MATE"
+msgstr "TÁRS"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "Az intuitív és vonzó asztali környezet a GNOME 2 folytatása."
+
+msgid "XFCE"
+msgstr "XFCE"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "Könnyű és gyors asztali környezet."
+
+msgid "Cinnamon"
+msgstr "Fahéj"

@@ -1,5 +1,24 @@
 #!/bin/bash
 
+#Translation
+LANGUAGE=$LANG:en
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=calamares-biglinux
+
+while [  "$(ps -e | grep biglinux-verify)" != "" ]; do
+    sleep 1
+done
+
+# md5sum
+if [ ! -f "/tmp/checksum_biglinux_ok.html" ]; then
+
+    /usr/bin/biglinux-verify-md5sum
+
+    if [ -f "/tmp/md5sum_big_fail" ]; then
+        exit 1
+    fi
+fi
+
 # disable swap on disk
 for diskswap in $(blkid | grep 'TYPE="swap"' | grep -v zram | cut -f1 -d:)
 do
@@ -58,10 +77,15 @@ sed -i 's|mount_option,|mount_option, "compress-force=zstd,space_cache=v2",|g' /
 # btrfs: defaults,noatime,autodefrag,compress=zstd
 
 
-sed -i 's|btrfs: defaults|btrfs: defaults,noatime,usebackuproot,space_cache=v2,discard=async,autodefrag,compress-force=zstd:2,commit=10|g;s|discard=async|ssd|g' /usr/share/calamares/modules/fstab.conf
+sed -i 's|btrfs: defaults|btrfs: defaults,noatime,space_cache=v2,discard=async,autodefrag,compress-force=zstd:2,commit=10|g' /usr/share/calamares/modules/fstab.conf
+
+#,rescue=all
 
 # Use btrfs for default
 sed -i 's|defaultFileSystemType.*"ext4"|defaultFileSystemType:  "btrfs"|g' /usr/share/calamares/modules/partition.conf
+
+# not disable pacman-init
+# sed -i '/^disable:/,$d' /usr/share/calamares/modules/services.conf
 
 
 echo '
@@ -97,6 +121,13 @@ userShell:       /bin/bash
 passwordRequirements:
     nonempty: true' > /etc/calamares/modules/users.conf
 
+    
+echo '---
+keyrings:
+    - archlinux
+    - manjaro
+    - biglinux' > /etc/calamares/modules/postcfg.conf
+    
 
 sed -i 's|initialSwapChoice: none|initialSwapChoice: small|g' /etc/calamares/modules/partition.conf
 
@@ -155,6 +186,10 @@ touch /etc/calamares/biglinux
 
 fi
 
+#disable pacman-key populate
+sed -i '/init_keyring/s/^/#/' /usr/lib/calamares/modules/postcfg/main.py
+sed -i '/self.populate_keyring/s/^/#/' /usr/lib/calamares/modules/postcfg/main.py
+
 #save EFI partitions
 rm -f /tmp/efi-partitions
 mkdir -p /boot/efi
@@ -168,7 +203,7 @@ else
 fi
 
 
-for i in $(LANG=C fdisk -l | grep -e "EFI System" -e "FAT" | cut -f1 -d" " | grep -v "$DEVICE_LIVE_BOOT")
+for i in $(LANGUAGE=C fdisk -l | grep -e "EFI System" -e "FAT" | cut -f1 -d" " | grep -v "$DEVICE_LIVE_BOOT")
 do
     umount -l /boot/efi
     mount "$i" /boot/efi
@@ -180,6 +215,12 @@ do
 
 done
 
+# Umount partitions
+for i in $(blkid | grep -v 'TYPE="swap"'| grep -v 'TYPE="squashfs"' | grep -v '^/dev/sr0' | cut -f1 -d":")
+do
+    umount "$i"
+done
+
 
 
 # boot EFI without partition EFI
@@ -187,17 +228,20 @@ if [ -d /sys/firmware/efi ] && [ "$(cat /tmp/efi-partitions)" = "" ] ;
 then
 LIVEBOOT=EFI
 PARTITION=LEGACY
-yad --image=drive-harddisk --image-on-top --form --width=500 --height=100 --fixed \
---align=center \
---field="<b>Deseja prosseguir com com a instalação em modo EFI?</b>
-:LBL" \
---text "O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma 
+
+TEXT_01=$"Deseja prosseguir com com a instalação em modo EFI?"
+TEXT_02=$"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma 
 partição EFI neste computador.
 
 Se este computador já possui outro sistema instalado e você pretende 
 que ele permaneça instalado, provavelmente será necessário alterar a 
 configuração na BIOS para fazer boot em modo Legacy, também 
-chamado de modo BIOS.
+chamado de modo BIOS."
+yad --image=drive-harddisk --image-on-top --form --width=500 --height=100 --fixed \
+--align=center \
+--field="<b>$TEXT_01</b>
+:LBL" \
+--text "$TEXT_02
 " \
 --button=$" Fechar"!gtk-cancel:1 \
 --button=$" Continue"!gtk-apply:0 \
@@ -216,15 +260,17 @@ if [ ! -d /sys/firmware/efi ] && [ "$(cat /tmp/efi-partitions)" != "" ] ;
 then
 LIVEBOOT=LEGACY
 PARTITION=EFI
-yad --image=drive-harddisk --image-on-top --form --width=500 --height=100 --fixed \
---align=center \
---field="<b>Deseja prosseguir com com a instalação em modo Legacy/BIOS?</b>
-:LBL" \
---text "O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo 
+TEXT_03=$"Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
+TEXT_04=$"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo 
 menos uma partição EFI neste computador. 
 
 Para que a instalação seja bem sucedida, provavelmente será necessário 
-alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI.
+alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
+yad --image=drive-harddisk --image-on-top --form --width=500 --height=100 --fixed \
+--align=center \
+--field="<b>$TEXT_03</b>
+:LBL" \
+--text "$TEXT_04
 " \
 --button=$" Fechar"!gtk-cancel:1 \
 --button=$" Continue"!gtk-apply:0 \

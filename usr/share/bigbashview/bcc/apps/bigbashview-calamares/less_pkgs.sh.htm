@@ -1,0 +1,116 @@
+#!/bin/bash
+##################################
+#  Author1: Bruno Goncalves (www.biglinux.com.br) 
+#  Author2: Rafael Ruscher (rruscher@gmail.com)  
+#  Date:    2022/02/28 
+#  Modified:2022/08/05 
+#  
+#  Description: Calamares modified usage of BigLinux 
+#  
+# Licensed by GPL V2 or greater
+##################################
+
+#Translation
+LANGUAGE=$LANG:en
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=calamares-biglinux
+
+SELECT_TO_REMOVE=$"QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+DEFAULT=$"PADRÃO"
+CUSTOM=$"PERSONALIZADA"
+DEFAULT_OR_CUSTOM_TITLE=$"ESCOLHA O DESKTOP"
+CUSTOM_OR_MINIMAL=$"INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+CUSTOM_OR_MINIMAL_DESC=$"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de instalação vai depender da velocidade da internet."
+SECOND_CONFIRM_CUSTOM=$"REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+SECOND_CONFIRM_CUSTOM_DESC=$"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente prosseguir?"
+LESS_PKGS=$"MENOS PROGRAMAS"
+OTHER_DESKTOP=$"OUTROS DESKTOPS"
+OTHER_DESKTOP_CONFIRM=$"UTILIZAR REALMENTE OUTRO DESKTOP"
+DEFAULT_OR_CUSTOM_TITLE_DESC=$"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por usuários experientes."
+BACK_DEFAULT=$"VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+SELECT=$"SELECIONAR"
+SELECT_ALL=$"Selecionar todos"
+SELECT_NONE=$"Desmarcar todos"
+CONFIRM_AND_INSTALL=$"CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+
+
+cat << EOF
+<head>
+  <meta charset="UTF-8">
+  <title>$TITLE</title>
+  <script src="/usr/share/bigbashview/bcc/materialize/js/jquery.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+EOF
+
+# Get body tag with color light or not
+/usr/share/bigbashview/bcc/shell/getbgcolor.sh
+
+cat <<EOF
+<div class="dark-light">
+    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+    </svg>
+</div>
+EOF
+
+echo '<div class=info>'
+echo $"O sistema está em modo"
+echo '<strong>'
+[ -d /sys/firmware/efi ] && echo ' UEFI' || echo ' BIOS (Legacy)'
+echo '</strong>'
+echo $"e com o kernel" 
+echo '<strong>'
+echo "$(uname -r | cut -f1 -d-)" 
+echo '</strong>'
+echo '</div>'
+
+cat << EOF
+
+  <div class="container" style="display: grid;"> 
+    <div class="panel calamares-big-table"> 
+      <div class="calamares-big-plan" id=customSystem>
+        <img src="icon-big-hd-install.svg" alt="Install" class="calamares-big-img" style="width: 100px;">
+        <h3 class="calamares-big-header">$SELECT_TO_REMOVE</h3>
+        <div class="p"></div>
+
+        <form action=wait.sh.htm>
+        <input type="hidden" id="less_pkgs" name="less_pkgs" value="yes">
+        <input type="hidden" id="option" name="option" value="$option">
+ 
+        <input  class="calamares-big-button" type="button" onclick='selects()' value="$SELECT_ALL"/>  
+        <input  class="calamares-big-button" type="button" onclick='deSelect()' value="$SELECT_NONE"/>  
+    
+        <h4 style="text-align: center;"></h4>     
+        <div id=checkbox_list class="biglinux-card">
+          <ul>
+EOF
+        
+for pkg_to_remove  in $(cat list_pkgs_remove.txt); do
+
+  pacman -Q $pkg_to_remove &> /dev/null
+
+  if [ "$?" = "0" ]; then
+  
+    echo "<li><input class=\"switch\" type=\"checkbox\" name=\"pkg_rm\" value=\"$pkg_to_remove\" id=\"$pkg_to_remove\"> <label for=\"$pkg_to_remove\">$pkg_to_remove</label></li>"
+  fi
+  
+done
+
+cat << EOF
+        </ul>
+      </div>
+      
+        <input type="submit" class="calamares-big-button" value="$CONFIRM_AND_INSTALL"><br>   
+        <a href="desktop.sh.htm?option=$option" class="calamares-big-button is-featured">$BACK_DEFAULT</a>
+
+      </div>
+    </div>
+  </div>
+  <div class="logo">
+      <img id="btn-big" src="logo.svg" class="logo-biglinux">
+  </div>
+<script  src="./script.js"></script>
+</body>
+</html>
+EOF

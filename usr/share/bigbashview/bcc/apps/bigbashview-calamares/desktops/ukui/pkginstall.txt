@@ -1,0 +1,4 @@
+ukui
+lightdm
+libpamac-flatpak-plugin
+brave-browser

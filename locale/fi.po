@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Tiedoston tarkistaminen:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Latauksen tai USB-tikun virheiden tarkistaminen, se voi kestää muutaman minuutin..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Järjestelmän kunnon tarkistaminen"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Virhe löytyi, lataa järjestelmä uudelleen tai käytä toista USB-tikkua."
+
+msgid "Os arquivos estão integros."
+msgstr "Tiedostot on integroitu."
+
+msgid "Verificação cancelada."
+msgstr "Tarkistus peruutettu."
+
+msgid " Continue"
+msgstr " Jatka"
+
+msgid " Fechar"
+msgstr " Sulkea"
+
+msgid "Instalar o sistema"
+msgstr "Asenna järjestelmä"
+
+msgid "Instalar o BigLinux"
+msgstr "Asenna BigLinux"
+
+msgid "PADRÃO"
+msgstr "KUVIO"
+
+msgid "DESEMPENHO"
+msgstr "SUORITUSKYKY"
+
+msgid "COMPATIBILIDADE"
+msgstr "YHTEENSOPIVUUS"
+
+msgid "Compacta os dados"
+msgstr "Tiivistää tiedot"
+
+msgid "Pontos de restauração"
+msgstr "Palautuspisteet"
+
+msgid "Adia a gravação dos dados"
+msgstr "Tietojen tallennuksen lopettaminen"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Toimii vanhojen osiointitaulukoiden kanssa"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS ja fsync"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS ilman fsynciä"
+
+msgid "SELECIONAR"
+msgstr "VALIKOIDA"
+
+msgid "Instalar no HD"
+msgstr "Asenna HD-levylle"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Älä käytä /boot-toimintoa erikseen"
+
+msgid "O sistema está em modo"
+msgstr "Järjestelmä on käytössä"
+
+msgid "e com o kernel"
+msgstr "ja ytimen kanssa"
+
+msgid "Deseja prosseguir com com a instalação em modo EFI?"
+msgstr "Haluatko jatkaa asennusta EFI-tilassa?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
+"partição EFI neste computador.\n"
+"\n"
+"Se este computador já possui outro sistema instalado e você pretende \n"
+"que ele permaneça instalado, provavelmente será necessário alterar a \n"
+"configuração na BIOS para fazer boot em modo Legacy, também \n"
+"chamado de modo BIOS."
+msgstr ""
+"Nykyinen käynnistys käyttää <span color='#CC2222'>EFI-tilaa</span>, mutta en ole löytänyt mitään \n"
+"EFI-osio tässä tietokoneessa.\n"
+"\n"
+"Jos tässä tietokoneessa on jo toinen järjestelmä asennettuna ja aiot \n"
+"että se pysyy asennettuna, sinun on todennäköisesti vaihdettava \n"
+"BIOSin kokoonpano käynnistää Legacy-tilassa, myös \n"
+"kutsutaan BIOS-tilaksi."
+
+msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
+msgstr "Haluatko jatkaa asennusta Legacy/BIOS-tilassa?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
+"menos uma partição EFI neste computador. \n"
+"\n"
+"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
+"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
+msgstr ""
+"Nykyinen käynnistys käyttää <span color='#CC2222'>Legacy / BIOS-tilaa, mutta</span> löysin sen \n"
+"vähintään yksi EFI-osio tässä tietokoneessa. \n"
+"\n"
+"Jotta asennus onnistuisi, sinun on todennäköisesti \n"
+"muuta BIOSin asetusta käynnistääksesi EFI- tai UEFI-tilaan."
+
+msgid "PERSONALIZADA"
+msgstr "TAPA"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "VAHVISTA JA JATKA ASENNUSTA"
+
+msgid "ESCOLHA O DESKTOP"
+msgstr "VALITSE TYÖPÖYTÄ"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "ASENNATKO VÄHEMMÄN OHJELMIA TAI KÄYTÄTKÖ TOISTA TYÖPÖYTÄÄ?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Jos haluat asentaa toisen työpöydän, se on ladattava asennuksen aikana, asennusaika riippuu "
+"Internetin nopeudesta."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "HALUATKO TODELLA ASENTAA TOISEN TYÖPÖYDÄN?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux on suunniteltu ja testattu sen vakioasennuksessa, muita työpöytiä ylläpitävät "
+"BigLinux-yhteisön käyttäjät ja niillä on vähemmän mukautuksia ja testejä, haluatko todella jatkaa?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "VÄHEMMÄN OHJELMIA"
+
+msgid "OUTROS DESKTOPS"
+msgstr "MUUT TYÖPÖYDÄT"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "KÄYTÄ ITSE ASIASSA TOISTA TYÖPÖYTÄÄ"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Jos olet epävarma, tee vakioasennus, mukautettuja vaihtoehtoja tulisi käyttää vain kokeneilla "
+"käyttäjillä."
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "TAKAISIN JA KÄYTÄ VAKIOASENNUSTA"
+
+msgid "Personalizar a instalação:"
+msgstr "Mukauta asennusta:"
+
+msgid "INSTALAR"
+msgstr "ASENTAA"
+
+msgid "DESKTOP"
+msgstr "TYÖPÖYTÄ"
+
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "MITÄ PAKETTEJA ET HALUA JÄRJESTELMÄÄN?"
+
+msgid "Selecionar todos"
+msgstr "Valitse kaikki"
+
+msgid "Desmarcar todos"
+msgstr "Poista kaikkien valinnat"
+
+msgid "Deepin"
+msgstr "Syvä"
+
+msgid "Considerado um dos desktops mais bonitos que existem."
+msgstr "Pidetään yhtenä kauneimmista työpöydistä."
+
+msgid "Ukui"
+msgstr "Ukui"
+
+msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
+msgstr "Työpöytä on luotu Kiinan yleisölle, mutta josta on tulossa suosittu muissa maissa."
+
+msgid "Gnome"
+msgstr "Maahinen"
+
+msgid "Um dos desktops mais utilizados no mundo Linux."
+msgstr "Yksi yleisimmin käytetyistä työpöydistä Linux-maailmassa."
+
+msgid "LXQt"
+msgstr "LXQt"
+
+msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
+msgstr "Työpöytäympäristö muodostui lxde- ja razor-qt-projektien yhdistämisestä."
+
+msgid "CuteFish"
+msgstr "Söpökala"
+
+msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
+msgstr "Työpöytäympäristö keskittyi yksinkertaisuuteen, kauneuteen ja käytännöllisyyteen."
+
+msgid "MATE"
+msgstr "PERÄMIES"
+
+msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
+msgstr "Intuitiivinen ja houkutteleva työpöytäympäristö on jatkoa GNOME 2:lle."
+
+msgid "XFCE"
+msgstr "XFCE"
+
+msgid "Ambiente desktop leve e rápido."
+msgstr "Kevyt ja nopea työpöytäympäristö."
+
+msgid "Cinnamon"
+msgstr "Kaneli"
