@@ -229,3 +229,21 @@ msgstr "轻量级和快速的桌面环境。"
 
 msgid "Cinnamon"
 msgstr "肉桂"
+
+msgid ""
+"<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>您是否仍要继续安装旧ISO？</b>\n"
+"    ：LBL"
+
+msgid ""
+"Essa ISO foi gerada a mais de 30 dias e já está desatualizada.\\n"
+"Sugerimos fortemente que baixe uma nova ISO e não prossiga com essa instalação!\n"
+"    "
+msgstr ""
+"此 ISO 是在 30 多天前生成的，并且已经过时。\\n"
+"我们强烈建议您下载新的 ISO，不要继续此安装！    "
+
+msgid "ISO Antiga"
+msgstr "古代国际标准化组织"

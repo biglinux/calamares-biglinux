@@ -237,3 +237,21 @@ msgstr "Mediu desktop ușor și rapid."
 
 msgid "Cinnamon"
 msgstr "Scorțișoară"
+
+msgid ""
+"<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Vrei să procedeze cu instalarea ISO vechi oricum?</b>\n"
+"    :LBL"
+
+msgid ""
+"Essa ISO foi gerada a mais de 30 dias e já está desatualizada.\\n"
+"Sugerimos fortemente que baixe uma nova ISO e não prossiga com essa instalação!\n"
+"    "
+msgstr ""
+"Acest ISO a fost generat mai mult de 30 de zile în urmă și este deja depășit.\\n"
+"We sugerează cu tărie că descărcați un nou ISO și nu continuați cu această instalare!    "
+
+msgid "ISO Antiga"
+msgstr "ISO antic"

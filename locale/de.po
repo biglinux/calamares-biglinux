@@ -240,3 +240,22 @@ msgstr "Leichte und schnelle Desktop-Umgebung."
 
 msgid "Cinnamon"
 msgstr "Zimt"
+
+msgid ""
+"<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Möchten Sie trotzdem mit der Installation der alten ISO fortfahren?</b>\n"
+"    :LBL"
+
+msgid ""
+"Essa ISO foi gerada a mais de 30 dias e já está desatualizada.\\n"
+"Sugerimos fortemente que baixe uma nova ISO e não prossiga com essa instalação!\n"
+"    "
+msgstr ""
+"Diese ISO wurde vor mehr als 30 Tagen generiert und ist bereits veraltet.\\n"
+"Wir empfehlen Ihnen dringend, eine neue ISO herunterzuladen und mit dieser Installation nicht "
+"fortzufahren!    "
+
+msgid "ISO Antiga"
+msgstr "Antikes ISO"

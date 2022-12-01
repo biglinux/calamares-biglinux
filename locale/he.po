@@ -231,3 +231,21 @@ msgstr "סביבת שולחן עבודה קלה ומהירה."
 
 msgid "Cinnamon"
 msgstr "קינמון"
+
+msgid ""
+"<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>האם אתה רוצה להמשיך עם התקנת ISO הישן בכל מקרה?</b>\n"
+"    ל.ב.ל.:"
+
+msgid ""
+"Essa ISO foi gerada a mais de 30 dias e já está desatualizada.\\n"
+"Sugerimos fortemente que baixe uma nova ISO e não prossiga com essa instalação!\n"
+"    "
+msgstr ""
+"ISO זה נוצר לפני יותר מ -30 יום והוא כבר מיושן.\\n"
+"אנו ממליצים בחום להוריד ISO חדש ולא להמשיך בהתקנה זו!    "
+
+msgid "ISO Antiga"
+msgstr "ISO עתיק"

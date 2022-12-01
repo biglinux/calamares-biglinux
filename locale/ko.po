@@ -229,3 +229,21 @@ msgstr "가볍고 빠른 데스크탑 환경."
 
 msgid "Cinnamon"
 msgstr "계 피"
+
+msgid ""
+"<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>그래도 이전 ISO 설치를 계속 진행하시겠습니까?</b>\n"
+"    :LBL"
+
+msgid ""
+"Essa ISO foi gerada a mais de 30 dias e já está desatualizada.\\n"
+"Sugerimos fortemente que baixe uma nova ISO e não prossiga com essa instalação!\n"
+"    "
+msgstr ""
+"이 ISO는 생성된 지 30일이 넘었으며 이미 오래되었습니다.\\n"
+"새 ISO를 다운로드하고 이 설치를 진행하지 않는 것이 좋습니다!    "
+
+msgid "ISO Antiga"
+msgstr "고대 ISO"

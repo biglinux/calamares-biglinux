@@ -280,3 +280,20 @@ msgstr  ""
 #
 msgid   "Cinnamon"
 msgstr  ""
+
+#
+msgid   "<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?"
+        "</b>\n"
+        "    :LBL"
+msgstr  ""
+
+#
+msgid   "Essa ISO foi gerada a mais de 30 dias e já está desatualizada."
+        "\\nSugerimos fortemente que baixe uma nova ISO e não prossiga com "
+        "essa instalação!\n"
+        "    "
+msgstr  ""
+
+#
+msgid   "ISO Antiga"
+msgstr  ""

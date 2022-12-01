@@ -238,3 +238,22 @@ msgstr "Lichtgewicht en snelle desktopomgeving."
 
 msgid "Cinnamon"
 msgstr "Kaneel"
+
+msgid ""
+"<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Wil je toch doorgaan met het installeren van de Oude ISO?</b>\n"
+"    :LBL"
+
+msgid ""
+"Essa ISO foi gerada a mais de 30 dias e já está desatualizada.\\n"
+"Sugerimos fortemente que baixe uma nova ISO e não prossiga com essa instalação!\n"
+"    "
+msgstr ""
+"Deze ISO is meer dan 30 dagen geleden gegenereerd en is al verouderd.\\n"
+"We raden u ten zeerste aan een nieuwe ISO te downloaden en niet door te gaan met deze installatie!  "
+"  "
+
+msgid "ISO Antiga"
+msgstr "Oude ISO"

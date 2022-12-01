@@ -231,3 +231,21 @@ msgstr "軽量で高速なデスクトップ環境。"
 
 msgid "Cinnamon"
 msgstr "シナモン"
+
+msgid ""
+"<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>とにかく古いISOのインストールを続行しますか?</b>\n"
+"    :LBL"
+
+msgid ""
+"Essa ISO foi gerada a mais de 30 dias e já está desatualizada.\\n"
+"Sugerimos fortemente que baixe uma nova ISO e não prossiga com essa instalação!\n"
+"    "
+msgstr ""
+"この ISO は 30 日以上前に生成されたもので、すでに古くなっています。\\n"
+"新しい ISO をダウンロードして、このインストールを続行しないことを強くお勧めします。    "
+
+msgid "ISO Antiga"
+msgstr "古代ISO"

@@ -236,3 +236,21 @@ msgstr "Ľahké a rýchle desktopové prostredie."
 
 msgid "Cinnamon"
 msgstr "Škorica"
+
+msgid ""
+"<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Chcete aj tak pokračovať v inštalácii starého ISO?</b>\n"
+"    :LBL"
+
+msgid ""
+"Essa ISO foi gerada a mais de 30 dias e já está desatualizada.\\n"
+"Sugerimos fortemente que baixe uma nova ISO e não prossiga com essa instalação!\n"
+"    "
+msgstr ""
+"Toto ISO bolo vygenerované pred viac ako 30 dňami a je už zastarané.\\n"
+"Dôrazne odporúčame, aby ste si stiahli nové ISO a nepokračovali v tejto inštalácii!    "
+
+msgid "ISO Antiga"
+msgstr "Staroveké ISO"

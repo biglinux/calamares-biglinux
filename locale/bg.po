@@ -236,3 +236,21 @@ msgstr "Лека и бърза десктоп среда."
 
 msgid "Cinnamon"
 msgstr "Канела"
+
+msgid ""
+"<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Искате ли да продължите с инсталирането на стария ISO така или иначе?</b>\n"
+"    :LBL"
+
+msgid ""
+"Essa ISO foi gerada a mais de 30 dias e já está desatualizada.\\n"
+"Sugerimos fortemente que baixe uma nova ISO e não prossiga com essa instalação!\n"
+"    "
+msgstr ""
+"Това ISO е генерирано преди повече от 30 дни и вече е остаряло.\\n"
+"Силно препоръчваме да изтеглите нов ISO и да не продължавате с тази инсталация!    "
+
+msgid "ISO Antiga"
+msgstr "Древен ISO"

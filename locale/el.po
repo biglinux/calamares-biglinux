@@ -238,3 +238,22 @@ msgstr "Ελαφρύ και γρήγορο περιβάλλον επιφάνει
 
 msgid "Cinnamon"
 msgstr "Κανέλα"
+
+msgid ""
+"<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Θέλετε να προχωρήσετε στην εγκατάσταση του Old ISO ούτως ή άλλως;</b>\n"
+"    :ΛΒ"
+
+msgid ""
+"Essa ISO foi gerada a mais de 30 dias e já está desatualizada.\\n"
+"Sugerimos fortemente que baixe uma nova ISO e não prossiga com essa instalação!\n"
+"    "
+msgstr ""
+"Αυτό το ISO δημιουργήθηκε πριν από περισσότερες από 30 ημέρες και είναι ήδη ξεπερασμένο.\\n"
+"Προτείναμε ανεπιφύλακτα να κατεβάσετε ένα νέο ISO και να μην προχωρήσετε σε αυτήν την εγκατάσταση!  "
+"  "
+
+msgid "ISO Antiga"
+msgstr "Αρχαίο ISO"

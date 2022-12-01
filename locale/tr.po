@@ -237,3 +237,21 @@ msgstr "Hafif ve hızlı masaüstü ortamı."
 
 msgid "Cinnamon"
 msgstr "Tarçın"
+
+msgid ""
+"<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Yine de Eski ISO'yu yüklemeye devam etmek istiyor musunuz?</b>\n"
+"    :LBL"
+
+msgid ""
+"Essa ISO foi gerada a mais de 30 dias e já está desatualizada.\\n"
+"Sugerimos fortemente que baixe uma nova ISO e não prossiga com essa instalação!\n"
+"    "
+msgstr ""
+"Bu ISO 30 günden daha uzun bir süre önce oluşturuldu ve zaten modası geçmiş.\\n"
+"Yeni bir ISO indirmenizi ve bu kuruluma devam etmemenizi şiddetle tavsiye ederiz!    "
+
+msgid "ISO Antiga"
+msgstr "Eski ISO"

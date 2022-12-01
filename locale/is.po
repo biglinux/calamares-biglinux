@@ -235,3 +235,21 @@ msgstr "Léttur og fljótur skrifborð umhverfi."
 
 msgid "Cinnamon"
 msgstr "Kanill"
+
+msgid ""
+"<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Viltu samt halda áfram með að setja upp gamla ISO?</b>\n"
+"    :LBL"
+
+msgid ""
+"Essa ISO foi gerada a mais de 30 dias e já está desatualizada.\\n"
+"Sugerimos fortemente que baixe uma nova ISO e não prossiga com essa instalação!\n"
+"    "
+msgstr ""
+"Þessi ISO var búin til fyrir meira en 30 dögum og er þegar gamaldags.\\ nVið mælum eindregið með "
+"því að þú hleður niður nýjum ISO og ekki halda áfram með þessa uppsetningu!    "
+
+msgid "ISO Antiga"
+msgstr "Forn ISO"

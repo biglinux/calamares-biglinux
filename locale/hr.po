@@ -236,3 +236,21 @@ msgstr "Lagano i brzo stolno okruženje."
 
 msgid "Cinnamon"
 msgstr "Cimet"
+
+msgid ""
+"<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Želite li ipak nastaviti s instalacijom Starog ISO-a?</b>\n"
+"    :LBL"
+
+msgid ""
+"Essa ISO foi gerada a mais de 30 dias e já está desatualizada.\\n"
+"Sugerimos fortemente que baixe uma nova ISO e não prossiga com essa instalação!\n"
+"    "
+msgstr ""
+"Ovaj ISO generiran je prije više od 30 dana i već je zastario.\\n"
+"Pomoćno predlažemo da preuzmete novi ISO i ne nastavite s ovom instalacijom!    "
+
+msgid "ISO Antiga"
+msgstr "Drevni ISO"

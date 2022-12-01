@@ -236,3 +236,21 @@ msgstr "Könnyű és gyors asztali környezet."
 
 msgid "Cinnamon"
 msgstr "Fahéj"
+
+msgid ""
+"<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Mindenképpen folytatni szeretné a régi ISO telepítését?</b>\n"
+"    :LBL"
+
+msgid ""
+"Essa ISO foi gerada a mais de 30 dias e já está desatualizada.\\n"
+"Sugerimos fortemente que baixe uma nova ISO e não prossiga com essa instalação!\n"
+"    "
+msgstr ""
+"Ez az ISO több mint 30 napja jött létre, és már elavult.\\n"
+"Erősen javasoljuk, hogy töltsön le egy új ISO-t, és ne folytassa ezt a telepítést!    "
+
+msgid "ISO Antiga"
+msgstr "Ősi ISO"

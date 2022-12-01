@@ -236,3 +236,21 @@ msgstr "Let og hurtigt skrivebordsmiljø."
 
 msgid "Cinnamon"
 msgstr "Kanel"
+
+msgid ""
+"<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Vil du alligevel fortsætte med at installere den gamle ISO?</b>\n"
+"    :LBL"
+
+msgid ""
+"Essa ISO foi gerada a mais de 30 dias e já está desatualizada.\\n"
+"Sugerimos fortemente que baixe uma nova ISO e não prossiga com essa instalação!\n"
+"    "
+msgstr ""
+"Denne ISO blev genereret for mere end 30 dage siden og er allerede forældet.\\n"
+"Vi anbefaler kraftigt, at du downloader en ny ISO og ikke fortsætter med denne installation!    "
+
+msgid "ISO Antiga"
+msgstr "Gamle ISO"

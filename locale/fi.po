@@ -235,3 +235,21 @@ msgstr "Kevyt ja nopea työpöytäympäristö."
 
 msgid "Cinnamon"
 msgstr "Kaneli"
+
+msgid ""
+"<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Haluatko joka tapauksessa jatkaa vanhan ISO: n asentamista?</b>\n"
+"    :LBL"
+
+msgid ""
+"Essa ISO foi gerada a mais de 30 dias e já está desatualizada.\\n"
+"Sugerimos fortemente que baixe uma nova ISO e não prossiga com essa instalação!\n"
+"    "
+msgstr ""
+"Tämä ISO luotiin yli 30 päivää sitten ja se on jo vanhentunut.\\n"
+"Suosittelemme, että lataat uuden ISO:n etkä jatka tätä asennusta!    "
+
+msgid "ISO Antiga"
+msgstr "Muinainen ISO"
