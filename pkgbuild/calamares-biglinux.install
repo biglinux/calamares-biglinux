@@ -4,6 +4,8 @@ post_install() {
         cp /usr/bin/calamares-biglinux /usr/bin/calamares
     fi
     rm -f /usr/share/applications/calamares.desktop
+    
+    echo $(( $(date +%s) / 86400 )) > /usr/share/bigbashview/bcc/apps/bigbashview-calamares/install_date
 }
 
 pre_remove() {
