@@ -251,3 +251,12 @@ msgstr ""
 
 msgid "ISO Antiga"
 msgstr "Ancient ISO"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Checking Internet connection..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "No Internet connection..."
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Updating List of Interfaces..."

@@ -247,3 +247,12 @@ msgstr ""
 
 msgid "ISO Antiga"
 msgstr "고대 ISO"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "인터넷 연결 확인 중..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "인터넷에 연결되어 있지 않습니다..."
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "인터페이스 목록 업데이트 중..."

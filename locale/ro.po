@@ -255,3 +255,12 @@ msgstr ""
 
 msgid "ISO Antiga"
 msgstr "ISO antic"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Verificarea conexiunii la Internet..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Fără conexiune la Internet..."
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Actualizarea listei de interfețe..."

@@ -249,3 +249,12 @@ msgstr ""
 
 msgid "ISO Antiga"
 msgstr "ISO עתיק"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "בדיקת החיבור לאינטרנט..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "אין חיבור לאינטרנט..."
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "עדכון רשימת הממשקים..."

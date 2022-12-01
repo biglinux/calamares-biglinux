@@ -297,3 +297,15 @@ msgstr  ""
 #
 msgid   "ISO Antiga"
 msgstr  ""
+
+#
+msgid   "Verificando conexão com a Internet..."
+msgstr  ""
+
+#
+msgid   "Sem conexão com a Internet..."
+msgstr  ""
+
+#
+msgid   "Atualizando lista de Interfaces..."
+msgstr  ""

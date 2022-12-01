@@ -254,3 +254,12 @@ msgstr ""
 
 msgid "ISO Antiga"
 msgstr "Staroveké ISO"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Kontrola internetového pripojenia..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Žiadne pripojenie na internet..."
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Aktualizácia zoznamu rozhraní..."

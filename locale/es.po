@@ -256,3 +256,12 @@ msgstr ""
 
 msgid "ISO Antiga"
 msgstr "ISO antiguo"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Comprobando la conexión a Internet..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Sin conexión a Internet..."
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Actualizando lista de interfaces..."

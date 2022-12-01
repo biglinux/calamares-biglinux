@@ -247,3 +247,12 @@ msgstr ""
 
 msgid "ISO Antiga"
 msgstr "古代国际标准化组织"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "正在检查互联网连接..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "没有互联网连接..."
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "正在更新接口列表..."

@@ -256,3 +256,12 @@ msgstr ""
 
 msgid "ISO Antiga"
 msgstr "Давнє ІСО"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Перевірка підключення до інтернету..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Немає підключення до Інтернету..."
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Оновлення списку інтерфейсів..."

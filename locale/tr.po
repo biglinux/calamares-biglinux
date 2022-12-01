@@ -255,3 +255,12 @@ msgstr ""
 
 msgid "ISO Antiga"
 msgstr "Eski ISO"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "İnternet bağlantısı kontrol ediliyor..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "İnternet bağlantısı yok..."
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Arayüz Listesi Güncelleniyor..."

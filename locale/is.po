@@ -253,3 +253,12 @@ msgstr ""
 
 msgid "ISO Antiga"
 msgstr "Forn ISO"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Athuga nettengingu..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Engin nettenging..."
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Uppfærsla lista yfir tengi ..."

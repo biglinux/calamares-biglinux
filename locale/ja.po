@@ -249,3 +249,12 @@ msgstr ""
 
 msgid "ISO Antiga"
 msgstr "古代ISO"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "インターネット接続を確認しています..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "インターネットに接続されていません..."
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "インターフェイスのリストを更新しています..."

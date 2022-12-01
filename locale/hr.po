@@ -254,3 +254,12 @@ msgstr ""
 
 msgid "ISO Antiga"
 msgstr "Drevni ISO"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Provjera internetske veze..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Nema internetske veze..."
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Ažuriranje popisa sučelja..."

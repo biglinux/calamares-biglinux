@@ -252,3 +252,12 @@ msgstr ""
 
 msgid "ISO Antiga"
 msgstr "Iidne ISO"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Interneti-ühenduse kontrollimine ..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Interneti-ühendus puudub ..."
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Liideste loendi värskendamine ..."

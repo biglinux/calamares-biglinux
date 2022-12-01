@@ -253,3 +253,12 @@ msgstr ""
 
 msgid "ISO Antiga"
 msgstr "Muinainen ISO"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Internet-yhteyden tarkistaminen..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Ei Internet-yhteyttä..."
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Päivitetään rajapintojen luetteloa..."

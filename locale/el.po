@@ -257,3 +257,12 @@ msgstr ""
 
 msgid "ISO Antiga"
 msgstr "Αρχαίο ISO"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Έλεγχος σύνδεσης στο Διαδίκτυο..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Δεν υπάρχει σύνδεση στο Διαδίκτυο..."
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Ενημέρωση λίστας διεπαφών..."
