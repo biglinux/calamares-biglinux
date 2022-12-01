@@ -20,6 +20,26 @@ BACK_DEFAULT=$"VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
 INSTALL=$"INSTALAR"
 DESKTOP=$"DESKTOP"
 
+#esperar terminar de gerar as chaves
+while [ -n "$(top -b -d1 n1 | grep gpg)" ]; do
+    echo "Aguarde atualizando chaves"
+done
+
+#atualiza banco de pacotes e verifica se tem conexão a internet
+zenity --width=300 --progress --title="Internet" --pulsate --no-cancel --text $"Verificando conexão com a Internet..." &
+sudo pacman -Sy 
+if [ "$?" = "1" ];then
+    zenity --error --width=300 --title="Internet" --text $"Sem conexão com a Internet..."
+    sudo killall python3
+    killall zenity
+    exit 1
+else
+    killall zenity
+fi
+
+#atualiza o sistema junto com os pacotes dos desktops community
+sudo pacman -Syu --noconfirm | zenity --width=300 --progress --title="Desktops" --pulsate --no-cancel --auto-close --text $"Atualizando lista de Interfaces..."
+
 cat << EOF
 <head>
   <meta charset="UTF-8">
