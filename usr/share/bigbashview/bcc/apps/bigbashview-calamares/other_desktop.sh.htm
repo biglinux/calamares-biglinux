@@ -20,13 +20,15 @@ BACK_DEFAULT=$"VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
 INSTALL=$"INSTALAR"
 DESKTOP=$"DESKTOP"
 
+
+#atualiza banco de pacotes e verifica se tem conexão a internet
+zenity --width=300 --progress --title="Internet" --pulsate --no-cancel --text $"Verificando conexão com a Internet..." &
+
 #esperar terminar de gerar as chaves
 while [ -n "$(top -b -d1 n1 | grep gpg)" ]; do
     echo "Aguarde atualizando chaves"
 done
 
-#atualiza banco de pacotes e verifica se tem conexão a internet
-zenity --width=300 --progress --title="Internet" --pulsate --no-cancel --text $"Verificando conexão com a Internet..." &
 sudo pacman -Sy 
 if [ "$?" = "1" ];then
     zenity --error --width=300 --title="Internet" --text $"Sem conexão com a Internet..."
