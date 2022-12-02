@@ -262,3 +262,21 @@ msgstr "Žádné připojení k internetu..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Aktualizace seznamu rozhraní..."
+
+msgid ""
+"<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Chcete přesto pokračovat v instalaci této staré verze?</b>\n"
+"    :LBL"
+
+msgid ""
+"O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
+"Recomendamos que faça o download de uma versão mais recente.\n"
+"    "
+msgstr ""
+"BigLinux je týdenní aktualizační systém a tato verze byla vydána více než měsíc.\\n"
+"Doporučujeme stáhnout novější verzi.    "
+
+msgid "Versão Desatualizada"
+msgstr "Zastaralá verze"

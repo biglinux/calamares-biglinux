@@ -264,3 +264,22 @@ msgstr "Fără conexiune la Internet..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Actualizarea listei de interfețe..."
+
+msgid ""
+"<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Doriți să continuați cu instalarea acestei versiuni vechi oricum?</b>\n"
+"    :LBL"
+
+msgid ""
+"O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
+"Recomendamos que faça o download de uma versão mais recente.\n"
+"    "
+msgstr ""
+"BigLinux este un sistem de actualizare săptămânal și această versiune a fost lansată de peste o "
+"lună.\\n"
+" Vă recomandăm să descărcați o versiune mai nouă.    "
+
+msgid "Versão Desatualizada"
+msgstr "Versiune învechită"

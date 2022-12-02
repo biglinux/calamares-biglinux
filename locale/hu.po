@@ -263,3 +263,21 @@ msgstr "Nincs internetkapcsolat..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Interfészek listájának frissítése..."
+
+msgid ""
+"<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Mindenképpen folytatni szeretné a régi verzió telepítését?</b>\n"
+"    :LBL"
+
+msgid ""
+"O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
+"Recomendamos que faça o download de uma versão mais recente.\n"
+"    "
+msgstr ""
+"A BigLinux egy heti frissítési rendszer, és ez a verzió már több mint egy hónapja megjelent.\\n"
+"Javasoljuk, hogy töltsön le egy újabb verziót.    "
+
+msgid "Versão Desatualizada"
+msgstr "Elavult verzió"

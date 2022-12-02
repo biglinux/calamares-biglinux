@@ -262,3 +262,21 @@ msgstr "Engin nettenging..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Uppfærsla lista yfir tengi ..."
+
+msgid ""
+"<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Viltu samt halda áfram með að setja upp þessa gömlu útgáfu?</b>\n"
+"    :LBL"
+
+msgid ""
+"O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
+"Recomendamos que faça o download de uma versão mais recente.\n"
+"    "
+msgstr ""
+"BigLinux er vikulega uppfærslukerfi og þessi útgáfa hefur verið gefin út í meira en mánuð.\\n"
+"Við mælum með að þú hleður niður nýrri útgáfu.    "
+
+msgid "Versão Desatualizada"
+msgstr "Úrelt útgáfa"

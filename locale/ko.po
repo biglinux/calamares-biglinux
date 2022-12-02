@@ -256,3 +256,21 @@ msgstr "인터넷에 연결되어 있지 않습니다..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "인터페이스 목록 업데이트 중..."
+
+msgid ""
+"<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>그래도 이 이전 버전 설치를 계속하시겠습니까?</b>\n"
+"    :LBL"
+
+msgid ""
+"O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
+"Recomendamos que faça o download de uma versão mais recente.\n"
+"    "
+msgstr ""
+"BigLinux는 주간 업데이트 시스템이며 이 버전은 출시된 지 한 달이 넘었습니다.\\n"
+"최신 버전을 다운로드하는 것이 좋습니다.    "
+
+msgid "Versão Desatualizada"
+msgstr "오래된 버전"

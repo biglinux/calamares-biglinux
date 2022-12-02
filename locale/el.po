@@ -266,3 +266,22 @@ msgstr "Δεν υπάρχει σύνδεση στο Διαδίκτυο..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Ενημέρωση λίστας διεπαφών..."
+
+msgid ""
+"<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Θέλετε να προχωρήσετε στην εγκατάσταση αυτής της παλιάς έκδοσης ούτως ή άλλως;</b>\n"
+"    :ΛΒ"
+
+msgid ""
+"O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
+"Recomendamos que faça o download de uma versão mais recente.\n"
+"    "
+msgstr ""
+"Το BigLinux είναι ένα σύστημα εβδομαδιαίας ενημέρωσης και αυτή η έκδοση έχει κυκλοφορήσει για πάνω "
+"από ένα μήνα.\\n"
+" Σας συνιστούμε να κάνετε λήψη μιας νεότερης έκδοσης.    "
+
+msgid "Versão Desatualizada"
+msgstr "Ξεπερασμένη έκδοση"

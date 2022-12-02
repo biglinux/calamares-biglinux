@@ -263,3 +263,21 @@ msgstr "Brak połączenia z Internetem..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Aktualizacja listy interfejsów..."
+
+msgid ""
+"<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Czy mimo to chcesz kontynuować instalację tej starej wersji?</b>\n"
+"    :LBL"
+
+msgid ""
+"O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
+"Recomendamos que faça o download de uma versão mais recente.\n"
+"    "
+msgstr ""
+"BigLinux jest cotygodniowym systemem aktualizacji, a ta wersja jest wydawana od ponad miesiąca.\\n"
+"Zalecamy pobranie nowszej wersji.    "
+
+msgid "Versão Desatualizada"
+msgstr "Nieaktualna wersja"

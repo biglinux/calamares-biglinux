@@ -263,3 +263,21 @@ msgstr "Nema internetske veze..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Ažuriranje popisa sučelja..."
+
+msgid ""
+"<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Želite li ipak nastaviti s instalacijom ove stare verzije?</b>\n"
+"    :LBL"
+
+msgid ""
+"O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
+"Recomendamos que faça o download de uma versão mais recente.\n"
+"    "
+msgstr ""
+"BigLinux je tjedni sustav ažuriranja i ova verzija je objavljena više od mjesec dana.\\n"
+"Pogrešite da preuzmete noviju verziju.    "
+
+msgid "Versão Desatualizada"
+msgstr "Zastarjela verzija"
