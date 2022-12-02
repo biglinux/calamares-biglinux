@@ -37,6 +37,18 @@ if [ "$(echo $(( $(date +%s) / 86400 )))" -gt "$(( $(cat /usr/share/bigbashview/
     fi
 fi
 
+ruscherrelease=$(cat /etc/big-release | grep RELEASE | awk -F'=' '{print $2}')
+ruschertimestamp=$(cat /etc/big-release | grep TIMESTAMP | awk -F'=' '{print $2}')
+if [ "$(echo $ruscherrelease | wc -m)" -gt "11" ]; then
+    if  [ "$(echo $(( $(date +%s) / 86400 )))" -gt "$(( $ruschertimestamp + 7 ))" ]; then
+        echo "verificando validade da ISO"
+        if [ -z "$(curl -s https://raw.githubusercontent.com/biglinux/big-releases/main/testing | grep $ruscherrelease | grep -v "#")" ]; then
+            echo "ISO invalida"
+            exit 1
+        fi
+    fi
+fi
+
 # disable swap on disk
 for diskswap in $(blkid | grep 'TYPE="swap"' | grep -v zram | cut -f1 -d:)
 do
