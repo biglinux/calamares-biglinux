@@ -38,7 +38,7 @@ else
 fi
 
 #atualiza o sistema junto com os pacotes dos desktops community
-sudo pacman -Syu --noconfirm | zenity --width=300 --progress --title="Desktops" --pulsate --no-cancel --auto-close --text $"Atualizando lista de Interfaces..."
+sudo pacman -Syyu --noconfirm | zenity --width=300 --progress --title="Desktops" --pulsate --no-cancel --auto-close --text $"Atualizando lista de Interfaces..."
 
 cat << EOF
 <head>
