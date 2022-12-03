@@ -42,9 +42,20 @@ ruschertimestamp=$(cat /etc/big-release | grep TIMESTAMP | awk -F'=' '{print $2}
 if [ "$(echo $ruscherrelease | wc -m)" -gt "11" ]; then
     if  [ "$(echo $(( $(date +%s) / 86400 )))" -gt "$(( $ruschertimestamp + 7 ))" ]; then
         echo "verificando validade da ISO"
+        zenity --width=300 --progress --title=$"Verificando" --pulsate --no-cancel --text $"Verificando conexão com a Internet..." &
         if [ -z "$(curl -s https://raw.githubusercontent.com/biglinux/big-releases/main/testing | grep $ruscherrelease | grep -v "#")" ]; then
             echo "ISO invalida"
+            yad --image=emblem-warning --image-on-top --form --width=500 --height=100 --fixed \
+            --align=center \
+            --field=$"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>
+            :LBL" \
+            --button=$" OK":0 \
+            --center --on-top --borders=20 --title=$"Versão Desatualizada" \
+            --window-icon=emblem-warning
+            killall zenity
             exit 1
+        else 
+        killall zenity
         fi
     fi
 fi
