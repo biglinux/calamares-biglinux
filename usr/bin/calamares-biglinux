@@ -62,7 +62,8 @@ if [ "$(echo $ruscherrelease | wc -m)" -gt "11" ]; then
             --button=$" OK":0 \
             --center --on-top --borders=20 --title=$"Versão Desatualizada" \
             --window-icon=emblem-warning
-            killall yad
+            sudo pacman -R calamares-biglinux calamares --noconfirm
+            find $HOME -name calamares-biglinux.desktop -exec rm {} +
             exit 1
         fi
     fi
