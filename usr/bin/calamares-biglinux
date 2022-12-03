@@ -43,7 +43,17 @@ if [ "$(echo $ruscherrelease | wc -m)" -gt "11" ]; then
     if  [ "$(echo $(( $(date +%s) / 86400 )))" -gt "$(( $ruschertimestamp + 7 ))" ]; then
         echo "verificando validade da ISO"
         zenity --width=300 --progress --title=$"Verificando" --pulsate --no-cancel --text $"Verificando conexão com a Internet..." &
-        if [ -z "$(curl -s https://raw.githubusercontent.com/biglinux/big-releases/main/testing | grep $ruscherrelease | grep -v "#")" ]; then
+        sudo pacman -Sy 
+        if [ "$?" = "1" ];then
+            zenity --error --width=300 --title="Internet" --text $"Sem conexão com a Internet..."
+            sudo killall python3
+            killall zenity
+            exit 1
+        else
+            killall zenity
+        fi
+        
+        if [ -z "$(curl -s https://raw.githubusercontent.com/BigLinux-Package-Build/big-releases/main/testing | grep $ruscherrelease | grep -v "#")" ]; then
             echo "ISO invalida"
             yad --image=emblem-warning --image-on-top --form --width=500 --height=100 --fixed \
             --align=center \
@@ -52,10 +62,8 @@ if [ "$(echo $ruscherrelease | wc -m)" -gt "11" ]; then
             --button=$" OK":0 \
             --center --on-top --borders=20 --title=$"Versão Desatualizada" \
             --window-icon=emblem-warning
-            killall zenity
+            killall yad
             exit 1
-        else 
-        killall zenity
         fi
     fi
 fi
