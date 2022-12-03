@@ -281,3 +281,16 @@ msgstr ""
 
 msgid "Versão Desatualizada"
 msgstr "Zastarjela verzija"
+
+msgid "Verificando"
+msgstr "Provjera"
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Ova razvojna verzija zastarjela je i više se ne može koristiti.</b>\n"
+"            :LBL"
+
+msgid " OK"
+msgstr " OK"

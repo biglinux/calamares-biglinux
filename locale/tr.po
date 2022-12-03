@@ -283,3 +283,16 @@ msgstr ""
 
 msgid "Versão Desatualizada"
 msgstr "Eski Sürüm"
+
+msgid "Verificando"
+msgstr "Denetimi"
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Bu Geliştirme Sürümü modası geçmiş ve artık kullanılamaz.</b>\n"
+"            :LBL"
+
+msgid " OK"
+msgstr " TAMAM"

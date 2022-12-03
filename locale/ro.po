@@ -283,3 +283,16 @@ msgstr ""
 
 msgid "Versão Desatualizada"
 msgstr "Versiune învechită"
+
+msgid "Verificando"
+msgstr "Verificarea"
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Această versiune de dezvoltare este depășită și nu mai poate fi utilizată.</b>\n"
+"            :LBL"
+
+msgid " OK"
+msgstr " OK"

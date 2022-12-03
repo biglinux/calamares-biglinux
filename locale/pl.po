@@ -281,3 +281,16 @@ msgstr ""
 
 msgid "Versão Desatualizada"
 msgstr "Nieaktualna wersja"
+
+msgid "Verificando"
+msgstr "Sprawdzanie"
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Ta wersja rozwojowa jest przestarzała i nie można jej już używać.</b>\n"
+"            :LBL"
+
+msgid " OK"
+msgstr " OK"

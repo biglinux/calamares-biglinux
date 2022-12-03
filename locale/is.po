@@ -280,3 +280,16 @@ msgstr ""
 
 msgid "Versão Desatualizada"
 msgstr "Úrelt útgáfa"
+
+msgid "Verificando"
+msgstr "Stöðva"
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Þessi þróunarútgáfa er úrelt og ekki lengur hægt að nota hana.</b>\n"
+"            :LBL"
+
+msgid " OK"
+msgstr " ÓKEI"

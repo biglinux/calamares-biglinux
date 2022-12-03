@@ -281,3 +281,16 @@ msgstr ""
 
 msgid "Versão Desatualizada"
 msgstr "Elavult verzió"
+
+msgid "Verificando"
+msgstr "Ellenőrzése"
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Ez a fejlesztői verzió elavult, és már nem használható.</b>\n"
+"            :LBL"
+
+msgid " OK"
+msgstr " OKÉ"

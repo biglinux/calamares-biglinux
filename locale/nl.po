@@ -284,3 +284,16 @@ msgstr ""
 
 msgid "Versão Desatualizada"
 msgstr "Verouderde versie"
+
+msgid "Verificando"
+msgstr "Controleren"
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Deze ontwikkelingsversie is verouderd en kan niet meer worden gebruikt.</b>\n"
+"            :LBL"
+
+msgid " OK"
+msgstr " OK"

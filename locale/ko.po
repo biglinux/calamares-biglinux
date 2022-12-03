@@ -274,3 +274,16 @@ msgstr ""
 
 msgid "Versão Desatualizada"
 msgstr "오래된 버전"
+
+msgid "Verificando"
+msgstr "확인"
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"            :LBL"
+msgstr ""
+"<b>이 개발 버전은 오래되어 더 이상 사용할 수 없습니다.</b>\n"
+"            :LBL"
+
+msgid " OK"
+msgstr " 그래"

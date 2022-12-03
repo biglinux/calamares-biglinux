@@ -279,3 +279,16 @@ msgstr ""
 
 msgid "Versão Desatualizada"
 msgstr "Aegunud versioon"
+
+msgid "Verificando"
+msgstr "Kontroll"
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"            :LBL"
+msgstr ""
+"<b>See arendusversioon on aegunud ja seda ei saa enam kasutada.</b>\n"
+"            :LBL"
+
+msgid " OK"
+msgstr " OK"

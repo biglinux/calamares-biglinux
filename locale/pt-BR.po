@@ -368,3 +368,21 @@ msgstr ""
 #
 msgid "Versão Desatualizada"
 msgstr "Versão Desatualizada"
+
+#
+msgid "Verificando"
+msgstr "Verificando"
+
+#
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser "
+"usada.</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser "
+"usada.</b>\n"
+"            :LBL"
+
+#
+msgid " OK"
+msgstr " OK"

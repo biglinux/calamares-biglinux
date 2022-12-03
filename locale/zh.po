@@ -274,3 +274,16 @@ msgstr ""
 
 msgid "Versão Desatualizada"
 msgstr "过时版本"
+
+msgid "Verificando"
+msgstr "检查"
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"            :LBL"
+msgstr ""
+"<b>此开发版本已过时，无法再使用。</b>\n"
+"            ：LBL"
+
+msgid " OK"
+msgstr " 还行"

@@ -276,3 +276,16 @@ msgstr ""
 
 msgid "Versão Desatualizada"
 msgstr "גרסה מיושנת"
+
+msgid "Verificando"
+msgstr "בדיקת"
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"            :LBL"
+msgstr ""
+"<b>גרסת פיתוח זו מיושנת ולא ניתן עוד להשתמש בה.</b>\n"
+"            ל.ב.ל.:"
+
+msgid " OK"
+msgstr " אוקיי"

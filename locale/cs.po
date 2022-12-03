@@ -280,3 +280,16 @@ msgstr ""
 
 msgid "Versão Desatualizada"
 msgstr "Zastaralá verze"
+
+msgid "Verificando"
+msgstr "Kontrolování"
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Tato vývojová verze je zastaralá a nelze ji již používat.</b>\n"
+"            :LBL"
+
+msgid " OK"
+msgstr " OK"

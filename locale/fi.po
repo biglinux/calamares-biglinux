@@ -280,3 +280,16 @@ msgstr ""
 
 msgid "Versão Desatualizada"
 msgstr "Vanhentunut versio"
+
+msgid "Verificando"
+msgstr "Tarkistaminen"
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Tämä kehitysversio on vanhentunut, eikä sitä voi enää käyttää.</b>\n"
+"            :LBL"
+
+msgid " OK"
+msgstr " OKEI"

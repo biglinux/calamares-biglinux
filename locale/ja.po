@@ -276,3 +276,16 @@ msgstr ""
 
 msgid "Versão Desatualizada"
 msgstr "古いバージョン"
+
+msgid "Verificando"
+msgstr "実検"
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"            :LBL"
+msgstr ""
+"<b>この開発バージョンは古く、使用できなくなりました。</b>\n"
+"            :LBL"
+
+msgid " OK"
+msgstr " わかりました"

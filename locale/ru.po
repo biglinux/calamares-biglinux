@@ -281,3 +281,16 @@ msgstr ""
 
 msgid "Versão Desatualizada"
 msgstr "Устаревшая версия"
+
+msgid "Verificando"
+msgstr "Контроль"
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Эта версия для разработчиков устарела и больше не может использоваться.</b>\n"
+"            :ЛБЛ"
+
+msgid " OK"
+msgstr " ХОРОШО"
