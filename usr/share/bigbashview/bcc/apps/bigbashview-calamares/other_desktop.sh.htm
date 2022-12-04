@@ -26,7 +26,7 @@ zenity --width=300 --progress --title="Internet" --pulsate --no-cancel --text $"
 
 #esperar terminar de gerar as chaves
 while [ -n "$(top -b -d1 n1 | grep gpg)" ]; do
-    echo "Aguarde atualizando chaves"
+    sleep 0.5
 done
 
 sudo pacman -Sy 
