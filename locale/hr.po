@@ -294,3 +294,25 @@ msgstr ""
 
 msgid " OK"
 msgstr " OK"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "STANDARDNA ILI PRILAGOĐENA INSTALACIJA?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Sljedeće radne površine održavaju korisnici BigLinux zajednice i imaju manje prilagodbi i testova, "
+"želite li zaista nastaviti?"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Izazivaš li me?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Rekao sam ti, ova verzija je zastarjela.            "

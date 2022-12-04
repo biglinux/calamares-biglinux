@@ -298,3 +298,25 @@ msgstr ""
 
 msgid " OK"
 msgstr " OK"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "ΤΥΠΙΚΗ Ή ΠΡΟΣΑΡΜΟΣΜΕΝΗ ΕΓΚΑΤΑΣΤΑΣΗ;"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Οι παρακάτω επιτραπέζιοι υπολογιστές συντηρούνται από χρήστες της κοινότητας BigLinux και έχουν "
+"λιγότερες προσαρμογές και δοκιμές, θέλετε πραγματικά να προχωρήσετε;"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Με προκαλείς;</b>\n"
+"            :ΛΒ"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Σας είπα, αυτή η έκδοση είναι ξεπερασμένη.            "

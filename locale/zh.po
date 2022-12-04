@@ -287,3 +287,23 @@ msgstr ""
 
 msgid " OK"
 msgstr " 还行"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "标准安装还是定制安装？"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr "以下桌面由 BigLinux 社区的用户维护，自定义和测试较少，您真的要继续吗？"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>你在挑战我吗？</b>\n"
+"            ：LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "我告诉过你，这个版本已经过时了。            "

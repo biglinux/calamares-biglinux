@@ -300,3 +300,25 @@ msgstr ""
 
 msgid " OK"
 msgstr " OKAY"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "STANDARD- ODER KUNDENSPEZIFISCHE INSTALLATION?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Die folgenden Desktops werden von Benutzern der BigLinux-Community gepflegt und haben weniger "
+"Anpassungen und Tests, möchten Sie wirklich fortfahren?"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Fordern Sie mich heraus?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Ich habe Ihnen gesagt, dass diese Version veraltet ist.            "

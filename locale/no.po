@@ -294,3 +294,25 @@ msgstr ""
 
 msgid " OK"
 msgstr " OK"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "STANDARD ELLER TILPASSET INSTALLASJON?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Følgende skrivebord vedlikeholdes av brukere av BigLinux-fellesskapet og har færre tilpasninger og "
+"tester, vil du virkelig fortsette?"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Utfordrer du meg?</b>\n"
+"            : LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Jeg fortalte deg, denne versjonen er utdatert.            "

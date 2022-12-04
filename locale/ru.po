@@ -294,3 +294,25 @@ msgstr ""
 
 msgid " OK"
 msgstr " ХОРОШО"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "СТАНДАРТНАЯ ИЛИ ВЫБОРОЧНАЯ УСТАНОВКА?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Следующие рабочие столы поддерживаются пользователями сообщества BigLinux и имеют меньше настроек и "
+"тестов, вы действительно хотите продолжить?"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Ты бросаешь мне вызов?</b>\n"
+"            :ЛБЛ"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Я вам сказал, что эта версия устарела.            "

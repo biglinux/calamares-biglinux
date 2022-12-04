@@ -296,3 +296,25 @@ msgstr ""
 
 msgid " OK"
 msgstr " TAMAM"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "STANDART VEYA ÖZEL KURULUM?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Aşağıdaki masaüstleri BigLinux topluluğunun kullanıcıları tarafından korunur ve daha az "
+"özelleştirme ve teste sahiptir, gerçekten devam etmek ister misiniz?"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Bana meydan okuyor musun?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Size söyledim, bu sürüm modası geçmiş.            "

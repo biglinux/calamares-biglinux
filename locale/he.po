@@ -289,3 +289,25 @@ msgstr ""
 
 msgid " OK"
 msgstr " אוקיי"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "התקנה סטנדרטית או מותאמת אישית?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"שולחנות העבודה הבאים מתוחזקים על ידי משתמשים בקהילת BigLinux ויש להם פחות התאמות אישיות ובדיקות, "
+"האם אתה באמת רוצה להמשיך?"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>אתה מאתגר אותי?</b>\n"
+"            ל.ב.ל.:"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "אמרתי לך, הגרסה הזאת מיושנת.            "

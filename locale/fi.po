@@ -293,3 +293,25 @@ msgstr ""
 
 msgid " OK"
 msgstr " OKEI"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "VAKIO- VAI MUKAUTETTU ASENNUS?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Seuraavia työpöytiä ylläpitävät BigLinux-yhteisön käyttäjät, ja niillä on vähemmän mukautuksia ja "
+"testejä, haluatko todella jatkaa?"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Haastatko minut?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Kerroin teille, että tämä versio on vanhentunut.            "

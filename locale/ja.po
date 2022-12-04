@@ -289,3 +289,23 @@ msgstr ""
 
 msgid " OK"
 msgstr " わかりました"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "標準またはカスタムインストール?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr "次のデスクトップは BigLinux コミュニティーのユーザーによって保守されており、カスタマイズとテストが少なくなっていますが、続行しますか?"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>あなたは私に挑戦していますか?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "私はあなたに言った、このバージョンは時代遅れです。            "

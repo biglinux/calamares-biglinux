@@ -293,3 +293,25 @@ msgstr ""
 
 msgid " OK"
 msgstr " OK"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "STANDARDNÍ NEBO ZAKÁZKOVÁ INSTALACE?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Následující desktopy jsou udržovány uživateli komunity BigLinux a mají méně úprav a testů, opravdu "
+"chcete pokračovat?"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Vyzýváte mě?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Říkal jsem vám, že tato verze je zastaralá.            "

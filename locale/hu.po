@@ -294,3 +294,25 @@ msgstr ""
 
 msgid " OK"
 msgstr " OKÉ"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "NORMÁL VAGY EGYEDI TELEPÍTÉS?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"A következő asztali számítógépeket a BigLinux közösség felhasználói tartják karban, és kevesebb "
+"testreszabással és teszttel rendelkeznek, valóban folytatni szeretné?"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Kihívsz engem?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Mondtam, hogy ez a verzió elavult.            "

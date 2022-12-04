@@ -287,3 +287,23 @@ msgstr ""
 
 msgid " OK"
 msgstr " 그래"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "표준 또는 사용자 지정 설치?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr "다음 데스크톱은 BigLinux 커뮤니티 사용자가 유지 관리하며 사용자 지정 및 테스트가 더 적은데 계속 진행하시겠습니까?"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>당신은 나에게 도전하고 있습니까?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "이 버전은 구식이라고 말씀 드렸습니다.            "

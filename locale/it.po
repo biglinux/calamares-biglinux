@@ -299,3 +299,25 @@ msgstr ""
 
 msgid " OK"
 msgstr " OK"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "INSTALLAZIONE STANDARD O PERSONALIZZATA?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"I seguenti desktop sono mantenuti dagli utenti della comunità BigLinux e hanno meno "
+"personalizzazioni e test, vuoi davvero procedere?"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Mi stai sfidando?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Te l'ho detto, questa versione è obsoleta.            "

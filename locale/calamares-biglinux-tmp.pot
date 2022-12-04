@@ -262,3 +262,17 @@ msgstr  ""
 #
 msgid   " OK"
 msgstr  ""
+#
+msgid   "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr  ""
+#
+msgid   "Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente prosseguir?"
+msgstr  ""
+#
+msgid   "<b>você está me desafiando?</b>\n"
+        "            :LBL"
+msgstr  ""
+#
+msgid   "Já falei que essa versão está desatualizada.\n"
+        "            "
+msgstr  ""

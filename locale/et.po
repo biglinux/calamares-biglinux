@@ -292,3 +292,25 @@ msgstr ""
 
 msgid " OK"
 msgstr " OK"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "STANDARDNE VÕI KOHANDATUD INSTALLIMINE?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Järgmisi lauaarvuteid haldavad BigLinuxi kogukonna kasutajad ning neil on vähem kohandusi ja teste, "
+"kas soovite tõesti jätkata?"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Kas sa esitad mulle väljakutse?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Ma ütlesin teile, see versioon on aegunud.            "

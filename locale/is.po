@@ -293,3 +293,25 @@ msgstr ""
 
 msgid " OK"
 msgstr " ÓKEI"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "VENJULEG EÐA SÉRSNIÐIN UPPSETNING?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Eftirfarandi skjáborðum er viðhaldið af notendum BigLinux samfélagsins og hafa færri sérsniðnar og "
+"prófanir, viltu virkilega halda áfram?"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Ertu að ögra mér?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Ég sagði þér að þessi útgáfa er úrelt.            "
