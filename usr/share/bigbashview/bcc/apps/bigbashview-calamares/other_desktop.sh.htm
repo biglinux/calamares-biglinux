@@ -21,6 +21,9 @@ INSTALL=$"INSTALAR"
 DESKTOP=$"DESKTOP"
 
 
+cat << EOF
+<div style="display:none;">
+EOF
 #atualiza banco de pacotes e verifica se tem conexão a internet
 zenity --width=300 --progress --title="Internet" --pulsate --no-cancel --text $"Verificando conexão com a Internet..." &
 
@@ -38,6 +41,9 @@ if [ "$?" = "1" ];then
 else
     killall zenity
 fi
+cat << EOF
+</div>
+EOF
 
 #atualiza o sistema junto com os pacotes dos desktops community
 sudo pacman -Syyu --noconfirm | zenity --width=300 --progress --title="Desktops" --pulsate --no-cancel --auto-close --text $"Atualizando lista de Interfaces..."
