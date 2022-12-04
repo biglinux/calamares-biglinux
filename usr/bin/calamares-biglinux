@@ -42,7 +42,8 @@ ruschertimestamp=$(cat /etc/big-release | grep TIMESTAMP | awk -F'=' '{print $2}
 if [ "$(echo $ruscherrelease | wc -m)" -gt "11" ]; then
     if  [ "$(echo $(( $(date +%s) / 86400 )))" -gt "$(( $ruschertimestamp + 7 ))" ]; then
         echo "verificando validade da ISO"
-        zenity --width=300 --progress --title=$"Verificando" --pulsate --no-cancel --text $"Verificando conexão com a Internet..." &
+        windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
+        zenity --attach="$windowID" --width=300 --progress --title=$"Verificando" --pulsate --no-cancel --text $"Verificando conexão com a Internet..." &
         sudo pacman -Sy 
         if [ "$?" = "1" ];then
             zenity --error --width=300 --title="Internet" --text $"Sem conexão com a Internet..."
@@ -55,7 +56,7 @@ if [ "$(echo $ruscherrelease | wc -m)" -gt "11" ]; then
         
         if [ -z "$(curl -s https://raw.githubusercontent.com/BigLinux-Package-Build/big-releases/main/testing | grep $ruscherrelease | grep -v "#")" ]; then
             echo "ISO invalida"
-            yad --image=emblem-warning --image-on-top --form --width=500 --height=100 --fixed \
+            yad --attach="$windowID" --image=emblem-warning --image-on-top --form --width=500 --height=100 --fixed \
             --align=center \
             --field=$"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>
             :LBL" \
