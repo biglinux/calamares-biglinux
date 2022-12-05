@@ -276,3 +276,15 @@ msgstr  ""
 msgid   "Já falei que essa versão está desatualizada.\n"
         "            "
 msgstr  ""
+#
+msgid   "Verificando pacotes, aguarde..."
+msgstr  ""
+#
+msgid   "Não é possível instalar, "
+msgstr  ""
+#
+msgid   "Não é possível remover:"
+msgstr  ""
+#
+msgid   "Verificando pacotes"
+msgstr  ""

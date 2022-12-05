@@ -316,3 +316,15 @@ msgid ""
 "Já falei que essa versão está desatualizada.\n"
 "            "
 msgstr "Powiedziałem ci, że ta wersja jest nieaktualna.            "
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Sprawdzanie paczek, czekanie..."
+
+msgid "Não é possível instalar, "
+msgstr "Nie ma możliwości instalacji, "
+
+msgid "Não é possível remover:"
+msgstr "Nie można usunąć:"
+
+msgid "Verificando pacotes"
+msgstr "Sprawdzanie paczek"

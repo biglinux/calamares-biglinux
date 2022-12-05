@@ -318,3 +318,15 @@ msgid ""
 "Já falei que essa versão está desatualizada.\n"
 "            "
 msgstr "Size söyledim, bu sürüm modası geçmiş.            "
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Paketleri kontrol ediyor, bekleyin..."
+
+msgid "Não é possível instalar, "
+msgstr "Kurulumu mümkün değildir, "
+
+msgid "Não é possível remover:"
+msgstr "Kaldırılamıyor:"
+
+msgid "Verificando pacotes"
+msgstr "Paketleri kontrol etme"

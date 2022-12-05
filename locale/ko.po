@@ -307,3 +307,15 @@ msgid ""
 "Já falei que essa versão está desatualizada.\n"
 "            "
 msgstr "이 버전은 구식이라고 말씀 드렸습니다.            "
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "패키지 확인, 잠깐만..."
+
+msgid "Não é possível instalar, "
+msgstr "설치가 불가능합니다. "
+
+msgid "Não é possível remover:"
+msgstr "제거할 수 없음:"
+
+msgid "Verificando pacotes"
+msgstr "패키지 확인"

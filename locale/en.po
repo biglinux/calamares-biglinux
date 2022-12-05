@@ -313,3 +313,15 @@ msgid ""
 "Já falei que essa versão está desatualizada.\n"
 "            "
 msgstr "I told you, this version is out dated.            "
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Checking packages, wait..."
+
+msgid "Não é possível instalar, "
+msgstr "It is not possible to install, "
+
+msgid "Não é possível remover:"
+msgstr "Can't remove:"
+
+msgid "Verificando pacotes"
+msgstr "Checking packages"

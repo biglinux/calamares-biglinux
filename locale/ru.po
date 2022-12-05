@@ -316,3 +316,15 @@ msgid ""
 "Já falei que essa versão está desatualizada.\n"
 "            "
 msgstr "Я вам сказал, что эта версия устарела.            "
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Проверяя пакеты, ждите..."
+
+msgid "Não é possível instalar, "
+msgstr "Невозможно установить, "
+
+msgid "Não é possível remover:"
+msgstr "Не удается удалить:"
+
+msgid "Verificando pacotes"
+msgstr "Проверка пакетов"

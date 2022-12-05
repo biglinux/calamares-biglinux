@@ -318,3 +318,15 @@ msgid ""
 "Já falei que essa versão está desatualizada.\n"
 "            "
 msgstr "V-am spus, această versiune este învechit.            "
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Verificarea pachetelor, așteptați..."
+
+msgid "Não é possível instalar, "
+msgstr "Nu este posibil să se instaleze, "
+
+msgid "Não é possível remover:"
+msgstr "Nu se poate elimina:"
+
+msgid "Verificando pacotes"
+msgstr "Verificarea coletelor"

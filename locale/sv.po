@@ -319,3 +319,15 @@ msgid ""
 "Já falei que essa versão está desatualizada.\n"
 "            "
 msgstr "Jag sa till dig, den här versionen är föråldrad.            "
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Kolla paket, vänta..."
+
+msgid "Não é possível instalar, "
+msgstr "Det är inte möjligt att installera, "
+
+msgid "Não é possível remover:"
+msgstr "Det går inte att ta bort:"
+
+msgid "Verificando pacotes"
+msgstr "Kontrollera paket"

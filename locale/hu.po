@@ -316,3 +316,15 @@ msgid ""
 "Já falei que essa versão está desatualizada.\n"
 "            "
 msgstr "Mondtam, hogy ez a verzió elavult.            "
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Csomagok ellenőrzése, várjon..."
+
+msgid "Não é possível instalar, "
+msgstr "Nem lehet telepíteni, "
+
+msgid "Não é possível remover:"
+msgstr "Nem lehet eltávolítani:"
+
+msgid "Verificando pacotes"
+msgstr "Csomagok ellenőrzése"

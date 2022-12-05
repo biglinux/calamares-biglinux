@@ -316,3 +316,15 @@ msgid ""
 "Já falei que essa versão está desatualizada.\n"
 "            "
 msgstr "Rekao sam ti, ova verzija je zastarjela.            "
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Provjeravam pakete, čekaj..."
+
+msgid "Não é possível instalar, "
+msgstr "Nije moguće instalirati, "
+
+msgid "Não é possível remover:"
+msgstr "Nije moguće ukloniti:"
+
+msgid "Verificando pacotes"
+msgstr "Provjera paketa"

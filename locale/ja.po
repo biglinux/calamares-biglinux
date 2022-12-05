@@ -309,3 +309,15 @@ msgid ""
 "Já falei que essa versão está desatualizada.\n"
 "            "
 msgstr "私はあなたに言った、このバージョンは時代遅れです。            "
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "パッケージをチェックして、待ってください..."
+
+msgid "Não é possível instalar, "
+msgstr "インストールはできませんが、 "
+
+msgid "Não é possível remover:"
+msgstr "削除できません:"
+
+msgid "Verificando pacotes"
+msgstr "パッケージのチェック"

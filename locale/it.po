@@ -321,3 +321,15 @@ msgid ""
 "Já falei que essa versão está desatualizada.\n"
 "            "
 msgstr "Te l'ho detto, questa versione è obsoleta.            "
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Controllo dei pacchi, aspetta..."
+
+msgid "Não é possível instalar, "
+msgstr "Non è possibile installare, "
+
+msgid "Não é possível remover:"
+msgstr "Impossibile rimuovere:"
+
+msgid "Verificando pacotes"
+msgstr "Controllo dei pacchetti"

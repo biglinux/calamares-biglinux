@@ -311,3 +311,15 @@ msgid ""
 "Já falei que essa versão está desatualizada.\n"
 "            "
 msgstr "אמרתי לך, הגרסה הזאת מיושנת.            "
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "בודק חבילות, מחכה..."
+
+msgid "Não é possível instalar, "
+msgstr "לא ניתן להתקין, "
+
+msgid "Não é possível remover:"
+msgstr "לא ניתן להסיר:"
+
+msgid "Verificando pacotes"
+msgstr "בדיקת חבילות"

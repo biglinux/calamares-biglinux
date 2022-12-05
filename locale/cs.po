@@ -315,3 +315,15 @@ msgid ""
 "Já falei que essa versão está desatualizada.\n"
 "            "
 msgstr "Říkal jsem vám, že tato verze je zastaralá.            "
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Kontrola balíků, čekání..."
+
+msgid "Não é possível instalar, "
+msgstr "Není možné instalovat, "
+
+msgid "Não é possível remover:"
+msgstr "Nelze odebrat:"
+
+msgid "Verificando pacotes"
+msgstr "Kontrola balíků"

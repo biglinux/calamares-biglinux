@@ -319,3 +319,15 @@ msgid ""
 "Já falei que essa versão está desatualizada.\n"
 "            "
 msgstr "Je vous l’ai dit, cette version est dépassée.            "
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Vérifier les colis, attendre..."
+
+msgid "Não é possível instalar, "
+msgstr "Il n’est pas possible d’installer, "
+
+msgid "Não é possível remover:"
+msgstr "Impossible de supprimer :"
+
+msgid "Verificando pacotes"
+msgstr "Vérification des colis"

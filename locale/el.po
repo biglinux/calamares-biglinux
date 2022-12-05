@@ -320,3 +320,15 @@ msgid ""
 "Já falei que essa versão está desatualizada.\n"
 "            "
 msgstr "Σας είπα, αυτή η έκδοση είναι ξεπερασμένη.            "
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Έλεγχος πακέτων, περιμένετε..."
+
+msgid "Não é possível instalar, "
+msgstr "Δεν είναι δυνατή η εγκατάσταση, "
+
+msgid "Não é possível remover:"
+msgstr "Δεν είναι δυνατή η κατάργηση:"
+
+msgid "Verificando pacotes"
+msgstr "Έλεγχος πακέτων"

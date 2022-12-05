@@ -314,3 +314,15 @@ msgid ""
 "Já falei que essa versão está desatualizada.\n"
 "            "
 msgstr "Ma ütlesin teile, see versioon on aegunud.            "
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Pakkide kontrollimine, oota..."
+
+msgid "Não é possível instalar, "
+msgstr "Ei ole võimalik paigaldada, "
+
+msgid "Não é possível remover:"
+msgstr "Ei saa eemaldada:"
+
+msgid "Verificando pacotes"
+msgstr "Pakendite kontrollimine"

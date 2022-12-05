@@ -315,3 +315,15 @@ msgid ""
 "Já falei que essa versão está desatualizada.\n"
 "            "
 msgstr "Ég sagði þér að þessi útgáfa er úrelt.            "
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Skoða pakka, bíddu..."
+
+msgid "Não é possível instalar, "
+msgstr "Það er ekki hægt að setja upp, "
+
+msgid "Não é possível remover:"
+msgstr "Get ekki fjarlægt:"
+
+msgid "Verificando pacotes"
+msgstr "Tékkpakkar"

@@ -307,3 +307,15 @@ msgid ""
 "Já falei que essa versão está desatualizada.\n"
 "            "
 msgstr "我告诉过你，这个版本已经过时了。            "
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "正在检查包裹，等待..."
+
+msgid "Não é possível instalar, "
+msgstr "无法安装， "
+
+msgid "Não é possível remover:"
+msgstr "无法删除："
+
+msgid "Verificando pacotes"
+msgstr "检查包"

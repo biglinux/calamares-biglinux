@@ -316,3 +316,15 @@ msgid ""
 "Já falei que essa versão está desatualizada.\n"
 "            "
 msgstr "Jeg fortalte deg, denne versjonen er utdatert.            "
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Sjekker pakker, vent..."
+
+msgid "Não é possível instalar, "
+msgstr "Det er ikke mulig å installere, "
+
+msgid "Não é possível remover:"
+msgstr "Kan ikke fjerne:"
+
+msgid "Verificando pacotes"
+msgstr "Sjekker pakker"

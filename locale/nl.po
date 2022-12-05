@@ -319,3 +319,15 @@ msgid ""
 "Já falei que essa versão está desatualizada.\n"
 "            "
 msgstr "Ik zei je, deze versie is verouderd.            "
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Pakketten controleren, wachten..."
+
+msgid "Não é possível instalar, "
+msgstr "Het is niet mogelijk om te installeren, "
+
+msgid "Não é possível remover:"
+msgstr "Kan het volgende niet verwijderen:"
+
+msgid "Verificando pacotes"
+msgstr "Pakketten controleren"

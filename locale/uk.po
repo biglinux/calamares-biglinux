@@ -318,3 +318,15 @@ msgid ""
 "Já falei que essa versão está desatualizada.\n"
 "            "
 msgstr "Я вам сказав, що ця версія застаріла.            "
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Перевіряючи пакети, чекайте..."
+
+msgid "Não é possível instalar, "
+msgstr "Немає можливості встановити, "
+
+msgid "Não é possível remover:"
+msgstr "Не вдається видалити:"
+
+msgid "Verificando pacotes"
+msgstr "Перевірка пакетів"
