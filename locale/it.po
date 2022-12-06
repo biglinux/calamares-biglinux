@@ -333,3 +333,6 @@ msgstr "Impossibile rimuovere:"
 
 msgid "Verificando pacotes"
 msgstr "Controllo dei pacchetti"
+
+msgid "VOLTAR"
+msgstr "TORNA QUI"

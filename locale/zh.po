@@ -319,3 +319,6 @@ msgstr "无法删除："
 
 msgid "Verificando pacotes"
 msgstr "检查包"
+
+msgid "VOLTAR"
+msgstr "回来"

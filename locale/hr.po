@@ -328,3 +328,6 @@ msgstr "Nije moguće ukloniti:"
 
 msgid "Verificando pacotes"
 msgstr "Provjera paketa"
+
+msgid "VOLTAR"
+msgstr "VRATI SE"

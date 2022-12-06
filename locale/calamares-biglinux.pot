@@ -376,3 +376,7 @@ msgstr  ""
 #
 msgid   "Verificando pacotes"
 msgstr  ""
+
+#
+msgid   "VOLTAR"
+msgstr  ""

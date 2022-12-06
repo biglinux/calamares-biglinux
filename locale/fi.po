@@ -327,3 +327,6 @@ msgstr "Ei voi poistaa:"
 
 msgid "Verificando pacotes"
 msgstr "Pakettien tarkistaminen"
+
+msgid "VOLTAR"
+msgstr "TULE TAKAISIN"

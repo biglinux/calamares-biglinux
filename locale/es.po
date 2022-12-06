@@ -330,3 +330,6 @@ msgstr "No se puede eliminar:"
 
 msgid "Verificando pacotes"
 msgstr "Comprobación de paquetes"
+
+msgid "VOLTAR"
+msgstr "REGRESA"

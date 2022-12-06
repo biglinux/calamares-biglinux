@@ -321,3 +321,6 @@ msgstr "削除できません:"
 
 msgid "Verificando pacotes"
 msgstr "パッケージのチェック"
+
+msgid "VOLTAR"
+msgstr "戻ってきます"

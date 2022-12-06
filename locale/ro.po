@@ -330,3 +330,6 @@ msgstr "Nu se poate elimina:"
 
 msgid "Verificando pacotes"
 msgstr "Verificarea coletelor"
+
+msgid "VOLTAR"
+msgstr "ÎNTOARCE-TE"

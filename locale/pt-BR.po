@@ -430,3 +430,7 @@ msgstr "Não é possível remover:"
 #
 msgid "Verificando pacotes"
 msgstr "Verificando pacotes"
+
+#
+msgid "VOLTAR"
+msgstr "VOLTAR"

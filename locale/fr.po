@@ -331,3 +331,6 @@ msgstr "Impossible de supprimer :"
 
 msgid "Verificando pacotes"
 msgstr "Vérification des colis"
+
+msgid "VOLTAR"
+msgstr "REVIENS"

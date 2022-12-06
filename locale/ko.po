@@ -319,3 +319,6 @@ msgstr "제거할 수 없음:"
 
 msgid "Verificando pacotes"
 msgstr "패키지 확인"
+
+msgid "VOLTAR"
+msgstr "돌아와요"

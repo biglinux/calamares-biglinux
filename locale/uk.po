@@ -330,3 +330,6 @@ msgstr "Не вдається видалити:"
 
 msgid "Verificando pacotes"
 msgstr "Перевірка пакетів"
+
+msgid "VOLTAR"
+msgstr "ПОВЕРНУТИСЯ"

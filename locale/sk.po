@@ -328,3 +328,6 @@ msgstr "Nedá sa odstrániť:"
 
 msgid "Verificando pacotes"
 msgstr "Kontrola balíkov"
+
+msgid "VOLTAR"
+msgstr "POĎ SPÄŤ"

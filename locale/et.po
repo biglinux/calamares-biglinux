@@ -326,3 +326,6 @@ msgstr "Ei saa eemaldada:"
 
 msgid "Verificando pacotes"
 msgstr "Pakendite kontrollimine"
+
+msgid "VOLTAR"
+msgstr "TULE TAGASI"

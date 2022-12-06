@@ -328,3 +328,6 @@ msgstr "Nem lehet eltávolítani:"
 
 msgid "Verificando pacotes"
 msgstr "Csomagok ellenőrzése"
+
+msgid "VOLTAR"
+msgstr "GYERE VISSZA"

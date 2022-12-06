@@ -332,3 +332,6 @@ msgstr "Δεν είναι δυνατή η κατάργηση:"
 
 msgid "Verificando pacotes"
 msgstr "Έλεγχος πακέτων"
+
+msgid "VOLTAR"
+msgstr "ΈΛΑ ΠΊΣΩ"

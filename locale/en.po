@@ -325,3 +325,6 @@ msgstr "Can't remove:"
 
 msgid "Verificando pacotes"
 msgstr "Checking packages"
+
+msgid "VOLTAR"
+msgstr "COME BACK"

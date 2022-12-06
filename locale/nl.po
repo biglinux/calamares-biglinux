@@ -331,3 +331,6 @@ msgstr "Kan het volgende niet verwijderen:"
 
 msgid "Verificando pacotes"
 msgstr "Pakketten controleren"
+
+msgid "VOLTAR"
+msgstr "KOM TERUG"

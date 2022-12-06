@@ -334,3 +334,6 @@ msgstr "Kann nicht entfernt werden:"
 
 msgid "Verificando pacotes"
 msgstr "Pakete prüfen"
+
+msgid "VOLTAR"
+msgstr "KOMM ZURÜCK"

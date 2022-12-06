@@ -323,3 +323,6 @@ msgstr "לא ניתן להסיר:"
 
 msgid "Verificando pacotes"
 msgstr "בדיקת חבילות"
+
+msgid "VOLTAR"
+msgstr "תחזור"

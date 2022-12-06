@@ -330,3 +330,6 @@ msgstr "Kaldırılamıyor:"
 
 msgid "Verificando pacotes"
 msgstr "Paketleri kontrol etme"
+
+msgid "VOLTAR"
+msgstr "GENE GEL"

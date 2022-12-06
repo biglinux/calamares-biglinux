@@ -328,3 +328,6 @@ msgstr "Не може да се премахне:"
 
 msgid "Verificando pacotes"
 msgstr "Проверка на пакети"
+
+msgid "VOLTAR"
+msgstr "ВЪРНИ СЕ"

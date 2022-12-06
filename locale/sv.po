@@ -331,3 +331,6 @@ msgstr "Det går inte att ta bort:"
 
 msgid "Verificando pacotes"
 msgstr "Kontrollera paket"
+
+msgid "VOLTAR"
+msgstr "KOM TILLBAKA"

@@ -327,3 +327,6 @@ msgstr "Nelze odebrat:"
 
 msgid "Verificando pacotes"
 msgstr "Kontrola balíků"
+
+msgid "VOLTAR"
+msgstr "VRAŤ SE"

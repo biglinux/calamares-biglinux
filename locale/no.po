@@ -328,3 +328,6 @@ msgstr "Kan ikke fjerne:"
 
 msgid "Verificando pacotes"
 msgstr "Sjekker pakker"
+
+msgid "VOLTAR"
+msgstr "KOM TILBAKE"

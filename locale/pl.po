@@ -328,3 +328,6 @@ msgstr "Nie można usunąć:"
 
 msgid "Verificando pacotes"
 msgstr "Sprawdzanie paczek"
+
+msgid "VOLTAR"
+msgstr "WRACAJ"
