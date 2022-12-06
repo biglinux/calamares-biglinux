@@ -329,3 +329,18 @@ msgstr "Pakendite kontrollimine"
 
 msgid "VOLTAR"
 msgstr "TULE TAGASI"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Ei saa installida.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Ei saa eemaldada.</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "ETTE"
+
+msgid "ERRO!"
+msgstr "VIGA!"
+
+msgid "SUCESSO!"
+msgstr "EDU!"

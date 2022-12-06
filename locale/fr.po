@@ -334,3 +334,18 @@ msgstr "Vérification des colis"
 
 msgid "VOLTAR"
 msgstr "REVIENS"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Impossible d’installer.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Impossible de supprimer.</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "AVANCE"
+
+msgid "ERRO!"
+msgstr "ERREUR!"
+
+msgid "SUCESSO!"
+msgstr "SUCCÈS!"

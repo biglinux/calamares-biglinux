@@ -322,3 +322,18 @@ msgstr "패키지 확인"
 
 msgid "VOLTAR"
 msgstr "돌아와요"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>설치할 수 없습니다.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>제거할 수 없습니다.</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "전진"
+
+msgid "ERRO!"
+msgstr "오류!"
+
+msgid "SUCESSO!"
+msgstr "성공!"

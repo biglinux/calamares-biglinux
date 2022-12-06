@@ -324,3 +324,18 @@ msgstr "パッケージのチェック"
 
 msgid "VOLTAR"
 msgstr "戻ってきます"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>インストールできません。</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>削除できません。</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "前進"
+
+msgid "ERRO!"
+msgstr "エラー！"
+
+msgid "SUCESSO!"
+msgstr "成功！"

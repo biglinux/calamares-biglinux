@@ -330,3 +330,18 @@ msgstr "Tékkpakkar"
 
 msgid "VOLTAR"
 msgstr "KOMDU AFTUR"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Get ekki sett upp.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Get ekki fjarlægt.</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "FYRIRFRAM"
+
+msgid "ERRO!"
+msgstr "VILLA!"
+
+msgid "SUCESSO!"
+msgstr "VELGENGNI!"

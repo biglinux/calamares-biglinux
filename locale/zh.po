@@ -322,3 +322,18 @@ msgstr "检查包"
 
 msgid "VOLTAR"
 msgstr "回来"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>无法安装。</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>无法删除。</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "进展"
+
+msgid "ERRO!"
+msgstr "错误！"
+
+msgid "SUCESSO!"
+msgstr "成功！"

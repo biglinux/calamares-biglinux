@@ -336,3 +336,18 @@ msgstr "Controllo dei pacchetti"
 
 msgid "VOLTAR"
 msgstr "TORNA QUI"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Impossibile installare.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Impossibile rimuovere.</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "AVANZARE"
+
+msgid "ERRO!"
+msgstr "ERRORE!"
+
+msgid "SUCESSO!"
+msgstr "SUCCESSO!"

@@ -334,3 +334,18 @@ msgstr "Kontrollera paket"
 
 msgid "VOLTAR"
 msgstr "KOM TILLBAKA"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Det går inte att installera.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Det går inte att ta bort.</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "FÖRSKOTT"
+
+msgid "ERRO!"
+msgstr "FEL!"
+
+msgid "SUCESSO!"
+msgstr "FRAMGÅNG!"

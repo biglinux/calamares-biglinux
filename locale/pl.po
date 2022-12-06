@@ -331,3 +331,18 @@ msgstr "Sprawdzanie paczek"
 
 msgid "VOLTAR"
 msgstr "WRACAJ"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Nie można zainstalować.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Nie można usunąć.</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "ZALICZKA"
+
+msgid "ERRO!"
+msgstr "BŁĄD!"
+
+msgid "SUCESSO!"
+msgstr "SUKCES!"

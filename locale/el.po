@@ -335,3 +335,18 @@ msgstr "Έλεγχος πακέτων"
 
 msgid "VOLTAR"
 msgstr "ΈΛΑ ΠΊΣΩ"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Δεν είναι δυνατή η εγκατάσταση.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Δεν είναι δυνατή η κατάργηση.</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "ΠΡΟΚΑΤΑΒΆΛΛΩ"
+
+msgid "ERRO!"
+msgstr "ΛΆΘΟΣ!"
+
+msgid "SUCESSO!"
+msgstr "ΕΠΙΤΥΧΊΑ!"

@@ -334,3 +334,18 @@ msgstr "Pakketten controleren"
 
 msgid "VOLTAR"
 msgstr "KOM TERUG"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Kan niet installeren.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Kan niet verwijderen.</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "VOORSCHOT"
+
+msgid "ERRO!"
+msgstr "FOUT!"
+
+msgid "SUCESSO!"
+msgstr "SUCCES!"

@@ -331,3 +331,18 @@ msgstr "Sjekker pakker"
 
 msgid "VOLTAR"
 msgstr "KOM TILBAKE"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Kan ikke installere.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Kan ikke fjerne.</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "FORSKUDD"
+
+msgid "ERRO!"
+msgstr "FEIL!"
+
+msgid "SUCESSO!"
+msgstr "SUKSESS!"

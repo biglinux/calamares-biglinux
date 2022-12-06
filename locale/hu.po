@@ -331,3 +331,18 @@ msgstr "Csomagok ellenőrzése"
 
 msgid "VOLTAR"
 msgstr "GYERE VISSZA"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Nem lehet telepíteni.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Nem lehet eltávolítani.</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "ELŐLEG"
+
+msgid "ERRO!"
+msgstr "HIBA!"
+
+msgid "SUCESSO!"
+msgstr "SIKER!"

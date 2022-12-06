@@ -333,3 +333,18 @@ msgstr "Перевірка пакетів"
 
 msgid "VOLTAR"
 msgstr "ПОВЕРНУТИСЯ"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Не вдається інсталювати.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Не вдається видалити.</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "АВАНС"
+
+msgid "ERRO!"
+msgstr "ПОМИЛКА!"
+
+msgid "SUCESSO!"
+msgstr "УСПІХ!"

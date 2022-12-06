@@ -333,3 +333,18 @@ msgstr "Verificarea coletelor"
 
 msgid "VOLTAR"
 msgstr "ÎNTOARCE-TE"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Nu se poate instala.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Nu se poate elimina.</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "AVANS"
+
+msgid "ERRO!"
+msgstr "EROARE!"
+
+msgid "SUCESSO!"
+msgstr "SUCCES!"

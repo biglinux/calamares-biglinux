@@ -333,3 +333,18 @@ msgstr "Paketleri kontrol etme"
 
 msgid "VOLTAR"
 msgstr "GENE GEL"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Yükleme yapılamıyor.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Kaldırılamıyor.</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "İLERLEMEK"
+
+msgid "ERRO!"
+msgstr "HATA!"
+
+msgid "SUCESSO!"
+msgstr "BAŞARI!"

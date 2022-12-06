@@ -291,3 +291,18 @@ msgstr  ""
 #
 msgid   "VOLTAR"
 msgstr  ""
+#
+msgid   "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr  ""
+#
+msgid   "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr  ""
+#
+msgid   "AVANÇAR"
+msgstr  ""
+#
+msgid   "ERRO!"
+msgstr  ""
+#
+msgid   "SUCESSO!"
+msgstr  ""

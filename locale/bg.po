@@ -331,3 +331,18 @@ msgstr "Проверка на пакети"
 
 msgid "VOLTAR"
 msgstr "ВЪРНИ СЕ"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Не може да се инсталира.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Не може да се премахне.</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "АВАНС"
+
+msgid "ERRO!"
+msgstr "ГРЕШКА!"
+
+msgid "SUCESSO!"
+msgstr "УСПЕХ!"

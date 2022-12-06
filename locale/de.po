@@ -337,3 +337,18 @@ msgstr "Pakete prüfen"
 
 msgid "VOLTAR"
 msgstr "KOMM ZURÜCK"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Installation nicht möglich.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Kann nicht entfernt werden.</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "VORRÜCKEN"
+
+msgid "ERRO!"
+msgstr "FEHLER!"
+
+msgid "SUCESSO!"
+msgstr "ERFOLG!"

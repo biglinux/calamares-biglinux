@@ -328,3 +328,18 @@ msgstr "Checking packages"
 
 msgid "VOLTAR"
 msgstr "COME BACK"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Cannot install.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Cannot remove.</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "ADVANCE"
+
+msgid "ERRO!"
+msgstr "ERROR!"
+
+msgid "SUCESSO!"
+msgstr "SUCCESS!"

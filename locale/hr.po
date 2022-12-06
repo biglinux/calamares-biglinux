@@ -331,3 +331,18 @@ msgstr "Provjera paketa"
 
 msgid "VOLTAR"
 msgstr "VRATI SE"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Instalacija se ne može instalirati.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Uklanjanje nije moguće.</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "PREDUJAM"
+
+msgid "ERRO!"
+msgstr "GREŠKA!"
+
+msgid "SUCESSO!"
+msgstr "USPJEH!"

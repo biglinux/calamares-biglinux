@@ -331,3 +331,18 @@ msgstr "Kontrola balíkov"
 
 msgid "VOLTAR"
 msgstr "POĎ SPÄŤ"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Nedá sa nainštalovať.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Nedá sa odstrániť.</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "ZÁLOHA"
+
+msgid "ERRO!"
+msgstr "CHYBA!"
+
+msgid "SUCESSO!"
+msgstr "ÚSPECH!"

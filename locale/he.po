@@ -326,3 +326,18 @@ msgstr "בדיקת חבילות"
 
 msgid "VOLTAR"
 msgstr "תחזור"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>אין אפשרות להתקין.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>לא ניתן להסיר.</b></font><br><br>"
+
+msgid "AVANÇAR"
+msgstr "התקדם"
+
+msgid "ERRO!"
+msgstr "שגיאה!"
+
+msgid "SUCESSO!"
+msgstr "הצלחה!"
