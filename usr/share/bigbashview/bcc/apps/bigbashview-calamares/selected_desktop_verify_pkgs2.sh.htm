@@ -15,9 +15,12 @@ LANGUAGE=$LANG:en
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=calamares-biglinux
 
-NotPossibleInstall=$"Não é possível instalar, "
-NotPossibleRemove=$"Não é possível remover:"
+NotPossibleInstall=$"<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+NotPossibleRemove=$"<font color='red'><b>Não é possível remover.</b></font><br><br>"
 BACK_HISTORY=$"VOLTAR"
+CONTINUE_HISTORY=$"AVANÇAR"
+ERRO_MSG=$"ERRO!"
+SUCCESS_MSG=$"SUCESSO!"
 
 windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
 
@@ -27,16 +30,13 @@ rm -f /tmp/biglinux-calamares-pkg-install.err
 rm -f /tmp/biglinux-calamares-pkg-remove.err
 pkgProblem=""
 
-# for package  in $install_packages; do
-
 echo "<div style='display:none;'>"
     pacman -Si $(echo $install_packages | tr -d '\r') 2> /tmp/biglinux-calamares-pkg-install.err
-echo "</div>"
-    
+   
     if [ "$?" != "0" ]; then
         pkgProblem="yes"
     fi
-# done
+echo "</div>"
 
 if [ "$remove_packages" != "" ]; then
     for package  in $remove_packages; do
@@ -48,14 +48,15 @@ if [ "$remove_packages" != "" ]; then
 fi
 
 if [ -e "/tmp/biglinux-calamares-pkg-install.err" ]; then
-  msg_not_install="$NotPossibleInstall $(cat /tmp/biglinux-calamares-pkg-install.err)"
+  msg_not_install="$NotPossibleInstall $(cat /tmp/biglinux-calamares-pkg-install.err | sed 's/\"/<b>/;s/\"/<\/b>/')"
+  
 fi
 
 if [ -e "/tmp/biglinux-calamares-pkg-remove.err" ]; then
   msg_not_remove="$NotPossibleRemove $(cat /tmp/biglinux-calamares-pkg-remove.err)"
 fi
 
-cat <<EOF
+cat << EOF
 <head>
   <meta charset="UTF-8">
   <title>$TITLE</title>
@@ -68,7 +69,6 @@ EOF
 /usr/share/bigbashview/bcc/shell/getbgcolor.sh
 
 cat <<EOF
-<!-- <body onload="document.forms[0].submit()"> -->
 <div class="dark-light">
     <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
@@ -88,17 +88,34 @@ echo '</strong>'
 echo '</div>'
 
 cat << EOF
-
   <div class="container" style="display: grid;"> 
     <div class="panel calamares-big-table"> 
       <div class="calamares-big-plan" id=customSystem>
-        <h3 class="calamares-big-header" style="text-transform: uppercase;">ERRO!</h3>
-        <div class="p"></div>       
 EOF
-#if [ -e $pkgProblem ]; then
-echo "<pre>$msg_not_install <br> <br> $msg_not_remove</pre>"
-#fi
+if [ "$pkgProblem" = "yes" ]; then
+cat << EOF
+        <h3 class="calamares-big-header" style="text-transform: uppercase;">$ERRO_MSG</h3>
+EOF
+else
+cat << EOF
+        <h3 class="calamares-big-header" style="text-transform: uppercase;">$SUCCESS_MSG</h3>
+EOF
+fi
 
+echo '<div class="p"></div>'
+
+if [ "$pkgProblem" = "yes" ]; then
+echo "<pre>$msg_not_install<br><br><b>$msg_not_remove</b></pre>"
+else
+cat << EOF
+<!-- <body onload="document.forms[0].submit()"> -->
+<script>
+window.onload = function(){
+  document.forms[0].submit();
+}
+</script>
+EOF
+fi
 
 echo '<form action=wait.sh.htm>'
 echo '<input type="hidden" id="use_custom_desktop" name="use_custom_desktop" value="yes">'
@@ -106,9 +123,17 @@ echo "<input type=\"hidden\" id=\"option\" name=\"option\" value=\"$option\">"
 echo "<input type=\"hidden\" id=\"install_packages\" name=\"install_packages\" value=\"$install_packages\">"
 echo "<input type=\"hidden\" id=\"remove_packages\" name=\"remove_packages\" value=\"$remove_packages\">"
 echo "<input type=\"hidden\" id=\"login_manager\" name=\"login_manager\" value=\"$login_manager\">"
-cat << EOF
 
-<a href="#" onclick="window.history.go(-1);" class="calamares-big-button is-featured">$BACK_HISTORY</a>
+if [ "$pkgProblem" = "yes" ]; then
+cat << EOF
+        <a href="#" onclick="window.history.go(-1);" class="calamares-big-button is-featured">$BACK_HISTORY</a>
+EOF
+else
+cat << EOF
+        <a href="#" onclick="document.forms[0].submit()" class="calamares-big-button is-featured">$CONTINUE_HISTORY</a>
+EOF
+fi
+cat << EOF
       </div>
     </div>
   </div>
