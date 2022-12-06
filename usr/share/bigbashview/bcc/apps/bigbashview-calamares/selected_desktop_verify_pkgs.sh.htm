@@ -23,6 +23,40 @@ cat << EOF
   <title>$TITLE</title>
   <script src="/usr/share/bigbashview/bcc/materialize/js/jquery.js"></script>
   <link rel="stylesheet" href="./style.css">
+  <style>
+.loading span {
+  display: inline-block;
+  vertical-align: middle;
+  width: .6em;
+  height: .6em;
+  margin: .19em;
+  background: #87CEFA;
+  border-radius: .6em;
+  animation: loading 1s infinite alternate;
+}
+
+.loading span:nth-of-type(2) {
+  background: #00BFFF;
+  animation-delay: 0.2s;
+}
+.loading span:nth-of-type(3) {
+  background: #1E90FF;
+  animation-delay: 0.4s;
+}
+.loading span:nth-of-type(4) {
+  background: #4168E1;
+  animation-delay: 0.6s;
+}
+
+@keyframes loading {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}  
+  </style>  
 </head>
 EOF
 
@@ -56,6 +90,12 @@ cat << EOF
         <h3 class="calamares-big-header" style="text-transform: uppercase;">$VerifyPkgs</h3>
         <h3 class="calamares-big-header">$CUSTOM_PKGS</h3>
         <div class="p"></div>
+        <div class="loading">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
         
 EOF
 

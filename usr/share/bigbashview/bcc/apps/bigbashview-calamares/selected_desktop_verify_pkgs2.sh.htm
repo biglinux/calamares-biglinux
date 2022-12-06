@@ -17,32 +17,9 @@ export TEXTDOMAIN=calamares-biglinux
 
 NotPossibleInstall=$"Não é possível instalar, "
 NotPossibleRemove=$"Não é possível remover:"
+BACK_HISTORY=$"VOLTAR"
 
 windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
-
-
-
-cat << EOF
-<head>
-  <meta charset="UTF-8">
-  <title>$TITLE</title>
-  <script src="/usr/share/bigbashview/bcc/materialize/js/jquery.js"></script>
-  <link rel="stylesheet" href="./style.css">
-</head>
-EOF
-
-# Get body tag with color light or not
-/usr/share/bigbashview/bcc/shell/getbgcolor.sh
-
-cat <<EOF
-<div class="dark-light">
-    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
-    </svg>
-</div>
-EOF
-
-
 
 # Clean
 rm -f /tmp/start_calamares
@@ -51,7 +28,11 @@ rm -f /tmp/biglinux-calamares-pkg-remove.err
 pkgProblem=""
 
 # for package  in $install_packages; do
+
+echo "<div style='display:none;'>"
     pacman -Si $(echo $install_packages | tr -d '\r') 2> /tmp/biglinux-calamares-pkg-install.err
+echo "</div>"
+    
     if [ "$?" != "0" ]; then
         pkgProblem="yes"
     fi
@@ -74,14 +55,49 @@ if [ -e "/tmp/biglinux-calamares-pkg-remove.err" ]; then
   msg_not_remove="$NotPossibleRemove $(cat /tmp/biglinux-calamares-pkg-remove.err)"
 fi
 
-if [ "$pkgProblem" = "yes" ]; then
-  zenity --attach="$windowID" --width=300 --title=$"Verificando pacotes" --error --text "$msg_not_install
+cat <<EOF
+<head>
+  <meta charset="UTF-8">
+  <title>$TITLE</title>
+  <script src="/usr/share/bigbashview/bcc/materialize/js/jquery.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+EOF
 
-$msg_not_remove"
+# Get body tag with color light or not
+/usr/share/bigbashview/bcc/shell/getbgcolor.sh
 
-  echo '<body onload=window.history.go(-1); return false;>'
-    exit 1
-fi
+cat <<EOF
+<!-- <body onload="document.forms[0].submit()"> -->
+<div class="dark-light">
+    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+    </svg>
+</div>
+EOF
+
+echo '<div class=info>'
+echo $"O sistema está em modo"
+echo '<strong>'
+[ -d /sys/firmware/efi ] && echo ' UEFI' || echo ' BIOS (Legacy)'
+echo '</strong>'
+echo $"e com o kernel" 
+echo '<strong>'
+echo "$(uname -r | cut -f1 -d-)" 
+echo '</strong>'
+echo '</div>'
+
+cat << EOF
+
+  <div class="container" style="display: grid;"> 
+    <div class="panel calamares-big-table"> 
+      <div class="calamares-big-plan" id=customSystem>
+        <h3 class="calamares-big-header" style="text-transform: uppercase;">ERRO!</h3>
+        <div class="p"></div>       
+EOF
+#if [ -e $pkgProblem ]; then
+echo "<pre>$msg_not_install <br> <br> $msg_not_remove</pre>"
+#fi
 
 
 echo '<form action=wait.sh.htm>'
@@ -91,14 +107,15 @@ echo "<input type=\"hidden\" id=\"install_packages\" name=\"install_packages\" v
 echo "<input type=\"hidden\" id=\"remove_packages\" name=\"remove_packages\" value=\"$remove_packages\">"
 echo "<input type=\"hidden\" id=\"login_manager\" name=\"login_manager\" value=\"$login_manager\">"
 cat << EOF
-<body onload="document.forms[0].submit()">
+
+<a href="#" onclick="window.history.go(-1);" class="calamares-big-button is-featured">$BACK_HISTORY</a>
+      </div>
+    </div>
+  </div>
+  <div class="logo">
+      <img id="btn-big" src="logo.svg" class="logo-biglinux">
+  </div>
+<script  src="./script.js"></script>
 </body>
 </html>
 EOF
-
-    
-
-
-
-
-
