@@ -29,7 +29,7 @@ windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
 zenity --attach="$windowID" --width=300 --progress --title="Internet" --pulsate --no-cancel --text $"Verificando conexão com a Internet..." &
 
 #esperar terminar de gerar as chaves
-while [ -n "$(top -b -d1 n1 | grep gpg)" ]; do
+while [ -n "$(top -b -d1 n1 | grep gpg$)" ]; do
     sleep 0.5
 done
 
@@ -51,7 +51,7 @@ EOF
 
 #atualiza o sistema junto com os pacotes dos desktops community
 windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
-for i in $(pacman -Q | awk '{print $1}' | grep biglinux-calamares); do sudo pacman -S $i --noconfirm --needed; done | zenity --attach="$windowID" --width=300 --progress --title="Desktops" --pulsate --no-cancel --auto-close --text $"Atualizando lista de Interfaces..."
+for i in $(pacman -Q | awk '{print $1}' | grep biglinux-calamares); do sudo pacman -S $i calamares-biglinux --noconfirm --needed; done | zenity --attach="$windowID" --width=300 --progress --title="Desktops" --pulsate --no-cancel --auto-close --text $"Atualizando lista de Interfaces..."
 # sudo pacman -Syyu --noconfirm | zenity --width=300 --progress --title="Desktops" --pulsate --no-cancel --auto-close --text $"Atualizando lista de Interfaces..."
 
 cat << EOF
