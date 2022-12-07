@@ -17,6 +17,7 @@ export TEXTDOMAIN=calamares-biglinux
 
 NotPossibleInstall=$"<font color='red'><b>Não é possível instalar.</b></font><br><br> "
 NotPossibleRemove=$"<font color='red'><b>Não é possível remover.</b></font><br><br>"
+NotPossibleLogin=$"<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>" 
 BACK_HISTORY=$"VOLTAR"
 CONTINUE_HISTORY=$"AVANÇAR"
 ERRO_MSG=$"ERRO!"
@@ -28,13 +29,16 @@ windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
 rm -f /tmp/start_calamares
 rm -f /tmp/biglinux-calamares-pkg-install.err
 rm -f /tmp/biglinux-calamares-pkg-remove.err
+
+pkgProblemInstall=""
+pkgProblemRemove=""
 pkgProblem=""
 
 echo "<div style='display:none;'>"
     pacman -Si $(echo $install_packages | tr -d '\r') 2> /tmp/biglinux-calamares-pkg-install.err
    
     if [ "$?" != "0" ]; then
-        pkgProblem="yes"
+        pkgProblemInstall="yes"
     fi
 echo "</div>"
 
@@ -42,19 +46,29 @@ if [ "$remove_packages" != "" ]; then
     for package  in $remove_packages; do
         if [ -z "$(grep "$package" /rootfs-pkgs.txt)" ]; then
             echo $package >> /tmp/biglinux-calamares-pkg-remove.err
-            pkgProblem="yes"
+            pkgProblemRemove="yes"
         fi
     done
 fi
 
 if [ -e "/tmp/biglinux-calamares-pkg-install.err" ]; then
-  msg_not_install="$NotPossibleInstall $(cat /tmp/biglinux-calamares-pkg-install.err | sed 's/\"/<b>/;s/\"/<\/b>/')"
-  
+  msg_not_install="$NotPossibleInstall $(cat /tmp/biglinux-calamares-pkg-install.err | sed 's/\"/<b>/;s/\"/<\/b>/')<br><br>"
+else
+  msg_not_install=""
 fi
 
 if [ -e "/tmp/biglinux-calamares-pkg-remove.err" ]; then
-  msg_not_remove="$NotPossibleRemove $(cat /tmp/biglinux-calamares-pkg-remove.err)"
+  msg_not_remove="$NotPossibleRemove $(cat /tmp/biglinux-calamares-pkg-remove.err)<br><br>"
+else
+  msg_not_remove=""
 fi
+
+if [ -z "$(echo $install_packages | grep $login_manager)" ];then
+  msg_not_login="$NotPossibleLogin <b>$login_manager</b><br>"
+  pkgProblem="yes"
+else
+  msg_not_login=""
+fi 
 
 cat << EOF
 <head>
@@ -92,29 +106,35 @@ cat << EOF
     <div class="panel calamares-big-table"> 
       <div class="calamares-big-plan" id=customSystem>
 EOF
-if [ "$pkgProblem" = "yes" ]; then
-cat << EOF
-        <h3 class="calamares-big-header" style="text-transform: uppercase;">$ERRO_MSG</h3>
-EOF
-else
-cat << EOF
-        <h3 class="calamares-big-header" style="text-transform: uppercase;">$SUCCESS_MSG</h3>
-EOF
-fi
+if ([ "$pkgProblemInstall" = "yes" ]) || ([ "$pkgProblemRemove" = "yes" ]) || ([ "$pkgProblem" = "yes" ]) then
 
-echo '<div class="p"></div>'
-
-if [ "$pkgProblem" = "yes" ]; then
-echo "<pre>$msg_not_install<br><br><b>$msg_not_remove</b></pre>"
+  echo '<h3 class="calamares-big-header" style="text-transform: uppercase;">$ERRO_MSG</h3>'
+  echo '<div class="p"></div>'
+  echo "<pre>"
+  if [ "$pkgProblemInstall" = "yes" ]; then
+    echo "$msg_not_install"
+  fi  
+    
+  if [ "$pkgProblemRemove" = "yes" ]; then
+    echo "<b>$msg_not_remove</b>"
+  fi  
+    
+  if [ "$pkgProblem" = "yes" ]; then
+    echo "$msg_not_login"
+  fi
+  echo "</pre>"
+  
 else
+
 cat << EOF
-<!-- <body onload="document.forms[0].submit()"> -->
+<h3 class="calamares-big-header" style="text-transform: uppercase;">$SUCCESS_MSG</h3>
 <script>
-window.onload = function(){
-  document.forms[0].submit();
-}
+  window.onload = function(){
+    document.forms[0].submit();
+  }
 </script>
 EOF
+
 fi
 
 echo '<form action=wait.sh.htm>'
@@ -124,15 +144,12 @@ echo "<input type=\"hidden\" id=\"install_packages\" name=\"install_packages\" v
 echo "<input type=\"hidden\" id=\"remove_packages\" name=\"remove_packages\" value=\"$remove_packages\">"
 echo "<input type=\"hidden\" id=\"login_manager\" name=\"login_manager\" value=\"$login_manager\">"
 
-if [ "$pkgProblem" = "yes" ]; then
-cat << EOF
-        <a href="#" onclick="window.history.go(-1);" class="calamares-big-button is-featured">$BACK_HISTORY</a>
-EOF
+if ([ "$pkgProblemInstall" = "yes" ]) || ([ "$pkgProblemRemove" = "yes" ]) || ([ "$pkgProblem" = "yes" ]) then
+  echo '<a href="#" onclick="window.history.go(-1);" class="calamares-big-button is-featured">$BACK_HISTORY</a>'
 else
-cat << EOF
-        <a href="#" onclick="document.forms[0].submit()" class="calamares-big-button is-featured">$CONTINUE_HISTORY</a>
-EOF
+  echo '<a href="#" onclick="document.forms[0].submit()" class="calamares-big-button is-featured">$CONTINUE_HISTORY</a>'
 fi
+
 cat << EOF
       </div>
     </div>
