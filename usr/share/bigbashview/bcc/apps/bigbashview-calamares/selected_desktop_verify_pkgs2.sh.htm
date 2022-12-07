@@ -43,7 +43,7 @@ echo "<div style='display:none;'>"
 echo "</div>"
 
 if [ "$remove_packages" != "" ]; then
-    for package  in $remove_packages; do
+    for package in $(echo $remove_packages | tr -d '\r'); do
         if [ -z "$(grep "$package" /rootfs-pkgs.txt)" ]; then
             echo $package >> /tmp/biglinux-calamares-pkg-remove.err
             pkgProblemRemove="yes"
@@ -109,7 +109,7 @@ cat << EOF
 EOF
 if ([ "$pkgProblemInstall" = "yes" ]) || ([ "$pkgProblemRemove" = "yes" ]) || ([ "$pkgProblem" = "yes" ]) then
 
-  echo '<h3 class="calamares-big-header" style="text-transform: uppercase;">$ERRO_MSG</h3>'
+  echo '<h3 class="calamares-big-header" style="text-transform: uppercase;">'"$ERRO_MSG"'</h3>'
   echo '<div class="p"></div>'
   echo "<pre>"
   if [ "$pkgProblemInstall" = "yes" ]; then
@@ -146,9 +146,9 @@ echo "<input type=\"hidden\" id=\"remove_packages\" name=\"remove_packages\" val
 echo "<input type=\"hidden\" id=\"login_manager\" name=\"login_manager\" value=\"$login_manager\">"
 
 if ([ "$pkgProblemInstall" = "yes" ]) || ([ "$pkgProblemRemove" = "yes" ]) || ([ "$pkgProblem" = "yes" ]) then
-  echo '<a href="#" onclick="window.history.go(-1);" class="calamares-big-button is-featured">$BACK_HISTORY</a>'
+  echo '<a href="#" onclick="window.history.go(-1);" class="calamares-big-button is-featured">'"$BACK_HISTORY"'</a>'
 else
-  echo '<a href="#" onclick="document.forms[0].submit()" class="calamares-big-button is-featured">$CONTINUE_HISTORY</a>'
+  echo '<a href="#" onclick="document.forms[0].submit()" class="calamares-big-button is-featured">'"$CONTINUE_HISTORY"'</a>'
 fi
 
 cat << EOF
