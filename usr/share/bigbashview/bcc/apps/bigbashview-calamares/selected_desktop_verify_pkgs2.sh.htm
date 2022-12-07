@@ -26,9 +26,9 @@ SUCCESS_MSG=$"SUCESSO!"
 windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
 
 # Clean
-rm -f /tmp/start_calamares
-rm -f /tmp/biglinux-calamares-pkg-install.err
-rm -f /tmp/biglinux-calamares-pkg-remove.err
+sudo rm -f /tmp/start_calamares
+sudo rm -f /tmp/biglinux-calamares-pkg-install.err
+sudo rm -f /tmp/biglinux-calamares-pkg-remove.err
 
 pkgProblemInstall=""
 pkgProblemRemove=""
@@ -62,12 +62,13 @@ if [ -e "/tmp/biglinux-calamares-pkg-remove.err" ]; then
 else
   msg_not_remove=""
 fi
-
-if [ -z "$(echo $install_packages | grep $login_manager)" ];then
-  msg_not_login="$NotPossibleLogin <b>$login_manager</b><br>"
-  pkgProblem="yes"
-else
-  msg_not_login=""
+if [ "$desktop_selected" != "cli" ];then
+    if [ -z "$(echo $install_packages | grep $login_manager)" ];then
+        msg_not_login="$NotPossibleLogin <b>$login_manager</b><br>"
+        pkgProblem="yes"
+    else
+        msg_not_login=""
+    fi
 fi 
 
 cat << EOF
