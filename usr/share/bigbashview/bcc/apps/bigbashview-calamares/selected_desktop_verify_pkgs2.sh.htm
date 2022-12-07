@@ -62,7 +62,7 @@ if [ -e "/tmp/biglinux-calamares-pkg-remove.err" ]; then
 else
   msg_not_remove=""
 fi
-if [ "$desktop_selected" != "cli" ];then
+if [ "$desktop_selected" = "cli" -a -n "$login_manager" ];then
     if [ -z "$(echo $install_packages | grep $login_manager)" ];then
         msg_not_login="$NotPossibleLogin <b>$login_manager</b><br>"
         pkgProblem="yes"
