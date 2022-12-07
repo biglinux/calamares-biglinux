@@ -400,3 +400,8 @@ msgstr  ""
 #
 msgid   "SUCESSO!"
 msgstr  ""
+
+#
+msgid   "<font color='red'><b>Não é possível encontrar Gerenciador de Login</"
+        "b></font><br><br>"
+msgstr  ""

@@ -345,3 +345,6 @@ msgstr "CHYBA!"
 
 msgid "SUCESSO!"
 msgstr "ÚSPĚCH!"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Nelze najít Správce přihlášení</b></font><br><br>"

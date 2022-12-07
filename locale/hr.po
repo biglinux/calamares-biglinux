@@ -346,3 +346,6 @@ msgstr "GREŠKA!"
 
 msgid "SUCESSO!"
 msgstr "USPJEH!"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Nije moguće pronaći upravitelja za prijavu</b></font><br><br>"

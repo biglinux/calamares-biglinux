@@ -348,3 +348,6 @@ msgstr "EROARE!"
 
 msgid "SUCESSO!"
 msgstr "SUCCES!"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Nu pot găsi Login Manager</b></font><br><br>"

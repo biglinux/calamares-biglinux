@@ -346,3 +346,6 @@ msgstr "HIBA!"
 
 msgid "SUCESSO!"
 msgstr "SIKER!"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Nem találom a Login Managert</b></font><br><br>"

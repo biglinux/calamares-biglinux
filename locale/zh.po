@@ -337,3 +337,6 @@ msgstr "错误！"
 
 msgid "SUCESSO!"
 msgstr "成功！"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>找不到登录管理器</b></font><br><br>"

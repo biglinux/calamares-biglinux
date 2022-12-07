@@ -350,3 +350,6 @@ msgstr "ΛΆΘΟΣ!"
 
 msgid "SUCESSO!"
 msgstr "ΕΠΙΤΥΧΊΑ!"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Δεν είναι δυνατή η εύρεση της Διαχείρισης σύνδεσης</b></font><br><br>"

@@ -344,3 +344,6 @@ msgstr "VIGA!"
 
 msgid "SUCESSO!"
 msgstr "EDU!"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Ei leia sisselogimishaldurit</b></font><br><br>"

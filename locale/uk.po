@@ -348,3 +348,6 @@ msgstr "ПОМИЛКА!"
 
 msgid "SUCESSO!"
 msgstr "УСПІХ!"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Не вдається знайти менеджер входу</b></font><br><br>"

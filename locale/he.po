@@ -341,3 +341,6 @@ msgstr "שגיאה!"
 
 msgid "SUCESSO!"
 msgstr "הצלחה!"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>לא ניתן למצוא את מנהל ההתחברות</b></font><br><br>"

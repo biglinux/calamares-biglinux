@@ -348,3 +348,6 @@ msgstr "HATA!"
 
 msgid "SUCESSO!"
 msgstr "BAŞARI!"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Giriş Yöneticisi bulunamıyor</b></font><br><br>"

@@ -352,3 +352,6 @@ msgstr "FEHLER!"
 
 msgid "SUCESSO!"
 msgstr "ERFOLG!"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Login Manager kann nicht gefunden werden</b></font><br><br>"

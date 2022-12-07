@@ -345,3 +345,6 @@ msgstr "VIRHE!"
 
 msgid "SUCESSO!"
 msgstr "MENESTYS!"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Kirjautumisen hallintaa ei löydy</b></font><br><br>"

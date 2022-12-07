@@ -346,3 +346,6 @@ msgstr "BŁĄD!"
 
 msgid "SUCESSO!"
 msgstr "SUKCES!"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Nie można znaleźć Menedżera logowania</b></font><br><br>"

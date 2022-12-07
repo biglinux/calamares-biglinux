@@ -348,3 +348,6 @@ msgstr "¡ERROR!"
 
 msgid "SUCESSO!"
 msgstr "¡ÉXITO!"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>No se puede encontrar el Administrador de inicio de sesión</b></font><br><br>"

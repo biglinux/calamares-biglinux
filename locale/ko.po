@@ -337,3 +337,6 @@ msgstr "오류!"
 
 msgid "SUCESSO!"
 msgstr "성공!"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>로그인 관리자를 찾을 수 없음</b></font><br><br>"

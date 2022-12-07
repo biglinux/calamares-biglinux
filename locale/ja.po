@@ -339,3 +339,6 @@ msgstr "エラー！"
 
 msgid "SUCESSO!"
 msgstr "成功！"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>ログインマネージャが見つからない</b></font><br><br>"

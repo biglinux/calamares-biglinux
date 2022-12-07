@@ -343,3 +343,6 @@ msgstr "ERROR!"
 
 msgid "SUCESSO!"
 msgstr "SUCCESS!"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Can't find Login Manager</b></font><br><br>"
