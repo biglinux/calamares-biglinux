@@ -52,6 +52,7 @@ unpack:
 fi
 
 if [ "$use_custom_desktop" = "yes" ]; then
+    if [ "$install_packages" != "" ]; then
 echo '---
 
 backend: pamac
@@ -71,7 +72,8 @@ operations:
     for package  in $install_packages; do
         echo "   - $package" >> /etc/calamares/modules/packages.conf
     done
-
+    fi
+    
     if [ "$remove_packages" != "" ]; then
         echo ' - remove:' >> /etc/calamares/modules/packages.conf
 

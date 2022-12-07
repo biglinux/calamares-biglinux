@@ -40,7 +40,7 @@ fi
 ruscherrelease=$(cat /etc/big-release | grep RELEASE | awk -F'=' '{print $2}')
 ruschertimestamp=$(cat /etc/big-release | grep TIMESTAMP | awk -F'=' '{print $2}')
 if [ "$(echo $ruscherrelease | wc -m)" -gt "11" ]; then
-    if  [ "$(echo $(( $(date +%s) / 86400 )))" -gt "$(( $ruschertimestamp + 7 ))" ]; then
+    #if  [ "$(echo $(( $(date +%s) / 86400 )))" -gt "$(( $ruschertimestamp + 7 ))" ]; then
         echo "verificando validade da ISO"
         windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
         zenity --attach="$windowID" --width=300 --progress --title=$"Verificando" --pulsate --no-cancel --text $"Verificando conexão com a Internet..." &
@@ -67,7 +67,7 @@ if [ "$(echo $ruscherrelease | wc -m)" -gt "11" ]; then
             find $HOME -name calamares-biglinux.desktop -exec rm {} +
             exit 1
         fi
-    fi
+    #fi
 fi
 
 # disable swap on disk
