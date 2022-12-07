@@ -69,6 +69,13 @@ if [ "$desktop_selected" = "cli" -a -n "$login_manager" ];then
     else
         msg_not_login=""
     fi
+elif [ "$desktop_selected" != "cli" ];then 
+    if [ -z "$(echo $install_packages | grep $login_manager)" ];then
+        msg_not_login="$NotPossibleLogin <b>$login_manager</b><br>"
+        pkgProblem="yes"
+    else
+        msg_not_login=""
+    fi
 fi 
 
 cat << EOF
