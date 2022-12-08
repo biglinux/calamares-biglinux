@@ -44,6 +44,10 @@ if [ "$(echo $ruscherrelease | wc -m)" -gt "11" ]; then
         echo "verificando validade da ISO"
         windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
         zenity --attach="$windowID" --width=300 --progress --title=$"Verificando" --pulsate --no-cancel --text $"Verificando conexão com a Internet..." &
+        #esperar terminar de gerar as chaves
+        while [ -n "$(top -b -d1 n1 | grep gpg$)" ]; do
+            sleep 0.5
+        done
         sudo pacman -Sy 
         if [ "$?" = "1" ];then
             zenity --error --width=300 --title="Internet" --text $"Sem conexão com a Internet..."
