@@ -16,6 +16,93 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Ви все одно хочете продовжити встановлення цієї старої версії?</b>\n"
+"    :LBL"
+
+msgid ""
+"O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
+"Recomendamos que faça o download de uma versão mais recente.\n"
+"    "
+msgstr ""
+"BigLinux - це щотижнева система оновлення, і ця версія випускається більше місяця.\\n"
+"Ми рекомендуємо вам завантажити новішу версію.    "
+
+msgid " Continue"
+msgstr " Продовжуй"
+
+msgid " Fechar"
+msgstr " Закрити"
+
+msgid "Versão Desatualizada"
+msgstr "застаріла версія"
+
+msgid "Verificando"
+msgstr "Перевірка"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Перевірка підключення до інтернету..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Немає підключення до Інтернету..."
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Ця версія для розробки застаріла і більше не може бути використана.</b>\n"
+"            :LBL"
+
+msgid " OK"
+msgstr " ГАРАЗД"
+
+msgid "Deseja prosseguir com com a instalação em modo EFI?"
+msgstr "Ви хочете продовжити встановлення в режимі EFI?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
+"partição EFI neste computador.\n"
+"\n"
+"Se este computador já possui outro sistema instalado e você pretende \n"
+"que ele permaneça instalado, provavelmente será necessário alterar a \n"
+"configuração na BIOS para fazer boot em modo Legacy, também \n"
+"chamado de modo BIOS."
+msgstr ""
+"Поточне завантаження використовується <span color='#CC2222'>в режимі EFI</span>, але я не знайшов "
+"жодного \n"
+"Розділ EFI на цьому комп'ютері.\n"
+"\n"
+"Якщо на цьому комп'ютері вже встановлена інша система і ви маєте намір \n"
+"щоб він залишався встановленим, вам, ймовірно, потрібно буде змінити \n"
+"настройка в BIOS для завантаження в Legacy режимі, також \n"
+"називається режимом BIOS."
+
+msgid "Instalar o sistema"
+msgstr "Встановлюємо систему"
+
+msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
+msgstr "Ви хочете продовжити встановлення в режимі Legacy/BIOS?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
+"menos uma partição EFI neste computador. \n"
+"\n"
+"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
+"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
+msgstr ""
+"Поточне завантаження використовується в <span color='#CC2222'>режимі Legacy/BIOS, але</span> я "
+"знайшов по \n"
+"принаймні один розділ EFI на цьому комп'ютері. \n"
+"\n"
+"Щоб установка пройшла успішно, ймовірно, вам потрібно буде \n"
+"змінити настройку в BIOS для завантаження в режим EFI або UEFI."
+
+msgid "Instalar o BigLinux"
+msgstr "Встановіть BigLinux"
+
 msgid "Verificando o arquivo:"
 msgstr "Перевірка файлу:"
 
@@ -34,20 +121,86 @@ msgstr "Файли інтегровані."
 msgid "Verificação cancelada."
 msgstr "Перевірка скасована."
 
-msgid " Continue"
-msgstr " Продовжуй"
+msgid "ESCOLHA O DESKTOP"
+msgstr "ВИБЕРІТЬ РОБОЧИЙ СТІЛ"
 
-msgid " Fechar"
-msgstr " Закрити"
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "ПОВЕРНІТЬСЯ НАЗАД І СКОРИСТАЙТЕСЯ СТАНДАРТНОЮ УСТАНОВКОЮ"
 
-msgid "Instalar o sistema"
-msgstr "Встановлюємо систему"
+msgid "INSTALAR"
+msgstr "ІНСТАЛЮВАТИ"
 
-msgid "Instalar o BigLinux"
-msgstr "Встановіть BigLinux"
+msgid "DESKTOP"
+msgstr "НАСТІЛЬНИЙ"
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Оновлення списку інтерфейсів..."
+
+msgid "O sistema está em modo"
+msgstr "Система знаходиться в"
+
+msgid "e com o kernel"
+msgstr "і з ядром"
 
 msgid "PADRÃO"
 msgstr "ВІЗЕРУНОК"
+
+msgid "PERSONALIZADA"
+msgstr "НЕСТАНДАРТНИЙ"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "СТАНДАРТНА АБО ВИБІРКОВА УСТАНОВКА?"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "ІНСТАЛЮВАТИ З МЕНШОЮ КІЛЬКІСТЮ ПРОГРАМ АБО ВИКОРИСТОВУВАТИ ІНШИЙ РОБОЧИЙ СТІЛ?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Для установки іншого робочого столу потрібно буде завантажити при установці, час установки буде "
+"залежати від швидкості інтернету."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "ДІЙСНО ХОЧЕТЕ ВСТАНОВИТИ ІНШИЙ РОБОЧИЙ СТІЛ?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Наступні настільні комп'ютери підтримуються користувачами спільноти BigLinux і мають менше "
+"налаштувань і тестів, ви дійсно хочете продовжити?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "МЕНШЕ ПРОГРАМ"
+
+msgid "OUTROS DESKTOPS"
+msgstr "ІНШІ НАСТІЛЬНІ КОМП'ЮТЕРИ"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "ФАКТИЧНО ВИКОРИСТОВУЙТЕ ІНШИЙ РОБОЧИЙ СТІЛ"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Якщо сумніваєтеся зробити стандартну установку, призначені для користувача опції повинні "
+"використовуватися тільки досвідченими користувачами."
+
+msgid "SELECIONAR"
+msgstr "ВИБЕРІТЬ"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Ти кидаєш мені виклик?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Я вам сказав, що ця версія застаріла.            "
 
 msgid "DESEMPENHO"
 msgstr "ПРОДУКТИВНІСТЬ"
@@ -73,80 +226,14 @@ msgstr "БТРФС з фсинхроном"
 msgid "BTRFS sem fsync"
 msgstr "БТРФС без fsync"
 
-msgid "SELECIONAR"
-msgstr "ВИБЕРІТЬ"
-
 msgid "Instalar no HD"
 msgstr "Установка на HD"
 
 msgid "* Não utilize /boot separado"
 msgstr "* Не використовуйте /boot окремо"
 
-msgid "O sistema está em modo"
-msgstr "Система знаходиться в"
-
-msgid "e com o kernel"
-msgstr "і з ядром"
-
-msgid "Deseja prosseguir com com a instalação em modo EFI?"
-msgstr "Ви хочете продовжити встановлення в режимі EFI?"
-
-msgid ""
-"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
-"partição EFI neste computador.\n"
-"\n"
-"Se este computador já possui outro sistema instalado e você pretende \n"
-"que ele permaneça instalado, provavelmente será necessário alterar a \n"
-"configuração na BIOS para fazer boot em modo Legacy, também \n"
-"chamado de modo BIOS."
-msgstr ""
-"Поточне завантаження використовується <span color='#CC2222'>в режимі EFI</span>, але я не знайшов "
-"жодного \n"
-"Розділ EFI на цьому комп'ютері.\n"
-"\n"
-"Якщо на цьому комп'ютері вже встановлена інша система і ви маєте намір \n"
-"щоб він залишався встановленим, вам, ймовірно, потрібно буде змінити \n"
-"настройка в BIOS для завантаження в Legacy режимі, також \n"
-"називається режимом BIOS."
-
-msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
-msgstr "Ви хочете продовжити встановлення в режимі Legacy/BIOS?"
-
-msgid ""
-"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
-"menos uma partição EFI neste computador. \n"
-"\n"
-"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
-"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
-msgstr ""
-"Поточне завантаження використовується в <span color='#CC2222'>режимі Legacy/BIOS, але</span> я "
-"знайшов по \n"
-"принаймні один розділ EFI на цьому комп'ютері. \n"
-"\n"
-"Щоб установка пройшла успішно, ймовірно, вам потрібно буде \n"
-"змінити настройку в BIOS для завантаження в режим EFI або UEFI."
-
-msgid "PERSONALIZADA"
-msgstr "НЕСТАНДАРТНИЙ"
-
-msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
-msgstr "ПІДТВЕРДЬТЕ ТА ПРОДОВЖУЙТЕ ІНСТАЛЯЦІЮ"
-
-msgid "ESCOLHA O DESKTOP"
-msgstr "ВИБЕРІТЬ РОБОЧИЙ СТІЛ"
-
-msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-msgstr "ІНСТАЛЮВАТИ З МЕНШОЮ КІЛЬКІСТЮ ПРОГРАМ АБО ВИКОРИСТОВУВАТИ ІНШИЙ РОБОЧИЙ СТІЛ?"
-
-msgid ""
-"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
-"instalação vai depender da velocidade da internet."
-msgstr ""
-"Для установки іншого робочого столу потрібно буде завантажити при установці, час установки буде "
-"залежати від швидкості інтернету."
-
-msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-msgstr "ДІЙСНО ХОЧЕТЕ ВСТАНОВИТИ ІНШИЙ РОБОЧИЙ СТІЛ?"
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "ЯКІ ПАКЕТИ ВИ НЕ ХОЧЕТЕ В СИСТЕМІ?"
 
 msgid ""
 "O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
@@ -157,188 +244,29 @@ msgstr ""
 "підтримуються користувачами спільноти BigLinux і мають менше налаштувань і тестів, дійсно хочете "
 "продовжити?"
 
-msgid "MENOS PROGRAMAS"
-msgstr "МЕНШЕ ПРОГРАМ"
-
-msgid "OUTROS DESKTOPS"
-msgstr "ІНШІ НАСТІЛЬНІ КОМП'ЮТЕРИ"
-
-msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
-msgstr "ФАКТИЧНО ВИКОРИСТОВУЙТЕ ІНШИЙ РОБОЧИЙ СТІЛ"
-
-msgid ""
-"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
-"usuários experientes."
-msgstr ""
-"Якщо сумніваєтеся зробити стандартну установку, призначені для користувача опції повинні "
-"використовуватися тільки досвідченими користувачами."
-
-msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
-msgstr "ПОВЕРНІТЬСЯ НАЗАД І СКОРИСТАЙТЕСЯ СТАНДАРТНОЮ УСТАНОВКОЮ"
-
-msgid "Personalizar a instalação:"
-msgstr "Налаштуйте установку:"
-
-msgid "INSTALAR"
-msgstr "ІНСТАЛЮВАТИ"
-
-msgid "DESKTOP"
-msgstr "НАСТІЛЬНИЙ"
-
-msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
-msgstr "ЯКІ ПАКЕТИ ВИ НЕ ХОЧЕТЕ В СИСТЕМІ?"
-
 msgid "Selecionar todos"
 msgstr "Виділити всі"
 
 msgid "Desmarcar todos"
 msgstr "Зняти прапорець для всіх"
 
-msgid "Deepin"
-msgstr "Діпін"
-
-msgid "Considerado um dos desktops mais bonitos que existem."
-msgstr "Вважаються одними з найкрасивіших настільних комп'ютерів, що є."
-
-msgid "Ukui"
-msgstr "Укуй"
-
-msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
-msgstr "Робочий стіл створений для китайської публіки, але який стає популярним і в інших країнах."
-
-msgid "Gnome"
-msgstr "Гном"
-
-msgid "Um dos desktops mais utilizados no mundo Linux."
-msgstr "Один з найбільш широко використовуваних настільних комп'ютерів у світі Linux."
-
-msgid "LXQt"
-msgstr "LXQt"
-
-msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
-msgstr "Настільне середовище утворилося в результаті злиття lxde і бритви-qt проектів."
-
-msgid "CuteFish"
-msgstr "симпатичні рибки"
-
-msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
-msgstr "Настільна обстановка орієнтована на простоту, красу і практичність."
-
-msgid "MATE"
-msgstr "МАТЕ"
-
-msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
-msgstr "Інтуїтивно зрозуміле та привабливе середовище робочого столу є продовженням GNOME 2."
-
-msgid "XFCE"
-msgstr "XFCE"
-
-msgid "Ambiente desktop leve e rápido."
-msgstr "Легке та швидке середовище робочого столу."
-
-msgid "Cinnamon"
-msgstr "Кориця"
-
-msgid ""
-"<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?</b>\n"
-"    :LBL"
-msgstr ""
-"<b>Ви все одно хочете продовжити встановлення старого ISO?</b>\n"
-"    :LBL"
-
-msgid ""
-"Essa ISO foi gerada a mais de 30 dias e já está desatualizada.\\n"
-"Sugerimos fortemente que baixe uma nova ISO e não prossiga com essa instalação!\n"
-"    "
-msgstr ""
-"Цей ISO був створений більше 30 днів тому і вже застарів.\\n"
-"Ми настійно рекомендуємо завантажити новий ISO і не продовжувати цю установку!    "
-
-msgid "ISO Antiga"
-msgstr "Давнє ІСО"
-
-msgid "Verificando conexão com a Internet..."
-msgstr "Перевірка підключення до інтернету..."
-
-msgid "Sem conexão com a Internet..."
-msgstr "Немає підключення до Інтернету..."
-
-msgid "Atualizando lista de Interfaces..."
-msgstr "Оновлення списку інтерфейсів..."
-
-msgid ""
-"<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
-"    :LBL"
-msgstr ""
-"<b>Ви все одно хочете продовжити встановлення цієї старої версії?</b>\n"
-"    :LBL"
-
-msgid ""
-"O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
-"Recomendamos que faça o download de uma versão mais recente.\n"
-"    "
-msgstr ""
-"BigLinux - це щотижнева система оновлення, і ця версія випускається більше місяця.\\n"
-"Ми рекомендуємо вам завантажити новішу версію.    "
-
-msgid "Versão Desatualizada"
-msgstr "застаріла версія"
-
-msgid "Verificando"
-msgstr "Перевірка"
-
-msgid ""
-"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
-"            :LBL"
-msgstr ""
-"<b>Ця версія для розробки застаріла і більше не може бути використана.</b>\n"
-"            :LBL"
-
-msgid " OK"
-msgstr " ГАРАЗД"
-
-msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
-msgstr "СТАНДАРТНА АБО ВИБІРКОВА УСТАНОВКА?"
-
-msgid ""
-"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
-"personalizações e testes, deseja realmente prosseguir?"
-msgstr ""
-"Наступні настільні комп'ютери підтримуються користувачами спільноти BigLinux і мають менше "
-"налаштувань і тестів, ви дійсно хочете продовжити?"
-
-msgid ""
-"<b>você está me desafiando?</b>\n"
-"            :LBL"
-msgstr ""
-"<b>Ти кидаєш мені виклик?</b>\n"
-"            :LBL"
-
-msgid ""
-"Já falei que essa versão está desatualizada.\n"
-"            "
-msgstr "Я вам сказав, що ця версія застаріла.            "
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "ПІДТВЕРДЬТЕ ТА ПРОДОВЖУЙТЕ ІНСТАЛЯЦІЮ"
 
 msgid "Verificando pacotes, aguarde..."
 msgstr "Перевіряючи пакети, чекайте..."
-
-msgid "Não é possível instalar, "
-msgstr "Немає можливості встановити, "
-
-msgid "Não é possível remover:"
-msgstr "Не вдається видалити:"
-
-msgid "Verificando pacotes"
-msgstr "Перевірка пакетів"
-
-msgid "VOLTAR"
-msgstr "ПОВЕРНУТИСЯ"
 
 msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
 msgstr "<font color='red'><b>Не вдається інсталювати.</b></font><br><br> "
 
 msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
 msgstr "<font color='red'><b>Не вдається видалити.</b></font><br><br>"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Не вдається знайти менеджер входу</b></font><br><br>"
+
+msgid "VOLTAR"
+msgstr "ПОВЕРНУТИСЯ"
 
 msgid "AVANÇAR"
 msgstr "АВАНС"
@@ -349,5 +277,5 @@ msgstr "ПОМИЛКА!"
 msgid "SUCESSO!"
 msgstr "УСПІХ!"
 
-msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
-msgstr "<font color='red'><b>Не вдається знайти менеджер входу</b></font><br><br>"
+msgid "Personalizar a instalação:"
+msgstr "Налаштуйте установку:"

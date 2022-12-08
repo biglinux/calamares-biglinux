@@ -16,6 +16,92 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Kas soovite selle vana versiooni installimist ikkagi jätkata?</b>\n"
+"    :LBL"
+
+msgid ""
+"O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
+"Recomendamos que faça o download de uma versão mais recente.\n"
+"    "
+msgstr ""
+"BigLinux on iganädalane värskendussüsteem ja see versioon on välja antud üle kuu.\\n"
+"Soovitame teil alla laadida uuema versiooni.    "
+
+msgid " Continue"
+msgstr " Jätka"
+
+msgid " Fechar"
+msgstr " Sulgema"
+
+msgid "Versão Desatualizada"
+msgstr "Aegunud versioon"
+
+msgid "Verificando"
+msgstr "Kontroll"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Interneti-ühenduse kontrollimine ..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Interneti-ühendus puudub ..."
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"            :LBL"
+msgstr ""
+"<b>See arendusversioon on aegunud ja seda ei saa enam kasutada.</b>\n"
+"            :LBL"
+
+msgid " OK"
+msgstr " OK"
+
+msgid "Deseja prosseguir com com a instalação em modo EFI?"
+msgstr "Kas soovite installimist jätkata EFI-režiimis?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
+"partição EFI neste computador.\n"
+"\n"
+"Se este computador já possui outro sistema instalado e você pretende \n"
+"que ele permaneça instalado, provavelmente será necessário alterar a \n"
+"configuração na BIOS para fazer boot em modo Legacy, também \n"
+"chamado de modo BIOS."
+msgstr ""
+"Praegune alglaadimine kasutab <span color='#CC2222'>EFI režiimi</span>, kuid ma pole ühtegi leidnud "
+"\n"
+"EFI partitsioon selles arvutis.\n"
+"\n"
+"Kui sellel arvutil on juba teine süsteem installitud ja kavatsete seda teha \n"
+"et see jääb installituks, peate tõenäoliselt muutma \n"
+"konfiguratsioon BIOS-is, et käivitada ka pärandrežiimis \n"
+"nimetatakse BIOS-režiimiks."
+
+msgid "Instalar o sistema"
+msgstr "Paigaldage süsteem"
+
+msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
+msgstr "Kas soovite installimist jätkata pärand- / BIOS-režiimis?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
+"menos uma partição EFI neste computador. \n"
+"\n"
+"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
+"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
+msgstr ""
+"Praegune alglaadimine kasutab <span color='#CC2222'>legacy/BIOS režiimi, kuid</span> leidsin \n"
+"vähemalt üks EFI partitsioon selles arvutis. \n"
+"\n"
+"Et installimine õnnestuks, peate tõenäoliselt \n"
+"muutke BIOS-i sätet EFI või UEFI režiimi käivitamiseks."
+
+msgid "Instalar o BigLinux"
+msgstr "Installige BigLinux"
+
 msgid "Verificando o arquivo:"
 msgstr "Faili kontrollimine:"
 
@@ -34,20 +120,84 @@ msgstr "Failid on integreeritud."
 msgid "Verificação cancelada."
 msgstr "Tšekk tühistatud."
 
-msgid " Continue"
-msgstr " Jätka"
+msgid "ESCOLHA O DESKTOP"
+msgstr "VALIGE TÖÖLAUD"
 
-msgid " Fechar"
-msgstr " Sulgema"
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "TAGASI JA KASUTAGE STANDARDPAIGALDUST"
 
-msgid "Instalar o sistema"
-msgstr "Paigaldage süsteem"
+msgid "INSTALAR"
+msgstr "INSTALLIDA"
 
-msgid "Instalar o BigLinux"
-msgstr "Installige BigLinux"
+msgid "DESKTOP"
+msgstr "TÖÖLAUA"
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Liideste loendi värskendamine ..."
+
+msgid "O sistema está em modo"
+msgstr "Süsteem on sees"
+
+msgid "e com o kernel"
+msgstr "ja tuumaga"
 
 msgid "PADRÃO"
 msgstr "MUSTER"
+
+msgid "PERSONALIZADA"
+msgstr "KOMME"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "STANDARDNE VÕI KOHANDATUD INSTALLIMINE?"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "KAS INSTALLIDA VÄHEMATE PROGRAMMIDEGA VÕI KASUTADA MÕNDA MUUD TÖÖLAUDA?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Teise töölaua installimiseks tuleb installimise ajal alla laadida, installiaeg sõltub Interneti "
+"kiirusest."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "KAS SOOVITE TÕESTI INSTALLIDA TEISE TÖÖLAUA?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Järgmisi lauaarvuteid haldavad BigLinuxi kogukonna kasutajad ning neil on vähem kohandusi ja teste, "
+"kas soovite tõesti jätkata?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "VÄHEM PROGRAMME"
+
+msgid "OUTROS DESKTOPS"
+msgstr "MUUD LAUAARVUTID"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "TEGELIKULT KASUTAGE MÕNDA MUUD TÖÖLAUDA"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr "Kui kahtlete standardinstallimises, peaksid kohandatud valikuid kasutama ainult kogenud kasutajad."
+
+msgid "SELECIONAR"
+msgstr "VALIMA"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Kas sa esitad mulle väljakutse?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Ma ütlesin teile, see versioon on aegunud.            "
 
 msgid "DESEMPENHO"
 msgstr "JÕUDLUST"
@@ -73,79 +223,14 @@ msgstr "BTRFS koos fsynciga"
 msgid "BTRFS sem fsync"
 msgstr "BTRFS ilma fsyncita"
 
-msgid "SELECIONAR"
-msgstr "VALIMA"
-
 msgid "Instalar no HD"
 msgstr "Installige HD-le"
 
 msgid "* Não utilize /boot separado"
 msgstr "* Ära kasuta /boot eraldi"
 
-msgid "O sistema está em modo"
-msgstr "Süsteem on sees"
-
-msgid "e com o kernel"
-msgstr "ja tuumaga"
-
-msgid "Deseja prosseguir com com a instalação em modo EFI?"
-msgstr "Kas soovite installimist jätkata EFI-režiimis?"
-
-msgid ""
-"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
-"partição EFI neste computador.\n"
-"\n"
-"Se este computador já possui outro sistema instalado e você pretende \n"
-"que ele permaneça instalado, provavelmente será necessário alterar a \n"
-"configuração na BIOS para fazer boot em modo Legacy, também \n"
-"chamado de modo BIOS."
-msgstr ""
-"Praegune alglaadimine kasutab <span color='#CC2222'>EFI režiimi</span>, kuid ma pole ühtegi leidnud "
-"\n"
-"EFI partitsioon selles arvutis.\n"
-"\n"
-"Kui sellel arvutil on juba teine süsteem installitud ja kavatsete seda teha \n"
-"et see jääb installituks, peate tõenäoliselt muutma \n"
-"konfiguratsioon BIOS-is, et käivitada ka pärandrežiimis \n"
-"nimetatakse BIOS-režiimiks."
-
-msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
-msgstr "Kas soovite installimist jätkata pärand- / BIOS-režiimis?"
-
-msgid ""
-"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
-"menos uma partição EFI neste computador. \n"
-"\n"
-"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
-"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
-msgstr ""
-"Praegune alglaadimine kasutab <span color='#CC2222'>legacy/BIOS režiimi, kuid</span> leidsin \n"
-"vähemalt üks EFI partitsioon selles arvutis. \n"
-"\n"
-"Et installimine õnnestuks, peate tõenäoliselt \n"
-"muutke BIOS-i sätet EFI või UEFI režiimi käivitamiseks."
-
-msgid "PERSONALIZADA"
-msgstr "KOMME"
-
-msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
-msgstr "KINNITAGE JA JÄTKAKE INSTALLIMIST"
-
-msgid "ESCOLHA O DESKTOP"
-msgstr "VALIGE TÖÖLAUD"
-
-msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-msgstr "KAS INSTALLIDA VÄHEMATE PROGRAMMIDEGA VÕI KASUTADA MÕNDA MUUD TÖÖLAUDA?"
-
-msgid ""
-"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
-"instalação vai depender da velocidade da internet."
-msgstr ""
-"Teise töölaua installimiseks tuleb installimise ajal alla laadida, installiaeg sõltub Interneti "
-"kiirusest."
-
-msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-msgstr "KAS SOOVITE TÕESTI INSTALLIDA TEISE TÖÖLAUA?"
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "MILLISEID PAKETTE TE SÜSTEEMIS EI SOOVI?"
 
 msgid ""
 "O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
@@ -155,186 +240,29 @@ msgstr ""
 "BigLinux on loodud ja testitud selle standardinstallimisel, teisi lauaarvuteid hooldavad BigLinuxi "
 "kogukonna kasutajad ning neil on vähem kohandusi ja teste, kas soovite tõesti jätkata?"
 
-msgid "MENOS PROGRAMAS"
-msgstr "VÄHEM PROGRAMME"
-
-msgid "OUTROS DESKTOPS"
-msgstr "MUUD LAUAARVUTID"
-
-msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
-msgstr "TEGELIKULT KASUTAGE MÕNDA MUUD TÖÖLAUDA"
-
-msgid ""
-"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
-"usuários experientes."
-msgstr "Kui kahtlete standardinstallimises, peaksid kohandatud valikuid kasutama ainult kogenud kasutajad."
-
-msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
-msgstr "TAGASI JA KASUTAGE STANDARDPAIGALDUST"
-
-msgid "Personalizar a instalação:"
-msgstr "Installimise kohandamine:"
-
-msgid "INSTALAR"
-msgstr "INSTALLIDA"
-
-msgid "DESKTOP"
-msgstr "TÖÖLAUA"
-
-msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
-msgstr "MILLISEID PAKETTE TE SÜSTEEMIS EI SOOVI?"
-
 msgid "Selecionar todos"
 msgstr "Vali kõik"
 
 msgid "Desmarcar todos"
 msgstr "Tühjendage kõik"
 
-msgid "Deepin"
-msgstr "Deepin"
-
-msgid "Considerado um dos desktops mais bonitos que existem."
-msgstr "Seda peetakse üheks kõige ilusamaks töölauaks."
-
-msgid "Ukui"
-msgstr "Ukui"
-
-msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
-msgstr "Hiina avalikkusele loodud töölaud, kuid mis on muutumas populaarseks teistes riikides."
-
-msgid "Gnome"
-msgstr "Gnome"
-
-msgid "Um dos desktops mais utilizados no mundo Linux."
-msgstr "Üks kõige laialdasemalt kasutatavaid lauaarvuteid Linuxi maailmas."
-
-msgid "LXQt"
-msgstr "LXQt"
-
-msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
-msgstr "Töölauakeskkond moodustati lxde ja razor-qt projektide ühinemisel."
-
-msgid "CuteFish"
-msgstr "Cutefish"
-
-msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
-msgstr "Töölauakeskkond keskendus lihtsusele, ilule ja praktilisusele."
-
-msgid "MATE"
-msgstr "MATE"
-
-msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
-msgstr "Intuitiivne ja atraktiivne töölauakeskkond on GNOME 2 jätk."
-
-msgid "XFCE"
-msgstr "XFCE"
-
-msgid "Ambiente desktop leve e rápido."
-msgstr "Kerge ja kiire töölauakeskkond."
-
-msgid "Cinnamon"
-msgstr "Kaneel"
-
-msgid ""
-"<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?</b>\n"
-"    :LBL"
-msgstr ""
-"<b>Kas soovite ikkagi jätkata vana ISO installimist?</b>\n"
-"    :LBL"
-
-msgid ""
-"Essa ISO foi gerada a mais de 30 dias e já está desatualizada.\\n"
-"Sugerimos fortemente que baixe uma nova ISO e não prossiga com essa instalação!\n"
-"    "
-msgstr ""
-"See ISO loodi rohkem kui 30 päeva tagasi ja on juba aegunud.\\n"
-"Soovitame tungivalt alla laadida uus ISO ja ärge jätkake seda installimist!    "
-
-msgid "ISO Antiga"
-msgstr "Iidne ISO"
-
-msgid "Verificando conexão com a Internet..."
-msgstr "Interneti-ühenduse kontrollimine ..."
-
-msgid "Sem conexão com a Internet..."
-msgstr "Interneti-ühendus puudub ..."
-
-msgid "Atualizando lista de Interfaces..."
-msgstr "Liideste loendi värskendamine ..."
-
-msgid ""
-"<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
-"    :LBL"
-msgstr ""
-"<b>Kas soovite selle vana versiooni installimist ikkagi jätkata?</b>\n"
-"    :LBL"
-
-msgid ""
-"O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
-"Recomendamos que faça o download de uma versão mais recente.\n"
-"    "
-msgstr ""
-"BigLinux on iganädalane värskendussüsteem ja see versioon on välja antud üle kuu.\\n"
-"Soovitame teil alla laadida uuema versiooni.    "
-
-msgid "Versão Desatualizada"
-msgstr "Aegunud versioon"
-
-msgid "Verificando"
-msgstr "Kontroll"
-
-msgid ""
-"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
-"            :LBL"
-msgstr ""
-"<b>See arendusversioon on aegunud ja seda ei saa enam kasutada.</b>\n"
-"            :LBL"
-
-msgid " OK"
-msgstr " OK"
-
-msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
-msgstr "STANDARDNE VÕI KOHANDATUD INSTALLIMINE?"
-
-msgid ""
-"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
-"personalizações e testes, deseja realmente prosseguir?"
-msgstr ""
-"Järgmisi lauaarvuteid haldavad BigLinuxi kogukonna kasutajad ning neil on vähem kohandusi ja teste, "
-"kas soovite tõesti jätkata?"
-
-msgid ""
-"<b>você está me desafiando?</b>\n"
-"            :LBL"
-msgstr ""
-"<b>Kas sa esitad mulle väljakutse?</b>\n"
-"            :LBL"
-
-msgid ""
-"Já falei que essa versão está desatualizada.\n"
-"            "
-msgstr "Ma ütlesin teile, see versioon on aegunud.            "
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "KINNITAGE JA JÄTKAKE INSTALLIMIST"
 
 msgid "Verificando pacotes, aguarde..."
 msgstr "Pakkide kontrollimine, oota..."
-
-msgid "Não é possível instalar, "
-msgstr "Ei ole võimalik paigaldada, "
-
-msgid "Não é possível remover:"
-msgstr "Ei saa eemaldada:"
-
-msgid "Verificando pacotes"
-msgstr "Pakendite kontrollimine"
-
-msgid "VOLTAR"
-msgstr "TULE TAGASI"
 
 msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
 msgstr "<font color='red'><b>Ei saa installida.</b></font><br><br> "
 
 msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
 msgstr "<font color='red'><b>Ei saa eemaldada.</b></font><br><br>"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Ei leia sisselogimishaldurit</b></font><br><br>"
+
+msgid "VOLTAR"
+msgstr "TULE TAGASI"
 
 msgid "AVANÇAR"
 msgstr "ETTE"
@@ -345,5 +273,5 @@ msgstr "VIGA!"
 msgid "SUCESSO!"
 msgstr "EDU!"
 
-msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
-msgstr "<font color='red'><b>Ei leia sisselogimishaldurit</b></font><br><br>"
+msgid "Personalizar a instalação:"
+msgstr "Installimise kohandamine:"

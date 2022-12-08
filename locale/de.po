@@ -16,6 +16,94 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Möchten Sie trotzdem mit der Installation dieser alten Version fortfahren?</b>\n"
+"    :LBL"
+
+msgid ""
+"O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
+"Recomendamos que faça o download de uma versão mais recente.\n"
+"    "
+msgstr ""
+"BigLinux ist ein wöchentliches Update-System und diese Version ist seit über einem Monat "
+"veröffentlicht.\\n"
+"Wir empfehlen Ihnen, eine neuere Version herunterzuladen.    "
+
+msgid " Continue"
+msgstr " Mache weiter"
+
+msgid " Fechar"
+msgstr " Schließen"
+
+msgid "Versão Desatualizada"
+msgstr "Veraltete Version"
+
+msgid "Verificando"
+msgstr "Prüfung"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Internetverbindung wird überprüft..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Keine Internetverbindung..."
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Diese Entwicklungsversion ist veraltet und kann nicht mehr verwendet werden.</b>\n"
+"            :LBL"
+
+msgid " OK"
+msgstr " OKAY"
+
+msgid "Deseja prosseguir com com a instalação em modo EFI?"
+msgstr "Möchten Sie mit der Installation im EFI-Modus fortfahren?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
+"partição EFI neste computador.\n"
+"\n"
+"Se este computador já possui outro sistema instalado e você pretende \n"
+"que ele permaneça instalado, provavelmente será necessário alterar a \n"
+"configuração na BIOS para fazer boot em modo Legacy, também \n"
+"chamado de modo BIOS."
+msgstr ""
+"Der aktuelle Start verwendet den <span color='#CC2222'>EFI-Modus</span>, aber ich habe keinen "
+"gefunden \n"
+"EFI-Partition auf diesem Computer.\n"
+"\n"
+"Wenn auf diesem Computer bereits ein anderes System installiert ist und Sie beabsichtigen, \n"
+"dass es installiert bleibt, müssen Sie wahrscheinlich die \n"
+"Konfiguration im BIOS, um im Legacy-Modus zu booten, auch \n"
+"wird als BIOS-Modus bezeichnet."
+
+msgid "Instalar o sistema"
+msgstr "Installieren Sie das System"
+
+msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
+msgstr "Möchten Sie mit der Installation im Legacy-/BIOS-Modus fortfahren?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
+"menos uma partição EFI neste computador. \n"
+"\n"
+"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
+"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
+msgstr ""
+"Der aktuelle Start verwendet <span color='#CC2222'>den Legacy / BIOS-Modus, aber</span> ich habe "
+"durch die \n"
+"mindestens eine EFI-Partition auf diesem Computer. \n"
+"\n"
+"Damit die Installation erfolgreich ist, müssen Sie wahrscheinlich \n"
+"Ändern Sie die Einstellung im BIOS, um im EFI- oder UEFI-Modus zu starten."
+
+msgid "Instalar o BigLinux"
+msgstr "Installieren Sie BigLinux"
+
 msgid "Verificando o arquivo:"
 msgstr "Überprüfen der Datei:"
 
@@ -34,20 +122,86 @@ msgstr "Die Dateien sind integriert."
 msgid "Verificação cancelada."
 msgstr "Häkchen abgebrochen."
 
-msgid " Continue"
-msgstr " Mache weiter"
+msgid "ESCOLHA O DESKTOP"
+msgstr "DESKTOP AUSWÄHLEN"
 
-msgid " Fechar"
-msgstr " Schließen"
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "ZURÜCK UND VERWENDEN SIE DIE STANDARDINSTALLATION"
 
-msgid "Instalar o sistema"
-msgstr "Installieren Sie das System"
+msgid "INSTALAR"
+msgstr "INSTALLIEREN"
 
-msgid "Instalar o BigLinux"
-msgstr "Installieren Sie BigLinux"
+msgid "DESKTOP"
+msgstr "DESKTOP"
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Liste der Schnittstellen wird aktualisiert..."
+
+msgid "O sistema está em modo"
+msgstr "Das System ist in"
+
+msgid "e com o kernel"
+msgstr "und mit dem Kernel"
 
 msgid "PADRÃO"
 msgstr "MUSTER"
+
+msgid "PERSONALIZADA"
+msgstr "GEWOHNHEIT"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "STANDARD- ODER KUNDENSPEZIFISCHE INSTALLATION?"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "MIT WENIGER PROGRAMMEN INSTALLIEREN ODER EINEN ANDEREN DESKTOP VERWENDEN?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Um einen anderen Desktop zu installieren, muss er während der Installation heruntergeladen werden, "
+"die Installationszeit hängt von der Geschwindigkeit des Internets ab."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "MÖCHTEN SIE WIRKLICH EINEN ANDEREN DESKTOP INSTALLIEREN?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Die folgenden Desktops werden von Benutzern der BigLinux-Community gepflegt und haben weniger "
+"Anpassungen und Tests, möchten Sie wirklich fortfahren?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "WENIGER PROGRAMME"
+
+msgid "OUTROS DESKTOPS"
+msgstr "ANDERE DESKTOPS"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "TATSÄCHLICH EINEN ANDEREN DESKTOP VERWENDEN"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Im Zweifelsfall führen Sie die Standardinstallation durch, benutzerdefinierte Optionen sollten nur "
+"von erfahrenen Benutzern verwendet werden."
+
+msgid "SELECIONAR"
+msgstr "AUSWÄHLEN"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Fordern Sie mich heraus?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Ich habe Ihnen gesagt, dass diese Version veraltet ist.            "
 
 msgid "DESEMPENHO"
 msgstr "LEISTUNG"
@@ -73,80 +227,14 @@ msgstr "BTRFS mit fsync"
 msgid "BTRFS sem fsync"
 msgstr "BTRFS ohne fsync"
 
-msgid "SELECIONAR"
-msgstr "AUSWÄHLEN"
-
 msgid "Instalar no HD"
 msgstr "Auf HD installieren"
 
 msgid "* Não utilize /boot separado"
 msgstr "* Verwenden Sie /boot nicht separat"
 
-msgid "O sistema está em modo"
-msgstr "Das System ist in"
-
-msgid "e com o kernel"
-msgstr "und mit dem Kernel"
-
-msgid "Deseja prosseguir com com a instalação em modo EFI?"
-msgstr "Möchten Sie mit der Installation im EFI-Modus fortfahren?"
-
-msgid ""
-"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
-"partição EFI neste computador.\n"
-"\n"
-"Se este computador já possui outro sistema instalado e você pretende \n"
-"que ele permaneça instalado, provavelmente será necessário alterar a \n"
-"configuração na BIOS para fazer boot em modo Legacy, também \n"
-"chamado de modo BIOS."
-msgstr ""
-"Der aktuelle Start verwendet den <span color='#CC2222'>EFI-Modus</span>, aber ich habe keinen "
-"gefunden \n"
-"EFI-Partition auf diesem Computer.\n"
-"\n"
-"Wenn auf diesem Computer bereits ein anderes System installiert ist und Sie beabsichtigen, \n"
-"dass es installiert bleibt, müssen Sie wahrscheinlich die \n"
-"Konfiguration im BIOS, um im Legacy-Modus zu booten, auch \n"
-"wird als BIOS-Modus bezeichnet."
-
-msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
-msgstr "Möchten Sie mit der Installation im Legacy-/BIOS-Modus fortfahren?"
-
-msgid ""
-"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
-"menos uma partição EFI neste computador. \n"
-"\n"
-"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
-"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
-msgstr ""
-"Der aktuelle Start verwendet <span color='#CC2222'>den Legacy / BIOS-Modus, aber</span> ich habe "
-"durch die \n"
-"mindestens eine EFI-Partition auf diesem Computer. \n"
-"\n"
-"Damit die Installation erfolgreich ist, müssen Sie wahrscheinlich \n"
-"Ändern Sie die Einstellung im BIOS, um im EFI- oder UEFI-Modus zu starten."
-
-msgid "PERSONALIZADA"
-msgstr "GEWOHNHEIT"
-
-msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
-msgstr "BESTÄTIGEN SIE DIE INSTALLATION UND FAHREN SIE FORT"
-
-msgid "ESCOLHA O DESKTOP"
-msgstr "DESKTOP AUSWÄHLEN"
-
-msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-msgstr "MIT WENIGER PROGRAMMEN INSTALLIEREN ODER EINEN ANDEREN DESKTOP VERWENDEN?"
-
-msgid ""
-"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
-"instalação vai depender da velocidade da internet."
-msgstr ""
-"Um einen anderen Desktop zu installieren, muss er während der Installation heruntergeladen werden, "
-"die Installationszeit hängt von der Geschwindigkeit des Internets ab."
-
-msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-msgstr "MÖCHTEN SIE WIRKLICH EINEN ANDEREN DESKTOP INSTALLIEREN?"
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "WELCHE PAKETE MÖCHTEN SIE NICHT IM SYSTEM HABEN?"
 
 msgid ""
 "O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
@@ -157,192 +245,29 @@ msgstr ""
 "Benutzern der BigLinux-Community gepflegt und haben weniger Anpassungen und Tests, wollen Sie "
 "wirklich fortfahren?"
 
-msgid "MENOS PROGRAMAS"
-msgstr "WENIGER PROGRAMME"
-
-msgid "OUTROS DESKTOPS"
-msgstr "ANDERE DESKTOPS"
-
-msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
-msgstr "TATSÄCHLICH EINEN ANDEREN DESKTOP VERWENDEN"
-
-msgid ""
-"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
-"usuários experientes."
-msgstr ""
-"Im Zweifelsfall führen Sie die Standardinstallation durch, benutzerdefinierte Optionen sollten nur "
-"von erfahrenen Benutzern verwendet werden."
-
-msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
-msgstr "ZURÜCK UND VERWENDEN SIE DIE STANDARDINSTALLATION"
-
-msgid "Personalizar a instalação:"
-msgstr "Installation anpassen:"
-
-msgid "INSTALAR"
-msgstr "INSTALLIEREN"
-
-msgid "DESKTOP"
-msgstr "DESKTOP"
-
-msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
-msgstr "WELCHE PAKETE MÖCHTEN SIE NICHT IM SYSTEM HABEN?"
-
 msgid "Selecionar todos"
 msgstr "Alle auswählen"
 
 msgid "Desmarcar todos"
 msgstr "Deaktivieren Sie alle"
 
-msgid "Deepin"
-msgstr "Deepin"
-
-msgid "Considerado um dos desktops mais bonitos que existem."
-msgstr "Gilt als einer der schönsten Desktops, die es gibt."
-
-msgid "Ukui"
-msgstr "Ukui"
-
-msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
-msgstr ""
-"Desktop, der für die chinesische Öffentlichkeit entwickelt wurde, aber in anderen Ländern immer "
-"beliebter wird."
-
-msgid "Gnome"
-msgstr "Gnom"
-
-msgid "Um dos desktops mais utilizados no mundo Linux."
-msgstr "Einer der am weitesten verbreiteten Desktops in der Linux-Welt."
-
-msgid "LXQt"
-msgstr "LXQt"
-
-msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
-msgstr "Die Desktop-Umgebung entstand aus der Fusion von LXDE- und Razor-QT-Projekten."
-
-msgid "CuteFish"
-msgstr "Niedlicher Fisch"
-
-msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
-msgstr "Desktop-Umgebung, die sich auf Einfachheit, Schönheit und Praktikabilität konzentriert."
-
-msgid "MATE"
-msgstr "PARTNER"
-
-msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
-msgstr "Intuitive und attraktive Desktop-Umgebung ist die Fortsetzung von GNOME 2."
-
-msgid "XFCE"
-msgstr "XFCE"
-
-msgid "Ambiente desktop leve e rápido."
-msgstr "Leichte und schnelle Desktop-Umgebung."
-
-msgid "Cinnamon"
-msgstr "Zimt"
-
-msgid ""
-"<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?</b>\n"
-"    :LBL"
-msgstr ""
-"<b>Möchten Sie trotzdem mit der Installation der alten ISO fortfahren?</b>\n"
-"    :LBL"
-
-msgid ""
-"Essa ISO foi gerada a mais de 30 dias e já está desatualizada.\\n"
-"Sugerimos fortemente que baixe uma nova ISO e não prossiga com essa instalação!\n"
-"    "
-msgstr ""
-"Diese ISO wurde vor mehr als 30 Tagen generiert und ist bereits veraltet.\\n"
-"Wir empfehlen Ihnen dringend, eine neue ISO herunterzuladen und mit dieser Installation nicht "
-"fortzufahren!    "
-
-msgid "ISO Antiga"
-msgstr "Antikes ISO"
-
-msgid "Verificando conexão com a Internet..."
-msgstr "Internetverbindung wird überprüft..."
-
-msgid "Sem conexão com a Internet..."
-msgstr "Keine Internetverbindung..."
-
-msgid "Atualizando lista de Interfaces..."
-msgstr "Liste der Schnittstellen wird aktualisiert..."
-
-msgid ""
-"<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
-"    :LBL"
-msgstr ""
-"<b>Möchten Sie trotzdem mit der Installation dieser alten Version fortfahren?</b>\n"
-"    :LBL"
-
-msgid ""
-"O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
-"Recomendamos que faça o download de uma versão mais recente.\n"
-"    "
-msgstr ""
-"BigLinux ist ein wöchentliches Update-System und diese Version ist seit über einem Monat "
-"veröffentlicht.\\n"
-"Wir empfehlen Ihnen, eine neuere Version herunterzuladen.    "
-
-msgid "Versão Desatualizada"
-msgstr "Veraltete Version"
-
-msgid "Verificando"
-msgstr "Prüfung"
-
-msgid ""
-"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
-"            :LBL"
-msgstr ""
-"<b>Diese Entwicklungsversion ist veraltet und kann nicht mehr verwendet werden.</b>\n"
-"            :LBL"
-
-msgid " OK"
-msgstr " OKAY"
-
-msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
-msgstr "STANDARD- ODER KUNDENSPEZIFISCHE INSTALLATION?"
-
-msgid ""
-"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
-"personalizações e testes, deseja realmente prosseguir?"
-msgstr ""
-"Die folgenden Desktops werden von Benutzern der BigLinux-Community gepflegt und haben weniger "
-"Anpassungen und Tests, möchten Sie wirklich fortfahren?"
-
-msgid ""
-"<b>você está me desafiando?</b>\n"
-"            :LBL"
-msgstr ""
-"<b>Fordern Sie mich heraus?</b>\n"
-"            :LBL"
-
-msgid ""
-"Já falei que essa versão está desatualizada.\n"
-"            "
-msgstr "Ich habe Ihnen gesagt, dass diese Version veraltet ist.            "
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "BESTÄTIGEN SIE DIE INSTALLATION UND FAHREN SIE FORT"
 
 msgid "Verificando pacotes, aguarde..."
 msgstr "Pakete werden überprüft, warten..."
-
-msgid "Não é possível instalar, "
-msgstr "Es ist nicht möglich zu installieren, "
-
-msgid "Não é possível remover:"
-msgstr "Kann nicht entfernt werden:"
-
-msgid "Verificando pacotes"
-msgstr "Pakete prüfen"
-
-msgid "VOLTAR"
-msgstr "KOMM ZURÜCK"
 
 msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
 msgstr "<font color='red'><b>Installation nicht möglich.</b></font><br><br> "
 
 msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
 msgstr "<font color='red'><b>Kann nicht entfernt werden.</b></font><br><br>"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Login Manager kann nicht gefunden werden</b></font><br><br>"
+
+msgid "VOLTAR"
+msgstr "KOMM ZURÜCK"
 
 msgid "AVANÇAR"
 msgstr "VORRÜCKEN"
@@ -353,5 +278,5 @@ msgstr "FEHLER!"
 msgid "SUCESSO!"
 msgstr "ERFOLG!"
 
-msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
-msgstr "<font color='red'><b>Login Manager kann nicht gefunden werden</b></font><br><br>"
+msgid "Personalizar a instalação:"
+msgstr "Installation anpassen:"

@@ -16,6 +16,92 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Vil du alligevel fortsætte med at installere denne gamle version?</b>\n"
+"    :LBL"
+
+msgid ""
+"O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
+"Recomendamos que faça o download de uma versão mais recente.\n"
+"    "
+msgstr ""
+"BigLinux er et ugentligt opdateringssystem, og denne version er blevet frigivet i over en måned.\\n"
+"Vi anbefaler, at du downloader en nyere version.    "
+
+msgid " Continue"
+msgstr " Fortsæt"
+
+msgid " Fechar"
+msgstr " Lukke"
+
+msgid "Versão Desatualizada"
+msgstr "Forældet version"
+
+msgid "Verificando"
+msgstr "Kontrol"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Kontrol af internetforbindelse..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Ingen internetforbindelse..."
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Denne udviklingsversion er forældet og kan ikke længere bruges.</b>\n"
+"            :LBL"
+
+msgid " OK"
+msgstr " OK"
+
+msgid "Deseja prosseguir com com a instalação em modo EFI?"
+msgstr "Vil du fortsætte med installationen i EFI-tilstand?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
+"partição EFI neste computador.\n"
+"\n"
+"Se este computador já possui outro sistema instalado e você pretende \n"
+"que ele permaneça instalado, provavelmente será necessário alterar a \n"
+"configuração na BIOS para fazer boot em modo Legacy, também \n"
+"chamado de modo BIOS."
+msgstr ""
+"Den aktuelle opstart bruger <span color='#CC2222'>EFI-tilstand</span>, men jeg har ikke fundet "
+"nogen \n"
+"EFI-partition på denne computer.\n"
+"\n"
+"Hvis denne computer allerede har et andet system installeret, og du har til hensigt at \n"
+"at det forbliver installeret, skal du sandsynligvis ændre \n"
+"konfiguration i BIOS for at starte i Legacy-tilstand, også \n"
+"kaldet BIOS-tilstand."
+
+msgid "Instalar o sistema"
+msgstr "Installer systemet"
+
+msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
+msgstr "Vil du fortsætte med installationen i Legacy/BIOS-tilstand?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
+"menos uma partição EFI neste computador. \n"
+"\n"
+"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
+"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
+msgstr ""
+"Den aktuelle opstart bruger <span color='#CC2222'>Legacy / BIOS-tilstand, men</span> jeg fandt ved \n"
+"mindst én EFI-partition på denne computer. \n"
+"\n"
+"For at installationen skal lykkes, skal du sandsynligvis \n"
+"ændre indstillingen i BIOS for at starte i EFI- eller UEFI-tilstand."
+
+msgid "Instalar o BigLinux"
+msgstr "Installer BigLinux"
+
 msgid "Verificando o arquivo:"
 msgstr "Kontrol af filen:"
 
@@ -34,20 +120,86 @@ msgstr "Filerne er integreret."
 msgid "Verificação cancelada."
 msgstr "Check annulleret."
 
-msgid " Continue"
-msgstr " Fortsæt"
+msgid "ESCOLHA O DESKTOP"
+msgstr "VÆLG DESKTOP"
 
-msgid " Fechar"
-msgstr " Lukke"
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "TILBAGE OG BRUG STANDARDINSTALLATIONEN"
 
-msgid "Instalar o sistema"
-msgstr "Installer systemet"
+msgid "INSTALAR"
+msgstr "INSTALLERE"
 
-msgid "Instalar o BigLinux"
-msgstr "Installer BigLinux"
+msgid "DESKTOP"
+msgstr "SKRIVEBORD"
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Opdatering af liste over grænseflader..."
+
+msgid "O sistema está em modo"
+msgstr "Systemet er i"
+
+msgid "e com o kernel"
+msgstr "og med kernen"
 
 msgid "PADRÃO"
 msgstr "MØNSTER"
+
+msgid "PERSONALIZADA"
+msgstr "SÆDVANE"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "STANDARD ELLER BRUGERDEFINERET INSTALLATION?"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "INSTALLER MED FÆRRE PROGRAMMER ELLER BRUG ET ANDET SKRIVEBORD?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"For at installere et andet skrivebord skal downloades under installationen, afhænger "
+"installationstiden af internetens hastighed."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "VIL DU VIRKELIG INSTALLERE ET ANDET SKRIVEBORD?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Følgende desktops vedligeholdes af brugere af BigLinux-samfundet og har færre tilpasninger og "
+"tests, vil du virkelig fortsætte?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "FÆRRE PROGRAMMER"
+
+msgid "OUTROS DESKTOPS"
+msgstr "ANDRE STATIONÆRE COMPUTERE"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "BRUG FAKTISK ET ANDET SKRIVEBORD"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Hvis du er i tvivl om standardinstallationen, skal brugerdefinerede indstillinger kun bruges af "
+"erfarne brugere."
+
+msgid "SELECIONAR"
+msgstr "MARKERE"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Udfordrer du mig?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Jeg fortalte dig, denne version er forældet.            "
 
 msgid "DESEMPENHO"
 msgstr "PRÆSTATION"
@@ -73,79 +225,14 @@ msgstr "BTRFS med fsync"
 msgid "BTRFS sem fsync"
 msgstr "BTRFS uden fsync"
 
-msgid "SELECIONAR"
-msgstr "MARKERE"
-
 msgid "Instalar no HD"
 msgstr "Installer på HD"
 
 msgid "* Não utilize /boot separado"
 msgstr "* Brug ikke /boot separat"
 
-msgid "O sistema está em modo"
-msgstr "Systemet er i"
-
-msgid "e com o kernel"
-msgstr "og med kernen"
-
-msgid "Deseja prosseguir com com a instalação em modo EFI?"
-msgstr "Vil du fortsætte med installationen i EFI-tilstand?"
-
-msgid ""
-"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
-"partição EFI neste computador.\n"
-"\n"
-"Se este computador já possui outro sistema instalado e você pretende \n"
-"que ele permaneça instalado, provavelmente será necessário alterar a \n"
-"configuração na BIOS para fazer boot em modo Legacy, também \n"
-"chamado de modo BIOS."
-msgstr ""
-"Den aktuelle opstart bruger <span color='#CC2222'>EFI-tilstand</span>, men jeg har ikke fundet "
-"nogen \n"
-"EFI-partition på denne computer.\n"
-"\n"
-"Hvis denne computer allerede har et andet system installeret, og du har til hensigt at \n"
-"at det forbliver installeret, skal du sandsynligvis ændre \n"
-"konfiguration i BIOS for at starte i Legacy-tilstand, også \n"
-"kaldet BIOS-tilstand."
-
-msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
-msgstr "Vil du fortsætte med installationen i Legacy/BIOS-tilstand?"
-
-msgid ""
-"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
-"menos uma partição EFI neste computador. \n"
-"\n"
-"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
-"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
-msgstr ""
-"Den aktuelle opstart bruger <span color='#CC2222'>Legacy / BIOS-tilstand, men</span> jeg fandt ved \n"
-"mindst én EFI-partition på denne computer. \n"
-"\n"
-"For at installationen skal lykkes, skal du sandsynligvis \n"
-"ændre indstillingen i BIOS for at starte i EFI- eller UEFI-tilstand."
-
-msgid "PERSONALIZADA"
-msgstr "SÆDVANE"
-
-msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
-msgstr "BEKRÆFT OG FORTSÆT MED INSTALLATIONEN"
-
-msgid "ESCOLHA O DESKTOP"
-msgstr "VÆLG DESKTOP"
-
-msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-msgstr "INSTALLER MED FÆRRE PROGRAMMER ELLER BRUG ET ANDET SKRIVEBORD?"
-
-msgid ""
-"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
-"instalação vai depender da velocidade da internet."
-msgstr ""
-"For at installere et andet skrivebord skal downloades under installationen, afhænger "
-"installationstiden af internetens hastighed."
-
-msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-msgstr "VIL DU VIRKELIG INSTALLERE ET ANDET SKRIVEBORD?"
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "HVILKE PAKKER VIL DU IKKE HAVE I SYSTEMET?"
 
 msgid ""
 "O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
@@ -155,188 +242,29 @@ msgstr ""
 "BigLinux er designet og testet på sin standardinstallation, andre desktops vedligeholdes af brugere "
 "af BigLinux-samfundet og har færre tilpasninger og tests, vil du virkelig fortsætte?"
 
-msgid "MENOS PROGRAMAS"
-msgstr "FÆRRE PROGRAMMER"
-
-msgid "OUTROS DESKTOPS"
-msgstr "ANDRE STATIONÆRE COMPUTERE"
-
-msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
-msgstr "BRUG FAKTISK ET ANDET SKRIVEBORD"
-
-msgid ""
-"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
-"usuários experientes."
-msgstr ""
-"Hvis du er i tvivl om standardinstallationen, skal brugerdefinerede indstillinger kun bruges af "
-"erfarne brugere."
-
-msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
-msgstr "TILBAGE OG BRUG STANDARDINSTALLATIONEN"
-
-msgid "Personalizar a instalação:"
-msgstr "Tilpas installationen:"
-
-msgid "INSTALAR"
-msgstr "INSTALLERE"
-
-msgid "DESKTOP"
-msgstr "SKRIVEBORD"
-
-msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
-msgstr "HVILKE PAKKER VIL DU IKKE HAVE I SYSTEMET?"
-
 msgid "Selecionar todos"
 msgstr "Vælg alle"
 
 msgid "Desmarcar todos"
 msgstr "Fjern markeringen af alle"
 
-msgid "Deepin"
-msgstr "Dybsindig"
-
-msgid "Considerado um dos desktops mais bonitos que existem."
-msgstr "Betragtes som et af de smukkeste desktops, der findes."
-
-msgid "Ukui"
-msgstr "Ukui"
-
-msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
-msgstr "Desktop oprettet til den kinesiske offentlighed, men som bliver populær i andre lande."
-
-msgid "Gnome"
-msgstr "Gnome"
-
-msgid "Um dos desktops mais utilizados no mundo Linux."
-msgstr "Et af de mest anvendte desktops i Linux-verdenen."
-
-msgid "LXQt"
-msgstr "LXQt"
-
-msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
-msgstr "Desktop miljø dannet af fusionen af lxde og razor-qt projekter."
-
-msgid "CuteFish"
-msgstr "Cutefish"
-
-msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
-msgstr "Skrivebordsmiljø med fokus på enkelhed, skønhed og praktisk."
-
-msgid "MATE"
-msgstr "MAKKER"
-
-msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
-msgstr "Intuitivt og attraktivt skrivebordsmiljø er fortsættelsen af GNOME 2."
-
-msgid "XFCE"
-msgstr "XFCE"
-
-msgid "Ambiente desktop leve e rápido."
-msgstr "Let og hurtigt skrivebordsmiljø."
-
-msgid "Cinnamon"
-msgstr "Kanel"
-
-msgid ""
-"<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?</b>\n"
-"    :LBL"
-msgstr ""
-"<b>Vil du alligevel fortsætte med at installere den gamle ISO?</b>\n"
-"    :LBL"
-
-msgid ""
-"Essa ISO foi gerada a mais de 30 dias e já está desatualizada.\\n"
-"Sugerimos fortemente que baixe uma nova ISO e não prossiga com essa instalação!\n"
-"    "
-msgstr ""
-"Denne ISO blev genereret for mere end 30 dage siden og er allerede forældet.\\n"
-"Vi anbefaler kraftigt, at du downloader en ny ISO og ikke fortsætter med denne installation!    "
-
-msgid "ISO Antiga"
-msgstr "Gamle ISO"
-
-msgid "Verificando conexão com a Internet..."
-msgstr "Kontrol af internetforbindelse..."
-
-msgid "Sem conexão com a Internet..."
-msgstr "Ingen internetforbindelse..."
-
-msgid "Atualizando lista de Interfaces..."
-msgstr "Opdatering af liste over grænseflader..."
-
-msgid ""
-"<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
-"    :LBL"
-msgstr ""
-"<b>Vil du alligevel fortsætte med at installere denne gamle version?</b>\n"
-"    :LBL"
-
-msgid ""
-"O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
-"Recomendamos que faça o download de uma versão mais recente.\n"
-"    "
-msgstr ""
-"BigLinux er et ugentligt opdateringssystem, og denne version er blevet frigivet i over en måned.\\n"
-"Vi anbefaler, at du downloader en nyere version.    "
-
-msgid "Versão Desatualizada"
-msgstr "Forældet version"
-
-msgid "Verificando"
-msgstr "Kontrol"
-
-msgid ""
-"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
-"            :LBL"
-msgstr ""
-"<b>Denne udviklingsversion er forældet og kan ikke længere bruges.</b>\n"
-"            :LBL"
-
-msgid " OK"
-msgstr " OK"
-
-msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
-msgstr "STANDARD ELLER BRUGERDEFINERET INSTALLATION?"
-
-msgid ""
-"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
-"personalizações e testes, deseja realmente prosseguir?"
-msgstr ""
-"Følgende desktops vedligeholdes af brugere af BigLinux-samfundet og har færre tilpasninger og "
-"tests, vil du virkelig fortsætte?"
-
-msgid ""
-"<b>você está me desafiando?</b>\n"
-"            :LBL"
-msgstr ""
-"<b>Udfordrer du mig?</b>\n"
-"            :LBL"
-
-msgid ""
-"Já falei que essa versão está desatualizada.\n"
-"            "
-msgstr "Jeg fortalte dig, denne version er forældet.            "
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "BEKRÆFT OG FORTSÆT MED INSTALLATIONEN"
 
 msgid "Verificando pacotes, aguarde..."
 msgstr "Kontrol af pakker, vent..."
-
-msgid "Não é possível instalar, "
-msgstr "Det er ikke muligt at installere, "
-
-msgid "Não é possível remover:"
-msgstr "Kan ikke fjerne:"
-
-msgid "Verificando pacotes"
-msgstr "Kontrol af pakker"
-
-msgid "VOLTAR"
-msgstr "KOM TILBAGE"
 
 msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
 msgstr "<font color='red'><b>Kan ikke installere.</b></font><br><br> "
 
 msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
 msgstr "<font color='red'><b>Kan ikke fjerne.</b></font><br><br>"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Kan ikke finde Login Manager</b></font><br><br>"
+
+msgid "VOLTAR"
+msgstr "KOM TILBAGE"
 
 msgid "AVANÇAR"
 msgstr "FORSKUD"
@@ -347,5 +275,5 @@ msgstr "FEJL!"
 msgid "SUCESSO!"
 msgstr "SUCCES!"
 
-msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
-msgstr "<font color='red'><b>Kan ikke finde Login Manager</b></font><br><br>"
+msgid "Personalizar a instalação:"
+msgstr "Tilpas installationen:"

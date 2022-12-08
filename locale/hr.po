@@ -16,6 +16,92 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Želite li ipak nastaviti s instalacijom ove stare verzije?</b>\n"
+"    :LBL"
+
+msgid ""
+"O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
+"Recomendamos que faça o download de uma versão mais recente.\n"
+"    "
+msgstr ""
+"BigLinux je tjedni sustav ažuriranja i ova verzija je objavljena više od mjesec dana.\\n"
+"Pogrešite da preuzmete noviju verziju.    "
+
+msgid " Continue"
+msgstr " Nastavi"
+
+msgid " Fechar"
+msgstr " Blizak"
+
+msgid "Versão Desatualizada"
+msgstr "Zastarjela verzija"
+
+msgid "Verificando"
+msgstr "Provjera"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Provjera internetske veze..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Nema internetske veze..."
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Ova razvojna verzija zastarjela je i više se ne može koristiti.</b>\n"
+"            :LBL"
+
+msgid " OK"
+msgstr " OK"
+
+msgid "Deseja prosseguir com com a instalação em modo EFI?"
+msgstr "Želite li nastaviti s instalacijom u EFI načinu rada?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
+"partição EFI neste computador.\n"
+"\n"
+"Se este computador já possui outro sistema instalado e você pretende \n"
+"que ele permaneça instalado, provavelmente será necessário alterar a \n"
+"configuração na BIOS para fazer boot em modo Legacy, também \n"
+"chamado de modo BIOS."
+msgstr ""
+"Trenutno pokretanje koristi <span color='#CC2222'>EFI način rada</span>, ali nisam pronašao nijedan "
+"\n"
+"EFI particija na ovom računalu.\n"
+"\n"
+"Ako ovo računalo već ima instaliran drugi sustav i namjeravate to učiniti \n"
+"da ostane instaliran, vjerojatno ćete morati promijeniti \n"
+"konfiguracija u BIOS-u za pokretanje u naslijeđenom načinu rada, također \n"
+"naziva se BIOS način rada."
+
+msgid "Instalar o sistema"
+msgstr "Instaliranje sustava"
+
+msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
+msgstr "Želite li nastaviti s instalacijom u naslijeđenom/BIOS načinu rada?"
+
+msgid ""
+"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
+"menos uma partição EFI neste computador. \n"
+"\n"
+"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
+"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
+msgstr ""
+"Trenutno pokretanje koristi <span color='#CC2222'>Legacy/BIOS način rada, ali</span> pronašao sam \n"
+"najmanje jedna EFI particija na ovom računalu. \n"
+"\n"
+"Da bi instalacija bila uspješna, vjerojatno ćete morati \n"
+"promijenite postavku u BIOS-u za pokretanje u EFI ili UEFI način rada."
+
+msgid "Instalar o BigLinux"
+msgstr "Instaliraj BigLinux"
+
 msgid "Verificando o arquivo:"
 msgstr "Provjera datoteke:"
 
@@ -34,20 +120,86 @@ msgstr "Datoteke su integrirane."
 msgid "Verificação cancelada."
 msgstr "Provjera je otkazana."
 
-msgid " Continue"
-msgstr " Nastavi"
+msgid "ESCOLHA O DESKTOP"
+msgstr "ODABIR RADNE POVRŠINE"
 
-msgid " Fechar"
-msgstr " Blizak"
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "NATRAG I KORISTI STANDARDNU INSTALACIJU"
 
-msgid "Instalar o sistema"
-msgstr "Instaliranje sustava"
+msgid "INSTALAR"
+msgstr "INSTALIRATI"
 
-msgid "Instalar o BigLinux"
-msgstr "Instaliraj BigLinux"
+msgid "DESKTOP"
+msgstr "RADNA POVRŠINA"
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Ažuriranje popisa sučelja..."
+
+msgid "O sistema está em modo"
+msgstr "Sustav je u programu"
+
+msgid "e com o kernel"
+msgstr "i s jezgrom"
 
 msgid "PADRÃO"
 msgstr "UZORAK"
+
+msgid "PERSONALIZADA"
+msgstr "OBIČAJ"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "STANDARDNA ILI PRILAGOĐENA INSTALACIJA?"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "INSTALIRATI S MANJE PROGRAMA ILI KORISTITI DRUGU RADNU POVRŠINU?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Da biste instalirali drugu radnu površinu morat ćete preuzeti tijekom instalacije, vrijeme "
+"instalacije ovisit će o brzini interneta."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "STVARNO ŽELITE INSTALIRATI DRUGU RADNU POVRŠINU?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Sljedeće radne površine održavaju korisnici BigLinux zajednice i imaju manje prilagodbi i testova, "
+"želite li zaista nastaviti?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "MANJE PROGRAMA"
+
+msgid "OUTROS DESKTOPS"
+msgstr "OSTALE RADNE POVRŠINE"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "ZAPRAVO KORISTI DRUGU RADNU POVRŠINU"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Ako u nedoumici napravite standardnu instalaciju, prilagođene opcije trebaju koristiti samo iskusni "
+"korisnici."
+
+msgid "SELECIONAR"
+msgstr "ODABIRATI"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Izazivaš li me?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Rekao sam ti, ova verzija je zastarjela.            "
 
 msgid "DESEMPENHO"
 msgstr "IZVEDBA"
@@ -73,79 +225,14 @@ msgstr "BTRFS s fsync-om"
 msgid "BTRFS sem fsync"
 msgstr "BTRFS bez fsynca"
 
-msgid "SELECIONAR"
-msgstr "ODABIRATI"
-
 msgid "Instalar no HD"
 msgstr "Instaliraj na HD"
 
 msgid "* Não utilize /boot separado"
 msgstr "* Ne koristite /boot zasebno"
 
-msgid "O sistema está em modo"
-msgstr "Sustav je u programu"
-
-msgid "e com o kernel"
-msgstr "i s jezgrom"
-
-msgid "Deseja prosseguir com com a instalação em modo EFI?"
-msgstr "Želite li nastaviti s instalacijom u EFI načinu rada?"
-
-msgid ""
-"O boot atual está utilizando o modo <span color='#CC2222'>EFI</span>, porém não encontrei nenhuma \n"
-"partição EFI neste computador.\n"
-"\n"
-"Se este computador já possui outro sistema instalado e você pretende \n"
-"que ele permaneça instalado, provavelmente será necessário alterar a \n"
-"configuração na BIOS para fazer boot em modo Legacy, também \n"
-"chamado de modo BIOS."
-msgstr ""
-"Trenutno pokretanje koristi <span color='#CC2222'>EFI način rada</span>, ali nisam pronašao nijedan "
-"\n"
-"EFI particija na ovom računalu.\n"
-"\n"
-"Ako ovo računalo već ima instaliran drugi sustav i namjeravate to učiniti \n"
-"da ostane instaliran, vjerojatno ćete morati promijeniti \n"
-"konfiguracija u BIOS-u za pokretanje u naslijeđenom načinu rada, također \n"
-"naziva se BIOS način rada."
-
-msgid "Deseja prosseguir com com a instalação em modo Legacy/BIOS?"
-msgstr "Želite li nastaviti s instalacijom u naslijeđenom/BIOS načinu rada?"
-
-msgid ""
-"O boot atual está utilizando o modo <span color='#CC2222'>Legacy/BIOS</span>, porém encontrei pelo \n"
-"menos uma partição EFI neste computador. \n"
-"\n"
-"Para que a instalação seja bem sucedida, provavelmente será necessário \n"
-"alterar a configuração na BIOS para fazer boot em modo EFI ou UEFI."
-msgstr ""
-"Trenutno pokretanje koristi <span color='#CC2222'>Legacy/BIOS način rada, ali</span> pronašao sam \n"
-"najmanje jedna EFI particija na ovom računalu. \n"
-"\n"
-"Da bi instalacija bila uspješna, vjerojatno ćete morati \n"
-"promijenite postavku u BIOS-u za pokretanje u EFI ili UEFI način rada."
-
-msgid "PERSONALIZADA"
-msgstr "OBIČAJ"
-
-msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
-msgstr "POTVRDA I NASTAVAK INSTALACIJE"
-
-msgid "ESCOLHA O DESKTOP"
-msgstr "ODABIR RADNE POVRŠINE"
-
-msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-msgstr "INSTALIRATI S MANJE PROGRAMA ILI KORISTITI DRUGU RADNU POVRŠINU?"
-
-msgid ""
-"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
-"instalação vai depender da velocidade da internet."
-msgstr ""
-"Da biste instalirali drugu radnu površinu morat ćete preuzeti tijekom instalacije, vrijeme "
-"instalacije ovisit će o brzini interneta."
-
-msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-msgstr "STVARNO ŽELITE INSTALIRATI DRUGU RADNU POVRŠINU?"
+msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgstr "KOJE PAKETE NE ŽELITE U SUSTAVU?"
 
 msgid ""
 "O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
@@ -155,188 +242,29 @@ msgstr ""
 "BigLinux je dizajniran i testiran na svojoj standardnoj instalaciji, druge radne površine održavaju "
 "korisnici BigLinux zajednice i imaju manje prilagodbi i testova, stvarno žele nastaviti?"
 
-msgid "MENOS PROGRAMAS"
-msgstr "MANJE PROGRAMA"
-
-msgid "OUTROS DESKTOPS"
-msgstr "OSTALE RADNE POVRŠINE"
-
-msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
-msgstr "ZAPRAVO KORISTI DRUGU RADNU POVRŠINU"
-
-msgid ""
-"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
-"usuários experientes."
-msgstr ""
-"Ako u nedoumici napravite standardnu instalaciju, prilagođene opcije trebaju koristiti samo iskusni "
-"korisnici."
-
-msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
-msgstr "NATRAG I KORISTI STANDARDNU INSTALACIJU"
-
-msgid "Personalizar a instalação:"
-msgstr "Prilagodba instalacije:"
-
-msgid "INSTALAR"
-msgstr "INSTALIRATI"
-
-msgid "DESKTOP"
-msgstr "RADNA POVRŠINA"
-
-msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
-msgstr "KOJE PAKETE NE ŽELITE U SUSTAVU?"
-
 msgid "Selecionar todos"
 msgstr "Odaberi sve"
 
 msgid "Desmarcar todos"
 msgstr "Poništite sve"
 
-msgid "Deepin"
-msgstr "Deepin"
-
-msgid "Considerado um dos desktops mais bonitos que existem."
-msgstr "Smatra se jednom od najljepših radnih površina koje postoje."
-
-msgid "Ukui"
-msgstr "Ukui"
-
-msgid "Desktop criado para o público chinês, mas que está se popularizando em outros países."
-msgstr "Radna površina stvorena za kinesku javnost, ali koja postaje popularna u drugim zemljama."
-
-msgid "Gnome"
-msgstr "Patuljak"
-
-msgid "Um dos desktops mais utilizados no mundo Linux."
-msgstr "Jedna od najčešće korištenih stolnih računala u Linux svijetu."
-
-msgid "LXQt"
-msgstr "LXQt"
-
-msgid "Ambiente desktop formado a partir da fusão dos projetos LXDE e Razor-qt."
-msgstr "Desktop okruženje nastalo spajanjem lxde i razor-qt projekata."
-
-msgid "CuteFish"
-msgstr "Slatka riba"
-
-msgid "Ambiente desktop com foco na simplicidade, beleza e praticidade."
-msgstr "Desktop okruženje usmjereno na jednostavnost, ljepotu i praktičnost."
-
-msgid "MATE"
-msgstr "DRUG"
-
-msgid "Ambiente desktop intuitivo e atraente é a continuação do GNOME 2."
-msgstr "Intuitivno i atraktivno desktop okruženje nastavak je GNOME 2."
-
-msgid "XFCE"
-msgstr "XFCE"
-
-msgid "Ambiente desktop leve e rápido."
-msgstr "Lagano i brzo stolno okruženje."
-
-msgid "Cinnamon"
-msgstr "Cimet"
-
-msgid ""
-"<b>Deseja prosseguir com com a instalação da ISO Antiga assim mesmo?</b>\n"
-"    :LBL"
-msgstr ""
-"<b>Želite li ipak nastaviti s instalacijom Starog ISO-a?</b>\n"
-"    :LBL"
-
-msgid ""
-"Essa ISO foi gerada a mais de 30 dias e já está desatualizada.\\n"
-"Sugerimos fortemente que baixe uma nova ISO e não prossiga com essa instalação!\n"
-"    "
-msgstr ""
-"Ovaj ISO generiran je prije više od 30 dana i već je zastario.\\n"
-"Pomoćno predlažemo da preuzmete novi ISO i ne nastavite s ovom instalacijom!    "
-
-msgid "ISO Antiga"
-msgstr "Drevni ISO"
-
-msgid "Verificando conexão com a Internet..."
-msgstr "Provjera internetske veze..."
-
-msgid "Sem conexão com a Internet..."
-msgstr "Nema internetske veze..."
-
-msgid "Atualizando lista de Interfaces..."
-msgstr "Ažuriranje popisa sučelja..."
-
-msgid ""
-"<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
-"    :LBL"
-msgstr ""
-"<b>Želite li ipak nastaviti s instalacijom ove stare verzije?</b>\n"
-"    :LBL"
-
-msgid ""
-"O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
-"Recomendamos que faça o download de uma versão mais recente.\n"
-"    "
-msgstr ""
-"BigLinux je tjedni sustav ažuriranja i ova verzija je objavljena više od mjesec dana.\\n"
-"Pogrešite da preuzmete noviju verziju.    "
-
-msgid "Versão Desatualizada"
-msgstr "Zastarjela verzija"
-
-msgid "Verificando"
-msgstr "Provjera"
-
-msgid ""
-"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
-"            :LBL"
-msgstr ""
-"<b>Ova razvojna verzija zastarjela je i više se ne može koristiti.</b>\n"
-"            :LBL"
-
-msgid " OK"
-msgstr " OK"
-
-msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
-msgstr "STANDARDNA ILI PRILAGOĐENA INSTALACIJA?"
-
-msgid ""
-"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
-"personalizações e testes, deseja realmente prosseguir?"
-msgstr ""
-"Sljedeće radne površine održavaju korisnici BigLinux zajednice i imaju manje prilagodbi i testova, "
-"želite li zaista nastaviti?"
-
-msgid ""
-"<b>você está me desafiando?</b>\n"
-"            :LBL"
-msgstr ""
-"<b>Izazivaš li me?</b>\n"
-"            :LBL"
-
-msgid ""
-"Já falei que essa versão está desatualizada.\n"
-"            "
-msgstr "Rekao sam ti, ova verzija je zastarjela.            "
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "POTVRDA I NASTAVAK INSTALACIJE"
 
 msgid "Verificando pacotes, aguarde..."
 msgstr "Provjeravam pakete, čekaj..."
-
-msgid "Não é possível instalar, "
-msgstr "Nije moguće instalirati, "
-
-msgid "Não é possível remover:"
-msgstr "Nije moguće ukloniti:"
-
-msgid "Verificando pacotes"
-msgstr "Provjera paketa"
-
-msgid "VOLTAR"
-msgstr "VRATI SE"
 
 msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
 msgstr "<font color='red'><b>Instalacija se ne može instalirati.</b></font><br><br> "
 
 msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
 msgstr "<font color='red'><b>Uklanjanje nije moguće.</b></font><br><br>"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Nije moguće pronaći upravitelja za prijavu</b></font><br><br>"
+
+msgid "VOLTAR"
+msgstr "VRATI SE"
 
 msgid "AVANÇAR"
 msgstr "PREDUJAM"
@@ -347,5 +275,5 @@ msgstr "GREŠKA!"
 msgid "SUCESSO!"
 msgstr "USPJEH!"
 
-msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
-msgstr "<font color='red'><b>Nije moguće pronaći upravitelja za prijavu</b></font><br><br>"
+msgid "Personalizar a instalação:"
+msgstr "Prilagodba instalacije:"
