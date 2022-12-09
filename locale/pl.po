@@ -40,8 +40,8 @@ msgstr " Zamykać"
 msgid "Versão Desatualizada"
 msgstr "Nieaktualna wersja"
 
-msgid "Verificando"
-msgstr "Sprawdzanie"
+msgid "Aguarde..."
+msgstr "Trzymaj się..."
 
 msgid "Verificando conexão com a Internet..."
 msgstr "Sprawdzanie połączenia internetowego..."

@@ -40,8 +40,8 @@ msgstr " Закрывать"
 msgid "Versão Desatualizada"
 msgstr "Устаревшая версия"
 
-msgid "Verificando"
-msgstr "Контроль"
+msgid "Aguarde..."
+msgstr "Подождать..."
 
 msgid "Verificando conexão com a Internet..."
 msgstr "Проверка подключения к Интернету..."

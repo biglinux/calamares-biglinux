@@ -40,8 +40,8 @@ msgstr " Loka"
 msgid "Versão Desatualizada"
 msgstr "Úrelt útgáfa"
 
-msgid "Verificando"
-msgstr "Stöðva"
+msgid "Aguarde..."
+msgstr "Bíddu..."
 
 msgid "Verificando conexão com a Internet..."
 msgstr "Athuga nettengingu..."

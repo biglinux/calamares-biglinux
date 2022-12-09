@@ -40,8 +40,8 @@ msgstr " Lukke"
 msgid "Versão Desatualizada"
 msgstr "Utdatert versjon"
 
-msgid "Verificando"
-msgstr "Sjekke"
+msgid "Aguarde..."
+msgstr "Vent litt..."
 
 msgid "Verificando conexão com a Internet..."
 msgstr "Sjekke Internett-tilkobling..."

@@ -40,8 +40,8 @@ msgstr " Sulkea"
 msgid "Versão Desatualizada"
 msgstr "Vanhentunut versio"
 
-msgid "Verificando"
-msgstr "Tarkistaminen"
+msgid "Aguarde..."
+msgstr "Odota..."
 
 msgid "Verificando conexão com a Internet..."
 msgstr "Internet-yhteyden tarkistaminen..."

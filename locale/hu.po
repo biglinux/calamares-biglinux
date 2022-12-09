@@ -40,8 +40,8 @@ msgstr " Bezár"
 msgid "Versão Desatualizada"
 msgstr "Elavult verzió"
 
-msgid "Verificando"
-msgstr "Ellenőrzése"
+msgid "Aguarde..."
+msgstr "Vár..."
 
 msgid "Verificando conexão com a Internet..."
 msgstr "Az internetkapcsolat ellenőrzése..."

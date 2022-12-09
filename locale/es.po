@@ -40,8 +40,8 @@ msgstr " Cerrar"
 msgid "Versão Desatualizada"
 msgstr "Versión obsoleta"
 
-msgid "Verificando"
-msgstr "Comprobación"
+msgid "Aguarde..."
+msgstr "Espera..."
 
 msgid "Verificando conexão com a Internet..."
 msgstr "Comprobando la conexión a Internet..."

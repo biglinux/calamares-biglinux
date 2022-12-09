@@ -34,7 +34,7 @@ msgstr  ""
 msgid   "Versão Desatualizada"
 msgstr  ""
 
-msgid   "Verificando"
+msgid   "Aguarde..."
 msgstr  ""
 
 msgid   "Verificando conexão com a Internet..."

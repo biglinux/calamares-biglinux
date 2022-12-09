@@ -41,8 +41,8 @@ msgstr " Κλείνω"
 msgid "Versão Desatualizada"
 msgstr "Ξεπερασμένη έκδοση"
 
-msgid "Verificando"
-msgstr "Αναχαίτιση"
+msgid "Aguarde..."
+msgstr "Περιμένω..."
 
 msgid "Verificando conexão com a Internet..."
 msgstr "Έλεγχος σύνδεσης στο Διαδίκτυο..."

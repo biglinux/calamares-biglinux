@@ -40,8 +40,8 @@ msgstr " Blizak"
 msgid "Versão Desatualizada"
 msgstr "Zastarjela verzija"
 
-msgid "Verificando"
-msgstr "Provjera"
+msgid "Aguarde..."
+msgstr "Sačekajte..."
 
 msgid "Verificando conexão com a Internet..."
 msgstr "Provjera internetske veze..."

@@ -40,8 +40,8 @@ msgstr " Stänga"
 msgid "Versão Desatualizada"
 msgstr "Föråldrad version"
 
-msgid "Verificando"
-msgstr "Kontrollera"
+msgid "Aguarde..."
+msgstr "Vänta..."
 
 msgid "Verificando conexão com a Internet..."
 msgstr "Kontrollera internetanslutningen..."

@@ -40,8 +40,8 @@ msgstr " קרוב"
 msgid "Versão Desatualizada"
 msgstr "גרסה מיושנת"
 
-msgid "Verificando"
-msgstr "בדיקת"
+msgid "Aguarde..."
+msgstr "חכה..."
 
 msgid "Verificando conexão com a Internet..."
 msgstr "בדיקת החיבור לאינטרנט..."

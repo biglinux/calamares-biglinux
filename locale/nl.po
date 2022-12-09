@@ -40,8 +40,8 @@ msgstr " Sluiten"
 msgid "Versão Desatualizada"
 msgstr "Verouderde versie"
 
-msgid "Verificando"
-msgstr "Controleren"
+msgid "Aguarde..."
+msgstr "Wachten..."
 
 msgid "Verificando conexão com a Internet..."
 msgstr "Internetverbinding controleren..."

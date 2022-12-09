@@ -41,8 +41,8 @@ msgstr " Închide"
 msgid "Versão Desatualizada"
 msgstr "Versiune învechită"
 
-msgid "Verificando"
-msgstr "Verificarea"
+msgid "Aguarde..."
+msgstr "Stai aşa..."
 
 msgid "Verificando conexão com a Internet..."
 msgstr "Verificarea conexiunii la Internet..."

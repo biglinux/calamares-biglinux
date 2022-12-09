@@ -41,8 +41,8 @@ msgstr " Fermer"
 msgid "Versão Desatualizada"
 msgstr "Version obsolète"
 
-msgid "Verificando"
-msgstr "Vérification"
+msgid "Aguarde..."
+msgstr "Attendez..."
 
 msgid "Verificando conexão com a Internet..."
 msgstr "Vérification de la connexion Internet..."

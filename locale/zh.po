@@ -40,8 +40,8 @@ msgstr " 关闭"
 msgid "Versão Desatualizada"
 msgstr "过时版本"
 
-msgid "Verificando"
-msgstr "检查"
+msgid "Aguarde..."
+msgstr "坚持。。。"
 
 msgid "Verificando conexão com a Internet..."
 msgstr "正在检查互联网连接..."

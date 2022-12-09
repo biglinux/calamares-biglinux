@@ -41,8 +41,8 @@ msgstr " Kapatmak"
 msgid "Versão Desatualizada"
 msgstr "Eski Sürüm"
 
-msgid "Verificando"
-msgstr "Denetimi"
+msgid "Aguarde..."
+msgstr "Bekleyin..."
 
 msgid "Verificando conexão com a Internet..."
 msgstr "İnternet bağlantısı kontrol ediliyor..."

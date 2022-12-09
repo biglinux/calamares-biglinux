@@ -40,8 +40,8 @@ msgstr " Zavřít"
 msgid "Versão Desatualizada"
 msgstr "Zastaralá verze"
 
-msgid "Verificando"
-msgstr "Kontrolování"
+msgid "Aguarde..."
+msgstr "Vydrž..."
 
 msgid "Verificando conexão com a Internet..."
 msgstr "Kontrola připojení k internetu..."

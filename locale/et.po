@@ -40,8 +40,8 @@ msgstr " Sulgema"
 msgid "Versão Desatualizada"
 msgstr "Aegunud versioon"
 
-msgid "Verificando"
-msgstr "Kontroll"
+msgid "Aguarde..."
+msgstr "Pea kinni..."
 
 msgid "Verificando conexão com a Internet..."
 msgstr "Interneti-ühenduse kontrollimine ..."

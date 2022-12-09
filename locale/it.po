@@ -41,8 +41,8 @@ msgstr " Chiudere"
 msgid "Versão Desatualizada"
 msgstr "Versione obsoleta"
 
-msgid "Verificando"
-msgstr "Controllo"
+msgid "Aguarde..."
+msgstr "Aspettare..."
 
 msgid "Verificando conexão com a Internet..."
 msgstr "Verifica della connessione Internet..."

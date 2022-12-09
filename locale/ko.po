@@ -40,8 +40,8 @@ msgstr " 닫다"
 msgid "Versão Desatualizada"
 msgstr "오래된 버전"
 
-msgid "Verificando"
-msgstr "확인"
+msgid "Aguarde..."
+msgstr "잠시 기다리다..."
 
 msgid "Verificando conexão com a Internet..."
 msgstr "인터넷 연결 확인 중..."

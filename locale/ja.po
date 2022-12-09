@@ -40,8 +40,8 @@ msgstr " 閉める"
 msgid "Versão Desatualizada"
 msgstr "古いバージョン"
 
-msgid "Verificando"
-msgstr "実検"
+msgid "Aguarde..."
+msgstr "待つ。。。"
 
 msgid "Verificando conexão com a Internet..."
 msgstr "インターネット接続を確認しています..."
