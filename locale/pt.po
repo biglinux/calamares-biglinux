@@ -141,6 +141,9 @@ msgstr "O sistema está em modo"
 msgid "e com o kernel"
 msgstr "e com o kernel"
 
+msgid "Apagando /dev/sda"
+msgstr "Apagando /dev/sda"
+
 msgid "PADRÃO"
 msgstr "PADRÃO"
 

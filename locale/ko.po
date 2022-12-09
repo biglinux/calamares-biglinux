@@ -140,6 +140,9 @@ msgstr "시스템이 시작 중입니다."
 msgid "e com o kernel"
 msgstr "그리고 커널과 함께"
 
+msgid "Apagando /dev/sda"
+msgstr "지우기 / dev / sda"
+
 msgid "PADRÃO"
 msgstr "무늬"
 

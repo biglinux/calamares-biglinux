@@ -140,6 +140,9 @@ msgstr "Kerfið er í"
 msgid "e com o kernel"
 msgstr "og með kjarnanum"
 
+msgid "Apagando /dev/sda"
+msgstr "Eyðing / dev / sda"
+
 msgid "PADRÃO"
 msgstr "MYNSTUR"
 

@@ -124,6 +124,9 @@ msgstr  ""
 msgid   "e com o kernel"
 msgstr  ""
 
+msgid   "Apagando /dev/sda"
+msgstr  ""
+
 msgid   "PADRÃO"
 msgstr  ""
 

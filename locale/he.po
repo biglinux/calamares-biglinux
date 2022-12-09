@@ -140,6 +140,9 @@ msgstr "המערכת נמצאת ב"
 msgid "e com o kernel"
 msgstr "ועם הגרעין"
 
+msgid "Apagando /dev/sda"
+msgstr "מחיקה /dev/sda"
+
 msgid "PADRÃO"
 msgstr "תבנית"
 

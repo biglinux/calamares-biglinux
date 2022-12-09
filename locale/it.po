@@ -145,6 +145,9 @@ msgstr "Il sistema è in"
 msgid "e com o kernel"
 msgstr "e con il kernel"
 
+msgid "Apagando /dev/sda"
+msgstr "Cancellazione di /dev/sda"
+
 msgid "PADRÃO"
 msgstr "MODELLO"
 

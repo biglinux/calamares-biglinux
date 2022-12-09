@@ -140,6 +140,9 @@ msgstr "System jest w"
 msgid "e com o kernel"
 msgstr "i z jądrem"
 
+msgid "Apagando /dev/sda"
+msgstr "Kasowanie /dev/sda"
+
 msgid "PADRÃO"
 msgstr "DESEŃ"
 

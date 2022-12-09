@@ -142,6 +142,9 @@ msgstr "Sistem şu şekildedir:"
 msgid "e com o kernel"
 msgstr "ve çekirdek ile"
 
+msgid "Apagando /dev/sda"
+msgstr "/dev/sda silme"
+
 msgid "PADRÃO"
 msgstr "DESEN"
 

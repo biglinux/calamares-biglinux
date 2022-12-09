@@ -140,6 +140,9 @@ msgstr "The system is in"
 msgid "e com o kernel"
 msgstr "and with the kernel"
 
+msgid "Apagando /dev/sda"
+msgstr "Erasing /dev/sda"
+
 msgid "PADRÃO"
 msgstr "PATTERN"
 

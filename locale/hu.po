@@ -140,6 +140,9 @@ msgstr "A rendszer a"
 msgid "e com o kernel"
 msgstr "és a kernellel"
 
+msgid "Apagando /dev/sda"
+msgstr "A /dev/sda törlése"
+
 msgid "PADRÃO"
 msgstr "MINTA"
 

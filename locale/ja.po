@@ -140,6 +140,9 @@ msgstr "システムは"
 msgid "e com o kernel"
 msgstr "カーネルで"
 
+msgid "Apagando /dev/sda"
+msgstr "/dev/sda の消去"
+
 msgid "PADRÃO"
 msgstr "パターン"
 

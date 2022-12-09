@@ -142,6 +142,9 @@ msgstr "Sistemul este în"
 msgid "e com o kernel"
 msgstr "și cu kernel-ul"
 
+msgid "Apagando /dev/sda"
+msgstr "Ștergerea / dev / sda"
+
 msgid "PADRÃO"
 msgstr "MODEL"
 

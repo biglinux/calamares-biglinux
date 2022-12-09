@@ -141,6 +141,9 @@ msgstr "Süsteem on sees"
 msgid "e com o kernel"
 msgstr "ja tuumaga"
 
+msgid "Apagando /dev/sda"
+msgstr "Kustutamine /dev/sda"
+
 msgid "PADRÃO"
 msgstr "MUSTER"
 

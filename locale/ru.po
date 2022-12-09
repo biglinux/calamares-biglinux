@@ -140,6 +140,9 @@ msgstr "Система находится в"
 msgid "e com o kernel"
 msgstr "и с ядром"
 
+msgid "Apagando /dev/sda"
+msgstr "Стирание /dev/sda"
+
 msgid "PADRÃO"
 msgstr "РИСУНОК"
 

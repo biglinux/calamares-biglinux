@@ -140,6 +140,9 @@ msgstr "系统位于"
 msgid "e com o kernel"
 msgstr "和内核"
 
+msgid "Apagando /dev/sda"
+msgstr "擦除 /dev/sda"
+
 msgid "PADRÃO"
 msgstr "模式"
 

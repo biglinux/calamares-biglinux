@@ -141,6 +141,9 @@ msgstr "Systém je v"
 msgid "e com o kernel"
 msgstr "a s jadrom"
 
+msgid "Apagando /dev/sda"
+msgstr "Vymazanie /dev/sda"
+
 msgid "PADRÃO"
 msgstr "VZORKA"
 

@@ -143,6 +143,9 @@ msgstr "Το σύστημα είναι σε"
 msgid "e com o kernel"
 msgstr "και με τον πυρήνα"
 
+msgid "Apagando /dev/sda"
+msgstr "Διαγραφή /dev/sda"
+
 msgid "PADRÃO"
 msgstr "ΠΡΌΤΥΠΟ"
 

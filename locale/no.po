@@ -140,6 +140,9 @@ msgstr "Systemet er i"
 msgid "e com o kernel"
 msgstr "og med kjernen"
 
+msgid "Apagando /dev/sda"
+msgstr "Slette / dev / sda"
+
 msgid "PADRÃO"
 msgstr "MØNSTER"
 

@@ -142,6 +142,9 @@ msgstr "Le système est en"
 msgid "e com o kernel"
 msgstr "et avec le noyau"
 
+msgid "Apagando /dev/sda"
+msgstr "Effacement de /dev/sda"
+
 msgid "PADRÃO"
 msgstr "MODÈLE"
 

@@ -142,6 +142,9 @@ msgstr "El sistema está en"
 msgid "e com o kernel"
 msgstr "y con el kernel"
 
+msgid "Apagando /dev/sda"
+msgstr "Borrado de /dev/sda"
+
 msgid "PADRÃO"
 msgstr "POR DEFECTO"
 

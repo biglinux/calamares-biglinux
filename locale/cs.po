@@ -140,6 +140,9 @@ msgstr "Systém je v"
 msgid "e com o kernel"
 msgstr "a s jádrem"
 
+msgid "Apagando /dev/sda"
+msgstr "Mazání / dev / sda"
+
 msgid "PADRÃO"
 msgstr "VZOR"
 
