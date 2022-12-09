@@ -35,7 +35,7 @@ if [ "$(echo $ruscherrelease | wc -m)" -gt "11" ]; then
     if  [ "$(echo $(( $(date +%s) / 86400 )))" -gt "$(( $ruschertimestamp + 7 ))" ]; then
         echo "verificando validade da ISO"
         windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
-        zenity --attach="$windowID" --width=300 --progress --title=$"Verificando" --pulsate --no-cancel --text $"Verificando conexão com a Internet..." &
+        sleep 3|tee >(zenity --attach="$windowID" --width=300 --progress --title=$"Aguarde..." --pulsate --no-cancel --auto-close --text $"Verificando conexão com a Internet...") &
         sudo pacman -Sy 
         if [ "$?" = "1" ];then
             windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
