@@ -54,7 +54,7 @@ fi
 if [ "$use_custom_desktop" = "yes" ]; then
 echo '---
 
-backend: pamac
+backend: pacman
 
 skip_if_no_internet: false
 update_db: true
@@ -69,8 +69,10 @@ operations:' > /etc/calamares/modules/packages.conf
     if [ "$remove_packages" != "" ]; then
         echo ' - remove:' >> /etc/calamares/modules/packages.conf
 
-        echo '   - --cascade' >> /etc/calamares/modules/packages.conf
-        
+#         echo '   - --cascade' >> /etc/calamares/modules/packages.conf
+          sed -i '/pacman/s/-Rs/-Rcns/' /lib/calamares/modules/chrootcfg/main.py
+          sed -i '/pacman/s/-Rs/-Rcns/' /lib/calamares/modules/packages/main.py
+          
         for package  in $remove_packages; do
             echo "   - $package" >> /etc/calamares/modules/packages.conf
         done
