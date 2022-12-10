@@ -43,8 +43,8 @@ msgstr "застаріла версія"
 msgid "Aguarde..."
 msgstr "Зачекай..."
 
-msgid "Verificando conexão com a Internet..."
-msgstr "Перевірка підключення до інтернету..."
+msgid "Atualizando o Instalador..."
+msgstr "Оновлення інсталятора..."
 
 msgid "Sem conexão com a Internet..."
 msgstr "Немає підключення до Інтернету..."
@@ -132,6 +132,9 @@ msgstr "ІНСТАЛЮВАТИ"
 
 msgid "DESKTOP"
 msgstr "НАСТІЛЬНИЙ"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Перевірка підключення до інтернету..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Оновлення списку інтерфейсів..."

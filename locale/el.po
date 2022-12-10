@@ -44,8 +44,8 @@ msgstr "Ξεπερασμένη έκδοση"
 msgid "Aguarde..."
 msgstr "Περιμένω..."
 
-msgid "Verificando conexão com a Internet..."
-msgstr "Έλεγχος σύνδεσης στο Διαδίκτυο..."
+msgid "Atualizando o Instalador..."
+msgstr "Ενημέρωση του προγράμματος εγκατάστασης..."
 
 msgid "Sem conexão com a Internet..."
 msgstr "Δεν υπάρχει σύνδεση στο Διαδίκτυο..."
@@ -133,6 +133,9 @@ msgstr "ΕΓΚΑΘΙΣΤΏ"
 
 msgid "DESKTOP"
 msgstr "ΕΠΙΦΆΝΕΙΑ ΕΡΓΑΣΊΑΣ"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Έλεγχος σύνδεσης στο Διαδίκτυο..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Ενημέρωση λίστας διεπαφών..."

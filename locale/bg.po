@@ -43,8 +43,8 @@ msgstr "Остаряла версия"
 msgid "Aguarde..."
 msgstr "Чакам..."
 
-msgid "Verificando conexão com a Internet..."
-msgstr "Проверка на интернет връзката..."
+msgid "Atualizando o Instalador..."
+msgstr "Актуализиране на инсталатора..."
 
 msgid "Sem conexão com a Internet..."
 msgstr "Няма интернет връзка..."
@@ -130,6 +130,9 @@ msgstr "ИНСТАЛИРАМ"
 
 msgid "DESKTOP"
 msgstr "РАБОТНИЯ ПЛОТ"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Проверка на интернет връзката..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Актуализиране на списъка с интерфейси..."

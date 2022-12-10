@@ -43,8 +43,8 @@ msgstr "גרסה מיושנת"
 msgid "Aguarde..."
 msgstr "חכה..."
 
-msgid "Verificando conexão com a Internet..."
-msgstr "בדיקת החיבור לאינטרנט..."
+msgid "Atualizando o Instalador..."
+msgstr "עדכון תוכנית ההתקנה..."
 
 msgid "Sem conexão com a Internet..."
 msgstr "אין חיבור לאינטרנט..."
@@ -130,6 +130,9 @@ msgstr "התקין"
 
 msgid "DESKTOP"
 msgstr "שולחן עבודה"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "בדיקת החיבור לאינטרנט..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "עדכון רשימת הממשקים..."

@@ -43,8 +43,8 @@ msgstr "古いバージョン"
 msgid "Aguarde..."
 msgstr "待つ。。。"
 
-msgid "Verificando conexão com a Internet..."
-msgstr "インターネット接続を確認しています..."
+msgid "Atualizando o Instalador..."
+msgstr "インストーラを更新しています..."
 
 msgid "Sem conexão com a Internet..."
 msgstr "インターネットに接続されていません..."
@@ -130,6 +130,9 @@ msgstr "取り付ける"
 
 msgid "DESKTOP"
 msgstr "デスクトップ"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "インターネット接続を確認しています..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "インターフェイスのリストを更新しています..."

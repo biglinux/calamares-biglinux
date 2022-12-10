@@ -44,8 +44,8 @@ msgstr "Eski Sürüm"
 msgid "Aguarde..."
 msgstr "Bekleyin..."
 
-msgid "Verificando conexão com a Internet..."
-msgstr "İnternet bağlantısı kontrol ediliyor..."
+msgid "Atualizando o Instalador..."
+msgstr "Yükleyici Güncelleniyor..."
 
 msgid "Sem conexão com a Internet..."
 msgstr "İnternet bağlantısı yok..."
@@ -132,6 +132,9 @@ msgstr "YÜKLEMEK"
 
 msgid "DESKTOP"
 msgstr "MASAÜSTÜ"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "İnternet bağlantısı kontrol ediliyor..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Arayüz Listesi Güncelleniyor..."

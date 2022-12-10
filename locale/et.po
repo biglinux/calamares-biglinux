@@ -43,8 +43,8 @@ msgstr "Aegunud versioon"
 msgid "Aguarde..."
 msgstr "Pea kinni..."
 
-msgid "Verificando conexão com a Internet..."
-msgstr "Interneti-ühenduse kontrollimine ..."
+msgid "Atualizando o Instalador..."
+msgstr "Installeri värskendamine ..."
 
 msgid "Sem conexão com a Internet..."
 msgstr "Interneti-ühendus puudub ..."
@@ -131,6 +131,9 @@ msgstr "INSTALLIDA"
 
 msgid "DESKTOP"
 msgstr "TÖÖLAUA"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Interneti-ühenduse kontrollimine ..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Liideste loendi värskendamine ..."

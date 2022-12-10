@@ -43,8 +43,8 @@ msgstr "Utdatert versjon"
 msgid "Aguarde..."
 msgstr "Vent litt..."
 
-msgid "Verificando conexão com a Internet..."
-msgstr "Sjekke Internett-tilkobling..."
+msgid "Atualizando o Instalador..."
+msgstr "Oppdatere installasjonsprogrammet ..."
 
 msgid "Sem conexão com a Internet..."
 msgstr "Ingen Internett-tilkobling..."
@@ -130,6 +130,9 @@ msgstr "INSTALLERE"
 
 msgid "DESKTOP"
 msgstr "SKRIVEBORD"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Sjekke Internett-tilkobling..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Oppdaterer liste over grensesnitt ..."

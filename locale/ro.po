@@ -44,8 +44,8 @@ msgstr "Versiune învechită"
 msgid "Aguarde..."
 msgstr "Stai aşa..."
 
-msgid "Verificando conexão com a Internet..."
-msgstr "Verificarea conexiunii la Internet..."
+msgid "Atualizando o Instalador..."
+msgstr "Actualizarea programului de instalare ..."
 
 msgid "Sem conexão com a Internet..."
 msgstr "Fără conexiune la Internet..."
@@ -132,6 +132,9 @@ msgstr "INSTALA"
 
 msgid "DESKTOP"
 msgstr "DESKTOP"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Verificarea conexiunii la Internet..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Actualizarea listei de interfețe..."

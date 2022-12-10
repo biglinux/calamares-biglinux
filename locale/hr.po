@@ -43,8 +43,8 @@ msgstr "Zastarjela verzija"
 msgid "Aguarde..."
 msgstr "Sačekajte..."
 
-msgid "Verificando conexão com a Internet..."
-msgstr "Provjera internetske veze..."
+msgid "Atualizando o Instalador..."
+msgstr "Ažuriranje instalacijskog programa..."
 
 msgid "Sem conexão com a Internet..."
 msgstr "Nema internetske veze..."
@@ -131,6 +131,9 @@ msgstr "INSTALIRATI"
 
 msgid "DESKTOP"
 msgstr "RADNA POVRŠINA"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Provjera internetske veze..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Ažuriranje popisa sučelja..."

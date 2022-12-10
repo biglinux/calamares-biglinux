@@ -43,8 +43,8 @@ msgstr "Úrelt útgáfa"
 msgid "Aguarde..."
 msgstr "Bíddu..."
 
-msgid "Verificando conexão com a Internet..."
-msgstr "Athuga nettengingu..."
+msgid "Atualizando o Instalador..."
+msgstr "Uppfærir uppsetningarforritið ..."
 
 msgid "Sem conexão com a Internet..."
 msgstr "Engin nettenging..."
@@ -130,6 +130,9 @@ msgstr "EMBÆTTI"
 
 msgid "DESKTOP"
 msgstr "SKJÁBORÐ"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Athuga nettengingu..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Uppfærsla lista yfir tengi ..."

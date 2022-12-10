@@ -43,8 +43,8 @@ msgstr "Zastaraná verzia"
 msgid "Aguarde..."
 msgstr "Počkaj..."
 
-msgid "Verificando conexão com a Internet..."
-msgstr "Kontrola internetového pripojenia..."
+msgid "Atualizando o Instalador..."
+msgstr "Aktualizácia inštalátora..."
 
 msgid "Sem conexão com a Internet..."
 msgstr "Žiadne pripojenie na internet..."
@@ -131,6 +131,9 @@ msgstr "INŠTALOVAŤ"
 
 msgid "DESKTOP"
 msgstr "DESKTOP"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Kontrola internetového pripojenia..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Aktualizácia zoznamu rozhraní..."

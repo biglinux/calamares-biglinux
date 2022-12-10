@@ -43,8 +43,8 @@ msgstr "Verouderde versie"
 msgid "Aguarde..."
 msgstr "Wachten..."
 
-msgid "Verificando conexão com a Internet..."
-msgstr "Internetverbinding controleren..."
+msgid "Atualizando o Instalador..."
+msgstr "Het installatieprogramma bijwerken..."
 
 msgid "Sem conexão com a Internet..."
 msgstr "Geen internetverbinding..."
@@ -132,6 +132,9 @@ msgstr "INSTALLEREN"
 
 msgid "DESKTOP"
 msgstr "BUREAUBLAD"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Internetverbinding controleren..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Lijst met interfaces bijwerken..."

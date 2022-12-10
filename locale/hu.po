@@ -43,8 +43,8 @@ msgstr "Elavult verzió"
 msgid "Aguarde..."
 msgstr "Vár..."
 
-msgid "Verificando conexão com a Internet..."
-msgstr "Az internetkapcsolat ellenőrzése..."
+msgid "Atualizando o Instalador..."
+msgstr "A telepítő frissítése..."
 
 msgid "Sem conexão com a Internet..."
 msgstr "Nincs internetkapcsolat..."
@@ -130,6 +130,9 @@ msgstr "FELSZEREL"
 
 msgid "DESKTOP"
 msgstr "ASZTAL"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Az internetkapcsolat ellenőrzése..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Interfészek listájának frissítése..."

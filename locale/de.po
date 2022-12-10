@@ -44,8 +44,8 @@ msgstr "Veraltete Version"
 msgid "Aguarde..."
 msgstr "Abwarten..."
 
-msgid "Verificando conexão com a Internet..."
-msgstr "Internetverbindung wird überprüft..."
+msgid "Atualizando o Instalador..."
+msgstr "Das Installationsprogramm wird aktualisiert..."
 
 msgid "Sem conexão com a Internet..."
 msgstr "Keine Internetverbindung..."
@@ -133,6 +133,9 @@ msgstr "INSTALLIEREN"
 
 msgid "DESKTOP"
 msgstr "DESKTOP"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Internetverbindung wird überprüft..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Liste der Schnittstellen wird aktualisiert..."

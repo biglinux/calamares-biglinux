@@ -37,7 +37,7 @@ msgstr  ""
 msgid   "Aguarde..."
 msgstr  ""
 
-msgid   "Verificando conexão com a Internet..."
+msgid   "Atualizando o Instalador..."
 msgstr  ""
 
 msgid   "Sem conexão com a Internet..."
@@ -113,6 +113,9 @@ msgid   "INSTALAR"
 msgstr  ""
 
 msgid   "DESKTOP"
+msgstr  ""
+
+msgid   "Verificando conexão com a Internet..."
 msgstr  ""
 
 msgid   "Atualizando lista de Interfaces..."

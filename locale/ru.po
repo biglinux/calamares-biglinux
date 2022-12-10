@@ -43,8 +43,8 @@ msgstr "Устаревшая версия"
 msgid "Aguarde..."
 msgstr "Подождать..."
 
-msgid "Verificando conexão com a Internet..."
-msgstr "Проверка подключения к Интернету..."
+msgid "Atualizando o Instalador..."
+msgstr "Обновление установщика..."
 
 msgid "Sem conexão com a Internet..."
 msgstr "Нет подключения к Интернету..."
@@ -130,6 +130,9 @@ msgstr "УСТАНАВЛИВАТЬ"
 
 msgid "DESKTOP"
 msgstr "НАСТОЛЬНЫЙ"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Проверка подключения к Интернету..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Обновление списка интерфейсов..."

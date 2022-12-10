@@ -43,8 +43,8 @@ msgstr "Outdated Version"
 msgid "Aguarde..."
 msgstr "Hold on..."
 
-msgid "Verificando conexão com a Internet..."
-msgstr "Checking Internet connection..."
+msgid "Atualizando o Instalador..."
+msgstr "Updating the Installer..."
 
 msgid "Sem conexão com a Internet..."
 msgstr "No Internet connection..."
@@ -130,6 +130,9 @@ msgstr "INSTALL"
 
 msgid "DESKTOP"
 msgstr "DESKTOP"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Checking Internet connection..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Updating List of Interfaces..."

@@ -43,8 +43,8 @@ msgstr "过时版本"
 msgid "Aguarde..."
 msgstr "坚持。。。"
 
-msgid "Verificando conexão com a Internet..."
-msgstr "正在检查互联网连接..."
+msgid "Atualizando o Instalador..."
+msgstr "正在更新安装程序..."
 
 msgid "Sem conexão com a Internet..."
 msgstr "没有互联网连接..."
@@ -130,6 +130,9 @@ msgstr "安装"
 
 msgid "DESKTOP"
 msgstr "桌面"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "正在检查互联网连接..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "正在更新接口列表..."

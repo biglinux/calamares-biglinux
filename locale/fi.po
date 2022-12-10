@@ -43,8 +43,8 @@ msgstr "Vanhentunut versio"
 msgid "Aguarde..."
 msgstr "Odota..."
 
-msgid "Verificando conexão com a Internet..."
-msgstr "Internet-yhteyden tarkistaminen..."
+msgid "Atualizando o Instalador..."
+msgstr "Asennusohjelman päivittäminen..."
 
 msgid "Sem conexão com a Internet..."
 msgstr "Ei Internet-yhteyttä..."
@@ -130,6 +130,9 @@ msgstr "ASENTAA"
 
 msgid "DESKTOP"
 msgstr "TYÖPÖYTÄ"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Internet-yhteyden tarkistaminen..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Päivitetään rajapintojen luetteloa..."

@@ -43,8 +43,8 @@ msgstr "Nieaktualna wersja"
 msgid "Aguarde..."
 msgstr "Trzymaj się..."
 
-msgid "Verificando conexão com a Internet..."
-msgstr "Sprawdzanie połączenia internetowego..."
+msgid "Atualizando o Instalador..."
+msgstr "Aktualizacja instalatora..."
 
 msgid "Sem conexão com a Internet..."
 msgstr "Brak połączenia z Internetem..."
@@ -130,6 +130,9 @@ msgstr "INSTALOWAĆ"
 
 msgid "DESKTOP"
 msgstr "PULPIT"
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Sprawdzanie połączenia internetowego..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Aktualizacja listy interfejsów..."
