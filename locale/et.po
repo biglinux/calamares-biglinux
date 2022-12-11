@@ -40,15 +40,6 @@ msgstr " Sulgema"
 msgid "Versão Desatualizada"
 msgstr "Aegunud versioon"
 
-msgid "Aguarde..."
-msgstr "Pea kinni..."
-
-msgid "Atualizando o Instalador..."
-msgstr "Installeri värskendamine ..."
-
-msgid "Sem conexão com a Internet..."
-msgstr "Interneti-ühendus puudub ..."
-
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
 "            :LBL"
@@ -102,6 +93,21 @@ msgstr ""
 msgid "Instalar o BigLinux"
 msgstr "Installige BigLinux"
 
+msgid "Enviando, aguarde..."
+msgstr "Saatmine, ootamine..."
+
+msgid "Error"
+msgstr "Viga"
+
+msgid ""
+"\\n"
+"Deseja enviar o arquivo de log do erro para a nuvem?\\n"
+"e gerar um link para enviar no grupos de suporte.\\n"
+msgstr ""
+"\\n"
+"Kas soovite saata tõrkelogifaili pilve?\\n"
+"e looge link tugirühmadesse saatmiseks.\\n"
+
 msgid "Verificando o arquivo:"
 msgstr "Faili kontrollimine:"
 
@@ -132,8 +138,14 @@ msgstr "INSTALLIDA"
 msgid "DESKTOP"
 msgstr "TÖÖLAUA"
 
+msgid "Aguarde..."
+msgstr "Pea kinni..."
+
 msgid "Verificando conexão com a Internet..."
 msgstr "Interneti-ühenduse kontrollimine ..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Interneti-ühendus puudub ..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Liideste loendi värskendamine ..."

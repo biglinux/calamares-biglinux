@@ -40,15 +40,6 @@ msgstr " Затварям"
 msgid "Versão Desatualizada"
 msgstr "Остаряла версия"
 
-msgid "Aguarde..."
-msgstr "Чакам..."
-
-msgid "Atualizando o Instalador..."
-msgstr "Актуализиране на инсталатора..."
-
-msgid "Sem conexão com a Internet..."
-msgstr "Няма интернет връзка..."
-
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
 "            :LBL"
@@ -101,6 +92,21 @@ msgstr ""
 msgid "Instalar o BigLinux"
 msgstr "Инсталиране на BigLinux"
 
+msgid "Enviando, aguarde..."
+msgstr "Изпращане, изчакайте..."
+
+msgid "Error"
+msgstr "Грешка"
+
+msgid ""
+"\\n"
+"Deseja enviar o arquivo de log do erro para a nuvem?\\n"
+"e gerar um link para enviar no grupos de suporte.\\n"
+msgstr ""
+"\\n"
+"Искате ли да изпратите регистрационния файл за грешки в облака?\\n"
+"e генерира връзка за изпращане в групи за поддръжка.\\n"
+
 msgid "Verificando o arquivo:"
 msgstr "Проверка на файла:"
 
@@ -131,8 +137,14 @@ msgstr "ИНСТАЛИРАМ"
 msgid "DESKTOP"
 msgstr "РАБОТНИЯ ПЛОТ"
 
+msgid "Aguarde..."
+msgstr "Чакам..."
+
 msgid "Verificando conexão com a Internet..."
 msgstr "Проверка на интернет връзката..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Няма интернет връзка..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Актуализиране на списъка с интерфейси..."

@@ -40,15 +40,6 @@ msgstr " Cerrar"
 msgid "Versão Desatualizada"
 msgstr "Versión obsoleta"
 
-msgid "Aguarde..."
-msgstr "Espera..."
-
-msgid "Atualizando o Instalador..."
-msgstr "Actualizando el instalador..."
-
-msgid "Sem conexão com a Internet..."
-msgstr "Sin conexión a Internet..."
-
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
 "            :LBL"
@@ -103,6 +94,21 @@ msgstr ""
 msgid "Instalar o BigLinux"
 msgstr "Instalar BigLinux"
 
+msgid "Enviando, aguarde..."
+msgstr "Enviando, espera..."
+
+msgid "Error"
+msgstr "Error"
+
+msgid ""
+"\\n"
+"Deseja enviar o arquivo de log do erro para a nuvem?\\n"
+"e gerar um link para enviar no grupos de suporte.\\n"
+msgstr ""
+"\\n"
+"¿Desea enviar el archivo de registro de errores a la nube?\\n"
+"e genere un vínculo para enviar a los grupos de apoyo.\\n"
+
 msgid "Verificando o arquivo:"
 msgstr "Comprobación del archivo:"
 
@@ -133,8 +139,14 @@ msgstr "INSTALAR"
 msgid "DESKTOP"
 msgstr "ESCRITORIO"
 
+msgid "Aguarde..."
+msgstr "Espera..."
+
 msgid "Verificando conexão com a Internet..."
 msgstr "Comprobando la conexión a Internet..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Sin conexión a Internet..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Actualizando lista de interfaces..."

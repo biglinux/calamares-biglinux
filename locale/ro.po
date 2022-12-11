@@ -41,15 +41,6 @@ msgstr " Închide"
 msgid "Versão Desatualizada"
 msgstr "Versiune învechită"
 
-msgid "Aguarde..."
-msgstr "Stai aşa..."
-
-msgid "Atualizando o Instalador..."
-msgstr "Actualizarea programului de instalare ..."
-
-msgid "Sem conexão com a Internet..."
-msgstr "Fără conexiune la Internet..."
-
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
 "            :LBL"
@@ -103,6 +94,21 @@ msgstr ""
 msgid "Instalar o BigLinux"
 msgstr "Instalați BigLinux"
 
+msgid "Enviando, aguarde..."
+msgstr "Trimiterea, așteptați..."
+
+msgid "Error"
+msgstr "Eroare"
+
+msgid ""
+"\\n"
+"Deseja enviar o arquivo de log do erro para a nuvem?\\n"
+"e gerar um link para enviar no grupos de suporte.\\n"
+msgstr ""
+"\\n"
+"Do doriți să trimiteți fișierul jurnal de erori în cloud?\\n"
+"e genera un link pentru a trimite în grupuri de asistență.\\n"
+
 msgid "Verificando o arquivo:"
 msgstr "Verificarea fișierului:"
 
@@ -133,8 +139,14 @@ msgstr "INSTALA"
 msgid "DESKTOP"
 msgstr "DESKTOP"
 
+msgid "Aguarde..."
+msgstr "Stai aşa..."
+
 msgid "Verificando conexão com a Internet..."
 msgstr "Verificarea conexiunii la Internet..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Fără conexiune la Internet..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Actualizarea listei de interfețe..."

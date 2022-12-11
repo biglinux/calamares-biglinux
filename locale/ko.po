@@ -40,15 +40,6 @@ msgstr " 닫다"
 msgid "Versão Desatualizada"
 msgstr "오래된 버전"
 
-msgid "Aguarde..."
-msgstr "잠시 기다리다..."
-
-msgid "Atualizando o Instalador..."
-msgstr "설치 프로그램 업데이트 중..."
-
-msgid "Sem conexão com a Internet..."
-msgstr "인터넷에 연결되어 있지 않습니다..."
-
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
 "            :LBL"
@@ -101,6 +92,21 @@ msgstr ""
 msgid "Instalar o BigLinux"
 msgstr "빅리눅스 설치"
 
+msgid "Enviando, aguarde..."
+msgstr "보내는 중, 잠깐만요..."
+
+msgid "Error"
+msgstr "오류"
+
+msgid ""
+"\\n"
+"Deseja enviar o arquivo de log do erro para a nuvem?\\n"
+"e gerar um link para enviar no grupos de suporte.\\n"
+msgstr ""
+"\\n"
+"오류 로그 파일을 클라우드로 보내시겠습니까?\\n"
+"e 지원 그룹으로 보낼 링크를 생성하십시오.\\n"
+
 msgid "Verificando o arquivo:"
 msgstr "파일 검사:"
 
@@ -131,8 +137,14 @@ msgstr "설치하다"
 msgid "DESKTOP"
 msgstr "바탕 화면"
 
+msgid "Aguarde..."
+msgstr "잠시 기다리다..."
+
 msgid "Verificando conexão com a Internet..."
 msgstr "인터넷 연결 확인 중..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "인터넷에 연결되어 있지 않습니다..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "인터페이스 목록 업데이트 중..."

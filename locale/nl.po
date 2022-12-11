@@ -40,15 +40,6 @@ msgstr " Sluiten"
 msgid "Versão Desatualizada"
 msgstr "Verouderde versie"
 
-msgid "Aguarde..."
-msgstr "Wachten..."
-
-msgid "Atualizando o Instalador..."
-msgstr "Het installatieprogramma bijwerken..."
-
-msgid "Sem conexão com a Internet..."
-msgstr "Geen internetverbinding..."
-
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
 "            :LBL"
@@ -103,6 +94,21 @@ msgstr ""
 msgid "Instalar o BigLinux"
 msgstr "Installeer BigLinux"
 
+msgid "Enviando, aguarde..."
+msgstr "Verzenden, wachten..."
+
+msgid "Error"
+msgstr "Fout"
+
+msgid ""
+"\\n"
+"Deseja enviar o arquivo de log do erro para a nuvem?\\n"
+"e gerar um link para enviar no grupos de suporte.\\n"
+msgstr ""
+"\\n"
+"Wilt u het foutlogboekbestand naar de cloud verzenden?\\n"
+"e genereer een koppeling om ondersteuningsgroepen te verzenden.\\n"
+
 msgid "Verificando o arquivo:"
 msgstr "Het bestand controleren:"
 
@@ -133,8 +139,14 @@ msgstr "INSTALLEREN"
 msgid "DESKTOP"
 msgstr "BUREAUBLAD"
 
+msgid "Aguarde..."
+msgstr "Wachten..."
+
 msgid "Verificando conexão com a Internet..."
 msgstr "Internetverbinding controleren..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Geen internetverbinding..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Lijst met interfaces bijwerken..."

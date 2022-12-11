@@ -41,15 +41,6 @@ msgstr " Κλείνω"
 msgid "Versão Desatualizada"
 msgstr "Ξεπερασμένη έκδοση"
 
-msgid "Aguarde..."
-msgstr "Περιμένω..."
-
-msgid "Atualizando o Instalador..."
-msgstr "Ενημέρωση του προγράμματος εγκατάστασης..."
-
-msgid "Sem conexão com a Internet..."
-msgstr "Δεν υπάρχει σύνδεση στο Διαδίκτυο..."
-
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
 "            :LBL"
@@ -104,6 +95,21 @@ msgstr ""
 msgid "Instalar o BigLinux"
 msgstr "Εγκαταστήστε το Μεγάλο Λινού"
 
+msgid "Enviando, aguarde..."
+msgstr "Αποστολή, περιμένετε..."
+
+msgid "Error"
+msgstr "Λάθος"
+
+msgid ""
+"\\n"
+"Deseja enviar o arquivo de log do erro para a nuvem?\\n"
+"e gerar um link para enviar no grupos de suporte.\\n"
+msgstr ""
+"\\n"
+"Θέλετε να στείλετε το αρχείο καταγραφής σφαλμάτων στο cloud;\\n"
+"e δημιουργήστε μια σύνδεση για αποστολή σε ομάδες υποστήριξης.\\n"
+
 msgid "Verificando o arquivo:"
 msgstr "Έλεγχος του αρχείου:"
 
@@ -134,8 +140,14 @@ msgstr "ΕΓΚΑΘΙΣΤΏ"
 msgid "DESKTOP"
 msgstr "ΕΠΙΦΆΝΕΙΑ ΕΡΓΑΣΊΑΣ"
 
+msgid "Aguarde..."
+msgstr "Περιμένω..."
+
 msgid "Verificando conexão com a Internet..."
 msgstr "Έλεγχος σύνδεσης στο Διαδίκτυο..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Δεν υπάρχει σύνδεση στο Διαδίκτυο..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Ενημέρωση λίστας διεπαφών..."

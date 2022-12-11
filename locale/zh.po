@@ -40,15 +40,6 @@ msgstr " 关闭"
 msgid "Versão Desatualizada"
 msgstr "过时版本"
 
-msgid "Aguarde..."
-msgstr "坚持。。。"
-
-msgid "Atualizando o Instalador..."
-msgstr "正在更新安装程序..."
-
-msgid "Sem conexão com a Internet..."
-msgstr "没有互联网连接..."
-
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
 "            :LBL"
@@ -101,6 +92,21 @@ msgstr ""
 msgid "Instalar o BigLinux"
 msgstr "安装 BigLinux"
 
+msgid "Enviando, aguarde..."
+msgstr "发送，等待..."
+
+msgid "Error"
+msgstr "错误"
+
+msgid ""
+"\\n"
+"Deseja enviar o arquivo de log do erro para a nuvem?\\n"
+"e gerar um link para enviar no grupos de suporte.\\n"
+msgstr ""
+"\\n"
+"是否要将错误日志文件发送到云？\\n"
+"e 生成一个链接以在支持组中发送。\\n"
+
 msgid "Verificando o arquivo:"
 msgstr "检查文件："
 
@@ -131,8 +137,14 @@ msgstr "安装"
 msgid "DESKTOP"
 msgstr "桌面"
 
+msgid "Aguarde..."
+msgstr "坚持。。。"
+
 msgid "Verificando conexão com a Internet..."
 msgstr "正在检查互联网连接..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "没有互联网连接..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "正在更新接口列表..."

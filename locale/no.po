@@ -40,15 +40,6 @@ msgstr " Lukke"
 msgid "Versão Desatualizada"
 msgstr "Utdatert versjon"
 
-msgid "Aguarde..."
-msgstr "Vent litt..."
-
-msgid "Atualizando o Instalador..."
-msgstr "Oppdatere installasjonsprogrammet ..."
-
-msgid "Sem conexão com a Internet..."
-msgstr "Ingen Internett-tilkobling..."
-
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
 "            :LBL"
@@ -101,6 +92,21 @@ msgstr ""
 msgid "Instalar o BigLinux"
 msgstr "Installere BigLinux"
 
+msgid "Enviando, aguarde..."
+msgstr "Sende, vent..."
+
+msgid "Error"
+msgstr "Feil"
+
+msgid ""
+"\\n"
+"Deseja enviar o arquivo de log do erro para a nuvem?\\n"
+"e gerar um link para enviar no grupos de suporte.\\n"
+msgstr ""
+"\\n"
+"Vil du sende feilloggfilen til skyen?\\n"
+"e generere en kobling for å sende inn støttegrupper.\\n"
+
 msgid "Verificando o arquivo:"
 msgstr "Kontrollerer filen:"
 
@@ -131,8 +137,14 @@ msgstr "INSTALLERE"
 msgid "DESKTOP"
 msgstr "SKRIVEBORD"
 
+msgid "Aguarde..."
+msgstr "Vent litt..."
+
 msgid "Verificando conexão com a Internet..."
 msgstr "Sjekke Internett-tilkobling..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Ingen Internett-tilkobling..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Oppdaterer liste over grensesnitt ..."

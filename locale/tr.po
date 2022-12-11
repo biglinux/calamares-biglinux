@@ -41,15 +41,6 @@ msgstr " Kapatmak"
 msgid "Versão Desatualizada"
 msgstr "Eski Sürüm"
 
-msgid "Aguarde..."
-msgstr "Bekleyin..."
-
-msgid "Atualizando o Instalador..."
-msgstr "Yükleyici Güncelleniyor..."
-
-msgid "Sem conexão com a Internet..."
-msgstr "İnternet bağlantısı yok..."
-
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
 "            :LBL"
@@ -103,6 +94,21 @@ msgstr ""
 msgid "Instalar o BigLinux"
 msgstr "BigLinux'u yükleyin"
 
+msgid "Enviando, aguarde..."
+msgstr "Gönderiliyor, bekleyin..."
+
+msgid "Error"
+msgstr "Hata"
+
+msgid ""
+"\\n"
+"Deseja enviar o arquivo de log do erro para a nuvem?\\n"
+"e gerar um link para enviar no grupos de suporte.\\n"
+msgstr ""
+"\\n"
+"Hata günlüğü dosyasını buluta göndermek istiyor musunuz?\\n"
+"e Destek gruplarına göndermek için bir bağlantı oluşturun.\\n"
+
 msgid "Verificando o arquivo:"
 msgstr "Dosyayı kontrol etme:"
 
@@ -133,8 +139,14 @@ msgstr "YÜKLEMEK"
 msgid "DESKTOP"
 msgstr "MASAÜSTÜ"
 
+msgid "Aguarde..."
+msgstr "Bekleyin..."
+
 msgid "Verificando conexão com a Internet..."
 msgstr "İnternet bağlantısı kontrol ediliyor..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "İnternet bağlantısı yok..."
 
 msgid "Atualizando lista de Interfaces..."
 msgstr "Arayüz Listesi Güncelleniyor..."
