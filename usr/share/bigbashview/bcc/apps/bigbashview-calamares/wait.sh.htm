@@ -70,10 +70,8 @@ operations:' > /etc/calamares/modules/packages.conf
         echo ' - remove:' >> /etc/calamares/modules/packages.conf
 
 #         echo '   - --cascade' >> /etc/calamares/modules/packages.conf
-          sed -i '/pacman/s/-Rs/-Rcns/' /lib/calamares/modules/chrootcfg/main.py
-          sed -i '/pacman/s/-Rs/-Rcns/' /lib/calamares/modules/packages/main.py
-          sed -i '/num_retries/s/0/5/' /usr/share/calamares/modules/packages.conf
-          sed -i '/disable_download_timeout/s/false/true/' /usr/share/calamares/modules/packages.conf
+        sed -i '/pacman/s/-Rs/-Rcns/' /lib/calamares/modules/chrootcfg/main.py
+        sed -i '/pacman/s/-Rs/-Rcns/' /lib/calamares/modules/packages/main.py
           
         for package  in $remove_packages; do
             echo "   - $package" >> /etc/calamares/modules/packages.conf
@@ -85,6 +83,8 @@ operations:' > /etc/calamares/modules/packages.conf
         for package  in $install_packages; do
             echo "   - $package" >> /etc/calamares/modules/packages.conf
         done
+        sed -i '/num_retries/s/0/5/' /usr/share/calamares/modules/packages.conf
+        sed -i '/disable_download_timeout/s/false/true/' /usr/share/calamares/modules/packages.conf
     fi
 fi
 
