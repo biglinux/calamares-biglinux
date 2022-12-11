@@ -41,23 +41,6 @@ ruscherrelease=$(cat /etc/big-release | grep RELEASE | awk -F'=' '{print $2}')
 ruschertimestamp=$(cat /etc/big-release | grep TIMESTAMP | awk -F'=' '{print $2}')
 if [ "$(echo $ruscherrelease | wc -m)" -gt "11" ]; then
     #if  [ "$(echo $(( $(date +%s) / 86400 )))" -gt "$(( $ruschertimestamp + 7 ))" ]; then
-        echo "verificando validade da ISO"
-        windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
-        sleep 600 | zenity --attach="$windowID" --width=300 --progress --title=$"Aguarde..." --pulsate --no-cancel --auto-close --text $"Atualizando o Instalador..." &       
-        #esperar terminar de gerar as chaves
-        while [ -n "$(top -b -d1 n1 | grep gpg$)" ]; do
-            sleep 0.5
-        done
-        sudo pacman -Sy calamares-biglinux --noconfirm --needed
-        if [ "$?" = "1" ];then
-            zenity --error --width=300 --title="Internet" --text $"Sem conexão com a Internet..."
-            sudo killall python3
-            killall zenity
-            exit 1
-        else
-            killall zenity
-        fi
-        
         if [ -z "$(curl -s https://raw.githubusercontent.com/BigLinux-Package-Build/big-releases/main/testing | grep $ruscherrelease | grep -v "#")" ]; then
             echo "ISO invalida"
             yad --attach="$windowID" --image=emblem-warning --image-on-top --form --width=500 --height=100 --fixed \
@@ -346,3 +329,29 @@ QT_QUICK_BACKEND=software QMLSCENE_DEVICE=softwarecontext QTWEBENGINE_CHROMIUM_F
 if [ -e "/tmp/start_calamares" ]; then
     sudo QT_QUICK_BACKEND=software QSG_RENDER_LOOP=basic QT_XCB_GL_INTEGRATION=none /usr/bin/calamares-manjaro -d --platformtheme breeze
 fi
+
+#se o calamares de erro na instalação
+# if [ "$?" != "0" ];then
+    #copiar log do calamares para home
+    cp /root/.cache/calamares/session.log /home/biglinux/calamares.log
+    chown biglinux:biglinux /home/biglinux/calamares.log
+    
+    send () {
+    sudo -u biglinux curl --upload-file "/home/biglinux/calamares.log" https://transfer.sh | tee "/home/biglinux/transfer.url"  | zenity --modal --progress --pulsate --no-cancel --auto-close --text $"Enviando, aguarde..."
+    sudo -u biglinux  brave-browser --new-window --no-sandbox $(cat "/home/biglinux/transfer.url")
+    } 
+
+    yad --buttons-layout=center \
+        --width=400 \
+        --button="Abrir":1 \
+        --button="Enviar para a nuvem":2 \
+        --button="Fechar":3 \
+        --title=$"Error" \
+        --text=$"\nDeseja enviar o arquivo de log do erro para a nuvem?\ne gerar um link para enviar no grupos de suporte.\n"
+
+    case $? in
+        1) sudo -u biglinux kate /home/biglinux/calamares.log;;
+        2) send;;
+        3) echo "Fechando arquivo..." ;;
+    esac
+# fi
