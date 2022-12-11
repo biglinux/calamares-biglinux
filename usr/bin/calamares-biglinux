@@ -330,8 +330,8 @@ if [ -e "/tmp/start_calamares" ]; then
     sudo QT_QUICK_BACKEND=software QSG_RENDER_LOOP=basic QT_XCB_GL_INTEGRATION=none /usr/bin/calamares-manjaro -d --platformtheme breeze
 fi
 
-#se o calamares de erro na instalação
-# if [ "$?" != "0" ];then
+ruscherrelease=$(cat /etc/big-release | grep RELEASE | awk -F'=' '{print $2}')
+if [ "$(echo $ruscherrelease | wc -m)" -gt "11" ]; then
     #copiar log do calamares para home
     cp /root/.cache/calamares/session.log /home/biglinux/calamares.log
     chown biglinux:biglinux /home/biglinux/calamares.log
@@ -342,16 +342,16 @@ fi
     } 
 
     yad --buttons-layout=center \
-        --width=400 \
+        --width=480 \
         --button="Abrir":1 \
         --button="Enviar para a nuvem":2 \
         --button="Fechar":3 \
-        --title=$"Error" \
-        --text=$"\nDeseja enviar o arquivo de log do erro para a nuvem?\ne gerar um link para enviar no grupos de suporte.\n"
+        --title=$"calamares LOG" \
+        --text=$"\nDeseja visualizar ou enviar o arquivo de log da instalação para a nuvem?\ngerar um link para enviar no grupos de suporte.\n"
 
     case $? in
         1) sudo -u biglinux kate /home/biglinux/calamares.log;;
         2) send;;
         3) echo "Fechando arquivo..." ;;
     esac
-# fi
+fi
