@@ -78,11 +78,11 @@ msgstr  ""
 msgid   "Enviando, aguarde..."
 msgstr  ""
 
-msgid   "Error"
+msgid   "calamares LOG"
 msgstr  ""
 
-msgid   "\\nDeseja enviar o arquivo de log do erro para a nuvem?\\ne gerar um "
-        "link para enviar no grupos de suporte.\\n"
+msgid   "\\nDeseja visualizar ou enviar o arquivo de log da instalação para a "
+        "nuvem?\\ngerar um link para enviar no grupos de suporte.\\n"
 msgstr  ""
 
 msgid   "Verificando o arquivo:"
