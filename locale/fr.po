@@ -16,6 +16,201 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "ESCOLHA O DESKTOP"
+msgstr "CHOISISSEZ LE BUREAU"
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "RETOUR ET UTILISATION DE L’INSTALLATION STANDARD"
+
+msgid "INSTALAR"
+msgstr "INSTALLER"
+
+msgid "DESKTOP"
+msgstr "BUREAU"
+
+msgid "Aguarde..."
+msgstr "Attendez..."
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Vérification de la connexion Internet..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Pas de connexion Internet..."
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Mise à jour de la liste des interfaces..."
+
+msgid "O sistema está em modo"
+msgstr "Le système est en"
+
+msgid "e com o kernel"
+msgstr "et avec le noyau"
+
+msgid "Apagando /dev/sda"
+msgstr "Effacement de /dev/sda"
+
+msgid "PADRÃO"
+msgstr "MODÈLE"
+
+msgid "DESEMPENHO"
+msgstr "PERFORMANCE"
+
+msgid "COMPATIBILIDADE"
+msgstr "COMPATIBILITÉ"
+
+msgid "Compacta os dados"
+msgstr "Compacte les données"
+
+msgid "Pontos de restauração"
+msgstr "Points de restauration"
+
+msgid "Adia a gravação dos dados"
+msgstr "Interdire l’enregistrement des données"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Fonctionne avec les anciennes tables de partitionnement"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS avec fsync"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS sans fsync"
+
+msgid "SELECIONAR"
+msgstr "CHOISIR"
+
+msgid "Instalar no HD"
+msgstr "Installer sur HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* N’utilisez pas /boot séparément"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Impossible d’installer.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Impossible de supprimer.</b></font><br><br>"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Impossible de trouver le Gestionnaire de connexion</b></font><br><br>"
+
+msgid "VOLTAR"
+msgstr "REVIENS"
+
+msgid "AVANÇAR"
+msgstr "AVANCE"
+
+msgid "ERRO!"
+msgstr "ERREUR!"
+
+msgid "SUCESSO!"
+msgstr "SUCCÈS!"
+
+msgid "PERSONALIZADA"
+msgstr "COUTUME"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "CONFIRMEZ ET PROCÉDEZ À L’INSTALLATION"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "INSTALLER AVEC MOINS DE PROGRAMMES OU UTILISER UN AUTRE BUREAU?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Pour installer un autre bureau devra télécharger pendant l’installation, le temps d’installation "
+"dépendra de la vitesse de l’Internet."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "VOUS VOULEZ VRAIMENT INSTALLER UN AUTRE BUREAU?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux a été conçu et testé sur son installation standard, d’autres bureaux sont maintenus par "
+"des utilisateurs de la communauté BigLinux et ont moins de personnalisations et de tests, vous "
+"voulez vraiment continuer?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "MOINS DE PROGRAMMES"
+
+msgid "OUTROS DESKTOPS"
+msgstr "AUTRES ORDINATEURS de bureau"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "UTILISEZ RÉELLEMENT UN AUTRE BUREAU"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"En cas de doute, effectuez l’installation standard, les options personnalisées ne doivent être "
+"utilisées que par des utilisateurs expérimentés."
+
+msgid "Personalizar a instalação:"
+msgstr "Personnaliser l’installation :"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "INSTALLATION STANDARD OU PERSONNALISÉE ?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Les bureaux suivants sont maintenus par les utilisateurs de la communauté BigLinux et ont moins de "
+"personnalisations et de tests, voulez-vous vraiment continuer?"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Est-ce que vous me défiez?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Je vous l’ai dit, cette version est dépassée.            "
+
+msgid " OK"
+msgstr " D’ACCORD"
+
+msgid "Versão Desatualizada"
+msgstr "Version obsolète"
+
+msgid "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
+msgstr "QUELS PAQUETS NE VOULEZ-VOUS PAS DANS LE SYSTÈME?"
+
+msgid "SELECIONAR TODOS"
+msgstr "TOUT SÉLECTIONNER"
+
+msgid "DESMARCAR TODOS"
+msgstr "Décochez TOUT"
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Vérifier les colis, attendre..."
+
+msgid "Verificando o arquivo:"
+msgstr "Vérification du fichier :"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "En vérifiant les erreurs dans le téléchargement ou la clé USB, cela peut prendre quelques minutes..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Vérification de l’intégrité du système"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Erreur trouvée, téléchargez à nouveau le système ou utilisez une autre clé USB."
+
+msgid "Os arquivos estão integros."
+msgstr "Les fichiers sont intégrés."
+
+msgid "Verificação cancelada."
+msgstr "Cochez annulé."
+
 msgid ""
 "<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
 "    :LBL"
@@ -38,18 +233,12 @@ msgstr " Allez"
 msgid " Fechar"
 msgstr " Fermer"
 
-msgid "Versão Desatualizada"
-msgstr "Version obsolète"
-
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
 "            :LBL"
 msgstr ""
 "<b>Cette version de développement est obsolète et ne peut plus être utilisée.</b>\n"
 "            :LBL"
-
-msgid " OK"
-msgstr " D’ACCORD"
 
 msgid "Deseja prosseguir com com a instalação em modo EFI?"
 msgstr "Voulez-vous procéder à l’installation en mode EFI?"
@@ -108,192 +297,3 @@ msgstr ""
 "\\n"
 "Voulez-vous afficher ou envoyer le fichier journal d’installation dans le cloud ?\\n"
 "générer un lien pour envoyer des groupes de support.\\n"
-
-msgid "Verificando o arquivo:"
-msgstr "Vérification du fichier :"
-
-msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
-msgstr "En vérifiant les erreurs dans le téléchargement ou la clé USB, cela peut prendre quelques minutes..."
-
-msgid "Verificando integridade do sistema"
-msgstr "Vérification de l’intégrité du système"
-
-msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
-msgstr "Erreur trouvée, téléchargez à nouveau le système ou utilisez une autre clé USB."
-
-msgid "Os arquivos estão integros."
-msgstr "Les fichiers sont intégrés."
-
-msgid "Verificação cancelada."
-msgstr "Cochez annulé."
-
-msgid "ESCOLHA O DESKTOP"
-msgstr "CHOISISSEZ LE BUREAU"
-
-msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
-msgstr "RETOUR ET UTILISATION DE L’INSTALLATION STANDARD"
-
-msgid "INSTALAR"
-msgstr "INSTALLER"
-
-msgid "DESKTOP"
-msgstr "BUREAU"
-
-msgid "Aguarde..."
-msgstr "Attendez..."
-
-msgid "Verificando conexão com a Internet..."
-msgstr "Vérification de la connexion Internet..."
-
-msgid "Sem conexão com a Internet..."
-msgstr "Pas de connexion Internet..."
-
-msgid "Atualizando lista de Interfaces..."
-msgstr "Mise à jour de la liste des interfaces..."
-
-msgid "O sistema está em modo"
-msgstr "Le système est en"
-
-msgid "e com o kernel"
-msgstr "et avec le noyau"
-
-msgid "Apagando /dev/sda"
-msgstr "Effacement de /dev/sda"
-
-msgid "PADRÃO"
-msgstr "MODÈLE"
-
-msgid "PERSONALIZADA"
-msgstr "COUTUME"
-
-msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
-msgstr "INSTALLATION STANDARD OU PERSONNALISÉE ?"
-
-msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-msgstr "INSTALLER AVEC MOINS DE PROGRAMMES OU UTILISER UN AUTRE BUREAU?"
-
-msgid ""
-"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
-"instalação vai depender da velocidade da internet."
-msgstr ""
-"Pour installer un autre bureau devra télécharger pendant l’installation, le temps d’installation "
-"dépendra de la vitesse de l’Internet."
-
-msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-msgstr "VOUS VOULEZ VRAIMENT INSTALLER UN AUTRE BUREAU?"
-
-msgid ""
-"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
-"personalizações e testes, deseja realmente prosseguir?"
-msgstr ""
-"Les bureaux suivants sont maintenus par les utilisateurs de la communauté BigLinux et ont moins de "
-"personnalisations et de tests, voulez-vous vraiment continuer?"
-
-msgid "MENOS PROGRAMAS"
-msgstr "MOINS DE PROGRAMMES"
-
-msgid "OUTROS DESKTOPS"
-msgstr "AUTRES ORDINATEURS de bureau"
-
-msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
-msgstr "UTILISEZ RÉELLEMENT UN AUTRE BUREAU"
-
-msgid ""
-"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
-"usuários experientes."
-msgstr ""
-"En cas de doute, effectuez l’installation standard, les options personnalisées ne doivent être "
-"utilisées que par des utilisateurs expérimentés."
-
-msgid "SELECIONAR"
-msgstr "CHOISIR"
-
-msgid ""
-"<b>você está me desafiando?</b>\n"
-"            :LBL"
-msgstr ""
-"<b>Est-ce que vous me défiez?</b>\n"
-"            :LBL"
-
-msgid ""
-"Já falei que essa versão está desatualizada.\n"
-"            "
-msgstr "Je vous l’ai dit, cette version est dépassée.            "
-
-msgid "DESEMPENHO"
-msgstr "PERFORMANCE"
-
-msgid "COMPATIBILIDADE"
-msgstr "COMPATIBILITÉ"
-
-msgid "Compacta os dados"
-msgstr "Compacte les données"
-
-msgid "Pontos de restauração"
-msgstr "Points de restauration"
-
-msgid "Adia a gravação dos dados"
-msgstr "Interdire l’enregistrement des données"
-
-msgid "Funciona com tabelas de particionamento antigas"
-msgstr "Fonctionne avec les anciennes tables de partitionnement"
-
-msgid "BTRFS com fsync"
-msgstr "BTRFS avec fsync"
-
-msgid "BTRFS sem fsync"
-msgstr "BTRFS sans fsync"
-
-msgid "Instalar no HD"
-msgstr "Installer sur HD"
-
-msgid "* Não utilize /boot separado"
-msgstr "* N’utilisez pas /boot séparément"
-
-msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
-msgstr "QUELS PAQUETS NE VOULEZ-VOUS PAS DANS LE SYSTÈME?"
-
-msgid ""
-"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
-"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
-"prosseguir?"
-msgstr ""
-"BigLinux a été conçu et testé sur son installation standard, d’autres bureaux sont maintenus par "
-"des utilisateurs de la communauté BigLinux et ont moins de personnalisations et de tests, vous "
-"voulez vraiment continuer?"
-
-msgid "Selecionar todos"
-msgstr "Sélectionner tout"
-
-msgid "Desmarcar todos"
-msgstr "Décochez tout"
-
-msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
-msgstr "CONFIRMEZ ET PROCÉDEZ À L’INSTALLATION"
-
-msgid "Verificando pacotes, aguarde..."
-msgstr "Vérifier les colis, attendre..."
-
-msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
-msgstr "<font color='red'><b>Impossible d’installer.</b></font><br><br> "
-
-msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
-msgstr "<font color='red'><b>Impossible de supprimer.</b></font><br><br>"
-
-msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
-msgstr "<font color='red'><b>Impossible de trouver le Gestionnaire de connexion</b></font><br><br>"
-
-msgid "VOLTAR"
-msgstr "REVIENS"
-
-msgid "AVANÇAR"
-msgstr "AVANCE"
-
-msgid "ERRO!"
-msgstr "ERREUR!"
-
-msgid "SUCESSO!"
-msgstr "SUCCÈS!"
-
-msgid "Personalizar a instalação:"
-msgstr "Personnaliser l’installation :"

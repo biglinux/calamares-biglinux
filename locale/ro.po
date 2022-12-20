@@ -16,6 +16,201 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "ESCOLHA O DESKTOP"
+msgstr "ALEGEȚI DESKTOP"
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "ÎNAPOI ȘI UTILIZAȚI INSTALAREA STANDARD"
+
+msgid "INSTALAR"
+msgstr "INSTALA"
+
+msgid "DESKTOP"
+msgstr "DESKTOP"
+
+msgid "Aguarde..."
+msgstr "Stai aşa..."
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Verificarea conexiunii la Internet..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Fără conexiune la Internet..."
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Actualizarea listei de interfețe..."
+
+msgid "O sistema está em modo"
+msgstr "Sistemul este în"
+
+msgid "e com o kernel"
+msgstr "și cu kernel-ul"
+
+msgid "Apagando /dev/sda"
+msgstr "Ștergerea / dev / sda"
+
+msgid "PADRÃO"
+msgstr "MODEL"
+
+msgid "DESEMPENHO"
+msgstr "PERFORMANȚĂ"
+
+msgid "COMPATIBILIDADE"
+msgstr "COMPATIBILITATE"
+
+msgid "Compacta os dados"
+msgstr "Compactează datele"
+
+msgid "Pontos de restauração"
+msgstr "Restaurarea punctelor"
+
+msgid "Adia a gravação dos dados"
+msgstr "Înregistrarea datelor Desist"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Funcționează cu tabele de partiționare vechi"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS cu fsync"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS fără fsync"
+
+msgid "SELECIONAR"
+msgstr "ALEGE"
+
+msgid "Instalar no HD"
+msgstr "Instalați pe HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Nu utilizați / boot separat"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Nu se poate instala.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Nu se poate elimina.</b></font><br><br>"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Nu pot găsi Login Manager</b></font><br><br>"
+
+msgid "VOLTAR"
+msgstr "ÎNTOARCE-TE"
+
+msgid "AVANÇAR"
+msgstr "AVANS"
+
+msgid "ERRO!"
+msgstr "EROARE!"
+
+msgid "SUCESSO!"
+msgstr "SUCCES!"
+
+msgid "PERSONALIZADA"
+msgstr "OBICEI"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "CONFIRMAȚI ȘI CONTINUAȚI CU INSTALAREA"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "INSTALAȚI CU MAI PUȚINE PROGRAME SAU UTILIZAȚI UN ALT DESKTOP?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Pentru a instala un alt desktop va trebui să descărcați în timpul instalării, timpul de instalare "
+"va depinde de viteza internetului."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "CHIAR VREI SĂ INSTALEZI UN ALT DESKTOP?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux a fost proiectat și testat pe instalarea sa standard, alte desktop-uri sunt întreținute de "
+"utilizatorii comunității BigLinux și au mai puține personalizări și teste, chiar doriți să "
+"continuați?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "MAI PUȚINE PROGRAME"
+
+msgid "OUTROS DESKTOPS"
+msgstr "ALTE DESKTOP-URI"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "DE FAPT, UTILIZAȚI UN ALT DESKTOP"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Dacă aveți îndoieli cu privire la instalarea standard, opțiunile personalizate ar trebui să fie "
+"utilizate numai de utilizatorii experimentați."
+
+msgid "Personalizar a instalação:"
+msgstr "Personalizați instalarea:"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "INSTALARE STANDARD SAU PERSONALIZATĂ?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Următoarele desktop-uri sunt întreținute de utilizatorii comunității BigLinux și au mai puține "
+"personalizări și teste, chiar doriți să continuați?"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Mă provoci?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "V-am spus, această versiune este învechit.            "
+
+msgid " OK"
+msgstr " OK"
+
+msgid "Versão Desatualizada"
+msgstr "Versiune învechită"
+
+msgid "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
+msgstr "CE PACHETE NU DORIȚI ÎN SISTEM?"
+
+msgid "SELECIONAR TODOS"
+msgstr "SELECTEAZĂ TOATE"
+
+msgid "DESMARCAR TODOS"
+msgstr "DEBIFAȚI TOATE"
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Verificarea pachetelor, așteptați..."
+
+msgid "Verificando o arquivo:"
+msgstr "Verificarea fișierului:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Verificarea erorilor în descărcare sau stick USB, poate dura câteva minute..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Verificarea stării de sănătate a sistemului"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Eroare găsită, descărcați din nou sistemul sau utilizați un alt stick USB."
+
+msgid "Os arquivos estão integros."
+msgstr "Fișierele sunt integrate."
+
+msgid "Verificação cancelada."
+msgstr "Verificați anulat."
+
 msgid ""
 "<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
 "    :LBL"
@@ -38,18 +233,12 @@ msgstr " Continuă"
 msgid " Fechar"
 msgstr " Închide"
 
-msgid "Versão Desatualizada"
-msgstr "Versiune învechită"
-
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
 "            :LBL"
 msgstr ""
 "<b>Această versiune de dezvoltare este depășită și nu mai poate fi utilizată.</b>\n"
 "            :LBL"
-
-msgid " OK"
-msgstr " OK"
 
 msgid "Deseja prosseguir com com a instalação em modo EFI?"
 msgstr "Doriți să continuați instalarea în modul EFI?"
@@ -108,192 +297,3 @@ msgstr ""
 "\\n"
 "Do doriți să vizualizați sau să trimiteți fișierul jurnal de instalare în cloud?\\n"
 "generați un link pentru a trimite în grupuri de asistență.\\n"
-
-msgid "Verificando o arquivo:"
-msgstr "Verificarea fișierului:"
-
-msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
-msgstr "Verificarea erorilor în descărcare sau stick USB, poate dura câteva minute..."
-
-msgid "Verificando integridade do sistema"
-msgstr "Verificarea stării de sănătate a sistemului"
-
-msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
-msgstr "Eroare găsită, descărcați din nou sistemul sau utilizați un alt stick USB."
-
-msgid "Os arquivos estão integros."
-msgstr "Fișierele sunt integrate."
-
-msgid "Verificação cancelada."
-msgstr "Verificați anulat."
-
-msgid "ESCOLHA O DESKTOP"
-msgstr "ALEGEȚI DESKTOP"
-
-msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
-msgstr "ÎNAPOI ȘI UTILIZAȚI INSTALAREA STANDARD"
-
-msgid "INSTALAR"
-msgstr "INSTALA"
-
-msgid "DESKTOP"
-msgstr "DESKTOP"
-
-msgid "Aguarde..."
-msgstr "Stai aşa..."
-
-msgid "Verificando conexão com a Internet..."
-msgstr "Verificarea conexiunii la Internet..."
-
-msgid "Sem conexão com a Internet..."
-msgstr "Fără conexiune la Internet..."
-
-msgid "Atualizando lista de Interfaces..."
-msgstr "Actualizarea listei de interfețe..."
-
-msgid "O sistema está em modo"
-msgstr "Sistemul este în"
-
-msgid "e com o kernel"
-msgstr "și cu kernel-ul"
-
-msgid "Apagando /dev/sda"
-msgstr "Ștergerea / dev / sda"
-
-msgid "PADRÃO"
-msgstr "MODEL"
-
-msgid "PERSONALIZADA"
-msgstr "OBICEI"
-
-msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
-msgstr "INSTALARE STANDARD SAU PERSONALIZATĂ?"
-
-msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-msgstr "INSTALAȚI CU MAI PUȚINE PROGRAME SAU UTILIZAȚI UN ALT DESKTOP?"
-
-msgid ""
-"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
-"instalação vai depender da velocidade da internet."
-msgstr ""
-"Pentru a instala un alt desktop va trebui să descărcați în timpul instalării, timpul de instalare "
-"va depinde de viteza internetului."
-
-msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-msgstr "CHIAR VREI SĂ INSTALEZI UN ALT DESKTOP?"
-
-msgid ""
-"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
-"personalizações e testes, deseja realmente prosseguir?"
-msgstr ""
-"Următoarele desktop-uri sunt întreținute de utilizatorii comunității BigLinux și au mai puține "
-"personalizări și teste, chiar doriți să continuați?"
-
-msgid "MENOS PROGRAMAS"
-msgstr "MAI PUȚINE PROGRAME"
-
-msgid "OUTROS DESKTOPS"
-msgstr "ALTE DESKTOP-URI"
-
-msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
-msgstr "DE FAPT, UTILIZAȚI UN ALT DESKTOP"
-
-msgid ""
-"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
-"usuários experientes."
-msgstr ""
-"Dacă aveți îndoieli cu privire la instalarea standard, opțiunile personalizate ar trebui să fie "
-"utilizate numai de utilizatorii experimentați."
-
-msgid "SELECIONAR"
-msgstr "ALEGE"
-
-msgid ""
-"<b>você está me desafiando?</b>\n"
-"            :LBL"
-msgstr ""
-"<b>Mă provoci?</b>\n"
-"            :LBL"
-
-msgid ""
-"Já falei que essa versão está desatualizada.\n"
-"            "
-msgstr "V-am spus, această versiune este învechit.            "
-
-msgid "DESEMPENHO"
-msgstr "PERFORMANȚĂ"
-
-msgid "COMPATIBILIDADE"
-msgstr "COMPATIBILITATE"
-
-msgid "Compacta os dados"
-msgstr "Compactează datele"
-
-msgid "Pontos de restauração"
-msgstr "Restaurarea punctelor"
-
-msgid "Adia a gravação dos dados"
-msgstr "Înregistrarea datelor Desist"
-
-msgid "Funciona com tabelas de particionamento antigas"
-msgstr "Funcționează cu tabele de partiționare vechi"
-
-msgid "BTRFS com fsync"
-msgstr "BTRFS cu fsync"
-
-msgid "BTRFS sem fsync"
-msgstr "BTRFS fără fsync"
-
-msgid "Instalar no HD"
-msgstr "Instalați pe HD"
-
-msgid "* Não utilize /boot separado"
-msgstr "* Nu utilizați / boot separat"
-
-msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
-msgstr "CE PACHETE NU DORIȚI ÎN SISTEM?"
-
-msgid ""
-"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
-"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
-"prosseguir?"
-msgstr ""
-"BigLinux a fost proiectat și testat pe instalarea sa standard, alte desktop-uri sunt întreținute de "
-"utilizatorii comunității BigLinux și au mai puține personalizări și teste, chiar doriți să "
-"continuați?"
-
-msgid "Selecionar todos"
-msgstr "Selectați toate"
-
-msgid "Desmarcar todos"
-msgstr "Debifați toate"
-
-msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
-msgstr "CONFIRMAȚI ȘI CONTINUAȚI CU INSTALAREA"
-
-msgid "Verificando pacotes, aguarde..."
-msgstr "Verificarea pachetelor, așteptați..."
-
-msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
-msgstr "<font color='red'><b>Nu se poate instala.</b></font><br><br> "
-
-msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
-msgstr "<font color='red'><b>Nu se poate elimina.</b></font><br><br>"
-
-msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
-msgstr "<font color='red'><b>Nu pot găsi Login Manager</b></font><br><br>"
-
-msgid "VOLTAR"
-msgstr "ÎNTOARCE-TE"
-
-msgid "AVANÇAR"
-msgstr "AVANS"
-
-msgid "ERRO!"
-msgstr "EROARE!"
-
-msgid "SUCESSO!"
-msgstr "SUCCES!"
-
-msgid "Personalizar a instalação:"
-msgstr "Personalizați instalarea:"

@@ -16,6 +16,200 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "ESCOLHA O DESKTOP"
+msgstr "VÆLG DESKTOP"
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "TILBAGE OG BRUG STANDARDINSTALLATIONEN"
+
+msgid "INSTALAR"
+msgstr "INSTALLERE"
+
+msgid "DESKTOP"
+msgstr "SKRIVEBORD"
+
+msgid "Aguarde..."
+msgstr "Vent..."
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Kontrol af internetforbindelse..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Ingen internetforbindelse..."
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Opdatering af liste over grænseflader..."
+
+msgid "O sistema está em modo"
+msgstr "Systemet er i"
+
+msgid "e com o kernel"
+msgstr "og med kernen"
+
+msgid "Apagando /dev/sda"
+msgstr "Sletning /dev/sda"
+
+msgid "PADRÃO"
+msgstr "MØNSTER"
+
+msgid "DESEMPENHO"
+msgstr "PRÆSTATION"
+
+msgid "COMPATIBILIDADE"
+msgstr "KOMPATIBILITET"
+
+msgid "Compacta os dados"
+msgstr "Komprimerer dataene"
+
+msgid "Pontos de restauração"
+msgstr "Gendannelsespunkter"
+
+msgid "Adia a gravação dos dados"
+msgstr "Afstå fra registrering af data"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Fungerer med gamle partitioneringstabeller"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS med fsync"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS uden fsync"
+
+msgid "SELECIONAR"
+msgstr "MARKERE"
+
+msgid "Instalar no HD"
+msgstr "Installer på HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Brug ikke /boot separat"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Kan ikke installere.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Kan ikke fjerne.</b></font><br><br>"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Kan ikke finde Login Manager</b></font><br><br>"
+
+msgid "VOLTAR"
+msgstr "KOM TILBAGE"
+
+msgid "AVANÇAR"
+msgstr "FORSKUD"
+
+msgid "ERRO!"
+msgstr "FEJL!"
+
+msgid "SUCESSO!"
+msgstr "SUCCES!"
+
+msgid "PERSONALIZADA"
+msgstr "SÆDVANE"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "BEKRÆFT OG FORTSÆT MED INSTALLATIONEN"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "INSTALLER MED FÆRRE PROGRAMMER ELLER BRUG ET ANDET SKRIVEBORD?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"For at installere et andet skrivebord skal downloades under installationen, afhænger "
+"installationstiden af internetens hastighed."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "VIL DU VIRKELIG INSTALLERE ET ANDET SKRIVEBORD?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux er designet og testet på sin standardinstallation, andre desktops vedligeholdes af brugere "
+"af BigLinux-samfundet og har færre tilpasninger og tests, vil du virkelig fortsætte?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "FÆRRE PROGRAMMER"
+
+msgid "OUTROS DESKTOPS"
+msgstr "ANDRE STATIONÆRE COMPUTERE"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "BRUG FAKTISK ET ANDET SKRIVEBORD"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Hvis du er i tvivl om standardinstallationen, skal brugerdefinerede indstillinger kun bruges af "
+"erfarne brugere."
+
+msgid "Personalizar a instalação:"
+msgstr "Tilpas installationen:"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "STANDARD ELLER BRUGERDEFINERET INSTALLATION?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Følgende desktops vedligeholdes af brugere af BigLinux-samfundet og har færre tilpasninger og "
+"tests, vil du virkelig fortsætte?"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Udfordrer du mig?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Jeg fortalte dig, denne version er forældet.            "
+
+msgid " OK"
+msgstr " OK"
+
+msgid "Versão Desatualizada"
+msgstr "Forældet version"
+
+msgid "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
+msgstr "HVILKE PAKKER VIL DU IKKE HAVE I SYSTEMET?"
+
+msgid "SELECIONAR TODOS"
+msgstr "VÆLG ALLE"
+
+msgid "DESMARCAR TODOS"
+msgstr "UNDLAD AT MARKERE ALLE"
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Kontrol af pakker, vent..."
+
+msgid "Verificando o arquivo:"
+msgstr "Kontrol af filen:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Kontrol af fejl i download eller USB-stick, det kan tage et par minutter..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Kontrolsystemets tilstand"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Fejl fundet, download systemet igen eller brug en anden USB-stick."
+
+msgid "Os arquivos estão integros."
+msgstr "Filerne er integreret."
+
+msgid "Verificação cancelada."
+msgstr "Check annulleret."
+
 msgid ""
 "<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
 "    :LBL"
@@ -37,18 +231,12 @@ msgstr " Fortsæt"
 msgid " Fechar"
 msgstr " Lukke"
 
-msgid "Versão Desatualizada"
-msgstr "Forældet version"
-
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
 "            :LBL"
 msgstr ""
 "<b>Denne udviklingsversion er forældet og kan ikke længere bruges.</b>\n"
 "            :LBL"
-
-msgid " OK"
-msgstr " OK"
 
 msgid "Deseja prosseguir com com a instalação em modo EFI?"
 msgstr "Vil du fortsætte med installationen i EFI-tilstand?"
@@ -107,191 +295,3 @@ msgstr ""
 "\\n"
 "Vil du se eller sende installationslogfilen til skyen?\\n"
 "generer et link til at sende supportgrupper.\\n"
-
-msgid "Verificando o arquivo:"
-msgstr "Kontrol af filen:"
-
-msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
-msgstr "Kontrol af fejl i download eller USB-stick, det kan tage et par minutter..."
-
-msgid "Verificando integridade do sistema"
-msgstr "Kontrolsystemets tilstand"
-
-msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
-msgstr "Fejl fundet, download systemet igen eller brug en anden USB-stick."
-
-msgid "Os arquivos estão integros."
-msgstr "Filerne er integreret."
-
-msgid "Verificação cancelada."
-msgstr "Check annulleret."
-
-msgid "ESCOLHA O DESKTOP"
-msgstr "VÆLG DESKTOP"
-
-msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
-msgstr "TILBAGE OG BRUG STANDARDINSTALLATIONEN"
-
-msgid "INSTALAR"
-msgstr "INSTALLERE"
-
-msgid "DESKTOP"
-msgstr "SKRIVEBORD"
-
-msgid "Aguarde..."
-msgstr "Vent..."
-
-msgid "Verificando conexão com a Internet..."
-msgstr "Kontrol af internetforbindelse..."
-
-msgid "Sem conexão com a Internet..."
-msgstr "Ingen internetforbindelse..."
-
-msgid "Atualizando lista de Interfaces..."
-msgstr "Opdatering af liste over grænseflader..."
-
-msgid "O sistema está em modo"
-msgstr "Systemet er i"
-
-msgid "e com o kernel"
-msgstr "og med kernen"
-
-msgid "Apagando /dev/sda"
-msgstr "Sletning /dev/sda"
-
-msgid "PADRÃO"
-msgstr "MØNSTER"
-
-msgid "PERSONALIZADA"
-msgstr "SÆDVANE"
-
-msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
-msgstr "STANDARD ELLER BRUGERDEFINERET INSTALLATION?"
-
-msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-msgstr "INSTALLER MED FÆRRE PROGRAMMER ELLER BRUG ET ANDET SKRIVEBORD?"
-
-msgid ""
-"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
-"instalação vai depender da velocidade da internet."
-msgstr ""
-"For at installere et andet skrivebord skal downloades under installationen, afhænger "
-"installationstiden af internetens hastighed."
-
-msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-msgstr "VIL DU VIRKELIG INSTALLERE ET ANDET SKRIVEBORD?"
-
-msgid ""
-"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
-"personalizações e testes, deseja realmente prosseguir?"
-msgstr ""
-"Følgende desktops vedligeholdes af brugere af BigLinux-samfundet og har færre tilpasninger og "
-"tests, vil du virkelig fortsætte?"
-
-msgid "MENOS PROGRAMAS"
-msgstr "FÆRRE PROGRAMMER"
-
-msgid "OUTROS DESKTOPS"
-msgstr "ANDRE STATIONÆRE COMPUTERE"
-
-msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
-msgstr "BRUG FAKTISK ET ANDET SKRIVEBORD"
-
-msgid ""
-"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
-"usuários experientes."
-msgstr ""
-"Hvis du er i tvivl om standardinstallationen, skal brugerdefinerede indstillinger kun bruges af "
-"erfarne brugere."
-
-msgid "SELECIONAR"
-msgstr "MARKERE"
-
-msgid ""
-"<b>você está me desafiando?</b>\n"
-"            :LBL"
-msgstr ""
-"<b>Udfordrer du mig?</b>\n"
-"            :LBL"
-
-msgid ""
-"Já falei que essa versão está desatualizada.\n"
-"            "
-msgstr "Jeg fortalte dig, denne version er forældet.            "
-
-msgid "DESEMPENHO"
-msgstr "PRÆSTATION"
-
-msgid "COMPATIBILIDADE"
-msgstr "KOMPATIBILITET"
-
-msgid "Compacta os dados"
-msgstr "Komprimerer dataene"
-
-msgid "Pontos de restauração"
-msgstr "Gendannelsespunkter"
-
-msgid "Adia a gravação dos dados"
-msgstr "Afstå fra registrering af data"
-
-msgid "Funciona com tabelas de particionamento antigas"
-msgstr "Fungerer med gamle partitioneringstabeller"
-
-msgid "BTRFS com fsync"
-msgstr "BTRFS med fsync"
-
-msgid "BTRFS sem fsync"
-msgstr "BTRFS uden fsync"
-
-msgid "Instalar no HD"
-msgstr "Installer på HD"
-
-msgid "* Não utilize /boot separado"
-msgstr "* Brug ikke /boot separat"
-
-msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
-msgstr "HVILKE PAKKER VIL DU IKKE HAVE I SYSTEMET?"
-
-msgid ""
-"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
-"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
-"prosseguir?"
-msgstr ""
-"BigLinux er designet og testet på sin standardinstallation, andre desktops vedligeholdes af brugere "
-"af BigLinux-samfundet og har færre tilpasninger og tests, vil du virkelig fortsætte?"
-
-msgid "Selecionar todos"
-msgstr "Vælg alle"
-
-msgid "Desmarcar todos"
-msgstr "Fjern markeringen af alle"
-
-msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
-msgstr "BEKRÆFT OG FORTSÆT MED INSTALLATIONEN"
-
-msgid "Verificando pacotes, aguarde..."
-msgstr "Kontrol af pakker, vent..."
-
-msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
-msgstr "<font color='red'><b>Kan ikke installere.</b></font><br><br> "
-
-msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
-msgstr "<font color='red'><b>Kan ikke fjerne.</b></font><br><br>"
-
-msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
-msgstr "<font color='red'><b>Kan ikke finde Login Manager</b></font><br><br>"
-
-msgid "VOLTAR"
-msgstr "KOM TILBAGE"
-
-msgid "AVANÇAR"
-msgstr "FORSKUD"
-
-msgid "ERRO!"
-msgstr "FEJL!"
-
-msgid "SUCESSO!"
-msgstr "SUCCES!"
-
-msgid "Personalizar a instalação:"
-msgstr "Tilpas installationen:"

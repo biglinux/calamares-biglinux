@@ -16,6 +16,201 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "ESCOLHA O DESKTOP"
+msgstr "ΕΠΙΛΕΞΤΕ ΕΠΙΦΑΝΕΙΑ ΕΡΓΑΣΙΑΣ"
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "ΠΙΣΩ ΚΑΙ ΧΡΗΣΙΜΟΠΟΙΗΣΤΕ ΤΗΝ ΤΥΠΙΚΗ ΕΓΚΑΤΑΣΤΑΣΗ"
+
+msgid "INSTALAR"
+msgstr "ΕΓΚΑΘΙΣΤΏ"
+
+msgid "DESKTOP"
+msgstr "ΕΠΙΦΆΝΕΙΑ ΕΡΓΑΣΊΑΣ"
+
+msgid "Aguarde..."
+msgstr "Περιμένω..."
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Έλεγχος σύνδεσης στο Διαδίκτυο..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Δεν υπάρχει σύνδεση στο Διαδίκτυο..."
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Ενημέρωση λίστας διεπαφών..."
+
+msgid "O sistema está em modo"
+msgstr "Το σύστημα είναι σε"
+
+msgid "e com o kernel"
+msgstr "και με τον πυρήνα"
+
+msgid "Apagando /dev/sda"
+msgstr "Διαγραφή /dev/sda"
+
+msgid "PADRÃO"
+msgstr "ΠΡΌΤΥΠΟ"
+
+msgid "DESEMPENHO"
+msgstr "ΕΚΤΈΛΕΣΗ"
+
+msgid "COMPATIBILIDADE"
+msgstr "ΣΥΜΒΑΤΌΤΗΤΑ"
+
+msgid "Compacta os dados"
+msgstr "Συμπυκνώνει τα δεδομένα"
+
+msgid "Pontos de restauração"
+msgstr "Σημεία επαναφοράς"
+
+msgid "Adia a gravação dos dados"
+msgstr "Παράλειψη καταγραφής δεδομένων"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Λειτουργεί με παλιούς πίνακες διαμέρισης"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS με fsync"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS χωρίς fsync"
+
+msgid "SELECIONAR"
+msgstr "ΔΙΑΛΈΓΩ"
+
+msgid "Instalar no HD"
+msgstr "Εγκατάσταση σε HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Μην χρησιμοποιείτε το /boot ξεχωριστά"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Δεν είναι δυνατή η εγκατάσταση.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Δεν είναι δυνατή η κατάργηση.</b></font><br><br>"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Δεν είναι δυνατή η εύρεση της Διαχείρισης σύνδεσης</b></font><br><br>"
+
+msgid "VOLTAR"
+msgstr "ΈΛΑ ΠΊΣΩ"
+
+msgid "AVANÇAR"
+msgstr "ΠΡΟΚΑΤΑΒΆΛΛΩ"
+
+msgid "ERRO!"
+msgstr "ΛΆΘΟΣ!"
+
+msgid "SUCESSO!"
+msgstr "ΕΠΙΤΥΧΊΑ!"
+
+msgid "PERSONALIZADA"
+msgstr "ΣΥΝΉΘΕΙΑ"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "ΕΠΙΒΕΒΑΙΏΣΤΕ ΚΑΙ ΠΡΟΧΩΡΉΣΤΕ ΣΤΗΝ ΕΓΚΑΤΆΣΤΑΣΗ"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "ΕΓΚΑΤΆΣΤΑΣΗ ΜΕ ΛΙΓΌΤΕΡΑ ΠΡΟΓΡΆΜΜΑΤΑ Ή ΧΡΉΣΗ ΆΛΛΗς ΕΠΙΦΆΝΕΙΑς ΕΡΓΑΣΊΑς;"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Για να εγκαταστήσετε μια άλλη επιφάνεια εργασίας θα πρέπει να κατεβάσετε κατά την εγκατάσταση, ο "
+"χρόνος εγκατάστασης θα εξαρτηθεί από την ταχύτητα του Διαδικτύου."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "ΘΈΛΕΤΕ ΠΡΑΓΜΑΤΙΚΆ ΝΑ ΕΓΚΑΤΑΣΤΉΣΕΤΕ ΜΙΑ ΆΛΛΗ ΕΠΙΦΆΝΕΙΑ ΕΡΓΑΣΊΑς;"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"Το BigLinux έχει σχεδιαστεί και δοκιμαστεί στην τυπική του εγκατάσταση, άλλοι επιτραπέζιοι "
+"υπολογιστές συντηρούνται από χρήστες της κοινότητας BigLinux και έχουν λιγότερες προσαρμογές και "
+"δοκιμές, θέλετε πραγματικά να προχωρήσετε;"
+
+msgid "MENOS PROGRAMAS"
+msgstr "ΛΙΓΟΤΕΡΑ ΠΡΟΓΡΑΜΜΑΤΑ"
+
+msgid "OUTROS DESKTOPS"
+msgstr "ΑΛΛΟΙ ΕΠΙΤΡΑΠΈΖΙΟΙ ΥΠΟΛΟΓΙΣΤΈς"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "ΣΤΗΝ ΠΡΑΓΜΑΤΙΚΌΤΗΤΑ ΧΡΗΣΙΜΟΠΟΙΉΣΤΕ ΜΙΑ ΆΛΛΗ ΕΠΙΦΆΝΕΙΑ ΕΡΓΑΣΊΑς"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Σε περίπτωση αμφιβολίας, η τυπική εγκατάσταση, οι προσαρμοσμένες επιλογές θα πρέπει να "
+"χρησιμοποιούνται μόνο από έμπειρους χρήστες."
+
+msgid "Personalizar a instalação:"
+msgstr "Προσαρμόστε την εγκατάσταση:"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "ΤΥΠΙΚΗ Ή ΠΡΟΣΑΡΜΟΣΜΕΝΗ ΕΓΚΑΤΑΣΤΑΣΗ;"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Οι παρακάτω επιτραπέζιοι υπολογιστές συντηρούνται από χρήστες της κοινότητας BigLinux και έχουν "
+"λιγότερες προσαρμογές και δοκιμές, θέλετε πραγματικά να προχωρήσετε;"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Με προκαλείς;</b>\n"
+"            :ΛΒ"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Σας είπα, αυτή η έκδοση είναι ξεπερασμένη.            "
+
+msgid " OK"
+msgstr " OK"
+
+msgid "Versão Desatualizada"
+msgstr "Ξεπερασμένη έκδοση"
+
+msgid "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
+msgstr "ΠΟΙΑ ΠΑΚΈΤΑ ΔΕΝ ΘΈΛΕΤΕ ΣΤΟ ΣΎΣΤΗΜΑ;"
+
+msgid "SELECIONAR TODOS"
+msgstr "ΕΠΙΛΕΞΤΕ ΟΛΑ"
+
+msgid "DESMARCAR TODOS"
+msgstr "ΑΠΟΕΠΙΛΟΓΗ ΟΛΩΝ"
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Έλεγχος πακέτων, περιμένετε..."
+
+msgid "Verificando o arquivo:"
+msgstr "Έλεγχος του αρχείου:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Ελέγχοντας για σφάλματα στο κατέβασμα ή στο USB stick, μπορεί να χρειαστούν μερικά λεπτά..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Έλεγχος της εύρυθμης λειτουργίας του συστήματος"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Παρουσιάστηκε σφάλμα, κατεβάστε ξανά το σύστημα ή χρησιμοποιήστε άλλο USB stick."
+
+msgid "Os arquivos estão integros."
+msgstr "Τα αρχεία είναι ενσωματωμένα."
+
+msgid "Verificação cancelada."
+msgstr "Ο έλεγχος ακυρώθηκε."
+
 msgid ""
 "<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
 "    :LBL"
@@ -38,18 +233,12 @@ msgstr " Συνέχισε"
 msgid " Fechar"
 msgstr " Κλείνω"
 
-msgid "Versão Desatualizada"
-msgstr "Ξεπερασμένη έκδοση"
-
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
 "            :LBL"
 msgstr ""
 "<b>Αυτή η έκδοση ανάπτυξης είναι ξεπερασμένη και δεν μπορεί πλέον να χρησιμοποιηθεί.</b>\n"
 "            :ΛΒ"
-
-msgid " OK"
-msgstr " OK"
 
 msgid "Deseja prosseguir com com a instalação em modo EFI?"
 msgstr "Θέλετε να προχωρήσετε στην εγκατάσταση σε λειτουργία EFI;"
@@ -109,192 +298,3 @@ msgstr ""
 "\\n"
 "Θέλετε να προβάλετε ή να στείλετε το αρχείο καταγραφής εγκατάστασης στο cloud;\\n"
 "generate μια σύνδεση για αποστολή ομάδων υποστήριξης.\\n"
-
-msgid "Verificando o arquivo:"
-msgstr "Έλεγχος του αρχείου:"
-
-msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
-msgstr "Ελέγχοντας για σφάλματα στο κατέβασμα ή στο USB stick, μπορεί να χρειαστούν μερικά λεπτά..."
-
-msgid "Verificando integridade do sistema"
-msgstr "Έλεγχος της εύρυθμης λειτουργίας του συστήματος"
-
-msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
-msgstr "Παρουσιάστηκε σφάλμα, κατεβάστε ξανά το σύστημα ή χρησιμοποιήστε άλλο USB stick."
-
-msgid "Os arquivos estão integros."
-msgstr "Τα αρχεία είναι ενσωματωμένα."
-
-msgid "Verificação cancelada."
-msgstr "Ο έλεγχος ακυρώθηκε."
-
-msgid "ESCOLHA O DESKTOP"
-msgstr "ΕΠΙΛΕΞΤΕ ΕΠΙΦΑΝΕΙΑ ΕΡΓΑΣΙΑΣ"
-
-msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
-msgstr "ΠΙΣΩ ΚΑΙ ΧΡΗΣΙΜΟΠΟΙΗΣΤΕ ΤΗΝ ΤΥΠΙΚΗ ΕΓΚΑΤΑΣΤΑΣΗ"
-
-msgid "INSTALAR"
-msgstr "ΕΓΚΑΘΙΣΤΏ"
-
-msgid "DESKTOP"
-msgstr "ΕΠΙΦΆΝΕΙΑ ΕΡΓΑΣΊΑΣ"
-
-msgid "Aguarde..."
-msgstr "Περιμένω..."
-
-msgid "Verificando conexão com a Internet..."
-msgstr "Έλεγχος σύνδεσης στο Διαδίκτυο..."
-
-msgid "Sem conexão com a Internet..."
-msgstr "Δεν υπάρχει σύνδεση στο Διαδίκτυο..."
-
-msgid "Atualizando lista de Interfaces..."
-msgstr "Ενημέρωση λίστας διεπαφών..."
-
-msgid "O sistema está em modo"
-msgstr "Το σύστημα είναι σε"
-
-msgid "e com o kernel"
-msgstr "και με τον πυρήνα"
-
-msgid "Apagando /dev/sda"
-msgstr "Διαγραφή /dev/sda"
-
-msgid "PADRÃO"
-msgstr "ΠΡΌΤΥΠΟ"
-
-msgid "PERSONALIZADA"
-msgstr "ΣΥΝΉΘΕΙΑ"
-
-msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
-msgstr "ΤΥΠΙΚΗ Ή ΠΡΟΣΑΡΜΟΣΜΕΝΗ ΕΓΚΑΤΑΣΤΑΣΗ;"
-
-msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-msgstr "ΕΓΚΑΤΆΣΤΑΣΗ ΜΕ ΛΙΓΌΤΕΡΑ ΠΡΟΓΡΆΜΜΑΤΑ Ή ΧΡΉΣΗ ΆΛΛΗς ΕΠΙΦΆΝΕΙΑς ΕΡΓΑΣΊΑς;"
-
-msgid ""
-"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
-"instalação vai depender da velocidade da internet."
-msgstr ""
-"Για να εγκαταστήσετε μια άλλη επιφάνεια εργασίας θα πρέπει να κατεβάσετε κατά την εγκατάσταση, ο "
-"χρόνος εγκατάστασης θα εξαρτηθεί από την ταχύτητα του Διαδικτύου."
-
-msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-msgstr "ΘΈΛΕΤΕ ΠΡΑΓΜΑΤΙΚΆ ΝΑ ΕΓΚΑΤΑΣΤΉΣΕΤΕ ΜΙΑ ΆΛΛΗ ΕΠΙΦΆΝΕΙΑ ΕΡΓΑΣΊΑς;"
-
-msgid ""
-"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
-"personalizações e testes, deseja realmente prosseguir?"
-msgstr ""
-"Οι παρακάτω επιτραπέζιοι υπολογιστές συντηρούνται από χρήστες της κοινότητας BigLinux και έχουν "
-"λιγότερες προσαρμογές και δοκιμές, θέλετε πραγματικά να προχωρήσετε;"
-
-msgid "MENOS PROGRAMAS"
-msgstr "ΛΙΓΟΤΕΡΑ ΠΡΟΓΡΑΜΜΑΤΑ"
-
-msgid "OUTROS DESKTOPS"
-msgstr "ΑΛΛΟΙ ΕΠΙΤΡΑΠΈΖΙΟΙ ΥΠΟΛΟΓΙΣΤΈς"
-
-msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
-msgstr "ΣΤΗΝ ΠΡΑΓΜΑΤΙΚΌΤΗΤΑ ΧΡΗΣΙΜΟΠΟΙΉΣΤΕ ΜΙΑ ΆΛΛΗ ΕΠΙΦΆΝΕΙΑ ΕΡΓΑΣΊΑς"
-
-msgid ""
-"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
-"usuários experientes."
-msgstr ""
-"Σε περίπτωση αμφιβολίας, η τυπική εγκατάσταση, οι προσαρμοσμένες επιλογές θα πρέπει να "
-"χρησιμοποιούνται μόνο από έμπειρους χρήστες."
-
-msgid "SELECIONAR"
-msgstr "ΔΙΑΛΈΓΩ"
-
-msgid ""
-"<b>você está me desafiando?</b>\n"
-"            :LBL"
-msgstr ""
-"<b>Με προκαλείς;</b>\n"
-"            :ΛΒ"
-
-msgid ""
-"Já falei que essa versão está desatualizada.\n"
-"            "
-msgstr "Σας είπα, αυτή η έκδοση είναι ξεπερασμένη.            "
-
-msgid "DESEMPENHO"
-msgstr "ΕΚΤΈΛΕΣΗ"
-
-msgid "COMPATIBILIDADE"
-msgstr "ΣΥΜΒΑΤΌΤΗΤΑ"
-
-msgid "Compacta os dados"
-msgstr "Συμπυκνώνει τα δεδομένα"
-
-msgid "Pontos de restauração"
-msgstr "Σημεία επαναφοράς"
-
-msgid "Adia a gravação dos dados"
-msgstr "Παράλειψη καταγραφής δεδομένων"
-
-msgid "Funciona com tabelas de particionamento antigas"
-msgstr "Λειτουργεί με παλιούς πίνακες διαμέρισης"
-
-msgid "BTRFS com fsync"
-msgstr "BTRFS με fsync"
-
-msgid "BTRFS sem fsync"
-msgstr "BTRFS χωρίς fsync"
-
-msgid "Instalar no HD"
-msgstr "Εγκατάσταση σε HD"
-
-msgid "* Não utilize /boot separado"
-msgstr "* Μην χρησιμοποιείτε το /boot ξεχωριστά"
-
-msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
-msgstr "ΠΟΙΑ ΠΑΚΈΤΑ ΔΕΝ ΘΈΛΕΤΕ ΣΤΟ ΣΎΣΤΗΜΑ;"
-
-msgid ""
-"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
-"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
-"prosseguir?"
-msgstr ""
-"Το BigLinux έχει σχεδιαστεί και δοκιμαστεί στην τυπική του εγκατάσταση, άλλοι επιτραπέζιοι "
-"υπολογιστές συντηρούνται από χρήστες της κοινότητας BigLinux και έχουν λιγότερες προσαρμογές και "
-"δοκιμές, θέλετε πραγματικά να προχωρήσετε;"
-
-msgid "Selecionar todos"
-msgstr "Επιλογή όλων"
-
-msgid "Desmarcar todos"
-msgstr "Καταργήστε την επιλογή όλων"
-
-msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
-msgstr "ΕΠΙΒΕΒΑΙΏΣΤΕ ΚΑΙ ΠΡΟΧΩΡΉΣΤΕ ΣΤΗΝ ΕΓΚΑΤΆΣΤΑΣΗ"
-
-msgid "Verificando pacotes, aguarde..."
-msgstr "Έλεγχος πακέτων, περιμένετε..."
-
-msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
-msgstr "<font color='red'><b>Δεν είναι δυνατή η εγκατάσταση.</b></font><br><br> "
-
-msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
-msgstr "<font color='red'><b>Δεν είναι δυνατή η κατάργηση.</b></font><br><br>"
-
-msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
-msgstr "<font color='red'><b>Δεν είναι δυνατή η εύρεση της Διαχείρισης σύνδεσης</b></font><br><br>"
-
-msgid "VOLTAR"
-msgstr "ΈΛΑ ΠΊΣΩ"
-
-msgid "AVANÇAR"
-msgstr "ΠΡΟΚΑΤΑΒΆΛΛΩ"
-
-msgid "ERRO!"
-msgstr "ΛΆΘΟΣ!"
-
-msgid "SUCESSO!"
-msgstr "ΕΠΙΤΥΧΊΑ!"
-
-msgid "Personalizar a instalação:"
-msgstr "Προσαρμόστε την εγκατάσταση:"

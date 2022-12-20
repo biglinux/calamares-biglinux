@@ -16,6 +16,200 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "ESCOLHA O DESKTOP"
+msgstr "VYBERTE POLOŽKU PRACOVNÁ PLOCHA"
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "SPÄŤ A POUŽITE ŠTANDARDNÚ INŠTALÁCIU"
+
+msgid "INSTALAR"
+msgstr "INŠTALOVAŤ"
+
+msgid "DESKTOP"
+msgstr "DESKTOP"
+
+msgid "Aguarde..."
+msgstr "Počkaj..."
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Kontrola internetového pripojenia..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Žiadne pripojenie na internet..."
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Aktualizácia zoznamu rozhraní..."
+
+msgid "O sistema está em modo"
+msgstr "Systém je v"
+
+msgid "e com o kernel"
+msgstr "a s jadrom"
+
+msgid "Apagando /dev/sda"
+msgstr "Vymazanie /dev/sda"
+
+msgid "PADRÃO"
+msgstr "VZORKA"
+
+msgid "DESEMPENHO"
+msgstr "VÝKON"
+
+msgid "COMPATIBILIDADE"
+msgstr "KOMPATIBILITA"
+
+msgid "Compacta os dados"
+msgstr "Zhutňuje údaje"
+
+msgid "Pontos de restauração"
+msgstr "Obnovenie bodov"
+
+msgid "Adia a gravação dos dados"
+msgstr "Zastavenie zaznamenávania údajov"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Funguje so starými tabuľkami na vytváranie oddielov"
+
+msgid "BTRFS com fsync"
+msgstr "BTRFS s fsync"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS bez fsync"
+
+msgid "SELECIONAR"
+msgstr "VYBRAŤ"
+
+msgid "Instalar no HD"
+msgstr "Inštalácia na HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Nepoužívajte /boot samostatne"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Nedá sa nainštalovať.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Nedá sa odstrániť.</b></font><br><br>"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Nemôžem nájsť Správcu prihlásenia</b></font><br><br>"
+
+msgid "VOLTAR"
+msgstr "POĎ SPÄŤ"
+
+msgid "AVANÇAR"
+msgstr "ZÁLOHA"
+
+msgid "ERRO!"
+msgstr "CHYBA!"
+
+msgid "SUCESSO!"
+msgstr "ÚSPECH!"
+
+msgid "PERSONALIZADA"
+msgstr "ZVYK"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "POTVRĎTE A POKRAČUJTE V INŠTALÁCII"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "INŠTALOVAŤ S MENŠÍM POČTOM PROGRAMOV ALEBO POUŽÍVAŤ INÚ PRACOVNÚ PLOCHU?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Ak chcete nainštalovať ďalšiu pracovnú plochu, bude potrebné počas inštalácie stiahnuť, čas "
+"inštalácie bude závisieť od rýchlosti internetu."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "NAOZAJ CHCETE NAINŠTALOVAŤ ĎALŠIU PRACOVNÚ PLOCHU?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux bol navrhnutý a testovaný na svojej štandardnej inštalácii, ostatné desktopy sú udržiavané "
+"používateľmi komunity BigLinux a majú menej prispôsobení a testov, naozaj chcete pokračovať?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "MENEJ PROGRAMOV"
+
+msgid "OUTROS DESKTOPS"
+msgstr "OSTATNÉ PRACOVNÉ PLOCHY"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "V SKUTOČNOSTI POUŽITE INÚ PRACOVNÚ PLOCHU"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Ak máte pochybnosti, vykonajte štandardnú inštaláciu, vlastné možnosti by mali používať iba skúsení "
+"používatelia."
+
+msgid "Personalizar a instalação:"
+msgstr "Prispôsobte si inštaláciu:"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "ŠTANDARDNÁ ALEBO VLASTNÁ INŠTALÁCIA?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Nasledujúce desktopy sú udržiavané používateľmi komunity BigLinux a majú menej prispôsobení a "
+"testov, naozaj chcete pokračovať?"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Spochybňujete ma?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Povedal som vám, že táto verzia je zastaraná.            "
+
+msgid " OK"
+msgstr " OK"
+
+msgid "Versão Desatualizada"
+msgstr "Zastaraná verzia"
+
+msgid "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
+msgstr "AKÉ BALÍKY NECHCETE V SYSTÉME?"
+
+msgid "SELECIONAR TODOS"
+msgstr "VYBRAŤ VŠETKO"
+
+msgid "DESMARCAR TODOS"
+msgstr "ZRUŠTE ZAČIARKNUTIE POLÍČKA VŠETKO"
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Kontrola balíkov, počkajte..."
+
+msgid "Verificando o arquivo:"
+msgstr "Kontrola súboru:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Kontrola chýb v sťahovanom alebo USB kľúči môže trvať niekoľko minút..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Kontrola stavu systému"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Zistená chyba, znova stiahnite systém alebo použite iný USB kľúč."
+
+msgid "Os arquivos estão integros."
+msgstr "Súbory sú integrované."
+
+msgid "Verificação cancelada."
+msgstr "Kontrola zrušená."
+
 msgid ""
 "<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
 "    :LBL"
@@ -37,18 +231,12 @@ msgstr " Ideš"
 msgid " Fechar"
 msgstr " Zavrieť"
 
-msgid "Versão Desatualizada"
-msgstr "Zastaraná verzia"
-
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
 "            :LBL"
 msgstr ""
 "<b>Táto vývojová verzia je zastaraná a už sa nedá používať.</b>\n"
 "            :LBL"
-
-msgid " OK"
-msgstr " OK"
 
 msgid "Deseja prosseguir com com a instalação em modo EFI?"
 msgstr "Chcete pokračovať v inštalácii v režime EFI?"
@@ -107,191 +295,3 @@ msgstr ""
 "\\n"
 "Chcete zobraziť alebo odoslať súbor denníka inštalácie do cloudu?\\n"
 "generovať odkaz na odoslanie v podporných skupinách.\\n"
-
-msgid "Verificando o arquivo:"
-msgstr "Kontrola súboru:"
-
-msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
-msgstr "Kontrola chýb v sťahovanom alebo USB kľúči môže trvať niekoľko minút..."
-
-msgid "Verificando integridade do sistema"
-msgstr "Kontrola stavu systému"
-
-msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
-msgstr "Zistená chyba, znova stiahnite systém alebo použite iný USB kľúč."
-
-msgid "Os arquivos estão integros."
-msgstr "Súbory sú integrované."
-
-msgid "Verificação cancelada."
-msgstr "Kontrola zrušená."
-
-msgid "ESCOLHA O DESKTOP"
-msgstr "VYBERTE POLOŽKU PRACOVNÁ PLOCHA"
-
-msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
-msgstr "SPÄŤ A POUŽITE ŠTANDARDNÚ INŠTALÁCIU"
-
-msgid "INSTALAR"
-msgstr "INŠTALOVAŤ"
-
-msgid "DESKTOP"
-msgstr "DESKTOP"
-
-msgid "Aguarde..."
-msgstr "Počkaj..."
-
-msgid "Verificando conexão com a Internet..."
-msgstr "Kontrola internetového pripojenia..."
-
-msgid "Sem conexão com a Internet..."
-msgstr "Žiadne pripojenie na internet..."
-
-msgid "Atualizando lista de Interfaces..."
-msgstr "Aktualizácia zoznamu rozhraní..."
-
-msgid "O sistema está em modo"
-msgstr "Systém je v"
-
-msgid "e com o kernel"
-msgstr "a s jadrom"
-
-msgid "Apagando /dev/sda"
-msgstr "Vymazanie /dev/sda"
-
-msgid "PADRÃO"
-msgstr "VZORKA"
-
-msgid "PERSONALIZADA"
-msgstr "ZVYK"
-
-msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
-msgstr "ŠTANDARDNÁ ALEBO VLASTNÁ INŠTALÁCIA?"
-
-msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-msgstr "INŠTALOVAŤ S MENŠÍM POČTOM PROGRAMOV ALEBO POUŽÍVAŤ INÚ PRACOVNÚ PLOCHU?"
-
-msgid ""
-"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
-"instalação vai depender da velocidade da internet."
-msgstr ""
-"Ak chcete nainštalovať ďalšiu pracovnú plochu, bude potrebné počas inštalácie stiahnuť, čas "
-"inštalácie bude závisieť od rýchlosti internetu."
-
-msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-msgstr "NAOZAJ CHCETE NAINŠTALOVAŤ ĎALŠIU PRACOVNÚ PLOCHU?"
-
-msgid ""
-"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
-"personalizações e testes, deseja realmente prosseguir?"
-msgstr ""
-"Nasledujúce desktopy sú udržiavané používateľmi komunity BigLinux a majú menej prispôsobení a "
-"testov, naozaj chcete pokračovať?"
-
-msgid "MENOS PROGRAMAS"
-msgstr "MENEJ PROGRAMOV"
-
-msgid "OUTROS DESKTOPS"
-msgstr "OSTATNÉ PRACOVNÉ PLOCHY"
-
-msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
-msgstr "V SKUTOČNOSTI POUŽITE INÚ PRACOVNÚ PLOCHU"
-
-msgid ""
-"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
-"usuários experientes."
-msgstr ""
-"Ak máte pochybnosti, vykonajte štandardnú inštaláciu, vlastné možnosti by mali používať iba skúsení "
-"používatelia."
-
-msgid "SELECIONAR"
-msgstr "VYBRAŤ"
-
-msgid ""
-"<b>você está me desafiando?</b>\n"
-"            :LBL"
-msgstr ""
-"<b>Spochybňujete ma?</b>\n"
-"            :LBL"
-
-msgid ""
-"Já falei que essa versão está desatualizada.\n"
-"            "
-msgstr "Povedal som vám, že táto verzia je zastaraná.            "
-
-msgid "DESEMPENHO"
-msgstr "VÝKON"
-
-msgid "COMPATIBILIDADE"
-msgstr "KOMPATIBILITA"
-
-msgid "Compacta os dados"
-msgstr "Zhutňuje údaje"
-
-msgid "Pontos de restauração"
-msgstr "Obnovenie bodov"
-
-msgid "Adia a gravação dos dados"
-msgstr "Zastavenie zaznamenávania údajov"
-
-msgid "Funciona com tabelas de particionamento antigas"
-msgstr "Funguje so starými tabuľkami na vytváranie oddielov"
-
-msgid "BTRFS com fsync"
-msgstr "BTRFS s fsync"
-
-msgid "BTRFS sem fsync"
-msgstr "BTRFS bez fsync"
-
-msgid "Instalar no HD"
-msgstr "Inštalácia na HD"
-
-msgid "* Não utilize /boot separado"
-msgstr "* Nepoužívajte /boot samostatne"
-
-msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
-msgstr "AKÉ BALÍKY V SYSTÉME NECHCETE?"
-
-msgid ""
-"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
-"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
-"prosseguir?"
-msgstr ""
-"BigLinux bol navrhnutý a testovaný na svojej štandardnej inštalácii, ostatné desktopy sú udržiavané "
-"používateľmi komunity BigLinux a majú menej prispôsobení a testov, naozaj chcete pokračovať?"
-
-msgid "Selecionar todos"
-msgstr "Vybrať všetko"
-
-msgid "Desmarcar todos"
-msgstr "Zrušte začiarknutie všetkých"
-
-msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
-msgstr "POTVRĎTE A POKRAČUJTE V INŠTALÁCII"
-
-msgid "Verificando pacotes, aguarde..."
-msgstr "Kontrola balíkov, počkajte..."
-
-msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
-msgstr "<font color='red'><b>Nedá sa nainštalovať.</b></font><br><br> "
-
-msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
-msgstr "<font color='red'><b>Nedá sa odstrániť.</b></font><br><br>"
-
-msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
-msgstr "<font color='red'><b>Nemôžem nájsť Správcu prihlásenia</b></font><br><br>"
-
-msgid "VOLTAR"
-msgstr "POĎ SPÄŤ"
-
-msgid "AVANÇAR"
-msgstr "ZÁLOHA"
-
-msgid "ERRO!"
-msgstr "CHYBA!"
-
-msgid "SUCESSO!"
-msgstr "ÚSPECH!"
-
-msgid "Personalizar a instalação:"
-msgstr "Prispôsobte si inštaláciu:"

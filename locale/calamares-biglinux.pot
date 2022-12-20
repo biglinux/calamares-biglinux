@@ -165,13 +165,13 @@ msgstr  ""
 msgid   "Versão Desatualizada"
 msgstr  ""
 
-msgid   "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgid   "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
 msgstr  ""
 
-msgid   "Selecionar todos"
+msgid   "SELECIONAR TODOS"
 msgstr  ""
 
-msgid   "Desmarcar todos"
+msgid   "DESMARCAR TODOS"
 msgstr  ""
 
 msgid   "Verificando pacotes, aguarde..."

@@ -186,14 +186,14 @@ msgstr " OK"
 msgid "Versão Desatualizada"
 msgstr "Versão Desatualizada"
 
-msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
-msgstr "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+msgid "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
+msgstr "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
 
-msgid "Selecionar todos"
-msgstr "Selecionar todos"
+msgid "SELECIONAR TODOS"
+msgstr "SELECIONAR TODOS"
 
-msgid "Desmarcar todos"
-msgstr "Desmarcar todos"
+msgid "DESMARCAR TODOS"
+msgstr "DESMARCAR TODOS"
 
 msgid "Verificando pacotes, aguarde..."
 msgstr "Verificando pacotes, aguarde..."

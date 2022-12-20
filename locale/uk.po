@@ -16,6 +16,201 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "ESCOLHA O DESKTOP"
+msgstr "ВИБЕРІТЬ РОБОЧИЙ СТІЛ"
+
+msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr "ПОВЕРНІТЬСЯ НАЗАД І СКОРИСТАЙТЕСЯ СТАНДАРТНОЮ УСТАНОВКОЮ"
+
+msgid "INSTALAR"
+msgstr "ІНСТАЛЮВАТИ"
+
+msgid "DESKTOP"
+msgstr "НАСТІЛЬНИЙ"
+
+msgid "Aguarde..."
+msgstr "Зачекай..."
+
+msgid "Verificando conexão com a Internet..."
+msgstr "Перевірка підключення до інтернету..."
+
+msgid "Sem conexão com a Internet..."
+msgstr "Немає підключення до Інтернету..."
+
+msgid "Atualizando lista de Interfaces..."
+msgstr "Оновлення списку інтерфейсів..."
+
+msgid "O sistema está em modo"
+msgstr "Система знаходиться в"
+
+msgid "e com o kernel"
+msgstr "і з ядром"
+
+msgid "Apagando /dev/sda"
+msgstr "Стирання /dev/sda"
+
+msgid "PADRÃO"
+msgstr "ВІЗЕРУНОК"
+
+msgid "DESEMPENHO"
+msgstr "ПРОДУКТИВНІСТЬ"
+
+msgid "COMPATIBILIDADE"
+msgstr "СУМІСНОСТІ"
+
+msgid "Compacta os dados"
+msgstr "Стискає дані"
+
+msgid "Pontos de restauração"
+msgstr "Відновлення контрольних точок"
+
+msgid "Adia a gravação dos dados"
+msgstr "Запис даних desist"
+
+msgid "Funciona com tabelas de particionamento antigas"
+msgstr "Робота зі старими таблицями розбиття на розділи"
+
+msgid "BTRFS com fsync"
+msgstr "БТРФС з фсинхроном"
+
+msgid "BTRFS sem fsync"
+msgstr "БТРФС без fsync"
+
+msgid "SELECIONAR"
+msgstr "ВИБЕРІТЬ"
+
+msgid "Instalar no HD"
+msgstr "Установка на HD"
+
+msgid "* Não utilize /boot separado"
+msgstr "* Не використовуйте /boot окремо"
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Не вдається інсталювати.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Не вдається видалити.</b></font><br><br>"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Не вдається знайти менеджер входу</b></font><br><br>"
+
+msgid "VOLTAR"
+msgstr "ПОВЕРНУТИСЯ"
+
+msgid "AVANÇAR"
+msgstr "АВАНС"
+
+msgid "ERRO!"
+msgstr "ПОМИЛКА!"
+
+msgid "SUCESSO!"
+msgstr "УСПІХ!"
+
+msgid "PERSONALIZADA"
+msgstr "НЕСТАНДАРТНИЙ"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "ПІДТВЕРДЬТЕ ТА ПРОДОВЖУЙТЕ ІНСТАЛЯЦІЮ"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "ІНСТАЛЮВАТИ З МЕНШОЮ КІЛЬКІСТЮ ПРОГРАМ АБО ВИКОРИСТОВУВАТИ ІНШИЙ РОБОЧИЙ СТІЛ?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Для установки іншого робочого столу потрібно буде завантажити при установці, час установки буде "
+"залежати від швидкості інтернету."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "ДІЙСНО ХОЧЕТЕ ВСТАНОВИТИ ІНШИЙ РОБОЧИЙ СТІЛ?"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux був розроблений і протестований на його стандартній установці, інші настільні комп'ютери "
+"підтримуються користувачами спільноти BigLinux і мають менше налаштувань і тестів, дійсно хочете "
+"продовжити?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "МЕНШЕ ПРОГРАМ"
+
+msgid "OUTROS DESKTOPS"
+msgstr "ІНШІ НАСТІЛЬНІ КОМП'ЮТЕРИ"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "ФАКТИЧНО ВИКОРИСТОВУЙТЕ ІНШИЙ РОБОЧИЙ СТІЛ"
+
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Якщо сумніваєтеся зробити стандартну установку, призначені для користувача опції повинні "
+"використовуватися тільки досвідченими користувачами."
+
+msgid "Personalizar a instalação:"
+msgstr "Налаштуйте установку:"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "СТАНДАРТНА АБО ВИБІРКОВА УСТАНОВКА?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Наступні настільні комп'ютери підтримуються користувачами спільноти BigLinux і мають менше "
+"налаштувань і тестів, ви дійсно хочете продовжити?"
+
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Ти кидаєш мені виклик?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Я вам сказав, що ця версія застаріла.            "
+
+msgid " OK"
+msgstr " ГАРАЗД"
+
+msgid "Versão Desatualizada"
+msgstr "застаріла версія"
+
+msgid "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
+msgstr "ЯКІ ПАКЕТИ ВИ НЕ ХОЧЕТЕ В СИСТЕМІ?"
+
+msgid "SELECIONAR TODOS"
+msgstr "ВИДІЛИТИ ВСІ"
+
+msgid "DESMARCAR TODOS"
+msgstr "ЗНЯТИ ПРАПОРЕЦЬ ДЛЯ ВСІХ"
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Перевіряючи пакети, чекайте..."
+
+msgid "Verificando o arquivo:"
+msgstr "Перевірка файлу:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Перевірка на помилки в завантаженні або USB-накопичувачі може зайняти кілька хвилин..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Перевірка справності системи"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Знайдена помилка, заново скачайте систему або скористайтеся іншим USB-накопичувачем."
+
+msgid "Os arquivos estão integros."
+msgstr "Файли інтегровані."
+
+msgid "Verificação cancelada."
+msgstr "Перевірка скасована."
+
 msgid ""
 "<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
 "    :LBL"
@@ -37,18 +232,12 @@ msgstr " Продовжуй"
 msgid " Fechar"
 msgstr " Закрити"
 
-msgid "Versão Desatualizada"
-msgstr "застаріла версія"
-
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
 "            :LBL"
 msgstr ""
 "<b>Ця версія для розробки застаріла і більше не може бути використана.</b>\n"
 "            :LBL"
-
-msgid " OK"
-msgstr " ГАРАЗД"
 
 msgid "Deseja prosseguir com com a instalação em modo EFI?"
 msgstr "Ви хочете продовжити встановлення в режимі EFI?"
@@ -108,192 +297,3 @@ msgstr ""
 "\\n"
 "Хочете переглянути або відправити файл журналу інсталяції в хмару?\\n"
 "generate посилання для відправки в групи підтримки.\\n"
-
-msgid "Verificando o arquivo:"
-msgstr "Перевірка файлу:"
-
-msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
-msgstr "Перевірка на помилки в завантаженні або USB-накопичувачі може зайняти кілька хвилин..."
-
-msgid "Verificando integridade do sistema"
-msgstr "Перевірка справності системи"
-
-msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
-msgstr "Знайдена помилка, заново скачайте систему або скористайтеся іншим USB-накопичувачем."
-
-msgid "Os arquivos estão integros."
-msgstr "Файли інтегровані."
-
-msgid "Verificação cancelada."
-msgstr "Перевірка скасована."
-
-msgid "ESCOLHA O DESKTOP"
-msgstr "ВИБЕРІТЬ РОБОЧИЙ СТІЛ"
-
-msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
-msgstr "ПОВЕРНІТЬСЯ НАЗАД І СКОРИСТАЙТЕСЯ СТАНДАРТНОЮ УСТАНОВКОЮ"
-
-msgid "INSTALAR"
-msgstr "ІНСТАЛЮВАТИ"
-
-msgid "DESKTOP"
-msgstr "НАСТІЛЬНИЙ"
-
-msgid "Aguarde..."
-msgstr "Зачекай..."
-
-msgid "Verificando conexão com a Internet..."
-msgstr "Перевірка підключення до інтернету..."
-
-msgid "Sem conexão com a Internet..."
-msgstr "Немає підключення до Інтернету..."
-
-msgid "Atualizando lista de Interfaces..."
-msgstr "Оновлення списку інтерфейсів..."
-
-msgid "O sistema está em modo"
-msgstr "Система знаходиться в"
-
-msgid "e com o kernel"
-msgstr "і з ядром"
-
-msgid "Apagando /dev/sda"
-msgstr "Стирання /dev/sda"
-
-msgid "PADRÃO"
-msgstr "ВІЗЕРУНОК"
-
-msgid "PERSONALIZADA"
-msgstr "НЕСТАНДАРТНИЙ"
-
-msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
-msgstr "СТАНДАРТНА АБО ВИБІРКОВА УСТАНОВКА?"
-
-msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-msgstr "ІНСТАЛЮВАТИ З МЕНШОЮ КІЛЬКІСТЮ ПРОГРАМ АБО ВИКОРИСТОВУВАТИ ІНШИЙ РОБОЧИЙ СТІЛ?"
-
-msgid ""
-"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
-"instalação vai depender da velocidade da internet."
-msgstr ""
-"Для установки іншого робочого столу потрібно буде завантажити при установці, час установки буде "
-"залежати від швидкості інтернету."
-
-msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-msgstr "ДІЙСНО ХОЧЕТЕ ВСТАНОВИТИ ІНШИЙ РОБОЧИЙ СТІЛ?"
-
-msgid ""
-"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
-"personalizações e testes, deseja realmente prosseguir?"
-msgstr ""
-"Наступні настільні комп'ютери підтримуються користувачами спільноти BigLinux і мають менше "
-"налаштувань і тестів, ви дійсно хочете продовжити?"
-
-msgid "MENOS PROGRAMAS"
-msgstr "МЕНШЕ ПРОГРАМ"
-
-msgid "OUTROS DESKTOPS"
-msgstr "ІНШІ НАСТІЛЬНІ КОМП'ЮТЕРИ"
-
-msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
-msgstr "ФАКТИЧНО ВИКОРИСТОВУЙТЕ ІНШИЙ РОБОЧИЙ СТІЛ"
-
-msgid ""
-"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
-"usuários experientes."
-msgstr ""
-"Якщо сумніваєтеся зробити стандартну установку, призначені для користувача опції повинні "
-"використовуватися тільки досвідченими користувачами."
-
-msgid "SELECIONAR"
-msgstr "ВИБЕРІТЬ"
-
-msgid ""
-"<b>você está me desafiando?</b>\n"
-"            :LBL"
-msgstr ""
-"<b>Ти кидаєш мені виклик?</b>\n"
-"            :LBL"
-
-msgid ""
-"Já falei que essa versão está desatualizada.\n"
-"            "
-msgstr "Я вам сказав, що ця версія застаріла.            "
-
-msgid "DESEMPENHO"
-msgstr "ПРОДУКТИВНІСТЬ"
-
-msgid "COMPATIBILIDADE"
-msgstr "СУМІСНОСТІ"
-
-msgid "Compacta os dados"
-msgstr "Стискає дані"
-
-msgid "Pontos de restauração"
-msgstr "Відновлення контрольних точок"
-
-msgid "Adia a gravação dos dados"
-msgstr "Запис даних desist"
-
-msgid "Funciona com tabelas de particionamento antigas"
-msgstr "Робота зі старими таблицями розбиття на розділи"
-
-msgid "BTRFS com fsync"
-msgstr "БТРФС з фсинхроном"
-
-msgid "BTRFS sem fsync"
-msgstr "БТРФС без fsync"
-
-msgid "Instalar no HD"
-msgstr "Установка на HD"
-
-msgid "* Não utilize /boot separado"
-msgstr "* Не використовуйте /boot окремо"
-
-msgid "QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
-msgstr "ЯКІ ПАКЕТИ ВИ НЕ ХОЧЕТЕ В СИСТЕМІ?"
-
-msgid ""
-"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
-"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
-"prosseguir?"
-msgstr ""
-"BigLinux був розроблений і протестований на його стандартній установці, інші настільні комп'ютери "
-"підтримуються користувачами спільноти BigLinux і мають менше налаштувань і тестів, дійсно хочете "
-"продовжити?"
-
-msgid "Selecionar todos"
-msgstr "Виділити всі"
-
-msgid "Desmarcar todos"
-msgstr "Зняти прапорець для всіх"
-
-msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
-msgstr "ПІДТВЕРДЬТЕ ТА ПРОДОВЖУЙТЕ ІНСТАЛЯЦІЮ"
-
-msgid "Verificando pacotes, aguarde..."
-msgstr "Перевіряючи пакети, чекайте..."
-
-msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
-msgstr "<font color='red'><b>Не вдається інсталювати.</b></font><br><br> "
-
-msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
-msgstr "<font color='red'><b>Не вдається видалити.</b></font><br><br>"
-
-msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
-msgstr "<font color='red'><b>Не вдається знайти менеджер входу</b></font><br><br>"
-
-msgid "VOLTAR"
-msgstr "ПОВЕРНУТИСЯ"
-
-msgid "AVANÇAR"
-msgstr "АВАНС"
-
-msgid "ERRO!"
-msgstr "ПОМИЛКА!"
-
-msgid "SUCESSO!"
-msgstr "УСПІХ!"
-
-msgid "Personalizar a instalação:"
-msgstr "Налаштуйте установку:"
