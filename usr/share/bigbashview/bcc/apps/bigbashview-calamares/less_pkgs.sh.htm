@@ -15,7 +15,7 @@ LANGUAGE=$LANG:en
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=calamares-biglinux
 
-SELECT_TO_REMOVE=$"QUAIS PACOTES NÂO DESEJA NO SISTEMA?"
+SELECT_TO_REMOVE=$"QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
 DEFAULT=$"PADRÃO"
 CUSTOM=$"PERSONALIZADA"
 DEFAULT_OR_CUSTOM_TITLE=$"ESCOLHA O DESKTOP"
@@ -29,8 +29,8 @@ OTHER_DESKTOP_CONFIRM=$"UTILIZAR REALMENTE OUTRO DESKTOP"
 DEFAULT_OR_CUSTOM_TITLE_DESC=$"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por usuários experientes."
 BACK_DEFAULT=$"VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
 SELECT=$"SELECIONAR"
-SELECT_ALL=$"Selecionar todos"
-SELECT_NONE=$"Desmarcar todos"
+SELECT_ALL=$"SELECIONAR TODOS"
+SELECT_NONE=$"DESMARCAR TODOS"
 CONFIRM_AND_INSTALL=$"CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
 
 
@@ -83,7 +83,7 @@ cat << EOF
     
         <h4 style="text-align: center;"></h4>     
         <div id=checkbox_list class="biglinux-card">
-          <ul>
+          <ul style="padding-left: 20px;">
 EOF
         
 for pkg_to_remove  in $(cat list_pkgs_remove.txt); do

@@ -147,10 +147,6 @@ body.light-mode:before {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.72) 0%, rgba(255, 255, 255, 0.45) 100%) fixed;
 }
 
-
-
-
-
 .Message {
   display: table;
   position: absolute;
@@ -285,11 +281,11 @@ body.light-mode:before {
     /*height: 96%;*/
     margin: 0 auto;
     padding: 50px 5px 55px 5px;
-    max-width: 960px;
+    /*max-width: 960px;*/
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /*justify-content: center;*/
 }
 
 .panel {
@@ -351,6 +347,7 @@ body.light-mode:before {
   color: #888;
   font-weight: 600;
   letter-spacing: 3px;
+  font-size: 22px;
 }
 
 .calamares-big-features {
@@ -439,6 +436,7 @@ body.light-mode:before {
 .p {
     position: relative;
     margin-left: 32px;
+    margin-right: 32px;
     border-top: 1px solid var(--border-card-color);
     padding-bottom: 14px;
     padding-top: 14px;
@@ -1322,11 +1320,39 @@ img {
   }
 }
 
-
 .container-community {
   width:100%;
   height:auto;
   padding:1%;
   font-size: 20px;
 }
+
+
+  /* ------------- */
+ /*   TEXTAREA    */
+/* ------------- */
+
+label,
+textarea {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+textarea {
+    padding: 10px;
+    /*max-width: 90%;*/
+    height: 300px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
 
