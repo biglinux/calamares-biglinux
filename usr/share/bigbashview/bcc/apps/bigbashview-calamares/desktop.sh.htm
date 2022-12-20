@@ -108,7 +108,9 @@ cat << EOF
         <img src="icon-big-hd-install.svg" alt="Install" class="calamares-big-img" style="width: 100px;">
         <h3 class="calamares-big-header">$DEFAULT_OR_CUSTOM_TITLE</h3>
         <div class="p">
-        <br>$DEFAULT_OR_CUSTOM_TITLE_DESC<br><br>
+        
+        <div class="container-community">$DEFAULT_OR_CUSTOM_TITLE_DESC</div>
+        
         </div>
         <div class="p"> </div>
         <a href="#" onclick="customInstall()" class="calamares-big-button">$CUSTOM</a>
@@ -121,7 +123,9 @@ cat << EOF
         <img src="icon-big-hd-install.svg" alt="Install" class="calamares-big-img" style="width: 100px;">
         <h3 class="calamares-big-header">$CUSTOM_OR_MINIMAL</h3>
         <div class="p">
-        <br>$CUSTOM_OR_MINIMAL_DESC<br><br>
+        
+        <div class="container-community">$CUSTOM_OR_MINIMAL_DESC</div>
+        
         </div>
         <div class="p"> </div>
         <a href="#" onclick="customInstallConfirm()" class="calamares-big-button">$OTHER_DESKTOP</a>
