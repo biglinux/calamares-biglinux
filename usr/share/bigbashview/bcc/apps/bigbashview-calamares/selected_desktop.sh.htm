@@ -118,13 +118,9 @@ cat << EOF
 
   <div class=desktop_content>
   <h3 class="calamares-big-header">Gerenciador de login:</h3>
-
-  <input type="text" id="login_manager" name="login_manager" value="
 EOF
-  $(cat desktops/${desktop_selected}/login.txt)
-cat << EOF  
-  "></div>
-
+echo '<input type="text" id="login_manager" name="login_manager" value="'$(cat desktops/${desktop_selected}/login.txt)'"></div>'
+cat << EOF
 
 
   <input type="submit" class="calamares-big-button" value="$CONFIRM_AND_INSTALL">
