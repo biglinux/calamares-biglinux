@@ -167,7 +167,7 @@ keyrings:
     - biglinux' > /etc/calamares/modules/postcfg.conf
     
 
-sed -i 's|initialSwapChoice: none|initialSwapChoice: small|g' /etc/calamares/modules/partition.conf
+#sed -i 's|initialSwapChoice: none|initialSwapChoice: small|g' /etc/calamares/modules/partition.conf
 
 # General configuration
 echo '---
