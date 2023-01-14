@@ -14,188 +14,6 @@ msgstr  "Project-Id-Version: calamares-biglinux\n"
         "Content-Type: text/plain; charset=UTF-8\n"
         "Content-Transfer-Encoding: 8bit\n"
 
-msgid   "ESCOLHA O DESKTOP"
-msgstr  ""
-
-msgid   "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
-msgstr  ""
-
-msgid   "INSTALAR"
-msgstr  ""
-
-msgid   "DESKTOP"
-msgstr  ""
-
-msgid   "Aguarde..."
-msgstr  ""
-
-msgid   "Verificando conexão com a Internet..."
-msgstr  ""
-
-msgid   "Sem conexão com a Internet..."
-msgstr  ""
-
-msgid   "Atualizando lista de Interfaces..."
-msgstr  ""
-
-msgid   "O sistema está em modo"
-msgstr  ""
-
-msgid   "e com o kernel"
-msgstr  ""
-
-msgid   "Apagando /dev/sda"
-msgstr  ""
-
-msgid   "PADRÃO"
-msgstr  ""
-
-msgid   "DESEMPENHO"
-msgstr  ""
-
-msgid   "COMPATIBILIDADE"
-msgstr  ""
-
-msgid   "Compacta os dados"
-msgstr  ""
-
-msgid   "Pontos de restauração"
-msgstr  ""
-
-msgid   "Adia a gravação dos dados"
-msgstr  ""
-
-msgid   "Funciona com tabelas de particionamento antigas"
-msgstr  ""
-
-msgid   "BTRFS com fsync"
-msgstr  ""
-
-msgid   "BTRFS sem fsync"
-msgstr  ""
-
-msgid   "SELECIONAR"
-msgstr  ""
-
-msgid   "Instalar no HD"
-msgstr  ""
-
-msgid   "* Não utilize /boot separado"
-msgstr  ""
-
-msgid   "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
-msgstr  ""
-
-msgid   "<font color='red'><b>Não é possível remover.</b></font><br><br>"
-msgstr  ""
-
-msgid   "<font color='red'><b>Não é possível encontrar Gerenciador de Login</"
-        "b></font><br><br>"
-msgstr  ""
-
-msgid   "VOLTAR"
-msgstr  ""
-
-msgid   "AVANÇAR"
-msgstr  ""
-
-msgid   "ERRO!"
-msgstr  ""
-
-msgid   "SUCESSO!"
-msgstr  ""
-
-msgid   "PERSONALIZADA"
-msgstr  ""
-
-msgid   "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
-msgstr  ""
-
-msgid   "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-msgstr  ""
-
-msgid   "Para instalar outro desktop será necessário fazer o download durante "
-        "a instalação, o tempo de instalação vai depender da velocidade da "
-        "internet."
-msgstr  ""
-
-msgid   "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-msgstr  ""
-
-msgid   "O BigLinux foi elaborado e testado em sua instalação padrão, outros "
-        "desktops são mantidos por usuários da comunidade BigLinux e possuem "
-        "menos personalizações e testes, deseja realmente prosseguir?"
-msgstr  ""
-
-msgid   "MENOS PROGRAMAS"
-msgstr  ""
-
-msgid   "OUTROS DESKTOPS"
-msgstr  ""
-
-msgid   "UTILIZAR REALMENTE OUTRO DESKTOP"
-msgstr  ""
-
-msgid   "Em caso de dúvidas faça a instalação padrão, opções personalizadas "
-        "devem ser utilizadas apenas por usuários experientes."
-msgstr  ""
-
-msgid   "Personalizar a instalação:"
-msgstr  ""
-
-msgid   "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
-msgstr  ""
-
-msgid   "Os desktops a seguir são mantidos por usuários da comunidade "
-        "BigLinux e possuem menos personalizações e testes, deseja realmente "
-        "prosseguir?"
-msgstr  ""
-
-msgid   "<b>você está me desafiando?</b>\n"
-        "            :LBL"
-msgstr  ""
-
-msgid   "Já falei que essa versão está desatualizada.\n"
-        "            "
-msgstr  ""
-
-msgid   " OK"
-msgstr  ""
-
-msgid   "Versão Desatualizada"
-msgstr  ""
-
-msgid   "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
-msgstr  ""
-
-msgid   "SELECIONAR TODOS"
-msgstr  ""
-
-msgid   "DESMARCAR TODOS"
-msgstr  ""
-
-msgid   "Verificando pacotes, aguarde..."
-msgstr  ""
-
-msgid   "Verificando o arquivo:"
-msgstr  ""
-
-msgid   "Verificando se ocorreram erros no download ou pendrive, pode demorar "
-        "alguns minutos..."
-msgstr  ""
-
-msgid   "Verificando integridade do sistema"
-msgstr  ""
-
-msgid   "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
-msgstr  ""
-
-msgid   "Os arquivos estão integros."
-msgstr  ""
-
-msgid   "Verificação cancelada."
-msgstr  ""
-
 msgid   "<b>Deseja prosseguir com a instalação dessa versão antiga assim "
         "mesmo?</b>\n"
         "    :LBL"
@@ -213,9 +31,15 @@ msgstr  ""
 msgid   " Fechar"
 msgstr  ""
 
+msgid   "Versão Desatualizada"
+msgstr  ""
+
 msgid   "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais "
         "ser usada.</b>\n"
         "            :LBL"
+msgstr  ""
+
+msgid   " OK"
 msgstr  ""
 
 msgid   "Deseja prosseguir com com a instalação em modo EFI?"
@@ -259,4 +83,180 @@ msgstr  ""
 
 msgid   "\\nDeseja visualizar ou enviar o arquivo de log da instalação para a "
         "nuvem?\\ngerar um link para enviar no grupos de suporte.\\n"
+msgstr  ""
+
+msgid   "Verificando o arquivo:"
+msgstr  ""
+
+msgid   "Verificando se ocorreram erros no download ou pendrive, pode demorar "
+        "alguns minutos..."
+msgstr  ""
+
+msgid   "Verificando integridade do sistema"
+msgstr  ""
+
+msgid   "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr  ""
+
+msgid   "Os arquivos estão integros."
+msgstr  ""
+
+msgid   "Verificação cancelada."
+msgstr  ""
+
+msgid   "PADRÃO"
+msgstr  ""
+
+msgid   "PERSONALIZADA"
+msgstr  ""
+
+msgid   "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr  ""
+
+msgid   "ESCOLHA O DESKTOP"
+msgstr  ""
+
+msgid   "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr  ""
+
+msgid   "Para instalar outro desktop será necessário fazer o download durante "
+        "a instalação, o tempo de instalação vai depender da velocidade da "
+        "internet."
+msgstr  ""
+
+msgid   "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr  ""
+
+msgid   "O BigLinux foi elaborado e testado em sua instalação padrão, outros "
+        "desktops são mantidos por usuários da comunidade BigLinux e possuem "
+        "menos personalizações e testes, deseja realmente prosseguir?"
+msgstr  ""
+
+msgid   "MENOS PROGRAMAS"
+msgstr  ""
+
+msgid   "OUTROS DESKTOPS"
+msgstr  ""
+
+msgid   "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr  ""
+
+msgid   "Em caso de dúvidas faça a instalação padrão, opções personalizadas "
+        "devem ser utilizadas apenas por usuários experientes."
+msgstr  ""
+
+msgid   "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+msgstr  ""
+
+msgid   "SELECIONAR"
+msgstr  ""
+
+msgid   "Personalizar a instalação:"
+msgstr  ""
+
+msgid   "O sistema está em modo"
+msgstr  ""
+
+msgid   "e com o kernel"
+msgstr  ""
+
+msgid   "DESEMPENHO"
+msgstr  ""
+
+msgid   "COMPATIBILIDADE"
+msgstr  ""
+
+msgid   "Compacta os dados"
+msgstr  ""
+
+msgid   "Pontos de restauração"
+msgstr  ""
+
+msgid   "Adia a gravação dos dados"
+msgstr  ""
+
+msgid   "Funciona com tabelas de particionamento antigas"
+msgstr  ""
+
+msgid   "BTRFS com fsync"
+msgstr  ""
+
+msgid   "BTRFS sem fsync"
+msgstr  ""
+
+msgid   "Instalar no HD"
+msgstr  ""
+
+msgid   "* Não utilize /boot separado"
+msgstr  ""
+
+msgid   "Verificando pacotes, aguarde..."
+msgstr  ""
+
+msgid   "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr  ""
+
+msgid   "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr  ""
+
+msgid   "<font color='red'><b>Não é possível encontrar Gerenciador de Login</"
+        "b></font><br><br>"
+msgstr  ""
+
+msgid   "VOLTAR"
+msgstr  ""
+
+msgid   "AVANÇAR"
+msgstr  ""
+
+msgid   "ERRO!"
+msgstr  ""
+
+msgid   "SUCESSO!"
+msgstr  ""
+
+msgid   "INSTALAR"
+msgstr  ""
+
+msgid   "DESKTOP"
+msgstr  ""
+
+msgid   "Aguarde..."
+msgstr  ""
+
+msgid   "Verificando conexão com a Internet..."
+msgstr  ""
+
+msgid   "Sem conexão com a Internet..."
+msgstr  ""
+
+msgid   "Atualizando lista de Interfaces..."
+msgstr  ""
+
+msgid   "Apagando /dev/sda"
+msgstr  ""
+
+msgid   "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr  ""
+
+msgid   "Os desktops a seguir são mantidos por usuários da comunidade "
+        "BigLinux e possuem menos personalizações e testes, deseja realmente "
+        "prosseguir?"
+msgstr  ""
+
+msgid   "<b>você está me desafiando?</b>\n"
+        "            :LBL"
+msgstr  ""
+
+msgid   "Já falei que essa versão está desatualizada.\n"
+        "            "
+msgstr  ""
+
+msgid   "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
+msgstr  ""
+
+msgid   "SELECIONAR TODOS"
+msgstr  ""
+
+msgid   "DESMARCAR TODOS"
 msgstr  ""
