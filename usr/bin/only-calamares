@@ -14,4 +14,10 @@ echo "startkde-biglinux classic" > /tmp/big_desktop_changed
 sudo cp -f /tmp/big_desktop_theme /etc/default-theme-biglinux
 sudo cp -f /tmp/big_desktop_changed /etc/big_desktop_changed
 
-konsole -e sudo calamares
+if [ -e "/usr/bin/konsole" ];then
+    konsole -e sudo calamares
+elif [ -e "/usr/bin/urxvt" ];then
+    urxvt -e sudo calamares
+else
+    sudo calamares
+fi
