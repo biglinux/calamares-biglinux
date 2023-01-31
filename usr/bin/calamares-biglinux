@@ -11,56 +11,50 @@ done
 
 # md5sum
 if [ ! -f "/tmp/checksum_biglinux_ok.html" ]; then
-
     /usr/bin/biglinux-verify-md5sum
-
     if [ -f "/tmp/md5sum_big_fail" ]; then
         exit 1
     fi
 fi
 
-#Testing Verify Start
-if [ "$(grep biglinux-testing /etc/pacman.conf)" != "" ]; then
+#se a ISO foi gerada a mais de 30 dias emiter ALERTA
+if [ "$(echo $(( $(date +%s) / 86400 )))" -gt "$(( $(cat /usr/share/bigbashview/bcc/apps/bigbashview-calamares/install_date) + 30 ))" ]; then
+    yad --image=emblem-warning --image-on-top --form --width=500 --height=100 --fixed \
+    --align=center \
+    --field=$"<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>
+    :LBL" \
+    --text $"O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\nRecomendamos que faça o download de uma versão mais recente.
+    " \
+    --button=$" Continue":0 \
+    --button=$" Fechar":1 \
+    --center --on-top --borders=20 --title=$"Versão Desatualizada" \
+    --window-icon=emblem-warning
 
-    if [ "$(echo $(( $(date +%s) / 86400 )))" -gt "$(( $(cat /usr/share/bigbashview/bcc/apps/bigbashview-calamares/install_date) + 30 ))" ]; then
-        yad --image=emblem-warning --image-on-top --form --width=500 --height=100 --fixed \
-        --align=center \
-        --field=$"<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>
-        :LBL" \
-        --text $"O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\nRecomendamos que faça o download de uma versão mais recente.
-        " \
-        --button=$" Continue":0 \
-        --button=$" Fechar":1 \
-        --center --on-top --borders=20 --title=$"Versão Desatualizada" \
-        --window-icon=emblem-warning
-
-        
-        if [ "$?" = "1" ];then
-            exit 1
-        fi
-    fi
-
-    ruscherrelease=$(cat /etc/big-release | grep RELEASE | awk -F'=' '{print $2}')
-    ruschertimestamp=$(cat /etc/big-release | grep TIMESTAMP | awk -F'=' '{print $2}')
-    if [ "$(echo $ruscherrelease | wc -m)" -gt "11" ]; then
-        #if  [ "$(echo $(( $(date +%s) / 86400 )))" -gt "$(( $ruschertimestamp + 7 ))" ]; then
-            if [ -z "$(curl -s https://raw.githubusercontent.com/BigLinux-Package-Build/big-releases/main/testing | grep $ruscherrelease | grep -v "#")" ]; then
-                echo "ISO invalida"
-                yad --attach="$windowID" --image=emblem-warning --image-on-top --form --width=500 --height=100 --fixed \
-                --align=center \
-                --field=$"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>
-                :LBL" \
-                --button=$" OK":0 \
-                --center --on-top --borders=20 --title=$"Versão Desatualizada" \
-                --window-icon=emblem-warning
-                sudo pacman -R calamares-biglinux calamares --noconfirm
-                find $HOME -name calamares-biglinux.desktop -exec rm {} +
-                exit 1
-            fi
-        #fi
+    if [ "$?" = "1" ];then
+        exit 1
     fi
 fi
-#Testing Verify Stop
+
+#se a release tiver mais 11 digitos é por que é testing se tiver menos é stable
+ruscherrelease=$(cat /etc/big-release | grep RELEASE | awk -F'=' '{print $2}')
+ruschertimestamp=$(cat /etc/big-release | grep TIMESTAMP | awk -F'=' '{print $2}')
+if [ "$(echo $ruscherrelease | wc -m)" -gt "11" ]; then
+    #if  [ "$(echo $(( $(date +%s) / 86400 )))" -gt "$(( $ruschertimestamp + 7 ))" ]; then
+        if [ -z "$(curl -s https://raw.githubusercontent.com/BigLinux-Package-Build/big-releases/main/testing | grep $ruscherrelease | grep -v "#")" ]; then
+            echo "ISO invalida"
+            yad --attach="$windowID" --image=emblem-warning --image-on-top --form --width=500 --height=100 --fixed \
+            --align=center \
+            --field=$"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>
+            :LBL" \
+            --button=$" OK":0 \
+            --center --on-top --borders=20 --title=$"Versão Desatualizada" \
+            --window-icon=emblem-warning
+            sudo pacman -R calamares-biglinux calamares --noconfirm
+            find $HOME -name calamares-biglinux.desktop -exec rm {} +
+            exit 1
+        fi
+    #fi
+fi
 
 # disable swap on disk
 for diskswap in $(blkid | grep 'TYPE="swap"' | grep -v zram | cut -f1 -d:)
@@ -336,13 +330,14 @@ if [ -e "/tmp/start_calamares" ]; then
 fi
 
 #Calamares failed to install
-if [ "$(grep completion /root/.cache/calamares/session.log | rev | cut -d ":" -f1 | rev | sed 's/^ \+//')" = "failed" ];then
+if [ "$(grep completion /root/.cache/calamares/session.log | rev | cut -d ":" -f1 | rev | sed 's/^ \+//')" != "succeeded" ];then
+# if [ "$(grep completion /root/.cache/calamares/session.log | rev | cut -d ":" -f1 | rev | sed 's/^ \+//')" = "failed" ];then
     cp /root/.cache/calamares/session.log /home/biglinux/calamares.log
     chown biglinux:biglinux /home/biglinux/calamares.log
     
     send () {
     sudo -u biglinux curl --upload-file "/home/biglinux/calamares.log" https://transfer.sh | tee "/home/biglinux/transfer.url"  | zenity --modal --progress --pulsate --no-cancel --auto-close --text $"Enviando, aguarde..."
-    sudo -u biglinux  brave-browser --new-window --no-sandbox $(cat "/home/biglinux/transfer.url")
+    sudo -u biglinux brave-browser --new-window --no-sandbox $(cat "/home/biglinux/transfer.url")
     } 
 
     yad --buttons-layout=center \
@@ -358,5 +353,4 @@ if [ "$(grep completion /root/.cache/calamares/session.log | rev | cut -d ":" -f
         2) send;;
         3) echo "Fechando arquivo..." ;;
     esac
-# elif [ "$(grep completion /root/.cache/calamares/session.log | rev | cut -d ":" -f1 | rev | sed 's/^ \+//')" = "succeeded" ];then
 fi
