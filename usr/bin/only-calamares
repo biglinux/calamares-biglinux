@@ -15,8 +15,10 @@ sudo cp -f /tmp/big_desktop_theme /etc/default-theme-biglinux
 sudo cp -f /tmp/big_desktop_changed /etc/big_desktop_changed
 
 if [ -e "/usr/bin/konsole" ];then
+    konsole -e nmtui-connect
     konsole -e sudo calamares
 elif [ -e "/usr/bin/urxvt" ];then
+    urxvt -e nmtui-connect
     urxvt -e sudo calamares
 else
     sudo calamares
