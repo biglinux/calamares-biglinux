@@ -5,11 +5,18 @@ LANGUAGE=$LANG:en
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=calamares-biglinux
 
+# md5sum
+if [  "$(ps -e | grep biglinux-verify)" != "" ]; then
+    windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
+    sleep 600 | zenity --attach="$windowID" --width=300 --progress --title=$"Aguarde..." --pulsate --no-cancel --auto-close --text $"Verificando a integridade do download e dispositivo de armazenamento..." &
+fi
+
 while [  "$(ps -e | grep biglinux-verify)" != "" ]; do
     sleep 1
 done
 
-# md5sum
+killall zenity
+
 if [ ! -f "/tmp/checksum_biglinux_ok.html" ]; then
     /usr/bin/biglinux-verify-md5sum
     if [ -f "/tmp/md5sum_big_fail" ]; then
