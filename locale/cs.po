@@ -16,17 +16,56 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "ESCOLHA O DESKTOP"
-msgstr "ZVOLTE STOLNÍ POČÍTAČ"
+msgid "PADRÃO"
+msgstr "VZOR"
+
+msgid "PERSONALIZADA"
+msgstr "ZVYK"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "STANDARDNÍ NEBO ZAKÁZKOVÁ INSTALACE?"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "INSTALOVAT S MENŠÍM POČTEM PROGRAMŮ NEBO POUŽÍVAT JINOU PLOCHU?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Chcete-li nainstalovat další pracovní plochu bude muset stáhnout během instalace, doba instalace "
+"bude záviset na rychlosti internetu."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "OPRAVDU CHCETE NAINSTALOVAT DALŠÍ PRACOVNÍ PLOCHU?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Následující desktopy jsou udržovány uživateli komunity BigLinux a mají méně úprav a testů, opravdu "
+"chcete pokračovat?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "MÉNĚ PROGRAMŮ"
+
+msgid "OUTROS DESKTOPS"
+msgstr "OSTATNÍ STOLNÍ POČÍTAČE"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "VE SKUTEČNOSTI POUŽIJTE JINOU PRACOVNÍ PLOCHU"
 
 msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
 msgstr "ZPĚT A POUŽIJTE STANDARDNÍ INSTALACI"
 
-msgid "INSTALAR"
-msgstr "NAINSTALOVAT"
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"V případě pochybností proveďte standardní instalaci, vlastní možnosti by měly být používány pouze "
+"zkušenými uživateli."
 
-msgid "DESKTOP"
-msgstr "PLOCHA"
+msgid "SELECIONAR"
+msgstr "VYBRAT"
 
 msgid "Aguarde..."
 msgstr "Vydrž..."
@@ -37,8 +76,23 @@ msgstr "Kontrola připojení k internetu..."
 msgid "Sem conexão com a Internet..."
 msgstr "Žádné připojení k internetu..."
 
-msgid "Atualizando lista de Interfaces..."
-msgstr "Aktualizace seznamu rozhraní..."
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Vyzýváte mě?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Říkal jsem vám, že tato verze je zastaralá.            "
+
+msgid " OK"
+msgstr " OK"
+
+msgid "Versão Desatualizada"
+msgstr "Zastaralá verze"
 
 msgid "O sistema está em modo"
 msgstr "Systém je v"
@@ -46,11 +100,52 @@ msgstr "Systém je v"
 msgid "e com o kernel"
 msgstr "a s jádrem"
 
-msgid "Apagando /dev/sda"
-msgstr "Mazání / dev / sda"
+msgid "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
+msgstr "JAKÉ BALÍČKY V SYSTÉMU NECHCETE?"
 
-msgid "PADRÃO"
-msgstr "VZOR"
+msgid "ESCOLHA O DESKTOP"
+msgstr "ZVOLTE STOLNÍ POČÍTAČ"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux byl navržen a testován na své standardní instalaci, ostatní desktopy jsou udržovány "
+"uživateli komunity BigLinux a mají méně úprav a testů, opravdu chcete pokračovat?"
+
+msgid "SELECIONAR TODOS"
+msgstr "VYBRAT VŠE"
+
+msgid "DESMARCAR TODOS"
+msgstr "ZRUŠIT ZAŠKRTNUTÍ VŠE"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "POTVRĎTE A POKRAČUJTE V INSTALACI"
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Kontrola balíků, čekání..."
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Nelze nainstalovat.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Nelze odebrat.</b></font><br><br>"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Nelze najít Správce přihlášení</b></font><br><br>"
+
+msgid "VOLTAR"
+msgstr "VRAŤ SE"
+
+msgid "AVANÇAR"
+msgstr "ZÁLOHA"
+
+msgid "ERRO!"
+msgstr "CHYBA!"
+
+msgid "SUCESSO!"
+msgstr "ÚSPĚCH!"
 
 msgid "DESEMPENHO"
 msgstr "PŘEDSTAVENÍ"
@@ -76,154 +171,41 @@ msgstr "BTRFS s fsync"
 msgid "BTRFS sem fsync"
 msgstr "BTRFS bez fsync"
 
-msgid "SELECIONAR"
-msgstr "VYBRAT"
-
 msgid "Instalar no HD"
 msgstr "Instalace na HD"
 
 msgid "* Não utilize /boot separado"
 msgstr "* Nepoužívejte /boot samostatně"
 
-msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
-msgstr "<font color='red'><b>Nelze nainstalovat.</b></font><br><br> "
-
-msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
-msgstr "<font color='red'><b>Nelze odebrat.</b></font><br><br>"
-
-msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
-msgstr "<font color='red'><b>Nelze najít Správce přihlášení</b></font><br><br>"
-
-msgid "VOLTAR"
-msgstr "VRAŤ SE"
-
-msgid "AVANÇAR"
-msgstr "ZÁLOHA"
-
-msgid "ERRO!"
-msgstr "CHYBA!"
-
-msgid "SUCESSO!"
-msgstr "ÚSPĚCH!"
-
-msgid "PERSONALIZADA"
-msgstr "ZVYK"
-
-msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
-msgstr "POTVRĎTE A POKRAČUJTE V INSTALACI"
-
-msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-msgstr "INSTALOVAT S MENŠÍM POČTEM PROGRAMŮ NEBO POUŽÍVAT JINOU PLOCHU?"
-
-msgid ""
-"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
-"instalação vai depender da velocidade da internet."
-msgstr ""
-"Chcete-li nainstalovat další pracovní plochu bude muset stáhnout během instalace, doba instalace "
-"bude záviset na rychlosti internetu."
-
-msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-msgstr "OPRAVDU CHCETE NAINSTALOVAT DALŠÍ PRACOVNÍ PLOCHU?"
-
-msgid ""
-"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
-"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
-"prosseguir?"
-msgstr ""
-"BigLinux byl navržen a testován na své standardní instalaci, ostatní desktopy jsou udržovány "
-"uživateli komunity BigLinux a mají méně úprav a testů, opravdu chcete pokračovat?"
-
-msgid "MENOS PROGRAMAS"
-msgstr "MÉNĚ PROGRAMŮ"
-
-msgid "OUTROS DESKTOPS"
-msgstr "OSTATNÍ STOLNÍ POČÍTAČE"
-
-msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
-msgstr "VE SKUTEČNOSTI POUŽIJTE JINOU PRACOVNÍ PLOCHU"
-
-msgid ""
-"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
-"usuários experientes."
-msgstr ""
-"V případě pochybností proveďte standardní instalaci, vlastní možnosti by měly být používány pouze "
-"zkušenými uživateli."
-
 msgid "Personalizar a instalação:"
 msgstr "Přizpůsobení instalace:"
 
-msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
-msgstr "STANDARDNÍ NEBO ZAKÁZKOVÁ INSTALACE?"
+msgid "INSTALAR"
+msgstr "NAINSTALOVAT"
 
-msgid ""
-"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
-"personalizações e testes, deseja realmente prosseguir?"
-msgstr ""
-"Následující desktopy jsou udržovány uživateli komunity BigLinux a mají méně úprav a testů, opravdu "
-"chcete pokračovat?"
+msgid "DESKTOP"
+msgstr "PLOCHA"
 
-msgid ""
-"<b>você está me desafiando?</b>\n"
-"            :LBL"
-msgstr ""
-"<b>Vyzýváte mě?</b>\n"
-"            :LBL"
+msgid "Atualizando lista de Interfaces..."
+msgstr "Aktualizace seznamu rozhraní..."
 
-msgid ""
-"Já falei que essa versão está desatualizada.\n"
-"            "
-msgstr "Říkal jsem vám, že tato verze je zastaralá.            "
-
-msgid " OK"
-msgstr " OK"
-
-msgid "Versão Desatualizada"
-msgstr "Zastaralá verze"
-
-msgid "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
-msgstr "JAKÉ BALÍČKY V SYSTÉMU NECHCETE?"
-
-msgid "SELECIONAR TODOS"
-msgstr "VYBRAT VŠE"
-
-msgid "DESMARCAR TODOS"
-msgstr "ZRUŠIT ZAŠKRTNUTÍ VŠE"
-
-msgid "Verificando pacotes, aguarde..."
-msgstr "Kontrola balíků, čekání..."
-
-msgid "Verificando o arquivo:"
-msgstr "Kontrola souboru:"
-
-msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
-msgstr "Kontrola chyb ve stahování nebo USB flash disku může trvat několik minut ..."
-
-msgid "Verificando integridade do sistema"
-msgstr "Kontrola stavu systému"
-
-msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
-msgstr "Chyba nalezena, znovu stáhněte systém nebo použijte jiný USB flash disk."
-
-msgid "Os arquivos estão integros."
-msgstr "Soubory jsou integrovány."
-
-msgid "Verificação cancelada."
-msgstr "Kontrola byla zrušena."
+msgid "Apagando /dev/sda"
+msgstr "Mazání / dev / sda"
 
 msgid ""
 "<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
-"    :LBL"
+"        :LBL"
 msgstr ""
 "<b>Chcete přesto pokračovat v instalaci této staré verze?</b>\n"
-"    :LBL"
+"        :LBL"
 
 msgid ""
 "O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
 "Recomendamos que faça o download de uma versão mais recente.\n"
-"    "
+"        "
 msgstr ""
 "BigLinux je týdenní aktualizační systém a tato verze byla vydána více než měsíc.\\n"
-"Doporučujeme stáhnout novější verzi.    "
+"Doporučujeme stáhnout novější verzi.        "
 
 msgid " Continue"
 msgstr " Tak do toho"
@@ -233,10 +215,10 @@ msgstr " Zavřít"
 
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
-"            :LBL"
+"                :LBL"
 msgstr ""
 "<b>Tato vývojová verze je zastaralá a nelze ji již používat.</b>\n"
-"            :LBL"
+"                :LBL"
 
 msgid "Deseja prosseguir com com a instalação em modo EFI?"
 msgstr "Chcete pokračovat v instalaci v režimu EFI?"
@@ -294,3 +276,21 @@ msgstr ""
 "\\n"
 "Chcete zobrazit nebo odeslat soubor protokolu instalace do cloudu?\\n"
 "Vygenerujte odkaz pro odeslání ve skupinách podpory.\\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Kontrola souboru:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Kontrola chyb ve stahování nebo USB flash disku může trvat několik minut ..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Kontrola stavu systému"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Chyba nalezena, znovu stáhněte systém nebo použijte jiný USB flash disk."
+
+msgid "Os arquivos estão integros."
+msgstr "Soubory jsou integrovány."
+
+msgid "Verificação cancelada."
+msgstr "Kontrola byla zrušena."

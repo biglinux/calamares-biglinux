@@ -16,17 +16,56 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "ESCOLHA O DESKTOP"
-msgstr "VELJA SKJÁBORÐ"
+msgid "PADRÃO"
+msgstr "MYNSTUR"
+
+msgid "PERSONALIZADA"
+msgstr "VENJA"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "VENJULEG EÐA SÉRSNIÐIN UPPSETNING?"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "SETJA UPP MEÐ FÆRRI FORRITUM EÐA NOTA ANNAÐ SKJÁBORÐ?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Til að setja upp annað skjáborð þarf að hlaða niður meðan á uppsetningu stendur, uppsetningartíminn "
+"fer eftir hraða internetsins."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "VILTU ÖRUGGLEGA SETJA UPP ANNAÐ SKJÁBORÐ?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Eftirfarandi skjáborðum er viðhaldið af notendum BigLinux samfélagsins og hafa færri sérsniðnar og "
+"prófanir, viltu virkilega halda áfram?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "FÆRRI FORRIT"
+
+msgid "OUTROS DESKTOPS"
+msgstr "ÖNNUR SKJÁBORÐ"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "NOTA REYNDAR ANNAÐ SKJÁBORÐ"
 
 msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
 msgstr "AFTUR OG NOTAÐU VENJULEGU UPPSETNINGUNA"
 
-msgid "INSTALAR"
-msgstr "EMBÆTTI"
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Ef vafi leikur á venjulegri uppsetningu, ættu sérsniðnir valkostir aðeins að vera notaðir af "
+"reyndum notendum."
 
-msgid "DESKTOP"
-msgstr "SKJÁBORÐ"
+msgid "SELECIONAR"
+msgstr "VELJA"
 
 msgid "Aguarde..."
 msgstr "Bíddu..."
@@ -37,8 +76,23 @@ msgstr "Athuga nettengingu..."
 msgid "Sem conexão com a Internet..."
 msgstr "Engin nettenging..."
 
-msgid "Atualizando lista de Interfaces..."
-msgstr "Uppfærsla lista yfir tengi ..."
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Ertu að ögra mér?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Ég sagði þér að þessi útgáfa er úrelt.            "
+
+msgid " OK"
+msgstr " ÓKEI"
+
+msgid "Versão Desatualizada"
+msgstr "Úrelt útgáfa"
 
 msgid "O sistema está em modo"
 msgstr "Kerfið er í"
@@ -46,11 +100,52 @@ msgstr "Kerfið er í"
 msgid "e com o kernel"
 msgstr "og með kjarnanum"
 
-msgid "Apagando /dev/sda"
-msgstr "Eyðing / dev / sda"
+msgid "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
+msgstr "HVAÐA PAKKA VILTU EKKI HAFA Í KERFINU?"
 
-msgid "PADRÃO"
-msgstr "MYNSTUR"
+msgid "ESCOLHA O DESKTOP"
+msgstr "VELJA SKJÁBORÐ"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux hefur verið hannað og prófað á venjulegri uppsetningu, öðrum skjáborðum er viðhaldið af "
+"notendum BigLinux samfélagsins og hafa færri sérsniðnar og prófanir, viltu virkilega halda áfram?"
+
+msgid "SELECIONAR TODOS"
+msgstr "VELDU ALLT"
+
+msgid "DESMARCAR TODOS"
+msgstr "AFHAKIÐ ALLT"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "STAÐFESTA OG HALDA ÁFRAM MEÐ UPPSETNINGU"
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Skoða pakka, bíddu..."
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Get ekki sett upp.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Get ekki fjarlægt.</b></font><br><br>"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Finn ekki innskráningarstjóra</b></font><br><br>"
+
+msgid "VOLTAR"
+msgstr "KOMDU AFTUR"
+
+msgid "AVANÇAR"
+msgstr "FYRIRFRAM"
+
+msgid "ERRO!"
+msgstr "VILLA!"
+
+msgid "SUCESSO!"
+msgstr "VELGENGNI!"
 
 msgid "DESEMPENHO"
 msgstr "FRAMKVÆMD"
@@ -76,154 +171,41 @@ msgstr "BTRFS með fsync"
 msgid "BTRFS sem fsync"
 msgstr "BTRFS án fsync"
 
-msgid "SELECIONAR"
-msgstr "VELJA"
-
 msgid "Instalar no HD"
 msgstr "Setja upp HD"
 
 msgid "* Não utilize /boot separado"
 msgstr "* Ekki nota / ræsa sérstaklega"
 
-msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
-msgstr "<font color='red'><b>Get ekki sett upp.</b></font><br><br> "
-
-msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
-msgstr "<font color='red'><b>Get ekki fjarlægt.</b></font><br><br>"
-
-msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
-msgstr "<font color='red'><b>Finn ekki innskráningarstjóra</b></font><br><br>"
-
-msgid "VOLTAR"
-msgstr "KOMDU AFTUR"
-
-msgid "AVANÇAR"
-msgstr "FYRIRFRAM"
-
-msgid "ERRO!"
-msgstr "VILLA!"
-
-msgid "SUCESSO!"
-msgstr "VELGENGNI!"
-
-msgid "PERSONALIZADA"
-msgstr "VENJA"
-
-msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
-msgstr "STAÐFESTA OG HALDA ÁFRAM MEÐ UPPSETNINGU"
-
-msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-msgstr "SETJA UPP MEÐ FÆRRI FORRITUM EÐA NOTA ANNAÐ SKJÁBORÐ?"
-
-msgid ""
-"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
-"instalação vai depender da velocidade da internet."
-msgstr ""
-"Til að setja upp annað skjáborð þarf að hlaða niður meðan á uppsetningu stendur, uppsetningartíminn "
-"fer eftir hraða internetsins."
-
-msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-msgstr "VILTU ÖRUGGLEGA SETJA UPP ANNAÐ SKJÁBORÐ?"
-
-msgid ""
-"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
-"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
-"prosseguir?"
-msgstr ""
-"BigLinux hefur verið hannað og prófað á venjulegri uppsetningu, öðrum skjáborðum er viðhaldið af "
-"notendum BigLinux samfélagsins og hafa færri sérsniðnar og prófanir, viltu virkilega halda áfram?"
-
-msgid "MENOS PROGRAMAS"
-msgstr "FÆRRI FORRIT"
-
-msgid "OUTROS DESKTOPS"
-msgstr "ÖNNUR SKJÁBORÐ"
-
-msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
-msgstr "NOTA REYNDAR ANNAÐ SKJÁBORÐ"
-
-msgid ""
-"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
-"usuários experientes."
-msgstr ""
-"Ef vafi leikur á venjulegri uppsetningu, ættu sérsniðnir valkostir aðeins að vera notaðir af "
-"reyndum notendum."
-
 msgid "Personalizar a instalação:"
 msgstr "Sérsníða uppsetningu:"
 
-msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
-msgstr "VENJULEG EÐA SÉRSNIÐIN UPPSETNING?"
+msgid "INSTALAR"
+msgstr "EMBÆTTI"
 
-msgid ""
-"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
-"personalizações e testes, deseja realmente prosseguir?"
-msgstr ""
-"Eftirfarandi skjáborðum er viðhaldið af notendum BigLinux samfélagsins og hafa færri sérsniðnar og "
-"prófanir, viltu virkilega halda áfram?"
+msgid "DESKTOP"
+msgstr "SKJÁBORÐ"
 
-msgid ""
-"<b>você está me desafiando?</b>\n"
-"            :LBL"
-msgstr ""
-"<b>Ertu að ögra mér?</b>\n"
-"            :LBL"
+msgid "Atualizando lista de Interfaces..."
+msgstr "Uppfærsla lista yfir tengi ..."
 
-msgid ""
-"Já falei que essa versão está desatualizada.\n"
-"            "
-msgstr "Ég sagði þér að þessi útgáfa er úrelt.            "
-
-msgid " OK"
-msgstr " ÓKEI"
-
-msgid "Versão Desatualizada"
-msgstr "Úrelt útgáfa"
-
-msgid "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
-msgstr "HVAÐA PAKKA VILTU EKKI HAFA Í KERFINU?"
-
-msgid "SELECIONAR TODOS"
-msgstr "VELDU ALLT"
-
-msgid "DESMARCAR TODOS"
-msgstr "AFHAKIÐ ALLT"
-
-msgid "Verificando pacotes, aguarde..."
-msgstr "Skoða pakka, bíddu..."
-
-msgid "Verificando o arquivo:"
-msgstr "Athugun á skránni:"
-
-msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
-msgstr "Að leita að villum í niðurhali eða USB-staf, það getur tekið nokkrar mínútur ..."
-
-msgid "Verificando integridade do sistema"
-msgstr "Athugun á heilsu kerfisins"
-
-msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
-msgstr "Villa fannst, halaðu niður kerfinu aftur eða notaðu annan USB-staf."
-
-msgid "Os arquivos estão integros."
-msgstr "Skrárnar eru samþættar."
-
-msgid "Verificação cancelada."
-msgstr "Ávísun hætt við."
+msgid "Apagando /dev/sda"
+msgstr "Eyðing / dev / sda"
 
 msgid ""
 "<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
-"    :LBL"
+"        :LBL"
 msgstr ""
-"<b>Viltu samt halda áfram með að setja upp þessa gömlu útgáfu?</b>\n"
-"    :LBL"
+"<b>Viltu samt halda áfram að setja upp þessa gömlu útgáfu?</b>\n"
+"        :LBL"
 
 msgid ""
 "O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
 "Recomendamos que faça o download de uma versão mais recente.\n"
-"    "
+"        "
 msgstr ""
 "BigLinux er vikulega uppfærslukerfi og þessi útgáfa hefur verið gefin út í meira en mánuð.\\n"
-"Við mælum með að þú hleður niður nýrri útgáfu.    "
+"Við mælum með að þú hleður niður nýrri útgáfu.        "
 
 msgid " Continue"
 msgstr " Haltu áfram"
@@ -233,10 +215,10 @@ msgstr " Loka"
 
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
-"            :LBL"
+"                :LBL"
 msgstr ""
 "<b>Þessi þróunarútgáfa er úrelt og ekki lengur hægt að nota hana.</b>\n"
-"            :LBL"
+"                :LBL"
 
 msgid "Deseja prosseguir com com a instalação em modo EFI?"
 msgstr "Viltu halda áfram með uppsetninguna í EFI ham?"
@@ -294,3 +276,21 @@ msgstr ""
 "\\n"
 "Do þú vilt skoða eða senda uppsetningarannálaskrána í skýið?\\n"
 "generate tengil til að senda inn stuðningshópa.\\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Athugun á skránni:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Að leita að villum í niðurhali eða USB-staf, það getur tekið nokkrar mínútur ..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Athugun á heilsu kerfisins"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Villa fannst, halaðu niður kerfinu aftur eða notaðu annan USB-staf."
+
+msgid "Os arquivos estão integros."
+msgstr "Skrárnar eru samþættar."
+
+msgid "Verificação cancelada."
+msgstr "Ávísun hætt við."

@@ -16,17 +16,54 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "ESCOLHA O DESKTOP"
-msgstr "VALIGE TÖÖLAUD"
+msgid "PADRÃO"
+msgstr "MUSTER"
+
+msgid "PERSONALIZADA"
+msgstr "KOMME"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "STANDARDNE VÕI KOHANDATUD INSTALLIMINE?"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "KAS INSTALLIDA VÄHEMATE PROGRAMMIDEGA VÕI KASUTADA MÕNDA MUUD TÖÖLAUDA?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Teise töölaua installimiseks tuleb installimise ajal alla laadida, installiaeg sõltub Interneti "
+"kiirusest."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "KAS SOOVITE TÕESTI INSTALLIDA TEISE TÖÖLAUA?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Järgmisi lauaarvuteid haldavad BigLinuxi kogukonna kasutajad ning neil on vähem kohandusi ja teste, "
+"kas soovite tõesti jätkata?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "VÄHEM PROGRAMME"
+
+msgid "OUTROS DESKTOPS"
+msgstr "MUUD LAUAARVUTID"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "TEGELIKULT KASUTAGE MÕNDA MUUD TÖÖLAUDA"
 
 msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
 msgstr "TAGASI JA KASUTAGE STANDARDPAIGALDUST"
 
-msgid "INSTALAR"
-msgstr "INSTALLIDA"
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr "Kui kahtlete standardinstallimises, peaksid kohandatud valikuid kasutama ainult kogenud kasutajad."
 
-msgid "DESKTOP"
-msgstr "TÖÖLAUA"
+msgid "SELECIONAR"
+msgstr "VALIMA"
 
 msgid "Aguarde..."
 msgstr "Pea kinni..."
@@ -37,8 +74,23 @@ msgstr "Interneti-ühenduse kontrollimine ..."
 msgid "Sem conexão com a Internet..."
 msgstr "Interneti-ühendus puudub ..."
 
-msgid "Atualizando lista de Interfaces..."
-msgstr "Liideste loendi värskendamine ..."
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Kas sa esitad mulle väljakutse?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Ma ütlesin teile, see versioon on aegunud.            "
+
+msgid " OK"
+msgstr " OK"
+
+msgid "Versão Desatualizada"
+msgstr "Aegunud versioon"
 
 msgid "O sistema está em modo"
 msgstr "Süsteem on sees"
@@ -46,11 +98,52 @@ msgstr "Süsteem on sees"
 msgid "e com o kernel"
 msgstr "ja tuumaga"
 
-msgid "Apagando /dev/sda"
-msgstr "Kustutamine /dev/sda"
+msgid "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
+msgstr "MILLISEID PAKETTE TE SÜSTEEMIS EI SOOVI?"
 
-msgid "PADRÃO"
-msgstr "MUSTER"
+msgid "ESCOLHA O DESKTOP"
+msgstr "VALIGE TÖÖLAUD"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux on loodud ja testitud selle standardinstallimisel, teisi lauaarvuteid hooldavad BigLinuxi "
+"kogukonna kasutajad ning neil on vähem kohandusi ja teste, kas soovite tõesti jätkata?"
+
+msgid "SELECIONAR TODOS"
+msgstr "VALI KÕIK"
+
+msgid "DESMARCAR TODOS"
+msgstr "TÜHJENDA KÕIK"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "KINNITAGE JA JÄTKAKE INSTALLIMIST"
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Pakkide kontrollimine, oota..."
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Ei saa installida.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Ei saa eemaldada.</b></font><br><br>"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Ei leia sisselogimishaldurit</b></font><br><br>"
+
+msgid "VOLTAR"
+msgstr "TULE TAGASI"
+
+msgid "AVANÇAR"
+msgstr "ETTE"
+
+msgid "ERRO!"
+msgstr "VIGA!"
+
+msgid "SUCESSO!"
+msgstr "EDU!"
 
 msgid "DESEMPENHO"
 msgstr "JÕUDLUST"
@@ -76,152 +169,41 @@ msgstr "BTRFS koos fsynciga"
 msgid "BTRFS sem fsync"
 msgstr "BTRFS ilma fsyncita"
 
-msgid "SELECIONAR"
-msgstr "VALIMA"
-
 msgid "Instalar no HD"
 msgstr "Installige HD-le"
 
 msgid "* Não utilize /boot separado"
 msgstr "* Ära kasuta /boot eraldi"
 
-msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
-msgstr "<font color='red'><b>Ei saa installida.</b></font><br><br> "
-
-msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
-msgstr "<font color='red'><b>Ei saa eemaldada.</b></font><br><br>"
-
-msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
-msgstr "<font color='red'><b>Ei leia sisselogimishaldurit</b></font><br><br>"
-
-msgid "VOLTAR"
-msgstr "TULE TAGASI"
-
-msgid "AVANÇAR"
-msgstr "ETTE"
-
-msgid "ERRO!"
-msgstr "VIGA!"
-
-msgid "SUCESSO!"
-msgstr "EDU!"
-
-msgid "PERSONALIZADA"
-msgstr "KOMME"
-
-msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
-msgstr "KINNITAGE JA JÄTKAKE INSTALLIMIST"
-
-msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-msgstr "KAS INSTALLIDA VÄHEMATE PROGRAMMIDEGA VÕI KASUTADA MÕNDA MUUD TÖÖLAUDA?"
-
-msgid ""
-"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
-"instalação vai depender da velocidade da internet."
-msgstr ""
-"Teise töölaua installimiseks tuleb installimise ajal alla laadida, installiaeg sõltub Interneti "
-"kiirusest."
-
-msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-msgstr "KAS SOOVITE TÕESTI INSTALLIDA TEISE TÖÖLAUA?"
-
-msgid ""
-"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
-"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
-"prosseguir?"
-msgstr ""
-"BigLinux on loodud ja testitud selle standardinstallimisel, teisi lauaarvuteid hooldavad BigLinuxi "
-"kogukonna kasutajad ning neil on vähem kohandusi ja teste, kas soovite tõesti jätkata?"
-
-msgid "MENOS PROGRAMAS"
-msgstr "VÄHEM PROGRAMME"
-
-msgid "OUTROS DESKTOPS"
-msgstr "MUUD LAUAARVUTID"
-
-msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
-msgstr "TEGELIKULT KASUTAGE MÕNDA MUUD TÖÖLAUDA"
-
-msgid ""
-"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
-"usuários experientes."
-msgstr "Kui kahtlete standardinstallimises, peaksid kohandatud valikuid kasutama ainult kogenud kasutajad."
-
 msgid "Personalizar a instalação:"
 msgstr "Installimise kohandamine:"
 
-msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
-msgstr "STANDARDNE VÕI KOHANDATUD INSTALLIMINE?"
+msgid "INSTALAR"
+msgstr "INSTALLIDA"
 
-msgid ""
-"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
-"personalizações e testes, deseja realmente prosseguir?"
-msgstr ""
-"Järgmisi lauaarvuteid haldavad BigLinuxi kogukonna kasutajad ning neil on vähem kohandusi ja teste, "
-"kas soovite tõesti jätkata?"
+msgid "DESKTOP"
+msgstr "TÖÖLAUA"
 
-msgid ""
-"<b>você está me desafiando?</b>\n"
-"            :LBL"
-msgstr ""
-"<b>Kas sa esitad mulle väljakutse?</b>\n"
-"            :LBL"
+msgid "Atualizando lista de Interfaces..."
+msgstr "Liideste loendi värskendamine ..."
 
-msgid ""
-"Já falei que essa versão está desatualizada.\n"
-"            "
-msgstr "Ma ütlesin teile, see versioon on aegunud.            "
-
-msgid " OK"
-msgstr " OK"
-
-msgid "Versão Desatualizada"
-msgstr "Aegunud versioon"
-
-msgid "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
-msgstr "MILLISEID PAKETTE TE SÜSTEEMIS EI SOOVI?"
-
-msgid "SELECIONAR TODOS"
-msgstr "VALI KÕIK"
-
-msgid "DESMARCAR TODOS"
-msgstr "TÜHJENDA KÕIK"
-
-msgid "Verificando pacotes, aguarde..."
-msgstr "Pakkide kontrollimine, oota..."
-
-msgid "Verificando o arquivo:"
-msgstr "Faili kontrollimine:"
-
-msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
-msgstr "Allalaadimise või USB-pulga vigade kontrollimine võib võtta paar minutit ..."
-
-msgid "Verificando integridade do sistema"
-msgstr "Süsteemi seisundi kontrollimine"
-
-msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
-msgstr "Viga leiti, laadige süsteem uuesti alla või kasutage mõnda muud USB-mälupulka."
-
-msgid "Os arquivos estão integros."
-msgstr "Failid on integreeritud."
-
-msgid "Verificação cancelada."
-msgstr "Tšekk tühistatud."
+msgid "Apagando /dev/sda"
+msgstr "Kustutamine /dev/sda"
 
 msgid ""
 "<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
-"    :LBL"
+"        :LBL"
 msgstr ""
 "<b>Kas soovite selle vana versiooni installimist ikkagi jätkata?</b>\n"
-"    :LBL"
+"        :LBL"
 
 msgid ""
 "O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
 "Recomendamos que faça o download de uma versão mais recente.\n"
-"    "
+"        "
 msgstr ""
 "BigLinux on iganädalane värskendussüsteem ja see versioon on välja antud üle kuu.\\n"
-"Soovitame teil alla laadida uuema versiooni.    "
+"Soovitame teil alla laadida uuema versiooni.        "
 
 msgid " Continue"
 msgstr " Jätka"
@@ -231,10 +213,10 @@ msgstr " Sulgema"
 
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
-"            :LBL"
+"                :LBL"
 msgstr ""
 "<b>See arendusversioon on aegunud ja seda ei saa enam kasutada.</b>\n"
-"            :LBL"
+"                :LBL"
 
 msgid "Deseja prosseguir com com a instalação em modo EFI?"
 msgstr "Kas soovite installimist jätkata EFI-režiimis?"
@@ -293,3 +275,21 @@ msgstr ""
 "\\n"
 "Kas soovite vaadata või saata installi logifaili pilve?\\n"
 "generate link tugirühmadesse saatmiseks.\\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Faili kontrollimine:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Allalaadimise või USB-pulga vigade kontrollimine võib võtta paar minutit ..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Süsteemi seisundi kontrollimine"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Viga leiti, laadige süsteem uuesti alla või kasutage mõnda muud USB-mälupulka."
+
+msgid "Os arquivos estão integros."
+msgstr "Failid on integreeritud."
+
+msgid "Verificação cancelada."
+msgstr "Tšekk tühistatud."

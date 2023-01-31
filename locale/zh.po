@@ -16,17 +16,50 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "ESCOLHA O DESKTOP"
-msgstr "选择桌面"
+msgid "PADRÃO"
+msgstr "模式"
+
+msgid "PERSONALIZADA"
+msgstr "习惯"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "标准安装还是定制安装？"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "使用较少的程序安装或使用其他桌面？"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr "要安装另一个桌面，需要在安装过程中下载，安装时间将取决于互联网的速度。"
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "确实要安装另一个桌面？"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr "以下桌面由 BigLinux 社区的用户维护，自定义和测试较少，您真的要继续吗？"
+
+msgid "MENOS PROGRAMAS"
+msgstr "更少的程序"
+
+msgid "OUTROS DESKTOPS"
+msgstr "其他桌面"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "实际使用其他桌面"
 
 msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
 msgstr "返回并使用标准安装"
 
-msgid "INSTALAR"
-msgstr "安装"
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr "如果有疑问，请执行标准安装，自定义选项应仅由有经验的用户使用。"
 
-msgid "DESKTOP"
-msgstr "桌面"
+msgid "SELECIONAR"
+msgstr "选择"
 
 msgid "Aguarde..."
 msgstr "坚持。。。"
@@ -37,8 +70,23 @@ msgstr "正在检查互联网连接..."
 msgid "Sem conexão com a Internet..."
 msgstr "没有互联网连接..."
 
-msgid "Atualizando lista de Interfaces..."
-msgstr "正在更新接口列表..."
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>你在挑战我吗？</b>\n"
+"            ：LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "我告诉过你，这个版本已经过时了。            "
+
+msgid " OK"
+msgstr " 还行"
+
+msgid "Versão Desatualizada"
+msgstr "过时版本"
 
 msgid "O sistema está em modo"
 msgstr "系统位于"
@@ -46,11 +94,50 @@ msgstr "系统位于"
 msgid "e com o kernel"
 msgstr "和内核"
 
-msgid "Apagando /dev/sda"
-msgstr "擦除 /dev/sda"
+msgid "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
+msgstr "您不希望系统中包含哪些软件包？"
 
-msgid "PADRÃO"
-msgstr "模式"
+msgid "ESCOLHA O DESKTOP"
+msgstr "选择桌面"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr "BigLinux 已经在其标准安装上进行了设计和测试，其他桌面由 BigLinux 社区的用户维护，并且自定义和测试较少，真的想继续吗？"
+
+msgid "SELECIONAR TODOS"
+msgstr "全选"
+
+msgid "DESMARCAR TODOS"
+msgstr "取消选中全部"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "确认并继续安装"
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "正在检查包裹，等待..."
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>无法安装。</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>无法删除。</b></font><br><br>"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>找不到登录管理器</b></font><br><br>"
+
+msgid "VOLTAR"
+msgstr "回来"
+
+msgid "AVANÇAR"
+msgstr "进展"
+
+msgid "ERRO!"
+msgstr "错误！"
+
+msgid "SUCESSO!"
+msgstr "成功！"
 
 msgid "DESEMPENHO"
 msgstr "性能"
@@ -76,146 +163,41 @@ msgstr "带同步的 BTRFS"
 msgid "BTRFS sem fsync"
 msgstr "不带同步的 BTRFS"
 
-msgid "SELECIONAR"
-msgstr "选择"
-
 msgid "Instalar no HD"
 msgstr "在 HD 上安装"
 
 msgid "* Não utilize /boot separado"
 msgstr "* 请勿单独使用 /boot"
 
-msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
-msgstr "<font color='red'><b>无法安装。</b></font><br><br> "
-
-msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
-msgstr "<font color='red'><b>无法删除。</b></font><br><br>"
-
-msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
-msgstr "<font color='red'><b>找不到登录管理器</b></font><br><br>"
-
-msgid "VOLTAR"
-msgstr "回来"
-
-msgid "AVANÇAR"
-msgstr "进展"
-
-msgid "ERRO!"
-msgstr "错误！"
-
-msgid "SUCESSO!"
-msgstr "成功！"
-
-msgid "PERSONALIZADA"
-msgstr "习惯"
-
-msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
-msgstr "确认并继续安装"
-
-msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-msgstr "使用较少的程序安装或使用其他桌面？"
-
-msgid ""
-"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
-"instalação vai depender da velocidade da internet."
-msgstr "要安装另一个桌面，需要在安装过程中下载，安装时间将取决于互联网的速度。"
-
-msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-msgstr "确实要安装另一个桌面？"
-
-msgid ""
-"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
-"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
-"prosseguir?"
-msgstr "BigLinux 已经在其标准安装上进行了设计和测试，其他桌面由 BigLinux 社区的用户维护，并且自定义和测试较少，真的想继续吗？"
-
-msgid "MENOS PROGRAMAS"
-msgstr "更少的程序"
-
-msgid "OUTROS DESKTOPS"
-msgstr "其他桌面"
-
-msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
-msgstr "实际使用其他桌面"
-
-msgid ""
-"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
-"usuários experientes."
-msgstr "如果有疑问，请执行标准安装，自定义选项应仅由有经验的用户使用。"
-
 msgid "Personalizar a instalação:"
 msgstr "自定义安装："
 
-msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
-msgstr "标准安装还是定制安装？"
+msgid "INSTALAR"
+msgstr "安装"
 
-msgid ""
-"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
-"personalizações e testes, deseja realmente prosseguir?"
-msgstr "以下桌面由 BigLinux 社区的用户维护，自定义和测试较少，您真的要继续吗？"
+msgid "DESKTOP"
+msgstr "桌面"
 
-msgid ""
-"<b>você está me desafiando?</b>\n"
-"            :LBL"
-msgstr ""
-"<b>你在挑战我吗？</b>\n"
-"            ：LBL"
+msgid "Atualizando lista de Interfaces..."
+msgstr "正在更新接口列表..."
 
-msgid ""
-"Já falei que essa versão está desatualizada.\n"
-"            "
-msgstr "我告诉过你，这个版本已经过时了。            "
-
-msgid " OK"
-msgstr " 还行"
-
-msgid "Versão Desatualizada"
-msgstr "过时版本"
-
-msgid "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
-msgstr "您不希望系统中包含哪些软件包？"
-
-msgid "SELECIONAR TODOS"
-msgstr "全选"
-
-msgid "DESMARCAR TODOS"
-msgstr "取消选中全部"
-
-msgid "Verificando pacotes, aguarde..."
-msgstr "正在检查包裹，等待..."
-
-msgid "Verificando o arquivo:"
-msgstr "检查文件："
-
-msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
-msgstr "检查下载或USB记忆棒中的错误，可能需要几分钟..."
-
-msgid "Verificando integridade do sistema"
-msgstr "检查系统运行状况"
-
-msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
-msgstr "发现错误，请重新下载系统或使用另一个USB记忆棒。"
-
-msgid "Os arquivos estão integros."
-msgstr "文件已集成。"
-
-msgid "Verificação cancelada."
-msgstr "检查已取消。"
+msgid "Apagando /dev/sda"
+msgstr "擦除 /dev/sda"
 
 msgid ""
 "<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
-"    :LBL"
+"        :LBL"
 msgstr ""
 "<b>您是否仍要继续安装此旧版本？</b>\n"
-"    ：LBL"
+"        ：LBL"
 
 msgid ""
 "O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
 "Recomendamos que faça o download de uma versão mais recente.\n"
-"    "
+"        "
 msgstr ""
 "BigLinux 是一个每周更新的系统，此版本已经发布了一个多月。\\n"
-"我们建议您下载更新的版本。    "
+"我们建议您下载更新的版本。        "
 
 msgid " Continue"
 msgstr " 继续"
@@ -225,10 +207,10 @@ msgstr " 关闭"
 
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
-"            :LBL"
+"                :LBL"
 msgstr ""
 "<b>此开发版本已过时，无法再使用。</b>\n"
-"            ：LBL"
+"                ：LBL"
 
 msgid "Deseja prosseguir com com a instalação em modo EFI?"
 msgstr "是否要在 EFI 模式下继续安装？"
@@ -286,3 +268,21 @@ msgstr ""
 "\\n"
 "是否要查看安装日志文件或将安装日志文件发送到云？\\n"
 "生成链接以在支持组中发送。\\n"
+
+msgid "Verificando o arquivo:"
+msgstr "检查文件："
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "检查下载或USB记忆棒中的错误，可能需要几分钟..."
+
+msgid "Verificando integridade do sistema"
+msgstr "检查系统运行状况"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "发现错误，请重新下载系统或使用另一个USB记忆棒。"
+
+msgid "Os arquivos estão integros."
+msgstr "文件已集成。"
+
+msgid "Verificação cancelada."
+msgstr "检查已取消。"

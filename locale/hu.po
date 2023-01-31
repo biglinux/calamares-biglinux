@@ -16,17 +16,56 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "ESCOLHA O DESKTOP"
-msgstr "VÁLASSZA AZ ASZTALT"
+msgid "PADRÃO"
+msgstr "MINTA"
+
+msgid "PERSONALIZADA"
+msgstr "SZOKÁS"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "NORMÁL VAGY EGYEDI TELEPÍTÉS?"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "KEVESEBB PROGRAMMAL TELEPÍT, VAGY MÁSIK ASZTALT HASZNÁL?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Egy másik asztal telepítéséhez a telepítés során le kell tölteni, a telepítési idő az internet "
+"sebességétől függ."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "TÉNYLEG SZERETNE EGY MÁSIK ASZTALT TELEPÍTENI?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"A következő asztali számítógépeket a BigLinux közösség felhasználói tartják karban, és kevesebb "
+"testreszabással és teszttel rendelkeznek, valóban folytatni szeretné?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "KEVESEBB PROGRAM"
+
+msgid "OUTROS DESKTOPS"
+msgstr "EGYÉB ASZTALI SZÁMÍTÓGÉPEK"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "VALÓJÁBAN HASZNÁLJON MÁSIK ASZTALT"
 
 msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
 msgstr "VISSZA ÉS HASZNÁLJA A SZABVÁNYOS TELEPÍTÉST"
 
-msgid "INSTALAR"
-msgstr "FELSZEREL"
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"Ha kétségei vannak a szabványos telepítéssel, az egyéni beállításokat csak tapasztalt felhasználók "
+"használhatják."
 
-msgid "DESKTOP"
-msgstr "ASZTAL"
+msgid "SELECIONAR"
+msgstr "KIVÁLASZT"
 
 msgid "Aguarde..."
 msgstr "Vár..."
@@ -37,8 +76,23 @@ msgstr "Az internetkapcsolat ellenőrzése..."
 msgid "Sem conexão com a Internet..."
 msgstr "Nincs internetkapcsolat..."
 
-msgid "Atualizando lista de Interfaces..."
-msgstr "Interfészek listájának frissítése..."
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Kihívsz engem?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Mondtam, hogy ez a verzió elavult.            "
+
+msgid " OK"
+msgstr " OKÉ"
+
+msgid "Versão Desatualizada"
+msgstr "Elavult verzió"
 
 msgid "O sistema está em modo"
 msgstr "A rendszer a"
@@ -46,11 +100,53 @@ msgstr "A rendszer a"
 msgid "e com o kernel"
 msgstr "és a kernellel"
 
-msgid "Apagando /dev/sda"
-msgstr "A /dev/sda törlése"
+msgid "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
+msgstr "MILYEN CSOMAGOKAT NEM SZERETNE A RENDSZERBEN?"
 
-msgid "PADRÃO"
-msgstr "MINTA"
+msgid "ESCOLHA O DESKTOP"
+msgstr "VÁLASSZA AZ ASZTALT"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"A BigLinuxot a szokásos telepítésén tervezték és tesztelték, más asztali számítógépeket a BigLinux "
+"közösség felhasználói tartanak karban, és kevesebb testreszabással és teszttel rendelkeznek, "
+"valóban folytatni akarják?"
+
+msgid "SELECIONAR TODOS"
+msgstr "ÖSSZES KIJELÖLÉSE"
+
+msgid "DESMARCAR TODOS"
+msgstr "TÖRÖLJE AZ ÖSSZES JELÖLÉSÉT"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "ERŐSÍTSE MEG ÉS FOLYTASSA A TELEPÍTÉST"
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Csomagok ellenőrzése, várjon..."
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Nem lehet telepíteni.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Nem lehet eltávolítani.</b></font><br><br>"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Nem találom a Login Managert</b></font><br><br>"
+
+msgid "VOLTAR"
+msgstr "GYERE VISSZA"
+
+msgid "AVANÇAR"
+msgstr "ELŐLEG"
+
+msgid "ERRO!"
+msgstr "HIBA!"
+
+msgid "SUCESSO!"
+msgstr "SIKER!"
 
 msgid "DESEMPENHO"
 msgstr "TELJESÍTMÉNY"
@@ -76,155 +172,41 @@ msgstr "BTRFS fsync-kel"
 msgid "BTRFS sem fsync"
 msgstr "BTRFS fsync nélkül"
 
-msgid "SELECIONAR"
-msgstr "KIVÁLASZT"
-
 msgid "Instalar no HD"
 msgstr "Telepítés HD-re"
 
 msgid "* Não utilize /boot separado"
 msgstr "* Ne használja külön a /boot parancsot"
 
-msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
-msgstr "<font color='red'><b>Nem lehet telepíteni.</b></font><br><br> "
-
-msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
-msgstr "<font color='red'><b>Nem lehet eltávolítani.</b></font><br><br>"
-
-msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
-msgstr "<font color='red'><b>Nem találom a Login Managert</b></font><br><br>"
-
-msgid "VOLTAR"
-msgstr "GYERE VISSZA"
-
-msgid "AVANÇAR"
-msgstr "ELŐLEG"
-
-msgid "ERRO!"
-msgstr "HIBA!"
-
-msgid "SUCESSO!"
-msgstr "SIKER!"
-
-msgid "PERSONALIZADA"
-msgstr "SZOKÁS"
-
-msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
-msgstr "ERŐSÍTSE MEG ÉS FOLYTASSA A TELEPÍTÉST"
-
-msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-msgstr "KEVESEBB PROGRAMMAL TELEPÍT, VAGY MÁSIK ASZTALT HASZNÁL?"
-
-msgid ""
-"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
-"instalação vai depender da velocidade da internet."
-msgstr ""
-"Egy másik asztal telepítéséhez a telepítés során le kell tölteni, a telepítési idő az internet "
-"sebességétől függ."
-
-msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-msgstr "TÉNYLEG SZERETNE EGY MÁSIK ASZTALT TELEPÍTENI?"
-
-msgid ""
-"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
-"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
-"prosseguir?"
-msgstr ""
-"A BigLinuxot a szokásos telepítésén tervezték és tesztelték, más asztali számítógépeket a BigLinux "
-"közösség felhasználói tartanak karban, és kevesebb testreszabással és teszttel rendelkeznek, "
-"valóban folytatni akarják?"
-
-msgid "MENOS PROGRAMAS"
-msgstr "KEVESEBB PROGRAM"
-
-msgid "OUTROS DESKTOPS"
-msgstr "EGYÉB ASZTALI SZÁMÍTÓGÉPEK"
-
-msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
-msgstr "VALÓJÁBAN HASZNÁLJON MÁSIK ASZTALT"
-
-msgid ""
-"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
-"usuários experientes."
-msgstr ""
-"Ha kétségei vannak a szabványos telepítéssel, az egyéni beállításokat csak tapasztalt felhasználók "
-"használhatják."
-
 msgid "Personalizar a instalação:"
 msgstr "A telepítés testreszabása:"
 
-msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
-msgstr "NORMÁL VAGY EGYEDI TELEPÍTÉS?"
+msgid "INSTALAR"
+msgstr "FELSZEREL"
 
-msgid ""
-"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
-"personalizações e testes, deseja realmente prosseguir?"
-msgstr ""
-"A következő asztali számítógépeket a BigLinux közösség felhasználói tartják karban, és kevesebb "
-"testreszabással és teszttel rendelkeznek, valóban folytatni szeretné?"
+msgid "DESKTOP"
+msgstr "ASZTAL"
 
-msgid ""
-"<b>você está me desafiando?</b>\n"
-"            :LBL"
-msgstr ""
-"<b>Kihívsz engem?</b>\n"
-"            :LBL"
+msgid "Atualizando lista de Interfaces..."
+msgstr "Interfészek listájának frissítése..."
 
-msgid ""
-"Já falei que essa versão está desatualizada.\n"
-"            "
-msgstr "Mondtam, hogy ez a verzió elavult.            "
-
-msgid " OK"
-msgstr " OKÉ"
-
-msgid "Versão Desatualizada"
-msgstr "Elavult verzió"
-
-msgid "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
-msgstr "MILYEN CSOMAGOKAT NEM SZERETNE A RENDSZERBEN?"
-
-msgid "SELECIONAR TODOS"
-msgstr "ÖSSZES KIJELÖLÉSE"
-
-msgid "DESMARCAR TODOS"
-msgstr "TÖRÖLJE AZ ÖSSZES JELÖLÉSÉT"
-
-msgid "Verificando pacotes, aguarde..."
-msgstr "Csomagok ellenőrzése, várjon..."
-
-msgid "Verificando o arquivo:"
-msgstr "A fájl ellenőrzése:"
-
-msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
-msgstr "A letöltési vagy USB-meghajtó hibáinak ellenőrzése eltarthat néhány percig..."
-
-msgid "Verificando integridade do sistema"
-msgstr "A rendszer állapotának ellenőrzése"
-
-msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
-msgstr "Hiba történt, töltse le újra a rendszert, vagy használjon másik USB-meghajtót."
-
-msgid "Os arquivos estão integros."
-msgstr "A fájlok integrálva vannak."
-
-msgid "Verificação cancelada."
-msgstr "Ellenőrzés törölve."
+msgid "Apagando /dev/sda"
+msgstr "A /dev/sda törlése"
 
 msgid ""
 "<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
-"    :LBL"
+"        :LBL"
 msgstr ""
 "<b>Mindenképpen folytatni szeretné a régi verzió telepítését?</b>\n"
-"    :LBL"
+"        :LBL"
 
 msgid ""
 "O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
 "Recomendamos que faça o download de uma versão mais recente.\n"
-"    "
+"        "
 msgstr ""
 "A BigLinux egy heti frissítési rendszer, és ez a verzió már több mint egy hónapja megjelent.\\n"
-"Javasoljuk, hogy töltsön le egy újabb verziót.    "
+"Javasoljuk, hogy töltsön le egy újabb verziót.        "
 
 msgid " Continue"
 msgstr " Folytasd"
@@ -234,10 +216,10 @@ msgstr " Bezár"
 
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
-"            :LBL"
+"                :LBL"
 msgstr ""
 "<b>Ez a fejlesztői verzió elavult, és már nem használható.</b>\n"
-"            :LBL"
+"                :LBL"
 
 msgid "Deseja prosseguir com com a instalação em modo EFI?"
 msgstr "Szeretné folytatni a telepítést EFI módban?"
@@ -295,3 +277,21 @@ msgstr ""
 "\\n"
 "Meg szeretné tekinteni vagy el szeretné küldeni a telepítési naplófájlt a felhőbe?\\n"
 "generate egy hivatkozást a támogatási csoportokban való küldéshez.\\n"
+
+msgid "Verificando o arquivo:"
+msgstr "A fájl ellenőrzése:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "A letöltési vagy USB-meghajtó hibáinak ellenőrzése eltarthat néhány percig..."
+
+msgid "Verificando integridade do sistema"
+msgstr "A rendszer állapotának ellenőrzése"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Hiba történt, töltse le újra a rendszert, vagy használjon másik USB-meghajtót."
+
+msgid "Os arquivos estão integros."
+msgstr "A fájlok integrálva vannak."
+
+msgid "Verificação cancelada."
+msgstr "Ellenőrzés törölve."

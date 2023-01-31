@@ -16,17 +16,56 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "ESCOLHA O DESKTOP"
-msgstr "WYBIERZ PULPIT"
+msgid "PADRÃO"
+msgstr "DESEŃ"
+
+msgid "PERSONALIZADA"
+msgstr "ZWYCZAJ"
+
+msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
+msgstr "INSTALACJA STANDARDOWA CZY NIESTANDARDOWA?"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+msgstr "INSTALUJESZ Z MNIEJSZĄ LICZBĄ PROGRAMÓW LUB UŻYWASZ INNEGO PULPITU?"
+
+msgid ""
+"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
+"instalação vai depender da velocidade da internet."
+msgstr ""
+"Aby zainstalować inny pulpit będzie musiał pobrać podczas instalacji, czas instalacji będzie "
+"zależał od szybkości Internetu."
+
+msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+msgstr "NAPRAWDĘ CHCESZ ZAINSTALOWAĆ INNY PULPIT?"
+
+msgid ""
+"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
+"personalizações e testes, deseja realmente prosseguir?"
+msgstr ""
+"Następujące pulpity są utrzymywane przez użytkowników społeczności BigLinux i mają mniej dostosowań "
+"i testów, czy naprawdę chcesz kontynuować?"
+
+msgid "MENOS PROGRAMAS"
+msgstr "MNIEJ PROGRAMÓW"
+
+msgid "OUTROS DESKTOPS"
+msgstr "INNE KOMPUTERY STACJONARNE"
+
+msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
+msgstr "FAKTYCZNIE UŻYJ INNEGO PULPITU"
 
 msgid "VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
 msgstr "WRÓĆ I UŻYJ STANDARDOWEJ INSTALACJI"
 
-msgid "INSTALAR"
-msgstr "INSTALOWAĆ"
+msgid ""
+"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
+"usuários experientes."
+msgstr ""
+"W razie wątpliwości do standardowej instalacji, niestandardowe opcje powinny być używane tylko "
+"przez doświadczonych użytkowników."
 
-msgid "DESKTOP"
-msgstr "PULPIT"
+msgid "SELECIONAR"
+msgstr "WYBRAĆ"
 
 msgid "Aguarde..."
 msgstr "Trzymaj się..."
@@ -37,8 +76,23 @@ msgstr "Sprawdzanie połączenia internetowego..."
 msgid "Sem conexão com a Internet..."
 msgstr "Brak połączenia z Internetem..."
 
-msgid "Atualizando lista de Interfaces..."
-msgstr "Aktualizacja listy interfejsów..."
+msgid ""
+"<b>você está me desafiando?</b>\n"
+"            :LBL"
+msgstr ""
+"<b>Czy rzucasz mi wyzwanie?</b>\n"
+"            :LBL"
+
+msgid ""
+"Já falei que essa versão está desatualizada.\n"
+"            "
+msgstr "Powiedziałem ci, że ta wersja jest nieaktualna.            "
+
+msgid " OK"
+msgstr " OK"
+
+msgid "Versão Desatualizada"
+msgstr "Nieaktualna wersja"
 
 msgid "O sistema está em modo"
 msgstr "System jest w"
@@ -46,11 +100,53 @@ msgstr "System jest w"
 msgid "e com o kernel"
 msgstr "i z jądrem"
 
-msgid "Apagando /dev/sda"
-msgstr "Kasowanie /dev/sda"
+msgid "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
+msgstr "JAKICH PAKIETÓW NIE CHCESZ W SYSTEMIE?"
 
-msgid "PADRÃO"
-msgstr "DESEŃ"
+msgid "ESCOLHA O DESKTOP"
+msgstr "WYBIERZ PULPIT"
+
+msgid ""
+"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
+"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
+"prosseguir?"
+msgstr ""
+"BigLinux został zaprojektowany i przetestowany na standardowej instalacji, inne komputery "
+"stacjonarne są utrzymywane przez użytkowników społeczności BigLinux i mają mniej dostosowań i "
+"testów, naprawdę chcesz kontynuować?"
+
+msgid "SELECIONAR TODOS"
+msgstr "ZAZNACZ WSZYSTKO"
+
+msgid "DESMARCAR TODOS"
+msgstr "USUŃ ZAZNACZENIE WSZYSTKICH"
+
+msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+msgstr "POTWIERDŹ I KONTYNUUJ INSTALACJĘ"
+
+msgid "Verificando pacotes, aguarde..."
+msgstr "Sprawdzanie paczek, czekanie..."
+
+msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
+msgstr "<font color='red'><b>Nie można zainstalować.</b></font><br><br> "
+
+msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
+msgstr "<font color='red'><b>Nie można usunąć.</b></font><br><br>"
+
+msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
+msgstr "<font color='red'><b>Nie można znaleźć Menedżera logowania</b></font><br><br>"
+
+msgid "VOLTAR"
+msgstr "WRACAJ"
+
+msgid "AVANÇAR"
+msgstr "ZALICZKA"
+
+msgid "ERRO!"
+msgstr "BŁĄD!"
+
+msgid "SUCESSO!"
+msgstr "SUKCES!"
 
 msgid "DESEMPENHO"
 msgstr "WYDAJNOŚĆ"
@@ -76,155 +172,41 @@ msgstr "BTRFS z fsync"
 msgid "BTRFS sem fsync"
 msgstr "BTRFS bez fsync"
 
-msgid "SELECIONAR"
-msgstr "WYBRAĆ"
-
 msgid "Instalar no HD"
 msgstr "Zainstaluj na HD"
 
 msgid "* Não utilize /boot separado"
 msgstr "* Nie używaj /boot oddzielnie"
 
-msgid "<font color='red'><b>Não é possível instalar.</b></font><br><br> "
-msgstr "<font color='red'><b>Nie można zainstalować.</b></font><br><br> "
-
-msgid "<font color='red'><b>Não é possível remover.</b></font><br><br>"
-msgstr "<font color='red'><b>Nie można usunąć.</b></font><br><br>"
-
-msgid "<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>"
-msgstr "<font color='red'><b>Nie można znaleźć Menedżera logowania</b></font><br><br>"
-
-msgid "VOLTAR"
-msgstr "WRACAJ"
-
-msgid "AVANÇAR"
-msgstr "ZALICZKA"
-
-msgid "ERRO!"
-msgstr "BŁĄD!"
-
-msgid "SUCESSO!"
-msgstr "SUKCES!"
-
-msgid "PERSONALIZADA"
-msgstr "ZWYCZAJ"
-
-msgid "CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
-msgstr "POTWIERDŹ I KONTYNUUJ INSTALACJĘ"
-
-msgid "INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-msgstr "INSTALUJESZ Z MNIEJSZĄ LICZBĄ PROGRAMÓW LUB UŻYWASZ INNEGO PULPITU?"
-
-msgid ""
-"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de "
-"instalação vai depender da velocidade da internet."
-msgstr ""
-"Aby zainstalować inny pulpit będzie musiał pobrać podczas instalacji, czas instalacji będzie "
-"zależał od szybkości Internetu."
-
-msgid "REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-msgstr "NAPRAWDĘ CHCESZ ZAINSTALOWAĆ INNY PULPIT?"
-
-msgid ""
-"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por "
-"usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente "
-"prosseguir?"
-msgstr ""
-"BigLinux został zaprojektowany i przetestowany na standardowej instalacji, inne komputery "
-"stacjonarne są utrzymywane przez użytkowników społeczności BigLinux i mają mniej dostosowań i "
-"testów, naprawdę chcesz kontynuować?"
-
-msgid "MENOS PROGRAMAS"
-msgstr "MNIEJ PROGRAMÓW"
-
-msgid "OUTROS DESKTOPS"
-msgstr "INNE KOMPUTERY STACJONARNE"
-
-msgid "UTILIZAR REALMENTE OUTRO DESKTOP"
-msgstr "FAKTYCZNIE UŻYJ INNEGO PULPITU"
-
-msgid ""
-"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por "
-"usuários experientes."
-msgstr ""
-"W razie wątpliwości do standardowej instalacji, niestandardowe opcje powinny być używane tylko "
-"przez doświadczonych użytkowników."
-
 msgid "Personalizar a instalação:"
 msgstr "Dostosuj instalację:"
 
-msgid "INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
-msgstr "INSTALACJA STANDARDOWA CZY NIESTANDARDOWA?"
+msgid "INSTALAR"
+msgstr "INSTALOWAĆ"
 
-msgid ""
-"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos "
-"personalizações e testes, deseja realmente prosseguir?"
-msgstr ""
-"Następujące pulpity są utrzymywane przez użytkowników społeczności BigLinux i mają mniej dostosowań "
-"i testów, czy naprawdę chcesz kontynuować?"
+msgid "DESKTOP"
+msgstr "PULPIT"
 
-msgid ""
-"<b>você está me desafiando?</b>\n"
-"            :LBL"
-msgstr ""
-"<b>Czy rzucasz mi wyzwanie?</b>\n"
-"            :LBL"
+msgid "Atualizando lista de Interfaces..."
+msgstr "Aktualizacja listy interfejsów..."
 
-msgid ""
-"Já falei que essa versão está desatualizada.\n"
-"            "
-msgstr "Powiedziałem ci, że ta wersja jest nieaktualna.            "
-
-msgid " OK"
-msgstr " OK"
-
-msgid "Versão Desatualizada"
-msgstr "Nieaktualna wersja"
-
-msgid "QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
-msgstr "JAKICH PAKIETÓW NIE CHCESZ W SYSTEMIE?"
-
-msgid "SELECIONAR TODOS"
-msgstr "ZAZNACZ WSZYSTKO"
-
-msgid "DESMARCAR TODOS"
-msgstr "USUŃ ZAZNACZENIE WSZYSTKICH"
-
-msgid "Verificando pacotes, aguarde..."
-msgstr "Sprawdzanie paczek, czekanie..."
-
-msgid "Verificando o arquivo:"
-msgstr "Sprawdzanie pliku:"
-
-msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
-msgstr "Sprawdzanie błędów w pobieraniu lub pamięci USB może potrwać kilka minut..."
-
-msgid "Verificando integridade do sistema"
-msgstr "Sprawdzanie kondycji systemu"
-
-msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
-msgstr "Znaleziono błąd, ponownie pobierz system lub użyj innej pamięci USB."
-
-msgid "Os arquivos estão integros."
-msgstr "Pliki są zintegrowane."
-
-msgid "Verificação cancelada."
-msgstr "Sprawdź anulowane."
+msgid "Apagando /dev/sda"
+msgstr "Kasowanie /dev/sda"
 
 msgid ""
 "<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
-"    :LBL"
+"        :LBL"
 msgstr ""
 "<b>Czy mimo to chcesz kontynuować instalację tej starej wersji?</b>\n"
-"    :LBL"
+"        :LBL"
 
 msgid ""
 "O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\n"
 "Recomendamos que faça o download de uma versão mais recente.\n"
-"    "
+"        "
 msgstr ""
 "BigLinux jest cotygodniowym systemem aktualizacji, a ta wersja jest wydawana od ponad miesiąca.\\n"
-"Zalecamy pobranie nowszej wersji.    "
+"Zalecamy pobranie nowszej wersji.        "
 
 msgid " Continue"
 msgstr " Kontynuuj"
@@ -234,10 +216,10 @@ msgstr " Zamykać"
 
 msgid ""
 "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
-"            :LBL"
+"                :LBL"
 msgstr ""
 "<b>Ta wersja rozwojowa jest przestarzała i nie można jej już używać.</b>\n"
-"            :LBL"
+"                :LBL"
 
 msgid "Deseja prosseguir com com a instalação em modo EFI?"
 msgstr "Czy chcesz kontynuować instalację w trybie EFI?"
@@ -295,3 +277,21 @@ msgstr ""
 "\\n"
 "Czy chcesz wyświetlić lub wysłać plik dziennika instalacji do chmury?\\n"
 "wygenerować link do wysłania w grupach pomocy technicznej.\\n"
+
+msgid "Verificando o arquivo:"
+msgstr "Sprawdzanie pliku:"
+
+msgid "Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+msgstr "Sprawdzanie błędów w pobieraniu lub pamięci USB może potrwać kilka minut..."
+
+msgid "Verificando integridade do sistema"
+msgstr "Sprawdzanie kondycji systemu"
+
+msgid "Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+msgstr "Znaleziono błąd, ponownie pobierz system lub użyj innej pamięci USB."
+
+msgid "Os arquivos estão integros."
+msgstr "Pliki są zintegrowane."
+
+msgid "Verificação cancelada."
+msgstr "Sprawdź anulowane."
