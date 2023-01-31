@@ -31,6 +31,14 @@ SELECT=$"SELECIONAR"
 TITLE=$"Instalar no HD"
 INFOBOOT=$"* Não utilize /boot separado"
 
+#Testing Verify Start
+if [ "$(grep biglinux-testing /etc/pacman.conf)" != "" ]; then
+  File_to_go="desktop.sh.htm"
+else
+  File_to_go="wait.sh.htm"
+fi
+
+
 cat << EOF
 <head>
   <meta charset="UTF-8">
@@ -106,7 +114,7 @@ cat << EOF
         <div class="p"> </div>        
         
         <span class="calamares-big-leg">$BTRFS_WITH_FSYNC</span>
-        <a href="desktop.sh.htm?option=btrfs_sync" class="calamares-big-button">$SELECT</a>
+        <a href="$File_to_go?option=btrfs_sync" class="calamares-big-button">$SELECT</a>
       </div>
 
       <div class="calamares-big-plan">
@@ -133,7 +141,7 @@ cat << EOF
         <div class="p"> </div>                
         
         <span class="calamares-big-leg">$BTRFS_WITHOUT_FSYNC</span>
-        <a href="desktop.sh.htm?option=btrfs_disable_sync" class="calamares-big-button is-featured">$SELECT</a>
+        <a href="$File_to_go?option=btrfs_disable_sync" class="calamares-big-button is-featured">$SELECT</a>
       </div>
       
       <div class="calamares-big-plan">
@@ -159,7 +167,7 @@ cat << EOF
         <div class="p"> </div>
         
         <span class="calamares-big-leg">EXT4</span>
-        <a href="desktop.sh.htm?option=ext4" class="calamares-big-button">$SELECT</a>
+        <a href="$File_to_go?option=ext4" class="calamares-big-button">$SELECT</a>
       </div>
     </div>
   </div>
