@@ -320,3 +320,6 @@ msgid ""
 msgstr ""
 "<b>Bu Geliştirme Sürümü modası geçmiş ve artık kullanılamaz.</b>\n"
 "            :LBL"
+
+msgid "Verificando a integridade do download e dispositivo de armazenamento..."
+msgstr "İndirme ve depolama cihazının bütünlüğünü kontrol etmek..."

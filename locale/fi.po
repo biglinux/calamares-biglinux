@@ -316,3 +316,6 @@ msgid ""
 msgstr ""
 "<b>Tämä kehitysversio on vanhentunut, eikä sitä voi enää käyttää.</b>\n"
 "            :LBL"
+
+msgid "Verificando a integridade do download e dispositivo de armazenamento..."
+msgstr "Lataus- ja tallennuslaitteen eheyden tarkistaminen..."

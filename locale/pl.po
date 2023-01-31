@@ -317,3 +317,6 @@ msgid ""
 msgstr ""
 "<b>Ta wersja rozwojowa jest przestarzała i nie można jej już używać.</b>\n"
 "            :LBL"
+
+msgid "Verificando a integridade do download e dispositivo de armazenamento..."
+msgstr "Sprawdzanie integralności urządzenia do pobierania i przechowywania..."

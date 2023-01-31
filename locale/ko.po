@@ -308,3 +308,6 @@ msgid ""
 msgstr ""
 "<b>이 개발 버전은 오래되어 더 이상 사용할 수 없습니다.</b>\n"
 "            :LBL"
+
+msgid "Verificando a integridade do download e dispositivo de armazenamento..."
+msgstr "다운로드 및 저장 장치의 무결성 확인 중..."

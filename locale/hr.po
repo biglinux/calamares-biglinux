@@ -317,3 +317,6 @@ msgid ""
 msgstr ""
 "<b>Ova razvojna verzija zastarjela je i više se ne može koristiti.</b>\n"
 "            :LBL"
+
+msgid "Verificando a integridade do download e dispositivo de armazenamento..."
+msgstr "Provjera integriteta uređaja za preuzimanje i pohranu ..."

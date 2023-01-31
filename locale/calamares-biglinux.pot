@@ -350,3 +350,8 @@ msgid   "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais 
         "ser usada.</b>\n"
         "            :LBL"
 msgstr  ""
+
+#
+msgid   "Verificando a integridade do download e dispositivo de "
+        "armazenamento..."
+msgstr  ""

@@ -320,3 +320,6 @@ msgid ""
 msgstr ""
 "<b>Cette version de développement est obsolète et ne peut plus être utilisée.</b>\n"
 "            :LBL"
+
+msgid "Verificando a integridade do download e dispositivo de armazenamento..."
+msgstr "Vérification de l’intégrité du périphérique de téléchargement et de stockage..."

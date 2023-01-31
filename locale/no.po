@@ -316,3 +316,6 @@ msgid ""
 msgstr ""
 "<b>Denne utviklingsversjonen er utdatert og kan ikke lenger brukes.</b>\n"
 "            : LBL"
+
+msgid "Verificando a integridade do download e dispositivo de armazenamento..."
+msgstr "Kontrollerer integriteten til nedlastings- og lagringsenheten ..."

@@ -316,3 +316,6 @@ msgid ""
 msgstr ""
 "<b>Tato vývojová verze je zastaralá a nelze ji již používat.</b>\n"
 "            :LBL"
+
+msgid "Verificando a integridade do download e dispositivo de armazenamento..."
+msgstr "Kontrola integrity stahovacího a úložného zařízení..."

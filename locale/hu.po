@@ -317,3 +317,6 @@ msgid ""
 msgstr ""
 "<b>Ez a fejlesztői verzió elavult, és már nem használható.</b>\n"
 "            :LBL"
+
+msgid "Verificando a integridade do download e dispositivo de armazenamento..."
+msgstr "A letöltő és tárolóeszköz integritásának ellenőrzése..."

@@ -310,3 +310,6 @@ msgid ""
 msgstr ""
 "<b>この開発バージョンは古く、使用できなくなりました。</b>\n"
 "            :LBL"
+
+msgid "Verificando a integridade do download e dispositivo de armazenamento..."
+msgstr "ダウンロードおよびストレージデバイスの整合性を確認しています..."

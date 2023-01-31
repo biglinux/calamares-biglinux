@@ -320,3 +320,6 @@ msgid ""
 msgstr ""
 "<b>Această versiune de dezvoltare este depășită și nu mai poate fi utilizată.</b>\n"
 "            :LBL"
+
+msgid "Verificando a integridade do download e dispositivo de armazenamento..."
+msgstr "Verificarea integrității dispozitivului de descărcare și stocare..."

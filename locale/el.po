@@ -321,3 +321,6 @@ msgid ""
 msgstr ""
 "<b>Αυτή η έκδοση ανάπτυξης είναι ξεπερασμένη και δεν μπορεί πλέον να χρησιμοποιηθεί.</b>\n"
 "            :ΛΒ"
+
+msgid "Verificando a integridade do download e dispositivo de armazenamento..."
+msgstr "Έλεγχος της ακεραιότητας της συσκευής λήψης και αποθήκευσης..."

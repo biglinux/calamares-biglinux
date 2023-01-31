@@ -319,3 +319,6 @@ msgid ""
 msgstr ""
 "<b>Deze ontwikkelingsversie is verouderd en kan niet meer worden gebruikt.</b>\n"
 "            :LBL"
+
+msgid "Verificando a integridade do download e dispositivo de armazenamento..."
+msgstr "De integriteit van het download- en opslagapparaat controleren..."

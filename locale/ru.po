@@ -317,3 +317,6 @@ msgid ""
 msgstr ""
 "<b>Эта версия для разработчиков устарела и больше не может использоваться.</b>\n"
 "            :ЛБЛ"
+
+msgid "Verificando a integridade do download e dispositivo de armazenamento..."
+msgstr "Проверка целостности устройства загрузки и хранения..."

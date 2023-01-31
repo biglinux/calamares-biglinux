@@ -312,3 +312,6 @@ msgid ""
 msgstr ""
 "<b>גרסת פיתוח זו מיושנת ולא ניתן עוד להשתמש בה.</b>\n"
 "            ל.ב.ל.:"
+
+msgid "Verificando a integridade do download e dispositivo de armazenamento..."
+msgstr "בדיקת תקינות התקן ההורדה והאחסון..."

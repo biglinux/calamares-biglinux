@@ -319,3 +319,6 @@ msgid ""
 msgstr ""
 "<b>Ця версія для розробки застаріла і більше не може бути використана.</b>\n"
 "            :LBL"
+
+msgid "Verificando a integridade do download e dispositivo de armazenamento..."
+msgstr "Перевірка цілісності пристрою завантаження та зберігання даних..."
