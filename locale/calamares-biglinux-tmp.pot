@@ -256,3 +256,15 @@ msgstr  ""
 #
 msgid   "Verificação cancelada."
 msgstr  ""
+#
+msgid   "<b>Deseja prosseguir com a instalação dessa versão antiga assim mesmo?</b>\n"
+        "    :LBL"
+msgstr  ""
+#
+msgid   "O BigLinux é um sistema de atualizações semanais e esta versão foi lançada a mais de um mês.\\nRecomendamos que faça o download de uma versão mais recente.\n"
+        "    "
+msgstr  ""
+#
+msgid   "<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+        "            :LBL"
+msgstr  ""
