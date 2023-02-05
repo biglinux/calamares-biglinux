@@ -320,3 +320,40 @@ msgstr ""
 
 msgid "Verificando a integridade do download e dispositivo de armazenamento..."
 msgstr "Kontrol af integriteten af download- og lagerenheden..."
+
+msgid "Dicas Antes da Instalação!"
+msgstr "Tips før installation!"
+
+msgid ""
+"Instale em uma partição Btrfs, pois o sistema criará e armazenará Snapshots dos últimos 5 dias que "
+"podem ser usados como pontos de restauração. Caso ocorra algum problema durante a modificação de "
+"configurações ou atualizações."
+msgstr ""
+"Installer på en Btrfs-partition, fordi systemet opretter og gemmer snapshots af de sidste 5 dage, "
+"der kan bruges som gendannelsespunkter. Hvis der er et problem under ændring af indstillinger eller "
+"opdateringer."
+
+msgid "Temos um programa de restauração do sistema instalado, se for necessário utiliza-lo"
+msgstr "Vi har et systemgendannelsesprogram installeret, hvis du har brug for det"
+
+msgid "clique aqui."
+msgstr "klik her."
+
+msgid ""
+"Recomendamos o particionamento automático, mas se optar por particionamento manual, siga estas "
+"dicas:"
+msgstr ""
+"Vi anbefaler automatisk partitionering, men hvis du vælger manuel partitionering, skal du følge "
+"disse tip:"
+
+msgid "Não crie uma partição Swap."
+msgstr "Opret ikke en Swap-partition."
+
+msgid "O sistema gerenciará automaticamente arquivos de swap."
+msgstr "Systemet administrerer automatisk swap-filer."
+
+msgid "Não crie uma partição separada para /boot."
+msgstr "Opret ikke en separat partition til /boot."
+
+msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "Hvis du bruger UEFI, skal du kun oprette en separat partition til /boot/efi."

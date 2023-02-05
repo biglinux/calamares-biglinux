@@ -319,3 +319,37 @@ msgstr ""
 
 msgid "Verificando a integridade do download e dispositivo de armazenamento..."
 msgstr "Kontrola integrity stahovacího a úložného zařízení..."
+
+msgid "Dicas Antes da Instalação!"
+msgstr "Tipy před instalací!"
+
+msgid ""
+"Instale em uma partição Btrfs, pois o sistema criará e armazenará Snapshots dos últimos 5 dias que "
+"podem ser usados como pontos de restauração. Caso ocorra algum problema durante a modificação de "
+"configurações ou atualizações."
+msgstr ""
+"Nainstalujte na Btrfs oddíl, protože systém vytvoří a uloží snímky za posledních 5 dní, které lze "
+"použít jako body obnovení. Pokud se vyskytne problém při změně nastavení nebo aktualizací."
+
+msgid "Temos um programa de restauração do sistema instalado, se for necessário utiliza-lo"
+msgstr "Máme nainstalovaný program obnovení systému, pokud jej potřebujete použít"
+
+msgid "clique aqui."
+msgstr "klikněte zde."
+
+msgid ""
+"Recomendamos o particionamento automático, mas se optar por particionamento manual, siga estas "
+"dicas:"
+msgstr "Doporučujeme automatické dělení, ale pokud zvolíte ruční dělení, postupujte podle těchto tipů:"
+
+msgid "Não crie uma partição Swap."
+msgstr "Nevytvářejte odkládací oddíl."
+
+msgid "O sistema gerenciará automaticamente arquivos de swap."
+msgstr "Systém bude automaticky spravovat odkládací soubory."
+
+msgid "Não crie uma partição separada para /boot."
+msgstr "Nevytvářejte samostatný oddíl pro /boot."
+
+msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "Pokud používáte UEFI, vytvořte samostatný oddíl pouze pro /boot/efi."

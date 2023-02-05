@@ -323,3 +323,38 @@ msgstr ""
 
 msgid "Verificando a integridade do download e dispositivo de armazenamento..."
 msgstr "İndirme ve depolama cihazının bütünlüğünü kontrol etmek..."
+
+msgid "Dicas Antes da Instalação!"
+msgstr "Kurulumdan Önce İpuçları!"
+
+msgid ""
+"Instale em uma partição Btrfs, pois o sistema criará e armazenará Snapshots dos últimos 5 dias que "
+"podem ser usados como pontos de restauração. Caso ocorra algum problema durante a modificação de "
+"configurações ou atualizações."
+msgstr ""
+"Sistem geri yükleme noktaları olarak kullanılabilecek son 5 günün Anlık Görüntülerini oluşturup "
+"depolayacağı için bir Btrfs bölümüne yükleyin. Ayarları veya güncellemeleri değiştirirken bir sorun "
+"varsa."
+
+msgid "Temos um programa de restauração do sistema instalado, se for necessário utiliza-lo"
+msgstr "Kullanmanız gerekiyorsa yüklü bir sistem geri yükleme programımız var"
+
+msgid "clique aqui."
+msgstr "buraya tıklayın."
+
+msgid ""
+"Recomendamos o particionamento automático, mas se optar por particionamento manual, siga estas "
+"dicas:"
+msgstr "Otomatik bölümlemeyi öneririz, ancak el ile bölümlemeyi seçerseniz, şu ipuçlarını izleyin:"
+
+msgid "Não crie uma partição Swap."
+msgstr "Takas bölümü oluşturmayın."
+
+msgid "O sistema gerenciará automaticamente arquivos de swap."
+msgstr "Sistem takas dosyalarını otomatik olarak yönetecektir."
+
+msgid "Não crie uma partição separada para /boot."
+msgstr "/boot için ayrı bir bölüm oluşturmayın."
+
+msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "UEFI kullanıyorsanız, yalnızca /boot/efi için ayrı bir bölüm oluşturun."

@@ -319,3 +319,38 @@ msgstr ""
 
 msgid "Verificando a integridade do download e dispositivo de armazenamento..."
 msgstr "Athugun á heilleika niðurhals- og geymslubúnaðar..."
+
+msgid "Dicas Antes da Instalação!"
+msgstr "Ábendingar fyrir uppsetningu!"
+
+msgid ""
+"Instale em uma partição Btrfs, pois o sistema criará e armazenará Snapshots dos últimos 5 dias que "
+"podem ser usados como pontos de restauração. Caso ocorra algum problema durante a modificação de "
+"configurações ou atualizações."
+msgstr ""
+"Setja upp á Btrfs skipting vegna þess að kerfið mun búa til og geyma skyndimynd af síðustu 5 dögum "
+"sem hægt er að nota sem endurheimtarpunkta. Ef vandamál koma upp við að breyta stillingum eða "
+"uppfærslum."
+
+msgid "Temos um programa de restauração do sistema instalado, se for necessário utiliza-lo"
+msgstr "Við erum með kerfisendurheimtarforrit uppsett ef þú þarft að nota það"
+
+msgid "clique aqui."
+msgstr "Smelltu hér."
+
+msgid ""
+"Recomendamos o particionamento automático, mas se optar por particionamento manual, siga estas "
+"dicas:"
+msgstr "Við mælum með sjálfvirkri skiptingu, en ef þú velur handvirka skiptingu, fylgdu þessum ráðum:"
+
+msgid "Não crie uma partição Swap."
+msgstr "Ekki búa til Swap skipting."
+
+msgid "O sistema gerenciará automaticamente arquivos de swap."
+msgstr "Kerfið mun sjálfkrafa stjórna víxlskrám."
+
+msgid "Não crie uma partição separada para /boot."
+msgstr "Ekki búa til sérstaka skipting fyrir / stígvél."
+
+msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "Ef þú ert að nota UEFI skaltu búa til sérstaka skipting eingöngu fyrir / stígvél / efi."

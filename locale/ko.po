@@ -311,3 +311,35 @@ msgstr ""
 
 msgid "Verificando a integridade do download e dispositivo de armazenamento..."
 msgstr "다운로드 및 저장 장치의 무결성 확인 중..."
+
+msgid "Dicas Antes da Instalação!"
+msgstr "설치 전 팁!"
+
+msgid ""
+"Instale em uma partição Btrfs, pois o sistema criará e armazenará Snapshots dos últimos 5 dias que "
+"podem ser usados como pontos de restauração. Caso ocorra algum problema durante a modificação de "
+"configurações ou atualizações."
+msgstr "시스템이 복원 지점으로 사용할 수 있는 지난 5일 동안의 스냅샷을 만들고 저장하므로 Btrfs 파티션에 설치합니다. 설정 또는 업데이트를 수정하는 동안 문제가 발생하는 경우."
+
+msgid "Temos um programa de restauração do sistema instalado, se for necessário utiliza-lo"
+msgstr "필요한 경우 시스템 복원 프로그램이 설치되어 있습니다."
+
+msgid "clique aqui."
+msgstr "여기를 클릭하세요."
+
+msgid ""
+"Recomendamos o particionamento automático, mas se optar por particionamento manual, siga estas "
+"dicas:"
+msgstr "자동 분할을 권장하지만 수동 분할을 선택하는 경우 다음 팁을 따르십시오."
+
+msgid "Não crie uma partição Swap."
+msgstr "스왑 파티션을 만들지 마십시오."
+
+msgid "O sistema gerenciará automaticamente arquivos de swap."
+msgstr "시스템이 자동으로 스왑 파일을 관리합니다."
+
+msgid "Não crie uma partição separada para /boot."
+msgstr "/boot에 대해 별도의 파티션을 만들지 마십시오."
+
+msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "UEFI를 사용하는 경우 /boot/efi에 대해서만 별도의 파티션을 만듭니다."

@@ -322,3 +322,40 @@ msgstr ""
 
 msgid "Verificando a integridade do download e dispositivo de armazenamento..."
 msgstr "De integriteit van het download- en opslagapparaat controleren..."
+
+msgid "Dicas Antes da Instalação!"
+msgstr "Tips voor installatie!"
+
+msgid ""
+"Instale em uma partição Btrfs, pois o sistema criará e armazenará Snapshots dos últimos 5 dias que "
+"podem ser usados como pontos de restauração. Caso ocorra algum problema durante a modificação de "
+"configurações ou atualizações."
+msgstr ""
+"Installeer op een Btrfs-partitie omdat het systeem Snapshots van de afgelopen 5 dagen maakt en "
+"opslaat die als herstelpunten kunnen worden gebruikt. Als er een probleem is bij het wijzigen van "
+"instellingen of updates."
+
+msgid "Temos um programa de restauração do sistema instalado, se for necessário utiliza-lo"
+msgstr "We hebben een systeemherstelprogramma geïnstalleerd als u het moet gebruiken"
+
+msgid "clique aqui."
+msgstr "klik hier."
+
+msgid ""
+"Recomendamos o particionamento automático, mas se optar por particionamento manual, siga estas "
+"dicas:"
+msgstr ""
+"We raden automatische partitionering aan, maar als u kiest voor handmatig partitioneren, volgt u "
+"deze tips:"
+
+msgid "Não crie uma partição Swap."
+msgstr "Maak geen swappartitie."
+
+msgid "O sistema gerenciará automaticamente arquivos de swap."
+msgstr "Het systeem beheert automatisch swapbestanden."
+
+msgid "Não crie uma partição separada para /boot."
+msgstr "Maak geen aparte partitie voor /boot."
+
+msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "Als u UEFI gebruikt, maakt u alleen een afzonderlijke partitie voor /boot/efi."

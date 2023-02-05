@@ -320,3 +320,40 @@ msgstr ""
 
 msgid "Verificando a integridade do download e dispositivo de armazenamento..."
 msgstr "A letöltő és tárolóeszköz integritásának ellenőrzése..."
+
+msgid "Dicas Antes da Instalação!"
+msgstr "Tippek a telepítés előtt!"
+
+msgid ""
+"Instale em uma partição Btrfs, pois o sistema criará e armazenará Snapshots dos últimos 5 dias que "
+"podem ser usados como pontos de restauração. Caso ocorra algum problema durante a modificação de "
+"configurações ou atualizações."
+msgstr ""
+"Telepítse egy Btrfs partícióra, mert a rendszer pillanatképeket hoz létre és tárol az elmúlt 5 "
+"napról, amelyek visszaállítási pontként használhatók. Ha probléma merül fel a beállítások vagy "
+"frissítések módosítása közben."
+
+msgid "Temos um programa de restauração do sistema instalado, se for necessário utiliza-lo"
+msgstr "Van egy rendszer-visszaállító programunk, ha használni kell"
+
+msgid "clique aqui."
+msgstr "kattintson ide."
+
+msgid ""
+"Recomendamos o particionamento automático, mas se optar por particionamento manual, siga estas "
+"dicas:"
+msgstr ""
+"Javasoljuk az automatikus particionálást, de ha a kézi particionálást választja, kövesse az alábbi "
+"tippeket:"
+
+msgid "Não crie uma partição Swap."
+msgstr "Ne hozzon létre Swap partíciót."
+
+msgid "O sistema gerenciará automaticamente arquivos de swap."
+msgstr "A rendszer automatikusan kezeli a swap fájlokat."
+
+msgid "Não crie uma partição separada para /boot."
+msgstr "Ne hozzunk létre külön partíciót a /boot könyvtárhoz."
+
+msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "UEFI használata esetén csak a /boot/efi számára hozzunk létre külön partíciót."

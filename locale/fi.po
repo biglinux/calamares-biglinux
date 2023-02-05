@@ -319,3 +319,39 @@ msgstr ""
 
 msgid "Verificando a integridade do download e dispositivo de armazenamento..."
 msgstr "Lataus- ja tallennuslaitteen eheyden tarkistaminen..."
+
+msgid "Dicas Antes da Instalação!"
+msgstr "Vinkkejä ennen asennusta!"
+
+msgid ""
+"Instale em uma partição Btrfs, pois o sistema criará e armazenará Snapshots dos últimos 5 dias que "
+"podem ser usados como pontos de restauração. Caso ocorra algum problema durante a modificação de "
+"configurações ou atualizações."
+msgstr ""
+"Asenna Btrfs-osioon, koska järjestelmä luo ja tallentaa tilannevedoksia viimeisten 5 päivän ajalta, "
+"joita voidaan käyttää palautuspisteinä. Jos asetusten tai päivitysten muokkaamisessa on ongelma."
+
+msgid "Temos um programa de restauração do sistema instalado, se for necessário utiliza-lo"
+msgstr "Meillä on järjestelmän palautusohjelma asennettuna, jos haluat käyttää sitä"
+
+msgid "clique aqui."
+msgstr "klikkaa tästä."
+
+msgid ""
+"Recomendamos o particionamento automático, mas se optar por particionamento manual, siga estas "
+"dicas:"
+msgstr ""
+"Suosittelemme automaattista osiointia, mutta jos valitset manuaalisen osioinnin, noudata näitä "
+"vinkkejä:"
+
+msgid "Não crie uma partição Swap."
+msgstr "Älä luo Swap-osiota."
+
+msgid "O sistema gerenciará automaticamente arquivos de swap."
+msgstr "Järjestelmä hallitsee vaihtotiedostoja automaattisesti."
+
+msgid "Não crie uma partição separada para /boot."
+msgstr "Älä luo erillistä osiota /boot-tiedostolle."
+
+msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "Jos käytössäsi on UEFI, luo erillinen osio vain tiedostolle /boot/efi."

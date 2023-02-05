@@ -313,3 +313,35 @@ msgstr ""
 
 msgid "Verificando a integridade do download e dispositivo de armazenamento..."
 msgstr "ダウンロードおよびストレージデバイスの整合性を確認しています..."
+
+msgid "Dicas Antes da Instalação!"
+msgstr "インストール前のヒント!"
+
+msgid ""
+"Instale em uma partição Btrfs, pois o sistema criará e armazenará Snapshots dos últimos 5 dias que "
+"podem ser usados como pontos de restauração. Caso ocorra algum problema durante a modificação de "
+"configurações ou atualizações."
+msgstr "システムは復元ポイントとして使用できる過去5日間のスナップショットを作成して保存するため、Btrfsパーティションにインストールします。設定の変更または更新中に問題が発生した場合。"
+
+msgid "Temos um programa de restauração do sistema instalado, se for necessário utiliza-lo"
+msgstr "システム復元プログラムを使用する必要がある場合は、インストールしています"
+
+msgid "clique aqui."
+msgstr "こちらをクリックしてください。"
+
+msgid ""
+"Recomendamos o particionamento automático, mas se optar por particionamento manual, siga estas "
+"dicas:"
+msgstr "自動パーティション分割をお勧めしますが、手動パーティション分割を選択した場合は、次のヒントに従ってください。"
+
+msgid "Não crie uma partição Swap."
+msgstr "スワップパーティションを作成しないでください。"
+
+msgid "O sistema gerenciará automaticamente arquivos de swap."
+msgstr "システムはスワップファイルを自動的に管理します。"
+
+msgid "Não crie uma partição separada para /boot."
+msgstr "/boot 用に別のパーティションを作成しないでください。"
+
+msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "UEFI を使用している場合は、/boot/efi 専用に別のパーティションを作成します。"

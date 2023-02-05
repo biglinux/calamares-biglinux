@@ -311,3 +311,35 @@ msgstr ""
 
 msgid "Verificando a integridade do download e dispositivo de armazenamento..."
 msgstr "正在检查下载和存储设备的完整性..."
+
+msgid "Dicas Antes da Instalação!"
+msgstr "安装前的提示！"
+
+msgid ""
+"Instale em uma partição Btrfs, pois o sistema criará e armazenará Snapshots dos últimos 5 dias que "
+"podem ser usados como pontos de restauração. Caso ocorra algum problema durante a modificação de "
+"configurações ou atualizações."
+msgstr "安装在 Btrfs 分区上，因为系统将创建并存储可用作还原点的过去 5 天的快照。如果在修改设置或更新时出现问题。"
+
+msgid "Temos um programa de restauração do sistema instalado, se for necessário utiliza-lo"
+msgstr "如果您需要使用它，我们安装了系统还原程序"
+
+msgid "clique aqui."
+msgstr "点击这里。"
+
+msgid ""
+"Recomendamos o particionamento automático, mas se optar por particionamento manual, siga estas "
+"dicas:"
+msgstr "我们建议自动分区，但如果选择手动分区，请遵循以下提示："
+
+msgid "Não crie uma partição Swap."
+msgstr "不要创建交换分区。"
+
+msgid "O sistema gerenciará automaticamente arquivos de swap."
+msgstr "系统将自动管理交换文件。"
+
+msgid "Não crie uma partição separada para /boot."
+msgstr "不要为 /boot 创建单独的分区。"
+
+msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "如果您使用的是 UEFI，请仅为 /boot/efi 创建一个单独的分区。"

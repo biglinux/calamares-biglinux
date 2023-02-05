@@ -326,3 +326,40 @@ msgstr ""
 
 msgid "Verificando a integridade do download e dispositivo de armazenamento..."
 msgstr "Verifica dell'integrità del dispositivo di download e archiviazione..."
+
+msgid "Dicas Antes da Instalação!"
+msgstr "Suggerimenti prima dell'installazione!"
+
+msgid ""
+"Instale em uma partição Btrfs, pois o sistema criará e armazenará Snapshots dos últimos 5 dias que "
+"podem ser usados como pontos de restauração. Caso ocorra algum problema durante a modificação de "
+"configurações ou atualizações."
+msgstr ""
+"Installare su una partizione Btrfs perché il sistema creerà e memorizzerà snapshot degli ultimi 5 "
+"giorni che possono essere utilizzati come punti di ripristino. Se si verifica un problema durante "
+"la modifica delle impostazioni o degli aggiornamenti."
+
+msgid "Temos um programa de restauração do sistema instalado, se for necessário utiliza-lo"
+msgstr "Abbiamo un programma di ripristino del sistema installato se è necessario utilizzarlo"
+
+msgid "clique aqui."
+msgstr "clicca qui."
+
+msgid ""
+"Recomendamos o particionamento automático, mas se optar por particionamento manual, siga estas "
+"dicas:"
+msgstr ""
+"Ti consigliamo il partizionamento automatico, ma se scegli il partizionamento manuale, segui questi "
+"suggerimenti:"
+
+msgid "Não crie uma partição Swap."
+msgstr "Non creare una partizione di swap."
+
+msgid "O sistema gerenciará automaticamente arquivos de swap."
+msgstr "Il sistema gestirà automaticamente i file di swap."
+
+msgid "Não crie uma partição separada para /boot."
+msgstr "Non creare una partizione separata per /boot."
+
+msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "Se si utilizza UEFI, creare una partizione separata solo per /boot/efi."

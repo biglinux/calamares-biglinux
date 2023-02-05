@@ -324,3 +324,40 @@ msgstr ""
 
 msgid "Verificando a integridade do download e dispositivo de armazenamento..."
 msgstr "Έλεγχος της ακεραιότητας της συσκευής λήψης και αποθήκευσης..."
+
+msgid "Dicas Antes da Instalação!"
+msgstr "Συμβουλές πριν από την εγκατάσταση!"
+
+msgid ""
+"Instale em uma partição Btrfs, pois o sistema criará e armazenará Snapshots dos últimos 5 dias que "
+"podem ser usados como pontos de restauração. Caso ocorra algum problema durante a modificação de "
+"configurações ou atualizações."
+msgstr ""
+"Εγκαταστήστε σε μια κατάτμηση Btrfs επειδή το σύστημα θα δημιουργήσει και θα αποθηκεύσει "
+"στιγμιότυπα των τελευταίων 5 ημερών που μπορούν να χρησιμοποιηθούν ως σημεία επαναφοράς. Εάν "
+"υπάρχει πρόβλημα κατά την τροποποίηση ρυθμίσεων ή ενημερώσεων."
+
+msgid "Temos um programa de restauração do sistema instalado, se for necessário utiliza-lo"
+msgstr "Έχουμε εγκαταστήσει ένα πρόγραμμα επαναφοράς συστήματος εάν πρέπει να το χρησιμοποιήσετε"
+
+msgid "clique aqui."
+msgstr "κάντε κλικ εδώ."
+
+msgid ""
+"Recomendamos o particionamento automático, mas se optar por particionamento manual, siga estas "
+"dicas:"
+msgstr ""
+"Συνιστούμε την αυτόματη διαμέριση, αλλά αν επιλέξετε χειροκίνητη διαμέριση, ακολουθήστε αυτές τις "
+"συμβουλές:"
+
+msgid "Não crie uma partição Swap."
+msgstr "Μην δημιουργήσετε μια κατάτμηση Swap."
+
+msgid "O sistema gerenciará automaticamente arquivos de swap."
+msgstr "Το σύστημα θα διαχειρίζεται αυτόματα τα αρχεία μετάθεσης."
+
+msgid "Não crie uma partição separada para /boot."
+msgstr "Μην δημιουργήσετε ξεχωριστή κατάτμηση για τον κατάλογο /boot."
+
+msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "Αν χρησιμοποιείτε UEFI, δημιουργήστε μια ξεχωριστή κατάτμηση μόνο για το /boot/efi."
