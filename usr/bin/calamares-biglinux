@@ -42,10 +42,8 @@ if [ "$(echo $(( $(date +%s) / 86400 )))" -gt "$(( $(cat /usr/share/bigbashview/
     fi
 fi
 
-#se a release tiver mais 11 digitos é por que é testing se tiver menos é stable
-ruscherrelease=$(cat /etc/big-release | grep RELEASE | awk -F'=' '{print $2}')
-ruschertimestamp=$(cat /etc/big-release | grep TIMESTAMP | awk -F'=' '{print $2}')
-if [ "$(echo $ruscherrelease | wc -m)" -gt "11" ]; then
+#verifica se é testing e se o testing está ativo
+if [ -n "$(cat /etc/pacman.conf | grep testing)" ]; then
     #if  [ "$(echo $(( $(date +%s) / 86400 )))" -gt "$(( $ruschertimestamp + 7 ))" ]; then
         if [ -z "$(curl -s https://raw.githubusercontent.com/BigLinux-Package-Build/big-releases/main/testing | grep $ruscherrelease | grep -v "#")" ]; then
             echo "ISO invalida"
