@@ -51,6 +51,11 @@ EOF
 # Get body tag with color light or not
 /usr/share/bigbashview/bcc/shell/getbgcolor.sh
 
+
+
+
+
+
 cat <<EOF
 <div class="dark-light">
     <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -58,16 +63,60 @@ cat <<EOF
     </svg>
 </div>
 
-<!-- <div class="Message" id="js-timer">
+<div class="Message">
   <div class="Message-icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width: 30px;"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
   </div>
   <div class="Message-body">
-    <p>Utilizar a <pre>/boot</pre> </p>
-    <p class="u-italic">em partição separada trás problemas ao sistema de snapshots</p>
-  </div>
-  <button class="Message-close js-messageClose"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style="width: 10px;"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg></button>
-</div> -->
+EOF
+
+echo "<div class=titleP>"
+echo $"Dicas Antes da Instalação!"
+
+
+echo "</div><div class=messageP>"
+echo "<div class=numberP>1</div>"
+
+echo $"Instale em uma partição Btrfs, pois o sistema criará e armazenará Snapshots dos últimos 5 dias que podem ser usados como pontos de restauração. Caso ocorra algum problema durante a modificação de configurações ou atualizações."
+
+echo "</div><div class=messageP>"
+echo "<div class=numberP>2</div>"
+
+echo $"Temos um programa de restauração do sistema instalado, se for necessário utiliza-lo"
+echo "<div class=alertP2 onclick=\"_run('biglinux-grub-restore')\">"
+echo $"clique aqui."
+echo "</div> "
+
+
+echo "</div><div class=messageP>"
+echo "<div class=numberP>3</div>"
+
+echo $"Recomendamos o particionamento automático, mas se optar por particionamento manual, siga estas dicas:"
+
+echo "</div><div class=messageP>"
+echo "<div class=numberP>3.1</div>"
+
+echo "<div class=alertP>"
+echo $"Não crie uma partição Swap."
+echo "</div> "
+echo $"O sistema gerenciará automaticamente arquivos de swap."
+
+echo "</div><div class=messageP>"
+echo "<div class=numberP>3.2</div>"
+
+echo "<div class=alertP> "
+echo $"Não crie uma partição separada para /boot."
+echo "</div>"
+echo $"Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
+echo "</div><div class=ContinueButton>"
+echo '<a href="#" class="calamares-big-buttonP js-messageClose">Continuar</a>'
+echo "</div></div>"
+
+cat <<EOF
+
+</div>
+
+
 
 
 <!-- partial:index.partial.html -->

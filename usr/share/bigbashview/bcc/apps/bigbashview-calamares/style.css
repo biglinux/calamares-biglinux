@@ -148,17 +148,24 @@ body.light-mode:before {
 }
 
 .Message {
-  display: table;
-  position: absolute;
-  margin: 40px auto 0;
-  width: 500px;
-  background-color: #0074D9;
-  color: #fff;
-  transition: all 0.2s ease;
-  border-radius: 15px;
-  font-weight: 500;
-  z-index: 9999;
-  left: 40px;
+    display: table;
+    position: absolute;
+    margin-top: 65px;
+    width: 92%;
+    height: 80%;
+    max-height: 500px;
+    background-color: #0074D9;
+    color: #fff;
+    transition: all 0.2s ease;
+    border-radius: 15px;
+    font-weight: 600;
+    z-index: 10;
+    font-size: large;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: -1px 3px 8px -1px var(--box-color-shadow-01);
 }
 .Message.is-hidden {
   opacity: 0;
@@ -227,25 +234,68 @@ body.light-mode:before {
 }
 
 .Message-close {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.3);
-  color: #fff;
-  border: none;
-  outline: none;
-  font-size: 20px;
-  right: 5px;
-  top: 5px;
-  opacity: 0;
-  cursor: pointer;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    bottom: 10px;
+    opacity: 1;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
-.Message:hover .Message-close {
-  opacity: 1;
-}
+
 .Message-close:hover {
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.messageP {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.numberP {
+    display: table;
+    width: 45px;
+}
+
+.titleP {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: larger;
+}
+
+.calamares-big-buttonP {
+    border: 1px solid #3a6df0;
+    border-radius: 10px;
+    color: #3a6df0;
+    padding: 10px 35px;
+    text-decoration: none;
+    background-color: aliceblue;
+    transition: all 150ms ease-in-out;
+}
+
+.alertP {
+    color: khaki;
+    display: contents;
+}
+
+.alertP2 {
+    color: aqua;
+    display: contents;
+    cursor: pointer;
+}
+
+.ContinueButton {
+    text-align: center;
 }
 
 .u-italic {
