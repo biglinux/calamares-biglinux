@@ -6,7 +6,7 @@ if [ "$(file -i /usr/bin/calamares | grep shellscript)" = "" ]; then
 cat << 'EOF' > /usr/bin/calamares
 #!/bin/bash
 ruscherrelease=$(cat /etc/big-release | grep RELEASE | awk -F'=' '{print $2}')
-if [ "$(echo $ruscherrelease | wc -m)" -gt "11" ]; then
+if [ -n "$(cat /etc/pacman.conf | grep biglinux-testing)" ]; then
     windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
     sleep 600 | zenity --attach="$windowID" --width=300 --progress --title=$"Aguarde..." --pulsate --no-cancel --auto-close --text $"Atualizando o Instalador..." &       
     #esperar terminar de gerar as chaves
