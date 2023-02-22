@@ -45,7 +45,12 @@ fi
 #se a release tiver mais 11 digitos é por que é testing se tiver menos é stable
 ruscherrelease=$(cat /etc/big-release | grep RELEASE | awk -F'=' '{print $2}')
 ruschertimestamp=$(cat /etc/big-release | grep TIMESTAMP | awk -F'=' '{print $2}')
+
+# Default Shell in stable
+userShell="/bin/bash"
 if [ -n "$(cat /etc/pacman.conf | grep biglinux-testing)" ]; then
+    # Default Shell in testing
+    userShell="/bin/zsh"
     #if  [ "$(echo $(( $(date +%s) / 86400 )))" -gt "$(( $ruschertimestamp + 7 ))" ]; then
         if [ -z "$(curl -s https://raw.githubusercontent.com/BigLinux-Package-Build/big-releases/main/testing | grep $ruscherrelease | grep -v "#")" ]; then
             echo "ISO invalida"
@@ -132,7 +137,7 @@ sed -i 's|defaultFileSystemType.*"ext4"|defaultFileSystemType:  "btrfs"|g' /usr/
 # sed -i '/^disable:/,$d' /usr/share/calamares/modules/services.conf
 
 
-echo '
+echo "
 ---
 defaultGroups:
     - cdrom
@@ -161,9 +166,9 @@ setRootPassword: false
 doReusePassword: false
 availableShells: /bin/bash, /bin/zsh
 avatarFilePath:  ~/.face
-userShell:       /bin/bash
+userShell:       $userShell
 passwordRequirements:
-    nonempty: true' > /etc/calamares/modules/users.conf
+    nonempty: true" > /etc/calamares/modules/users.conf
 
     
 echo '---
