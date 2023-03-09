@@ -48,7 +48,7 @@ ruschertimestamp=$(cat /etc/big-release | grep TIMESTAMP | awk -F'=' '{print $2}
 
 # Default Shell in stable
 userShell="/bin/bash"
-if [ -n "$(cat /etc/pacman.conf | grep biglinux-testing)" ]; then
+if [ -n "$(cat /etc/big-release | grep development )" ];then
     # Default Shell in testing
     userShell="/bin/zsh"
     #if  [ "$(echo $(( $(date +%s) / 86400 )))" -gt "$(( $ruschertimestamp + 7 ))" ]; then

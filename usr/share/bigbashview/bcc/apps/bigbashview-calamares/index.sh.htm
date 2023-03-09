@@ -32,7 +32,7 @@ TITLE=$"Instalar no HD"
 INFOBOOT=$"* Não utilize /boot separado"
 
 #Testing Verify Start
-if [ "$(grep biglinux-testing /etc/pacman.conf)" != "" ]; then
+if [ -n "$(cat /etc/big-release | grep -E "development|beta" )" ];then
   File_to_go="desktop.sh.htm"
 else
   File_to_go="wait.sh.htm"
