@@ -355,3 +355,17 @@ msgstr "Älä luo erillistä osiota /boot-tiedostolle."
 
 msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
 msgstr "Jos käytössäsi on UEFI, luo erillinen osio vain tiedostolle /boot/efi."
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>Tämä kehitysversio on vanhentunut, eikä sitä voi enää käyttää.</b>\n"
+"        :LBL"
+
+msgid ""
+"<b>Essa Versão da ISO está desatualizada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>Tämä ISO-versio on vanhentunut, eikä sitä voi enää käyttää.</b>\n"
+"        :LBL"

@@ -357,3 +357,17 @@ msgstr "Не создавайте отдельный раздел для /boot."
 
 msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
 msgstr "Если вы используете UEFI, создайте отдельный раздел только для /boot/efi."
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>Эта версия для разработчиков устарела и больше не может использоваться.</b>\n"
+"        :ЛБЛ"
+
+msgid ""
+"<b>Essa Versão da ISO está desatualizada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>Эта версия ISO устарела и больше не может использоваться.</b>\n"
+"        :ЛБЛ"

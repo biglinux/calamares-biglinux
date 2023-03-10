@@ -351,3 +351,17 @@ msgstr "Do not create a separate partition for /boot."
 
 msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
 msgstr "If you are using UEFI, create a separate partition only for /boot/efi."
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>This Development Version is outdated and can no longer be used.</b>\n"
+"        :LBL"
+
+msgid ""
+"<b>Essa Versão da ISO está desatualizada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>This ISO Version is out of date and can no longer be used.</b>\n"
+"        :LBL"

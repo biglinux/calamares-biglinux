@@ -354,3 +354,17 @@ msgstr "Ekki búa til sérstaka skipting fyrir / stígvél."
 
 msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
 msgstr "Ef þú ert að nota UEFI skaltu búa til sérstaka skipting eingöngu fyrir / stígvél / efi."
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>Þessi þróunarútgáfa er úrelt og ekki lengur hægt að nota hana.</b>\n"
+"        :LBL"
+
+msgid ""
+"<b>Essa Versão da ISO está desatualizada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>Þessi ISO útgáfa er úrelt og ekki lengur hægt að nota hana.</b>\n"
+"        :LBL"

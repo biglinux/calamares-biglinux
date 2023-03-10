@@ -357,3 +357,17 @@ msgstr "Ne hozzunk létre külön partíciót a /boot könyvtárhoz."
 
 msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
 msgstr "UEFI használata esetén csak a /boot/efi számára hozzunk létre külön partíciót."
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>Ez a fejlesztői verzió elavult, és már nem használható.</b>\n"
+"        :LBL"
+
+msgid ""
+"<b>Essa Versão da ISO está desatualizada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>Ez az ISO verzió elavult, és már nem használható.</b>\n"
+"        :LBL"

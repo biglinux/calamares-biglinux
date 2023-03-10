@@ -345,3 +345,17 @@ msgstr "/boot 用に別のパーティションを作成しないでください
 
 msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
 msgstr "UEFI を使用している場合は、/boot/efi 専用に別のパーティションを作成します。"
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>この開発バージョンは古く、使用できなくなりました。</b>\n"
+"        :LBL"
+
+msgid ""
+"<b>Essa Versão da ISO está desatualizada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>このISOバージョンは古く、使用できなくなりました。</b>\n"
+"        :LBL"

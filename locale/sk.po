@@ -356,3 +356,17 @@ msgstr "Nevytvárajte samostatnú oblasť pre /boot."
 
 msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
 msgstr "Ak používate UEFI, vytvorte samostatnú oblasť iba pre /boot/efi."
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>Táto vývojová verzia je zastaraná a už sa nedá používať.</b>\n"
+"        :LBL"
+
+msgid ""
+"<b>Essa Versão da ISO está desatualizada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>Táto verzia ISO je zastaraná a už sa nedá použiť.</b>\n"
+"        :LBL"

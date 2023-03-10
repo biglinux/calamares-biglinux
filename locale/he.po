@@ -349,3 +349,17 @@ msgstr "אל תיצור מחיצה נפרדת עבור /boot."
 
 msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
 msgstr "אם אתה משתמש ב- UEFI, צור מחיצה נפרדת רק עבור /boot/efi."
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>גרסת פיתוח זו מיושנת ולא ניתן עוד להשתמש בה.</b>\n"
+"        ל.ב.ל.:"
+
+msgid ""
+"<b>Essa Versão da ISO está desatualizada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>גירסת ISO זו אינה מעודכנת ולא ניתן עוד להשתמש בה.</b>\n"
+"        ל.ב.ל.:"

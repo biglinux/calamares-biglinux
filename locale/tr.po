@@ -358,3 +358,17 @@ msgstr "/boot için ayrı bir bölüm oluşturmayın."
 
 msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
 msgstr "UEFI kullanıyorsanız, yalnızca /boot/efi için ayrı bir bölüm oluşturun."
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>Bu Geliştirme Sürümü modası geçmiş ve artık kullanılamaz.</b>\n"
+"        :LBL"
+
+msgid ""
+"<b>Essa Versão da ISO está desatualizada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>Bu ISO Sürümü güncel değildir ve artık kullanılamaz.</b>\n"
+"        :LBL"

@@ -357,3 +357,17 @@ msgstr "Nie należy tworzyć osobnej partycji dla katalogu /boot."
 
 msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
 msgstr "Jeśli używasz UEFI, utwórz osobną partycję tylko dla /boot/efi."
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>Ta wersja rozwojowa jest przestarzała i nie można jej już używać.</b>\n"
+"        :LBL"
+
+msgid ""
+"<b>Essa Versão da ISO está desatualizada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>Ta wersja ISO jest nieaktualna i nie może być już używana.</b>\n"
+"        :LBL"

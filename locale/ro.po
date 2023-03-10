@@ -358,3 +358,17 @@ msgstr "Nu creați o partiție separată pentru /boot."
 
 msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
 msgstr "Dacă utilizați UEFI, creați o partiție separată numai pentru /boot/efi."
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>Această versiune de dezvoltare este depășită și nu mai poate fi utilizată.</b>\n"
+"        :LBL"
+
+msgid ""
+"<b>Essa Versão da ISO está desatualizada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>Această versiune ISO este depășită și nu mai poate fi utilizată.</b>\n"
+"        :LBL"

@@ -361,3 +361,17 @@ msgstr "Μην δημιουργήσετε ξεχωριστή κατάτμηση 
 
 msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
 msgstr "Αν χρησιμοποιείτε UEFI, δημιουργήστε μια ξεχωριστή κατάτμηση μόνο για το /boot/efi."
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>Αυτή η έκδοση ανάπτυξης είναι ξεπερασμένη και δεν μπορεί πλέον να χρησιμοποιηθεί.</b>\n"
+"        :ΛΒ"
+
+msgid ""
+"<b>Essa Versão da ISO está desatualizada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>Αυτή η έκδοση ISO είναι ξεπερασμένη και δεν μπορεί πλέον να χρησιμοποιηθεί.</b>\n"
+"        :ΛΒ"

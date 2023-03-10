@@ -343,3 +343,17 @@ msgstr "不要为 /boot 创建单独的分区。"
 
 msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
 msgstr "如果您使用的是 UEFI，请仅为 /boot/efi 创建一个单独的分区。"
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>此开发版本已过时，无法再使用。</b>\n"
+"        ：LBL"
+
+msgid ""
+"<b>Essa Versão da ISO está desatualizada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>此 ISO 版本已过期，无法再使用。</b>\n"
+"        ：LBL"

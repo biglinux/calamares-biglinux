@@ -354,3 +354,17 @@ msgstr "Ärge looge /boot jaoks eraldi partitsiooni."
 
 msgid "Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
 msgstr "Kui kasutate UEFI-d, looge eraldi partitsioon ainult /boot/efi jaoks."
+
+msgid ""
+"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>See arendusversioon on aegunud ja seda ei saa enam kasutada.</b>\n"
+"        :LBL"
+
+msgid ""
+"<b>Essa Versão da ISO está desatualizada e não pode mais ser usada.</b>\n"
+"        :LBL"
+msgstr ""
+"<b>See ISO-versioon on aegunud ja seda ei saa enam kasutada.</b>\n"
+"        :LBL"
