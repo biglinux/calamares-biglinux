@@ -25,7 +25,6 @@ DESKTOP=$"DESKTOP"
 cat << EOF
 <div style="display:none;">
 EOF
-
 #atualiza banco de pacotes e verifica se tem conexão a internet
 windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
 sleep 600 | zenity --attach="$windowID" --width=300 --progress --title=$"Aguarde..." --pulsate --no-cancel --auto-close --text $"Verificando conexão com a Internet..." &
@@ -45,12 +44,9 @@ if [ "$?" = "1" ];then
 else
     killall zenity
 fi
-cat << EOF
-</div>
-EOF
 
 #verificar conexão com internet
-echo "verificando validade da ISO"
+echo "Verificando conexão com a Internet"
 windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
 zenity --attach="$windowID" --width=300 --progress --title=$"Aguarde..." --pulsate --no-cancel --auto-close --text $"Verificando conexão com a Internet..." &
 sudo pacman -Sy 
@@ -105,6 +101,10 @@ fi
 #atualizar os pacotes dos desktops community
 windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
 for i in $(pacman -Q | awk '{print $1}' | grep biglinux-calamares); do sudo pacman -S $i calamares-biglinux --noconfirm --needed; done | zenity --attach="$windowID" --width=300 --progress --title="Desktops" --pulsate --no-cancel --auto-close --text $"Atualizando lista de Interfaces..."
+cat << EOF
+</div>
+EOF
+
 
 cat << EOF
 <head>
