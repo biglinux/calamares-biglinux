@@ -340,7 +340,7 @@ if [ -e "/tmp/start_calamares" ]; then
 fi
 
 #Calamares failed to install
-if [ "$(grep completion /root/.cache/calamares/session.log | rev | cut -d ":" -f1 | rev | sed 's/^[ \t]*//;s/[ \t]*$//')" != "succeeded" ];then
+if [ "$(grep -w completion /root/.cache/calamares/session.log | rev | cut -d ":" -f1 | rev | sed 's/^[ \t]*//;s/[ \t]*$//')" != "succeeded" ];then
 # if [ "$(grep completion /root/.cache/calamares/session.log | rev | cut -d ":" -f1 | rev | sed 's/^ \+//')" = "failed" ];then
     cp /root/.cache/calamares/session.log /home/biglinux/calamares.log
     chown biglinux:biglinux /home/biglinux/calamares.log
