@@ -357,3 +357,12 @@ msgid ""
 msgstr ""
 "<b>此 ISO 版本已过期，无法再使用。</b>\n"
 "        ：LBL"
+
+msgid "Abrir"
+msgstr "打开"
+
+msgid "Enviar para a nuvem"
+msgstr "发送到云"
+
+msgid "Fechar"
+msgstr "关闭"

@@ -368,3 +368,12 @@ msgid ""
 msgstr ""
 "<b>Þessi ISO útgáfa er úrelt og ekki lengur hægt að nota hana.</b>\n"
 "        :LBL"
+
+msgid "Abrir"
+msgstr "Opinn"
+
+msgid "Enviar para a nuvem"
+msgstr "Senda í skýið"
+
+msgid "Fechar"
+msgstr "Loka"

@@ -363,3 +363,12 @@ msgid ""
 msgstr ""
 "<b>גירסת ISO זו אינה מעודכנת ולא ניתן עוד להשתמש בה.</b>\n"
 "        ל.ב.ל.:"
+
+msgid "Abrir"
+msgstr "פתוח"
+
+msgid "Enviar para a nuvem"
+msgstr "שליחה לענן"
+
+msgid "Fechar"
+msgstr "קרוב"

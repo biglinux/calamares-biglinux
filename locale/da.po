@@ -371,3 +371,12 @@ msgid ""
 msgstr ""
 "<b>Denne ISO-version er forældet og kan ikke længere bruges.</b>\n"
 "        :LBL"
+
+msgid "Abrir"
+msgstr "Åben"
+
+msgid "Enviar para a nuvem"
+msgstr "Send til skyen"
+
+msgid "Fechar"
+msgstr "Lukke"

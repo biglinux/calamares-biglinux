@@ -306,3 +306,12 @@ msgstr  ""
 msgid   "<b>Essa Versão da ISO está desatualizada e não pode mais ser usada.</b>\n"
         "        :LBL"
 msgstr  ""
+#
+msgid   "Abrir"
+msgstr  ""
+#
+msgid   "Enviar para a nuvem"
+msgstr  ""
+#
+msgid   "Fechar"
+msgstr  ""

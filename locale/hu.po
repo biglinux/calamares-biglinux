@@ -371,3 +371,12 @@ msgid ""
 msgstr ""
 "<b>Ez az ISO verzió elavult, és már nem használható.</b>\n"
 "        :LBL"
+
+msgid "Abrir"
+msgstr "Nyitott"
+
+msgid "Enviar para a nuvem"
+msgstr "Küldés a felhőbe"
+
+msgid "Fechar"
+msgstr "Bezár"

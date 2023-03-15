@@ -367,3 +367,12 @@ msgid ""
 msgstr ""
 "<b>Tato verze ISO je zastaralá a nelze ji již používat.</b>\n"
 "        :LBL"
+
+msgid "Abrir"
+msgstr "Otevřený"
+
+msgid "Enviar para a nuvem"
+msgstr "Odeslání do cloudu"
+
+msgid "Fechar"
+msgstr "Zavřít"

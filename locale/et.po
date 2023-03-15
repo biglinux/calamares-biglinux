@@ -368,3 +368,12 @@ msgid ""
 msgstr ""
 "<b>See ISO-versioon on aegunud ja seda ei saa enam kasutada.</b>\n"
 "        :LBL"
+
+msgid "Abrir"
+msgstr "Avama"
+
+msgid "Enviar para a nuvem"
+msgstr "Saada pilve"
+
+msgid "Fechar"
+msgstr "Sulgema"

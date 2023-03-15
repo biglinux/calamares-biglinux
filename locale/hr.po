@@ -370,3 +370,12 @@ msgid ""
 msgstr ""
 "<b>Ova ISO verzija je zastarjela i više se ne može koristiti.</b>\n"
 "        :LBL"
+
+msgid "Abrir"
+msgstr "Otvoren"
+
+msgid "Enviar para a nuvem"
+msgstr "Pošalji u oblak"
+
+msgid "Fechar"
+msgstr "Blizak"

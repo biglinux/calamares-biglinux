@@ -357,3 +357,12 @@ msgid ""
 msgstr ""
 "<b>이 ISO 버전은 오래되어 더 이상 사용할 수 없습니다.</b>\n"
 "        :LBL"
+
+msgid "Abrir"
+msgstr "열다"
+
+msgid "Enviar para a nuvem"
+msgstr "클라우드로 보내기"
+
+msgid "Fechar"
+msgstr "닫다"

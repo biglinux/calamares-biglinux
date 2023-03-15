@@ -372,3 +372,12 @@ msgid ""
 msgstr ""
 "<b>Această versiune ISO este depășită și nu mai poate fi utilizată.</b>\n"
 "        :LBL"
+
+msgid "Abrir"
+msgstr "Deschide"
+
+msgid "Enviar para a nuvem"
+msgstr "Trimitere în cloud"
+
+msgid "Fechar"
+msgstr "Închide"

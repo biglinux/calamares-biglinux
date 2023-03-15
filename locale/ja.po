@@ -359,3 +359,12 @@ msgid ""
 msgstr ""
 "<b>このISOバージョンは古く、使用できなくなりました。</b>\n"
 "        :LBL"
+
+msgid "Abrir"
+msgstr "開ける"
+
+msgid "Enviar para a nuvem"
+msgstr "クラウドに送信"
+
+msgid "Fechar"
+msgstr "閉める"

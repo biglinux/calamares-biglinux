@@ -373,3 +373,12 @@ msgid ""
 msgstr ""
 "<b>Deze ISO-versie is verouderd en kan niet meer worden gebruikt.</b>\n"
 "        :LBL"
+
+msgid "Abrir"
+msgstr "Openen"
+
+msgid "Enviar para a nuvem"
+msgstr "Verzenden naar de cloud"
+
+msgid "Fechar"
+msgstr "Sluiten"

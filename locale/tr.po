@@ -372,3 +372,12 @@ msgid ""
 msgstr ""
 "<b>Bu ISO Sürümü güncel değildir ve artık kullanılamaz.</b>\n"
 "        :LBL"
+
+msgid "Abrir"
+msgstr "Açık"
+
+msgid "Enviar para a nuvem"
+msgstr "Buluta gönderin"
+
+msgid "Fechar"
+msgstr "Kapatmak"

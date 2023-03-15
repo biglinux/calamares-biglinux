@@ -377,3 +377,12 @@ msgid ""
 msgstr ""
 "<b>Questa versione ISO non è aggiornata e non può più essere utilizzata.</b>\n"
 "        :LBL"
+
+msgid "Abrir"
+msgstr "Aperto"
+
+msgid "Enviar para a nuvem"
+msgstr "Invia al cloud"
+
+msgid "Fechar"
+msgstr "Chiudere"

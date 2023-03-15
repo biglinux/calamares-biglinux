@@ -375,3 +375,12 @@ msgid ""
 msgstr ""
 "<b>Αυτή η έκδοση ISO είναι ξεπερασμένη και δεν μπορεί πλέον να χρησιμοποιηθεί.</b>\n"
 "        :ΛΒ"
+
+msgid "Abrir"
+msgstr "Ανοίγω"
+
+msgid "Enviar para a nuvem"
+msgstr "Αποστολή στο cloud"
+
+msgid "Fechar"
+msgstr "Κλείνω"

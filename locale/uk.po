@@ -373,3 +373,12 @@ msgid ""
 msgstr ""
 "<b>Ця версія ISO застаріла і більше не може бути використана.</b>\n"
 "        :LBL"
+
+msgid "Abrir"
+msgstr "Відкривати"
+
+msgid "Enviar para a nuvem"
+msgstr "Надіслати в хмару"
+
+msgid "Fechar"
+msgstr "Закрити"

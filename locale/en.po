@@ -365,3 +365,12 @@ msgid ""
 msgstr ""
 "<b>This ISO Version is out of date and can no longer be used.</b>\n"
 "        :LBL"
+
+msgid "Abrir"
+msgstr "Open"
+
+msgid "Enviar para a nuvem"
+msgstr "Send to the cloud"
+
+msgid "Fechar"
+msgstr "Close"
