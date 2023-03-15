@@ -352,9 +352,9 @@ if [ "$(grep -w completion /root/.cache/calamares/session.log | rev | cut -d ":"
 
     yad --buttons-layout=center \
         --width=480 \
-        --button="Abrir":1 \
-        --button="Enviar para a nuvem":2 \
-        --button="Fechar":3 \
+        --button=$"Abrir":1 \
+        --button=$"Enviar para a nuvem":2 \
+        --button=$"Fechar":3 \
         --title=$"calamares LOG" \
         --text=$"\nDeseja visualizar ou enviar o arquivo de log da instalação para a nuvem?\ngerar um link para enviar no grupos de suporte.\n"
 
