@@ -152,8 +152,31 @@ cat << EOF
         
 <div class="gallery">
 EOF
-i=0
-for DESKTOP_NAME  in $(ls desktops); do
+#xivastudio
+i=1
+. desktops/xivastudio/desc.sh
+cat << EOF          
+  <figure>
+    <img src="desktops/xivastudio/image.jpg" alt="$DESKTOP_NAME_DESC" />
+    <span class="text">$i. $DESKTOP_NAME_DESC</span>
+    <figcaption>$DESKTOP_NAME_DESC <small>$DESKTOP_INFO_DESC</small>
+      <a href="selected_desktop.sh.htm?option=$option&desktop_selected=xivastudio" class="calamares-big-button is-featured" style="font-size: 15px;">$INSTALL</a>
+    </figcaption>
+  </figure>
+EOF
+#gnome
+i=2
+. desktops/gnome/desc.sh
+cat << EOF          
+  <figure>
+    <img src="desktops/gnome/image.jpg" alt="$DESKTOP_NAME_DESC" />
+    <span class="text">$i. $DESKTOP_NAME_DESC</span>
+    <figcaption>$DESKTOP_NAME_DESC <small>$DESKTOP_INFO_DESC</small>
+      <a href="selected_desktop.sh.htm?option=$option&desktop_selected=gnome" class="calamares-big-button is-featured" style="font-size: 15px;">$INSTALL</a>
+    </figcaption>
+  </figure>
+EOF
+for DESKTOP_NAME  in $(ls desktops | grep -Ev "gnome|xivastudio"); do
 i=$((i+1))
 . desktops/${DESKTOP_NAME}/desc.sh
 cat << EOF          
