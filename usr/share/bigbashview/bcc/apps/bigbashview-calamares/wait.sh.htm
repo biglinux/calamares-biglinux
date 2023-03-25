@@ -63,7 +63,7 @@ update_system: true
 pacman:
     num_retries: 10
     disable_download_timeout: true
-    needed_only: false
+    needed_only: true
 
 operations:' > /etc/calamares/modules/packages.conf
     if [ "$remove_packages" != "" ]; then
@@ -83,8 +83,6 @@ operations:' > /etc/calamares/modules/packages.conf
         for package  in $install_packages; do
             echo "   - $package" >> /etc/calamares/modules/packages.conf
         done
-        sed -i '/num_retries/s/0/5/' /usr/share/calamares/modules/packages.conf
-        sed -i '/disable_download_timeout/s/false/true/' /usr/share/calamares/modules/packages.conf
     fi
 fi
 
@@ -94,7 +92,7 @@ echo '---
 
 backend: pamac
 
-skip_if_no_internet: false
+skip_if_no_internet: true
 update_db: false
 update_system: false
 
