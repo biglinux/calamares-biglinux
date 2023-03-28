@@ -5,8 +5,7 @@ pkgver=$(date +%y.%m.%d)
 pkgrel=$(date +%H%M)
 arch=('any')
 license=('')
-depends=('biglinux-calamares-i3wm' 'biglinux-calamares-wmaker' 'biglinux-calamares-bspwm' 'biglinux-calamares-xivastudio' 'biglinux-calamares-gnome' 'biglinux-calamares-xfce')
-#'biglinux-calamares-lxqt'
+depends=('biglinux-calamares-i3wm' 'biglinux-calamares-wmaker' 'biglinux-calamares-bspwm' 'biglinux-calamares-xivastudio' 'biglinux-calamares-gnome' 'biglinux-calamares-xfce' 'biglinux-calamares-lxqt')
 url="https://github.com/biglinux/calamares-biglinux"
 pkgdesc="Calamares tweaks to BigLinux, like using btrfs+zstd for default"
 source=('git+https://github.com/biglinux/calamares-biglinux.git')
