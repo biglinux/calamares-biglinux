@@ -115,21 +115,20 @@ requirements:
       - root' > /etc/calamares/modules/welcome.conf
 
 # Force btrfs compression using zstd
-
-
-
-
 sed -i 's|mount_option,|mount_option, "compress-force=zstd,space_cache=v2",|g' /usr/lib/calamares/modules/mount/main.py
 
 # btrfs: defaults,noatime,autodefrag,compress=zstd
-
-
 sed -i 's|btrfs: defaults|btrfs: defaults,noatime,space_cache=v2,autodefrag,compress-force=zstd:2,commit=15|g' /usr/share/calamares/modules/fstab.conf
-
-#,rescue=all
 
 # Use btrfs for default
 sed -i 's|defaultFileSystemType.*"ext4"|defaultFileSystemType:  "btrfs"|g' /usr/share/calamares/modules/partition.conf
+
+# Change initcpio to systemd
+sed -i 's|"base", "udev"|"systemd"|g' /usr/lib/calamares/modules/initcpiocfg/main.py
+
+# Change initcpio plymouth to sd version
+sed -i 's|"plymouth"|"kms sd-plymouth"|g' /usr/lib/calamares/modules/initcpiocfg/main.py
+
 
 # not disable pacman-init
 # sed -i '/^disable:/,$d' /usr/share/calamares/modules/services.conf
