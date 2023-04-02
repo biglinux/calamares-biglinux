@@ -134,6 +134,68 @@ sed -i 's|defaultFileSystemType.*"ext4"|defaultFileSystemType:  "btrfs"|g' /usr/
 # not disable pacman-init
 # sed -i '/^disable:/,$d' /usr/share/calamares/modules/services.conf
 
+# failsafe if services not generated in boot
+if [ "$(wc -l /etc/calamares/modules/services.conf)" -lt "15" ]; then
+
+echo 'services:
+    - name: bluetooth
+      mandatory: false
+
+    - name: cronie
+      mandatory: false
+
+    - name: ModemManager
+      mandatory: false
+
+    - name: NetworkManager
+      mandatory: false
+
+    - name: cups
+      mandatory: false
+
+    - name: haveged
+      mandatory: false
+
+    - name: fstrim.timer
+      mandatory: false
+
+    - name: pkgfile-update.timer
+      mandatory: false
+
+    - name: vboxservice
+      mandatory: false
+
+    - name: ufw
+      mandatory: false
+
+    - name: nmb
+      mandatory: false
+
+    - name: smb
+      mandatory: false
+
+    - name: set-cfs-tweaks
+      mandatory: false
+
+    - name: dnsmasq
+      mandatory: false
+
+    - name: cups-browsed
+      mandatory: false
+
+    - name: sddm
+      mandatory: false
+
+targets:
+    - name: "graphical"
+      mandatory: true
+
+disable:
+    - name: pacman-init
+      mandatory: false' > /etc/calamares/modules/services.conf
+
+fi
+
 
 echo "
 ---
