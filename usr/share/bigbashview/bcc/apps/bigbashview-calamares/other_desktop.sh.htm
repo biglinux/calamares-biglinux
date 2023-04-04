@@ -4,7 +4,7 @@
 #  Author2: Rafael Ruscher (rruscher@gmail.com)
 #  Author3: Barnabe di Kartola (barnabedikartola@gmail.com)
 #  Date:    2022/02/28 
-#  Modified:2022/08/05 
+#  Modified:2023/04/03 
 #  
 #  Description: Calamares modified usage of BigLinux 
 #  
@@ -17,7 +17,11 @@ export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=calamares-biglinux
 
 DEFAULT_OR_CUSTOM_TITLE=$"ESCOLHA O DESKTOP"
-BACK_DEFAULT=$"VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+DEFAULT_OR_CUSTOM_TITLE_DESC=$"Escolha o desktop ideal para o seu BigLinux."
+
+
+BACK_DEFAULT=$"VOLTAR"
+
 INSTALL=$"INSTALAR"
 DESKTOP=$"DESKTOP"
 
@@ -118,7 +122,7 @@ EOF
 # Get body tag with color light or not
 /usr/share/bigbashview/bcc/shell/getbgcolor.sh
 
-cat <<EOF
+cat << EOF
 <div class="dark-light">
     <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
@@ -140,15 +144,15 @@ echo '</div>'
 cat << EOF
 
   <!--<div class="container" style="display: grid;"> -->
-  <div class="container"> 
-  
-  
-  
+  <div class="container">   
     <div class="panel calamares-big-table"> 
       <div class="calamares-big-plan" id=customSystem>
         <img src="icon-desktop.svg" alt="Desktop" class="calamares-big-img" style="width: 100px;">
         <h3 class="calamares-big-header">$DEFAULT_OR_CUSTOM_TITLE</h3>
-        <div class="p"></div>
+        
+        <div class="p">
+        <div class="container-community">$DEFAULT_OR_CUSTOM_TITLE_DESC</div>
+        </div>
         
 <div class="gallery">
 EOF
@@ -201,19 +205,9 @@ cat << EOF
 			s0.292,0.773,0,1.068l-2.505,2.528L12.491,11.491z"/>
   </symbol>
 </svg>         
-           
-<!--# EOF
-# 
-# for DESKTOP_NAME  in $(ls desktops); do
-# 
-# . desktops/${DESKTOP_NAME}/desc.sh
-# 
-# #  echo "<a href=\"selected_desktop.sh.htm?option=$option&desktop_selected=${DESKTOP_NAME}\"><div class=desktop_content>"
-# #  echo "<div><div class=desktop_name>$DESKTOP_NAME_DESC</div><div class=desktop_image><img src=\"desktops/${DESKTOP_NAME}/image.jpg\"></div><div class=desktop_desc>$DESKTOP_INFO_DESC</div></div>"
-# #  echo '</a></div>'
-# done
-# 
-# cat << EOF-->
+
+        <div class="p"></div>
+
         <a href="desktop.sh.htm?option=$option" class="calamares-big-button is-featured">$BACK_DEFAULT</a>
        
       </div>
