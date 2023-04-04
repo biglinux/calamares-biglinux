@@ -382,3 +382,57 @@ msgstr "Надіслати в хмару"
 
 msgid "Fechar"
 msgstr "Закрити"
+
+msgid "QUAIS PACOTES DESEJA REMOVER?"
+msgstr "ЯКІ ПАКУНКИ ПОТРІБНО ВИДАЛИТИ?"
+
+msgid "CONFIRMAR"
+msgstr "ПІДТВЕРДИТИ"
+
+msgid "Escolha o desktop ideal para o seu BigLinux."
+msgstr "Виберіть ідеальний робочий стіл для BigLinux."
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+msgstr "ІНСТАЛЮВАТИ З МЕНШОЮ КІЛЬКІСТЮ ПРОГРАМ АБО ІНШИМ ВЕЛИКИМ РОБОЧИМ СТОЛОМ СПІЛЬНОТИ?"
+
+msgid ""
+"Ao instalar o sistema, você pode escolher entre instalar com menos programas ou instalar outro "
+"desktop da Big Community. Caso opte por instalar outro desktop, lembre-se que será necessário fazer "
+"o download durante a instalação e o tempo de instalação dependerá da velocidade da sua conexão com "
+"a internet."
+msgstr ""
+"При установці системи ви можете вибрати між установкою з меншою кількістю програм або установкою "
+"іншого робочого столу Big Community. Якщо ви вирішите встановити інший робочий стіл, пам'ятайте, що "
+"вам потрібно буде завантажити його під час встановлення, і час встановлення буде залежати від "
+"швидкості вашого інтернет-з'єднання."
+
+msgid ""
+"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem ter menos "
+"personalizações e testes. Você tem certeza que deseja prosseguir com a instalação deste desktop?"
+msgstr ""
+"Наведені нижче настільні комп'ютери підтримуються користувачами спільноти BigLinux і можуть мати "
+"менше налаштувань і тестів. Ви впевнені, що хочете продовжити встановлення цього робочого столу?"
+
+msgid "OUTRO DESKTOP"
+msgstr "ІНШИЙ РОБОЧИЙ СТІЛ"
+
+msgid "Dicas antes da instalação:"
+msgstr "Поради перед установкою:"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
+msgstr "Встановіть на розділ Btrfs, щоб мати знімки як точки відновлення."
+
+msgid "Caso precise restaurar o sistema instalado, "
+msgstr "Якщо потрібно відновити встановлену систему, "
+
+msgid "O sistema gerencia automaticamente a Swap, "
+msgstr "Система автоматично управляє Swap, "
+
+msgid "não crie uma partição Swap ou uma partição separada para /boot. "
+msgstr "не створюйте розділ підкачки або окремий розділ для /boot. "
+
+msgid "Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "Якщо ви використовуєте UEFI, створіть окремий розділ лише для /boot/efi."
+
+msgid "Continuar"
+msgstr "Продовжити"

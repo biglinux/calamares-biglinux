@@ -366,3 +366,51 @@ msgstr "发送到云"
 
 msgid "Fechar"
 msgstr "关闭"
+
+msgid "QUAIS PACOTES DESEJA REMOVER?"
+msgstr "您要删除哪些包？"
+
+msgid "CONFIRMAR"
+msgstr "确认"
+
+msgid "Escolha o desktop ideal para o seu BigLinux."
+msgstr "为您的 BigLinux 选择理想的桌面。"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+msgstr "使用更少的程序或其他大型社区桌面进行安装？"
+
+msgid ""
+"Ao instalar o sistema, você pode escolher entre instalar com menos programas ou instalar outro "
+"desktop da Big Community. Caso opte por instalar outro desktop, lembre-se que será necessário fazer "
+"o download durante a instalação e o tempo de instalação dependerá da velocidade da sua conexão com "
+"a internet."
+msgstr "安装系统时，您可以选择使用较少的程序安装或安装另一个大型社区桌面。如果您选择安装其他桌面，请记住，您需要在安装过程中下载它，安装时间将取决于您的互联网连接速度。"
+
+msgid ""
+"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem ter menos "
+"personalizações e testes. Você tem certeza que deseja prosseguir com a instalação deste desktop?"
+msgstr "下面的桌面由 BigLinux 社区的用户维护，可能具有较少的自定义和测试。是否确实要继续安装此桌面？"
+
+msgid "OUTRO DESKTOP"
+msgstr "其他桌面"
+
+msgid "Dicas antes da instalação:"
+msgstr "安装前提示："
+
+msgid "Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
+msgstr "在 Btrfs 分区上安装，以将快照作为还原点。"
+
+msgid "Caso precise restaurar o sistema instalado, "
+msgstr "如果需要还原已安装的系统， "
+
+msgid "O sistema gerencia automaticamente a Swap, "
+msgstr "系统自动管理交换， "
+
+msgid "não crie uma partição Swap ou uma partição separada para /boot. "
+msgstr "不要为 /boot 创建交换分区或单独的分区。 "
+
+msgid "Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "如果使用 UEFI，请仅为 /boot/efi 创建一个单独的分区。"
+
+msgid "Continuar"
+msgstr "继续"

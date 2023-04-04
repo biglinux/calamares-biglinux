@@ -376,3 +376,57 @@ msgstr "Odeslání do cloudu"
 
 msgid "Fechar"
 msgstr "Zavřít"
+
+msgid "QUAIS PACOTES DESEJA REMOVER?"
+msgstr "JAKÉ BALÍČKY CHCETE ODSTRANIT?"
+
+msgid "CONFIRMAR"
+msgstr "POTVRDIT"
+
+msgid "Escolha o desktop ideal para o seu BigLinux."
+msgstr "Vyberte si ideální pracovní plochu pro váš BigLinux."
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+msgstr "INSTALACE S MENŠÍM POČTEM PROGRAMŮ NEBO JINOU VELKOU KOMUNITNÍ PLOCHOU?"
+
+msgid ""
+"Ao instalar o sistema, você pode escolher entre instalar com menos programas ou instalar outro "
+"desktop da Big Community. Caso opte por instalar outro desktop, lembre-se que será necessário fazer "
+"o download durante a instalação e o tempo de instalação dependerá da velocidade da sua conexão com "
+"a internet."
+msgstr ""
+"Při instalaci systému si můžete vybrat mezi instalací s menším počtem programů nebo instalací jiné "
+"pracovní plochy Big Community. Pokud se rozhodnete nainstalovat další pracovní plochu, nezapomeňte, "
+"že ji budete muset stáhnout během instalace a doba instalace bude záviset na rychlosti vašeho "
+"připojení k internetu."
+
+msgid ""
+"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem ter menos "
+"personalizações e testes. Você tem certeza que deseja prosseguir com a instalação deste desktop?"
+msgstr ""
+"Níže uvedené desktopy jsou udržovány uživateli komunity BigLinux a mohou mít méně úprav a testů. "
+"Opravdu chcete pokračovat v instalaci této plochy?"
+
+msgid "OUTRO DESKTOP"
+msgstr "OSTATNÍ STOLNÍ POČÍTAČE"
+
+msgid "Dicas antes da instalação:"
+msgstr "Tipy před instalací:"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
+msgstr "Nainstalujte na oddíl Btrfs, abyste měli snímky jako body obnovení."
+
+msgid "Caso precise restaurar o sistema instalado, "
+msgstr "Pokud potřebujete obnovit nainstalovaný systém, "
+
+msgid "O sistema gerencia automaticamente a Swap, "
+msgstr "Systém automaticky řídí Swap, "
+
+msgid "não crie uma partição Swap ou uma partição separada para /boot. "
+msgstr "nevytvářejte odkládací oddíl ani samostatný oddíl pro /boot. "
+
+msgid "Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "Pokud používáte UEFI, vytvořte samostatný oddíl pouze pro /boot/efi."
+
+msgid "Continuar"
+msgstr "Pokračovat"

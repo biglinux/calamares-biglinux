@@ -372,3 +372,56 @@ msgstr "שליחה לענן"
 
 msgid "Fechar"
 msgstr "קרוב"
+
+msgid "QUAIS PACOTES DESEJA REMOVER?"
+msgstr "אילו חבילות ברצונך להסיר?"
+
+msgid "CONFIRMAR"
+msgstr "לאשר"
+
+msgid "Escolha o desktop ideal para o seu BigLinux."
+msgstr "בחר את שולחן העבודה האידיאלי עבור BigLinux שלך."
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+msgstr "התקנה עם פחות תוכניות או שולחן עבודה קהילתי גדול אחר?"
+
+msgid ""
+"Ao instalar o sistema, você pode escolher entre instalar com menos programas ou instalar outro "
+"desktop da Big Community. Caso opte por instalar outro desktop, lembre-se que será necessário fazer "
+"o download durante a instalação e o tempo de instalação dependerá da velocidade da sua conexão com "
+"a internet."
+msgstr ""
+"בעת התקנת המערכת, באפשרותך לבחור בין התקנה עם פחות תוכניות או התקנת שולחן עבודה אחר של Big "
+"Community. אם תבחר להתקין שולחן עבודה אחר, זכור שיהיה עליך להוריד אותו במהלך ההתקנה וזמן ההתקנה "
+"יהיה תלוי במהירות חיבור האינטרנט שלך."
+
+msgid ""
+"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem ter menos "
+"personalizações e testes. Você tem certeza que deseja prosseguir com a instalação deste desktop?"
+msgstr ""
+"שולחנות העבודה שלהלן מתוחזקים על ידי משתמשים בקהילת BigLinux וייתכן שיהיו להם פחות התאמות אישיות "
+"ובדיקות. האם אתה בטוח שברצונך להמשיך בהתקנה של שולחן עבודה זה?"
+
+msgid "OUTRO DESKTOP"
+msgstr "שולחן עבודה אחר"
+
+msgid "Dicas antes da instalação:"
+msgstr "טיפים לפני ההתקנה:"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
+msgstr "התקן במחיצת Btrfs כדי שהתמונות יהיו נקודות שחזור."
+
+msgid "Caso precise restaurar o sistema instalado, "
+msgstr "אם עליך לשחזר את המערכת המותקנת, "
+
+msgid "O sistema gerencia automaticamente a Swap, "
+msgstr "המערכת מנהלת החלפה באופן אוטומטי, "
+
+msgid "não crie uma partição Swap ou uma partição separada para /boot. "
+msgstr "אל תיצור מחיצת Swap או מחיצה נפרדת עבור /boot. "
+
+msgid "Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "אם אתה משתמש ב- UEFI, צור מחיצה נפרדת עבור /boot/efi בלבד."
+
+msgid "Continuar"
+msgstr "נמשך"

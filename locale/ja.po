@@ -368,3 +368,53 @@ msgstr "クラウドに送信"
 
 msgid "Fechar"
 msgstr "閉める"
+
+msgid "QUAIS PACOTES DESEJA REMOVER?"
+msgstr "どのパッケージを削除しますか?"
+
+msgid "CONFIRMAR"
+msgstr "確認する"
+
+msgid "Escolha o desktop ideal para o seu BigLinux."
+msgstr "あなたのBigLinuxに最適なデスクトップを選択してください。"
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+msgstr "より少ないプログラムまたは別の大きなコミュニティデスクトップでインストールしますか?"
+
+msgid ""
+"Ao instalar o sistema, você pode escolher entre instalar com menos programas ou instalar outro "
+"desktop da Big Community. Caso opte por instalar outro desktop, lembre-se que será necessário fazer "
+"o download durante a instalação e o tempo de instalação dependerá da velocidade da sua conexão com "
+"a internet."
+msgstr ""
+"システムをインストールするときに、より少ないプログラムでインストールするか、別のビッグコミュニティデスクトップをインストールするかを選択できます。別のデスクトップをインストールする場合は、インストール"
+"中にダウンロードする必要があり、インストール時間はインターネット接続の速度に依存することに注意してください。"
+
+msgid ""
+"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem ter menos "
+"personalizações e testes. Você tem certeza que deseja prosseguir com a instalação deste desktop?"
+msgstr "以下のデスクトップは、BigLinuxコミュニティのユーザーによって保守されており、カスタマイズやテストが少ない場合があります。このデスクトップのインストールを続行しますか?"
+
+msgid "OUTRO DESKTOP"
+msgstr "その他のデスクトップ"
+
+msgid "Dicas antes da instalação:"
+msgstr "インストール前のヒント:"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
+msgstr "Btrfsパーティションにインストールして、スナップショットを復元ポイントとして使用します。"
+
+msgid "Caso precise restaurar o sistema instalado, "
+msgstr "インストールしたシステムを復元する必要がある場合は、 "
+
+msgid "O sistema gerencia automaticamente a Swap, "
+msgstr "システムは自動的にスワップを管理し、 "
+
+msgid "não crie uma partição Swap ou uma partição separada para /boot. "
+msgstr "スワップパーティションや/boot用の別のパーティションを作成しないでください。 "
+
+msgid "Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "UEFI を使用する場合は、/boot/efi 専用に別のパーティションを作成します。"
+
+msgid "Continuar"
+msgstr "続ける"

@@ -315,3 +315,45 @@ msgstr  ""
 #
 msgid   "Fechar"
 msgstr  ""
+#
+msgid   "QUAIS PACOTES DESEJA REMOVER?"
+msgstr  ""
+#
+msgid   "CONFIRMAR"
+msgstr  ""
+#
+msgid   "Escolha o desktop ideal para o seu BigLinux."
+msgstr  ""
+#
+msgid   "INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+msgstr  ""
+#
+msgid   "Ao instalar o sistema, você pode escolher entre instalar com menos programas ou instalar outro desktop da Big Community. Caso opte por instalar outro desktop, lembre-se que será necessário fazer o download durante a instalação e o tempo de instalação dependerá da velocidade da sua conexão com a internet."
+msgstr  ""
+#
+msgid   "Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem ter menos personalizações e testes. Você tem certeza que deseja prosseguir com a instalação deste desktop?"
+msgstr  ""
+#
+msgid   "OUTRO DESKTOP"
+msgstr  ""
+#
+msgid   "Dicas antes da instalação:"
+msgstr  ""
+#
+msgid   "Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
+msgstr  ""
+#
+msgid   "Caso precise restaurar o sistema instalado, "
+msgstr  ""
+#
+msgid   "O sistema gerencia automaticamente a Swap, "
+msgstr  ""
+#
+msgid   "não crie uma partição Swap ou uma partição separada para /boot. "
+msgstr  ""
+#
+msgid   "Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr  ""
+#
+msgid   "Continuar"
+msgstr  ""

@@ -380,3 +380,57 @@ msgstr "Send til skyen"
 
 msgid "Fechar"
 msgstr "Lukke"
+
+msgid "QUAIS PACOTES DESEJA REMOVER?"
+msgstr "HVILKE PAKKER VIL DU FJERNE?"
+
+msgid "CONFIRMAR"
+msgstr "BEKRÆFTE"
+
+msgid "Escolha o desktop ideal para o seu BigLinux."
+msgstr "Vælg det ideelle skrivebord til din BigLinux."
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+msgstr "INSTALLER MED FÆRRE PROGRAMMER ELLER ET ANDET STORT COMMUNITY-SKRIVEBORD?"
+
+msgid ""
+"Ao instalar o sistema, você pode escolher entre instalar com menos programas ou instalar outro "
+"desktop da Big Community. Caso opte por instalar outro desktop, lembre-se que será necessário fazer "
+"o download durante a instalação e o tempo de instalação dependerá da velocidade da sua conexão com "
+"a internet."
+msgstr ""
+"Når du installerer systemet, kan du vælge mellem at installere med færre programmer eller "
+"installere et andet Big Community-skrivebord. Hvis du vælger at installere et andet skrivebord, "
+"skal du huske, at du skal downloade det under installationen, og installationstiden afhænger af "
+"hastigheden på din internetforbindelse."
+
+msgid ""
+"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem ter menos "
+"personalizações e testes. Você tem certeza que deseja prosseguir com a instalação deste desktop?"
+msgstr ""
+"Desktops nedenfor vedligeholdes af brugere af BigLinux-fællesskabet og kan have færre tilpasninger "
+"og tests. Er du sikker på, at du vil fortsætte med installationen af dette skrivebord?"
+
+msgid "OUTRO DESKTOP"
+msgstr "ANDET SKRIVEBORD"
+
+msgid "Dicas antes da instalação:"
+msgstr "Tips før installation:"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
+msgstr "Installer på en Btrfs-partition for at have snapshots som gendannelsespunkter."
+
+msgid "Caso precise restaurar o sistema instalado, "
+msgstr "Hvis du har brug for at gendanne det installerede system, "
+
+msgid "O sistema gerencia automaticamente a Swap, "
+msgstr "Systemet administrerer automatisk Swap, "
+
+msgid "não crie uma partição Swap ou uma partição separada para /boot. "
+msgstr "Opret ikke en swappartition eller en separat partition til /boot. "
+
+msgid "Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "Hvis du bruger UEFI, skal du kun oprette en separat partition til /boot/efi."
+
+msgid "Continuar"
+msgstr "Fortsætte"

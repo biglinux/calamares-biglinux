@@ -384,3 +384,58 @@ msgstr "Αποστολή στο cloud"
 
 msgid "Fechar"
 msgstr "Κλείνω"
+
+msgid "QUAIS PACOTES DESEJA REMOVER?"
+msgstr "ΠΟΙΑ ΠΑΚΈΤΑ ΘΈΛΕΤΕ ΝΑ ΚΑΤΑΡΓΉΣΕΤΕ;"
+
+msgid "CONFIRMAR"
+msgstr "ΕΠΙΒΕΒΑΙΏΝΩ"
+
+msgid "Escolha o desktop ideal para o seu BigLinux."
+msgstr "Επιλέξτε την ιδανική επιφάνεια εργασίας για το BigLinux σας."
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+msgstr "ΕΓΚΑΤΆΣΤΑΣΗ ΜΕ ΛΙΓΌΤΕΡΑ ΠΡΟΓΡΆΜΜΑΤΑ Ή ΆΛΛΗ ΜΕΓΆΛΗ ΕΠΙΦΆΝΕΙΑ ΕΡΓΑΣΊΑΣ ΚΟΙΝΌΤΗΤΑΣ;"
+
+msgid ""
+"Ao instalar o sistema, você pode escolher entre instalar com menos programas ou instalar outro "
+"desktop da Big Community. Caso opte por instalar outro desktop, lembre-se que será necessário fazer "
+"o download durante a instalação e o tempo de instalação dependerá da velocidade da sua conexão com "
+"a internet."
+msgstr ""
+"Κατά την εγκατάσταση του συστήματος, μπορείτε να επιλέξετε μεταξύ της εγκατάστασης με λιγότερα "
+"προγράμματα ή της εγκατάστασης μιας άλλης επιφάνειας εργασίας Big Community. Εάν επιλέξετε να "
+"εγκαταστήσετε άλλη επιφάνεια εργασίας, θυμηθείτε ότι θα χρειαστεί να την κατεβάσετε κατά την "
+"εγκατάσταση και ο χρόνος εγκατάστασης θα εξαρτηθεί από την ταχύτητα της σύνδεσής σας στο διαδίκτυο."
+
+msgid ""
+"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem ter menos "
+"personalizações e testes. Você tem certeza que deseja prosseguir com a instalação deste desktop?"
+msgstr ""
+"Οι παρακάτω επιτραπέζιοι υπολογιστές συντηρούνται από χρήστες της κοινότητας BigLinux και ενδέχεται "
+"να έχουν λιγότερες προσαρμογές και δοκιμές. Είστε βέβαιοι ότι θέλετε να προχωρήσετε στην "
+"εγκατάσταση αυτής της επιφάνειας εργασίας;"
+
+msgid "OUTRO DESKTOP"
+msgstr "ΆΛΛΗ ΕΠΙΦΆΝΕΙΑ ΕΡΓΑΣΊΑΣ"
+
+msgid "Dicas antes da instalação:"
+msgstr "Συμβουλές πριν από την εγκατάσταση:"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
+msgstr "Εγκαταστήστε σε ένα διαμέρισμα Btrfs για να έχετε στιγμιότυπα ως σημεία επαναφοράς."
+
+msgid "Caso precise restaurar o sistema instalado, "
+msgstr "Εάν πρέπει να επαναφέρετε το εγκατεστημένο σύστημα, "
+
+msgid "O sistema gerencia automaticamente a Swap, "
+msgstr "Το σύστημα διαχειρίζεται αυτόματα το Swap, "
+
+msgid "não crie uma partição Swap ou uma partição separada para /boot. "
+msgstr "Μην δημιουργήσετε μια κατάτμηση Swap ή μια ξεχωριστή κατάτμηση για το /boot. "
+
+msgid "Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "Αν χρησιμοποιείτε UEFI, δημιουργήστε μια ξεχωριστή κατάτμηση μόνο για το /boot/efi."
+
+msgid "Continuar"
+msgstr "Συνεχίζω"

@@ -379,3 +379,58 @@ msgstr "Send til skyen"
 
 msgid "Fechar"
 msgstr "Lukke"
+
+msgid "QUAIS PACOTES DESEJA REMOVER?"
+msgstr "HVILKE PAKKER VIL DU FJERNE?"
+
+msgid "CONFIRMAR"
+msgstr "BEKREFTE"
+
+msgid "Escolha o desktop ideal para o seu BigLinux."
+msgstr "Velg det ideelle skrivebordet for din BigLinux."
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+msgstr "INSTALLERE MED FÆRRE PROGRAMMER ELLER ET ANNET STORT FELLESSKAPSSKRIVEBORD?"
+
+msgid ""
+"Ao instalar o sistema, você pode escolher entre instalar com menos programas ou instalar outro "
+"desktop da Big Community. Caso opte por instalar outro desktop, lembre-se que será necessário fazer "
+"o download durante a instalação e o tempo de instalação dependerá da velocidade da sua conexão com "
+"a internet."
+msgstr ""
+"Når du installerer systemet, kan du velge mellom å installere med færre programmer eller installere "
+"et annet Big Community-skrivebord. Hvis du velger å installere et annet skrivebord, husk at du må "
+"laste det ned under installasjonen, og installasjonstiden vil avhenge av hastigheten på "
+"Internett-tilkoblingen."
+
+msgid ""
+"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem ter menos "
+"personalizações e testes. Você tem certeza que deseja prosseguir com a instalação deste desktop?"
+msgstr ""
+"Skrivebordene nedenfor vedlikeholdes av brukere av BigLinux-fellesskapet og kan ha færre "
+"tilpasninger og tester. Er du sikker på at du vil fortsette med installasjonen av dette "
+"skrivebordet?"
+
+msgid "OUTRO DESKTOP"
+msgstr "ANNET SKRIVEBORD"
+
+msgid "Dicas antes da instalação:"
+msgstr "Tips før installasjon:"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
+msgstr "Installer på en Btrfs-partisjon for å ha øyeblikksbilder som gjenopprettingspunkter."
+
+msgid "Caso precise restaurar o sistema instalado, "
+msgstr "Hvis du trenger å gjenopprette det installerte systemet, "
+
+msgid "O sistema gerencia automaticamente a Swap, "
+msgstr "Systemet administrerer automatisk bytte, "
+
+msgid "não crie uma partição Swap ou uma partição separada para /boot. "
+msgstr "ikke opprett en byttepartisjon eller en separat partisjon for /boot. "
+
+msgid "Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "Hvis du bruker UEFI, oppretter du en separat partisjon bare for /boot/efi."
+
+msgid "Continuar"
+msgstr "Fortsette"

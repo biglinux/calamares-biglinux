@@ -366,3 +366,53 @@ msgstr "클라우드로 보내기"
 
 msgid "Fechar"
 msgstr "닫다"
+
+msgid "QUAIS PACOTES DESEJA REMOVER?"
+msgstr "어떤 패키지를 제거하시겠습니까?"
+
+msgid "CONFIRMAR"
+msgstr "확인하다"
+
+msgid "Escolha o desktop ideal para o seu BigLinux."
+msgstr "BigLinux에 이상적인 데스크탑을 선택하십시오."
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+msgstr "더 적은 수의 프로그램이나 다른 대규모 커뮤니티 데스크탑으로 설치하시겠습니까?"
+
+msgid ""
+"Ao instalar o sistema, você pode escolher entre instalar com menos programas ou instalar outro "
+"desktop da Big Community. Caso opte por instalar outro desktop, lembre-se que será necessário fazer "
+"o download durante a instalação e o tempo de instalação dependerá da velocidade da sua conexão com "
+"a internet."
+msgstr ""
+"시스템을 설치할 때 더 적은 수의 프로그램으로 설치하거나 다른 Big Community 데스크탑을 설치하도록 선택할 수 있습니다. 다른 데스크탑을 설치하기로 선택한 경우 설치 "
+"중에 다운로드해야 하며 설치 시간은 인터넷 연결 속도에 따라 다릅니다."
+
+msgid ""
+"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem ter menos "
+"personalizações e testes. Você tem certeza que deseja prosseguir com a instalação deste desktop?"
+msgstr "아래 데스크톱은 BigLinux 커뮤니티 사용자가 유지 관리하며 사용자 지정 및 테스트가 더 적을 수 있습니다. 이 데스크탑의 설치를 계속하시겠습니까?"
+
+msgid "OUTRO DESKTOP"
+msgstr "다른 데스크탑"
+
+msgid "Dicas antes da instalação:"
+msgstr "설치 전 팁 :"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
+msgstr "Btrfs 파티션에 설치하여 스냅샷을 복원 지점으로 사용합니다."
+
+msgid "Caso precise restaurar o sistema instalado, "
+msgstr "설치된 시스템을 복원해야하는 경우 "
+
+msgid "O sistema gerencia automaticamente a Swap, "
+msgstr "시스템은 자동으로 스왑을 관리합니다. "
+
+msgid "não crie uma partição Swap ou uma partição separada para /boot. "
+msgstr "/boot에 대해 스왑 파티션이나 별도의 파티션을 만들지 마십시오. "
+
+msgid "Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "UEFI를 사용하는 경우 /boot/efi 전용으로 별도의 파티션을 만듭니다."
+
+msgid "Continuar"
+msgstr "계속하다"

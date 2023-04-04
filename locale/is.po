@@ -377,3 +377,56 @@ msgstr "Senda í skýið"
 
 msgid "Fechar"
 msgstr "Loka"
+
+msgid "QUAIS PACOTES DESEJA REMOVER?"
+msgstr "HVAÐA PAKKA VILTU FJARLÆGJA?"
+
+msgid "CONFIRMAR"
+msgstr "STAÐFESTA"
+
+msgid "Escolha o desktop ideal para o seu BigLinux."
+msgstr "Veldu hið fullkomna skjáborð fyrir BigLinux þinn."
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+msgstr "SETJA UPP MEÐ FÆRRI FORRITUM EÐA ÖÐRU STÓRU SAMFÉLAGSSKJÁBORÐI?"
+
+msgid ""
+"Ao instalar o sistema, você pode escolher entre instalar com menos programas ou instalar outro "
+"desktop da Big Community. Caso opte por instalar outro desktop, lembre-se que será necessário fazer "
+"o download durante a instalação e o tempo de instalação dependerá da velocidade da sua conexão com "
+"a internet."
+msgstr ""
+"Þegar kerfið er sett upp geturðu valið á milli þess að setja upp með færri forritum eða setja upp "
+"annað Big Community skjáborð. Ef þú velur að setja upp annað skjáborð skaltu muna að þú þarft að "
+"hlaða því niður meðan á uppsetningu stendur og uppsetningartíminn fer eftir hraða nettengingarinnar."
+
+msgid ""
+"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem ter menos "
+"personalizações e testes. Você tem certeza que deseja prosseguir com a instalação deste desktop?"
+msgstr ""
+"Skjáborðin hér að neðan eru viðhaldið af notendum BigLinux samfélagsins og geta haft færri "
+"sérsniðnar og prófanir. Ertu viss um að þú viljir halda áfram með uppsetningu þessa skjáborðs?"
+
+msgid "OUTRO DESKTOP"
+msgstr "ANNAÐ SKJÁBORÐ"
+
+msgid "Dicas antes da instalação:"
+msgstr "Ábendingar fyrir uppsetningu:"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
+msgstr "Settu upp á Btrfs skipting til að hafa Snapshots sem endurheimtarpunkta."
+
+msgid "Caso precise restaurar o sistema instalado, "
+msgstr "Ef þú þarft að endurheimta uppsett kerfi, "
+
+msgid "O sistema gerencia automaticamente a Swap, "
+msgstr "Kerfið stýrir sjálfkrafa Swap, "
+
+msgid "não crie uma partição Swap ou uma partição separada para /boot. "
+msgstr "ekki búa til Swap skipting eða sérstaka skipting fyrir / stígvél. "
+
+msgid "Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "Ef þú notar UEFI skaltu búa til sérstaka skipting fyrir / stígvél / efi eingöngu."
+
+msgid "Continuar"
+msgstr "Halda áfram"

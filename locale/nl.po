@@ -382,3 +382,58 @@ msgstr "Verzenden naar de cloud"
 
 msgid "Fechar"
 msgstr "Sluiten"
+
+msgid "QUAIS PACOTES DESEJA REMOVER?"
+msgstr "WELKE PAKKETTEN WIL JE VERWIJDEREN?"
+
+msgid "CONFIRMAR"
+msgstr "BEVESTIGEN"
+
+msgid "Escolha o desktop ideal para o seu BigLinux."
+msgstr "Kies de ideale desktop voor uw BigLinux."
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+msgstr "INSTALLEREN MET MINDER PROGRAMMA'S OF EEN ANDERE GROTE COMMUNITY DESKTOP?"
+
+msgid ""
+"Ao instalar o sistema, você pode escolher entre instalar com menos programas ou instalar outro "
+"desktop da Big Community. Caso opte por instalar outro desktop, lembre-se que será necessário fazer "
+"o download durante a instalação e o tempo de instalação dependerá da velocidade da sua conexão com "
+"a internet."
+msgstr ""
+"Wanneer u het systeem installeert, kunt u kiezen tussen installeren met minder programma's of het "
+"installeren van een ander Big Community-bureaublad. Als u ervoor kiest om een ander bureaublad te "
+"installeren, moet u er rekening mee houden dat u het tijdens de installatie moet downloaden en dat "
+"de installatietijd afhankelijk is van de snelheid van uw internetverbinding."
+
+msgid ""
+"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem ter menos "
+"personalizações e testes. Você tem certeza que deseja prosseguir com a instalação deste desktop?"
+msgstr ""
+"De onderstaande desktops worden onderhouden door gebruikers van de BigLinux-community en hebben "
+"mogelijk minder aanpassingen en tests. Weet u zeker dat u wilt doorgaan met de installatie van deze "
+"desktop?"
+
+msgid "OUTRO DESKTOP"
+msgstr "ANDERE DESKTOP"
+
+msgid "Dicas antes da instalação:"
+msgstr "Tips voor de installatie:"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
+msgstr "Installeer op een Btrfs-partitie om Snapshots als herstelpunten te hebben."
+
+msgid "Caso precise restaurar o sistema instalado, "
+msgstr "Als u het geïnstalleerde systeem moet herstellen, "
+
+msgid "O sistema gerencia automaticamente a Swap, "
+msgstr "Het systeem beheert automatisch Swap, "
+
+msgid "não crie uma partição Swap ou uma partição separada para /boot. "
+msgstr "maak geen swappartitie of een aparte partitie voor /boot. "
+
+msgid "Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "Als u UEFI gebruikt, maakt u een aparte partitie voor alleen /boot/efi."
+
+msgid "Continuar"
+msgstr "Voortzetten"

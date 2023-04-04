@@ -378,3 +378,56 @@ msgstr "Lähetä pilveen"
 
 msgid "Fechar"
 msgstr "Sulkea"
+
+msgid "QUAIS PACOTES DESEJA REMOVER?"
+msgstr "MITÄ PAKETTEJA HALUAT POISTAA?"
+
+msgid "CONFIRMAR"
+msgstr "VAHVISTAA"
+
+msgid "Escolha o desktop ideal para o seu BigLinux."
+msgstr "Valitse ihanteellinen työpöytä BigLinuxillesi."
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+msgstr "ASENNATKO VÄHEMMÄN OHJELMIA TAI MUULLA SUURELLA YHTEISÖN TYÖPÖYDÄLLÄ?"
+
+msgid ""
+"Ao instalar o sistema, você pode escolher entre instalar com menos programas ou instalar outro "
+"desktop da Big Community. Caso opte por instalar outro desktop, lembre-se que será necessário fazer "
+"o download durante a instalação e o tempo de instalação dependerá da velocidade da sua conexão com "
+"a internet."
+msgstr ""
+"Kun asennat järjestelmää, voit valita, asennetaanko vähemmän ohjelmia vai asennetaanko toinen Big "
+"Community -työpöytä. Jos päätät asentaa toisen työpöydän, muista, että sinun on ladattava se "
+"asennuksen aikana ja asennusaika riippuu Internet-yhteytesi nopeudesta."
+
+msgid ""
+"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem ter menos "
+"personalizações e testes. Você tem certeza que deseja prosseguir com a instalação deste desktop?"
+msgstr ""
+"Alla olevia työpöytiä ylläpitävät BigLinux-yhteisön käyttäjät, ja niissä voi olla vähemmän "
+"mukautuksia ja testejä. Oletko varma, että haluat jatkaa tämän työpöydän asentamista?"
+
+msgid "OUTRO DESKTOP"
+msgstr "MUU TYÖPÖYTÄ"
+
+msgid "Dicas antes da instalação:"
+msgstr "Vinkkejä ennen asennusta:"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
+msgstr "Asenna Btrfs-osioon, jotta tilannekuvat ovat palautuspisteinä."
+
+msgid "Caso precise restaurar o sistema instalado, "
+msgstr "Jos haluat palauttaa asennetun järjestelmän, "
+
+msgid "O sistema gerencia automaticamente a Swap, "
+msgstr "Järjestelmä hallitsee Swapia automaattisesti, "
+
+msgid "não crie uma partição Swap ou uma partição separada para /boot. "
+msgstr "älä luo Swap-osiota tai erillistä osiota /boot-tiedostolle. "
+
+msgid "Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "Jos käytät UEFI:tä, luo erillinen osio vain /boot/efi:lle."
+
+msgid "Continuar"
+msgstr "Jatkaa"

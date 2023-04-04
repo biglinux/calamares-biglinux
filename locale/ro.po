@@ -381,3 +381,57 @@ msgstr "Trimitere în cloud"
 
 msgid "Fechar"
 msgstr "Închide"
+
+msgid "QUAIS PACOTES DESEJA REMOVER?"
+msgstr "CE PACHETE DORIȚI SĂ ELIMINAȚI?"
+
+msgid "CONFIRMAR"
+msgstr "CONFIRMA"
+
+msgid "Escolha o desktop ideal para o seu BigLinux."
+msgstr "Alege desktopul ideal pentru BigLinux-ul tău."
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+msgstr "INSTALAȚI CU MAI PUȚINE PROGRAME SAU CU UN ALT DESKTOP AL COMUNITĂȚII MARI?"
+
+msgid ""
+"Ao instalar o sistema, você pode escolher entre instalar com menos programas ou instalar outro "
+"desktop da Big Community. Caso opte por instalar outro desktop, lembre-se que será necessário fazer "
+"o download durante a instalação e o tempo de instalação dependerá da velocidade da sua conexão com "
+"a internet."
+msgstr ""
+"Când instalați sistemul, puteți alege între a instala cu mai puține programe sau a instala un alt "
+"desktop big community. Dacă alegeți să instalați un alt desktop, amintiți-vă că va trebui să îl "
+"descărcați în timpul instalării, iar timpul de instalare va depinde de viteza conexiunii la "
+"internet."
+
+msgid ""
+"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem ter menos "
+"personalizações e testes. Você tem certeza que deseja prosseguir com a instalação deste desktop?"
+msgstr ""
+"Desktop-urile de mai jos sunt întreținute de utilizatorii comunității BigLinux și pot avea mai "
+"puține personalizări și teste. Sunteți sigur că doriți să continuați cu instalarea acestui desktop?"
+
+msgid "OUTRO DESKTOP"
+msgstr "ALT DESKTOP"
+
+msgid "Dicas antes da instalação:"
+msgstr "Sfaturi înainte de instalare:"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
+msgstr "Instalați pe o partiție Btrfs pentru a avea instantanee ca puncte de restaurare."
+
+msgid "Caso precise restaurar o sistema instalado, "
+msgstr "Dacă trebuie să restaurați sistemul instalat, "
+
+msgid "O sistema gerencia automaticamente a Swap, "
+msgstr "Sistemul gestionează automat Swap, "
+
+msgid "não crie uma partição Swap ou uma partição separada para /boot. "
+msgstr "nu creați o partiție Swap sau o partiție separată pentru /boot. "
+
+msgid "Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "Dacă utilizați UEFI, creați o partiție separată numai pentru /boot/efi."
+
+msgid "Continuar"
+msgstr "Continua"

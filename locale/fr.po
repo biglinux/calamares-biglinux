@@ -383,3 +383,58 @@ msgstr "Envoyer vers le cloud"
 
 msgid "Fechar"
 msgstr "Fermer"
+
+msgid "QUAIS PACOTES DESEJA REMOVER?"
+msgstr "QUELS PAQUETS SOUHAITEZ-VOUS SUPPRIMER ?"
+
+msgid "CONFIRMAR"
+msgstr "CONFIRMER"
+
+msgid "Escolha o desktop ideal para o seu BigLinux."
+msgstr "Choisissez le bureau idéal pour votre BigLinux."
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+msgstr "INSTALLER AVEC MOINS DE PROGRAMMES OU UN AUTRE GRAND BUREAU DE LA COMMUNAUTÉ?"
+
+msgid ""
+"Ao instalar o sistema, você pode escolher entre instalar com menos programas ou instalar outro "
+"desktop da Big Community. Caso opte por instalar outro desktop, lembre-se que será necessário fazer "
+"o download durante a instalação e o tempo de instalação dependerá da velocidade da sua conexão com "
+"a internet."
+msgstr ""
+"Lors de l’installation du système, vous pouvez choisir entre l’installation avec moins de "
+"programmes ou l’installation d’un autre bureau Big Community. Si vous choisissez d’installer un "
+"autre bureau, n’oubliez pas que vous devrez le télécharger pendant l’installation et que le temps "
+"d’installation dépendra de la vitesse de votre connexion Internet."
+
+msgid ""
+"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem ter menos "
+"personalizações e testes. Você tem certeza que deseja prosseguir com a instalação deste desktop?"
+msgstr ""
+"Les bureaux ci-dessous sont maintenus par les utilisateurs de la communauté BigLinux et peuvent "
+"avoir moins de personnalisations et de tests. Voulez-vous vraiment procéder à l’installation de ce "
+"bureau ?"
+
+msgid "OUTRO DESKTOP"
+msgstr "AUTRE ORDINATEUR DE BUREAU"
+
+msgid "Dicas antes da instalação:"
+msgstr "Conseils avant l’installation :"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
+msgstr "Installez sur une partition Btrfs pour avoir des instantanés comme points de restauration."
+
+msgid "Caso precise restaurar o sistema instalado, "
+msgstr "Si vous devez restaurer le système installé, "
+
+msgid "O sistema gerencia automaticamente a Swap, "
+msgstr "Le système gère automatiquement Swap, "
+
+msgid "não crie uma partição Swap ou uma partição separada para /boot. "
+msgstr "ne créez pas de partition Swap ou de partition séparée pour /boot. "
+
+msgid "Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "Si vous utilisez UEFI, créez une partition distincte pour /boot/efi uniquement."
+
+msgid "Continuar"
+msgstr "Continuer"

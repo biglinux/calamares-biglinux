@@ -499,3 +499,77 @@ msgstr "Enviar para a nuvem"
 #
 msgid "Fechar"
 msgstr "Fechar"
+
+#
+msgid "QUAIS PACOTES DESEJA REMOVER?"
+msgstr "QUAIS PACOTES DESEJA REMOVER?"
+
+#
+msgid "CONFIRMAR"
+msgstr "CONFIRMAR"
+
+#
+msgid "Escolha o desktop ideal para o seu BigLinux."
+msgstr "Escolha o desktop ideal para o seu BigLinux."
+
+#
+msgid "INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+msgstr "INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+
+#
+msgid ""
+"Ao instalar o sistema, você pode escolher entre instalar com menos programas "
+"ou instalar outro desktop da Big Community. Caso opte por instalar outro "
+"desktop, lembre-se que será necessário fazer o download durante a instalação "
+"e o tempo de instalação dependerá da velocidade da sua conexão com a "
+"internet."
+msgstr ""
+"Ao instalar o sistema, você pode escolher entre instalar com menos programas "
+"ou instalar outro desktop da Big Community. Caso opte por instalar outro "
+"desktop, lembre-se que será necessário fazer o download durante a instalação "
+"e o tempo de instalação dependerá da velocidade da sua conexão com a "
+"internet."
+
+#
+msgid ""
+"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem "
+"ter menos personalizações e testes. Você tem certeza que deseja prosseguir "
+"com a instalação deste desktop?"
+msgstr ""
+"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem "
+"ter menos personalizações e testes. Você tem certeza que deseja prosseguir "
+"com a instalação deste desktop?"
+
+#
+msgid "OUTRO DESKTOP"
+msgstr "OUTRO DESKTOP"
+
+#
+msgid "Dicas antes da instalação:"
+msgstr "Dicas antes da instalação:"
+
+#
+msgid ""
+"Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
+msgstr ""
+"Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
+
+#
+msgid "Caso precise restaurar o sistema instalado, "
+msgstr "Caso precise restaurar o sistema instalado, "
+
+#
+msgid "O sistema gerencia automaticamente a Swap, "
+msgstr "O sistema gerencia automaticamente a Swap, "
+
+#
+msgid "não crie uma partição Swap ou uma partição separada para /boot. "
+msgstr "não crie uma partição Swap ou uma partição separada para /boot. "
+
+#
+msgid "Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
+
+#
+msgid "Continuar"
+msgstr "Continuar"

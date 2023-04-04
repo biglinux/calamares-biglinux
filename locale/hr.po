@@ -379,3 +379,57 @@ msgstr "Pošalji u oblak"
 
 msgid "Fechar"
 msgstr "Blizak"
+
+msgid "QUAIS PACOTES DESEJA REMOVER?"
+msgstr "KOJE PAKETE ŽELITE UKLONITI?"
+
+msgid "CONFIRMAR"
+msgstr "POTVRDITI"
+
+msgid "Escolha o desktop ideal para o seu BigLinux."
+msgstr "Odaberite idealnu radnu površinu za svoj BigLinux."
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+msgstr "INSTALIRAJTE S MANJE PROGRAMA ILI NEKOM DRUGOM VELIKOM RADNOM POVRŠINOM ZAJEDNICE?"
+
+msgid ""
+"Ao instalar o sistema, você pode escolher entre instalar com menos programas ou instalar outro "
+"desktop da Big Community. Caso opte por instalar outro desktop, lembre-se que será necessário fazer "
+"o download durante a instalação e o tempo de instalação dependerá da velocidade da sua conexão com "
+"a internet."
+msgstr ""
+"Prilikom instalacije sustava možete birati između instalacije s manje programa ili instaliranja "
+"druge radne površine Velike zajednice. Ako odlučite instalirati drugu radnu površinu, imajte na umu "
+"da ćete je morati preuzeti tijekom instalacije, a vrijeme instalacije ovisit će o brzini vaše "
+"internetske veze."
+
+msgid ""
+"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem ter menos "
+"personalizações e testes. Você tem certeza que deseja prosseguir com a instalação deste desktop?"
+msgstr ""
+"Radne površine u nastavku održavaju korisnici BigLinux zajednice i mogu imati manje prilagodbi i "
+"testova. Jeste li sigurni da želite nastaviti s instalacijom ove radne površine?"
+
+msgid "OUTRO DESKTOP"
+msgstr "OSTALA RADNA POVRŠINA"
+
+msgid "Dicas antes da instalação:"
+msgstr "Savjeti prije instalacije:"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
+msgstr "Instalirajte na Btrfs particiju da biste imali snimke kao točke vraćanja."
+
+msgid "Caso precise restaurar o sistema instalado, "
+msgstr "Ako trebate vratiti instalirani sustav, "
+
+msgid "O sistema gerencia automaticamente a Swap, "
+msgstr "Sustav automatski upravlja Swapom, "
+
+msgid "não crie uma partição Swap ou uma partição separada para /boot. "
+msgstr "nemojte stvarati Swap particiju ili zasebnu particiju za /boot. "
+
+msgid "Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "Ako koristite UEFI, stvorite zasebnu particiju samo za /boot/efi."
+
+msgid "Continuar"
+msgstr "Nastaviti"

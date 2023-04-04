@@ -381,3 +381,57 @@ msgstr "Buluta gönderin"
 
 msgid "Fechar"
 msgstr "Kapatmak"
+
+msgid "QUAIS PACOTES DESEJA REMOVER?"
+msgstr "HANGI PAKETLERI KALDIRMAK ISTIYORSUNUZ?"
+
+msgid "CONFIRMAR"
+msgstr "ONAYLAMAK"
+
+msgid "Escolha o desktop ideal para o seu BigLinux."
+msgstr "BigLinux'unuz için ideal masaüstünü seçin."
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+msgstr "DAHA AZ PROGRAMLA MI YOKSA BAŞKA BIR BÜYÜK TOPLULUK MASAÜSTÜYLE MI YÜKLEYIN?"
+
+msgid ""
+"Ao instalar o sistema, você pode escolher entre instalar com menos programas ou instalar outro "
+"desktop da Big Community. Caso opte por instalar outro desktop, lembre-se que será necessário fazer "
+"o download durante a instalação e o tempo de instalação dependerá da velocidade da sua conexão com "
+"a internet."
+msgstr ""
+"Sistemi kurarken, daha az programla yükleme veya başka bir Büyük Topluluk masaüstünü yükleme "
+"arasında seçim yapabilirsiniz. Başka bir masaüstü yüklemeyi seçerseniz, yükleme sırasında "
+"indirmeniz gerekeceğini ve kurulum süresinin internet bağlantınızın hızına bağlı olacağını "
+"unutmayın."
+
+msgid ""
+"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem ter menos "
+"personalizações e testes. Você tem certeza que deseja prosseguir com a instalação deste desktop?"
+msgstr ""
+"Aşağıdaki masaüstleri BigLinux topluluğunun kullanıcıları tarafından korunur ve daha az "
+"özelleştirme ve test içerebilir. Bu masaüstünün kurulumuna devam etmek istediğinizden emin misiniz?"
+
+msgid "OUTRO DESKTOP"
+msgstr "DİĞER MASAÜSTÜ"
+
+msgid "Dicas antes da instalação:"
+msgstr "Kurulumdan önce ipuçları:"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
+msgstr "Anlık Görüntülerin geri yükleme noktaları olması için bir Btrfs bölümüne yükleyin."
+
+msgid "Caso precise restaurar o sistema instalado, "
+msgstr "Yüklü sistemi geri yüklemeniz gerekirse, "
+
+msgid "O sistema gerencia automaticamente a Swap, "
+msgstr "Sistem otomatik olarak Swap'ı yönetir, "
+
+msgid "não crie uma partição Swap ou uma partição separada para /boot. "
+msgstr "/boot için bir Takas bölümü veya ayrı bir bölüm oluşturmayın. "
+
+msgid "Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "UEFI kullanıyorsanız, yalnızca /boot/efi için ayrı bir bölüm oluşturun."
+
+msgid "Continuar"
+msgstr "Devam etmek"

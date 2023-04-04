@@ -380,3 +380,56 @@ msgstr "Küldés a felhőbe"
 
 msgid "Fechar"
 msgstr "Bezár"
+
+msgid "QUAIS PACOTES DESEJA REMOVER?"
+msgstr "MILYEN CSOMAGOKAT SZERETNE ELTÁVOLÍTANI?"
+
+msgid "CONFIRMAR"
+msgstr "MEGERŐSÍT"
+
+msgid "Escolha o desktop ideal para o seu BigLinux."
+msgstr "Válassza ki az ideális asztalt BigLinux készülékéhez."
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+msgstr "KEVESEBB PROGRAMMAL VAGY EGY MÁSIK NAGY KÖZÖSSÉGI ASZTALLAL TELEPÍTSEN?"
+
+msgid ""
+"Ao instalar o sistema, você pode escolher entre instalar com menos programas ou instalar outro "
+"desktop da Big Community. Caso opte por instalar outro desktop, lembre-se que será necessário fazer "
+"o download durante a instalação e o tempo de instalação dependerá da velocidade da sua conexão com "
+"a internet."
+msgstr ""
+"A rendszer telepítésekor választhat, hogy kevesebb programmal telepíti-e, vagy egy másik Big "
+"Community asztalt telepít. Ha úgy dönt, hogy egy másik asztalt telepít, ne feledje, hogy a "
+"telepítés során le kell töltenie, és a telepítési idő az internetkapcsolat sebességétől függ."
+
+msgid ""
+"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem ter menos "
+"personalizações e testes. Você tem certeza que deseja prosseguir com a instalação deste desktop?"
+msgstr ""
+"Az alábbi asztali számítógépeket a BigLinux közösség felhasználói tartják karban, és kevesebb "
+"testreszabással és teszttel rendelkezhetnek. Biztosan folytatni szeretné az asztal telepítését?"
+
+msgid "OUTRO DESKTOP"
+msgstr "EGYÉB ASZTAL"
+
+msgid "Dicas antes da instalação:"
+msgstr "Tippek a telepítés előtt:"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
+msgstr "Telepítse egy Btrfs-partícióra, hogy a pillanatképek visszaállítási pontként legyenek."
+
+msgid "Caso precise restaurar o sistema instalado, "
+msgstr "Ha vissza kell állítania a telepített rendszert, "
+
+msgid "O sistema gerencia automaticamente a Swap, "
+msgstr "A rendszer automatikusan kezeli a Swap-ot, "
+
+msgid "não crie uma partição Swap ou uma partição separada para /boot. "
+msgstr "ne hozzunk létre lapozópartíciót vagy külön partíciót a /boot számára. "
+
+msgid "Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "UEFI használata esetén csak a /boot/efi könyvtárnak hozzunk létre külön partíciót."
+
+msgid "Continuar"
+msgstr "Folytatódik"

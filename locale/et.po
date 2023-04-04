@@ -377,3 +377,56 @@ msgstr "Saada pilve"
 
 msgid "Fechar"
 msgstr "Sulgema"
+
+msgid "QUAIS PACOTES DESEJA REMOVER?"
+msgstr "MILLISEID PAKETTE SOOVITE EEMALDADA?"
+
+msgid "CONFIRMAR"
+msgstr "KINNITAMA"
+
+msgid "Escolha o desktop ideal para o seu BigLinux."
+msgstr "Valige oma BigLinuxi jaoks ideaalne töölaud."
+
+msgid "INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+msgstr "KAS INSTALLITE VÄHEMATE PROGRAMMIDEGA VÕI MÕNE MUU SUURE KOGUKONNA TÖÖLAUAGA?"
+
+msgid ""
+"Ao instalar o sistema, você pode escolher entre instalar com menos programas ou instalar outro "
+"desktop da Big Community. Caso opte por instalar outro desktop, lembre-se que será necessário fazer "
+"o download durante a instalação e o tempo de instalação dependerá da velocidade da sua conexão com "
+"a internet."
+msgstr ""
+"Süsteemi installimisel saate valida, kas installida vähemate programmidega või installida mõni muu "
+"Big Community töölaud. Kui otsustate installida teise töölaua, pidage meeles, et peate selle "
+"installimise ajal alla laadima ja installiaeg sõltub teie Interneti-ühenduse kiirusest."
+
+msgid ""
+"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem ter menos "
+"personalizações e testes. Você tem certeza que deseja prosseguir com a instalação deste desktop?"
+msgstr ""
+"Allolevaid töölaudu haldavad BigLinuxi kogukonna kasutajad ning neil võib olla vähem kohandusi ja "
+"teste. Kas olete kindel, et soovite selle töölaua installimist jätkata?"
+
+msgid "OUTRO DESKTOP"
+msgstr "MUU TÖÖLAUD"
+
+msgid "Dicas antes da instalação:"
+msgstr "Nõuanded enne paigaldamist:"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
+msgstr "Installige Btrfs-i partitsioonile, et hetktõmmised oleksid taastepunktidena."
+
+msgid "Caso precise restaurar o sistema instalado, "
+msgstr "Kui teil on vaja installitud süsteem taastada, "
+
+msgid "O sistema gerencia automaticamente a Swap, "
+msgstr "Süsteem haldab Swapi automaatselt, "
+
+msgid "não crie uma partição Swap ou uma partição separada para /boot. "
+msgstr "ärge looge funktsiooni Swap partitsiooni ega eraldi partitsiooni /boot jaoks. "
+
+msgid "Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
+msgstr "Kui kasutate UEFI-d, looge eraldi partitsioon ainult /boot/efi jaoks."
+
+msgid "Continuar"
+msgstr "Jätkama"
