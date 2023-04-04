@@ -3,7 +3,7 @@
 #  Author1: Bruno Goncalves (www.biglinux.com.br) 
 #  Author2: Rafael Ruscher (rruscher@gmail.com)  
 #  Date:    2022/02/28 
-#  Modified:2022/08/05 
+#  Modified:2023/04/03 
 #  
 #  Description: Calamares modified usage of BigLinux 
 #  
@@ -51,12 +51,7 @@ EOF
 # Get body tag with color light or not
 /usr/share/bigbashview/bcc/shell/getbgcolor.sh
 
-
-
-
-
-
-cat <<EOF
+cat << EOF
 <div class="dark-light">
     <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
@@ -71,55 +66,43 @@ cat <<EOF
 EOF
 
 echo "<div class=titleP>"
-echo $"Dicas Antes da Instalação!"
+echo $"Dicas antes da instalação:"
 
 
 echo "</div><div class=messageP>"
 echo "<div class=numberP>1</div>"
 
-echo $"Instale em uma partição Btrfs, pois o sistema criará e armazenará Snapshots dos últimos 5 dias que podem ser usados como pontos de restauração. Caso ocorra algum problema durante a modificação de configurações ou atualizações."
+echo $"Instale em uma partição Btrfs para ter Snapshots como pontos de restauração."
 
 echo "</div><div class=messageP>"
 echo "<div class=numberP>2</div>"
 
-echo $"Temos um programa de restauração do sistema instalado, se for necessário utiliza-lo"
+echo $"Caso precise restaurar o sistema instalado, "
 echo "<div class=alertP2 onclick=\"_run('biglinux-grub-restore')\">"
 echo $"clique aqui."
 echo "</div> "
 
-
 echo "</div><div class=messageP>"
 echo "<div class=numberP>3</div>"
 
-echo $"Recomendamos o particionamento automático, mas se optar por particionamento manual, siga estas dicas:"
-
-echo "</div><div class=messageP>"
-echo "<div class=numberP>3.1</div>"
-
+echo $"O sistema gerencia automaticamente a Swap, "
 echo "<div class=alertP>"
-echo $"Não crie uma partição Swap."
+echo $"não crie uma partição Swap ou uma partição separada para /boot. "
 echo "</div> "
-echo $"O sistema gerenciará automaticamente arquivos de swap."
+echo $"Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
 
-echo "</div><div class=messageP>"
-echo "<div class=numberP>3.2</div>"
+echo "</div><br><br><br>"
 
-echo "<div class=alertP> "
-echo $"Não crie uma partição separada para /boot."
-echo "</div>"
-echo $"Se estiver utilizando UEFI, crie uma partição separada apenas para /boot/efi."
-echo "</div><div class=ContinueButton>"
-echo '<a href="#" class="calamares-big-buttonP js-messageClose">Continuar</a>'
+echo "<div class=ContinueButton>"
+echo '<a href="#" class="calamares-big-buttonP js-messageClose">'
+echo $"Continuar"
+echo '</a>'
 echo "</div></div>"
 
-cat <<EOF
+cat << EOF
 
 </div>
 
-
-
-
-<!-- partial:index.partial.html -->
 EOF
 
 echo '<div class=info>'
@@ -134,7 +117,6 @@ echo '</strong>'
 echo '</div>'
 
 cat << EOF
-<!-- <div class="background"> -->
 
   <div class="container"> 
 
@@ -220,7 +202,7 @@ cat << EOF
       </div>
     </div>
   </div>
-<!-- </div> -->
+
   <div class="logo">
       <img id="btn-big" src="logo.svg" class="logo-biglinux">
   </div>
@@ -229,3 +211,4 @@ cat << EOF
 </body>
 </html>
 EOF
+

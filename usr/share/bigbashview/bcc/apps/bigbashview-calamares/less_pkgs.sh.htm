@@ -3,7 +3,7 @@
 #  Author1: Bruno Goncalves (www.biglinux.com.br) 
 #  Author2: Rafael Ruscher (rruscher@gmail.com)  
 #  Date:    2022/02/28 
-#  Modified:2022/08/05 
+#  Modified:2023/04/03
 #  
 #  Description: Calamares modified usage of BigLinux 
 #  
@@ -15,7 +15,7 @@ LANGUAGE=$LANG:en
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=calamares-biglinux
 
-SELECT_TO_REMOVE=$"QUAIS PACOTES NÃO DESEJA NO SISTEMA?"
+SELECT_TO_REMOVE=$"QUAIS PACOTES DESEJA REMOVER?"
 DEFAULT=$"PADRÃO"
 CUSTOM=$"PERSONALIZADA"
 DEFAULT_OR_CUSTOM_TITLE=$"ESCOLHA O DESKTOP"
@@ -27,11 +27,11 @@ LESS_PKGS=$"MENOS PROGRAMAS"
 OTHER_DESKTOP=$"OUTROS DESKTOPS"
 OTHER_DESKTOP_CONFIRM=$"UTILIZAR REALMENTE OUTRO DESKTOP"
 DEFAULT_OR_CUSTOM_TITLE_DESC=$"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por usuários experientes."
-BACK_DEFAULT=$"VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+BACK_DEFAULT=$"VOLTAR"
 SELECT=$"SELECIONAR"
 SELECT_ALL=$"SELECIONAR TODOS"
 SELECT_NONE=$"DESMARCAR TODOS"
-CONFIRM_AND_INSTALL=$"CONFIRMAR E PROSSEGUIR COM A INSTALAÇÃO"
+CONFIRM_AND_INSTALL=$"CONFIRMAR"
 
 
 cat << EOF
@@ -46,7 +46,7 @@ EOF
 # Get body tag with color light or not
 /usr/share/bigbashview/bcc/shell/getbgcolor.sh
 
-cat <<EOF
+cat << EOF
 <div class="dark-light">
     <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
@@ -83,7 +83,7 @@ cat << EOF
     
         <h4 style="text-align: center;"></h4>     
         <div id=checkbox_list class="biglinux-card">
-          <ul style="padding-left: 20px;">
+          <ul style="padding-left: 20%;">
 EOF
         
 for pkg_to_remove  in $(cat list_pkgs_remove.txt); do
@@ -98,11 +98,12 @@ for pkg_to_remove  in $(cat list_pkgs_remove.txt); do
 done
 
 cat << EOF
-        </ul>
-      </div>
+          </ul>
+        </div>
+        
+        <div class="p"></div>
       
-        <input type="submit" class="calamares-big-button" value="$CONFIRM_AND_INSTALL"><br>   
-        <a href="desktop.sh.htm?option=$option" class="calamares-big-button is-featured">$BACK_DEFAULT</a>
+        <input type="submit" class="calamares-big-button is-featured" style="font-size: 16px; font-family: Lato, sans-serif;" value="$CONFIRM_AND_INSTALL"> <a href="desktop.sh.htm?option=$option" class="calamares-big-button is-featured">$BACK_DEFAULT</a>
 
       </div>
     </div>

@@ -4,7 +4,7 @@
 #  Author2: Rafael Ruscher (rruscher@gmail.com)  
 #  Author3: Barnabe di Kartola (barnabedikartola@gmail.com)
 #  Date:    2022/02/28 
-#  Modified:2022/08/05 
+#  Modified:2023/04/03 
 #  
 #  Description: Calamares modified usage of BigLinux 
 #  
@@ -19,14 +19,14 @@ export TEXTDOMAIN=calamares-biglinux
 DEFAULT=$"PADRÃO"
 CUSTOM=$"PERSONALIZADA"
 DEFAULT_OR_CUSTOM_TITLE=$"INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
-CUSTOM_OR_MINIMAL=$"INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-CUSTOM_OR_MINIMAL_DESC=$"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de instalação vai depender da velocidade da internet."
+CUSTOM_OR_MINIMAL=$"INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
+CUSTOM_OR_MINIMAL_DESC=$"Ao instalar o sistema, você pode escolher entre instalar com menos programas ou instalar outro desktop da Big Community. Caso opte por instalar outro desktop, lembre-se que será necessário fazer o download durante a instalação e o tempo de instalação dependerá da velocidade da sua conexão com a internet."
 SECOND_CONFIRM_CUSTOM=$"REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-SECOND_CONFIRM_CUSTOM_DESC=$"Os desktops a seguir são mantidos por usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente prosseguir?"
+SECOND_CONFIRM_CUSTOM_DESC=$"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem ter menos personalizações e testes. Você tem certeza que deseja prosseguir com a instalação deste desktop?"
 LESS_PKGS=$"MENOS PROGRAMAS"
-OTHER_DESKTOP=$"OUTROS DESKTOPS"
-OTHER_DESKTOP_CONFIRM=$"UTILIZAR REALMENTE OUTRO DESKTOP"
-BACK_DEFAULT=$"VOLTAR E UTILIZAR A INSTALAÇÂO PADRÃO"
+OTHER_DESKTOP=$"OUTRO DESKTOP"
+OTHER_DESKTOP_CONFIRM=$"CONFIRMAR"
+BACK_DEFAULT=$"VOLTAR"
 DEFAULT_OR_CUSTOM_TITLE_DESC=$"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por usuários experientes."
 SELECT=$"SELECIONAR"
 
@@ -42,7 +42,7 @@ EOF
 # Get body tag with color light or not
 /usr/share/bigbashview/bcc/shell/getbgcolor.sh
 
-cat <<EOF
+cat << EOF
 <div class="dark-light">
     <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
@@ -74,29 +74,26 @@ cat << EOF
         
         </div>
         <div class="p"> </div>
-        <a href="#" onclick="customInstall()" class="calamares-big-button">$CUSTOM</a>
         <a href="wait.sh.htm?option=$option" class="calamares-big-button is-featured">$DEFAULT</a>
+        <a href="#" onclick="customInstall()" class="calamares-big-button">$CUSTOM</a>
       </div>
 
-
-      
+     
       <div class="calamares-big-plan" id=confirm hidden>
         <img src="icon-big-hd-install.svg" alt="Install" class="calamares-big-img" style="width: 100px;">
         <h3 class="calamares-big-header">$CUSTOM_OR_MINIMAL</h3>
         <div class="p">
-        
-        <div class="container-community">$CUSTOM_OR_MINIMAL_DESC</div>
-        
+          <div class="container-community">$CUSTOM_OR_MINIMAL_DESC</div>
         </div>
         <div class="p"> </div>
         <a href="#" onclick="customInstallConfirm()" class="calamares-big-button">$OTHER_DESKTOP</a>
-        <a href="less_pkgs.sh.htm?option=$option" class="calamares-big-button is-featured">$LESS_PKGS</a>
+        <a href="less_pkgs.sh.htm?option=$option" class="calamares-big-button is-featured">$LESS_PKGS</a>        
       </div>
       
       
       <div class="calamares-big-plan" id=installConfirm hidden>
         <img src="big-community.svg" alt="Install" class="calamares-big-img" style="width: 100px;">
-        <h3 class="calamares-big-header"><font color=red style="font-size: 40px;">BIG COMMUNITY</font></h3>
+        <h3 class="calamares-big-header"><font color=mediumorchid style="font-size: 40px;">BIG COMMUNITY</font></h3>
         <div class="p">
         
         <div class="container-community">$SECOND_CONFIRM_CUSTOM_DESC</div>
@@ -109,22 +106,18 @@ cat << EOF
       </div>
       
     <div class="calamares-big-plan" id="confirm" hidden>
-    <button class="warning" onclick="confirmYes()">Yes</button>
-    <button onclick="confirmNo()">No</button>  
-  </div>
+      <button class="warning" onclick="confirmYes()">Yes</button>
+      <button onclick="confirmNo()">No</button>  
+    </div>
       
     </div>
   </div>
 
-  
-  
   <div class="logo">
       <img id="btn-big" src="logo.svg" class="logo-biglinux">
   </div>
+  
 <script  src="./script.js"></script>
-
-
-
 
 </body>
 </html>
