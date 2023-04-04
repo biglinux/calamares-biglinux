@@ -124,13 +124,13 @@ sed -i 's|btrfs: defaults|btrfs: defaults,noatime,space_cache=v2,autodefrag,comp
 sed -i 's|defaultFileSystemType.*"ext4"|defaultFileSystemType:  "btrfs"|g' /usr/share/calamares/modules/partition.conf
 
 # Change initcpio to systemd
-sed -i 's|"base", "udev"|"systemd"|g' /usr/lib/calamares/modules/initcpiocfg/main.py
+#sed -i 's|"base", "udev"|"systemd"|g' /usr/lib/calamares/modules/initcpiocfg/main.py
 
 # Clean initcpio
 sed -i 's|, "keyboard", "keymap", "consolefont"||g' /usr/lib/calamares/modules/initcpiocfg/main.py
 
 # Change initcpio plymouth to sd version
-sed -i 's|"plymouth"|"kms sd-plymouth"|g' /usr/lib/calamares/modules/initcpiocfg/main.py
+sed -i 's|"plymouth"|"kms plymouth"|g' /usr/lib/calamares/modules/initcpiocfg/main.py
 
 
 # not disable pacman-init
