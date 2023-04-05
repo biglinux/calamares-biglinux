@@ -428,3 +428,6 @@ msgstr "If you use UEFI, create a separate partition for /boot/efi only."
 
 msgid "Continuar"
 msgstr "Continue"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
+msgstr "Install on a Btrfs partition to have Snapshots with restore points."

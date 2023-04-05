@@ -431,3 +431,6 @@ msgstr "Jos käytät UEFI:tä, luo erillinen osio vain /boot/efi:lle."
 
 msgid "Continuar"
 msgstr "Jatkaa"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
+msgstr "Asenna Btrfs-osioon, jotta saat tilannevedoksia palautuspisteillä."

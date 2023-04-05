@@ -430,3 +430,6 @@ msgstr "Pokud používáte UEFI, vytvořte samostatný oddíl pouze pro /boot/ef
 
 msgid "Continuar"
 msgstr "Pokračovat"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
+msgstr "Nainstalujte na oddíl Btrfs, abyste měli snímky s body obnovení."

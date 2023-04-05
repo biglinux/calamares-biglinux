@@ -425,3 +425,6 @@ msgstr "אם אתה משתמש ב- UEFI, צור מחיצה נפרדת עבור /
 
 msgid "Continuar"
 msgstr "נמשך"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
+msgstr "התקן במחיצת Btrfs כדי לקבל תמונות עם נקודות שחזור."

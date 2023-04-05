@@ -414,3 +414,6 @@ msgstr "如果使用 UEFI，请仅为 /boot/efi 创建一个单独的分区。"
 
 msgid "Continuar"
 msgstr "继续"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
+msgstr "安装在 Btrfs 分区上，以获得带有还原点的快照。"

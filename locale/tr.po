@@ -435,3 +435,6 @@ msgstr "UEFI kullanıyorsanız, yalnızca /boot/efi için ayrı bir bölüm olu�
 
 msgid "Continuar"
 msgstr "Devam etmek"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
+msgstr "Geri yükleme noktalarına sahip anlık görüntülere sahip olmak için bir Btrfs bölümüne yükleyin."

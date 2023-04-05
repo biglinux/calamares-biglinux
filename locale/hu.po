@@ -433,3 +433,6 @@ msgstr "UEFI használata esetén csak a /boot/efi könyvtárnak hozzunk létre k
 
 msgid "Continuar"
 msgstr "Folytatódik"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
+msgstr "Telepítse egy Btrfs-partícióra, hogy visszaállítási pontokkal rendelkező pillanatképek legyenek."

@@ -439,3 +439,6 @@ msgstr "Wenn Sie UEFI verwenden, erstellen Sie eine separate Partition nur für 
 
 msgid "Continuar"
 msgstr "Fortsetzen"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
+msgstr "Installieren Sie auf einer Btrfs-Partition, um Snapshots mit Wiederherstellungspunkten zu erhalten."

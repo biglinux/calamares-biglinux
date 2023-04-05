@@ -434,3 +434,6 @@ msgstr "Если вы используете UEFI, создайте отдель
 
 msgid "Continuar"
 msgstr "Продолжать"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
+msgstr "Установите на раздел Btrfs, чтобы иметь моментальные снимки с точками восстановления."

@@ -418,3 +418,6 @@ msgstr "UEFI を使用する場合は、/boot/efi 専用に別のパーティシ
 
 msgid "Continuar"
 msgstr "続ける"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
+msgstr "Btrfsパーティションにインストールして、復元ポイントを持つスナップショットを作成します。"

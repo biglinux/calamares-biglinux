@@ -435,3 +435,6 @@ msgstr "Dacă utilizați UEFI, creați o partiție separată numai pentru /boot/
 
 msgid "Continuar"
 msgstr "Continua"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
+msgstr "Instalați pe o partiție Btrfs pentru a avea instantanee cu puncte de restaurare."

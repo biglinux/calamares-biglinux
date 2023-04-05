@@ -437,3 +437,6 @@ msgstr "Als u UEFI gebruikt, maakt u een aparte partitie voor alleen /boot/efi."
 
 msgid "Continuar"
 msgstr "Voortzetten"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
+msgstr "Installeer op een Btrfs-partitie om Snapshots met herstelpunten te hebben."

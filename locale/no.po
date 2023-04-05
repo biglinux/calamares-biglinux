@@ -434,3 +434,6 @@ msgstr "Hvis du bruker UEFI, oppretter du en separat partisjon bare for /boot/ef
 
 msgid "Continuar"
 msgstr "Fortsette"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
+msgstr "Installer på en Btrfs-partisjon for å ha øyeblikksbilder med gjenopprettingspunkter."

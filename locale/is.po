@@ -430,3 +430,6 @@ msgstr "Ef þú notar UEFI skaltu búa til sérstaka skipting fyrir / stígvél 
 
 msgid "Continuar"
 msgstr "Halda áfram"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
+msgstr "Settu upp á Btrfs skipting til að hafa skyndimyndir með endurheimtarpunktum."

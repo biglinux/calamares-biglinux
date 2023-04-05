@@ -434,3 +434,6 @@ msgstr "Hvis du bruger UEFI, skal du kun oprette en separat partition til /boot/
 
 msgid "Continuar"
 msgstr "Fortsætte"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
+msgstr "Installer på en Btrfs-partition for at få snapshots med gendannelsespunkter."

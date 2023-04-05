@@ -439,3 +439,6 @@ msgstr "Αν χρησιμοποιείτε UEFI, δημιουργήστε μια 
 
 msgid "Continuar"
 msgstr "Συνεχίζω"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
+msgstr "Εγκαταστήστε σε ένα διαμέρισμα Btrfs για να έχετε στιγμιότυπα με σημεία επαναφοράς."

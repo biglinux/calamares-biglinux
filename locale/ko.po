@@ -416,3 +416,6 @@ msgstr "UEFI를 사용하는 경우 /boot/efi 전용으로 별도의 파티션�
 
 msgid "Continuar"
 msgstr "계속하다"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
+msgstr "Btrfs 파티션에 설치하여 복원 지점이 있는 스냅샷을 포함합니다."

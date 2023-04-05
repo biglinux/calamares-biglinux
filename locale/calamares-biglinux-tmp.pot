@@ -357,3 +357,6 @@ msgstr  ""
 #
 msgid   "Continuar"
 msgstr  ""
+#
+msgid   "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
+msgstr  ""

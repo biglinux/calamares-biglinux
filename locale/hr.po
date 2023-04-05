@@ -433,3 +433,6 @@ msgstr "Ako koristite UEFI, stvorite zasebnu particiju samo za /boot/efi."
 
 msgid "Continuar"
 msgstr "Nastaviti"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
+msgstr "Instalirajte na Btrfs particiju da biste imali snimke s točkama vraćanja."

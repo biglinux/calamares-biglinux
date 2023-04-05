@@ -430,3 +430,6 @@ msgstr "Kui kasutate UEFI-d, looge eraldi partitsioon ainult /boot/efi jaoks."
 
 msgid "Continuar"
 msgstr "Jätkama"
+
+msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
+msgstr "Installige Btrfs-i partitsioonile, et teil oleks taastepunktidega hetktõmmised."
