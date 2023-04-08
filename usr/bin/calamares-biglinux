@@ -198,6 +198,8 @@ disable:
 
 fi
 
+sed -i 's|timers:||g' /etc/calamares/modules/services.conf
+
 
 echo "
 ---
