@@ -408,12 +408,13 @@ fi
 #Calamares failed to install
 if [ "$(grep -w completion /root/.cache/calamares/session.log | rev | cut -d ":" -f1 | rev | sed 's/^[ \t]*//;s/[ \t]*$//')" != "succeeded" ];then
 # if [ "$(grep completion /root/.cache/calamares/session.log | rev | cut -d ":" -f1 | rev | sed 's/^ \+//')" = "failed" ];then
-    cp /root/.cache/calamares/session.log /home/biglinux/calamares.log
-    chown biglinux:biglinux /home/biglinux/calamares.log
+    user=$(ls /home)
+    cp /root/.cache/calamares/session.log /home/$user/calamares.log
+    chown $user:$user /home/$user/calamares.log
     
     send () {
-    sudo -u biglinux curl --upload-file "/home/biglinux/calamares.log" https://transfer.sh | tee "/home/biglinux/transfer.url"  | zenity --modal --progress --pulsate --no-cancel --auto-close --text $"Enviando, aguarde..."
-    sudo -u biglinux brave-browser --new-window --no-sandbox $(cat "/home/biglinux/transfer.url")
+    sudo -u $user curl --upload-file "/home/$user/calamares.log" https://transfer.sh | tee "/home/$user/transfer.url"  | zenity --modal --progress --pulsate --no-cancel --auto-close --text $"Enviando, aguarde..."
+    sudo -u $user brave-browser --new-window --no-sandbox $(cat "/home/$user/transfer.url")
     } 
 
     yad --buttons-layout=center \
@@ -425,7 +426,7 @@ if [ "$(grep -w completion /root/.cache/calamares/session.log | rev | cut -d ":"
         --text=$"\nDeseja visualizar ou enviar o arquivo de log da instalação para a nuvem?\ngerar um link para enviar no grupos de suporte.\n"
 
     case $? in
-        1) sudo -u biglinux kate /home/biglinux/calamares.log;;
+        1) sudo -u $user kate /home/$user/calamares.log;;
         2) send;;
         3) echo "Fechando arquivo..." ;;
     esac
