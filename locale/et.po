@@ -433,3 +433,10 @@ msgstr "Jätkama"
 
 msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
 msgstr "Installige Btrfs-i partitsioonile, et teil oleks taastepunktidega hetktõmmised."
+
+msgid ""
+"Sem conexão com a Internet...\\n"
+"Instalação de pacotes extras desativada."
+msgstr ""
+"Interneti-ühendust pole...\\n"
+"Lisapakettide installimine on keelatud."

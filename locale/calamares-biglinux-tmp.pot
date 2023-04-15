@@ -360,3 +360,6 @@ msgstr  ""
 #
 msgid   "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
 msgstr  ""
+#
+msgid   "Sem conexão com a Internet...\\nInstalação de pacotes extras desativada."
+msgstr  ""

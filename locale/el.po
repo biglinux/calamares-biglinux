@@ -442,3 +442,10 @@ msgstr "Συνεχίζω"
 
 msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
 msgstr "Εγκαταστήστε σε ένα διαμέρισμα Btrfs για να έχετε στιγμιότυπα με σημεία επαναφοράς."
+
+msgid ""
+"Sem conexão com a Internet...\\n"
+"Instalação de pacotes extras desativada."
+msgstr ""
+"Δεν υπάρχει σύνδεση στο Internet...\\n"
+"Η εγκατάσταση επιπλέον πακέτων είναι απενεργοποιημένη."

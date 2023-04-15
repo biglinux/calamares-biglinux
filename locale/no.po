@@ -437,3 +437,10 @@ msgstr "Fortsette"
 
 msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
 msgstr "Installer på en Btrfs-partisjon for å ha øyeblikksbilder med gjenopprettingspunkter."
+
+msgid ""
+"Sem conexão com a Internet...\\n"
+"Instalação de pacotes extras desativada."
+msgstr ""
+"Ingen Internett-tilkobling...\\n"
+"Installasjon av ekstra pakker er deaktivert."

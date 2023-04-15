@@ -421,3 +421,10 @@ msgstr "続ける"
 
 msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
 msgstr "Btrfsパーティションにインストールして、復元ポイントを持つスナップショットを作成します。"
+
+msgid ""
+"Sem conexão com a Internet...\\n"
+"Instalação de pacotes extras desativada."
+msgstr ""
+"インターネット接続がありません...\\n"
+"追加パッケージのインストールは無効です。"

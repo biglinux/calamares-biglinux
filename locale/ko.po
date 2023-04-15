@@ -419,3 +419,10 @@ msgstr "계속하다"
 
 msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
 msgstr "Btrfs 파티션에 설치하여 복원 지점이 있는 스냅샷을 포함합니다."
+
+msgid ""
+"Sem conexão com a Internet...\\n"
+"Instalação de pacotes extras desativada."
+msgstr ""
+"인터넷에 연결되어 있지 않습니다...\\n"
+"추가 패키지 설치가 비활성화되었습니다."

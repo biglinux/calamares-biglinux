@@ -437,3 +437,10 @@ msgstr "Продолжать"
 
 msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
 msgstr "Установите на раздел Btrfs, чтобы иметь моментальные снимки с точками восстановления."
+
+msgid ""
+"Sem conexão com a Internet...\\n"
+"Instalação de pacotes extras desativada."
+msgstr ""
+"Нет подключения к Интернету...\\n"
+"Установка дополнительных пакетов отключена."

@@ -434,3 +434,10 @@ msgstr "Jatkaa"
 
 msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
 msgstr "Asenna Btrfs-osioon, jotta saat tilannevedoksia palautuspisteillä."
+
+msgid ""
+"Sem conexão com a Internet...\\n"
+"Instalação de pacotes extras desativada."
+msgstr ""
+"Ei Internet-yhteyttä...\\n"
+"Ylimääräisten pakettien asennus poistettu käytöstä."

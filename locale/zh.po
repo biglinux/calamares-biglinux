@@ -417,3 +417,10 @@ msgstr "继续"
 
 msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
 msgstr "安装在 Btrfs 分区上，以获得带有还原点的快照。"
+
+msgid ""
+"Sem conexão com a Internet...\\n"
+"Instalação de pacotes extras desativada."
+msgstr ""
+"没有互联网连接...\\n"
+"已禁用额外软件包的安装。"

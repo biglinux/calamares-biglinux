@@ -440,3 +440,10 @@ msgstr "Voortzetten"
 
 msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
 msgstr "Installeer op een Btrfs-partitie om Snapshots met herstelpunten te hebben."
+
+msgid ""
+"Sem conexão com a Internet...\\n"
+"Instalação de pacotes extras desativada."
+msgstr ""
+"Geen internetverbinding...\\n"
+"Installatie van extra pakketten uitgeschakeld."

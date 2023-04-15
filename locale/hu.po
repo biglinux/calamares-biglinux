@@ -436,3 +436,10 @@ msgstr "Folytatódik"
 
 msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
 msgstr "Telepítse egy Btrfs-partícióra, hogy visszaállítási pontokkal rendelkező pillanatképek legyenek."
+
+msgid ""
+"Sem conexão com a Internet...\\n"
+"Instalação de pacotes extras desativada."
+msgstr ""
+"Nincs internetkapcsolat...\\n"
+"Az extra csomagok telepítése le van tiltva."

@@ -431,3 +431,10 @@ msgstr "Continue"
 
 msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
 msgstr "Install on a Btrfs partition to have Snapshots with restore points."
+
+msgid ""
+"Sem conexão com a Internet...\\n"
+"Instalação de pacotes extras desativada."
+msgstr ""
+"No Internet connection...\\n"
+"Installation of extra packages disabled."

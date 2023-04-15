@@ -428,3 +428,10 @@ msgstr "נמשך"
 
 msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
 msgstr "התקן במחיצת Btrfs כדי לקבל תמונות עם נקודות שחזור."
+
+msgid ""
+"Sem conexão com a Internet...\\n"
+"Instalação de pacotes extras desativada."
+msgstr ""
+"אין חיבור לאינטרנט...\\n"
+"התקנה של חבילות נוספות מושבתות."

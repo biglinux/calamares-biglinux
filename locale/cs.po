@@ -433,3 +433,10 @@ msgstr "Pokračovat"
 
 msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
 msgstr "Nainstalujte na oddíl Btrfs, abyste měli snímky s body obnovení."
+
+msgid ""
+"Sem conexão com a Internet...\\n"
+"Instalação de pacotes extras desativada."
+msgstr ""
+"Žádné připojení k internetu...\\n"
+"Instalace extra balíčků zakázána."

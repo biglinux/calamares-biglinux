@@ -437,3 +437,10 @@ msgstr "Kontynuować"
 
 msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
 msgstr "Zainstaluj na partycji Btrfs, aby mieć migawki z punktami przywracania."
+
+msgid ""
+"Sem conexão com a Internet...\\n"
+"Instalação de pacotes extras desativada."
+msgstr ""
+"Brak połączenia z Internetem...\\n"
+"Instalacja dodatkowych pakietów wyłączona."

@@ -436,3 +436,10 @@ msgstr "Nastaviti"
 
 msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
 msgstr "Instalirajte na Btrfs particiju da biste imali snimke s točkama vraćanja."
+
+msgid ""
+"Sem conexão com a Internet...\\n"
+"Instalação de pacotes extras desativada."
+msgstr ""
+"Nema internetske veze...\\n"
+"Instalacija dodatnih paketa je onemogućena."

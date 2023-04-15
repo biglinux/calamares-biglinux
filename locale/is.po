@@ -433,3 +433,10 @@ msgstr "Halda áfram"
 
 msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
 msgstr "Settu upp á Btrfs skipting til að hafa skyndimyndir með endurheimtarpunktum."
+
+msgid ""
+"Sem conexão com a Internet...\\n"
+"Instalação de pacotes extras desativada."
+msgstr ""
+"Engin nettenging...\\n"
+"Uppsetning aukapakka óvirk."

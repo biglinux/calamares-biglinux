@@ -438,3 +438,10 @@ msgstr "Devam etmek"
 
 msgid "Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
 msgstr "Geri yükleme noktalarına sahip anlık görüntülere sahip olmak için bir Btrfs bölümüne yükleyin."
+
+msgid ""
+"Sem conexão com a Internet...\\n"
+"Instalação de pacotes extras desativada."
+msgstr ""
+"İnternet bağlantısı yok...\\n"
+"Ek paketlerin yüklenmesi devre dışı."
