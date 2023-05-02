@@ -414,10 +414,10 @@ if [ "$(grep -w completion /root/.cache/calamares/session.log | rev | cut -d ":"
     
     send () {
     sudo -u $user curl --upload-file "/home/$user/calamares.log" https://transfer.sh | tee "/home/$user/transfer.url"  | zenity --modal --progress --pulsate --no-cancel --auto-close --text $"Enviando, aguarde..."
-    if [ -f /usr/bin/brave ];then
-      sudo -u $user brave-browser --new-window --no-sandbox $(cat "/home/$user/transfer.url")
-    elif [ -f /usr/bin/falkon ];then
+    if [ -f /usr/bin/falkon ];then
       sudo -u $user falkon $(cat "/home/$user/transfer.url")
+    elif [ -f /usr/bin/brave ];then
+      sudo -u $user brave-browser --new-window --no-sandbox $(cat "/home/$user/transfer.url")
     fi
     } 
 
