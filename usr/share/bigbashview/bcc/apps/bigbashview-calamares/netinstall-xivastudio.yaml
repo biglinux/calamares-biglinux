@@ -76,3 +76,17 @@
     - makehuman
     - openscad
     - sweethome3d
+
+- name: "Browser"
+  #description: "Complementos para Estação de Trabalho"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - brave-browser
+    - firefox
+    - chromium
+    - vivaldi
+    - librewolf
+    - opera
+    - falkon
