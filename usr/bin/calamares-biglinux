@@ -406,7 +406,7 @@ if [ -e "/tmp/start_calamares" ]; then
 fi
 
 #Calamares failed to install
-if [ "$(grep -w completion /root/.cache/calamares/session.log | rev | cut -d ":" -f1 | rev | sed 's/^[ \t]*//;s/[ \t]*$//')" != "succeeded" ];then
+if [ "$(grep -w completion /root/.cache/calamares/session.log | grep -v bash-completion | rev | cut -d ":" -f1 | rev | sed 's/^[ \t]*//;s/[ \t]*$//')" != "succeeded" ];then
 # if [ "$(grep completion /root/.cache/calamares/session.log | rev | cut -d ":" -f1 | rev | sed 's/^ \+//')" = "failed" ];then
     user=$(ls /home)
     cp /root/.cache/calamares/session.log /home/$user/calamares.log
