@@ -70,7 +70,7 @@
   selected: false
   packages:
     - blender
-    - natron
+    - natron-bin
     - freecad
     - librecad
     - makehuman
