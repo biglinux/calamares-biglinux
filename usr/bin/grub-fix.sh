@@ -11,8 +11,14 @@ sed -i 's|GRUB_THEME=.*|GRUB_THEME="/boot/grub/themes/biglinux/theme.txt"|g' $*
 
 sed -i 's|GRUB_SAVEDEFAULT=true|GRUB_SAVEDEFAULT=false|g;s|quiet quiet|quiet|g' $*
 
-
-
+#remove multiples splash
+while [ "$(grep -o '[^[:space:]]*splash[^[:space:]]*' $* | sed 's/\"//' | wc -w)" -gt "1" ];do
+    sed -i 's/ splash//' $*
+done
+#remove multiples quiet
+while [ "$(grep -o '[^[:space:]]*quiet[^[:space:]]*' $* | sed 's/\"//' | wc -w)" -gt "1" ];do
+    sed -i 's/ quiet//' $*
+done
 
 
 #Change default desktop in sddm to use in livecd
