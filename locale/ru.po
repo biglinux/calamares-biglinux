@@ -453,3 +453,12 @@ msgstr "Проверка подключения к Интернету"
 
 msgid "Desktops"
 msgstr "Настольных компьютеров"
+
+msgid "Pacotes para instalar:"
+msgstr "Пакеты для установки:"
+
+msgid "Pacotes para remover:"
+msgstr "Пакеты для удаления:"
+
+msgid "Gerenciador de login:"
+msgstr "Менеджер входа:"

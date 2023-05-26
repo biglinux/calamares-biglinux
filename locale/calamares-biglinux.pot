@@ -506,3 +506,15 @@ msgstr  ""
 #
 msgid   "Desktops"
 msgstr  ""
+
+#
+msgid   "Pacotes para instalar:"
+msgstr  ""
+
+#
+msgid   "Pacotes para remover:"
+msgstr  ""
+
+#
+msgid   "Gerenciador de login:"
+msgstr  ""

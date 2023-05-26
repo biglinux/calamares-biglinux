@@ -458,3 +458,12 @@ msgstr "Überprüfen der Internetverbindung"
 
 msgid "Desktops"
 msgstr "Desktops"
+
+msgid "Pacotes para instalar:"
+msgstr "Zu installierende Pakete:"
+
+msgid "Pacotes para remover:"
+msgstr "Zu entfernende Pakete:"
+
+msgid "Gerenciador de login:"
+msgstr "Login-Manager:"

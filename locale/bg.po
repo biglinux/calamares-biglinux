@@ -452,3 +452,12 @@ msgstr "Проверка на интернет връзката"
 
 msgid "Desktops"
 msgstr "Настолни компютри"
+
+msgid "Pacotes para instalar:"
+msgstr "Пакети за инсталиране:"
+
+msgid "Pacotes para remover:"
+msgstr "Пакети за премахване:"
+
+msgid "Gerenciador de login:"
+msgstr "Мениджър на входа:"

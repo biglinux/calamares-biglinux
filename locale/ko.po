@@ -435,3 +435,12 @@ msgstr "인터넷 연결 확인"
 
 msgid "Desktops"
 msgstr "데스크톱"
+
+msgid "Pacotes para instalar:"
+msgstr "설치할 패키지:"
+
+msgid "Pacotes para remover:"
+msgstr "제거할 패키지:"
+
+msgid "Gerenciador de login:"
+msgstr "로그인 관리자:"

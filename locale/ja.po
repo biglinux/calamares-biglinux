@@ -437,3 +437,12 @@ msgstr "インターネット接続の確認"
 
 msgid "Desktops"
 msgstr "デスクトップ"
+
+msgid "Pacotes para instalar:"
+msgstr "インストールするパッケージ:"
+
+msgid "Pacotes para remover:"
+msgstr "削除するパッケージ:"
+
+msgid "Gerenciador de login:"
+msgstr "ログインマネージャ:"

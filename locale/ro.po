@@ -454,3 +454,12 @@ msgstr "Verificarea conexiunii la Internet"
 
 msgid "Desktops"
 msgstr "Desktopuri"
+
+msgid "Pacotes para instalar:"
+msgstr "Pachete de instalat:"
+
+msgid "Pacotes para remover:"
+msgstr "Pachete pentru a elimina:"
+
+msgid "Gerenciador de login:"
+msgstr "Login Manager:"

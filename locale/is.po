@@ -449,3 +449,12 @@ msgstr "Staðfesting á nettengingu"
 
 msgid "Desktops"
 msgstr "Desktops"
+
+msgid "Pacotes para instalar:"
+msgstr "Pakkar til að setja upp:"
+
+msgid "Pacotes para remover:"
+msgstr "Pakkar til að fjarlægja:"
+
+msgid "Gerenciador de login:"
+msgstr "Innskráningarstjóri:"

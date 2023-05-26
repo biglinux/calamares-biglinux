@@ -453,3 +453,12 @@ msgstr "Weryfikowanie połączenia internetowego"
 
 msgid "Desktops"
 msgstr "Pulpitów"
+
+msgid "Pacotes para instalar:"
+msgstr "Pakiety do zainstalowania:"
+
+msgid "Pacotes para remover:"
+msgstr "Pakiety do usunięcia:"
+
+msgid "Gerenciador de login:"
+msgstr "Menedżer logowania:"

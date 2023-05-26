@@ -450,3 +450,12 @@ msgstr "Internet-yhteyden tarkistaminen"
 
 msgid "Desktops"
 msgstr "Työpöytiä"
+
+msgid "Pacotes para instalar:"
+msgstr "Asennettavat paketit:"
+
+msgid "Pacotes para remover:"
+msgstr "Poistettavat paketit:"
+
+msgid "Gerenciador de login:"
+msgstr "Kirjautumisen hallinta:"

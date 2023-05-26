@@ -447,3 +447,12 @@ msgstr "Verifying Internet Connection"
 
 msgid "Desktops"
 msgstr "Desktops"
+
+msgid "Pacotes para instalar:"
+msgstr "Packages to install:"
+
+msgid "Pacotes para remover:"
+msgstr "Packages to remove:"
+
+msgid "Gerenciador de login:"
+msgstr "Login Manager:"

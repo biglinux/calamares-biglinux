@@ -452,3 +452,12 @@ msgstr "Overenie internetového pripojenia"
 
 msgid "Desktops"
 msgstr "Stolné počítače"
+
+msgid "Pacotes para instalar:"
+msgstr "Balíky na inštaláciu:"
+
+msgid "Pacotes para remover:"
+msgstr "Balíky na odstránenie:"
+
+msgid "Gerenciador de login:"
+msgstr "Správca prihlásenia:"

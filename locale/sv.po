@@ -455,3 +455,12 @@ msgstr "Verifiera Internetanslutning"
 
 msgid "Desktops"
 msgstr "Stationära datorer"
+
+msgid "Pacotes para instalar:"
+msgstr "Paket att installera:"
+
+msgid "Pacotes para remover:"
+msgstr "Paket att ta bort:"
+
+msgid "Gerenciador de login:"
+msgstr "Logga in Manager:"

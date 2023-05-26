@@ -456,3 +456,12 @@ msgstr "Internetverbinding controleren"
 
 msgid "Desktops"
 msgstr "Desktops"
+
+msgid "Pacotes para instalar:"
+msgstr "Te installeren pakketten:"
+
+msgid "Pacotes para remover:"
+msgstr "Te verwijderen pakketten:"
+
+msgid "Gerenciador de login:"
+msgstr "Inloggen manager:"

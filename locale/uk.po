@@ -455,3 +455,12 @@ msgstr "Перевірка підключення до Інтернету"
 
 msgid "Desktops"
 msgstr "Настільні комп'ютери"
+
+msgid "Pacotes para instalar:"
+msgstr "Пакунки для встановлення:"
+
+msgid "Pacotes para remover:"
+msgstr "Пакети для видалення:"
+
+msgid "Gerenciador de login:"
+msgstr "Менеджер входу:"

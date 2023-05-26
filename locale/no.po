@@ -453,3 +453,12 @@ msgstr "Bekrefte Internett-tilkobling"
 
 msgid "Desktops"
 msgstr "Stasjonære"
+
+msgid "Pacotes para instalar:"
+msgstr "Pakker som skal installeres:"
+
+msgid "Pacotes para remover:"
+msgstr "Pakker som skal fjernes:"
+
+msgid "Gerenciador de login:"
+msgstr "Logg inn Manager:"

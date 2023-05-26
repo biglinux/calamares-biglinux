@@ -454,3 +454,12 @@ msgstr "İnternet Bağlantısını Doğrulama"
 
 msgid "Desktops"
 msgstr "Masaüstü"
+
+msgid "Pacotes para instalar:"
+msgstr "Yüklenecek paketler:"
+
+msgid "Pacotes para remover:"
+msgstr "Kaldırılacak paketler:"
+
+msgid "Gerenciador de login:"
+msgstr "Giriş Yöneticisi:"

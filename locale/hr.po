@@ -452,3 +452,12 @@ msgstr "Provjera internetske veze"
 
 msgid "Desktops"
 msgstr "Stolna računala"
+
+msgid "Pacotes para instalar:"
+msgstr "Paketi za instalaciju:"
+
+msgid "Pacotes para remover:"
+msgstr "Paketi za uklanjanje:"
+
+msgid "Gerenciador de login:"
+msgstr "Upravitelj prijave:"

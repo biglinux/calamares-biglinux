@@ -458,3 +458,12 @@ msgstr "Επαλήθευση σύνδεσης στο Internet"
 
 msgid "Desktops"
 msgstr "Επιφάνειες εργασίας"
+
+msgid "Pacotes para instalar:"
+msgstr "Πακέτα για εγκατάσταση:"
+
+msgid "Pacotes para remover:"
+msgstr "Πακέτα για κατάργηση:"
+
+msgid "Gerenciador de login:"
+msgstr "Διαχειριστής σύνδεσης:"

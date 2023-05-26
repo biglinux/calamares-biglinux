@@ -452,3 +452,12 @@ msgstr "Internetkapcsolat ellenőrzése"
 
 msgid "Desktops"
 msgstr "Asztali"
+
+msgid "Pacotes para instalar:"
+msgstr "Telepítendő csomagok:"
+
+msgid "Pacotes para remover:"
+msgstr "Eltávolítandó csomagok:"
+
+msgid "Gerenciador de login:"
+msgstr "Bejelentkezéskezelő:"

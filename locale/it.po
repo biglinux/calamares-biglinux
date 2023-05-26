@@ -459,3 +459,12 @@ msgstr "Verifica della connessione Internet"
 
 msgid "Desktops"
 msgstr "Desktop"
+
+msgid "Pacotes para instalar:"
+msgstr "Pacchetti da installare:"
+
+msgid "Pacotes para remover:"
+msgstr "Pacchetti da rimuovere:"
+
+msgid "Gerenciador de login:"
+msgstr "Login Manager:"

@@ -453,3 +453,12 @@ msgstr "Bekræftelse af internetforbindelse"
 
 msgid "Desktops"
 msgstr "Desktops"
+
+msgid "Pacotes para instalar:"
+msgstr "Pakker, der skal installeres:"
+
+msgid "Pacotes para remover:"
+msgstr "Pakker, der skal fjernes:"
+
+msgid "Gerenciador de login:"
+msgstr "Login Manager:"

@@ -455,3 +455,12 @@ msgstr "Verificación de la conexión a Internet"
 
 msgid "Desktops"
 msgstr "Escritorios"
+
+msgid "Pacotes para instalar:"
+msgstr "Paquetes para instalar:"
+
+msgid "Pacotes para remover:"
+msgstr "Paquetes para eliminar:"
+
+msgid "Gerenciador de login:"
+msgstr "Administrador de inicio de sesión:"

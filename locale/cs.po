@@ -449,3 +449,12 @@ msgstr "Ověření připojení k Internetu"
 
 msgid "Desktops"
 msgstr "Plochy"
+
+msgid "Pacotes para instalar:"
+msgstr "Balíčky k instalaci:"
+
+msgid "Pacotes para remover:"
+msgstr "Balíčky k odstranění:"
+
+msgid "Gerenciador de login:"
+msgstr "Správce přihlášení:"

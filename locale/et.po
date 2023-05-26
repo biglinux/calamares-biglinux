@@ -449,3 +449,12 @@ msgstr "Interneti-ühenduse kontrollimine"
 
 msgid "Desktops"
 msgstr "Lauaarvutid"
+
+msgid "Pacotes para instalar:"
+msgstr "Paketid paigaldamiseks:"
+
+msgid "Pacotes para remover:"
+msgstr "Eemaldatavad paketid:"
+
+msgid "Gerenciador de login:"
+msgstr "Sisselogimise haldur:"

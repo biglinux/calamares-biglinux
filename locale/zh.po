@@ -433,3 +433,12 @@ msgstr "验证互联网连接"
 
 msgid "Desktops"
 msgstr "桌面"
+
+msgid "Pacotes para instalar:"
+msgstr "要安装的软件包："
+
+msgid "Pacotes para remover:"
+msgstr "要删除的包："
+
+msgid "Gerenciador de login:"
+msgstr "登录管理器："

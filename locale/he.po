@@ -444,3 +444,12 @@ msgstr "אימות חיבור לאינטרנט"
 
 msgid "Desktops"
 msgstr "מחשבים שולחניים"
+
+msgid "Pacotes para instalar:"
+msgstr "חבילות להתקנה:"
+
+msgid "Pacotes para remover:"
+msgstr "חבילות להסרה:"
+
+msgid "Gerenciador de login:"
+msgstr "מנהל התחברות:"
