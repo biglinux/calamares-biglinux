@@ -41,7 +41,7 @@ done
 sudo pacman -Sy 
 if [ "$?" = "1" ];then
     windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
-    zenity --attach="$windowID" --error --width=300 --title="Internet" --text $"Sem conexão com a Internet..."
+    zenity --attach="$windowID" --error --width=300 --title=$"Internet" --text $"Sem conexão com a Internet..."
     sudo killall python3
     killall zenity
     exit 1
@@ -50,13 +50,13 @@ else
 fi
 
 #verificar conexão com internet
-echo "Verificando conexão com a Internet"
+echo $"Verificando conexão com a Internet"
 windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
 zenity --attach="$windowID" --width=300 --progress --title=$"Aguarde..." --pulsate --no-cancel --auto-close --text $"Verificando conexão com a Internet..." &
 sudo pacman -Sy 
 if [ "$?" = "1" ];then
     windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
-    zenity --attach="$windowID" --error --width=300 --title="Internet" --text $"Sem conexão com a Internet..."
+    zenity --attach="$windowID" --error --width=300 --title=$"Internet" --text $"Sem conexão com a Internet..."
     sudo killall python3
     killall zenity
     exit 1
@@ -104,7 +104,7 @@ fi
 
 #atualizar os pacotes dos desktops community
 windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
-for i in $(pacman -Q | awk '{print $1}' | grep biglinux-calamares); do sudo pacman -S $i calamares-biglinux --noconfirm --needed; done | zenity --attach="$windowID" --width=300 --progress --title="Desktops" --pulsate --no-cancel --auto-close --text $"Atualizando lista de Interfaces..."
+for i in $(pacman -Q | awk '{print $1}' | grep biglinux-calamares); do sudo pacman -S $i calamares-biglinux --noconfirm --needed; done | zenity --attach="$windowID" --width=300 --progress --title=$"Desktops" --pulsate --no-cancel --auto-close --text $"Atualizando lista de Interfaces..."
 cat << EOF
 </div>
 EOF
