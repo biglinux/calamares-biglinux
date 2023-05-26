@@ -449,3 +449,12 @@ msgid ""
 msgstr ""
 "Δεν υπάρχει σύνδεση στο Internet...\\n"
 "Η εγκατάσταση επιπλέον πακέτων είναι απενεργοποιημένη."
+
+msgid "Internet"
+msgstr "Διαδίκτυο"
+
+msgid "Verificando conexão com a Internet"
+msgstr "Επαλήθευση σύνδεσης στο Internet"
+
+msgid "Desktops"
+msgstr "Επιφάνειες εργασίας"

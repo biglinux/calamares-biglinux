@@ -443,3 +443,12 @@ msgid ""
 msgstr ""
 "Няма интернет връзка...\\n"
 "Инсталирането на допълнителни пакети е деактивирано."
+
+msgid "Internet"
+msgstr "Интернет"
+
+msgid "Verificando conexão com a Internet"
+msgstr "Проверка на интернет връзката"
+
+msgid "Desktops"
+msgstr "Настолни компютри"

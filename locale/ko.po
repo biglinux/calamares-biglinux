@@ -426,3 +426,12 @@ msgid ""
 msgstr ""
 "인터넷에 연결되어 있지 않습니다...\\n"
 "추가 패키지 설치가 비활성화되었습니다."
+
+msgid "Internet"
+msgstr "인터넷"
+
+msgid "Verificando conexão com a Internet"
+msgstr "인터넷 연결 확인"
+
+msgid "Desktops"
+msgstr "데스크톱"

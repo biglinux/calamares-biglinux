@@ -428,3 +428,12 @@ msgid ""
 msgstr ""
 "インターネット接続がありません...\\n"
 "追加パッケージのインストールは無効です。"
+
+msgid "Internet"
+msgstr "インターネット"
+
+msgid "Verificando conexão com a Internet"
+msgstr "インターネット接続の確認"
+
+msgid "Desktops"
+msgstr "デスクトップ"

@@ -447,3 +447,12 @@ msgid ""
 msgstr ""
 "Geen internetverbinding...\\n"
 "Installatie van extra pakketten uitgeschakeld."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Verificando conexão com a Internet"
+msgstr "Internetverbinding controleren"
+
+msgid "Desktops"
+msgstr "Desktops"

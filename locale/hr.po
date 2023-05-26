@@ -443,3 +443,12 @@ msgid ""
 msgstr ""
 "Nema internetske veze...\\n"
 "Instalacija dodatnih paketa je onemogućena."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Verificando conexão com a Internet"
+msgstr "Provjera internetske veze"
+
+msgid "Desktops"
+msgstr "Stolna računala"

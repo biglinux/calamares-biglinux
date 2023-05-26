@@ -435,3 +435,12 @@ msgid ""
 msgstr ""
 "אין חיבור לאינטרנט...\\n"
 "התקנה של חבילות נוספות מושבתות."
+
+msgid "Internet"
+msgstr "אינטרנט"
+
+msgid "Verificando conexão com a Internet"
+msgstr "אימות חיבור לאינטרנט"
+
+msgid "Desktops"
+msgstr "מחשבים שולחניים"

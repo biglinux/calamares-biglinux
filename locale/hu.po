@@ -443,3 +443,12 @@ msgid ""
 msgstr ""
 "Nincs internetkapcsolat...\\n"
 "Az extra csomagok telepítése le van tiltva."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Verificando conexão com a Internet"
+msgstr "Internetkapcsolat ellenőrzése"
+
+msgid "Desktops"
+msgstr "Asztali"

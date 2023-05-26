@@ -448,3 +448,12 @@ msgid ""
 msgstr ""
 "Pas de connexion Internet...\\n"
 "Installation de paquets supplémentaires désactivée."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Verificando conexão com a Internet"
+msgstr "Vérification de la connexion Internet"
+
+msgid "Desktops"
+msgstr "Bureaux"

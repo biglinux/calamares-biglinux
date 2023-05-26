@@ -444,3 +444,12 @@ msgid ""
 msgstr ""
 "Brak połączenia z Internetem...\\n"
 "Instalacja dodatkowych pakietów wyłączona."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Verificando conexão com a Internet"
+msgstr "Weryfikowanie połączenia internetowego"
+
+msgid "Desktops"
+msgstr "Pulpitów"

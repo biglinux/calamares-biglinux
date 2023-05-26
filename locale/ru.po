@@ -444,3 +444,12 @@ msgid ""
 msgstr ""
 "Нет подключения к Интернету...\\n"
 "Установка дополнительных пакетов отключена."
+
+msgid "Internet"
+msgstr "Интернет"
+
+msgid "Verificando conexão com a Internet"
+msgstr "Проверка подключения к Интернету"
+
+msgid "Desktops"
+msgstr "Настольных компьютеров"

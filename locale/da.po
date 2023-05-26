@@ -444,3 +444,12 @@ msgid ""
 msgstr ""
 "Ingen internetforbindelse...\\n"
 "Installation af ekstra pakker deaktiveret."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Verificando conexão com a Internet"
+msgstr "Bekræftelse af internetforbindelse"
+
+msgid "Desktops"
+msgstr "Desktops"

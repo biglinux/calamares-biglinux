@@ -424,3 +424,12 @@ msgid ""
 msgstr ""
 "没有互联网连接...\\n"
 "已禁用额外软件包的安装。"
+
+msgid "Internet"
+msgstr "互联网"
+
+msgid "Verificando conexão com a Internet"
+msgstr "验证互联网连接"
+
+msgid "Desktops"
+msgstr "桌面"

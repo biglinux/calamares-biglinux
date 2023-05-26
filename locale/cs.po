@@ -440,3 +440,12 @@ msgid ""
 msgstr ""
 "Žádné připojení k internetu...\\n"
 "Instalace extra balíčků zakázána."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Verificando conexão com a Internet"
+msgstr "Ověření připojení k Internetu"
+
+msgid "Desktops"
+msgstr "Plochy"

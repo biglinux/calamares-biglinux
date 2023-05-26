@@ -441,3 +441,12 @@ msgid ""
 msgstr ""
 "Ei Internet-yhteyttä...\\n"
 "Ylimääräisten pakettien asennus poistettu käytöstä."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Verificando conexão com a Internet"
+msgstr "Internet-yhteyden tarkistaminen"
+
+msgid "Desktops"
+msgstr "Työpöytiä"

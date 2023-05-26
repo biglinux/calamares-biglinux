@@ -363,3 +363,12 @@ msgstr  ""
 #
 msgid   "Sem conexão com a Internet...\\nInstalação de pacotes extras desativada."
 msgstr  ""
+#
+msgid   "Internet"
+msgstr  ""
+#
+msgid   "Verificando conexão com a Internet"
+msgstr  ""
+#
+msgid   "Desktops"
+msgstr  ""

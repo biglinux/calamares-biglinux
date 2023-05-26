@@ -446,3 +446,12 @@ msgid ""
 msgstr ""
 "Немає підключення до Інтернету...\\n"
 "Встановлення додаткових пакетів відключено."
+
+msgid "Internet"
+msgstr "Інтернет"
+
+msgid "Verificando conexão com a Internet"
+msgstr "Перевірка підключення до Інтернету"
+
+msgid "Desktops"
+msgstr "Настільні комп'ютери"

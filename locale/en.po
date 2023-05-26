@@ -438,3 +438,12 @@ msgid ""
 msgstr ""
 "No Internet connection...\\n"
 "Installation of extra packages disabled."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Verificando conexão com a Internet"
+msgstr "Verifying Internet Connection"
+
+msgid "Desktops"
+msgstr "Desktops"

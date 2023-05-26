@@ -445,3 +445,12 @@ msgid ""
 msgstr ""
 "Nici o conexiune la Internet...\\n"
 "Instalarea pachetelor suplimentare dezactivată."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Verificando conexão com a Internet"
+msgstr "Verificarea conexiunii la Internet"
+
+msgid "Desktops"
+msgstr "Desktopuri"

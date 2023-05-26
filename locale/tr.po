@@ -445,3 +445,12 @@ msgid ""
 msgstr ""
 "İnternet bağlantısı yok...\\n"
 "Ek paketlerin yüklenmesi devre dışı."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Verificando conexão com a Internet"
+msgstr "İnternet Bağlantısını Doğrulama"
+
+msgid "Desktops"
+msgstr "Masaüstü"

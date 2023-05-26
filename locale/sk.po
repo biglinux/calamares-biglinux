@@ -443,3 +443,12 @@ msgid ""
 msgstr ""
 "Žiadne internetové pripojenie...\\n"
 "Inštalácia ďalších balíkov je vypnutá."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Verificando conexão com a Internet"
+msgstr "Overenie internetového pripojenia"
+
+msgid "Desktops"
+msgstr "Stolné počítače"

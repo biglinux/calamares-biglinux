@@ -446,3 +446,12 @@ msgid ""
 msgstr ""
 "Ingen Internetanslutning...\\n"
 "Installation av extra paket inaktiverad."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Verificando conexão com a Internet"
+msgstr "Verifiera Internetanslutning"
+
+msgid "Desktops"
+msgstr "Stationära datorer"

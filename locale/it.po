@@ -450,3 +450,12 @@ msgid ""
 msgstr ""
 "Nessuna connessione Internet...\\n"
 "Installazione di pacchetti aggiuntivi disabilitata."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Verificando conexão com a Internet"
+msgstr "Verifica della connessione Internet"
+
+msgid "Desktops"
+msgstr "Desktop"
