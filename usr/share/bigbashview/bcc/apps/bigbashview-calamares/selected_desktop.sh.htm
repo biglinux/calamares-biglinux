@@ -31,6 +31,9 @@ DEFAULT_OR_CUSTOM_TITLE_DESC=$"Em caso de dúvidas faça a instalação padrão,
 BACK_DEFAULT=$"VOLTAR"
 SELECT=$"SELECIONAR"
 CUSTOM_PKGS=$"Personalizar a instalação:"
+INSTALLPACKAGES=$"Pacotes para instalar:"
+REMOVEPACKAGES=$"Pacotes para remover:"
+LOGINMANAGER=$"Gerenciador de login:"
 
 cat << EOF
 <head>
@@ -88,7 +91,7 @@ cat << EOF
     <tr>
       <td>
         <div class=desktop_content>
-          <h3 class="calamares-big-header">Pacotes para instalar:</h3>
+          <h3 class="calamares-big-header">$INSTALLPACKAGES</h3>
 
 EOF
 echo '<br><textarea id="install_packages" name="install_packages">'
@@ -101,7 +104,7 @@ cat << EOF
       <td>
       
         <div class=desktop_content>
-          <h3 class="calamares-big-header">Pacotes para remover:</h3>
+          <h3 class="calamares-big-header">$REMOVEPACKAGES</h3>
 EOF
 echo '<br><textarea id="remove_packages" name="remove_packages">'
 cat desktops/${desktop_selected}/pkgremove.txt
@@ -115,7 +118,7 @@ cat << EOF
   
 
   <div class=desktop_content>
-  <h3 class="calamares-big-header">Gerenciador de login:</h3>
+  <h3 class="calamares-big-header">$LOGINMANAGER</h3>
 EOF
 echo '<input type="text" id="login_manager" name="login_manager" value="'$(cat desktops/${desktop_selected}/login.txt)'"></div>'
 cat << EOF
