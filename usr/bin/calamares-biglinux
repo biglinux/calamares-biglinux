@@ -47,10 +47,11 @@ ruscherrelease=$(cat /etc/big-release | grep RELEASE | awk -F'=' '{print $2}')
 ruschertimestamp=$(cat /etc/big-release | grep TIMESTAMP | awk -F'=' '{print $2}')
 
 # Default Shell in stable
-userShell="/bin/bash"
+# userShell="/bin/bash"
+userShell="/bin/zsh"
 if [ -n "$(cat /etc/big-release | grep development)" ];then
     # Default Shell in testing
-    userShell="/bin/zsh"
+#     userShell="/bin/zsh"
     if [ -z "$(curl -s https://raw.githubusercontent.com/BigLinux-Package-Build/big-releases/main/testing | grep $ruscherrelease | grep -v "#")" ]; then
         echo "ISO invalida"
         yad --attach="$windowID" --image=emblem-warning --image-on-top --form --width=500 --height=100 --fixed \
