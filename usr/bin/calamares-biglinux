@@ -414,11 +414,13 @@ if [ "$(grep -w completion /root/.cache/calamares/session.log | grep -v bash-com
     chown $user:$user /home/$user/calamares.log
     
     send () {
-    sudo -u $user curl --upload-file "/home/$user/calamares.log" https://transfer.sh | tee "/home/$user/transfer.url"  | zenity --modal --progress --pulsate --no-cancel --auto-close --text $"Enviando, aguarde..."
+    #sudo -u $user curl --upload-file "/home/$user/calamares.log" https://transfer.sh | tee "/home/$user/transfer.url"  | zenity --modal --progress --pulsate --no-cancel --auto-close --text $"Enviando, aguarde..."
+    sudo -u $user curl -data-binary -H "filename: /home/$user/calamares.log" https://filebin.net | tee "/home/$user/transfer.url"  | zenity --modal --progress --pulsate --no-cancel --auto-close --text $"Enviando, aguarde..."
+    
     if [ -f /usr/bin/falkon ];then
-      sudo -u $user falkon $(cat "/home/$user/transfer.url")
+      sudo -u $user falkon https://filebin.net/$(cat "/home/$user/transfer.url" | grep '"id": "' | cut -f4 -d'"')
     elif [ -f /usr/bin/brave ];then
-      sudo -u $user brave-browser --new-window --no-sandbox $(cat "/home/$user/transfer.url")
+      sudo -u $user brave-browser --new-window --no-sandbox https://filebin.net/$(cat "/home/$user/transfer.url" | grep '"id": "' | cut -f4 -d'"')
     fi
     } 
 
