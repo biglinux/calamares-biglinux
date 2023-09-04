@@ -34,6 +34,7 @@
     - cinelerra-gg
     - aegisub
     - obs-studio
+    - gyroflow-bin
 
 - name: "Audio"
   #description: "Instalação do Meta Desktop UaiSO"
