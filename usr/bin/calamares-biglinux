@@ -403,7 +403,8 @@ QT_QUICK_BACKEND=software QMLSCENE_DEVICE=softwarecontext QTWEBENGINE_CHROMIUM_F
 
 # Start calamares
 if [ -e "/tmp/start_calamares" ]; then
-    sudo QT_QUICK_BACKEND=software QSG_RENDER_LOOP=basic QT_XCB_GL_INTEGRATION=none /usr/bin/calamares-manjaro -d --platformtheme breeze
+    sudo cp -f /usr/share/biglinux/themes/biglinux/.config/kdeglobals /root/.config/kdeglobals
+    sudo QT_QUICK_BACKEND=software QSG_RENDER_LOOP=basic QT_XCB_GL_INTEGRATION=none /usr/bin/calamares-manjaro -d
 fi
 
 #Calamares failed to install
