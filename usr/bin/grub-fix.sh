@@ -13,16 +13,21 @@ sed -i 's|GRUB_SAVEDEFAULT=true|GRUB_SAVEDEFAULT=false|g;s|quiet quiet|quiet|g' 
 
 #remove multiples splash
 while [ "$(grep -o '[^[:space:]]*splash[^[:space:]]*' $* | sed 's/\"//' | wc -w)" -gt "1" ];do
-    sed -i 's/ splash//' $*kk
+    sed -i 's/ splash//' $*
 done
 #remove multiples quiet
 while [ "$(grep -o '[^[:space:]]*quiet[^[:space:]]*' $* | sed 's/\"//' | wc -w)" -gt "1" ];do
     sed -i 's/ quiet//' $*
 done
 
-# use compress-force=zstd:5 in /git 
-inux-x11.desktop|g" $(echo "$*" | sed 's|etc/default/grub|etc/sddm.conf|g')
+#Change default desktop in sddm to use in livecd
+echo "[Last]
+Session=/usr/share/xsessions/plasma-biglinux-x11.desktop" > $(echo "$*" | sed 's|etc/default/grub|var/lib/sddm/state.conf|g')
 
+sed -i "s|Session=plasma.desktop|Session=plasma-biglinux-x11.desktop|g" $(echo "$*" | sed 's|etc/default/grub|etc/sddm.conf|g')
+
+# use compress-force=zstd:5 in /git 
+sed -i 's|subvol=/@,defaults,noatime,compress=zstd|subvol=/@,defaults,noatime,compress-force=zstd:5|g' $(echo "$*" | sed 's|etc/default/grub|/etc/fstab|g')
 
 # Save default KDE configuration
 
