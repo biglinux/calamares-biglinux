@@ -116,10 +116,10 @@ requirements:
       - root' > /etc/calamares/modules/welcome.conf
 
 # Force btrfs compression using zstd
-sed -i 's|mount_option,|mount_option, "compress-force=zstd",|g' /usr/lib/calamares/modules/mount/main.py
+sed -i 's|mount_option,|mount_option, "compress-force=zstd:9",|g' /usr/lib/calamares/modules/mount/main.py
 
 # btrfs: defaults,noatime,autodefrag,compress=zstd
-sed -i 's|btrfs: defaults|btrfs: defaults,noatime,compress-force=zstd|g' /usr/share/calamares/modules/fstab.conf
+sed -i 's|btrfs: defaults|btrfs: defaults,noatime,compress=zstd|g' /usr/share/calamares/modules/fstab.conf
 sed -i 's|btrfs: discard=async,ssd|#btrfs: discard=async,ssd|g' /usr/share/calamares/modules/fstab.conf
 sed -i 's|ssdExtraMountOptions:|#ssdExtraMountOptions:|g' /usr/share/calamares/modules/fstab.conf
 
