@@ -464,3 +464,6 @@ msgstr "Paquetes para eliminar:"
 
 msgid "Gerenciador de login:"
 msgstr "Administrador de inicio de sesión:"
+
+msgid "BTRFS"
+msgstr "BTRFS"

@@ -458,3 +458,6 @@ msgstr "Eemaldatavad paketid:"
 
 msgid "Gerenciador de login:"
 msgstr "Sisselogimise haldur:"
+
+msgid "BTRFS"
+msgstr "BTRFS"

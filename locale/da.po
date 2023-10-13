@@ -462,3 +462,6 @@ msgstr "Pakker, der skal fjernes:"
 
 msgid "Gerenciador de login:"
 msgstr "Login Manager:"
+
+msgid "BTRFS"
+msgstr "BTRFS"

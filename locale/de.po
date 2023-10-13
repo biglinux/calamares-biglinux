@@ -467,3 +467,6 @@ msgstr "Zu entfernende Pakete:"
 
 msgid "Gerenciador de login:"
 msgstr "Login-Manager:"
+
+msgid "BTRFS"
+msgstr "BTRFS"

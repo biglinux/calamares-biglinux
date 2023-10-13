@@ -444,3 +444,6 @@ msgstr "제거할 패키지:"
 
 msgid "Gerenciador de login:"
 msgstr "로그인 관리자:"
+
+msgid "BTRFS"
+msgstr "증권 시세 표시기"

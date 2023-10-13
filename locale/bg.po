@@ -461,3 +461,6 @@ msgstr "Пакети за премахване:"
 
 msgid "Gerenciador de login:"
 msgstr "Мениджър на входа:"
+
+msgid "BTRFS"
+msgstr "БТРФС"

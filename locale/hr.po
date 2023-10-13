@@ -461,3 +461,6 @@ msgstr "Paketi za uklanjanje:"
 
 msgid "Gerenciador de login:"
 msgstr "Upravitelj prijave:"
+
+msgid "BTRFS"
+msgstr "BTRFS"

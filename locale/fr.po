@@ -466,3 +466,6 @@ msgstr "Paquets à supprimer :"
 
 msgid "Gerenciador de login:"
 msgstr "Gestionnaire de connexion :"
+
+msgid "BTRFS"
+msgstr "Le"

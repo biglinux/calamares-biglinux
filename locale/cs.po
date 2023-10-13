@@ -458,3 +458,6 @@ msgstr "Balíčky k odstranění:"
 
 msgid "Gerenciador de login:"
 msgstr "Správce přihlášení:"
+
+msgid "BTRFS"
+msgstr "BTRFS"

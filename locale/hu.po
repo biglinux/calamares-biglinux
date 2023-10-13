@@ -461,3 +461,6 @@ msgstr "Eltávolítandó csomagok:"
 
 msgid "Gerenciador de login:"
 msgstr "Bejelentkezéskezelő:"
+
+msgid "BTRFS"
+msgstr "BTRFS"

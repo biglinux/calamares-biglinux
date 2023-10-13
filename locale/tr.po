@@ -463,3 +463,6 @@ msgstr "Kaldırılacak paketler:"
 
 msgid "Gerenciador de login:"
 msgstr "Giriş Yöneticisi:"
+
+msgid "BTRFS"
+msgstr "BTRFS (BTRFS)"

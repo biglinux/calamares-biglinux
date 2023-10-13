@@ -465,3 +465,6 @@ msgstr "Te verwijderen pakketten:"
 
 msgid "Gerenciador de login:"
 msgstr "Inloggen manager:"
+
+msgid "BTRFS"
+msgstr "Btrfs"

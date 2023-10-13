@@ -467,3 +467,6 @@ msgstr "Πακέτα για κατάργηση:"
 
 msgid "Gerenciador de login:"
 msgstr "Διαχειριστής σύνδεσης:"
+
+msgid "BTRFS"
+msgstr "BTRFS"

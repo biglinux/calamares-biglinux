@@ -518,3 +518,7 @@ msgstr  ""
 #
 msgid   "Gerenciador de login:"
 msgstr  ""
+
+#
+msgid   "BTRFS"
+msgstr  ""

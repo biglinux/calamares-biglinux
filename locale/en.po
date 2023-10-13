@@ -456,3 +456,6 @@ msgstr "Packages to remove:"
 
 msgid "Gerenciador de login:"
 msgstr "Login Manager:"
+
+msgid "BTRFS"
+msgstr "BTRFS"

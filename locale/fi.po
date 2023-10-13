@@ -459,3 +459,6 @@ msgstr "Poistettavat paketit:"
 
 msgid "Gerenciador de login:"
 msgstr "Kirjautumisen hallinta:"
+
+msgid "BTRFS"
+msgstr "BTRFS"

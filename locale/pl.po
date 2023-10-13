@@ -462,3 +462,6 @@ msgstr "Pakiety do usunięcia:"
 
 msgid "Gerenciador de login:"
 msgstr "Menedżer logowania:"
+
+msgid "BTRFS"
+msgstr "System plików BTRFS"

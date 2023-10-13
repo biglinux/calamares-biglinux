@@ -446,3 +446,6 @@ msgstr "削除するパッケージ:"
 
 msgid "Gerenciador de login:"
 msgstr "ログインマネージャ:"
+
+msgid "BTRFS"
+msgstr "ティッカー"

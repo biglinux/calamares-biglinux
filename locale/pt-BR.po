@@ -609,3 +609,7 @@ msgstr "Pacotes para remover:"
 #
 msgid "Gerenciador de login:"
 msgstr "Gerenciador de login:"
+
+#
+msgid "BTRFS"
+msgstr "BTRFS"

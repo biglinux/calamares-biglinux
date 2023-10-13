@@ -453,3 +453,6 @@ msgstr "חבילות להסרה:"
 
 msgid "Gerenciador de login:"
 msgstr "מנהל התחברות:"
+
+msgid "BTRFS"
+msgstr "BTRFS"

@@ -442,3 +442,6 @@ msgstr "要删除的包："
 
 msgid "Gerenciador de login:"
 msgstr "登录管理器："
+
+msgid "BTRFS"
+msgstr "BTRFS"

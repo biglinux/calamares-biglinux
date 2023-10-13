@@ -464,3 +464,6 @@ msgstr "Пакети для видалення:"
 
 msgid "Gerenciador de login:"
 msgstr "Менеджер входу:"
+
+msgid "BTRFS"
+msgstr "BTRFS"

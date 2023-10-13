@@ -464,3 +464,6 @@ msgstr "Paket att ta bort:"
 
 msgid "Gerenciador de login:"
 msgstr "Logga in Manager:"
+
+msgid "BTRFS"
+msgstr "BTRFS"
