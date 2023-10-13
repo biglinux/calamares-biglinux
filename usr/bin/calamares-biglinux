@@ -115,6 +115,8 @@ requirements:
       - ram
       - root' > /etc/calamares/modules/welcome.conf
 
+sed -i 's|systemctl reboot|reboot|g' /etc/calamares/modules/finished.conf
+      
 # Force btrfs compression using zstd
 sed -i 's|mount_option,|mount_option, "compress-force=zstd:9",|g' /usr/lib/calamares/modules/mount/main.py
 
