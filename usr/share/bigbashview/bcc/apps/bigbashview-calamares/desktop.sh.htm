@@ -16,109 +16,130 @@ LANGUAGE=$LANG:en
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=calamares-biglinux
 
-DEFAULT=$"PADRÃO"
-CUSTOM=$"PERSONALIZADA"
-DEFAULT_OR_CUSTOM_TITLE=$"INSTALAÇÃO PADRÃO OU PERSONALIZADA?"
-CUSTOM_OR_MINIMAL=$"INSTALAR COM MENOS PROGRAMAS OU OUTRO DESKTOP DA BIG COMMUNITY?"
-CUSTOM_OR_MINIMAL_DESC=$"Ao instalar o sistema, você pode escolher entre instalar com menos programas ou instalar outro desktop da Big Community. Caso opte por instalar outro desktop, lembre-se que será necessário fazer o download durante a instalação e o tempo de instalação dependerá da velocidade da sua conexão com a internet."
-SECOND_CONFIRM_CUSTOM=$"REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-SECOND_CONFIRM_CUSTOM_DESC=$"Os desktops abaixo são mantidos por usuários da comunidade BigLinux e podem ter menos personalizações e testes. Você tem certeza que deseja prosseguir com a instalação deste desktop?"
-LESS_PKGS=$"MENOS PROGRAMAS"
-OTHER_DESKTOP=$"OUTRO DESKTOP"
-OTHER_DESKTOP_CONFIRM=$"CONFIRMAR"
-BACK_DEFAULT=$"VOLTAR"
-DEFAULT_OR_CUSTOM_TITLE_DESC=$"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por usuários experientes."
-SELECT=$"SELECIONAR"
+BACK=$"VOLTAR"
 
-cat << EOF
+TXT_TITLE=$"Opções avançadas"
+TXT_TITLE_DESC=$"Escolha a opção desejada"
+
+TXT_COMMUNITY=$"Big Community"
+TXT_COMMUNITY_DESC=$"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, promovendo um ambiente colaborativo inovador."
+TXT_COMMUNITY_BUTTON=$"ABRIR"
+
+TXT_MINIMAL=$"Minimal"
+TXT_MINIMAL_DESC=$"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente personalizada."
+TXT_MINIMAL_BUTTON=$"ABRIR"
+
+TXT_DEFAULT=$"Padrão"
+TXT_DEFAULT_DESC=$"Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
+TXT_DEFAULT_BUTTON=$"INSTALAR"
+
+read -d $"" ShowText << EOF
+<!DOCTYPE html>
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>$TITLE</title>
-  <script src="/usr/share/bigbashview/bcc/materialize/js/jquery.js"></script>
-  <link rel="stylesheet" href="./style.css">
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Imports -->
+    <link href="css/beer.min.css" rel="stylesheet">
+    <link href="css/biglinux.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- JS Imports -->
+    <script type="module" src="js/beer.min.js"></script>
+    <script type="module" src="js/material-dynamic-colors.min.js"></script>
 </head>
-EOF
 
-# Get body tag with color light or not
-/usr/share/bigbashview/bcc/shell/getbgcolor.sh
+<body class="dark" x-data="getItems()" x-init="loadConfig">
 
-cat << EOF
-<div class="dark-light">
-    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
-    </svg>
-</div>
-EOF
+<article class="small-blur no-padding secondary-container">
+  <nav class="padding">
+    <button class="circle transparent">
+      <img class="circle large tiny-padding" src="icon/advanced.svg">
+    </button>
+    <h6 class="medium max center-align bold">
+      $TXT_TITLE
+    </h6>
+    <a href="/execute close$">
+      <button class="circle transparent">
+        <i>close</i>
+      </button>
+    </a>
+  </nav>
 
-echo '<div class=info>'
-echo $"O sistema está em modo"
-echo '<strong>'
-[ -d /sys/firmware/efi ] && echo ' UEFI' || echo ' BIOS (Legacy)'
-echo '</strong>'
-echo $"e com o kernel" 
-echo '<strong>'
-echo "$(uname -r | cut -f1 -d-)" 
-echo '</strong>'
-echo '</div>'
+  <h5 class="center-align small">$TXT_TITLE_DESC</h5>
 
-cat << EOF
-
-  <div class="container"> 
-    <div class="panel calamares-big-table"> 
-      <div class="calamares-big-plan" id=customSystem>
-        <img src="icon-big-hd-install.svg" alt="Install" class="calamares-big-img" style="width: 100px;">
-        <h3 class="calamares-big-header">$DEFAULT_OR_CUSTOM_TITLE</h3>
-        <div class="p">
-        
-        <div class="container-community">$DEFAULT_OR_CUSTOM_TITLE_DESC</div>
-        
+  <div class="grid padding">
+    <div class="s12 l4">
+      <div class="fill medium-height middle-align center-align">
+        <div class="center-align small-padding">
+          <img class="extend square round extra" src="https://www.biglinux.com.br/wp-content/uploads/2023/03/big-community.png">
+          <h5 class="center-align">$TXT_COMMUNITY</h5>
+          <p>$TXT_COMMUNITY_DESC</p>
+          <div class="space"></div>
+          <nav class="center-align">
+            <button class="border tertiary" onclick="window.location.href='other_desktop.sh.htm?option=$option';">
+              <i>done</i>
+              <span>$TXT_COMMUNITY_BUTTON</span>
+            </button>
+          </nav>
         </div>
-        <div class="p"> </div>
-        <a href="wait.sh.htm?option=$option" class="calamares-big-button is-featured">$DEFAULT</a>
-        <a href="#" onclick="customInstall()" class="calamares-big-button">$CUSTOM</a>
       </div>
+    </div>        
 
-     
-      <div class="calamares-big-plan" id=confirm hidden>
-        <img src="icon-big-hd-install.svg" alt="Install" class="calamares-big-img" style="width: 100px;">
-        <h3 class="calamares-big-header">$CUSTOM_OR_MINIMAL</h3>
-        <div class="p">
-          <div class="container-community">$CUSTOM_OR_MINIMAL_DESC</div>
+    <div class="s12 l4">
+      <div class="fill medium-height middle-align center-align">
+        <div class="center-align small-padding">
+          <img class="extend square round extra" src="https://www.biglinux.com.br/wp-content/uploads/2023/10/icon-big-hd-install-1.png">
+          <h5 class="center-align">$TXT_DEFAULT</h5>
+          <p>$TXT_DEFAULT_DESC</p>
+          <div class="space"></div>
+          <nav class="center-align">
+            <button class="border tertiary" onclick="window.location.href='wait.sh.htm?option=$option';">
+              <i>done</i>
+              <span>$TXT_DEFAULT_BUTTON</span>
+            </button>
+          </nav>
         </div>
-        <div class="p"> </div>
-        <a href="#" onclick="customInstallConfirm()" class="calamares-big-button">$OTHER_DESKTOP</a>
-        <a href="less_pkgs.sh.htm?option=$option" class="calamares-big-button is-featured">$LESS_PKGS</a>        
       </div>
-      
-      
-      <div class="calamares-big-plan" id=installConfirm hidden>
-        <img src="big-community.svg" alt="Install" class="calamares-big-img" style="width: 100px;">
-        <h3 class="calamares-big-header"><font color=mediumorchid style="font-size: 40px;">BIG COMMUNITY</font></h3>
-        <div class="p">
-        
-        <div class="container-community">$SECOND_CONFIRM_CUSTOM_DESC</div>
-        
-        </div>
-        <br>
-        <div class="p"> </div>
-        <a href="other_desktop.sh.htm?option=$option" class="calamares-big-button">$OTHER_DESKTOP_CONFIRM</a>
-        <a href="#" onclick="confirmNo()" class="calamares-big-button is-featured">$BACK_DEFAULT</a>
-      </div>
-      
-    <div class="calamares-big-plan" id="confirm" hidden>
-      <button class="warning" onclick="confirmYes()">Yes</button>
-      <button onclick="confirmNo()">No</button>  
     </div>
-      
-    </div>
-  </div>
 
-  <div class="logo">
-      <img id="btn-big" src="logo.svg" class="logo-biglinux">
+    <div class="s12 l4">
+      <div class="fill medium-height middle-align center-align">
+        <div class="center-align small-padding">
+          <img class="extend square round extra" src="https://www.biglinux.com.br/wp-content/uploads/2023/10/icon-big-hd-install-1.png">
+          <h5 class="center-align">$TXT_MINIMAL</h5>
+          <p>$TXT_MINIMAL_DESC</p>
+          <div class="space"></div>
+          <nav class="center-align">
+            <button class="border tertiary" onclick="window.location.href='less_pkgs.sh.htm?option=$option';">
+              <i>done</i>
+              <span>$TXT_MINIMAL_BUTTON</span>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </div>           
+    
+
   </div>
   
-<script  src="./script.js"></script>
+  <nav class="center-align padding">
+    <button class="no-border tertiary" onclick="window.location.href='file-system.sh.htm';">
+      <i>arrow_circle_left</i>
+      <span>$BACK</span>
+    </button>
+  </nav>
 
-</body>
-</html>
+  <label class="switch icon large-margin absolute bottom right">
+    <a class="circle small secondary" onclick="ui('mode', ui('mode') == 'dark' ? 'light' : 'dark')"><i>dark_mode</i></a>
+  </label>
+</article>
+<div class="overlay center-align middle-align" id="overlay"></div>
+</article>  
+  <script type="module" src="js/beer.min.js"></script>
+</body>  
 EOF
+echo "$ShowText"

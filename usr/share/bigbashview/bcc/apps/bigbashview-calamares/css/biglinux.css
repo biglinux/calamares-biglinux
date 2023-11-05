@@ -1,0 +1,112 @@
+:root,
+body.light {
+  --primary:#6289ec;
+  --on-primary:#ffffff;
+  --primary-container:#cae6ff;
+  --on-primary-container:#001e30;
+  --secondary:#f7f7f7;
+  --on-secondary:#3c3a3a;
+  --secondary-container:#d4d5d7;
+  --secondary-container:rgb(212 213 215 / 0.7);
+  --tertiary:#3a6df0;
+  --on-tertiary:#fff;
+  --tertiary-container:#ebddff;
+  --on-tertiary-container:#201634;
+  --error:#ba1a1a;
+  --on-error:#ffffff;
+  --error-container:#ffdad6;
+  --on-error-container:#410002;
+  --background:#fcfcff;
+  --on-background:#3c3a3a;
+  --surface:#d4d5d7;
+  --on-surface:#1a1c1e;
+  --surface-variant:#c3c5c7;
+  --on-surface-variant:#41474d;
+  --outline:#72787e;
+  --outline-variant:#c1c7ce;
+  --shadow:#000000;
+  --scrim:#000000;
+  --inverse-surface:#2e3133;
+  --inverse-on-surface:#f0f0f3;
+  --inverse-primary:#8dcdff;
+  --surface-dim:#d9dadd;
+  --surface-bright:#f9f9fc;
+  --surface-container-lowest:#ffffff;
+  --surface-container-low:#f3f3f6;
+  --surface-container:#edeef1;
+  --surface-container-high:#e8e8eb;
+  --surface-container-highest:#e2e2e5;
+  --overlay: rgb(0 0 0 /0.5);
+  --active: rgb(0 0 0 / 0.1);
+  --elevate1: 0 0.125rem 0.125rem 0 rgb(0 0 0 / 0.32);
+  --elevate2: 0 0.25rem 0.5rem 0 rgb(0 0 0 / 0.4);
+  --elevate3: 0 0.375rem 0.75rem 0 rgb(0 0 0 / 0.48);
+  --body: transparent;
+}
+
+body.dark {
+  --primary:#304065;
+  --on-primary:#00344f;
+  --primary-container:#004b70;
+  --on-primary-container:#cae6ff;
+  --secondary:#21242d;
+  --on-secondary:#ffce45;
+  --secondary-container:rgb(47 51 62 / 0.7);
+  --on-secondary-container:#fff;
+  --tertiary:#3a6df0;
+  --on-tertiary:#fff;
+  --tertiary-container:#4d4162;
+  --on-tertiary-container:#ebddff;
+  --error:#ffb4ab;
+  --on-error:#690005;
+  --error-container:#93000a;
+  --on-error-container:#ffb4ab;
+  --background:#1a1c1e;
+  --on-background:#e2e2e5;
+  --surface:#2f333e;
+  --on-surface:#e2e2e5;
+  --surface-variant:#272b38;
+  --on-surface-variant:#c1c7ce;
+  --outline:#8b9198;
+  --outline-variant:#41474d;
+  --shadow:#000000;
+  --scrim:#000000;
+  --inverse-surface:#e2e2e5;
+  --inverse-on-surface:#2e3133;
+  --inverse-primary:#006493;
+  --surface-dim:#111416;
+  --surface-bright:#37393c;
+  --surface-container-lowest:#0c0e11;
+  --surface-container-low:#1a1c1e;
+  --surface-container:#1e2022;
+  --surface-container-high:#282a2d;
+  --surface-container-highest:#333537;
+  --overlay: rgb(0 0 0 / 0.5);
+  --active: rgb(255 255 255 / 0.2);
+  --elevate1: 0 0.125rem 0.125rem 0 rgb(0 0 0 / 0.32);
+  --elevate2: 0 0.25rem 0.5rem 0 rgb(0 0 0 / 0.4);
+  --elevate3: 0 0.375rem 0.75rem 0 rgb(0 0 0 / 0.48);
+  --body: transparent;
+}
+
+
+/* SCROLL BARRA DE ROLAGEM */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
+  background: transparent;
+  &:hover {
+    background: transparent;
+  }
+}
+
+::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+  background: var(--tertiary);
+  border-radius: 10px;
+  &:hover {
+    background: transparent;
+  }
+}
+/* FIM SCROLL BARRA DE ROLAGEM */

@@ -15,103 +15,124 @@ LANGUAGE=$LANG:en
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=calamares-biglinux
 
-SELECT_TO_REMOVE=$"QUAIS PACOTES DESEJA REMOVER?"
-DEFAULT=$"PADRÃO"
-CUSTOM=$"PERSONALIZADA"
-DEFAULT_OR_CUSTOM_TITLE=$"ESCOLHA O DESKTOP"
-CUSTOM_OR_MINIMAL=$"INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
-CUSTOM_OR_MINIMAL_DESC=$"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de instalação vai depender da velocidade da internet."
-SECOND_CONFIRM_CUSTOM=$"REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
-SECOND_CONFIRM_CUSTOM_DESC=$"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente prosseguir?"
-LESS_PKGS=$"MENOS PROGRAMAS"
-OTHER_DESKTOP=$"OUTROS DESKTOPS"
-OTHER_DESKTOP_CONFIRM=$"UTILIZAR REALMENTE OUTRO DESKTOP"
-DEFAULT_OR_CUSTOM_TITLE_DESC=$"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por usuários experientes."
-BACK_DEFAULT=$"VOLTAR"
-SELECT=$"SELECIONAR"
+BACK=$"VOLTAR"
 SELECT_ALL=$"SELECIONAR TODOS"
 SELECT_NONE=$"DESMARCAR TODOS"
-CONFIRM_AND_INSTALL=$"CONFIRMAR"
 
+TXT_TITLE=$"Instalação Minimal"
+TXT_TITLE_DESC=$"Quais pacotes deseja instalar?"
 
-cat << EOF
+read -d $"" ShowText << EOF
+<!DOCTYPE html>
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>$TITLE</title>
-  <script src="/usr/share/bigbashview/bcc/materialize/js/jquery.js"></script>
-  <link rel="stylesheet" href="./style.css">
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Imports -->
+    <link href="css/beer.min.css" rel="stylesheet">
+    <link href="css/biglinux.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- JS Imports -->
+    <script type="module" src="js/beer.min.js"></script>
+    <script type="module" src="js/material-dynamic-colors.min.js"></script>
 </head>
-EOF
 
-# Get body tag with color light or not
-/usr/share/bigbashview/bcc/shell/getbgcolor.sh
+<body class="dark" x-data="getItems()" x-init="loadConfig">
 
-cat << EOF
-<div class="dark-light">
-    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
-    </svg>
-</div>
-EOF
+<article class="small-blur no-padding secondary-container">
+  <nav class="padding">
+    <button class="circle transparent">
+      <img class="circle large tiny-padding" src="icon/advanced.svg">
+    </button>
+    <h6 class="medium max center-align bold">
+      $TXT_TITLE
+    </h6>
+    <a href="/execute close$">
+      <button class="circle transparent">
+        <i>close</i>
+      </button>
+    </a>
+  </nav>
+  <h5 class="center-align small">$TXT_TITLE_DESC</h5>
+  <form action=wait.sh.htm>
+  <input type="hidden" id="less_pkgs" name="less_pkgs" value="yes">
+  <input type="hidden" id="option" name="option" value="$option">
 
-echo '<div class=info>'
-echo $"O sistema está em modo"
-echo '<strong>'
-[ -d /sys/firmware/efi ] && echo ' UEFI' || echo ' BIOS (Legacy)'
-echo '</strong>'
-echo $"e com o kernel" 
-echo '<strong>'
-echo "$(uname -r | cut -f1 -d-)" 
-echo '</strong>'
-echo '</div>'
-
-cat << EOF
-
-  <div class="container" style="display: grid;"> 
-    <div class="panel calamares-big-table"> 
-      <div class="calamares-big-plan" id=customSystem>
-        <img src="icon-big-hd-install.svg" alt="Install" class="calamares-big-img" style="width: 100px;">
-        <h3 class="calamares-big-header">$SELECT_TO_REMOVE</h3>
-        <div class="p"></div>
-
-        <form action=wait.sh.htm>
-        <input type="hidden" id="less_pkgs" name="less_pkgs" value="yes">
-        <input type="hidden" id="option" name="option" value="$option">
- 
-        <input  class="calamares-big-button" type="button" onclick='selects()' value="$SELECT_ALL"/>  
-        <input  class="calamares-big-button" type="button" onclick='deSelect()' value="$SELECT_NONE"/>  
+  <nav class="center-align padding">
+    <button class="no-border tertiary" type="button" onclick='selects()' value="$SELECT_ALL">
+      <i>check_box</i>
+      <span>$SELECT_ALL</span>
+    </button>
     
-        <h4 style="text-align: center;"></h4>     
-        <div id=checkbox_list class="biglinux-card">
-          <ul style="padding-left: 20%;">
+    <button class="no-border tertiary" type="button" onclick='deSelect()' value="$SELECT_NONE"">
+      <i>check_box_outline_blank</i>
+      <span>$SELECT_NONE</span>
+    </button>      
+  </nav>  
+  
+  
+  <div class="grid large-padding"> 
 EOF
+echo "$ShowText"
         
 for pkg_to_remove  in $(cat list_pkgs_remove.txt); do
 
   pacman -Q $pkg_to_remove &> /dev/null
 
   if [ "$?" = "0" ]; then
-  
-    echo "<li><input class=\"switch\" type=\"checkbox\" name=\"pkg_rm\" value=\"$pkg_to_remove\" id=\"$pkg_to_remove\"> <label for=\"$pkg_to_remove\">$pkg_to_remove</label></li>"
+read -d $"" ShowText << EOF
+    <div class="s12 l4">  
+      <article>
+        <div class="field">
+          <nav class="no-padding">
+            <img class="circle large" src="/usr/share/icons/biglinux-icons-material/scalable/apps/$pkg_to_remove.svg">
+            <div class="max">
+              <h6 class="small">$pkg_to_remove</h6>
+            </div>
+            <label class="switch icon">
+              <input type="checkbox" name="pkg_rm" value="$pkg_to_remove" id="$pkg_to_remove">
+              <span>
+                <i>enable</i>
+              </span>
+            </label>
+          </nav>
+        </div>
+      </article>
+    </div>  
+EOF
+echo "$ShowText"  
+
   fi
   
 done
-
-cat << EOF
-          </ul>
-        </div>
-        
-        <div class="p"></div>
-      
-        <input type="submit" class="calamares-big-button is-featured" style="font-size: 16px; font-family: Lato, sans-serif;" value="$CONFIRM_AND_INSTALL"> <a href="desktop.sh.htm?option=$option" class="calamares-big-button is-featured">$BACK_DEFAULT</a>
-
-      </div>
-    </div>
+read -d $"" ShowText << EOF
   </div>
-  <div class="logo">
-      <img id="btn-big" src="logo.svg" class="logo-biglinux">
-  </div>
-<script  src="./script.js"></script>
-</body>
-</html>
+  
+  <nav class="center-align padding">
+    <button class="no-border tertiary" onclick="window.location.href='file-system.sh.htm';">
+      <i>arrow_circle_left</i>
+      <span>$BACK</span>
+    </button>
+    
+    <button class="no-border tertiary" type="submit" value="$CONFIRM_AND_INSTALL">
+      <i>install_desktop</i>
+      <span>INSTALAR</span>
+    </button>      
+  </nav>
+  </form>
+  <label class="switch icon large-margin absolute bottom right">
+    <a class="circle small secondary" onclick="ui('mode', ui('mode') == 'dark' ? 'light' : 'dark')"><i>dark_mode</i></a>
+  </label>
+</article>
+<div class="overlay center-align middle-align" id="overlay"></div>
+</article>  
+
+  <script  src="./script.js"></script>
+  <script type="module" src="js/beer.min.js"></script>
+</body>  
 EOF
+echo "$ShowText"
