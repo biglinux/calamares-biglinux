@@ -464,3 +464,122 @@ msgstr "Bejelentkezéskezelő:"
 
 msgid "BTRFS"
 msgstr "BTRFS"
+
+msgid "Opções avançadas"
+msgstr "Speciális beállítások"
+
+msgid "Escolha a opção desejada"
+msgstr "Válassza ki a kívánt lehetőséget"
+
+msgid "Big Community"
+msgstr "Nagy közösség"
+
+msgid ""
+"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, "
+"promovendo um ambiente colaborativo inovador."
+msgstr ""
+"A BigLinuxban lehetőség van a rendszer testreszabására és az alkotások megosztására más "
+"felhasználókkal, elősegítve az innovatív együttműködési környezetet."
+
+msgid "ABRIR"
+msgstr "NYITOTT"
+
+msgid "Minimal"
+msgstr "Minimális"
+
+msgid ""
+"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente "
+"personalizada."
+msgstr ""
+"A Mininalnál Ön dönti el, hogy mely programokat telepíti, így biztosítva a rendkívül személyre "
+"szabott élményt."
+
+msgid "Padrão"
+msgstr "Minta"
+
+msgid "Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
+msgstr "Az alapértelmezett telepítés a korábban kiválasztott fájlrendszert fogja használni."
+
+msgid "Manutenção"
+msgstr "Fenntartás"
+
+msgid "Restaurar configurações do sistema instalado"
+msgstr "A telepített rendszerbeállítások visszaállítása"
+
+msgid ""
+"Utilitário que facilita a restauração do sistema instalado, principalmente a restauração do boot do "
+"sistema (Grub). Também pode ser utilizado para acessar o gerenciador de pacotes e o terminal do "
+"sistema instalado."
+msgstr ""
+"Segédprogram, amely megkönnyíti a telepített rendszer helyreállítását, különösen a rendszerindítás "
+"visszaállítását (Grub). Használható a csomagkezelő és a telepített rendszer termináljának elérésére "
+"is."
+
+msgid "Snapshot e backups"
+msgstr "Pillanatkép és biztonsági mentések"
+
+msgid "Sistema em modo live. Restaure pontos de restauração do sistema instalado."
+msgstr "Rendszer élő módban. Állítsa vissza a visszaállítási pontokat a telepített rendszerből."
+
+msgid "AVANÇADO"
+msgstr "HALADÓ"
+
+msgid "Instalação Minimal"
+msgstr "Minimális telepítés"
+
+msgid "Quais pacotes deseja instalar?"
+msgstr "Milyen csomagokat szeretne telepíteni?"
+
+msgid ""
+"Dificilmente você precisa reinstalar! Desenvolvemos ferramentas que facilitam a manutenção do "
+"sistema instalado."
+msgstr ""
+"Alig kell újratelepítenie! Olyan eszközöket fejlesztünk, amelyek megkönnyítik a telepített rendszer "
+"karbantartását."
+
+msgid "RESTAURAR"
+msgstr "VISSZAAD"
+
+msgid "Dicas de Instalação"
+msgstr "Telepítési tippek"
+
+msgid ""
+"Utilize partição BTRFS para ter compressão automática e pontos de restauração. Não crie partição "
+"/boot separada. Não crie partição SWAP, utilizamos gerênciamento dinâmico de memória virtual."
+msgstr ""
+"Használja a BTRFS partíciót az automatikus tömörítési és visszaállítási pontokhoz. Ne hozzon létre "
+"külön /boot partíciót. Ne hozzon létre SWAP partíciót, dinamikus virtuális memóriakezelést "
+"használunk."
+
+msgid ""
+"É um usuário avançado e deseja fazer uma instalação personalizada? Possuimos diversas "
+"possibilidades para o sistema atender suas necessidades."
+msgstr ""
+"Ön tapasztalt felhasználó, és egyéni telepítést szeretne végezni? Számos lehetőségünk van arra, "
+"hogy a rendszer megfeleljen az Ön igényeinek."
+
+msgid ""
+"Esse é um sistema colaborativo, se precisar de ajuda consulte nosso fórum: "
+"https://forum.biglinux.com.br. Contamos com você para ter um sistema cada vez melhor!"
+msgstr ""
+"Ez egy együttműködési rendszer, ha segítségre van szüksége, nézze meg fórumunkat: "
+"https://forum.biglinux.com.br. Számítunk Önökre, hogy egyre jobb és jobb rendszerünk legyen!"
+
+msgid "Escolha o sistema de arquivos"
+msgstr "Válassza ki a fájlrendszert"
+
+msgid ""
+"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada "
+"para /boot e SWAP."
+msgstr ""
+"Teljesítmény adattömörítéssel, visszaállítási pontokkal, nincs szükség külön partícióra a /boot és "
+"a SWAP számára."
+
+msgid "ESCOLHER"
+msgstr "VÁLASZT"
+
+msgid "EXT4"
+msgstr "EXT4"
+
+msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
+msgstr "Támogatja az örökölt particionáló táblákat és támogatja az EXT4 fájlrendszert."

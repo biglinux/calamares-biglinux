@@ -461,3 +461,116 @@ msgstr "Správce přihlášení:"
 
 msgid "BTRFS"
 msgstr "BTRFS"
+
+msgid "Opções avançadas"
+msgstr "Pokročilé možnosti"
+
+msgid "Escolha a opção desejada"
+msgstr "Vyberte požadovanou možnost"
+
+msgid "Big Community"
+msgstr "Velká komunita"
+
+msgid ""
+"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, "
+"promovendo um ambiente colaborativo inovador."
+msgstr ""
+"V BigLinuxu je možné přizpůsobit systém a sdílet výtvory s ostatními uživateli, což podporuje "
+"inovativní prostředí pro spolupráci."
+
+msgid "ABRIR"
+msgstr "OTEVŘENÝ"
+
+msgid "Minimal"
+msgstr "Minimální"
+
+msgid ""
+"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente "
+"personalizada."
+msgstr ""
+"Na Mininal se rozhodnete, které programy nainstalujete, což zajišťuje vysoce personalizovaný "
+"zážitek."
+
+msgid "Padrão"
+msgstr "Vzor"
+
+msgid "Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
+msgstr "Výchozí instalace bude používat souborový systém, který jste zvolili dříve."
+
+msgid "Manutenção"
+msgstr "Údržba"
+
+msgid "Restaurar configurações do sistema instalado"
+msgstr "Obnovte nainstalovaná nastavení systému"
+
+msgid ""
+"Utilitário que facilita a restauração do sistema instalado, principalmente a restauração do boot do "
+"sistema (Grub). Também pode ser utilizado para acessar o gerenciador de pacotes e o terminal do "
+"sistema instalado."
+msgstr ""
+"Nástroj, který usnadňuje obnovu nainstalovaného systému, zejména obnovení spouštění systému (Grub). "
+"Lze jej také použít pro přístup ke správci balíčků a terminálu nainstalovaného systému."
+
+msgid "Snapshot e backups"
+msgstr "Snímky a zálohy"
+
+msgid "Sistema em modo live. Restaure pontos de restauração do sistema instalado."
+msgstr "Systém v živém režimu. Obnovte body obnovení z nainstalovaného systému."
+
+msgid "AVANÇADO"
+msgstr "POKROČILÝ"
+
+msgid "Instalação Minimal"
+msgstr "Minimální instalace"
+
+msgid "Quais pacotes deseja instalar?"
+msgstr "Které balíčky chcete nainstalovat?"
+
+msgid ""
+"Dificilmente você precisa reinstalar! Desenvolvemos ferramentas que facilitam a manutenção do "
+"sistema instalado."
+msgstr "Téměř nemusíte znovu instalovat! Vyvíjíme nástroje, které usnadňují údržbu instalovaného systému."
+
+msgid "RESTAURAR"
+msgstr "OBNOVIT"
+
+msgid "Dicas de Instalação"
+msgstr "Tipy pro instalaci"
+
+msgid ""
+"Utilize partição BTRFS para ter compressão automática e pontos de restauração. Não crie partição "
+"/boot separada. Não crie partição SWAP, utilizamos gerênciamento dinâmico de memória virtual."
+msgstr ""
+"Oddíl BTRFS použijte k automatické kompresi a bodům obnovení. Nevytvářejte samostatnou oblast "
+"/boot. Nevytvářejte SWAP oddíl, používáme dynamickou správu virtuální paměti."
+
+msgid ""
+"É um usuário avançado e deseja fazer uma instalação personalizada? Possuimos diversas "
+"possibilidades para o sistema atender suas necessidades."
+msgstr ""
+"Jste pokročilý uživatel a chcete provést vlastní instalaci? Máme několik možností, jak systém "
+"vyhovět vašim potřebám."
+
+msgid ""
+"Esse é um sistema colaborativo, se precisar de ajuda consulte nosso fórum: "
+"https://forum.biglinux.com.br. Contamos com você para ter um sistema cada vez melhor!"
+msgstr ""
+"Jedná se o systém spolupráce, pokud potřebujete pomoc, podívejte se na naše fórum: "
+"https://forum.biglinux.com.br. Spoléháme na to, že budete mít lepší a lepší systém!"
+
+msgid "Escolha o sistema de arquivos"
+msgstr "Vyberte souborový systém"
+
+msgid ""
+"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada "
+"para /boot e SWAP."
+msgstr "Výkon s kompresí dat, body obnovení, není potřeba samostatný oddíl pro /boot a SWAP."
+
+msgid "ESCOLHER"
+msgstr "ZVOLIT"
+
+msgid "EXT4"
+msgstr "EXT4"
+
+msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
+msgstr "Podporuje starší tabulky dělení a podporuje souborový systém EXT4."

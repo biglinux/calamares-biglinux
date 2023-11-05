@@ -464,3 +464,116 @@ msgstr "Správca prihlásenia:"
 
 msgid "BTRFS"
 msgstr "BTRFS"
+
+msgid "Opções avançadas"
+msgstr "Rozšírené možnosti"
+
+msgid "Escolha a opção desejada"
+msgstr "Vyberte požadovanú možnosť"
+
+msgid "Big Community"
+msgstr "Veľká komunita"
+
+msgid ""
+"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, "
+"promovendo um ambiente colaborativo inovador."
+msgstr ""
+"V BigLinuxe je možné prispôsobiť systém a zdieľať výtvory s ostatnými používateľmi, čím sa "
+"podporuje inovatívne prostredie spolupráce."
+
+msgid "ABRIR"
+msgstr "OTVORENÝ"
+
+msgid "Minimal"
+msgstr "Minimálny"
+
+msgid ""
+"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente "
+"personalizada."
+msgstr ""
+"V spoločnosti Mininal sa rozhodujete, ktoré programy nainštalujete, čím sa zabezpečí vysoko "
+"prispôsobené prostredie."
+
+msgid "Padrão"
+msgstr "Vzorka"
+
+msgid "Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
+msgstr "Predvolená inštalácia použije systém súborov, ktorý ste vybrali skôr."
+
+msgid "Manutenção"
+msgstr "Údržba"
+
+msgid "Restaurar configurações do sistema instalado"
+msgstr "Obnovenie nainštalovaných systémových nastavení"
+
+msgid ""
+"Utilitário que facilita a restauração do sistema instalado, principalmente a restauração do boot do "
+"sistema (Grub). Também pode ser utilizado para acessar o gerenciador de pacotes e o terminal do "
+"sistema instalado."
+msgstr ""
+"Nástroj, ktorý uľahčuje obnovu nainštalovaného systému, najmä obnovenie zavedenia systému (Grub). "
+"Môže sa tiež použiť na prístup k správcovi balíkov a terminálu nainštalovaného systému."
+
+msgid "Snapshot e backups"
+msgstr "Snímka a zálohovanie"
+
+msgid "Sistema em modo live. Restaure pontos de restauração do sistema instalado."
+msgstr "Systém v živom režime. Obnovte body obnovenia z nainštalovaného systému."
+
+msgid "AVANÇADO"
+msgstr "POKROČILÝ"
+
+msgid "Instalação Minimal"
+msgstr "Minimálna inštalácia"
+
+msgid "Quais pacotes deseja instalar?"
+msgstr "Ktoré balíky chcete nainštalovať?"
+
+msgid ""
+"Dificilmente você precisa reinstalar! Desenvolvemos ferramentas que facilitam a manutenção do "
+"sistema instalado."
+msgstr "Sotva potrebujete preinštalovať! Vyvíjame nástroje, ktoré uľahčujú údržbu inštalovaného systému."
+
+msgid "RESTAURAR"
+msgstr "OBNOVIŤ"
+
+msgid "Dicas de Instalação"
+msgstr "Tipy na inštaláciu"
+
+msgid ""
+"Utilize partição BTRFS para ter compressão automática e pontos de restauração. Não crie partição "
+"/boot separada. Não crie partição SWAP, utilizamos gerênciamento dinâmico de memória virtual."
+msgstr ""
+"Použite oblasť BTRFS na automatické body kompresie a obnovenia. Nevytvárajte samostatný oddiel "
+"/boot. Nevytvárajte SWAP oddiel, používame dynamickú správu virtuálnej pamäte."
+
+msgid ""
+"É um usuário avançado e deseja fazer uma instalação personalizada? Possuimos diversas "
+"possibilidades para o sistema atender suas necessidades."
+msgstr ""
+"Ste pokročilý používateľ a chcete vykonať vlastnú inštaláciu? Máme niekoľko možností, ako môže "
+"systém vyhovieť vašim potrebám."
+
+msgid ""
+"Esse é um sistema colaborativo, se precisar de ajuda consulte nosso fórum: "
+"https://forum.biglinux.com.br. Contamos com você para ter um sistema cada vez melhor!"
+msgstr ""
+"Toto je systém spolupráce, ak potrebujete pomoc Pozrite si naše fórum: "
+"https://forum.biglinux.com.br. Spoliehame sa na vás, že budete mať lepší a lepší systém!"
+
+msgid "Escolha o sistema de arquivos"
+msgstr "Vyberte systém súborov"
+
+msgid ""
+"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada "
+"para /boot e SWAP."
+msgstr "Výkon s kompresiou dát, body obnovenia, nie je potrebný samostatný oddiel pre /boot a SWAP."
+
+msgid "ESCOLHER"
+msgstr "ZVOLIŤ"
+
+msgid "EXT4"
+msgstr "EXT4"
+
+msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
+msgstr "Podporuje staršie tabuľky rozdelenia a podporuje súborový systém EXT4."

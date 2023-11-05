@@ -466,3 +466,121 @@ msgstr "Giriş Yöneticisi:"
 
 msgid "BTRFS"
 msgstr "BTRFS (BTRFS)"
+
+msgid "Opções avançadas"
+msgstr "Gelişmiş seçenekler"
+
+msgid "Escolha a opção desejada"
+msgstr "İstediğiniz seçeneği belirleyin"
+
+msgid "Big Community"
+msgstr "Büyük Topluluk"
+
+msgid ""
+"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, "
+"promovendo um ambiente colaborativo inovador."
+msgstr ""
+"BigLinux'ta, sistemi özelleştirmek ve kreasyonları diğer kullanıcılarla paylaşmak, yenilikçi bir "
+"işbirliği ortamını teşvik etmek mümkündür."
+
+msgid "ABRIR"
+msgstr "AÇIK"
+
+msgid "Minimal"
+msgstr "En az"
+
+msgid ""
+"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente "
+"personalizada."
+msgstr ""
+"Mininal'de, hangi programların kurulacağına siz karar verirsiniz ve son derece kişiselleştirilmiş "
+"bir deneyim sağlarsınız."
+
+msgid "Padrão"
+msgstr "Desen"
+
+msgid "Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
+msgstr "Varsayılan yükleme, daha önce seçtiğiniz dosya sistemini kullanır."
+
+msgid "Manutenção"
+msgstr "Bakım"
+
+msgid "Restaurar configurações do sistema instalado"
+msgstr "Yüklü sistem ayarlarını geri yükle"
+
+msgid ""
+"Utilitário que facilita a restauração do sistema instalado, principalmente a restauração do boot do "
+"sistema (Grub). Também pode ser utilizado para acessar o gerenciador de pacotes e o terminal do "
+"sistema instalado."
+msgstr ""
+"Kurulu sistemin geri yüklenmesini, özellikle sistem önyüklemesinin (Grub) geri yüklenmesini "
+"kolaylaştıran yardımcı program. Paket yöneticisine ve kurulu sistemin terminaline erişmek için de "
+"kullanılabilir."
+
+msgid "Snapshot e backups"
+msgstr "Anlık görüntü ve yedeklemeler"
+
+msgid "Sistema em modo live. Restaure pontos de restauração do sistema instalado."
+msgstr "Sistem canlı modda. Yüklü sistemden geri yükleme noktalarını geri yükleyin."
+
+msgid "AVANÇADO"
+msgstr "İLERİ"
+
+msgid "Instalação Minimal"
+msgstr "Minimum Kurulum"
+
+msgid "Quais pacotes deseja instalar?"
+msgstr "Hangi paketleri yüklemek istiyorsunuz?"
+
+msgid ""
+"Dificilmente você precisa reinstalar! Desenvolvemos ferramentas que facilitam a manutenção do "
+"sistema instalado."
+msgstr ""
+"Yeniden yüklemenize neredeyse hiç gerek yok! Kurulu sistemin bakımını kolaylaştıran araçlar "
+"geliştiriyoruz."
+
+msgid "RESTAURAR"
+msgstr "GERİ YÜKLEMEK"
+
+msgid "Dicas de Instalação"
+msgstr "Kurulum İpuçları"
+
+msgid ""
+"Utilize partição BTRFS para ter compressão automática e pontos de restauração. Não crie partição "
+"/boot separada. Não crie partição SWAP, utilizamos gerênciamento dinâmico de memória virtual."
+msgstr ""
+"Otomatik sıkıştırma ve geri yükleme noktalarına sahip olmak için BTRFS bölümünü kullanın. Ayrı bir "
+"/boot bölümü oluşturmayın. SWAP bölümü oluşturmayın, dinamik sanal bellek yönetimi kullanıyoruz."
+
+msgid ""
+"É um usuário avançado e deseja fazer uma instalação personalizada? Possuimos diversas "
+"possibilidades para o sistema atender suas necessidades."
+msgstr ""
+"İleri düzey bir kullanıcı mısınız ve özel bir kurulum yapmak mı istiyorsunuz? Sistemin "
+"ihtiyaçlarınızı karşılaması için çeşitli olanaklarımız var."
+
+msgid ""
+"Esse é um sistema colaborativo, se precisar de ajuda consulte nosso fórum: "
+"https://forum.biglinux.com.br. Contamos com você para ter um sistema cada vez melhor!"
+msgstr ""
+"Bu işbirlikçi bir sistemdir, yardıma ihtiyacınız olursa forumumuza göz atın: "
+"https://forum.biglinux.com.br. Daha iyi ve daha iyi bir sisteme sahip olmak için size güveniyoruz!"
+
+msgid "Escolha o sistema de arquivos"
+msgstr "Dosya sistemini seçin"
+
+msgid ""
+"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada "
+"para /boot e SWAP."
+msgstr ""
+"Veri sıkıştırma, geri yükleme noktaları ile performans, /boot ve SWAP için ayrı bir bölüme gerek "
+"yok."
+
+msgid "ESCOLHER"
+msgstr "SEÇMEK"
+
+msgid "EXT4"
+msgstr "HARİCİ4"
+
+msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
+msgstr "Eski bölümleme tablolarını destekler ve EXT4 dosya sistemini destekler."

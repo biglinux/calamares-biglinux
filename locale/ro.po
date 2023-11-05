@@ -466,3 +466,117 @@ msgstr "Login Manager:"
 
 msgid "BTRFS"
 msgstr "BTRFS"
+
+msgid "Opções avançadas"
+msgstr "Opțiuni avansate"
+
+msgid "Escolha a opção desejada"
+msgstr "Alegeți opțiunea dorită"
+
+msgid "Big Community"
+msgstr "Comunitate mare"
+
+msgid ""
+"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, "
+"promovendo um ambiente colaborativo inovador."
+msgstr ""
+"În BigLinux, este posibilă personalizarea sistemului și partajarea creațiilor cu alți utilizatori, "
+"promovând un mediu inovator de colaborare."
+
+msgid "ABRIR"
+msgstr "DESCHIDE"
+
+msgid "Minimal"
+msgstr "Minim"
+
+msgid ""
+"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente "
+"personalizada."
+msgstr "La Mininal, decideți ce programe să instalați, asigurând o experiență extrem de personalizată."
+
+msgid "Padrão"
+msgstr "Model"
+
+msgid "Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
+msgstr "Instalarea implicită va utiliza sistemul de fișiere pe care l-ați ales mai devreme."
+
+msgid "Manutenção"
+msgstr "Întreținere"
+
+msgid "Restaurar configurações do sistema instalado"
+msgstr "Restabiliți setările de sistem instalate"
+
+msgid ""
+"Utilitário que facilita a restauração do sistema instalado, principalmente a restauração do boot do "
+"sistema (Grub). Também pode ser utilizado para acessar o gerenciador de pacotes e o terminal do "
+"sistema instalado."
+msgstr ""
+"Utilitate care facilitează restaurarea sistemului instalat, în special restaurarea boot-ului "
+"sistemului (Grub). Acesta poate fi, de asemenea, utilizat pentru a accesa managerul de pachete și "
+"terminalul sistemului instalat."
+
+msgid "Snapshot e backups"
+msgstr "Instantaneu și copii de rezervă"
+
+msgid "Sistema em modo live. Restaure pontos de restauração do sistema instalado."
+msgstr "Sistem în modul live. Restabiliți punctele de restaurare din sistemul instalat."
+
+msgid "AVANÇADO"
+msgstr "AVANSAT"
+
+msgid "Instalação Minimal"
+msgstr "Instalare minimă"
+
+msgid "Quais pacotes deseja instalar?"
+msgstr "Ce pachete doriți să instalați?"
+
+msgid ""
+"Dificilmente você precisa reinstalar! Desenvolvemos ferramentas que facilitam a manutenção do "
+"sistema instalado."
+msgstr "Nu trebuie să reinstalați! Dezvoltăm instrumente care facilitează întreținerea sistemului instalat."
+
+msgid "RESTAURAR"
+msgstr "RESTAURA"
+
+msgid "Dicas de Instalação"
+msgstr "Sfaturi pentru instalare"
+
+msgid ""
+"Utilize partição BTRFS para ter compressão automática e pontos de restauração. Não crie partição "
+"/boot separada. Não crie partição SWAP, utilizamos gerênciamento dinâmico de memória virtual."
+msgstr ""
+"Utilizați partiția BTRFS pentru a avea puncte de compresie și restaurare automată. Nu creați o "
+"partiție /boot separată. Nu creați partiție SWAP, folosim gestionarea dinamică a memoriei virtuale."
+
+msgid ""
+"É um usuário avançado e deseja fazer uma instalação personalizada? Possuimos diversas "
+"possibilidades para o sistema atender suas necessidades."
+msgstr ""
+"Sunteți un utilizator avansat și doriți să faceți o instalare personalizată? Avem mai multe "
+"posibilități pentru ca sistemul să vă satisfacă nevoile."
+
+msgid ""
+"Esse é um sistema colaborativo, se precisar de ajuda consulte nosso fórum: "
+"https://forum.biglinux.com.br. Contamos com você para ter um sistema cada vez melhor!"
+msgstr ""
+"Acesta este un sistem colaborativ, dacă aveți nevoie de ajutor, verificați forumul nostru: "
+"https://forum.biglinux.com.br. Contăm pe dumneavoastră să aveți un sistem din ce în ce mai bun!"
+
+msgid "Escolha o sistema de arquivos"
+msgstr "Alegeți sistemul de fișiere"
+
+msgid ""
+"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada "
+"para /boot e SWAP."
+msgstr ""
+"Performanță cu compresie de date, puncte de restaurare, nu este nevoie de o partiție separată "
+"pentru /boot și SWAP."
+
+msgid "ESCOLHER"
+msgstr "ALEGE"
+
+msgid "EXT4"
+msgstr "EXT4"
+
+msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
+msgstr "Suportă tabele de partiționare moștenite și acceptă sistemul de fișiere EXT4."

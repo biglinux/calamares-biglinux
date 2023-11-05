@@ -456,3 +456,112 @@ msgstr "מנהל התחברות:"
 
 msgid "BTRFS"
 msgstr "BTRFS"
+
+msgid "Opções avançadas"
+msgstr "אפשרויות מתקדמות"
+
+msgid "Escolha a opção desejada"
+msgstr "בחר את האפשרות הרצויה"
+
+msgid "Big Community"
+msgstr "קהילה גדולה"
+
+msgid ""
+"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, "
+"promovendo um ambiente colaborativo inovador."
+msgstr "ב BigLinux, ניתן להתאים אישית את המערכת ולשתף יצירות עם משתמשים אחרים, קידום סביבה שיתופית חדשנית."
+
+msgid "ABRIR"
+msgstr "פתוח"
+
+msgid "Minimal"
+msgstr "מינימלי"
+
+msgid ""
+"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente "
+"personalizada."
+msgstr "ב-Mininal, אתה מחליט אילו תוכניות להתקין, ומבטיח חוויה מותאמת אישית ביותר."
+
+msgid "Padrão"
+msgstr "תבנית"
+
+msgid "Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
+msgstr "התקנת ברירת המחדל תשתמש במערכת הקבצים שבחרת קודם לכן."
+
+msgid "Manutenção"
+msgstr "אחזקה"
+
+msgid "Restaurar configurações do sistema instalado"
+msgstr "שחזור הגדרות המערכת המותקנות"
+
+msgid ""
+"Utilitário que facilita a restauração do sistema instalado, principalmente a restauração do boot do "
+"sistema (Grub). Também pode ser utilizado para acessar o gerenciador de pacotes e o terminal do "
+"sistema instalado."
+msgstr ""
+"כלי המאפשר שחזור של המערכת המותקנת, במיוחד שחזור של אתחול המערכת (Grub). זה יכול לשמש גם כדי לגשת "
+"למנהל החבילה ואת המסוף של המערכת המותקנת."
+
+msgid "Snapshot e backups"
+msgstr "תמונת מצב וגיבויים"
+
+msgid "Sistema em modo live. Restaure pontos de restauração do sistema instalado."
+msgstr "מערכת במצב חי. שחזור נקודות שחזור מהמערכת המותקנת."
+
+msgid "AVANÇADO"
+msgstr "מתקדמים"
+
+msgid "Instalação Minimal"
+msgstr "התקנה מינימלית"
+
+msgid "Quais pacotes deseja instalar?"
+msgstr "אילו חבילות ברצונך להתקין?"
+
+msgid ""
+"Dificilmente você precisa reinstalar! Desenvolvemos ferramentas que facilitam a manutenção do "
+"sistema instalado."
+msgstr "אתה בקושי צריך להתקין מחדש! אנו מפתחים כלים המאפשרים תחזוקה של המערכת המותקנת."
+
+msgid "RESTAURAR"
+msgstr "לשחזר"
+
+msgid "Dicas de Instalação"
+msgstr "עצות התקנה"
+
+msgid ""
+"Utilize partição BTRFS para ter compressão automática e pontos de restauração. Não crie partição "
+"/boot separada. Não crie partição SWAP, utilizamos gerênciamento dinâmico de memória virtual."
+msgstr ""
+"השתמש במחיצת BTRFS כדי לקבל נקודות דחיסה ושחזור אוטומטיות. אל תיצור מחיצת /boot נפרדת. אל תיצור "
+"מחיצת SWAP, אנו משתמשים בניהול זיכרון וירטואלי דינמי."
+
+msgid ""
+"É um usuário avançado e deseja fazer uma instalação personalizada? Possuimos diversas "
+"possibilidades para o sistema atender suas necessidades."
+msgstr ""
+"האם אתה משתמש מתקדם וברצונך לבצע התקנה מותאמת אישית? יש לנו מספר אפשרויות עבור המערכת כדי לענות על "
+"הצרכים שלך."
+
+msgid ""
+"Esse é um sistema colaborativo, se precisar de ajuda consulte nosso fórum: "
+"https://forum.biglinux.com.br. Contamos com você para ter um sistema cada vez melhor!"
+msgstr ""
+"זוהי מערכת שיתופית, אם אתה זקוק לעזרה בדוק את הפורום שלנו: https://forum.biglinux.com.br. אנו "
+"סומכים עליכם שתהיה לכם מערכת טובה יותר ויותר!"
+
+msgid "Escolha o sistema de arquivos"
+msgstr "בחר את מערכת הקבצים"
+
+msgid ""
+"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada "
+"para /boot e SWAP."
+msgstr "ביצועים עם דחיסת נתונים, נקודות שחזור, אין צורך במחיצה נפרדת עבור /boot ו- SWAP."
+
+msgid "ESCOLHER"
+msgstr "בחר"
+
+msgid "EXT4"
+msgstr "EXT4"
+
+msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
+msgstr "תומך בטבלאות מדור קודם לחלוקה למחיצות ותומך במערכת הקבצים EXT4."

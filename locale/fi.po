@@ -462,3 +462,119 @@ msgstr "Kirjautumisen hallinta:"
 
 msgid "BTRFS"
 msgstr "BTRFS"
+
+msgid "Opções avançadas"
+msgstr "Lisäasetukset"
+
+msgid "Escolha a opção desejada"
+msgstr "Valitse haluamasi vaihtoehto"
+
+msgid "Big Community"
+msgstr "Suuri yhteisö"
+
+msgid ""
+"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, "
+"promovendo um ambiente colaborativo inovador."
+msgstr ""
+"BigLinuxissa on mahdollista mukauttaa järjestelmää ja jakaa luomuksia muiden käyttäjien kanssa, "
+"mikä edistää innovatiivista yhteistyöympäristöä."
+
+msgid "ABRIR"
+msgstr "AVATA"
+
+msgid "Minimal"
+msgstr "Minimaalinen"
+
+msgid ""
+"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente "
+"personalizada."
+msgstr "Mininalilla päätät, mitkä ohjelmat asennat, mikä takaa erittäin henkilökohtaisen kokemuksen."
+
+msgid "Padrão"
+msgstr "Kuvio"
+
+msgid "Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
+msgstr "Oletusasennus käyttää aiemmin valitsemaasi tiedostojärjestelmää."
+
+msgid "Manutenção"
+msgstr "Kunnossapito"
+
+msgid "Restaurar configurações do sistema instalado"
+msgstr "Palauta asennetut järjestelmäasetukset"
+
+msgid ""
+"Utilitário que facilita a restauração do sistema instalado, principalmente a restauração do boot do "
+"sistema (Grub). Também pode ser utilizado para acessar o gerenciador de pacotes e o terminal do "
+"sistema instalado."
+msgstr ""
+"Apuohjelma, joka helpottaa asennetun järjestelmän palauttamista, erityisesti järjestelmän "
+"käynnistyksen palauttamista (Grub). Sitä voidaan käyttää myös paketinhallinnan ja asennetun "
+"järjestelmän päätelaitteen käyttämiseen."
+
+msgid "Snapshot e backups"
+msgstr "Tilannekuva ja varmuuskopiot"
+
+msgid "Sistema em modo live. Restaure pontos de restauração do sistema instalado."
+msgstr "Järjestelmä live-tilassa. Palauta palautuspisteet asennetusta järjestelmästä."
+
+msgid "AVANÇADO"
+msgstr "EDISTYNYT"
+
+msgid "Instalação Minimal"
+msgstr "Minimaalinen asennus"
+
+msgid "Quais pacotes deseja instalar?"
+msgstr "Mitkä paketit haluat asentaa?"
+
+msgid ""
+"Dificilmente você precisa reinstalar! Desenvolvemos ferramentas que facilitam a manutenção do "
+"sistema instalado."
+msgstr ""
+"Sinun tuskin tarvitsee asentaa uudelleen! Kehitämme työkaluja, jotka helpottavat asennetun "
+"järjestelmän ylläpitoa."
+
+msgid "RESTAURAR"
+msgstr "PALAUTTAA"
+
+msgid "Dicas de Instalação"
+msgstr "Asennusvinkkejä"
+
+msgid ""
+"Utilize partição BTRFS para ter compressão automática e pontos de restauração. Não crie partição "
+"/boot separada. Não crie partição SWAP, utilizamos gerênciamento dinâmico de memória virtual."
+msgstr ""
+"Käytä BTRFS-osiota automaattisiin pakkaus- ja palautuspisteisiin. Älä luo erillistä /boot-osiota. "
+"Älä luo SWAP-osiota, käytämme dynaamista virtuaalimuistin hallintaa."
+
+msgid ""
+"É um usuário avançado e deseja fazer uma instalação personalizada? Possuimos diversas "
+"possibilidades para o sistema atender suas necessidades."
+msgstr ""
+"Oletko kokenut käyttäjä ja haluat tehdä mukautetun asennuksen? Meillä on useita mahdollisuuksia, "
+"jotta järjestelmä voi vastata tarpeisiisi."
+
+msgid ""
+"Esse é um sistema colaborativo, se precisar de ajuda consulte nosso fórum: "
+"https://forum.biglinux.com.br. Contamos com você para ter um sistema cada vez melhor!"
+msgstr ""
+"Tämä on yhteistyöjärjestelmä, jos tarvitset apua, tarkista foorumimme: "
+"https://forum.biglinux.com.br. Luotamme siihen, että teillä on yhä parempi järjestelmä!"
+
+msgid "Escolha o sistema de arquivos"
+msgstr "Valitse tiedostojärjestelmä"
+
+msgid ""
+"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada "
+"para /boot e SWAP."
+msgstr ""
+"Suorituskyky tietojen pakkauksella, palautuspisteillä, erillistä osiota ei tarvita /bootille ja "
+"SWAP: lle."
+
+msgid "ESCOLHER"
+msgstr "VALITA"
+
+msgid "EXT4"
+msgstr "EXT4"
+
+msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
+msgstr "Tukee vanhoja osiointitaulukoita ja tukee EXT4-tiedostojärjestelmää."

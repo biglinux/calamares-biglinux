@@ -467,3 +467,121 @@ msgstr "Менеджер входу:"
 
 msgid "BTRFS"
 msgstr "BTRFS"
+
+msgid "Opções avançadas"
+msgstr "Додаткові параметри"
+
+msgid "Escolha a opção desejada"
+msgstr "Виберіть потрібний варіант"
+
+msgid "Big Community"
+msgstr "Велика спільнота"
+
+msgid ""
+"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, "
+"promovendo um ambiente colaborativo inovador."
+msgstr ""
+"У BigLinux є можливість налаштовувати систему та ділитися творіннями з іншими користувачами, "
+"сприяючи інноваційному середовищу для спільної роботи."
+
+msgid "ABRIR"
+msgstr "ВІДКРИВАТИ"
+
+msgid "Minimal"
+msgstr "Мінімальний"
+
+msgid ""
+"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente "
+"personalizada."
+msgstr ""
+"У Mininal ви самі вирішуєте, які програми встановлювати, забезпечуючи максимально персоналізований "
+"досвід."
+
+msgid "Padrão"
+msgstr "Візерунок"
+
+msgid "Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
+msgstr "При встановленні за замовчуванням буде використовуватися файлова система, яку ви вибрали раніше."
+
+msgid "Manutenção"
+msgstr "Обслуговування"
+
+msgid "Restaurar configurações do sistema instalado"
+msgstr "Відновлення встановлених налаштувань системи"
+
+msgid ""
+"Utilitário que facilita a restauração do sistema instalado, principalmente a restauração do boot do "
+"sistema (Grub). Também pode ser utilizado para acessar o gerenciador de pacotes e o terminal do "
+"sistema instalado."
+msgstr ""
+"Утиліта, що полегшує відновлення встановленої системи, особливо відновлення завантаження системи "
+"(Grub). Його також можна використовувати для доступу до менеджера пакетів і терміналу встановленої "
+"системи."
+
+msgid "Snapshot e backups"
+msgstr "Знімок і резервне копіювання"
+
+msgid "Sistema em modo live. Restaure pontos de restauração do sistema instalado."
+msgstr "Система в режимі реального часу. Відновіть точки відновлення з встановленої системи."
+
+msgid "AVANÇADO"
+msgstr "ПЕРЕДОВИЙ"
+
+msgid "Instalação Minimal"
+msgstr "Мінімальне встановлення"
+
+msgid "Quais pacotes deseja instalar?"
+msgstr "Які пакунки ви хочете встановити?"
+
+msgid ""
+"Dificilmente você precisa reinstalar! Desenvolvemos ferramentas que facilitam a manutenção do "
+"sistema instalado."
+msgstr ""
+"Вам навряд чи потрібно перевстановлювати! Розробляємо інструменти, що полегшують обслуговування "
+"встановленої системи."
+
+msgid "RESTAURAR"
+msgstr "ВІДНОВИТИ"
+
+msgid "Dicas de Instalação"
+msgstr "Поради щодо встановлення"
+
+msgid ""
+"Utilize partição BTRFS para ter compressão automática e pontos de restauração. Não crie partição "
+"/boot separada. Não crie partição SWAP, utilizamos gerênciamento dinâmico de memória virtual."
+msgstr ""
+"Використовуйте розділ BTRFS для автоматичного стискання і точок відновлення. Не створюйте окремий "
+"розділ /boot. Не створюємо розділ SWAP, ми використовуємо динамічне управління віртуальною пам'яттю."
+
+msgid ""
+"É um usuário avançado e deseja fazer uma instalação personalizada? Possuimos diversas "
+"possibilidades para o sistema atender suas necessidades."
+msgstr ""
+"Ви досвідчений користувач і хочете виконати індивідуальну інсталяцію? У нас є кілька можливостей "
+"для того, щоб система відповідала вашим потребам."
+
+msgid ""
+"Esse é um sistema colaborativo, se precisar de ajuda consulte nosso fórum: "
+"https://forum.biglinux.com.br. Contamos com você para ter um sistema cada vez melhor!"
+msgstr ""
+"Це спільна система, якщо вам потрібна допомога, відвідайте наш форум: "
+"https://forum.biglinux.com.br. Ми розраховуємо на те, що у вас буде краща і краща система!"
+
+msgid "Escolha o sistema de arquivos"
+msgstr "Вибираємо файлову систему"
+
+msgid ""
+"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada "
+"para /boot e SWAP."
+msgstr ""
+"Продуктивність зі стисненням даних, точками відновлення, відсутність необхідності в окремому "
+"розділі для /boot і SWAP."
+
+msgid "ESCOLHER"
+msgstr "ВИБИРАТИ"
+
+msgid "EXT4"
+msgstr "EXT4"
+
+msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
+msgstr "Підтримує застарілі таблиці розбиття на розділи та підтримує файлову систему EXT4."

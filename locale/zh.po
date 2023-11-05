@@ -445,3 +445,104 @@ msgstr "登录管理器："
 
 msgid "BTRFS"
 msgstr "BTRFS"
+
+msgid "Opções avançadas"
+msgstr "高级选项"
+
+msgid "Escolha a opção desejada"
+msgstr "选择您想要的选项"
+
+msgid "Big Community"
+msgstr "大社区"
+
+msgid ""
+"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, "
+"promovendo um ambiente colaborativo inovador."
+msgstr "在BigLinux中，可以自定义系统并与其他用户共享创作，从而促进创新的协作环境。"
+
+msgid "ABRIR"
+msgstr "打开"
+
+msgid "Minimal"
+msgstr "极小"
+
+msgid ""
+"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente "
+"personalizada."
+msgstr "在Mininal，您可以决定安装哪些程序，确保高度个性化的体验。"
+
+msgid "Padrão"
+msgstr "模式"
+
+msgid "Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
+msgstr "默认安装将使用您之前选择的文件系统。"
+
+msgid "Manutenção"
+msgstr "保养"
+
+msgid "Restaurar configurações do sistema instalado"
+msgstr "恢复已安装的系统设置"
+
+msgid ""
+"Utilitário que facilita a restauração do sistema instalado, principalmente a restauração do boot do "
+"sistema (Grub). Também pode ser utilizado para acessar o gerenciador de pacotes e o terminal do "
+"sistema instalado."
+msgstr "有助于恢复已安装系统的实用程序，尤其是恢复系统引导 （Grub）。它还可用于访问已安装系统的包管理器和终端。"
+
+msgid "Snapshot e backups"
+msgstr "快照和备份"
+
+msgid "Sistema em modo live. Restaure pontos de restauração do sistema instalado."
+msgstr "系统处于实时模式。从已安装的系统还原还原点。"
+
+msgid "AVANÇADO"
+msgstr "高深"
+
+msgid "Instalação Minimal"
+msgstr "最小安装"
+
+msgid "Quais pacotes deseja instalar?"
+msgstr "您要安装哪些软件包？"
+
+msgid ""
+"Dificilmente você precisa reinstalar! Desenvolvemos ferramentas que facilitam a manutenção do "
+"sistema instalado."
+msgstr "您几乎不需要重新安装！我们开发工具，便于维护已安装的系统。"
+
+msgid "RESTAURAR"
+msgstr "恢复"
+
+msgid "Dicas de Instalação"
+msgstr "安装提示"
+
+msgid ""
+"Utilize partição BTRFS para ter compressão automática e pontos de restauração. Não crie partição "
+"/boot separada. Não crie partição SWAP, utilizamos gerênciamento dinâmico de memória virtual."
+msgstr "使用 BTRFS 分区具有自动压缩和还原点。不要创建单独的 /boot 分区。不要创建 SWAP 分区，我们使用动态虚拟内存管理。"
+
+msgid ""
+"É um usuário avançado e deseja fazer uma instalação personalizada? Possuimos diversas "
+"possibilidades para o sistema atender suas necessidades."
+msgstr "您是高级用户并想要进行自定义安装吗？我们有多种可能性的系统来满足您的需求。"
+
+msgid ""
+"Esse é um sistema colaborativo, se precisar de ajuda consulte nosso fórum: "
+"https://forum.biglinux.com.br. Contamos com você para ter um sistema cada vez melhor!"
+msgstr "这是一个协作系统，如果您需要帮助，请查看我们的论坛：https://forum.biglinux.com.br。我们指望您拥有越来越好的系统！"
+
+msgid "Escolha o sistema de arquivos"
+msgstr "选择文件系统"
+
+msgid ""
+"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada "
+"para /boot e SWAP."
+msgstr "具有数据压缩、还原点的性能，无需为 /boot 和 SWAP 提供单独的分区。"
+
+msgid "ESCOLHER"
+msgstr "选择"
+
+msgid "EXT4"
+msgstr "分机4"
+
+msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
+msgstr "支持传统分区表，并支持 EXT4 文件系统。"

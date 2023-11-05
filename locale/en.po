@@ -459,3 +459,119 @@ msgstr "Login Manager:"
 
 msgid "BTRFS"
 msgstr "BTRFS"
+
+msgid "Opções avançadas"
+msgstr "Advanced options"
+
+msgid "Escolha a opção desejada"
+msgstr "Choose the option you want"
+
+msgid "Big Community"
+msgstr "Big Community"
+
+msgid ""
+"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, "
+"promovendo um ambiente colaborativo inovador."
+msgstr ""
+"In BigLinux, it is possible to customize the system and share creations with other users, promoting "
+"an innovative collaborative environment."
+
+msgid "ABRIR"
+msgstr "OPEN"
+
+msgid "Minimal"
+msgstr "Minimal"
+
+msgid ""
+"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente "
+"personalizada."
+msgstr "At Mininal, you decide which programs to install, ensuring a highly personalized experience."
+
+msgid "Padrão"
+msgstr "Pattern"
+
+msgid "Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
+msgstr "Default installation will use the file system you chose earlier."
+
+msgid "Manutenção"
+msgstr "Maintenance"
+
+msgid "Restaurar configurações do sistema instalado"
+msgstr "Restore installed system settings"
+
+msgid ""
+"Utilitário que facilita a restauração do sistema instalado, principalmente a restauração do boot do "
+"sistema (Grub). Também pode ser utilizado para acessar o gerenciador de pacotes e o terminal do "
+"sistema instalado."
+msgstr ""
+"Utility that facilitates the restoration of the installed system, especially the restore of the "
+"system boot (Grub). It can also be used to access the package manager and the terminal of the "
+"installed system."
+
+msgid "Snapshot e backups"
+msgstr "Snapshot and backups"
+
+msgid "Sistema em modo live. Restaure pontos de restauração do sistema instalado."
+msgstr "System in live mode. Restore restore points from the installed system."
+
+msgid "AVANÇADO"
+msgstr "ADVANCED"
+
+msgid "Instalação Minimal"
+msgstr "Minimal Installation"
+
+msgid "Quais pacotes deseja instalar?"
+msgstr "Which packages do you want to install?"
+
+msgid ""
+"Dificilmente você precisa reinstalar! Desenvolvemos ferramentas que facilitam a manutenção do "
+"sistema instalado."
+msgstr ""
+"You hardly need to reinstall! We develop tools that facilitate the maintenance of the installed "
+"system."
+
+msgid "RESTAURAR"
+msgstr "RESTORE"
+
+msgid "Dicas de Instalação"
+msgstr "Installation Tips"
+
+msgid ""
+"Utilize partição BTRFS para ter compressão automática e pontos de restauração. Não crie partição "
+"/boot separada. Não crie partição SWAP, utilizamos gerênciamento dinâmico de memória virtual."
+msgstr ""
+"Use BTRFS partition to have automatic compression and restore points. Do not create a separate "
+"/boot partition. Do not create SWAP partition, we use dynamic virtual memory management."
+
+msgid ""
+"É um usuário avançado e deseja fazer uma instalação personalizada? Possuimos diversas "
+"possibilidades para o sistema atender suas necessidades."
+msgstr ""
+"Are you an advanced user and want to do a custom installation? We have several possibilities for "
+"the system to meet your needs."
+
+msgid ""
+"Esse é um sistema colaborativo, se precisar de ajuda consulte nosso fórum: "
+"https://forum.biglinux.com.br. Contamos com você para ter um sistema cada vez melhor!"
+msgstr ""
+"This is a collaborative system, if you need help check our forum: https://forum.biglinux.com.br. We "
+"are counting on you to have a better and better system!"
+
+msgid "Escolha o sistema de arquivos"
+msgstr "Choose the file system"
+
+msgid ""
+"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada "
+"para /boot e SWAP."
+msgstr ""
+"Performance with data compression, restore points, no need for a separate partition for /boot and "
+"SWAP."
+
+msgid "ESCOLHER"
+msgstr "CHOOSE"
+
+msgid "EXT4"
+msgstr "EXT4"
+
+msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
+msgstr "Supports legacy partitioning tables and supports the EXT4 file system."

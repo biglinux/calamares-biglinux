@@ -470,3 +470,122 @@ msgstr "Login-Manager:"
 
 msgid "BTRFS"
 msgstr "BTRFS"
+
+msgid "Opções avançadas"
+msgstr "Erweiterte Optionen"
+
+msgid "Escolha a opção desejada"
+msgstr "Wählen Sie die gewünschte Option aus"
+
+msgid "Big Community"
+msgstr "Große Community"
+
+msgid ""
+"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, "
+"promovendo um ambiente colaborativo inovador."
+msgstr ""
+"In BigLinux ist es möglich, das System anzupassen und Kreationen mit anderen Benutzern zu teilen, "
+"wodurch eine innovative kollaborative Umgebung gefördert wird."
+
+msgid "ABRIR"
+msgstr "OFFEN"
+
+msgid "Minimal"
+msgstr "Minimal"
+
+msgid ""
+"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente "
+"personalizada."
+msgstr ""
+"Bei Mininal entscheiden Sie, welche Programme Sie installieren möchten, um ein hochgradig "
+"personalisiertes Erlebnis zu gewährleisten."
+
+msgid "Padrão"
+msgstr "Muster"
+
+msgid "Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
+msgstr "Bei der Standardinstallation wird das Dateisystem verwendet, das Sie zuvor ausgewählt haben."
+
+msgid "Manutenção"
+msgstr "Instandhaltung"
+
+msgid "Restaurar configurações do sistema instalado"
+msgstr "Installierte Systemeinstellungen wiederherstellen"
+
+msgid ""
+"Utilitário que facilita a restauração do sistema instalado, principalmente a restauração do boot do "
+"sistema (Grub). Também pode ser utilizado para acessar o gerenciador de pacotes e o terminal do "
+"sistema instalado."
+msgstr ""
+"Dienstprogramm, das die Wiederherstellung des installierten Systems erleichtert, insbesondere die "
+"Wiederherstellung des Systemstarts (Grub). Es kann auch verwendet werden, um auf den Paketmanager "
+"und das Terminal des installierten Systems zuzugreifen."
+
+msgid "Snapshot e backups"
+msgstr "Snapshot und Backups"
+
+msgid "Sistema em modo live. Restaure pontos de restauração do sistema instalado."
+msgstr "System im Live-Modus. Stellen Sie Wiederherstellungspunkte vom installierten System wieder her."
+
+msgid "AVANÇADO"
+msgstr "FORTGESCHRITTEN"
+
+msgid "Instalação Minimal"
+msgstr "Minimaler Einbau"
+
+msgid "Quais pacotes deseja instalar?"
+msgstr "Welche Pakete möchten Sie installieren?"
+
+msgid ""
+"Dificilmente você precisa reinstalar! Desenvolvemos ferramentas que facilitam a manutenção do "
+"sistema instalado."
+msgstr ""
+"Eine Neuinstallation ist kaum erforderlich! Wir entwickeln Tools, die die Wartung des installierten "
+"Systems erleichtern."
+
+msgid "RESTAURAR"
+msgstr "WIEDERHERSTELLEN"
+
+msgid "Dicas de Instalação"
+msgstr "Tipps zur Installation"
+
+msgid ""
+"Utilize partição BTRFS para ter compressão automática e pontos de restauração. Não crie partição "
+"/boot separada. Não crie partição SWAP, utilizamos gerênciamento dinâmico de memória virtual."
+msgstr ""
+"Verwenden Sie die BTRFS-Partition, um automatische Komprimierungs- und Wiederherstellungspunkte zu "
+"verwenden. Erstellen Sie keine separate /boot-Partition. Erstellen Sie keine SWAP-Partition, wir "
+"verwenden eine dynamische Verwaltung des virtuellen Speichers."
+
+msgid ""
+"É um usuário avançado e deseja fazer uma instalação personalizada? Possuimos diversas "
+"possibilidades para o sistema atender suas necessidades."
+msgstr ""
+"Sind Sie ein fortgeschrittener Benutzer und möchten eine benutzerdefinierte Installation "
+"durchführen? Wir haben mehrere Möglichkeiten, wie das System Ihren Anforderungen entspricht."
+
+msgid ""
+"Esse é um sistema colaborativo, se precisar de ajuda consulte nosso fórum: "
+"https://forum.biglinux.com.br. Contamos com você para ter um sistema cada vez melhor!"
+msgstr ""
+"Dies ist ein kollaboratives System, wenn Sie Hilfe benötigen, besuchen Sie unser Forum: "
+"https://forum.biglinux.com.br. Wir zählen darauf, dass Sie ein immer besseres System haben!"
+
+msgid "Escolha o sistema de arquivos"
+msgstr "Wählen Sie das Dateisystem aus"
+
+msgid ""
+"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada "
+"para /boot e SWAP."
+msgstr ""
+"Leistung mit Datenkomprimierung, Wiederherstellungspunkten, keine Notwendigkeit für eine separate "
+"Partition für /boot und SWAP."
+
+msgid "ESCOLHER"
+msgstr "WÄHLEN"
+
+msgid "EXT4"
+msgstr "EXT4"
+
+msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
+msgstr "Unterstützt Legacy-Partitionstabellen und unterstützt das EXT4-Dateisystem."

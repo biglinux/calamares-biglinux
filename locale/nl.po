@@ -468,3 +468,119 @@ msgstr "Inloggen manager:"
 
 msgid "BTRFS"
 msgstr "Btrfs"
+
+msgid "Opções avançadas"
+msgstr "Geavanceerde opties"
+
+msgid "Escolha a opção desejada"
+msgstr "Kies de gewenste optie"
+
+msgid "Big Community"
+msgstr "Grote gemeenschap"
+
+msgid ""
+"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, "
+"promovendo um ambiente colaborativo inovador."
+msgstr ""
+"In BigLinux is het mogelijk om het systeem aan te passen en creaties te delen met andere "
+"gebruikers, waardoor een innovatieve samenwerkingsomgeving wordt bevorderd."
+
+msgid "ABRIR"
+msgstr "OPENEN"
+
+msgid "Minimal"
+msgstr "Minimaal"
+
+msgid ""
+"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente "
+"personalizada."
+msgstr ""
+"Bij Mininal bepaal je zelf welke programma's je installeert, wat zorgt voor een zeer persoonlijke "
+"ervaring."
+
+msgid "Padrão"
+msgstr "Patroon"
+
+msgid "Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
+msgstr "De standaardinstallatie gebruikt het bestandssysteem dat u eerder hebt gekozen."
+
+msgid "Manutenção"
+msgstr "Onderhoud"
+
+msgid "Restaurar configurações do sistema instalado"
+msgstr "Installeer de systeeminstellingen herstellen"
+
+msgid ""
+"Utilitário que facilita a restauração do sistema instalado, principalmente a restauração do boot do "
+"sistema (Grub). Também pode ser utilizado para acessar o gerenciador de pacotes e o terminal do "
+"sistema instalado."
+msgstr ""
+"Hulpprogramma dat het herstel van het geïnstalleerde systeem vergemakkelijkt, met name het "
+"herstellen van het opstarten van het systeem (Grub). Het kan ook worden gebruikt om toegang te "
+"krijgen tot de pakketbeheerder en de terminal van het geïnstalleerde systeem."
+
+msgid "Snapshot e backups"
+msgstr "Snapshot en back-ups"
+
+msgid "Sistema em modo live. Restaure pontos de restauração do sistema instalado."
+msgstr "Systeem in live-modus. Herstel herstelpunten van het geïnstalleerde systeem."
+
+msgid "AVANÇADO"
+msgstr "GEAVANCEERD"
+
+msgid "Instalação Minimal"
+msgstr "Minimale installatie"
+
+msgid "Quais pacotes deseja instalar?"
+msgstr "Welke pakketten wil je installeren?"
+
+msgid ""
+"Dificilmente você precisa reinstalar! Desenvolvemos ferramentas que facilitam a manutenção do "
+"sistema instalado."
+msgstr ""
+"U hoeft nauwelijks opnieuw te installeren! Wij ontwikkelen tools die het onderhoud van het "
+"geïnstalleerde systeem vergemakkelijken."
+
+msgid "RESTAURAR"
+msgstr "HERSTELLEN"
+
+msgid "Dicas de Instalação"
+msgstr "Installatie Tips"
+
+msgid ""
+"Utilize partição BTRFS para ter compressão automática e pontos de restauração. Não crie partição "
+"/boot separada. Não crie partição SWAP, utilizamos gerênciamento dinâmico de memória virtual."
+msgstr ""
+"Gebruik BTRFS-partitie om automatische compressie- en herstelpunten te hebben. Maak geen aparte "
+"/boot-partitie aan. Maak geen SWAP-partitie, we gebruiken dynamisch virtueel geheugenbeheer."
+
+msgid ""
+"É um usuário avançado e deseja fazer uma instalação personalizada? Possuimos diversas "
+"possibilidades para o sistema atender suas necessidades."
+msgstr ""
+"Bent u een gevorderde gebruiker en wilt u een installatie op maat doen? We hebben verschillende "
+"mogelijkheden om het systeem aan uw behoeften te laten voldoen."
+
+msgid ""
+"Esse é um sistema colaborativo, se precisar de ajuda consulte nosso fórum: "
+"https://forum.biglinux.com.br. Contamos com você para ter um sistema cada vez melhor!"
+msgstr ""
+"Dit is een collaboratief systeem, als je hulp nodig hebt, kijk dan op ons forum: "
+"https://forum.biglinux.com.br. We rekenen op u om een steeds beter systeem te hebben!"
+
+msgid "Escolha o sistema de arquivos"
+msgstr "Kies het bestandssysteem"
+
+msgid ""
+"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada "
+"para /boot e SWAP."
+msgstr "Prestaties met gegevenscompressie, herstelpunten, geen aparte partitie nodig voor /boot en SWAP."
+
+msgid "ESCOLHER"
+msgstr "KIEZEN"
+
+msgid "EXT4"
+msgstr "EXT4"
+
+msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
+msgstr "Ondersteunt verouderde partitioneringstabellen en ondersteunt het EXT4-bestandssysteem."

@@ -447,3 +447,104 @@ msgstr "로그인 관리자:"
 
 msgid "BTRFS"
 msgstr "증권 시세 표시기"
+
+msgid "Opções avançadas"
+msgstr "고급 옵션"
+
+msgid "Escolha a opção desejada"
+msgstr "원하는 옵션을 선택합니다"
+
+msgid "Big Community"
+msgstr "큰 커뮤니티"
+
+msgid ""
+"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, "
+"promovendo um ambiente colaborativo inovador."
+msgstr "BigLinux에서는 시스템을 사용자 정의하고 다른 사용자와 작성물을 공유하여 혁신적인 협업 환경을 촉진할 수 있습니다."
+
+msgid "ABRIR"
+msgstr "열다"
+
+msgid "Minimal"
+msgstr "최소"
+
+msgid ""
+"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente "
+"personalizada."
+msgstr "Mininal에서는 설치할 프로그램을 결정하여 고도로 개인화된 경험을 보장합니다."
+
+msgid "Padrão"
+msgstr "무늬"
+
+msgid "Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
+msgstr "기본 설치는 이전에 선택한 파일 시스템을 사용합니다."
+
+msgid "Manutenção"
+msgstr "정비"
+
+msgid "Restaurar configurações do sistema instalado"
+msgstr "설치된 시스템 설정 복원"
+
+msgid ""
+"Utilitário que facilita a restauração do sistema instalado, principalmente a restauração do boot do "
+"sistema (Grub). Também pode ser utilizado para acessar o gerenciador de pacotes e o terminal do "
+"sistema instalado."
+msgstr "설치된 시스템의 복원, 특히 시스템 부팅(Grub)의 복원을 용이하게 하는 유틸리티입니다. 또한 설치된 시스템의 패키지 관리자 및 터미널에 액세스하는 데 사용할 수 있습니다."
+
+msgid "Snapshot e backups"
+msgstr "스냅샷 및 백업"
+
+msgid "Sistema em modo live. Restaure pontos de restauração do sistema instalado."
+msgstr "시스템이 라이브 모드에 있습니다. 설치된 시스템에서 복원 지점을 복원합니다."
+
+msgid "AVANÇADO"
+msgstr "고급"
+
+msgid "Instalação Minimal"
+msgstr "최소 설치"
+
+msgid "Quais pacotes deseja instalar?"
+msgstr "어떤 패키지를 설치하시겠습니까?"
+
+msgid ""
+"Dificilmente você precisa reinstalar! Desenvolvemos ferramentas que facilitam a manutenção do "
+"sistema instalado."
+msgstr "다시 설치할 필요가 거의 없습니다! 우리는 설치된 시스템의 유지 보수를 용이하게하는 도구를 개발합니다."
+
+msgid "RESTAURAR"
+msgstr "복원"
+
+msgid "Dicas de Instalação"
+msgstr "설치 팁"
+
+msgid ""
+"Utilize partição BTRFS para ter compressão automática e pontos de restauração. Não crie partição "
+"/boot separada. Não crie partição SWAP, utilizamos gerênciamento dinâmico de memória virtual."
+msgstr "BTRFS 파티션을 사용하여 자동 압축 및 복원 지점을 갖습니다. 별도의 /boot 파티션을 만들지 마십시오. SWAP 파티션을 생성하지 말고 동적 가상 메모리 관리를 사용합니다."
+
+msgid ""
+"É um usuário avançado e deseja fazer uma instalação personalizada? Possuimos diversas "
+"possibilidades para o sistema atender suas necessidades."
+msgstr "고급 사용자이며 사용자 지정 설치를 원하십니까? 시스템이 귀하의 요구를 충족시킬 수 있는 몇 가지 가능성이 있습니다."
+
+msgid ""
+"Esse é um sistema colaborativo, se precisar de ajuda consulte nosso fórum: "
+"https://forum.biglinux.com.br. Contamos com você para ter um sistema cada vez melhor!"
+msgstr "이것은 협업 시스템이며, 도움이 필요하면 포럼을 확인하십시오 : https://forum.biglinux.com.br. 우리는 당신이 더 나은 시스템을 가질 것이라고 믿습니다!"
+
+msgid "Escolha o sistema de arquivos"
+msgstr "파일 시스템 선택"
+
+msgid ""
+"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada "
+"para /boot e SWAP."
+msgstr "데이터 압축, 복원 지점, /boot 및 SWAP을 위한 별도의 파티션이 필요하지 않은 성능."
+
+msgid "ESCOLHER"
+msgstr "고르다"
+
+msgid "EXT4"
+msgstr "내선4"
+
+msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
+msgstr "레거시 파티셔닝 테이블을 지원하고 EXT4 파일 시스템을 지원합니다."

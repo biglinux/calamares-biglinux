@@ -470,3 +470,122 @@ msgstr "Διαχειριστής σύνδεσης:"
 
 msgid "BTRFS"
 msgstr "BTRFS"
+
+msgid "Opções avançadas"
+msgstr "Επιλογές για προχωρημένους"
+
+msgid "Escolha a opção desejada"
+msgstr "Ορίστε την επιλογή που θέλετε"
+
+msgid "Big Community"
+msgstr "Μεγάλη Κοινότητα"
+
+msgid ""
+"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, "
+"promovendo um ambiente colaborativo inovador."
+msgstr ""
+"Στο BigLinux, είναι δυνατή η προσαρμογή του συστήματος και η κοινή χρήση δημιουργιών με άλλους "
+"χρήστες, προωθώντας ένα καινοτόμο περιβάλλον συνεργασίας."
+
+msgid "ABRIR"
+msgstr "ΑΝΟΊΓΩ"
+
+msgid "Minimal"
+msgstr "Ελάχιστος"
+
+msgid ""
+"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente "
+"personalizada."
+msgstr ""
+"Στη Mininal, εσείς αποφασίζετε ποια προγράμματα θα εγκαταστήσετε, εξασφαλίζοντας μια εξαιρετικά "
+"εξατομικευμένη εμπειρία."
+
+msgid "Padrão"
+msgstr "Πρότυπο"
+
+msgid "Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
+msgstr "Η προεπιλεγμένη εγκατάσταση θα χρησιμοποιήσει το σύστημα αρχείων που επιλέξατε νωρίτερα."
+
+msgid "Manutenção"
+msgstr "Συντήρηση"
+
+msgid "Restaurar configurações do sistema instalado"
+msgstr "Επαναφορά εγκατεστημένων ρυθμίσεων συστήματος"
+
+msgid ""
+"Utilitário que facilita a restauração do sistema instalado, principalmente a restauração do boot do "
+"sistema (Grub). Também pode ser utilizado para acessar o gerenciador de pacotes e o terminal do "
+"sistema instalado."
+msgstr ""
+"Βοηθητικό πρόγραμμα που διευκολύνει την αποκατάσταση του εγκατεστημένου συστήματος, ειδικά την "
+"επαναφορά της εκκίνησης του συστήματος (Grub). Μπορεί επίσης να χρησιμοποιηθεί για πρόσβαση στον "
+"διαχειριστή πακέτων και στο τερματικό του εγκατεστημένου συστήματος."
+
+msgid "Snapshot e backups"
+msgstr "Στιγμιότυπο και αντίγραφα ασφαλείας"
+
+msgid "Sistema em modo live. Restaure pontos de restauração do sistema instalado."
+msgstr "Σύστημα σε ζωντανή λειτουργία. Επαναφέρετε τα σημεία επαναφοράς από το εγκατεστημένο σύστημα."
+
+msgid "AVANÇADO"
+msgstr "ΠΡΟΧΩΡΗΜΈΝΟΣ"
+
+msgid "Instalação Minimal"
+msgstr "Ελάχιστη εγκατάσταση"
+
+msgid "Quais pacotes deseja instalar?"
+msgstr "Ποια πακέτα θέλετε να εγκαταστήσετε;"
+
+msgid ""
+"Dificilmente você precisa reinstalar! Desenvolvemos ferramentas que facilitam a manutenção do "
+"sistema instalado."
+msgstr ""
+"Δεν χρειάζεται να επανεγκαταστήσετε! Αναπτύσσουμε εργαλεία που διευκολύνουν τη συντήρηση του "
+"εγκατεστημένου συστήματος."
+
+msgid "RESTAURAR"
+msgstr "ΑΠΟΚΑΘΙΣΤΏ"
+
+msgid "Dicas de Instalação"
+msgstr "Συμβουλές εγκατάστασης"
+
+msgid ""
+"Utilize partição BTRFS para ter compressão automática e pontos de restauração. Não crie partição "
+"/boot separada. Não crie partição SWAP, utilizamos gerênciamento dinâmico de memória virtual."
+msgstr ""
+"Χρησιμοποιήστε το διαμέρισμα BTRFS για να έχετε αυτόματα σημεία συμπίεσης και επαναφοράς. Μην "
+"δημιουργείτε ξεχωριστό διαμέρισμα /boot. Μην δημιουργείτε διαμέρισμα SWAP, χρησιμοποιούμε δυναμική "
+"διαχείριση εικονικής μνήμης."
+
+msgid ""
+"É um usuário avançado e deseja fazer uma instalação personalizada? Possuimos diversas "
+"possibilidades para o sistema atender suas necessidades."
+msgstr ""
+"Είστε προχωρημένος χρήστης και θέλετε να κάνετε μια προσαρμοσμένη εγκατάσταση; Έχουμε πολλές "
+"δυνατότητες για το σύστημα να καλύψει τις ανάγκες σας."
+
+msgid ""
+"Esse é um sistema colaborativo, se precisar de ajuda consulte nosso fórum: "
+"https://forum.biglinux.com.br. Contamos com você para ter um sistema cada vez melhor!"
+msgstr ""
+"Αυτό είναι ένα συνεργατικό σύστημα, αν χρειάζεστε βοήθεια ελέγξτε το φόρουμ μας: "
+"https://forum.biglinux.com.br. Βασιζόμαστε σε εσάς για να έχετε ένα όλο και καλύτερο σύστημα!"
+
+msgid "Escolha o sistema de arquivos"
+msgstr "Επιλέξτε το σύστημα αρχείων"
+
+msgid ""
+"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada "
+"para /boot e SWAP."
+msgstr ""
+"Απόδοση με συμπίεση δεδομένων, σημεία επαναφοράς, δεν χρειάζεται ξεχωριστή κατάτμηση για /boot και "
+"SWAP."
+
+msgid "ESCOLHER"
+msgstr "ΕΠΙΛΈΓΩ"
+
+msgid "EXT4"
+msgstr "ΕΣΩΤ4"
+
+msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
+msgstr "Υποστηρίζει πίνακες διαμέρισης παλαιού τύπου και υποστηρίζει το σύστημα αρχείων EXT4."

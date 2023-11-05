@@ -461,3 +461,114 @@ msgstr "Sisselogimise haldur:"
 
 msgid "BTRFS"
 msgstr "BTRFS"
+
+msgid "Opções avançadas"
+msgstr "Täpsemad valikud"
+
+msgid "Escolha a opção desejada"
+msgstr "Valige soovitud suvand"
+
+msgid "Big Community"
+msgstr "Suur kogukond"
+
+msgid ""
+"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, "
+"promovendo um ambiente colaborativo inovador."
+msgstr ""
+"BigLinuxis on võimalik süsteemi kohandada ja loomingut teiste kasutajatega jagada, edendades "
+"uuenduslikku koostöökeskkonda."
+
+msgid "ABRIR"
+msgstr "AVAMA"
+
+msgid "Minimal"
+msgstr "Minimaalne"
+
+msgid ""
+"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente "
+"personalizada."
+msgstr "Mininalis otsustate, milliseid programme installida, tagades väga isikupärastatud kogemuse."
+
+msgid "Padrão"
+msgstr "Muster"
+
+msgid "Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
+msgstr "Vaikimisi installimisel kasutatakse varem valitud failisüsteemi."
+
+msgid "Manutenção"
+msgstr "Hooldus"
+
+msgid "Restaurar configurações do sistema instalado"
+msgstr "Taastage installitud süsteemi seaded"
+
+msgid ""
+"Utilitário que facilita a restauração do sistema instalado, principalmente a restauração do boot do "
+"sistema (Grub). Também pode ser utilizado para acessar o gerenciador de pacotes e o terminal do "
+"sistema instalado."
+msgstr ""
+"Utiliit, mis hõlbustab installitud süsteemi taastamist, eriti süsteemi alglaadimise taastamist "
+"(Grub). Seda saab kasutada ka paketihalduri ja installitud süsteemi terminali juurde pääsemiseks."
+
+msgid "Snapshot e backups"
+msgstr "Hetktõmmis ja varukoopiad"
+
+msgid "Sistema em modo live. Restaure pontos de restauração do sistema instalado."
+msgstr "Süsteem reaalajas režiimis. Taastage taastepunktid installitud süsteemist."
+
+msgid "AVANÇADO"
+msgstr "TÄPSEM"
+
+msgid "Instalação Minimal"
+msgstr "Minimaalne paigaldus"
+
+msgid "Quais pacotes deseja instalar?"
+msgstr "Milliseid pakette soovite installida?"
+
+msgid ""
+"Dificilmente você precisa reinstalar! Desenvolvemos ferramentas que facilitam a manutenção do "
+"sistema instalado."
+msgstr "Vaevalt peate uuesti installima! Arendame tööriistu, mis hõlbustavad paigaldatud süsteemi hooldust."
+
+msgid "RESTAURAR"
+msgstr "TAASTADA"
+
+msgid "Dicas de Instalação"
+msgstr "Paigaldamise näpunäited"
+
+msgid ""
+"Utilize partição BTRFS para ter compressão automática e pontos de restauração. Não crie partição "
+"/boot separada. Não crie partição SWAP, utilizamos gerênciamento dinâmico de memória virtual."
+msgstr ""
+"Automaatsete tihendus- ja taastepunktide saamiseks kasutage BTRFS-i partitsiooni. Ärge looge eraldi "
+"/boot partitsiooni. Ärge looge SWAP partitsiooni, me kasutame dünaamilist virtuaalse mälu haldamist."
+
+msgid ""
+"É um usuário avançado e deseja fazer uma instalação personalizada? Possuimos diversas "
+"possibilidades para o sistema atender suas necessidades."
+msgstr ""
+"Kas olete edasijõudnud kasutaja ja soovite teha kohandatud installi? Meil on mitmeid võimalusi, et "
+"süsteem vastaks teie vajadustele."
+
+msgid ""
+"Esse é um sistema colaborativo, se precisar de ajuda consulte nosso fórum: "
+"https://forum.biglinux.com.br. Contamos com você para ter um sistema cada vez melhor!"
+msgstr ""
+"See on koostöösüsteem, kui vajate abi, vaadake meie foorumit: https://forum.biglinux.com.br. "
+"Loodame, et teil on parem ja parem süsteem!"
+
+msgid "Escolha o sistema de arquivos"
+msgstr "Valige failisüsteem"
+
+msgid ""
+"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada "
+"para /boot e SWAP."
+msgstr "Jõudlus andmete tihendamise, taastepunktide, /boot ja SWAP jaoks pole vaja eraldi partitsiooni."
+
+msgid "ESCOLHER"
+msgstr "VALIDA"
+
+msgid "EXT4"
+msgstr "EXT4"
+
+msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
+msgstr "Toetab pärandjaotustabeleid ja toetab EXT4-failisüsteemi."

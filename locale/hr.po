@@ -464,3 +464,120 @@ msgstr "Upravitelj prijave:"
 
 msgid "BTRFS"
 msgstr "BTRFS"
+
+msgid "Opções avançadas"
+msgstr "Dodatne mogućnosti"
+
+msgid "Escolha a opção desejada"
+msgstr "Odaberite željenu mogućnost"
+
+msgid "Big Community"
+msgstr "Velika zajednica"
+
+msgid ""
+"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, "
+"promovendo um ambiente colaborativo inovador."
+msgstr ""
+"U BigLinuxu je moguće prilagoditi sustav i dijeliti kreacije s drugim korisnicima, promičući "
+"inovativno suradničko okruženje."
+
+msgid "ABRIR"
+msgstr "OTVOREN"
+
+msgid "Minimal"
+msgstr "Minimalan"
+
+msgid ""
+"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente "
+"personalizada."
+msgstr ""
+"U tvrtki Mininal odlučujete koje ćete programe instalirati, osiguravajući visoko personalizirano "
+"iskustvo."
+
+msgid "Padrão"
+msgstr "Uzorak"
+
+msgid "Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
+msgstr "Zadana instalacija koristit će datotečni sustav koji ste ranije odabrali."
+
+msgid "Manutenção"
+msgstr "Održavanje"
+
+msgid "Restaurar configurações do sistema instalado"
+msgstr "Vraćanje instaliranih postavki sustava"
+
+msgid ""
+"Utilitário que facilita a restauração do sistema instalado, principalmente a restauração do boot do "
+"sistema (Grub). Também pode ser utilizado para acessar o gerenciador de pacotes e o terminal do "
+"sistema instalado."
+msgstr ""
+"Uslužni program koji olakšava obnovu instaliranog sustava, posebno vraćanje pokretanja sustava "
+"(Grub). Također se može koristiti za pristup upravitelju paketa i terminalu instaliranog sustava."
+
+msgid "Snapshot e backups"
+msgstr "Snimka i sigurnosne kopije"
+
+msgid "Sistema em modo live. Restaure pontos de restauração do sistema instalado."
+msgstr "Sustav u načinu rada uživo. Vratite točke vraćanja iz instaliranog sustava."
+
+msgid "AVANÇADO"
+msgstr "NAPREDAN"
+
+msgid "Instalação Minimal"
+msgstr "Minimalna instalacija"
+
+msgid "Quais pacotes deseja instalar?"
+msgstr "Koje pakete želite instalirati?"
+
+msgid ""
+"Dificilmente você precisa reinstalar! Desenvolvemos ferramentas que facilitam a manutenção do "
+"sistema instalado."
+msgstr ""
+"Teško da trebate ponovno instalirati! Razvijamo alate koji olakšavaju održavanje instaliranog "
+"sustava."
+
+msgid "RESTAURAR"
+msgstr "VRATITI"
+
+msgid "Dicas de Instalação"
+msgstr "Savjeti za instalaciju"
+
+msgid ""
+"Utilize partição BTRFS para ter compressão automática e pontos de restauração. Não crie partição "
+"/boot separada. Não crie partição SWAP, utilizamos gerênciamento dinâmico de memória virtual."
+msgstr ""
+"Koristite BTRFS particiju za automatsko sažimanje i točke vraćanja. Nemojte stvarati zasebnu "
+"particiju /boot. Ne stvarajte SWAP particiju, koristimo dinamičko upravljanje virtualnom memorijom."
+
+msgid ""
+"É um usuário avançado e deseja fazer uma instalação personalizada? Possuimos diversas "
+"possibilidades para o sistema atender suas necessidades."
+msgstr ""
+"Jeste li napredni korisnik i želite izvršiti prilagođenu instalaciju? Imamo nekoliko mogućnosti da "
+"sustav zadovolji vaše potrebe."
+
+msgid ""
+"Esse é um sistema colaborativo, se precisar de ajuda consulte nosso fórum: "
+"https://forum.biglinux.com.br. Contamos com você para ter um sistema cada vez melhor!"
+msgstr ""
+"Ovo je sustav suradnje, ako vam je potrebna pomoć provjerite naš forum: "
+"https://forum.biglinux.com.br. Računamo na to da ćete imati bolji i bolji sustav!"
+
+msgid "Escolha o sistema de arquivos"
+msgstr "Odabir datotečnog sustava"
+
+msgid ""
+"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada "
+"para /boot e SWAP."
+msgstr ""
+"Performanse s kompresijom podataka, točke vraćanja, nema potrebe za zasebnom particijom za /boot i "
+"SWAP."
+
+msgid "ESCOLHER"
+msgstr "IZABRATI"
+
+msgid "EXT4"
+msgstr "EXT4"
+
+msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
+msgstr "Podržava naslijeđene particionističke tablice i podržava datotečni sustav EXT4."

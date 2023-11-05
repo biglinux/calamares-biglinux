@@ -461,3 +461,117 @@ msgstr "Innskráningarstjóri:"
 
 msgid "BTRFS"
 msgstr "BTRFS"
+
+msgid "Opções avançadas"
+msgstr "Ítarlegir valkostir"
+
+msgid "Escolha a opção desejada"
+msgstr "Veldu valkostinn sem þú vilt"
+
+msgid "Big Community"
+msgstr "Stórt samfélag"
+
+msgid ""
+"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, "
+"promovendo um ambiente colaborativo inovador."
+msgstr ""
+"Í BigLinux er hægt að sérsníða kerfið og deila sköpun með öðrum notendum og stuðla að nýstárlegu "
+"samvinnuumhverfi."
+
+msgid "ABRIR"
+msgstr "OPINN"
+
+msgid "Minimal"
+msgstr "Lægstur"
+
+msgid ""
+"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente "
+"personalizada."
+msgstr "Hjá Mininal ákveður þú hvaða forrit á að setja upp og tryggir mjög persónulega upplifun."
+
+msgid "Padrão"
+msgstr "Mynstur"
+
+msgid "Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
+msgstr "Sjálfgefin uppsetning mun nota skráakerfið sem þú valdir áðan."
+
+msgid "Manutenção"
+msgstr "Viðhald"
+
+msgid "Restaurar configurações do sistema instalado"
+msgstr "Endurheimta uppsettar kerfisstillingar"
+
+msgid ""
+"Utilitário que facilita a restauração do sistema instalado, principalmente a restauração do boot do "
+"sistema (Grub). Também pode ser utilizado para acessar o gerenciador de pacotes e o terminal do "
+"sistema instalado."
+msgstr ""
+"Gagnsemi sem auðveldar endurreisn uppsett kerfi, sérstaklega endurheimt á kerfi stígvél (Lirfa). "
+"Það er einnig hægt að nota til að fá aðgang að pakkastjóranum og flugstöðinni í uppsetta kerfinu."
+
+msgid "Snapshot e backups"
+msgstr "Skyndimynd og afrit"
+
+msgid "Sistema em modo live. Restaure pontos de restauração do sistema instalado."
+msgstr "Kerfi í virkum ham. Endurheimta endurheimtarstaði úr uppsettu kerfi."
+
+msgid "AVANÇADO"
+msgstr "HÁÞRÓAÐUR"
+
+msgid "Instalação Minimal"
+msgstr "Lágmarks uppsetning"
+
+msgid "Quais pacotes deseja instalar?"
+msgstr "Hvaða pakka viltu setja upp?"
+
+msgid ""
+"Dificilmente você precisa reinstalar! Desenvolvemos ferramentas que facilitam a manutenção do "
+"sistema instalado."
+msgstr "Þú þarft varla að setja upp aftur! Við þróum verkfæri sem auðvelda viðhald uppsetta kerfisins."
+
+msgid "RESTAURAR"
+msgstr "ENDURHEIMTA"
+
+msgid "Dicas de Instalação"
+msgstr "Ábendingar um uppsetningu"
+
+msgid ""
+"Utilize partição BTRFS para ter compressão automática e pontos de restauração. Não crie partição "
+"/boot separada. Não crie partição SWAP, utilizamos gerênciamento dinâmico de memória virtual."
+msgstr ""
+"Notaðu BTRFS deildaskiptingu til að hafa sjálfvirka þjöppunar- og endurheimtarstaði. Ekki skal búa "
+"til sérstaka /boot skiptingu. Ekki búa til SWAP skipting, við notum dynamic raunverulegur minni "
+"stjórnun."
+
+msgid ""
+"É um usuário avançado e deseja fazer uma instalação personalizada? Possuimos diversas "
+"possibilidades para o sistema atender suas necessidades."
+msgstr ""
+"Ertu háþróaður notandi og vilt gera sérsniðna uppsetningu? Við höfum nokkra möguleika fyrir kerfið "
+"til að mæta þörfum þínum."
+
+msgid ""
+"Esse é um sistema colaborativo, se precisar de ajuda consulte nosso fórum: "
+"https://forum.biglinux.com.br. Contamos com você para ter um sistema cada vez melhor!"
+msgstr ""
+"Þetta er samstarfskerfi, ef þú þarft hjálp skaltu athuga vettvanginn okkar: "
+"https://forum.biglinux.com.br. Við treystum á að þú hafir betra og betra kerfi!"
+
+msgid "Escolha o sistema de arquivos"
+msgstr "Veldu skráarkerfið"
+
+msgid ""
+"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada "
+"para /boot e SWAP."
+msgstr ""
+"Árangur með gögn samþjöppun, skila aftur benda, neitun þörf fyrir a aðskilinn skipting fyrir "
+"stígvél og Skipti ."
+
+msgid "ESCOLHER"
+msgstr "VELJA"
+
+msgid "EXT4"
+msgstr "EXT4"
+
+msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
+msgstr "Styður eldri deildaskiptingartöflur og styður EXT4-skráakerfið."

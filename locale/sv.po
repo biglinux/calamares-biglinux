@@ -467,3 +467,122 @@ msgstr "Logga in Manager:"
 
 msgid "BTRFS"
 msgstr "BTRFS"
+
+msgid "Opções avançadas"
+msgstr "Avancerade alternativ"
+
+msgid "Escolha a opção desejada"
+msgstr "Välj det alternativ du vill ha"
+
+msgid "Big Community"
+msgstr "Stor gemenskap"
+
+msgid ""
+"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, "
+"promovendo um ambiente colaborativo inovador."
+msgstr ""
+"I BigLinux är det möjligt att anpassa systemet och dela skapelser med andra användare, vilket "
+"främjar en innovativ samarbetsmiljö."
+
+msgid "ABRIR"
+msgstr "ÖPPNA"
+
+msgid "Minimal"
+msgstr "Minimal"
+
+msgid ""
+"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente "
+"personalizada."
+msgstr ""
+"På Mini bestämmer du vilka program som ska installeras, vilket garanterar en mycket personlig "
+"upplevelse."
+
+msgid "Padrão"
+msgstr "Mönster"
+
+msgid "Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
+msgstr "Standardinstallationen använder det filsystem som du valde tidigare."
+
+msgid "Manutenção"
+msgstr "Underhåll"
+
+msgid "Restaurar configurações do sistema instalado"
+msgstr "Återställa installerade systeminställningar"
+
+msgid ""
+"Utilitário que facilita a restauração do sistema instalado, principalmente a restauração do boot do "
+"sistema (Grub). Também pode ser utilizado para acessar o gerenciador de pacotes e o terminal do "
+"sistema instalado."
+msgstr ""
+"Verktyg som underlättar återställningen av det installerade systemet, särskilt återställningen av "
+"systemstarten (Grub). Den kan också användas för att komma åt pakethanteraren och terminalen på det "
+"installerade systemet."
+
+msgid "Snapshot e backups"
+msgstr "Ögonblicksbilder och säkerhetskopior"
+
+msgid "Sistema em modo live. Restaure pontos de restauração do sistema instalado."
+msgstr "Systemet är i live-läge. Återställ återställningspunkter från det installerade systemet."
+
+msgid "AVANÇADO"
+msgstr "AVANCERAD"
+
+msgid "Instalação Minimal"
+msgstr "Minimal Installation"
+
+msgid "Quais pacotes deseja instalar?"
+msgstr "Vilka paket vill du installera?"
+
+msgid ""
+"Dificilmente você precisa reinstalar! Desenvolvemos ferramentas que facilitam a manutenção do "
+"sistema instalado."
+msgstr ""
+"Du behöver knappast installera om! Vi utvecklar verktyg som underlättar underhållet av det "
+"installerade systemet."
+
+msgid "RESTAURAR"
+msgstr "ÅTERSTÄLLA"
+
+msgid "Dicas de Instalação"
+msgstr "Installation Tips"
+
+msgid ""
+"Utilize partição BTRFS para ter compressão automática e pontos de restauração. Não crie partição "
+"/boot separada. Não crie partição SWAP, utilizamos gerênciamento dinâmico de memória virtual."
+msgstr ""
+"Använd BTRFS-partitionen för att ha automatiska komprimerings- och återställningspunkter. Skapa "
+"inte en separat /boot-partition. Skapa inte SWAP-partition, vi använder dynamisk virtuell "
+"minneshantering."
+
+msgid ""
+"É um usuário avançado e deseja fazer uma instalação personalizada? Possuimos diversas "
+"possibilidades para o sistema atender suas necessidades."
+msgstr ""
+"Är du en avancerad användare och vill göra en anpassad installation? Vi har flera möjligheter för "
+"systemet att möta dina behov."
+
+msgid ""
+"Esse é um sistema colaborativo, se precisar de ajuda consulte nosso fórum: "
+"https://forum.biglinux.com.br. Contamos com você para ter um sistema cada vez melhor!"
+msgstr ""
+"Detta är ett samarbetssystem, om du behöver hjälp kolla in vårt forum: "
+"https://forum.biglinux.com.br. Vi räknar med att du ska få ett bättre och bättre system!"
+
+msgid "Escolha o sistema de arquivos"
+msgstr "Välj filsystem"
+
+msgid ""
+"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada "
+"para /boot e SWAP."
+msgstr ""
+"Prestanda med datakomprimering, återställningspunkter, inget behov av en separat partition för "
+"/boot och SWAP."
+
+msgid "ESCOLHER"
+msgstr "VÄLJA"
+
+msgid "EXT4"
+msgstr "EXT4"
+
+msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
+msgstr "Stöder äldre partitioneringstabeller och stöder EXT4-filsystemet."

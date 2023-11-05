@@ -469,3 +469,121 @@ msgstr "Gerenciador de login:"
 
 msgid "BTRFS"
 msgstr "BTRFS"
+
+msgid "Opções avançadas"
+msgstr "Opções avançadas"
+
+msgid "Escolha a opção desejada"
+msgstr "Escolha a opção desejada"
+
+msgid "Big Community"
+msgstr "Big Community"
+
+msgid ""
+"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, "
+"promovendo um ambiente colaborativo inovador."
+msgstr ""
+"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, "
+"promovendo um ambiente colaborativo inovador."
+
+msgid "ABRIR"
+msgstr "ABRIR"
+
+msgid "Minimal"
+msgstr "Minimal"
+
+msgid ""
+"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente "
+"personalizada."
+msgstr ""
+"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente "
+"personalizada."
+
+msgid "Padrão"
+msgstr "Padrão"
+
+msgid "Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
+msgstr "Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
+
+msgid "Manutenção"
+msgstr "Manutenção"
+
+msgid "Restaurar configurações do sistema instalado"
+msgstr "Restaurar configurações do sistema instalado"
+
+msgid ""
+"Utilitário que facilita a restauração do sistema instalado, principalmente a restauração do boot do "
+"sistema (Grub). Também pode ser utilizado para acessar o gerenciador de pacotes e o terminal do "
+"sistema instalado."
+msgstr ""
+"Utilitário que facilita a restauração do sistema instalado, principalmente a restauração do boot do "
+"sistema (Grub). Também pode ser utilizado para acessar o gerenciador de pacotes e o terminal do "
+"sistema instalado."
+
+msgid "Snapshot e backups"
+msgstr "Snapshot e backups"
+
+msgid "Sistema em modo live. Restaure pontos de restauração do sistema instalado."
+msgstr "Sistema em modo live. Restaure pontos de restauração do sistema instalado."
+
+msgid "AVANÇADO"
+msgstr "AVANÇADO"
+
+msgid "Instalação Minimal"
+msgstr "Instalação Minimal"
+
+msgid "Quais pacotes deseja instalar?"
+msgstr "Quais pacotes deseja instalar?"
+
+msgid ""
+"Dificilmente você precisa reinstalar! Desenvolvemos ferramentas que facilitam a manutenção do "
+"sistema instalado."
+msgstr ""
+"Dificilmente você precisa reinstalar! Desenvolvemos ferramentas que facilitam a manutenção do "
+"sistema instalado."
+
+msgid "RESTAURAR"
+msgstr "RESTAURAR"
+
+msgid "Dicas de Instalação"
+msgstr "Dicas de Instalação"
+
+msgid ""
+"Utilize partição BTRFS para ter compressão automática e pontos de restauração. Não crie partição "
+"/boot separada. Não crie partição SWAP, utilizamos gerênciamento dinâmico de memória virtual."
+msgstr ""
+"Utilize partição BTRFS para ter compressão automática e pontos de restauração. Não crie partição "
+"/boot separada. Não crie partição SWAP, utilizamos gerênciamento dinâmico de memória virtual."
+
+msgid ""
+"É um usuário avançado e deseja fazer uma instalação personalizada? Possuimos diversas "
+"possibilidades para o sistema atender suas necessidades."
+msgstr ""
+"É um usuário avançado e deseja fazer uma instalação personalizada? Possuimos diversas "
+"possibilidades para o sistema atender suas necessidades."
+
+msgid ""
+"Esse é um sistema colaborativo, se precisar de ajuda consulte nosso fórum: "
+"https://forum.biglinux.com.br. Contamos com você para ter um sistema cada vez melhor!"
+msgstr ""
+"Esse é um sistema colaborativo, se precisar de ajuda consulte nosso fórum: "
+"https://forum.biglinux.com.br. Contamos com você para ter um sistema cada vez melhor!"
+
+msgid "Escolha o sistema de arquivos"
+msgstr "Escolha o sistema de arquivos"
+
+msgid ""
+"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada "
+"para /boot e SWAP."
+msgstr ""
+"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada "
+"para /boot e SWAP."
+
+msgid "ESCOLHER"
+msgstr "ESCOLHER"
+
+msgid "EXT4"
+msgstr "EXT4"
+
+msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
+msgstr "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
