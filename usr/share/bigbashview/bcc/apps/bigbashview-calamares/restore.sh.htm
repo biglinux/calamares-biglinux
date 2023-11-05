@@ -1,0 +1,135 @@
+#!/bin/bash
+##################################
+#  Author1:  Bruno Goncalves (www.biglinux.com.br) 
+#  Author2:  Rafael Ruscher (rruscher@gmail.com)  
+#  Date:     2022/02/28 
+#  Modified: 2023/11/04 
+#  
+#  Description: Calamares modified usage of BigLinux 
+#  
+# Licensed by GPL V2 or greaterf
+##################################
+
+export LANGUAGE=$(cat /tmp/big_language)
+export LANG=$(cat /tmp/big_language)
+ 
+#Translation
+LANGUAGE=$LANG:en
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=calamares-biglinux
+
+TXT_MAINTENANCE=$"Manutenção"
+
+TXT_MAINTENANCE_TITLE="$Escolha a opção desejada"
+
+TXT_GRUB=$"Restaurar configurações do sistema instalado"
+TXT_GRUB_DESC=$"Utilitário que facilita a restauração do sistema instalado, principalmente a restauração do boot do sistema (Grub). Também pode ser utilizado para acessar o gerenciador de pacotes e o terminal do sistema instalado."
+TXT_GRUB_BUTTON=$"ABRIR"
+
+TXT_SNAPSHOT=$"Snapshot e backups"
+TXT_SNAPSHOT_DESC=$"Sistema em modo live. Restaure pontos de restauração do sistema instalado."
+TXT_SNAPSHOT_BUTTON=$"AVANÇADO"
+
+BACK=$"VOLTAR"
+
+
+#Testing Verify Start
+if [ -n "$(cat /etc/big-release | grep -E "development|beta" )" ];then
+  File_to_go="desktop.sh.htm"
+else
+  File_to_go="wait.sh.htm"
+fi
+
+read -d $"" ShowText << EOF
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Imports -->
+    <link href="css/beer.min.css" rel="stylesheet">
+    <link href="css/biglinux.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- JS Imports -->
+    <script type="module" src="js/beer.min.js"></script>
+    <script type="module" src="js/material-dynamic-colors.min.js"></script>
+</head>
+
+<body class="dark" x-data="getItems()" x-init="loadConfig">
+
+<article class="small-blur no-padding secondary-container">
+  <nav class="padding">
+    <button class="circle transparent">
+      <img class="circle large tiny-padding" src="icon/maintenance.svg">
+    </button>
+    <h6 class="medium max center-align bold">
+      $TXT_MAINTENANCE
+    </h6>
+    <a href="/execute close$">
+      <button class="circle transparent">
+        <i>close</i>
+      </button>
+    </a>
+  </nav>
+
+  <h5 class="center-align small">$TXT_MAINTENANCE_TITLE</h5>
+  <div class="grid padding">
+  
+    <div class="s6">
+      <div class="fill medium-height middle-align center-align">
+        <div class="center-align small-padding">
+          <img class="extend square round extra" src="icon/biglinux-grub-restore.svg">
+          <h5 class="center-align">$TXT_GRUB</h5>
+          <p>$TXT_GRUB_DESC</p>
+          <div class="space"></div>
+          <nav class="center-align">
+            <button class="border tertiary" onclick="_run('biglinux-grub-restore')">
+              <i>done</i>
+              <span>$TXT_GRUB_BUTTON</span>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </div>        
+
+    <div class="s6">
+      <div class="fill medium-height middle-align center-align">
+        <div class="center-align small-padding">
+          <img class="extend square round extra" src="icon/timeshift.svg">
+          <h5 class="center-align">$TXT_SNAPSHOT</h5>
+          <p>$TXT_SNAPSHOT_DESC</p>
+          <div class="space"></div>
+          <nav class="center-align">
+            <button class="border tertiary" onclick="_run('timeshift-launcher')">
+              <i>done</i>
+              <span>$TXT_SNAPSHOT_BUTTON</span>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  <nav class="center-align padding">
+    <button class="no-border tertiary" onclick="window.location.href='index.sh.htm';">
+      <i>arrow_circle_left</i>
+      <span>$BACK</span>
+    </button>
+  </nav>
+
+  <label class="switch icon large-margin absolute bottom right">
+    <a class="circle small secondary" onclick="ui('mode', ui('mode') == 'dark' ? 'light' : 'dark')"><i>dark_mode</i></a>
+  </label>
+</article>
+<div class="overlay center-align middle-align" id="overlay"></div>
+</article>  
+  <script type="module" src="js/beer.min.js"></script>
+</body>  
+EOF
+echo "$ShowText" 
+

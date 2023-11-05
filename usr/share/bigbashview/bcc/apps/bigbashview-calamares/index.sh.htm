@@ -1,9 +1,9 @@
 #!/bin/bash
 ##################################
-#  Author1: Bruno Goncalves (www.biglinux.com.br) 
-#  Author2: Rafael Ruscher (rruscher@gmail.com)  
-#  Date:    2022/02/28 
-#  Modified:2023/04/03 
+#  Author1:  Bruno Goncalves (www.biglinux.com.br) 
+#  Author2:  Rafael Ruscher (rruscher@gmail.com)  
+#  Date:     2022/02/28 
+#  Modified: 2023/11/04 
 #  
 #  Description: Calamares modified usage of BigLinux 
 #  
@@ -18,17 +18,25 @@ LANGUAGE=$LANG:en
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=calamares-biglinux
 
-DEFAULT=$"PADRÃO"
-PERFORMANCE=$"DESEMPENHO"
-COMPATIBILITY=$"COMPATIBILIDADE"
-COMPRESS=$"Compacta os dados"
-SNAPSHOT=$"Pontos de restauração"
-FSYNC=$"Adia a gravação dos dados"
-OLD_PARTITION_TABLE=$"Funciona com tabelas de particionamento antigas"
-BTRFS=$"BTRFS"
-SELECT=$"SELECIONAR"
-TITLE=$"Instalar no HD"
-INFOBOOT=$"* Não utilize /boot separado"
+TXT_MAINTENANCE=$"Manutenção"
+TXT_MAINTENANCE_DESC=$"Dificilmente você precisa reinstalar! Desenvolvemos ferramentas que facilitam a manutenção do sistema instalado."
+TXT_MAINTENANCE_BUTTON=$"RESTAURAR"
+
+TXT_INSTALL=$"Dicas de Instalação"
+TXT_INSTALL_DESC=$"Utilize partição BTRFS para ter compressão automática e pontos de restauração. Não crie partição /boot separada. Não crie partição SWAP, utilizamos gerênciamento dinâmico de memória virtual."
+TXT_INSTALL_BUTTON=$"INSTALAR"
+
+TXT_ADVANCED=$"Opções avançadas"
+TXT_ADVANCED_DESC=$"É um usuário avançado e deseja fazer uma instalação personalizada? Possuimos diversas possibilidades para o sistema atender suas necessidades."
+TXT_ADVANCED_BUTTON=$"AVANÇADO"
+
+TXT_FORUM=$"Esse é um sistema colaborativo, se precisar de ajuda consulte nosso fórum: https://forum.biglinux.com.br. Contamos com você para ter um sistema cada vez melhor!"
+
+
+HEAD_MODE=$"O sistema está em modo"
+HEAD_KERNEL=$"e com o kernel"
+VERSION_KERNEL="$(uname -r | cut -f1 -d-)"
+VERSION_BIOS="$([ -d /sys/firmware/efi ] && echo ' UEFI' || echo ' BIOS (Legacy)')"
 
 #Testing Verify Start
 if [ -n "$(cat /etc/big-release | grep -E "development|beta" )" ];then
@@ -37,142 +45,116 @@ else
   File_to_go="wait.sh.htm"
 fi
 
+read -d $"" ShowText << EOF
+<!DOCTYPE html>
+<html>
 
-cat << EOF
 <head>
-  <meta charset="UTF-8">
-  <title>$TITLE</title>
-  <script src="/usr/share/bigbashview/bcc/materialize/js/jquery.js"></script>
-  <link rel="stylesheet" href="./style.css">
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Imports -->
+    <link href="css/beer.min.css" rel="stylesheet">
+    <link href="css/biglinux.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- JS Imports -->
+    <script type="module" src="js/beer.min.js"></script>
+    <script type="module" src="js/material-dynamic-colors.min.js"></script>
 </head>
-EOF
 
-# Get body tag with color light or not
-/usr/share/bigbashview/bcc/shell/getbgcolor.sh
+<body class="dark" x-data="getItems()" x-init="loadConfig">
 
-cat << EOF
-<div class="dark-light">
-    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
-    </svg>
-</div>
+<article class="small-blur no-padding secondary-container">
+  <nav class="padding">
+    <button class="circle transparent">
+      <i></i>
+    </button>
+      <h6 class="small max center-align">
+      $HEAD_MODE
+      &nbsp;
+      <p class="bold">
+      $VERSION_BIOS
+      </p>
+      &nbsp; 
+      $HEAD_KERNEL
+      &nbsp;
+      <p class="bold">$VERSION_KERNEL</p>
+    </h6>
+    <a href="/execute close$">
+      <button class="circle transparent">
+        <i>close</i>
+      </button>
+    </a>
+  </nav>
 
-<div class="Message">
-  <div class="Message-icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width: 30px;"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
-  </div>
-  <div class="Message-body">
-EOF
-
-echo "<div class=titleP>"
-echo $"Dicas antes da instalação:"
-
-
-echo "</div><div class=messageP>"
-echo "<div class=numberP>1</div>"
-
-echo $"Instale em uma partição Btrfs para ter Snapshots com pontos de restauração."
-
-echo "</div><div class=messageP>"
-echo "<div class=numberP>2</div>"
-
-echo $"Caso precise restaurar o sistema instalado, "
-echo "<div class=alertP2 onclick=\"_run('biglinux-grub-restore')\">"
-echo $"clique aqui."
-echo "</div> "
-
-echo "</div><div class=messageP>"
-echo "<div class=numberP>3</div>"
-
-echo $"O sistema gerencia automaticamente a Swap, "
-echo "<div class=alertP>"
-echo $"não crie uma partição Swap ou uma partição separada para /boot. "
-echo "</div> "
-echo $"Caso utilize UEFI, crie uma partição separada apenas para /boot/efi."
-
-echo "</div><br><br><br>"
-
-echo "<div class=ContinueButton>"
-echo '<a href="#" class="calamares-big-buttonP js-messageClose">'
-echo $"Continuar"
-echo '</a>'
-echo "</div></div>"
-
-cat << EOF
-
-</div>
-
-EOF
-
-echo '<div class=info>'
-echo $"O sistema está em modo"
-echo '<strong>'
-[ -d /sys/firmware/efi ] && echo ' UEFI' || echo ' BIOS (Legacy)'
-echo '</strong>'
-echo $"e com o kernel" 
-echo '<strong>'
-echo "$(uname -r | cut -f1 -d-)" 
-echo '</strong>'
-echo '</div>'
-
-cat << EOF
-
-  <div class="container"> 
-
-    <div class="panel calamares-big-table"> 
-      <div class="calamares-big-plan">
-        <img src="icon-big-enterprise-plain.png" alt="Enterprise" class="calamares-big-img" style="width: 100px;">
-        <h3 class="calamares-big-header">$PERFORMANCE</h3>
-        
-        <div class="p">
-        <div class="text-bullet-centered"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#459551" stroke="#459551" stroke-width="30" stroke-linecap="round" d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"/></svg></div>
-        <nobr>$COMPRESS</nobr>
+  <div class="grid padding">
+  
+    <div class="s12 l4">
+      <div class="fill medium-height middle-align center-align">
+        <div class="center-align small-padding">
+          <img class="square round extra" src="icon/maintenance.svg">
+          <h5 class="center-align">$TXT_MAINTENANCE</h5>
+          <p>$TXT_MAINTENANCE_DESC</p>
+          <div class="space"></div>
+          <nav class="center-align">
+            <button class="border tertiary" onclick="window.location.href='restore.sh.htm';">
+              <i>settings</i>
+              <span>$TXT_MAINTENANCE_BUTTON</span>
+            </button>
+          </nav>
         </div>
-        <div class="p">
-        <div class="text-bullet-centered"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#459551" stroke="#459551" stroke-width="30" stroke-linecap="round" d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"/></svg></div>
-        <nobr>$SNAPSHOT</nobr>
-        <span class="calamares-big-minileg">$INFOBOOT</span>
-        </div>
-        <div class="p">
-        <div class="text-bullet-centered"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="#ff593f" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg></div>
-        $OLD_PARTITION_TABLE
-        </div>
-        <div class="p"> </div>
-        
-        <span class="calamares-big-leg">$BTRFS</span>
-        <a href="$File_to_go?option=btrfs_disable_sync" class="calamares-big-button is-featured">$SELECT</a>
       </div>
-      
-      <div class="calamares-big-plan">
-        <img src="icon-big-antonov-plain.png" alt="Antonov-225 Mriya" class="calamares-big-img" style="width: 100px;">
-        <h3 class="calamares-big-header">$COMPATIBILITY</h3>
-        
-        <div class="p">
-        <div class="text-bullet-centered"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="#ff593f" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg></div>
-        <nobr>$COMPRESS</nobr>
+    </div>        
+
+    <div class="s12 l4">
+      <div class="fill medium-height middle-align center-align">
+        <div class="center-align small-padding">
+          <img class="square round extra" src="icon/install.svg">
+          <h5 class="center-align">$TXT_INSTALL</h5>
+          <p>$TXT_INSTALL_DESC</p>
+          <div class="space"></div>
+          <nav class="center-align">
+            <button class="border tertiary" onclick="window.location.href='wait.sh.htm?option=btrfs_disable_sync';">
+              <i>install_desktop</i>
+              <span>$TXT_INSTALL_BUTTON</span>
+            </button>
+          </nav>
         </div>
-        <div class="p ajust">
-        <div class="text-bullet-centered"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="#ff593f" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg></div>
-        <nobr>$SNAPSHOT</nobr>
-        </div>
-        <div class="p">
-        <div class="text-bullet-centered"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#459551" stroke="#459551" stroke-width="30" stroke-linecap="round" d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"/></svg></div>
-        $OLD_PARTITION_TABLE
-        </div>
-        <div class="p"> </div>
-        
-        <span class="calamares-big-leg">EXT4</span>
-        <a href="$File_to_go?option=ext4" class="calamares-big-button">$SELECT</a>
       </div>
     </div>
-  </div>
+    
+    <div class="s12 l4">
+      <div class="fill medium-height middle-align center-align">
+        <div class="center-align small-padding">
+          <img class="square round extra" src="icon/advanced.svg">
+          <h5 class="center-align">$TXT_ADVANCED</h5>
+          <p>$TXT_ADVANCED_DESC</p>
+          <div class="space"></div>
+          <nav class="center-align">
+            <button class="border tertiary" onclick="window.location.href='file-system.sh.htm';">
+              <i>tune</i>
+              <span>$TXT_ADVANCED_BUTTON</span>
+            </button>                
+          </nav>
+        </div>
+      </div>
+    </div>
 
-  <div class="logo">
-      <img id="btn-big" src="logo.svg" class="logo-biglinux">
   </div>
-<script  src="./script.js"></script>
-
-</body>
-</html>
+  <div class="center-align large-padding">
+    <a href="#" onclick="_run('./url.run https://forum.biglinux.com.br/')">$TXT_FORUM</a>
+    <i></i>
+  </div>
+    <label class="switch icon large-margin absolute bottom right">
+        <a class="circle small secondary" onclick="ui('mode', ui('mode') == 'dark' ? 'light' : 'dark')"><i>dark_mode</i></a>
+    </label>
+</article>
+<div class="overlay center-align middle-align" id="overlay"></div>
+</article>  
+  <script type="module" src="js/beer.min.js"></script>
+</body>  
 EOF
+echo "$ShowText" 
 
