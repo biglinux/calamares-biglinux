@@ -1,0 +1,263 @@
+#!/bin/bash
+##################################
+#  Author1:  Bruno Goncalves (www.biglinux.com.br) 
+#  Author2:  Rafael Ruscher (rruscher@gmail.com)  
+#  Date:     2022/02/28 
+#  Modified: 2023/11/06 
+#  
+#  Description: Calamares modified usage of BigLinux 
+#  
+# Licensed by GPL V2 or greaterf
+##################################
+
+export LANGUAGE=$(cat /tmp/big_language)
+export LANG=$(cat /tmp/big_language)
+ 
+#Translation
+LANGUAGE=$LANG:en
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=calamares-biglinux
+
+DEFAULT=$"PADRÃO"
+CUSTOM=$"PERSONALIZADA"
+CONFIRM_AND_INSTALL=$"CONFIRMAR"
+DEFAULT_OR_CUSTOM_TITLE=$"ESCOLHA O DESKTOP"
+CUSTOM_OR_MINIMAL=$"INSTALAR COM MENOS PROGRAMAS OU UTILIZAR OUTRO DESKTOP?"
+CUSTOM_OR_MINIMAL_DESC=$"Para instalar outro desktop será necessário fazer o download durante a instalação, o tempo de instalação vai depender da velocidade da internet."
+SECOND_CONFIRM_CUSTOM=$"REALMENTE DESEJA INSTALAR OUTRO DESKTOP?"
+SECOND_CONFIRM_CUSTOM_DESC=$"O BigLinux foi elaborado e testado em sua instalação padrão, outros desktops são mantidos por usuários da comunidade BigLinux e possuem menos personalizações e testes, deseja realmente prosseguir?"
+LESS_PKGS=$"MENOS PROGRAMAS"
+OTHER_DESKTOP=$"OUTROS DESKTOPS"
+OTHER_DESKTOP_CONFIRM=$"UTILIZAR REALMENTE OUTRO DESKTOP"
+DEFAULT_OR_CUSTOM_TITLE_DESC=$"Em caso de dúvidas faça a instalação padrão, opções personalizadas devem ser utilizadas apenas por usuários experientes."
+BACK_DEFAULT=$"VOLTAR"
+SELECT=$"SELECIONAR"
+CUSTOM_PKGS=$"Personalizar a instalação:"
+INSTALLPACKAGES=$"Pacotes para instalar:"
+REMOVEPACKAGES=$"Pacotes para remover:"
+LOGINMANAGER=$"Gerenciador de login:"
+
+
+
+
+BACK=$"VOLTAR"
+
+TXT_TITLE=$"Opções avançadas"
+TXT_TITLE_DESC=$"Escolha o sistema de arquivos"
+
+TXT_BTRFS=$"BTRFS"
+TXT_BTRFS_DESC=$"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada para /boot e SWAP."
+TXT_BTRFS_BUTTON=$"ESCOLHER"
+
+TXT_EXT4=$"EXT4"
+TXT_EXT4_DESC=$"Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
+TXT_EXT4_BUTTON=$"ESCOLHER"
+
+
+#Testing Verify Start
+if [ -n "$(cat /etc/big-release | grep -E "development|beta" )" ];then
+  File_to_go="desktop.sh.htm"
+else
+  File_to_go="wait.sh.htm"
+fi
+
+read -d $"" ShowText << EOF
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Imports -->
+    <link href="css/beer.min.css" rel="stylesheet">
+    <link href="css/biglinux.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- JS Imports -->
+    <script type="module" src="js/beer.min.js"></script>
+    <script type="module" src="js/material-dynamic-colors.min.js"></script>
+</head>
+
+<body class="dark" x-data="getItems()" x-init="loadConfig">
+
+<article>
+
+  <nav class="padding">
+    <button class="circle transparent">
+      <img class="circle large tiny-padding" src="icon/advanced.svg">
+    </button>
+    <h6 class="medium max center-align bold">
+      Instalação Personalizada
+    </h6>
+    <a href="/execute close$">
+      <button class="circle transparent">
+        <i>close</i>
+      </button>
+    </a>
+  </nav>
+  
+  <form action=selected_desktop_verify_pkgs.sh.htm>
+
+  <input type="hidden" id="use_custom_desktop" name="use_custom_desktop" value="yes">
+  <input type="hidden" id="option" name="option" value="$option">
+  <input type="hidden" id="desktop_selected" name="desktop_selected" value="$desktop_selected">  
+
+  <div class="padding">   
+    <h5 class="center-align small">Quais pacotes deseja instalar?</h5>
+
+    <div class="small-space"></div>
+    <div class="field label border fill">
+      <input type="text" value="sddm" id="login_manager" name="login_manager">
+      <label>Gerenciador de login</label>
+      <span class="helper">Obrigatório</span>
+    </div>  
+  </div>  
+  
+  <dialog class="modal active" id="dialog-modal-info">
+    <h5>Instruções</h5>
+    <div>
+    <a href="https://forum.biglinux.com.br/t/biglinuxcommunity" target="_blank">
+    <h6 class="small">Você tem a oportunidade de personalizar o BigLinux ao seu gosto e compartilhar suas criações com a comunidade através do nosso fórum. Além disso, pode aproveitar as personalizações já feitas por outros usuários. Estamos inovando no conceito de sistema colaborativo!<br><br>
+
+Para encontrar ou enviar personalizações, visite a seção Community no fórum em https://forum.biglinux.com.br/t/biglinuxcommunity.<br><br>
+
+Para iniciar a instalação, simplesmente indique quais programas você deseja instalar ou remover, escolha o gerenciador de login e siga os passos. Somente são aceitos programas provenientes dos repositórios oficiais. Você pode encontrar esses programas na BigStore ou usando o comando pacman -Ss.
+    </a>
+    </h6>
+    </div>
+    <nav class="right-align">
+      
+      <a class="chip" onclick="_run('./url.run https://forum.biglinux.com.br/t/biglinuxcommunity/')">
+        <span>Fórum Community</span>
+      </a>
+      
+      <a class="chip" data-ui="#dialog-modal-info">
+        <span>Continuar</span>
+      </a>
+      
+    </nav>
+  </dialog>  
+  
+  <dialog class="modal" id="dialog-modal">
+    <h5>Instruções do Pacotes para Instalação</h5>
+    <div class="row">
+      <i class="light-green-text">check_circle</i>
+      <div class="max">
+        <h5 class="small bold">Passo 1: Acesso ao Fórum</h5>
+        <p>Acesse o fórum BigLinux Community em https://forum.biglinux.com.br/t/biglinuxcommunity.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <i class="light-green-text">check_circle</i>
+      <div class="max">
+        <h5 class="small bold">Passo 2: Baixe ou copie a lista desejada do fórum</h5>
+      </div>
+    </div> 
+
+    <div class="row">
+      <i class="light-green-text">check_circle</i>
+      <div class="max">
+        <h5 class="small bold">Passo 3: Preencha com Lista de Pacotes</h5>
+        <p>Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a lista esteja corretamente preenchida.</p>
+      </div>
+    </div>    
+
+    <nav class="right-align">
+      <a class="chip circle">
+        <i>attach_file</i>
+        <input type="file" id="fileInput">
+      </a>      
+      <a class="chip" data-ui="#dialog-modal">Continuar</a>
+    </nav>
+  </dialog>  
+  
+  <dialog class="modal" id="dialog-modal2">
+    <h5>Instruções do Pacotes a Remover</h5>
+    <div class="row">
+      <i class="light-green-text">check_circle</i>
+      <div class="max">
+        <h5 class="small bold">Passo 1: Acesso ao Fórum</h5>
+        <p>Acesse o fórum BigLinux Community em https://forum.biglinux.com.br/t/biglinuxcommunity.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <i class="light-green-text">check_circle</i>
+      <div class="max">
+        <h5 class="small bold">Passo 2: Baixe ou copie a lista desejada do fórum</h5>
+      </div>
+    </div> 
+
+    <div class="row">
+      <i class="light-green-text">check_circle</i>
+      <div class="max">
+        <h5 class="small bold">Passo 3: Preencha com Lista de Pacotes</h5>
+        <p>Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a lista esteja corretamente preenchida.</p>
+      </div>
+    </div>    
+
+    <nav class="right-align">
+      <a class="chip circle">
+        <i>attach_file</i>
+        <input type="file" id="fileInput2">
+      </a>      
+      <a class="chip" data-ui="#dialog-modal2">Continuar</a>
+    </nav>
+  </dialog>  
+
+  <div class="grid no-space">
+    <div class="s6 padding">
+      <h5 class="center-align small bold">Pacotes para Instalação</h5>
+      <div class="field textarea extra border fill">
+        <textarea id="install_packages" name="install_packages"></textarea>
+        <span class="helper">Obrigatório</span>
+      
+          <a href="#" class="square round extra elevate large-margin" data-ui="#dialog-modal">
+            <i>attach_file</i>
+          </a> 
+          
+      </div>
+    </div>
+
+    <div class="s6 padding">   
+      <h5 class="center-align small bold">Pacotes a Remover</h5>
+      <div class="field textarea extra border fill">
+        <textarea id="remove_packages" name="remove_packages"></textarea>
+        <span class="helper"></span>
+      
+          <a href="#" class="square round extra elevate large-margin" data-ui="#dialog-modal2">
+            <i>attach_file</i>
+          </a>
+          
+      </div>
+    </div>
+  </div>
+
+  <nav class="center-align padding">
+    <a class="button no-border tertiary" onclick="window.location.href='desktop.sh.htm?option=$option';">
+      <i>arrow_circle_left</i>
+      <span>$BACK</span>
+    </a>
+    <button class="no-border tertiary" type="submit" value="$CONFIRM_AND_INSTALL">
+      <i>check_circle</i>
+      <span>$CONFIRM_AND_INSTALL</span>
+    </button>
+  </nav>
+
+</form>
+
+  <label class="switch icon large-margin absolute bottom right">
+    <a class="circle small secondary" onclick="ui('mode', ui('mode') == 'dark' ? 'light' : 'dark')"><i>dark_mode</i></a>
+  </label>
+  
+</article>
+<div class="overlay center-align middle-align" id="overlay"></div>
+  <script type="module" src="js/beer.min.js"></script>
+</body>  
+EOF
+echo "$ShowText"
+
+
