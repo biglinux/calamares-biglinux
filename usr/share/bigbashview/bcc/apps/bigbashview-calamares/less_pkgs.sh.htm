@@ -113,10 +113,10 @@ read -d $"" ShowText << EOF
   </div>
   
   <nav class="center-align padding">
-    <button class="no-border tertiary" onclick="window.location.href='file-system.sh.htm';">
+    <a class="button no-border tertiary" onclick="window.location.href='file-system.sh.htm';">
       <i>arrow_circle_left</i>
       <span>$BACK</span>
-    </button>
+    </a>
     
     <button class="no-border tertiary" type="submit" value="$CONFIRM_AND_INSTALL">
       <i>install_desktop</i>
@@ -131,8 +131,8 @@ read -d $"" ShowText << EOF
 <div class="overlay center-align middle-align" id="overlay"></div>
 </article>  
 
-  <script  src="./script.js"></script>
-  <script type="module" src="js/beer.min.js"></script>
+  <script  src="js/biglinux.js"></script>
+  
 </body>  
 EOF
 echo "$ShowText"
