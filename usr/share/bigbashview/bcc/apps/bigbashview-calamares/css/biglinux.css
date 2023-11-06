@@ -45,8 +45,8 @@ body.light {
 }
 
 body.dark {
-  --primary:#304065;
-  --on-primary:#00344f;
+  --primary:#e2e2e5;
+  --on-primary:#3a6df0;
   --primary-container:#004b70;
   --on-primary-container:#cae6ff;
   --secondary:#21242d;
@@ -88,7 +88,6 @@ body.dark {
   --elevate3: 0 0.375rem 0.75rem 0 rgb(0 0 0 / 0.48);
   --body: transparent;
 }
-
 
 /* SCROLL BARRA DE ROLAGEM */
 ::-webkit-scrollbar {

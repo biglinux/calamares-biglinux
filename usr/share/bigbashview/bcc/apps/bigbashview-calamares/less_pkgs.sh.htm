@@ -17,6 +17,8 @@ export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=calamares-biglinux
 
 BACK=$"VOLTAR"
+CONFIRM_AND_INSTALL=$"CONFIRMAR"
+
 SELECT_ALL=$"REMOVER TODOS"
 SELECT_NONE=$"INSTALAR TODOS"
 
@@ -121,12 +123,11 @@ read -d $"" ShowText << EOF
       <span>$BACK</span>
     </a>
 
+    
 
-
-    <button class="no-border tertiary">
-      <input type="submit" class="no-border tertiary" value="$CONFIRM_AND_INSTALL">
-      <i>install_desktop</i>
-      <span>INSTALAR</span>
+    <button class="no-border tertiary" type="submit" value="$CONFIRM_AND_INSTALL">
+      <i>check_circle</i>
+      <span>$CONFIRM_AND_INSTALL</span>
     </button>
   </nav>
   </form>
