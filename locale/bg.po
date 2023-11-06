@@ -580,3 +580,71 @@ msgstr "EXT4"
 
 msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
 msgstr "Поддържа наследени таблици за разделяне и поддържа файловата система EXT4."
+
+msgid "Gerenciador de login"
+msgstr "Мениджър за вход"
+
+msgid "Instalação Personalizada"
+msgstr "Инсталиране по избор"
+
+msgid "Instruções"
+msgstr "Инструкции"
+
+msgid ""
+"Você tem a oportunidade de personalizar o BigLinux ao seu gosto e compartilhar suas criações com a "
+"comunidade através do nosso fórum. Além disso, pode aproveitar as personalizações já feitas por "
+"outros usuários. Estamos inovando no conceito de sistema colaborativo!"
+msgstr ""
+"Имате възможност да персонализирате BigLinux по ваш вкус и да споделите творенията си с общността "
+"чрез нашия форум. Освен това можете да се възползвате от персонализациите, които вече са направени "
+"от други потребители. Ние правим нововъведения в концепцията за система за сътрудничество!"
+
+msgid "Para encontrar ou enviar personalizações, visite a seção Fórum Community"
+msgstr "За да намерите или изпратите персонализации, посетете раздела Форум на общността"
+
+msgid ""
+"Para iniciar a instalação, simplesmente indique quais programas você deseja instalar ou remover, "
+"escolha o gerenciador de login e siga os passos. Somente são aceitos programas provenientes dos "
+"repositórios oficiais. Você pode encontrar esses programas na BigStore ou usando o comando pacman "
+"-Ss."
+msgstr ""
+"За да стартирате инсталацията, просто посочете кои програми искате да инсталирате или премахнете, "
+"изберете мениджъра за вход и следвайте стъпките. Приемат се само програми от официални хранилища. "
+"Можете да намерите тези програми в BigStore или с помощта на командата pacman -SS."
+
+msgid "Obrigatório"
+msgstr "Задължителен"
+
+msgid "Fórum Community"
+msgstr "Форум на общността"
+
+msgid "Pacotes para Instalação"
+msgstr "Пакети за монтаж"
+
+msgid "Pacotes a Remover"
+msgstr "Пакети за премахване"
+
+msgid "Instruções do Pacotes para Instalação"
+msgstr "Инструкции за опаковката за инсталиране"
+
+msgid "Instruções do Pacotes a Remover"
+msgstr "Пакетни инструкции за премахване"
+
+msgid "Passo 1: Acesso ao Fórum"
+msgstr "Стъпка 1: Достъп до форума"
+
+msgid "Acesse o Fórum Community."
+msgstr "Отидете във форума на общността."
+
+msgid "Passo 2: Baixe ou copie a lista desejada do fórum"
+msgstr "Стъпка 2: Изтеглете или копирайте желания списък от форума"
+
+msgid "Passo 3: Preencha com Lista de Pacotes"
+msgstr "Стъпка 3: Попълнете списъка с пакети"
+
+msgid ""
+"Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a "
+"lista esteja corretamente preenchida."
+msgstr ""
+"Попълнете списъка с пакети във вашата система според инструкциите. Уверете се, че списъкът е "
+"попълнен правилно."

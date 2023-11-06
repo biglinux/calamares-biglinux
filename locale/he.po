@@ -565,3 +565,68 @@ msgstr "EXT4"
 
 msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
 msgstr "תומך בטבלאות מדור קודם לחלוקה למחיצות ותומך במערכת הקבצים EXT4."
+
+msgid "Gerenciador de login"
+msgstr "מנהל התחברות"
+
+msgid "Instalação Personalizada"
+msgstr "התקנה מותאמת אישית"
+
+msgid "Instruções"
+msgstr "הוראות"
+
+msgid ""
+"Você tem a oportunidade de personalizar o BigLinux ao seu gosto e compartilhar suas criações com a "
+"comunidade através do nosso fórum. Além disso, pode aproveitar as personalizações já feitas por "
+"outros usuários. Estamos inovando no conceito de sistema colaborativo!"
+msgstr ""
+"יש לך הזדמנות להתאים אישית את BigLinux לטעמך ולשתף את היצירות שלך עם הקהילה דרך הפורום שלנו. בנוסף, "
+"באפשרותך לנצל התאמות אישיות שכבר בוצעו על-ידי משתמשים אחרים. אנו מחדשים בתפיסה של מערכת שיתופית!"
+
+msgid "Para encontrar ou enviar personalizações, visite a seção Fórum Community"
+msgstr "כדי למצוא או לשלוח התאמות אישיות, בקר במקטע פורום הקהילה"
+
+msgid ""
+"Para iniciar a instalação, simplesmente indique quais programas você deseja instalar ou remover, "
+"escolha o gerenciador de login e siga os passos. Somente são aceitos programas provenientes dos "
+"repositórios oficiais. Você pode encontrar esses programas na BigStore ou usando o comando pacman "
+"-Ss."
+msgstr ""
+"כדי להתחיל בהתקנה, פשוט ציין אילו תוכניות ברצונך להתקין או להסיר, בחר את מנהל הכניסה ובצע את "
+"השלבים. רק תוכניות ממאגרים רשמיים מתקבלות. באפשרותך למצוא תוכניות אלה ב- BigStore או באמצעות הפקודה "
+"pacman -ss."
+
+msgid "Obrigatório"
+msgstr "חובה"
+
+msgid "Fórum Community"
+msgstr "פורום הקהילה"
+
+msgid "Pacotes para Instalação"
+msgstr "חבילות להתקנה"
+
+msgid "Pacotes a Remover"
+msgstr "חבילות להסרה"
+
+msgid "Instruções do Pacotes para Instalação"
+msgstr "הוראות אריזה להתקנה"
+
+msgid "Instruções do Pacotes a Remover"
+msgstr "הוראות אריזה להסרה"
+
+msgid "Passo 1: Acesso ao Fórum"
+msgstr "שלב 1: גש לפורום"
+
+msgid "Acesse o Fórum Community."
+msgstr "עבור אל פורום הקהילה."
+
+msgid "Passo 2: Baixe ou copie a lista desejada do fórum"
+msgstr "שלב 2: הורד או העתק את הרשימה הרצויה מהפורום"
+
+msgid "Passo 3: Preencha com Lista de Pacotes"
+msgstr "שלב 3: מלא רשימת חבילות"
+
+msgid ""
+"Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a "
+"lista esteja corretamente preenchida."
+msgstr "מלא את רשימת החבילות במערכת שלך בהתאם להוראות. ודא שהרשימה מולאו כראוי."

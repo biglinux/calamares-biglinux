@@ -578,3 +578,69 @@ msgstr "EXT4"
 
 msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
 msgstr "Tukee vanhoja osiointitaulukoita ja tukee EXT4-tiedostojärjestelmää."
+
+msgid "Gerenciador de login"
+msgstr "Kirjautumisen hallinta"
+
+msgid "Instalação Personalizada"
+msgstr "Mukautettu asennus"
+
+msgid "Instruções"
+msgstr "Ohjeet"
+
+msgid ""
+"Você tem a oportunidade de personalizar o BigLinux ao seu gosto e compartilhar suas criações com a "
+"comunidade através do nosso fórum. Além disso, pode aproveitar as personalizações já feitas por "
+"outros usuários. Estamos inovando no conceito de sistema colaborativo!"
+msgstr ""
+"Sinulla on mahdollisuus muokata BigLinuxia mieleiseksesi ja jakaa luomuksesi yhteisön kanssa "
+"foorumimme kautta. Lisäksi voit hyödyntää muiden käyttäjien jo tekemiä mukautuksia. Innovoimme "
+"yhteistyöjärjestelmän konseptissa!"
+
+msgid "Para encontrar ou enviar personalizações, visite a seção Fórum Community"
+msgstr "Voit etsiä tai lähettää mukautuksia yhteisön keskustelupalstan osiosta"
+
+msgid ""
+"Para iniciar a instalação, simplesmente indique quais programas você deseja instalar ou remover, "
+"escolha o gerenciador de login e siga os passos. Somente são aceitos programas provenientes dos "
+"repositórios oficiais. Você pode encontrar esses programas na BigStore ou usando o comando pacman "
+"-Ss."
+msgstr ""
+"Aloita asennus yksinkertaisesti ilmoittamalla, mitkä ohjelmat haluat asentaa tai poistaa, "
+"valitsemalla kirjautumishallinta ja noudattamalla ohjeita. Vain virallisten arkistojen ohjelmat "
+"hyväksytään. Löydät nämä ohjelmat BigStoresta tai käyttämällä pacman -Ss komentoa."
+
+msgid "Obrigatório"
+msgstr "Pakollinen"
+
+msgid "Fórum Community"
+msgstr "Yhteisön keskustelupalsta"
+
+msgid "Pacotes para Instalação"
+msgstr "Paketit asennusta varten"
+
+msgid "Pacotes a Remover"
+msgstr "Poistettavat paketit"
+
+msgid "Instruções do Pacotes para Instalação"
+msgstr "Pakkauksen asennusohjeet"
+
+msgid "Instruções do Pacotes a Remover"
+msgstr "Pakkauksen poisto-ohjeet"
+
+msgid "Passo 1: Acesso ao Fórum"
+msgstr "Vaihe 1: Siirry foorumille"
+
+msgid "Acesse o Fórum Community."
+msgstr "Siirry yhteisön keskustelupalstalle."
+
+msgid "Passo 2: Baixe ou copie a lista desejada do fórum"
+msgstr "Vaihe 2: Lataa tai kopioi haluamasi luettelo foorumista"
+
+msgid "Passo 3: Preencha com Lista de Pacotes"
+msgstr "Vaihe 3: Täytä pakettiluettelo"
+
+msgid ""
+"Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a "
+"lista esteja corretamente preenchida."
+msgstr "Täytä järjestelmän pakettiluettelo ohjeiden mukaisesti. Varmista, että luettelo on täytetty oikein."

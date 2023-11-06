@@ -583,3 +583,71 @@ msgstr "EXT4"
 
 msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
 msgstr "Støtter eldre partisjonstabeller og støtter EXT4-filsystemet."
+
+msgid "Gerenciador de login"
+msgstr "Logg inn Manager"
+
+msgid "Instalação Personalizada"
+msgstr "Tilpasset installasjon"
+
+msgid "Instruções"
+msgstr "Instruks"
+
+msgid ""
+"Você tem a oportunidade de personalizar o BigLinux ao seu gosto e compartilhar suas criações com a "
+"comunidade através do nosso fórum. Além disso, pode aproveitar as personalizações já feitas por "
+"outros usuários. Estamos inovando no conceito de sistema colaborativo!"
+msgstr ""
+"Du har muligheten til å tilpasse BigLinux etter eget ønske og dele kreasjonene dine med samfunnet "
+"gjennom forumet vårt. I tillegg kan du dra nytte av tilpasninger som allerede er gjort av andre "
+"brukere. Vi innoverer i begrepet samarbeidssystem!"
+
+msgid "Para encontrar ou enviar personalizações, visite a seção Fórum Community"
+msgstr "Hvis du vil finne eller sende inn tilpasninger, kan du gå til fellesskapsforumdelen"
+
+msgid ""
+"Para iniciar a instalação, simplesmente indique quais programas você deseja instalar ou remover, "
+"escolha o gerenciador de login e siga os passos. Somente são aceitos programas provenientes dos "
+"repositórios oficiais. Você pode encontrar esses programas na BigStore ou usando o comando pacman "
+"-Ss."
+msgstr ""
+"For å starte installasjonen, angi bare hvilke programmer du vil installere eller fjerne, velg "
+"påloggingsbehandling og følg trinnene. Bare programmer fra offisielle depoter aksepteres. Du finner "
+"disse programmene i BigStore eller ved å bruke kommandoen pacman -Ss."
+
+msgid "Obrigatório"
+msgstr "Obligatorisk"
+
+msgid "Fórum Community"
+msgstr "Forum for nettsamfunn"
+
+msgid "Pacotes para Instalação"
+msgstr "Pakker for installasjon"
+
+msgid "Pacotes a Remover"
+msgstr "Pakker som skal fjernes"
+
+msgid "Instruções do Pacotes para Instalação"
+msgstr "Pakkeinstruksjoner for installasjon"
+
+msgid "Instruções do Pacotes a Remover"
+msgstr "Pakkeinstruksjoner for å fjerne"
+
+msgid "Passo 1: Acesso ao Fórum"
+msgstr "Trinn 1: Få tilgang til forumet"
+
+msgid "Acesse o Fórum Community."
+msgstr "Gå til gruppeforumet."
+
+msgid "Passo 2: Baixe ou copie a lista desejada do fórum"
+msgstr "Trinn 2: Last ned eller kopier ønsket liste fra forumet"
+
+msgid "Passo 3: Preencha com Lista de Pacotes"
+msgstr "Trinn 3: Fyll ut pakkelisten"
+
+msgid ""
+"Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a "
+"lista esteja corretamente preenchida."
+msgstr ""
+"Fyll ut listen over pakker på systemet ditt i henhold til instruksjonene. Kontroller at listen er "
+"riktig utfylt."

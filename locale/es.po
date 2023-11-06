@@ -586,3 +586,71 @@ msgstr "EXT4"
 
 msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
 msgstr "Admite tablas de particionamiento heredadas y admite el sistema de archivos EXT4."
+
+msgid "Gerenciador de login"
+msgstr "Administrador de inicio de sesión"
+
+msgid "Instalação Personalizada"
+msgstr "Instalación personalizada"
+
+msgid "Instruções"
+msgstr "Instrucciones"
+
+msgid ""
+"Você tem a oportunidade de personalizar o BigLinux ao seu gosto e compartilhar suas criações com a "
+"comunidade através do nosso fórum. Além disso, pode aproveitar as personalizações já feitas por "
+"outros usuários. Estamos inovando no conceito de sistema colaborativo!"
+msgstr ""
+"Tienes la oportunidad de personalizar BigLinux a tu gusto y compartir tus creaciones con la "
+"comunidad a través de nuestro foro. Además, puede aprovechar las personalizaciones ya realizadas "
+"por otros usuarios. ¡Estamos innovando en el concepto de sistema colaborativo!"
+
+msgid "Para encontrar ou enviar personalizações, visite a seção Fórum Community"
+msgstr "Para encontrar o enviar personalizaciones, visite la sección Foro de la comunidad"
+
+msgid ""
+"Para iniciar a instalação, simplesmente indique quais programas você deseja instalar ou remover, "
+"escolha o gerenciador de login e siga os passos. Somente são aceitos programas provenientes dos "
+"repositórios oficiais. Você pode encontrar esses programas na BigStore ou usando o comando pacman "
+"-Ss."
+msgstr ""
+"Para iniciar la instalación, simplemente indique qué programas desea instalar o eliminar, elija el "
+"administrador de inicio de sesión y siga los pasos. Solo se aceptan programas de repositorios "
+"oficiales. Puede encontrar estos programas en la BigStore o usando el comando pacman -Ss."
+
+msgid "Obrigatório"
+msgstr "Obligatorio"
+
+msgid "Fórum Community"
+msgstr "Foro de la comunidad"
+
+msgid "Pacotes para Instalação"
+msgstr "Paquetes para la instalación"
+
+msgid "Pacotes a Remover"
+msgstr "Paquetes a eliminar"
+
+msgid "Instruções do Pacotes para Instalação"
+msgstr "Instrucciones del paquete para la instalación"
+
+msgid "Instruções do Pacotes a Remover"
+msgstr "Instrucciones del paquete para quitar"
+
+msgid "Passo 1: Acesso ao Fórum"
+msgstr "Paso 1: Accede al foro"
+
+msgid "Acesse o Fórum Community."
+msgstr "Ve al foro de la comunidad."
+
+msgid "Passo 2: Baixe ou copie a lista desejada do fórum"
+msgstr "Paso 2: Descargue o copie la lista deseada del foro"
+
+msgid "Passo 3: Preencha com Lista de Pacotes"
+msgstr "Paso 3: Rellena la lista de paquetes"
+
+msgid ""
+"Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a "
+"lista esteja corretamente preenchida."
+msgstr ""
+"Complete la lista de paquetes en su sistema de acuerdo con las instrucciones. Asegúrese de que la "
+"lista esté correctamente completada."

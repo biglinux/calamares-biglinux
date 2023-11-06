@@ -581,3 +581,69 @@ msgstr "EXT4"
 
 msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
 msgstr "Podržava naslijeđene particionističke tablice i podržava datotečni sustav EXT4."
+
+msgid "Gerenciador de login"
+msgstr "Upravitelj prijave"
+
+msgid "Instalação Personalizada"
+msgstr "Prilagođena instalacija"
+
+msgid "Instruções"
+msgstr "Upute"
+
+msgid ""
+"Você tem a oportunidade de personalizar o BigLinux ao seu gosto e compartilhar suas criações com a "
+"comunidade através do nosso fórum. Além disso, pode aproveitar as personalizações já feitas por "
+"outros usuários. Estamos inovando no conceito de sistema colaborativo!"
+msgstr ""
+"Imate priliku prilagoditi BigLinux po svom ukusu i podijeliti svoje kreacije sa zajednicom putem "
+"našeg foruma. Osim toga, možete iskoristiti prilagodbe koje su već napravili drugi korisnici. "
+"Inoviramo u konceptu suradničkog sustava!"
+
+msgid "Para encontrar ou enviar personalizações, visite a seção Fórum Community"
+msgstr "Da biste pronašli ili poslali prilagodbe, posjetite odjeljak Forum zajednice korisnika"
+
+msgid ""
+"Para iniciar a instalação, simplesmente indique quais programas você deseja instalar ou remover, "
+"escolha o gerenciador de login e siga os passos. Somente são aceitos programas provenientes dos "
+"repositórios oficiais. Você pode encontrar esses programas na BigStore ou usando o comando pacman "
+"-Ss."
+msgstr ""
+"Da biste pokrenuli instalaciju, jednostavno naznačite koje programe želite instalirati ili "
+"ukloniti, odaberite upravitelj prijave i slijedite korake. Prihvaćaju se samo programi iz službenih "
+"repozitorija. Te programe možete pronaći u BigStoreu ili pomoću naredbe pacman -SS."
+
+msgid "Obrigatório"
+msgstr "Obavezan"
+
+msgid "Fórum Community"
+msgstr "Forum zajednice"
+
+msgid "Pacotes para Instalação"
+msgstr "Paketi za instalaciju"
+
+msgid "Pacotes a Remover"
+msgstr "Paketi za uklanjanje"
+
+msgid "Instruções do Pacotes para Instalação"
+msgstr "Upute za pakiranje za instalaciju"
+
+msgid "Instruções do Pacotes a Remover"
+msgstr "Upute za pakiranje za uklanjanje"
+
+msgid "Passo 1: Acesso ao Fórum"
+msgstr "Korak 1: Pristup forumu"
+
+msgid "Acesse o Fórum Community."
+msgstr "Idite na forum zajednice."
+
+msgid "Passo 2: Baixe ou copie a lista desejada do fórum"
+msgstr "Korak 2: Preuzmite ili kopirajte željeni popis s foruma"
+
+msgid "Passo 3: Preencha com Lista de Pacotes"
+msgstr "Korak 3: Ispunite popis paketa"
+
+msgid ""
+"Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a "
+"lista esteja corretamente preenchida."
+msgstr "Ispunite popis paketa na svom sustavu prema uputama. Provjerite je li popis ispravno ispunjen."

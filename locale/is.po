@@ -575,3 +575,71 @@ msgstr "EXT4"
 
 msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
 msgstr "Styður eldri deildaskiptingartöflur og styður EXT4-skráakerfið."
+
+msgid "Gerenciador de login"
+msgstr "Innskráningarstjóri"
+
+msgid "Instalação Personalizada"
+msgstr "Sérsniðin uppsetning"
+
+msgid "Instruções"
+msgstr "Fyrirmæli"
+
+msgid ""
+"Você tem a oportunidade de personalizar o BigLinux ao seu gosto e compartilhar suas criações com a "
+"comunidade através do nosso fórum. Além disso, pode aproveitar as personalizações já feitas por "
+"outros usuários. Estamos inovando no conceito de sistema colaborativo!"
+msgstr ""
+"Þú hefur tækifæri til að aðlaga BigLinux að þínum óskum og deila sköpun þinni með samfélaginu í "
+"gegnum vettvang okkar. Að auki geturðu nýtt þér sérstillingar sem þegar hafa verið gerðar af öðrum "
+"notendum. Við erum nýsköpun í hugmyndinni um samvinnukerfi!"
+
+msgid "Para encontrar ou enviar personalizações, visite a seção Fórum Community"
+msgstr "Til að finna eða senda inn sérstillingar skaltu fara á Community Forum hlutann"
+
+msgid ""
+"Para iniciar a instalação, simplesmente indique quais programas você deseja instalar ou remover, "
+"escolha o gerenciador de login e siga os passos. Somente são aceitos programas provenientes dos "
+"repositórios oficiais. Você pode encontrar esses programas na BigStore ou usando o comando pacman "
+"-Ss."
+msgstr ""
+"Til að hefja uppsetninguna skaltu einfaldlega tilgreina hvaða forrit þú vilt setja upp eða "
+"fjarlægja, velja innskráningarstjóra og fylgja skrefunum. Aðeins forrit frá opinberum geymslum eru "
+"samþykkt. Þú getur fundið þessi forrit í BigStore eða með því að nota pacman -SS skipunina."
+
+msgid "Obrigatório"
+msgstr "Skylt"
+
+msgid "Fórum Community"
+msgstr "Samfélag Forum"
+
+msgid "Pacotes para Instalação"
+msgstr "Pakkar til uppsetningar"
+
+msgid "Pacotes a Remover"
+msgstr "Pakkar til að fjarlægja"
+
+msgid "Instruções do Pacotes para Instalação"
+msgstr "Leiðbeiningar um uppsetningu pakka"
+
+msgid "Instruções do Pacotes a Remover"
+msgstr "Leiðbeiningar um pakka til að fjarlægja"
+
+msgid "Passo 1: Acesso ao Fórum"
+msgstr "Skref 1: Aðgangur að Forum"
+
+msgid "Acesse o Fórum Community."
+msgstr "Farðu á Community Forum."
+
+msgid "Passo 2: Baixe ou copie a lista desejada do fórum"
+msgstr "Skref 2: Sæktu eða afritaðu listann sem þú vilt af vettvangi"
+
+msgid "Passo 3: Preencha com Lista de Pacotes"
+msgstr "Skref 3: Fylltu út pakkalista"
+
+msgid ""
+"Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a "
+"lista esteja corretamente preenchida."
+msgstr ""
+"Fylltu út lista yfir pakka á kerfinu þínu samkvæmt leiðbeiningunum. Gakktu úr skugga um að listinn "
+"sé rétt útfylltur."

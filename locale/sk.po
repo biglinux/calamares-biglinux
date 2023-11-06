@@ -577,3 +577,71 @@ msgstr "EXT4"
 
 msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
 msgstr "Podporuje staršie tabuľky rozdelenia a podporuje súborový systém EXT4."
+
+msgid "Gerenciador de login"
+msgstr "Správca prihlásenia"
+
+msgid "Instalação Personalizada"
+msgstr "Vlastná inštalácia"
+
+msgid "Instruções"
+msgstr "Inštrukcie"
+
+msgid ""
+"Você tem a oportunidade de personalizar o BigLinux ao seu gosto e compartilhar suas criações com a "
+"comunidade através do nosso fórum. Além disso, pode aproveitar as personalizações já feitas por "
+"outros usuários. Estamos inovando no conceito de sistema colaborativo!"
+msgstr ""
+"Máte možnosť prispôsobiť si BigLinux podľa svojich predstáv a zdieľať svoje výtvory s komunitou "
+"prostredníctvom nášho fóra. Okrem toho môžete využiť prispôsobenia, ktoré už vykonali iní "
+"používatelia. Inovujeme v koncepcii kolaboratívneho systému!"
+
+msgid "Para encontrar ou enviar personalizações, visite a seção Fórum Community"
+msgstr "Ak chcete nájsť alebo odoslať prispôsobenia, navštívte sekciu Fórum komunity"
+
+msgid ""
+"Para iniciar a instalação, simplesmente indique quais programas você deseja instalar ou remover, "
+"escolha o gerenciador de login e siga os passos. Somente são aceitos programas provenientes dos "
+"repositórios oficiais. Você pode encontrar esses programas na BigStore ou usando o comando pacman "
+"-Ss."
+msgstr ""
+"Ak chcete spustiť inštaláciu, jednoducho označte, ktoré programy chcete nainštalovať alebo "
+"odstrániť, vyberte správcu prihlásenia a postupujte podľa pokynov. Akceptované sú iba programy z "
+"oficiálnych repozitárov. Tieto programy nájdete v BigStore alebo pomocou príkazu pacman -SS."
+
+msgid "Obrigatório"
+msgstr "Povinný"
+
+msgid "Fórum Community"
+msgstr "Fórum komunity"
+
+msgid "Pacotes para Instalação"
+msgstr "Balíky pre inštaláciu"
+
+msgid "Pacotes a Remover"
+msgstr "Balíčky na odstránenie"
+
+msgid "Instruções do Pacotes para Instalação"
+msgstr "Pokyny na inštaláciu"
+
+msgid "Instruções do Pacotes a Remover"
+msgstr "Pokyny na balenie na odstránenie"
+
+msgid "Passo 1: Acesso ao Fórum"
+msgstr "Krok 1: Prístup na fórum"
+
+msgid "Acesse o Fórum Community."
+msgstr "Prejdite do fóra komunity."
+
+msgid "Passo 2: Baixe ou copie a lista desejada do fórum"
+msgstr "Krok 2: Stiahnite alebo skopírujte požadovaný zoznam z fóra"
+
+msgid "Passo 3: Preencha com Lista de Pacotes"
+msgstr "Krok 3: Vyplňte zoznam balíkov"
+
+msgid ""
+"Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a "
+"lista esteja corretamente preenchida."
+msgstr ""
+"Vyplňte zoznam balíkov vo vašom systéme podľa inštrukcií. Skontrolujte, či je zoznam správne "
+"vyplnený."

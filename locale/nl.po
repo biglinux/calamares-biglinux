@@ -584,3 +584,72 @@ msgstr "EXT4"
 
 msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
 msgstr "Ondersteunt verouderde partitioneringstabellen en ondersteunt het EXT4-bestandssysteem."
+
+msgid "Gerenciador de login"
+msgstr "Login Manager"
+
+msgid "Instalação Personalizada"
+msgstr "Installatie op maat"
+
+msgid "Instruções"
+msgstr "Aanwijzingen"
+
+msgid ""
+"Você tem a oportunidade de personalizar o BigLinux ao seu gosto e compartilhar suas criações com a "
+"comunidade através do nosso fórum. Além disso, pode aproveitar as personalizações já feitas por "
+"outros usuários. Estamos inovando no conceito de sistema colaborativo!"
+msgstr ""
+"Je hebt de mogelijkheid om BigLinux naar wens aan te passen en je creaties te delen met de "
+"community via ons forum. Bovendien kunt u profiteren van aanpassingen die al door andere gebruikers "
+"zijn gemaakt. We innoveren in het concept van een collaboratief systeem!"
+
+msgid "Para encontrar ou enviar personalizações, visite a seção Fórum Community"
+msgstr "Als u aanpassingen wilt zoeken of indienen, gaat u naar het gedeelte Communityforum"
+
+msgid ""
+"Para iniciar a instalação, simplesmente indique quais programas você deseja instalar ou remover, "
+"escolha o gerenciador de login e siga os passos. Somente são aceitos programas provenientes dos "
+"repositórios oficiais. Você pode encontrar esses programas na BigStore ou usando o comando pacman "
+"-Ss."
+msgstr ""
+"Om de installatie te starten, geeft u eenvoudig aan welke programma's u wilt installeren of "
+"verwijderen, kiest u de inlogbeheerder en volgt u de stappen. Alleen programma's uit officiële "
+"repositories worden geaccepteerd. Je kunt deze programma's vinden in de BigStore of door het pacman "
+"-Ss commando te gebruiken."
+
+msgid "Obrigatório"
+msgstr "Verplicht"
+
+msgid "Fórum Community"
+msgstr "Communautair forum"
+
+msgid "Pacotes para Instalação"
+msgstr "Pakketten voor installatie"
+
+msgid "Pacotes a Remover"
+msgstr "Pakketten om te verwijderen"
+
+msgid "Instruções do Pacotes para Instalação"
+msgstr "Pakketinstructies voor installatie"
+
+msgid "Instruções do Pacotes a Remover"
+msgstr "Instructies voor het verwijderen van de verpakking"
+
+msgid "Passo 1: Acesso ao Fórum"
+msgstr "Stap 1: Ga naar het forum"
+
+msgid "Acesse o Fórum Community."
+msgstr "Ga naar het communityforum."
+
+msgid "Passo 2: Baixe ou copie a lista desejada do fórum"
+msgstr "Stap 2: Download of kopieer de gewenste lijst van het forum"
+
+msgid "Passo 3: Preencha com Lista de Pacotes"
+msgstr "Stap 3: Vul de pakketlijst in"
+
+msgid ""
+"Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a "
+"lista esteja corretamente preenchida."
+msgstr ""
+"Vul de lijst met pakketten op uw systeem in volgens de instructies. Zorg ervoor dat de lijst "
+"correct is ingevuld."

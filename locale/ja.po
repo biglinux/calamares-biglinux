@@ -554,3 +554,67 @@ msgstr "EXT4の"
 
 msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
 msgstr "レガシーパーティショニングテーブルをサポートし、EXT4ファイルシステムをサポートします。"
+
+msgid "Gerenciador de login"
+msgstr "ログイン・マネージャー"
+
+msgid "Instalação Personalizada"
+msgstr "カスタムインストール"
+
+msgid "Instruções"
+msgstr "指示"
+
+msgid ""
+"Você tem a oportunidade de personalizar o BigLinux ao seu gosto e compartilhar suas criações com a "
+"comunidade através do nosso fórum. Além disso, pode aproveitar as personalizações já feitas por "
+"outros usuários. Estamos inovando no conceito de sistema colaborativo!"
+msgstr ""
+"BigLinuxを好みに合わせてカスタマイズし、フォーラムを通じてコミュニティと作品を共有する機会があります。さらに、他のユーザーが既に行ったカスタマイズを利用できます。私たちはコラボレーションシステ"
+"ムのコンセプトを革新しています!"
+
+msgid "Para encontrar ou enviar personalizações, visite a seção Fórum Community"
+msgstr "カスタマイズを検索または送信するには、コミュニティ フォーラム セクションにアクセスしてください"
+
+msgid ""
+"Para iniciar a instalação, simplesmente indique quais programas você deseja instalar ou remover, "
+"escolha o gerenciador de login e siga os passos. Somente são aceitos programas provenientes dos "
+"repositórios oficiais. Você pode encontrar esses programas na BigStore ou usando o comando pacman "
+"-Ss."
+msgstr ""
+"インストールを開始するには、インストールまたは削除するプログラムを指定し、ログインマネージャーを選択して、手順に従います。公式リポジトリのプログラムのみが受け入れられます。これらのプログラムは、Big"
+"Store または pacman -Ss コマンドを使用して見つけることができます。"
+
+msgid "Obrigatório"
+msgstr "義務的"
+
+msgid "Fórum Community"
+msgstr "コミュニティフォーラム"
+
+msgid "Pacotes para Instalação"
+msgstr "インストール用パッケージ"
+
+msgid "Pacotes a Remover"
+msgstr "削除するパッケージ"
+
+msgid "Instruções do Pacotes para Instalação"
+msgstr "インストールのためのパッケージの説明"
+
+msgid "Instruções do Pacotes a Remover"
+msgstr "パッケージから取り外す手順"
+
+msgid "Passo 1: Acesso ao Fórum"
+msgstr "ステップ1:フォーラムにアクセスする"
+
+msgid "Acesse o Fórum Community."
+msgstr "コミュニティ フォーラムに移動します。"
+
+msgid "Passo 2: Baixe ou copie a lista desejada do fórum"
+msgstr "ステップ2:フォーラムから目的のリストをダウンロードまたはコピーします"
+
+msgid "Passo 3: Preencha com Lista de Pacotes"
+msgstr "ステップ3:パッケージリストに記入する"
+
+msgid ""
+"Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a "
+"lista esteja corretamente preenchida."
+msgstr "指示に従って、システム上のパッケージのリストを入力します。リストが正しく入力されていることを確認してください。"

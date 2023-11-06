@@ -546,3 +546,63 @@ msgstr "分机4"
 
 msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
 msgstr "支持传统分区表，并支持 EXT4 文件系统。"
+
+msgid "Gerenciador de login"
+msgstr "登录管理器"
+
+msgid "Instalação Personalizada"
+msgstr "自定义安装"
+
+msgid "Instruções"
+msgstr "指示"
+
+msgid ""
+"Você tem a oportunidade de personalizar o BigLinux ao seu gosto e compartilhar suas criações com a "
+"comunidade através do nosso fórum. Além disso, pode aproveitar as personalizações já feitas por "
+"outros usuários. Estamos inovando no conceito de sistema colaborativo!"
+msgstr "您有机会根据自己的喜好定制 BigLinux，并通过我们的论坛与社区分享您的创作。此外，您还可以利用其他用户已经进行的自定义。我们在协作系统的概念上不断创新！"
+
+msgid "Para encontrar ou enviar personalizações, visite a seção Fórum Community"
+msgstr "若要查找或提交自定义项，请访问“社区论坛”部分"
+
+msgid ""
+"Para iniciar a instalação, simplesmente indique quais programas você deseja instalar ou remover, "
+"escolha o gerenciador de login e siga os passos. Somente são aceitos programas provenientes dos "
+"repositórios oficiais. Você pode encontrar esses programas na BigStore ou usando o comando pacman "
+"-Ss."
+msgstr "要开始安装，只需指明要安装或删除的程序，选择登录管理器并按照步骤操作。只接受来自官方存储库的程序。您可以在 BigStore 中找到这些程序，也可以使用 pacman -Ss 命令。"
+
+msgid "Obrigatório"
+msgstr "强制"
+
+msgid "Fórum Community"
+msgstr "社区论坛"
+
+msgid "Pacotes para Instalação"
+msgstr "安装包"
+
+msgid "Pacotes a Remover"
+msgstr "要删除的包"
+
+msgid "Instruções do Pacotes para Instalação"
+msgstr "安装包说明"
+
+msgid "Instruções do Pacotes a Remover"
+msgstr "要删除的包装说明"
+
+msgid "Passo 1: Acesso ao Fórum"
+msgstr "第 1 步：访问论坛"
+
+msgid "Acesse o Fórum Community."
+msgstr "转到社区论坛。"
+
+msgid "Passo 2: Baixe ou copie a lista desejada do fórum"
+msgstr "第 2 步：从论坛下载或复制所需的列表"
+
+msgid "Passo 3: Preencha com Lista de Pacotes"
+msgstr "第 3 步：填写包裹清单"
+
+msgid ""
+"Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a "
+"lista esteja corretamente preenchida."
+msgstr "根据说明填写系统上的软件包列表。确保列表填写正确。"

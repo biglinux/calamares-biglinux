@@ -575,3 +575,71 @@ msgstr "EXT4"
 
 msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
 msgstr "Supports legacy partitioning tables and supports the EXT4 file system."
+
+msgid "Gerenciador de login"
+msgstr "Login Manager"
+
+msgid "Instalação Personalizada"
+msgstr "Custom Installation"
+
+msgid "Instruções"
+msgstr "Instructions"
+
+msgid ""
+"Você tem a oportunidade de personalizar o BigLinux ao seu gosto e compartilhar suas criações com a "
+"comunidade através do nosso fórum. Além disso, pode aproveitar as personalizações já feitas por "
+"outros usuários. Estamos inovando no conceito de sistema colaborativo!"
+msgstr ""
+"You have the opportunity to customize BigLinux to your liking and share your creations with the "
+"community through our forum. In addition, you can take advantage of customizations already made by "
+"other users. We are innovating in the concept of collaborative system!"
+
+msgid "Para encontrar ou enviar personalizações, visite a seção Fórum Community"
+msgstr "To find or submit customizations, visit the Community Forum section"
+
+msgid ""
+"Para iniciar a instalação, simplesmente indique quais programas você deseja instalar ou remover, "
+"escolha o gerenciador de login e siga os passos. Somente são aceitos programas provenientes dos "
+"repositórios oficiais. Você pode encontrar esses programas na BigStore ou usando o comando pacman "
+"-Ss."
+msgstr ""
+"To start the installation, simply indicate which programs you want to install or remove, choose the "
+"login manager and follow the steps. Only programs from official repositories are accepted. You can "
+"find these programs in the BigStore or by using the pacman -Ss command."
+
+msgid "Obrigatório"
+msgstr "Obligatory"
+
+msgid "Fórum Community"
+msgstr "Community Forum"
+
+msgid "Pacotes para Instalação"
+msgstr "Packages for Installation"
+
+msgid "Pacotes a Remover"
+msgstr "Packages to remove"
+
+msgid "Instruções do Pacotes para Instalação"
+msgstr "Package Instructions for Installation"
+
+msgid "Instruções do Pacotes a Remover"
+msgstr "Package Instructions to Remove"
+
+msgid "Passo 1: Acesso ao Fórum"
+msgstr "Step 1: Access the Forum"
+
+msgid "Acesse o Fórum Community."
+msgstr "Go to the Community Forum."
+
+msgid "Passo 2: Baixe ou copie a lista desejada do fórum"
+msgstr "Step 2: Download or copy the desired list from the forum"
+
+msgid "Passo 3: Preencha com Lista de Pacotes"
+msgstr "Step 3: Fill in Package List"
+
+msgid ""
+"Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a "
+"lista esteja corretamente preenchida."
+msgstr ""
+"Fill in the list of packages on your system according to the instructions. Make sure the list is "
+"correctly filled out."

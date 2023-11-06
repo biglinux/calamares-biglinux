@@ -580,3 +580,71 @@ msgstr "EXT4"
 
 msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
 msgstr "Suportă tabele de partiționare moștenite și acceptă sistemul de fișiere EXT4."
+
+msgid "Gerenciador de login"
+msgstr "Manager de conectare"
+
+msgid "Instalação Personalizada"
+msgstr "Instalare personalizată"
+
+msgid "Instruções"
+msgstr "Instrucţiuni"
+
+msgid ""
+"Você tem a oportunidade de personalizar o BigLinux ao seu gosto e compartilhar suas criações com a "
+"comunidade através do nosso fórum. Além disso, pode aproveitar as personalizações já feitas por "
+"outros usuários. Estamos inovando no conceito de sistema colaborativo!"
+msgstr ""
+"Aveți posibilitatea de a personaliza BigLinux după bunul plac și de a partaja creațiile dvs. cu "
+"comunitatea prin intermediul forumului nostru. În plus, puteți profita de personalizările deja "
+"făcute de alți utilizatori. Inovăm în conceptul de sistem colaborativ!"
+
+msgid "Para encontrar ou enviar personalizações, visite a seção Fórum Community"
+msgstr "Pentru a găsi sau a trimite particularizări, vizitați secțiunea Forumul comunității"
+
+msgid ""
+"Para iniciar a instalação, simplesmente indique quais programas você deseja instalar ou remover, "
+"escolha o gerenciador de login e siga os passos. Somente são aceitos programas provenientes dos "
+"repositórios oficiais. Você pode encontrar esses programas na BigStore ou usando o comando pacman "
+"-Ss."
+msgstr ""
+"Pentru a începe instalarea, pur și simplu indicați ce programe doriți să instalați sau să "
+"eliminați, alegeți managerul de conectare și urmați pașii. Sunt acceptate numai programele din "
+"depozitele oficiale. Puteți găsi aceste programe în BigStore sau utilizând comanda pacman -SS."
+
+msgid "Obrigatório"
+msgstr "Obligatoriu"
+
+msgid "Fórum Community"
+msgstr "Forumul comunității"
+
+msgid "Pacotes para Instalação"
+msgstr "Pachete pentru instalare"
+
+msgid "Pacotes a Remover"
+msgstr "Pachete de eliminat"
+
+msgid "Instruções do Pacotes para Instalação"
+msgstr "Instrucțiuni pachet pentru instalare"
+
+msgid "Instruções do Pacotes a Remover"
+msgstr "Instrucțiuni pentru pachet de eliminat"
+
+msgid "Passo 1: Acesso ao Fórum"
+msgstr "Pasul 1: Accesați forumul"
+
+msgid "Acesse o Fórum Community."
+msgstr "Accesați Forumul comunității."
+
+msgid "Passo 2: Baixe ou copie a lista desejada do fórum"
+msgstr "Pasul 2: Descărcați sau copiați lista dorită de pe forum"
+
+msgid "Passo 3: Preencha com Lista de Pacotes"
+msgstr "Pasul 3: Completați lista de pachete"
+
+msgid ""
+"Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a "
+"lista esteja corretamente preenchida."
+msgstr ""
+"Completați lista pachetelor din sistemul dvs. conform instrucțiunilor. Asigurați-vă că lista este "
+"completată corect."

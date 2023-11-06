@@ -572,3 +572,71 @@ msgstr "EXT4"
 
 msgid "Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
 msgstr "Toetab pärandjaotustabeleid ja toetab EXT4-failisüsteemi."
+
+msgid "Gerenciador de login"
+msgstr "Logi sisse Haldur"
+
+msgid "Instalação Personalizada"
+msgstr "Kohandatud installimine"
+
+msgid "Instruções"
+msgstr "Juhiseid"
+
+msgid ""
+"Você tem a oportunidade de personalizar o BigLinux ao seu gosto e compartilhar suas criações com a "
+"comunidade através do nosso fórum. Além disso, pode aproveitar as personalizações já feitas por "
+"outros usuários. Estamos inovando no conceito de sistema colaborativo!"
+msgstr ""
+"Teil on võimalus kohandada BigLinuxit oma maitse järgi ja jagada oma loomingut kogukonnaga meie "
+"foorumi kaudu. Lisaks saate ära kasutada teiste kasutajate poolt juba tehtud kohandusi. Teeme "
+"uuendusi koostöösüsteemi kontseptsioonis!"
+
+msgid "Para encontrar ou enviar personalizações, visite a seção Fórum Community"
+msgstr "Kohanduste leidmiseks või esitamiseks külastage kogukonnafoorumi jaotist"
+
+msgid ""
+"Para iniciar a instalação, simplesmente indique quais programas você deseja instalar ou remover, "
+"escolha o gerenciador de login e siga os passos. Somente são aceitos programas provenientes dos "
+"repositórios oficiais. Você pode encontrar esses programas na BigStore ou usando o comando pacman "
+"-Ss."
+msgstr ""
+"Installimise alustamiseks märkige lihtsalt, milliseid programme soovite installida või eemaldada, "
+"valige sisselogimishaldur ja järgige samme. Aktsepteeritakse ainult ametlike hoidlate programme. "
+"Need programmid leiate BigStore'ist või kasutades käsku pacman -Ss."
+
+msgid "Obrigatório"
+msgstr "Kohustuslik"
+
+msgid "Fórum Community"
+msgstr "Kogukonna foorum"
+
+msgid "Pacotes para Instalação"
+msgstr "Paketid paigaldamiseks"
+
+msgid "Pacotes a Remover"
+msgstr "Eemaldatavad paketid"
+
+msgid "Instruções do Pacotes para Instalação"
+msgstr "Pakendi juhised paigaldamiseks"
+
+msgid "Instruções do Pacotes a Remover"
+msgstr "Pakendi juhised eemaldamiseks"
+
+msgid "Passo 1: Acesso ao Fórum"
+msgstr "1. samm: juurdepääs foorumile"
+
+msgid "Acesse o Fórum Community."
+msgstr "Minge kogukonna foorumisse."
+
+msgid "Passo 2: Baixe ou copie a lista desejada do fórum"
+msgstr "2. samm: laadige alla või kopeerige foorumist soovitud loend"
+
+msgid "Passo 3: Preencha com Lista de Pacotes"
+msgstr "3. samm: täitke pakettide loend"
+
+msgid ""
+"Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a "
+"lista esteja corretamente preenchida."
+msgstr ""
+"Täitke oma süsteemi pakettide loend vastavalt juhistele. Veenduge, et nimekiri oleks õigesti "
+"täidetud."
