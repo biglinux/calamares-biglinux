@@ -1,5 +1,4 @@
 brave-browser
-firefox
 libreoffice-fresh
 clementine
 gnome-calculator

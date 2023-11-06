@@ -1,15 +1,15 @@
 #!/bin/bash
- 
+
 #Translation
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=bigbashview-calamares
- 
- 
+
+
 touch /tmp/biglinux-wait-install
- 
+
 OIFS=$IFS
 IFS=$'\n'
- 
+
 rm -f /tmp/start_calamares 
 
 if [ "$option" = "btrfs_disable_sync" ]; then
@@ -17,13 +17,13 @@ if [ "$option" = "btrfs_disable_sync" ]; then
     cp -f /usr/share/bigbashview/bcc/apps/bigbashview-calamares/partition.conf /etc/calamares/modules/partition.conf
     > /tmp/start_calamares
 fi
- 
+
 if [ "$option" = "btrfs_sync" ]; then
     rm -f /tmp/use_disable_fsync
     cp -f /usr/share/bigbashview/bcc/apps/bigbashview-calamares/partition.conf /etc/calamares/modules/partition.conf
     > /tmp/start_calamares
 fi
- 
+
 if [ "$option" = "ext4" ]; then
     rm -f /tmp/use_disable_fsync
     #rm -f /etc/calamares/modules/partition.conf
@@ -49,6 +49,10 @@ unpack:
     - source: "/run/miso/bootmnt/manjaro/x86_64/desktopfs.sfs"
       sourcefs: "squashfs"
       destination: ""' > /etc/calamares/modules/unpackfs.conf
+fi
+
+if [ -e "/etc/calamares/modules/packages.conf" ];then
+    sudo rm /etc/calamares/modules/packages.conf
 fi
 
 if [ "$use_custom_desktop" = "yes" ]; then
@@ -88,7 +92,15 @@ fi
 
 
 if [ "$less_pkgs" = "yes" ]; then
-echo '---
+    # escreve lista de pacotes a remover em um arquivo no tmp
+    echo $pkg_rm | sudo tee /tmp/listPkgsNoRemove.txt
+    # troca ; por quebra de linha
+    sudo sed -i 's/;/\n/g' /tmp/listPkgsNoRemove.txt
+    # remove o que tiver na lista do tmp da lista original
+    grep -Fxv -f "/tmp/listPkgsNoRemove.txt" "/tmp/pkgAvaliableToRemove.txt" > /tmp/listPkgsRemove
+    #verifica se o arquivo não está vazio
+    if [ -s /tmp/listPkgsRemove ]; then
+        echo '---
 
 backend: pamac
 
@@ -97,25 +109,33 @@ update_db: false
 update_system: false
 
 pacman:
-    num_retries: 0
-    disable_download_timeout: false
-    needed_only: false
+num_retries: 0
+disable_download_timeout: false
+needed_only: false
 
-operations:' > /etc/calamares/modules/packages.conf
-
-    if [ "$pkg_rm" != "" ]; then
-        echo ' - remove:' >> /etc/calamares/modules/packages.conf
-        echo "        - --cascade;${pkg_rm}" | sed 's|;|\n        - |g' >> /etc/calamares/modules/packages.conf
+operations:
+ - remove:
+        - --cascade' > /etc/calamares/modules/packages.conf
+        
+        # verifica se o pacote está instalado na ISO para adicionar a remoção
+        for pkg_to_remove  in $(cat /tmp/listPkgsRemove); do
+            pacman -Q $pkg_to_remove &> /dev/null
+            if [ "$?" = "0" ]; then
+                echo "        - $pkg_to_remove" >>  /etc/calamares/modules/packages.conf
+            fi
+        done
+    else
+        sudo rm /etc/calamares/modules/packages.conf
     fi
 fi
 
- 
+
 # General configuration
 echo '---
 modules-search: [ local ]
 
 instances:
-  
+
 - id:       initialize_pacman
   module:   shellprocess
   config:   shellprocess_initialize_pacman.conf
@@ -123,7 +143,7 @@ instances:
 - id:       displaymanager_biglinux
   module:   shellprocess
   config:   shellprocess_displaymanager_biglinux.conf
-  
+
 sequence:
     - show:
         - welcome
@@ -173,7 +193,7 @@ echo '        - localecfg
         - btrfs-fix
         - umount
     - show:
-        - finished   
+        - finished
 
 branding: biglinux
 
@@ -235,8 +255,8 @@ script:
 
 i18n:
  name: "Init pacman-key"' > /etc/calamares/modules/shellprocess_initialize_pacman.conf
- 
- 
+
+
 # Change display manager
 echo "---
 
@@ -247,13 +267,10 @@ script:
 
 i18n:
  name: \"Enable login manager\"" > /etc/calamares/modules/shellprocess_displaymanager_biglinux.conf
- 
+
 IFS=$OIFS
- 
- 
+
+
 echo '
 <body onload=window.location="/usr/share/bigbashview/close.sh">
 '
- 
- 
- 

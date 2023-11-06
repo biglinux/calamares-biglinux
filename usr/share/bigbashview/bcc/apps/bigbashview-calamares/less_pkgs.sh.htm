@@ -1,12 +1,13 @@
 #!/bin/bash
 ##################################
-#  Author1: Bruno Goncalves (www.biglinux.com.br) 
-#  Author2: Rafael Ruscher (rruscher@gmail.com)  
-#  Date:    2022/02/28 
+#  Author1: Bruno Goncalves (www.biglinux.com.br)
+#  Author2: Rafael Ruscher (rruscher@gmail.com)
+#  Author3: Barnabe di Kartola (barnabedikartola@gmail.com)
+#  Date:    2022/02/28
 #  Modified:2023/04/03
-#  
+#
 #  Description: Calamares modified usage of BigLinux 
-#  
+#
 # Licensed by GPL V2 or greater
 ##################################
 
@@ -60,30 +61,34 @@ read -d $"" ShowText << EOF
   <input type="hidden" id="less_pkgs" name="less_pkgs" value="yes">
   <input type="hidden" id="option" name="option" value="$option">
 
-  <nav class="center-align padding">
-    <button class="no-border tertiary" type="button" onclick='selects()' value="$SELECT_ALL">
-      <i>check_box</i>
+   <nav class="center-align padding">
+    <button class="no-border tertiary" type="button" onclick='deSelect()' value="$SELECT_ALL">
+      <i>check_box_outline_blank</i>
       <span>$SELECT_ALL</span>
     </button>
-    
-    <button class="no-border tertiary" type="button" onclick='deSelect()' value="$SELECT_NONE"">
-      <i>check_box_outline_blank</i>
+
+    <button class="no-border tertiary" type="button" onclick='selects()' value="$SELECT_NONE"">
+      <i>check_box</i>
       <span>$SELECT_NONE</span>
-    </button>      
-  </nav>  
-  
-  
-  <div class="grid large-padding"> 
+    </button>
+  </nav>
+
+
+  <div class="grid large-padding">
 EOF
 echo "$ShowText"
-        
+
+if [ -e "/tmp/pkgAvaliableToRemove.txt" ];then
+  sudo rm /tmp/pkgAvaliableToRemove.txt
+fi
 for pkg_to_remove  in $(cat list_pkgs_remove.txt); do
 
   pacman -Q $pkg_to_remove &> /dev/null
 
   if [ "$?" = "0" ]; then
+  echo $pkg_to_remove >> /tmp/pkgAvaliableToRemove.txt
 read -d $"" ShowText << EOF
-    <div class="s12 l4">  
+    <div class="s12 l4">
       <article>
         <div class="field">
           <nav class="no-padding">
@@ -92,7 +97,7 @@ read -d $"" ShowText << EOF
               <h6 class="small">$pkg_to_remove</h6>
             </div>
             <label class="switch icon">
-              <input type="checkbox" name="pkg_rm" value="$pkg_to_remove" id="$pkg_to_remove">
+              <input type="checkbox" name="pkg_rm" value="$pkg_to_remove" id="$pkg_to_remove" checked>
               <span>
                 <i>enable</i>
               </span>
@@ -100,29 +105,29 @@ read -d $"" ShowText << EOF
           </nav>
         </div>
       </article>
-    </div>  
+    </div>
 EOF
-echo "$ShowText"  
+echo "$ShowText"
 
   fi
-  
 done
+
 read -d $"" ShowText << EOF
   </div>
-  
+
   <nav class="center-align padding">
     <a class="button no-border tertiary" onclick="window.location.href='desktop.sh.htm?option=$option';">
       <i>arrow_circle_left</i>
       <span>$BACK</span>
     </a>
-    
-    
-    
+
+
+
     <button class="no-border tertiary">
       <input type="submit" class="no-border tertiary" value="$CONFIRM_AND_INSTALL">
       <i>install_desktop</i>
       <span>INSTALAR</span>
-    </button>      
+    </button>
   </nav>
   </form>
   <label class="switch icon large-margin absolute bottom right">
@@ -130,10 +135,10 @@ read -d $"" ShowText << EOF
   </label>
 </article>
 <div class="overlay center-align middle-align" id="overlay"></div>
-</article>  
+</article>
 
   <script  src="js/biglinux.js"></script>
-  
-</body>  
+
+</body>
 EOF
 echo "$ShowText"
