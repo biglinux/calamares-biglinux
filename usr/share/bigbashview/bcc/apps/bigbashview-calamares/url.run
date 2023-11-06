@@ -4,7 +4,7 @@ user=$(ls /home)
 if [ -f /usr/bin/falkon ];then
   sudo -u $user falkon $@
 elif [ -f /usr/bin/brave ];then
-  sudo -u $user brave-browser --new-window --no-sandbox $@
+  sudo -u $user brave-browser --new-window $@
 fi
 
 
