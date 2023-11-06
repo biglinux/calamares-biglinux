@@ -84,7 +84,12 @@ operations:' > /etc/calamares/modules/packages.conf
     if [ "$install_packages" != "" ]; then
         echo ' - install:' >> /etc/calamares/modules/packages.conf
 
-        for package  in $install_packages; do
+        for packageList in $install_packages; do
+            if [ -n $packageList -a -n $(grep -v '#' <<< $packageList) ];then
+                echo $packageList >> /tmp/packageInstallList
+            fi
+        done
+        for package in $(cat /tmp/packageInstallList); do
             echo "   - $package" >> /etc/calamares/modules/packages.conf
         done
     fi
