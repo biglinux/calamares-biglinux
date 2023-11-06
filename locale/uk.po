@@ -653,3 +653,12 @@ msgid ""
 msgstr ""
 "Заповніть список пакетів у вашій системі згідно з інструкцією. Переконайтеся, що список правильно "
 "заповнений."
+
+msgid "REMOVER TODOS"
+msgstr "ВИЛУЧИТИ ВСІ"
+
+msgid "INSTALAR TODOS"
+msgstr "ВСТАНОВИТИ ВСЕ"
+
+msgid "Quais pacotes deseja remover?"
+msgstr "Які пакунки ви хочете видалити?"

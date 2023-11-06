@@ -640,3 +640,12 @@ msgid ""
 "Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a "
 "lista esteja corretamente preenchida."
 msgstr "Vyplňte seznam balíčků ve vašem systému podle pokynů. Ujistěte se, že je seznam správně vyplněn."
+
+msgid "REMOVER TODOS"
+msgstr "ODEBRAT VŠE"
+
+msgid "INSTALAR TODOS"
+msgstr "NAINSTALOVAT VŠE"
+
+msgid "Quais pacotes deseja remover?"
+msgstr "Které balíky chcete odstranit?"

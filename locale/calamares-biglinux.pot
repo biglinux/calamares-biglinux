@@ -729,3 +729,15 @@ msgid   "Preencha a lista de pacotes em seu sistema de acordo com as "
         "instruções. Certifique-se de que a lista esteja corretamente "
         "preenchida."
 msgstr  ""
+
+#
+msgid   "REMOVER TODOS"
+msgstr  ""
+
+#
+msgid   "INSTALAR TODOS"
+msgstr  ""
+
+#
+msgid   "Quais pacotes deseja remover?"
+msgstr  ""

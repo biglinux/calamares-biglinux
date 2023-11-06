@@ -653,3 +653,12 @@ msgid ""
 msgstr ""
 "Vul de lijst met pakketten op uw systeem in volgens de instructies. Zorg ervoor dat de lijst "
 "correct is ingevuld."
+
+msgid "REMOVER TODOS"
+msgstr "ALLES VERWIJDEREN"
+
+msgid "INSTALAR TODOS"
+msgstr "ALLES INSTALLEREN"
+
+msgid "Quais pacotes deseja remover?"
+msgstr "Welke pakketten wilt u verwijderen?"

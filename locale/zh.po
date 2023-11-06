@@ -606,3 +606,12 @@ msgid ""
 "Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a "
 "lista esteja corretamente preenchida."
 msgstr "根据说明填写系统上的软件包列表。确保列表填写正确。"
+
+msgid "REMOVER TODOS"
+msgstr "全部删除"
+
+msgid "INSTALAR TODOS"
+msgstr "全部安装"
+
+msgid "Quais pacotes deseja remover?"
+msgstr "您要删除哪些包？"

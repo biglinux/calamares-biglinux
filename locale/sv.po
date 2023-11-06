@@ -654,3 +654,12 @@ msgid ""
 msgstr ""
 "Fyll i listan över paket på ditt system enligt instruktionerna. Se till att listan är korrekt "
 "ifylld."
+
+msgid "REMOVER TODOS"
+msgstr "TA BORT ALLA"
+
+msgid "INSTALAR TODOS"
+msgstr "INSTALLERA ALLA"
+
+msgid "Quais pacotes deseja remover?"
+msgstr "Vilka paket vill du ta bort?"

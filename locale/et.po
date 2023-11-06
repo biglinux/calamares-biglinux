@@ -640,3 +640,12 @@ msgid ""
 msgstr ""
 "Täitke oma süsteemi pakettide loend vastavalt juhistele. Veenduge, et nimekiri oleks õigesti "
 "täidetud."
+
+msgid "REMOVER TODOS"
+msgstr "EEMALDA KÕIK"
+
+msgid "INSTALAR TODOS"
+msgstr "INSTALLI KÕIK"
+
+msgid "Quais pacotes deseja remover?"
+msgstr "Milliseid pakette soovite eemaldada?"

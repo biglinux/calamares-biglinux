@@ -630,3 +630,12 @@ msgid ""
 "Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a "
 "lista esteja corretamente preenchida."
 msgstr "מלא את רשימת החבילות במערכת שלך בהתאם להוראות. ודא שהרשימה מולאו כראוי."
+
+msgid "REMOVER TODOS"
+msgstr "הסר הכל"
+
+msgid "INSTALAR TODOS"
+msgstr "התקן הכל"
+
+msgid "Quais pacotes deseja remover?"
+msgstr "אילו חבילות ברצונך להסיר?"

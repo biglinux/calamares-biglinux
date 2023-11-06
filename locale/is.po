@@ -643,3 +643,12 @@ msgid ""
 msgstr ""
 "Fylltu út lista yfir pakka á kerfinu þínu samkvæmt leiðbeiningunum. Gakktu úr skugga um að listinn "
 "sé rétt útfylltur."
+
+msgid "REMOVER TODOS"
+msgstr "FJARLÆGJA ALLT"
+
+msgid "INSTALAR TODOS"
+msgstr "SETJA ALLT UPP"
+
+msgid "Quais pacotes deseja remover?"
+msgstr "Hvaða pakka viltu fjarlægja?"

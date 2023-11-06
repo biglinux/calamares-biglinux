@@ -648,3 +648,12 @@ msgid ""
 msgstr ""
 "Попълнете списъка с пакети във вашата система според инструкциите. Уверете се, че списъкът е "
 "попълнен правилно."
+
+msgid "REMOVER TODOS"
+msgstr "ПРЕМАХВАНЕ НА ВСИЧКИ"
+
+msgid "INSTALAR TODOS"
+msgstr "ИНСТАЛИРАНЕ НА ВСИЧКИ"
+
+msgid "Quais pacotes deseja remover?"
+msgstr "Кои пакети искате да премахнете?"

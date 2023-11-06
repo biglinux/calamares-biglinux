@@ -643,3 +643,12 @@ msgid ""
 msgstr ""
 "Fill in the list of packages on your system according to the instructions. Make sure the list is "
 "correctly filled out."
+
+msgid "REMOVER TODOS"
+msgstr "REMOVE ALL"
+
+msgid "INSTALAR TODOS"
+msgstr "INSTALL ALL"
+
+msgid "Quais pacotes deseja remover?"
+msgstr "Which packages do you want to remove?"

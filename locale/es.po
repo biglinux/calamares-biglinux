@@ -654,3 +654,12 @@ msgid ""
 msgstr ""
 "Complete la lista de paquetes en su sistema de acuerdo con las instrucciones. Asegúrese de que la "
 "lista esté correctamente completada."
+
+msgid "REMOVER TODOS"
+msgstr "ELIMINAR TODO"
+
+msgid "INSTALAR TODOS"
+msgstr "INSTALAR TODO"
+
+msgid "Quais pacotes deseja remover?"
+msgstr "¿Qué paquetes desea eliminar?"

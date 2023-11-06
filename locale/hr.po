@@ -647,3 +647,12 @@ msgid ""
 "Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a "
 "lista esteja corretamente preenchida."
 msgstr "Ispunite popis paketa na svom sustavu prema uputama. Provjerite je li popis ispravno ispunjen."
+
+msgid "REMOVER TODOS"
+msgstr "UKLONI SVE"
+
+msgid "INSTALAR TODOS"
+msgstr "INSTALIRAJ SVE"
+
+msgid "Quais pacotes deseja remover?"
+msgstr "Koje pakete želite ukloniti?"

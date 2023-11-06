@@ -652,3 +652,12 @@ msgid ""
 msgstr ""
 "Töltse ki a csomagok listáját a rendszeren az utasításoknak megfelelően. Győződjön meg arról, hogy "
 "a lista megfelelően van kitöltve."
+
+msgid "REMOVER TODOS"
+msgstr "AZ ÖSSZES ELTÁVOLÍTÁSA"
+
+msgid "INSTALAR TODOS"
+msgstr "AZ ÖSSZES TELEPÍTÉSE"
+
+msgid "Quais pacotes deseja remover?"
+msgstr "Mely csomagokat szeretné eltávolítani?"

@@ -659,3 +659,12 @@ msgid ""
 msgstr ""
 "Συμπληρώστε τη λίστα των πακέτων στο σύστημά σας σύμφωνα με τις οδηγίες. Βεβαιωθείτε ότι η λίστα "
 "έχει συμπληρωθεί σωστά."
+
+msgid "REMOVER TODOS"
+msgstr "ΚΑΤΆΡΓΗΣΗ ΌΛΩΝ"
+
+msgid "INSTALAR TODOS"
+msgstr "ΕΓΚΑΤΆΣΤΑΣΗ ΌΛΩΝ"
+
+msgid "Quais pacotes deseja remover?"
+msgstr "Ποια πακέτα θέλετε να αφαιρέσετε;"

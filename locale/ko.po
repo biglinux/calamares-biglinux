@@ -612,3 +612,12 @@ msgid ""
 "Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a "
 "lista esteja corretamente preenchida."
 msgstr "지침에 따라 시스템의 패키지 목록을 작성하십시오. 목록이 올바르게 작성되었는지 확인합니다."
+
+msgid "REMOVER TODOS"
+msgstr "모두 제거"
+
+msgid "INSTALAR TODOS"
+msgstr "모두 설치"
+
+msgid "Quais pacotes deseja remover?"
+msgstr "어떤 패키지를 제거하시겠습니까?"

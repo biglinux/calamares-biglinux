@@ -652,3 +652,12 @@ msgid ""
 msgstr ""
 "Sisteminizdeki paketlerin listesini talimatlara göre doldurun. Listenin doğru doldurulduğundan emin "
 "olun."
+
+msgid "REMOVER TODOS"
+msgstr "TÜMÜNÜ KALDIR"
+
+msgid "INSTALAR TODOS"
+msgstr "TÜMÜNÜ YÜKLE"
+
+msgid "Quais pacotes deseja remover?"
+msgstr "Hangi paketleri kaldırmak istiyorsunuz?"

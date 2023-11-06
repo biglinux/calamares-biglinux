@@ -618,3 +618,12 @@ msgid ""
 "Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a "
 "lista esteja corretamente preenchida."
 msgstr "指示に従って、システム上のパッケージのリストを入力します。リストが正しく入力されていることを確認してください。"
+
+msgid "REMOVER TODOS"
+msgstr "すべて削除"
+
+msgid "INSTALAR TODOS"
+msgstr "すべてインストール"
+
+msgid "Quais pacotes deseja remover?"
+msgstr "どのパッケージを削除しますか?"

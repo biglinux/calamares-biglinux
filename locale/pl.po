@@ -651,3 +651,12 @@ msgid ""
 msgstr ""
 "Wypełnij listę pakietów w swoim systemie zgodnie z instrukcjami. Upewnij się, że lista jest "
 "poprawnie wypełniona."
+
+msgid "REMOVER TODOS"
+msgstr "USUŃ WSZYSTKO"
+
+msgid "INSTALAR TODOS"
+msgstr "ZAINSTALUJ WSZYSTKO"
+
+msgid "Quais pacotes deseja remover?"
+msgstr "Które pakiety chcesz usunąć?"

@@ -644,3 +644,12 @@ msgid ""
 "Preencha a lista de pacotes em seu sistema de acordo com as instruções. Certifique-se de que a "
 "lista esteja corretamente preenchida."
 msgstr "Täytä järjestelmän pakettiluettelo ohjeiden mukaisesti. Varmista, että luettelo on täytetty oikein."
+
+msgid "REMOVER TODOS"
+msgstr "POISTA KAIKKI"
+
+msgid "INSTALAR TODOS"
+msgstr "ASENNA KAIKKI"
+
+msgid "Quais pacotes deseja remover?"
+msgstr "Mitkä paketit haluat poistaa?"

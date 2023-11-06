@@ -659,3 +659,12 @@ msgid ""
 msgstr ""
 "Remplissez la liste des paquets sur votre système en suivant les instructions. Assurez-vous que la "
 "liste est correctement remplie."
+
+msgid "REMOVER TODOS"
+msgstr "TOUT SUPPRIMER"
+
+msgid "INSTALAR TODOS"
+msgstr "TOUT INSTALLER"
+
+msgid "Quais pacotes deseja remover?"
+msgstr "Quels paquets souhaitez-vous supprimer ?"

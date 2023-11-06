@@ -651,3 +651,12 @@ msgid ""
 msgstr ""
 "Fyll ut listen over pakker på systemet ditt i henhold til instruksjonene. Kontroller at listen er "
 "riktig utfylt."
+
+msgid "REMOVER TODOS"
+msgstr "FJERN ALLE"
+
+msgid "INSTALAR TODOS"
+msgstr "INSTALLER ALLE"
+
+msgid "Quais pacotes deseja remover?"
+msgstr "Hvilke pakker vil du fjerne?"

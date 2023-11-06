@@ -861,3 +861,15 @@ msgid ""
 msgstr ""
 "Preencha a lista de pacotes em seu sistema de acordo com as instruções. "
 "Certifique-se de que a lista esteja corretamente preenchida."
+
+#
+msgid "REMOVER TODOS"
+msgstr "REMOVER TODOS"
+
+#
+msgid "INSTALAR TODOS"
+msgstr "INSTALAR TODOS"
+
+#
+msgid "Quais pacotes deseja remover?"
+msgstr "Quais pacotes deseja remover?"
