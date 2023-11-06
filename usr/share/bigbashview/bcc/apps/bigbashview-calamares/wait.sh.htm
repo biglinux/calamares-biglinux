@@ -72,23 +72,24 @@ pacman:
 operations:' > /etc/calamares/modules/packages.conf
     if [ "$remove_packages" != "" ]; then
         echo ' - remove:' >> /etc/calamares/modules/packages.conf
-
-#         echo '   - --cascade' >> /etc/calamares/modules/packages.conf
+        
         sed -i '/pacman/s/-Rs/-Rcns/' /lib/calamares/modules/chrootcfg/main.py
         sed -i '/pacman/s/-Rs/-Rcns/' /lib/calamares/modules/packages/main.py
-          
-        for package  in $remove_packages; do
+        
+        echo $remove_packages | tr -d '\r' > /tmp/packageRemove
+        sed -i 's/[ ]\+/ /g' /tmp/packageRemove
+        sed -i 's/ /\n/g' /tmp/packageRemove
+        
+        for package in $(cat /tmp/packageRemove); do
             echo "   - $package" >> /etc/calamares/modules/packages.conf
         done
     fi
     if [ "$install_packages" != "" ]; then
         echo ' - install:' >> /etc/calamares/modules/packages.conf
 
-        for packageList in $install_packages; do
-            if [ -n $packageList -a -n $(grep -v '#' <<< $packageList) ];then
-                echo $packageList >> /tmp/packageInstallList
-            fi
-        done
+        echo  $install_packages | tr -d '\r' > /tmp/packageInstallList
+        sed -i 's/[ ]\+/ /g' /tmp/packageInstallList
+        sed -i 's/ /\n/g' /tmp/packageInstallList
         for package in $(cat /tmp/packageInstallList); do
             echo "   - $package" >> /etc/calamares/modules/packages.conf
         done
