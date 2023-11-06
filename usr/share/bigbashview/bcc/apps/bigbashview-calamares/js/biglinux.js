@@ -29,3 +29,21 @@ fileInput2.addEventListener("change", function() {
     textArea2.value = ""; // Limpa o <textarea> se nenhum arquivo for selecionado
   }
 });
+
+// Select all checkbox
+function selects(){  
+    var ele=document.getElementsByName('pkg_rm');  
+    for(var i=0; i<ele.length; i++){  
+        if(ele[i].type=='checkbox')  
+            ele[i].checked=true;  
+    }  
+}  
+function deSelect(){  
+    var ele=document.getElementsByName('pkg_rm');  
+    for(var i=0; i<ele.length; i++){  
+        if(ele[i].type=='checkbox')  
+            ele[i].checked=false;  
+          
+    }  
+}   
+

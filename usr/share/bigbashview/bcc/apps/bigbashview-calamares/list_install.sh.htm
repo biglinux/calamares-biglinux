@@ -97,12 +97,13 @@ read -d $"" ShowText << EOF
     </a>
   </nav>
   
-<form action=selected_desktop_verify_pkgs.sh.htm>
 
+<form action=selected_desktop_verify_pkgs.sh.htm>
   <input type="hidden" id="use_custom_desktop" name="use_custom_desktop" value="yes">
   <input type="hidden" id="option" name="option" value="$option">
   <input type="hidden" id="desktop_selected" name="desktop_selected" value="$desktop_selected">  
 
+  
   <div class="padding">   
     <h5 class="center-align small">$TXT_TITLE_DESC</h5>
 
@@ -222,25 +223,33 @@ read -d $"" ShowText << EOF
       <h5 class="center-align small bold">$TXT_TITLE_INSTALL</h5>
       <div class="field textarea extra border fill">
         <textarea id="install_packages" name="install_packages"></textarea>
-        <span class="helper">$TXT_HELPER</span>
-      
-          <a href="#" class="square round extra elevate large-margin" data-ui="#dialog-modal">
-            <i>attach_file</i>
-          </a> 
-          
+        <div class="grid">
+          <div>
+            <a href="#" class="secundary round extra elevate tiny-padding" data-ui="#dialog-modal">
+              <i>attach_file</i>
+            </a> 
+          </div>  
+          <span class="helper">$TXT_HELPER</span>
+        </div>
       </div>
     </div>
 
-    <div class="s6 padding">   
-      <h5 class="center-align small bold">$TXT_TITLE_REMOVE</h5>
+    <div class="s6 padding">
+
+      
+          
+      <h5 class="center-align small bold">$TXT_TITLE_REMOVE
+      </h5>
       <div class="field textarea extra border fill">
         <textarea id="remove_packages" name="remove_packages"></textarea>
-        <span class="helper"></span>
-      
-          <a href="#" class="square round extra elevate large-margin" data-ui="#dialog-modal2">
-            <i>attach_file</i>
-          </a>
-          
+        <div class="grid">
+          <div>
+            <a href="#" class="secundary round extra elevate tiny-padding" data-ui="#dialog-modal2">
+              <i>attach_file</i>
+            </a> 
+          </div>  
+          <span class="helper"></span>
+        </div>
       </div>
     </div>
   </div>
