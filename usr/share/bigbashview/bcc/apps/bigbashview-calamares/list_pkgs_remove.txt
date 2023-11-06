@@ -1,7 +1,6 @@
 brave-browser
 firefox
 libreoffice-fresh
-
 clementine
 gnome-calculator
 gnome-sound-recorder
@@ -18,8 +17,6 @@ skanpage
 smplayer
 steam
 steam-native-runtime
-
-
 baobab
 brightness-controller-git
 cups
