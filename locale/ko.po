@@ -621,3 +621,6 @@ msgstr "모두 설치"
 
 msgid "Quais pacotes deseja remover?"
 msgstr "어떤 패키지를 제거하시겠습니까?"
+
+msgid "Restaurar configurações do sistema"
+msgstr "시스템 설정 복원"

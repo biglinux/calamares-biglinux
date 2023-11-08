@@ -649,3 +649,6 @@ msgstr "NAINSTALOVAT VŠE"
 
 msgid "Quais pacotes deseja remover?"
 msgstr "Které balíky chcete odstranit?"
+
+msgid "Restaurar configurações do sistema"
+msgstr "Obnovte nastavení systému"

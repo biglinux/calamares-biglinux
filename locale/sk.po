@@ -654,3 +654,6 @@ msgstr "NAINŠTALOVAŤ VŠETKO"
 
 msgid "Quais pacotes deseja remover?"
 msgstr "Ktoré balíky chcete odstrániť?"
+
+msgid "Restaurar configurações do sistema"
+msgstr "Obnovenie systémových nastavení"

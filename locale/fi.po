@@ -653,3 +653,6 @@ msgstr "ASENNA KAIKKI"
 
 msgid "Quais pacotes deseja remover?"
 msgstr "Mitkä paketit haluat poistaa?"
+
+msgid "Restaurar configurações do sistema"
+msgstr "Palauta järjestelmäasetukset"

@@ -652,3 +652,6 @@ msgstr "SETJA ALLT UPP"
 
 msgid "Quais pacotes deseja remover?"
 msgstr "Hvaða pakka viltu fjarlægja?"
+
+msgid "Restaurar configurações do sistema"
+msgstr "Endurheimta kerfisstillingar"

@@ -615,3 +615,6 @@ msgstr "全部安装"
 
 msgid "Quais pacotes deseja remover?"
 msgstr "您要删除哪些包？"
+
+msgid "Restaurar configurações do sistema"
+msgstr "恢复系统设置"

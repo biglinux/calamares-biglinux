@@ -660,3 +660,6 @@ msgstr "УСТАНОВИТЬ ВСЕ"
 
 msgid "Quais pacotes deseja remover?"
 msgstr "Какие пакеты вы хотите удалить?"
+
+msgid "Restaurar configurações do sistema"
+msgstr "Восстановление системных настроек"

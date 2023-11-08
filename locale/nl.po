@@ -662,3 +662,6 @@ msgstr "ALLES INSTALLEREN"
 
 msgid "Quais pacotes deseja remover?"
 msgstr "Welke pakketten wilt u verwijderen?"
+
+msgid "Restaurar configurações do sistema"
+msgstr "Systeeminstellingen herstellen"

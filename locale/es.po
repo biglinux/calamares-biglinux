@@ -663,3 +663,6 @@ msgstr "INSTALAR TODO"
 
 msgid "Quais pacotes deseja remover?"
 msgstr "¿Qué paquetes desea eliminar?"
+
+msgid "Restaurar configurações do sistema"
+msgstr "Restaurar la configuración del sistema"

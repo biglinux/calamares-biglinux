@@ -661,3 +661,6 @@ msgstr "AZ ÖSSZES TELEPÍTÉSE"
 
 msgid "Quais pacotes deseja remover?"
 msgstr "Mely csomagokat szeretné eltávolítani?"
+
+msgid "Restaurar configurações do sistema"
+msgstr "Rendszerbeállítások visszaállítása"

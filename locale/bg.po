@@ -657,3 +657,6 @@ msgstr "ИНСТАЛИРАНЕ НА ВСИЧКИ"
 
 msgid "Quais pacotes deseja remover?"
 msgstr "Кои пакети искате да премахнете?"
+
+msgid "Restaurar configurações do sistema"
+msgstr "Възстановяване на системните настройки"

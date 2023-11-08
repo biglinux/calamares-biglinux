@@ -627,3 +627,6 @@ msgstr "すべてインストール"
 
 msgid "Quais pacotes deseja remover?"
 msgstr "どのパッケージを削除しますか?"
+
+msgid "Restaurar configurações do sistema"
+msgstr "システム設定の復元"

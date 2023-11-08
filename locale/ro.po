@@ -657,3 +657,6 @@ msgstr "INSTALAȚI TOATE"
 
 msgid "Quais pacotes deseja remover?"
 msgstr "Ce pachete doriți să eliminați?"
+
+msgid "Restaurar configurações do sistema"
+msgstr "Restabiliți setările de sistem"

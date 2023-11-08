@@ -639,3 +639,6 @@ msgstr "התקן הכל"
 
 msgid "Quais pacotes deseja remover?"
 msgstr "אילו חבילות ברצונך להסיר?"
+
+msgid "Restaurar configurações do sistema"
+msgstr "שחזור הגדרות מערכת"

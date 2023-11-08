@@ -660,3 +660,6 @@ msgstr "ZAINSTALUJ WSZYSTKO"
 
 msgid "Quais pacotes deseja remover?"
 msgstr "Które pakiety chcesz usunąć?"
+
+msgid "Restaurar configurações do sistema"
+msgstr "Przywróć ustawienia systemowe"

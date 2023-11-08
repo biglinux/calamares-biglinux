@@ -668,3 +668,6 @@ msgstr "ΕΓΚΑΤΆΣΤΑΣΗ ΌΛΩΝ"
 
 msgid "Quais pacotes deseja remover?"
 msgstr "Ποια πακέτα θέλετε να αφαιρέσετε;"
+
+msgid "Restaurar configurações do sistema"
+msgstr "Επαναφορά ρυθμίσεων συστήματος"

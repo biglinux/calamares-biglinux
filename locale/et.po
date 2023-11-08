@@ -649,3 +649,6 @@ msgstr "INSTALLI KÕIK"
 
 msgid "Quais pacotes deseja remover?"
 msgstr "Milliseid pakette soovite eemaldada?"
+
+msgid "Restaurar configurações do sistema"
+msgstr "Taastage süsteemi seaded"

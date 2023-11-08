@@ -741,3 +741,7 @@ msgstr  ""
 #
 msgid   "Quais pacotes deseja remover?"
 msgstr  ""
+
+#
+msgid   "Restaurar configurações do sistema"
+msgstr  ""

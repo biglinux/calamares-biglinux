@@ -656,3 +656,6 @@ msgstr "INSTALIRAJ SVE"
 
 msgid "Quais pacotes deseja remover?"
 msgstr "Koje pakete želite ukloniti?"
+
+msgid "Restaurar configurações do sistema"
+msgstr "Vraćanje postavki sustava"
