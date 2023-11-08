@@ -29,7 +29,6 @@ ksystemlog
 lutris
 manjaro-printer
 mintstick
-open-in-lutris-git
 pamac-updates-menu
 pavucontrol-qt
 system-config-printer
