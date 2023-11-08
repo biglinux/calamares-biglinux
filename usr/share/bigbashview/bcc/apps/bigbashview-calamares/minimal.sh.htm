@@ -88,11 +88,9 @@ if [ -e "/tmp/pkgAvaliableToRemove.txt" ];then
   sudo rm /tmp/pkgAvaliableToRemove.txt
 fi
 for pkg_to_remove  in $(cat list_pkgs_remove.txt); do
-
-  pacman -Q $pkg_to_remove &> /dev/null
-
-  if [ "$?" = "0" ]; then
-  echo $pkg_to_remove >> /tmp/pkgAvaliableToRemove.txt
+#   pacman -Q $pkg_to_remove &> /dev/null
+  if [[ $(ls /var/lib/pacman/local/$pkg_to_remove* 2> /dev/null) ]]; then
+    echo $pkg_to_remove >> /tmp/pkgAvaliableToRemove.txt
 read -d $"" ShowText << EOF
     <div class="s12 l4 round">
       <article>

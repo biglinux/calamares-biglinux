@@ -401,6 +401,7 @@ yad --image=drive-harddisk --image-on-top --form --width=500 --height=100 --fixe
     fi
 fi
 
+rm -f /tmp/start_calamares
 
 cd /usr/share/bigbashview/bcc/apps/bigbashview-calamares/
 QT_QUICK_BACKEND=software QMLSCENE_DEVICE=softwarecontext QTWEBENGINE_CHROMIUM_FLAGS="--disable-logging --disable-gpu --no-sandbox --single-process --disable-gpu-compositing" bigbashview -n $"Instalar o BigLinux" -s 1100x650 -c transparent index.sh.htm -i /usr/share/icons/hicolor/scalable/apps/icon-big-hd-install.svg
