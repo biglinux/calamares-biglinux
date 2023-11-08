@@ -44,21 +44,25 @@ read -d $"" ShowText << EOF
     <script type="module" src="js/material-dynamic-colors.min.js"></script>
 </head>
 
-<body class="dark" x-data="getItems()" x-init="loadConfig">
+<body class="dark secondary-container" x-data="getItems()" x-init="loadConfig">
 
-<article class="small-blur no-padding secondary-container">
+<!--<article class="small-blur no-padding secondary-container">-->
+<main class="responsive max">
   <nav class="padding">
-    <button class="circle transparent">
-      <img class="circle large tiny-padding" src="icon/advanced.svg">
-    </button>
+    <i class="extra">
+      <img src="icon/advanced.svg">
+    </i>
     <h6 class="medium max center-align bold">
       $TXT_TITLE
     </h6>
-    <a class="circle transparent" href="/execute close$">
+<!--    <a class="circle transparent" href="/execute close$">
       <i>close</i>
-    </a>
+    </a>-->
+    <i></i>
   </nav>
+
   <h5 class="center-align small">$TXT_TITLE_DESC</h5>
+  
   <form action=wait.sh.htm>
   <input type="hidden" id="less_pkgs" name="less_pkgs" value="yes">
   <input type="hidden" id="option" name="option" value="$option">
@@ -90,7 +94,7 @@ for pkg_to_remove  in $(cat list_pkgs_remove.txt); do
   if [ "$?" = "0" ]; then
   echo $pkg_to_remove >> /tmp/pkgAvaliableToRemove.txt
 read -d $"" ShowText << EOF
-    <div class="s12 l4">
+    <div class="s12 l4 round">
       <article>
         <div class="field">
           <nav class="no-padding">
@@ -131,15 +135,17 @@ read -d $"" ShowText << EOF
     </button>
   </nav>
   </form>
+
+
   <label class="switch icon large-margin absolute bottom right">
     <a class="circle small secondary" onclick="ui('mode', ui('mode') == 'dark' ? 'light' : 'dark')"><i>dark_mode</i></a>
   </label>
-</article>
-<div class="overlay center-align middle-align" id="overlay"></div>
-</article>
-
+  <div class="overlay center-align middle-align" id="overlay"></div>
+</main>
+<!--</article>  -->
   <script  src="js/biglinux.js"></script>
+  <script type="module" src="js/beer.min.js"></script>
+</body>  
 
-</body>
 EOF
 echo "$ShowText"
