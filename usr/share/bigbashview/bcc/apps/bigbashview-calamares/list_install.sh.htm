@@ -101,17 +101,57 @@ read -d $"" ShowText << EOF
   <input type="hidden" id="option" name="option" value="$option">
   <!--<input type="hidden" id="desktop_selected" name="desktop_selected" value="$desktop_selected">  -->
 
-  
   <div class="padding">   
     <h5 class="center-align small">$TXT_TITLE_DESC</h5>
-
-    <div class="small-space"></div>
     <div class="field label border fill">
       <input type="text" value="sddm" id="login_manager" name="login_manager">
       <label>$LOGINMANAGER</label>
       <span class="helper">$TXT_HELPER</span>
     </div>  
   </div>  
+  <div class="grid tiny-padding">
+  
+    <div class="s6 tiny-padding">
+      <h5 class="center-align small bold">$TXT_TITLE_INSTALL</h5>
+      <div class="field textarea extra border fill">
+        <textarea id="install_packages" name="install_packages"></textarea>
+        <div class="grid">
+          <div>
+            <a href="#" class="secundary round extra elevate tiny-padding" data-ui="#dialog-modal">
+              <i>attach_file</i>
+            </a> 
+          </div>  
+          <span class="helper">$TXT_HELPER</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="s6 tiny-padding">
+      <h5 class="center-align small bold">$TXT_TITLE_REMOVE</h5>
+      <div class="field textarea extra border fill">
+        <textarea id="remove_packages" name="remove_packages"></textarea>
+        <div class="grid">
+          <div>
+            <a href="#" class="secundary round extra elevate tiny-padding" data-ui="#dialog-modal2">
+              <i>attach_file</i>
+            </a> 
+          </div>  
+          <span class="helper"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="center-align large-padding">
+    <a class="button no-border tertiary" onclick="window.location.href='desktop.sh.htm?option=$option';">
+      <i>arrow_circle_left</i>
+      <span>$BACK</span>
+    </a>
+    <button class="no-border tertiary" type="submit" value="$CONFIRM_AND_INSTALL">
+      <i>check_circle</i>
+      <span>$CONFIRM_AND_INSTALL</span>
+    </button>
+  </nav>
   
   <dialog class="modal active" id="dialog-modal-info">
     <h5>$TXT_INTRO</h5>
@@ -142,7 +182,7 @@ read -d $"" ShowText << EOF
     <div class="row">
       <i class="light-green-text">check_circle</i>
       <div class="max">
-        <h5 class="small bold">$TXT_INTROINSTALL_STEP1</h5>
+        <h6 class="small bold">$TXT_INTROINSTALL_STEP1</h5>
         <p>$TXT_INTROINSTALL_STEP1_DESC</p>
       </div>
     </div>
@@ -150,14 +190,14 @@ read -d $"" ShowText << EOF
     <div class="row">
       <i class="light-green-text">check_circle</i>
       <div class="max">
-        <h5 class="small bold">$TXT_INTROINSTALL_STEP2</h5>
+        <h6 class="small bold">$TXT_INTROINSTALL_STEP2</h5>
       </div>
     </div> 
 
     <div class="row">
       <i class="light-green-text">check_circle</i>
       <div class="max">
-        <h5 class="small bold">$TXT_INTROINSTALL_STEP3</h5>
+        <h6 class="small bold">$TXT_INTROINSTALL_STEP3</h5>
         <p>$TXT_INTROINSTALL_STEP3_DESC</p>
       </div>
     </div>    
@@ -182,7 +222,7 @@ read -d $"" ShowText << EOF
     <div class="row">
       <i class="light-green-text">check_circle</i>
       <div class="max">
-        <h5 class="small bold">$TXT_INTROINSTALL_STEP1</h5>
+        <h6 class="small bold">$TXT_INTROINSTALL_STEP1</h5>
         <p>$TXT_INTROINSTALL_STEP1_DESC</p>
       </div>
     </div>
@@ -190,14 +230,14 @@ read -d $"" ShowText << EOF
     <div class="row">
       <i class="light-green-text">check_circle</i>
       <div class="max">
-        <h5 class="small bold">$TXT_INTROINSTALL_STEP2</h5>
+        <h6 class="small bold">$TXT_INTROINSTALL_STEP2</h5>
       </div>
     </div> 
 
     <div class="row">
       <i class="light-green-text">check_circle</i>
       <div class="max">
-        <h5 class="small bold">$TXT_INTROINSTALL_STEP3</h5>
+        <h6 class="small bold">$TXT_INTROINSTALL_STEP3</h5>
         <p>$TXT_INTROINSTALL_STEP3_DESC</p>
       </div>
     </div>      
@@ -214,54 +254,7 @@ read -d $"" ShowText << EOF
       
       <a class="chip" data-ui="#dialog-modal2">$TXT_CONTINUE</a>
     </nav>
-  </dialog>  
-
-  <div class="grid no-space no-margin">
-    <div class="s6 padding">
-      <h5 class="center-align small bold">$TXT_TITLE_INSTALL</h5>
-      <div class="field textarea extra border fill">
-        <textarea id="install_packages" name="install_packages"></textarea>
-        <div class="grid">
-          <div>
-            <a href="#" class="secundary round extra elevate tiny-padding" data-ui="#dialog-modal">
-              <i>attach_file</i>
-            </a> 
-          </div>  
-          <span class="helper">$TXT_HELPER</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="s6 padding">
-
-      
-          
-      <h5 class="center-align small bold">$TXT_TITLE_REMOVE
-      </h5>
-      <div class="field textarea extra border fill">
-        <textarea id="remove_packages" name="remove_packages"></textarea>
-        <div class="grid">
-          <div>
-            <a href="#" class="secundary round extra elevate tiny-padding" data-ui="#dialog-modal2">
-              <i>attach_file</i>
-            </a> 
-          </div>  
-          <span class="helper"></span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <nav class="center-align large-padding">
-    <a class="button no-border tertiary" onclick="window.location.href='desktop.sh.htm?option=$option';">
-      <i>arrow_circle_left</i>
-      <span>$BACK</span>
-    </a>
-    <button class="no-border tertiary" type="submit" value="$CONFIRM_AND_INSTALL">
-      <i>check_circle</i>
-      <span>$CONFIRM_AND_INSTALL</span>
-    </button>
-  </nav>
+  </dialog>    
 
 </form>
 
