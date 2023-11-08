@@ -64,9 +64,10 @@ read -d $"" ShowText << EOF
     <script type="module" src="js/material-dynamic-colors.min.js"></script>
 </head>
 
-<body class="dark" x-data="getItems()" x-init="loadConfig">
+<body class="dark secondary-container" x-data="getItems()" x-init="loadConfig">
 
-<article class="small-blur no-padding secondary-container">
+<!--<article class="small-blur no-padding responsive max">-->
+<main class="responsive max">
   <nav class="padding">
     <button class="circle transparent">
       <i></i>
@@ -89,7 +90,7 @@ read -d $"" ShowText << EOF
 
   <div class="grid padding">
   
-    <div class="s12 l4">
+    <div class="s12 l4 round">
       <div class="fill medium-height middle-align center-align">
         <div class="center-align small-padding">
           <img class="square round extra" src="icon/maintenance.svg">
@@ -106,7 +107,7 @@ read -d $"" ShowText << EOF
       </div>
     </div>        
 
-    <div class="s12 l4">
+    <div class="s12 l4 round">
       <div class="fill medium-height middle-align center-align">
         <div class="center-align small-padding">
           <img class="square round extra" src="icon/install.svg">
@@ -123,7 +124,7 @@ read -d $"" ShowText << EOF
       </div>
     </div>
     
-    <div class="s12 l4">
+    <div class="s12 l4 round">
       <div class="fill medium-height middle-align center-align">
         <div class="center-align small-padding">
           <img class="square round extra" src="icon/advanced.svg">
@@ -141,16 +142,18 @@ read -d $"" ShowText << EOF
     </div>
 
   </div>
+  
   <div class="center-align large-padding">
     <a href="#" onclick="_run('./url.run https://forum.biglinux.com.br/')">$TXT_FORUM</a>
     <i></i>
   </div>
-    <label class="switch icon large-margin absolute bottom right">
-        <a class="circle small secondary" onclick="ui('mode', ui('mode') == 'dark' ? 'light' : 'dark')"><i>dark_mode</i></a>
-    </label>
-</article>
-<div class="overlay center-align middle-align" id="overlay"></div>
-</article>  
+  
+  <label class="switch icon large-margin absolute bottom right">
+    <a class="circle small secondary" onclick="ui('mode', ui('mode') == 'dark' ? 'light' : 'dark')"><i>dark_mode</i></a>
+  </label>
+  <div class="overlay center-align middle-align" id="overlay"></div>
+</main>
+<!--</article>  -->
   <script type="module" src="js/beer.min.js"></script>
 </body>  
 EOF

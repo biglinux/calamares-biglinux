@@ -109,3 +109,7 @@ body.dark {
   }
 }
 /* FIM SCROLL BARRA DE ROLAGEM */
+
+.field.extra.textarea {
+    height: 16rem;
+}

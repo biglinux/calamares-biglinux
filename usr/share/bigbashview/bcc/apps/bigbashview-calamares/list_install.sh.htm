@@ -79,22 +79,22 @@ read -d $"" ShowText << EOF
     <script type="module" src="js/material-dynamic-colors.min.js"></script>
 </head>
 
-<body class="dark" x-data="getItems()" x-init="loadConfig">
+<body class="dark secondary-container" x-data="getItems()" x-init="loadConfig">
 
-<article>
-
+<!--<article class="small-blur no-padding secondary-container">-->
+<main class="responsive max">
   <nav class="padding">
-    <button class="circle transparent">
-      <img class="circle large tiny-padding" src="icon/advanced.svg">
-    </button>
+    <i class="extra">
+      <img src="icon/advanced.svg">
+    </i>
     <h6 class="medium max center-align bold">
       $TXT_TITLE
     </h6>
-      <a class="circle transparent" href="/execute close$">
-        <i>close</i>
-      </a>
+<!--    <a class="circle transparent" href="/execute close$">
+      <i>close</i>
+    </a>-->
+    <i></i>
   </nav>
-  
 
 <form action=selected_desktop_verify_pkgs.sh.htm>
   <input type="hidden" id="use_custom_desktop" name="use_custom_desktop" value="yes">
@@ -252,7 +252,7 @@ read -d $"" ShowText << EOF
     </div>
   </div>
 
-  <nav class="center-align padding">
+  <nav class="center-align large-padding">
     <a class="button no-border tertiary" onclick="window.location.href='desktop.sh.htm?option=$option';">
       <i>arrow_circle_left</i>
       <span>$BACK</span>
@@ -268,9 +268,9 @@ read -d $"" ShowText << EOF
   <label class="switch icon large-margin absolute bottom right">
     <a class="circle small secondary" onclick="ui('mode', ui('mode') == 'dark' ? 'light' : 'dark')"><i>dark_mode</i></a>
   </label>
-  
-</article>
-<div class="overlay center-align middle-align" id="overlay"></div>
+  <div class="overlay center-align middle-align" id="overlay"></div>
+</main>
+<!--</article>  -->
   <script type="module" src="js/beer.min.js"></script>
 </body>  
 EOF

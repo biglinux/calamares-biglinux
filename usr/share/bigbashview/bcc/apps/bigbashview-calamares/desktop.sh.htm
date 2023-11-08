@@ -52,25 +52,27 @@ read -d $"" ShowText << EOF
     <script type="module" src="js/material-dynamic-colors.min.js"></script>
 </head>
 
-<body class="dark" x-data="getItems()" x-init="loadConfig">
+<body class="dark secondary-container" x-data="getItems()" x-init="loadConfig">
 
-<article class="small-blur no-padding secondary-container">
+<!--<article class="small-blur no-padding secondary-container">-->
+<main class="responsive max">
   <nav class="padding">
-    <button class="circle transparent">
-      <img class="circle large tiny-padding" src="icon/advanced.svg">
-    </button>
+    <i class="extra">
+      <img src="icon/advanced.svg">
+    </i>
     <h6 class="medium max center-align bold">
       $TXT_TITLE
     </h6>
-    <a class="circle transparent" href="/execute close$">
+<!--    <a class="circle transparent" href="/execute close$">
       <i>close</i>
-    </a>
+    </a>-->
+    <i></i>
   </nav>
-
+  
   <h5 class="center-align small">$TXT_TITLE_DESC</h5>
 
   <div class="grid padding">
-    <div class="s12 l4">
+    <div class="s12 l4 round">
       <div class="fill medium-height middle-align center-align">
         <div class="center-align small-padding">
           <img class="square round extra" src="icon/big-community.svg">
@@ -87,7 +89,7 @@ read -d $"" ShowText << EOF
       </div>
     </div>        
 
-    <div class="s12 l4">
+    <div class="s12 l4 round">
       <div class="fill medium-height middle-align center-align">
         <div class="center-align small-padding">
           <img class="square round extra" src="icon/install.svg">
@@ -104,7 +106,7 @@ read -d $"" ShowText << EOF
       </div>
     </div>
 
-    <div class="s12 l4">
+    <div class="s12 l4 round">
       <div class="fill medium-height middle-align center-align">
         <div class="center-align small-padding">
           <img class="square round extra" src="icon/install.svg">
@@ -134,9 +136,9 @@ read -d $"" ShowText << EOF
   <label class="switch icon large-margin absolute bottom right">
     <a class="circle small secondary" onclick="ui('mode', ui('mode') == 'dark' ? 'light' : 'dark')"><i>dark_mode</i></a>
   </label>
-</article>
-<div class="overlay center-align middle-align" id="overlay"></div>
-</article>  
+  <div class="overlay center-align middle-align" id="overlay"></div>
+</main>
+<!--</article>  -->
   <script type="module" src="js/beer.min.js"></script>
 </body>  
 EOF
