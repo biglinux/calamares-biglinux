@@ -63,7 +63,7 @@ read -d $"" ShowText << EOF
 
   <h5 class="center-align small">$TXT_TITLE_DESC</h5>
   
-  <form action=wait.sh.htm>
+  <form action=install.sh.htm>
   <input type="hidden" id="less_pkgs" name="less_pkgs" value="yes">
   <input type="hidden" id="option" name="option" value="$option">
 
@@ -122,7 +122,7 @@ read -d $"" ShowText << EOF
   </div>
 
   <nav class="center-align padding">
-    <a class="button no-border tertiary" onclick="window.location.href='desktop.sh.htm?option=$option';">
+    <a class="button no-border tertiary" onclick="window.location.href='advanced.sh.htm?option=$option';">
       <i>arrow_circle_left</i>
       <span>$BACK</span>
     </a>
@@ -145,7 +145,7 @@ read -d $"" ShowText << EOF
 <!--</article>  -->
   <script  src="js/biglinux.js"></script>
   <script type="module" src="js/beer.min.js"></script>
-</body>  
+</body>
 
 EOF
 echo "$ShowText"

@@ -1,15 +1,18 @@
 #!/bin/bash
 ##################################
-#  Author1: Bruno Goncalves (www.biglinux.com.br) 
-#  Author2: Rafael Ruscher (rruscher@gmail.com)  
-#  Author3: Barnabe di Kartola (barnabedikartola@gmail.com)
-#  Date:    2022/02/28 
-#  Modified:2023/11/05 
-#  
-#  Description: Calamares modified usage of BigLinux 
-#  
-# Licensed by GPL V2 or greater
+#  Author1:  Bruno Goncalves (www.biglinux.com.br)
+#  Author2:  Rafael Ruscher (rruscher@gmail.com)
+#  Author3:  Barnabe di Kartola (barnabedikartola@gmail.com)
+#  Date:     2022/02/28
+#  Modified: 2023/11/04
+#
+#  Description: Calamares modified usage of BigLinux
+#
+# Licensed by GPL V2 or greaterf
 ##################################
+
+export LANGUAGE=$(cat /tmp/big_language)
+export LANG=$(cat /tmp/big_language)
 
 #Translation
 LANGUAGE=$LANG:en
@@ -19,19 +22,23 @@ export TEXTDOMAIN=calamares-biglinux
 BACK=$"VOLTAR"
 
 TXT_TITLE=$"Opções avançadas"
-TXT_TITLE_DESC=$"Escolha a opção desejada"
+TXT_TITLE_DESC=$"Escolha o sistema de arquivos"
 
-TXT_COMMUNITY=$"Big Community"
-TXT_COMMUNITY_DESC=$"No BigLinux, é possível personalizar o sistema e compartilhar criações com outros usuários, promovendo um ambiente colaborativo inovador."
-TXT_COMMUNITY_BUTTON=$"ABRIR"
+TXT_BTRFS=$"BTRFS"
+TXT_BTRFS_DESC=$"Desempenho com compactação de dados, pontos de restauração, não necessita de uma partição separada para /boot e SWAP."
+TXT_BTRFS_BUTTON=$"ESCOLHER"
 
-TXT_MINIMAL=$"Minimal"
-TXT_MINIMAL_DESC=$"No Mininal, você decide quais programas instalar, garantindo uma experiência altamente personalizada."
-TXT_MINIMAL_BUTTON=$"ABRIR"
+TXT_EXT4=$"EXT4"
+TXT_EXT4_DESC=$"Copatibilidade com tabelas de particionamento antigas e oferece suporte ao sistema de arquivos EXT4."
+TXT_EXT4_BUTTON=$"ESCOLHER"
 
-TXT_DEFAULT=$"Padrão"
-TXT_DEFAULT_DESC=$"Instalação padrão vai utilizar o sistema de arquivos escolhido anteriormente."
-TXT_DEFAULT_BUTTON=$"INSTALAR"
+
+#Testing Verify Start
+if [ -n "$(cat /etc/big-release | grep -E "development|beta" )" ];then
+  File_to_go="advanced.sh.htm"
+else
+  File_to_go="install.sh.htm"
+fi
 
 read -d $"" ShowText << EOF
 <!DOCTYPE html>
@@ -68,66 +75,49 @@ read -d $"" ShowText << EOF
     </a>-->
     <i></i>
   </nav>
-  
+
   <h5 class="center-align small">$TXT_TITLE_DESC</h5>
 
   <div class="grid padding">
-    <div class="s12 l4 round">
+  
+    <div class="s6 round">
       <div class="fill medium-height middle-align center-align">
         <div class="center-align small-padding">
-          <img class="square round extra" src="icon/big-community.svg">
-          <h5 class="center-align">$TXT_COMMUNITY</h5>
-          <p>$TXT_COMMUNITY_DESC</p>
+          <img class="square round extra" src="icon/drive-harddisk.svg">
+          <h5 class="center-align">$TXT_BTRFS</h5>
+          <p>$TXT_BTRFS_DESC</p>
           <div class="space"></div>
           <nav class="center-align">
-            <button class="border tertiary" onclick="window.location.href='list_install.sh.htm?option=$option';">
+            <button class="border tertiary" onclick="window.location.href='advanced.sh.htm?option=btrfs';">
               <i>done</i>
-              <span>$TXT_COMMUNITY_BUTTON</span>
-            </button>
-          </nav>
-        </div>
-      </div>
-    </div>        
-
-    <div class="s12 l4 round">
-      <div class="fill medium-height middle-align center-align">
-        <div class="center-align small-padding">
-          <img class="square round extra" src="icon/install.svg">
-          <h5 class="center-align">$TXT_DEFAULT</h5>
-          <p>$TXT_DEFAULT_DESC</p>
-          <div class="space"></div>
-          <nav class="center-align">
-            <button class="border tertiary" onclick="window.location.href='wait.sh.htm?option=$option';">
-              <i>done</i>
-              <span>$TXT_DEFAULT_BUTTON</span>
+              <span>$TXT_BTRFS_BUTTON</span>
             </button>
           </nav>
         </div>
       </div>
     </div>
 
-    <div class="s12 l4 round">
+    <div class="s6 round">
       <div class="fill medium-height middle-align center-align">
         <div class="center-align small-padding">
-          <img class="square round extra" src="icon/install.svg">
-          <h5 class="center-align">$TXT_MINIMAL</h5>
-          <p>$TXT_MINIMAL_DESC</p>
+          <img class="square round extra" src="icon/drive-harddisk.svg">
+          <h5 class="center-align">$TXT_EXT4</h5>
+          <p>$TXT_EXT4_DESC</p>
           <div class="space"></div>
           <nav class="center-align">
-            <button class="border tertiary" onclick="window.location.href='less_pkgs.sh.htm?option=$option';">
+            <button class="border tertiary" onclick="window.location.href='advanced.sh.htm?option=ext4';">
               <i>done</i>
-              <span>$TXT_MINIMAL_BUTTON</span>
+              <span>$TXT_EXT4_BUTTON</span>
             </button>
           </nav>
         </div>
       </div>
-    </div>           
-    
+    </div>
 
   </div>
-  
+
   <nav class="center-align padding">
-    <button class="no-border tertiary" onclick="window.location.href='file-system.sh.htm';">
+    <button class="no-border tertiary" onclick="window.location.href='index.sh.htm';">
       <i>arrow_circle_left</i>
       <span>$BACK</span>
     </button>
@@ -140,6 +130,6 @@ read -d $"" ShowText << EOF
 </main>
 <!--</article>  -->
   <script type="module" src="js/beer.min.js"></script>
-</body>  
+</body>
 EOF
 echo "$ShowText"

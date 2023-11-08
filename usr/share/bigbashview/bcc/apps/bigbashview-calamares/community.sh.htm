@@ -1,18 +1,19 @@
 #!/bin/bash
 ##################################
-#  Author1:  Bruno Goncalves (www.biglinux.com.br) 
-#  Author2:  Rafael Ruscher (rruscher@gmail.com)  
-#  Date:     2022/02/28 
-#  Modified: 2023/11/06 
-#  
-#  Description: Calamares modified usage of BigLinux 
-#  
+#  Author1:  Bruno Goncalves (www.biglinux.com.br)
+#  Author2:  Rafael Ruscher (rruscher@gmail.com)
+#  Author3:  Barnabe di Kartola (barnabedikartola@gmail.com)
+#  Date:     2022/02/28
+#  Modified: 2023/11/06
+#
+#  Description: Calamares modified usage of BigLinux
+#
 # Licensed by GPL V2 or greaterf
 ##################################
 
 export LANGUAGE=$(cat /tmp/big_language)
 export LANG=$(cat /tmp/big_language)
- 
+
 #Translation
 LANGUAGE=$LANG:en
 export TEXTDOMAINDIR="/usr/share/locale"
@@ -55,9 +56,9 @@ TXT_INTROINSTALL_STEP3_DESC=$"Preencha a lista de pacotes em seu sistema de acor
 
 #Testing Verify Start
 if [ -n "$(cat /etc/big-release | grep -E "development|beta" )" ];then
-  File_to_go="desktop.sh.htm"
+  File_to_go="advanced.sh.htm"
 else
-  File_to_go="wait.sh.htm"
+  File_to_go="install.sh.htm"
 fi
 
 read -d $"" ShowText << EOF
@@ -96,19 +97,19 @@ read -d $"" ShowText << EOF
     <i></i>
   </nav>
 
-<form action=selected_desktop_verify_pkgs.sh.htm>
+<form action=community_verify_pkgs.sh.htm>
   <input type="hidden" id="use_custom_desktop" name="use_custom_desktop" value="yes">
   <input type="hidden" id="option" name="option" value="$option">
   <!--<input type="hidden" id="desktop_selected" name="desktop_selected" value="$desktop_selected">  -->
 
-  <div class="padding">   
+  <div class="padding">
     <h5 class="center-align small">$TXT_TITLE_DESC</h5>
     <div class="field label border fill">
       <input type="text" value="sddm" id="login_manager" name="login_manager">
       <label>$LOGINMANAGER</label>
       <span class="helper">$TXT_HELPER</span>
-    </div>  
-  </div>  
+    </div>
+  </div>
   <div class="grid tiny-padding">
   
     <div class="s6 tiny-padding">
@@ -134,8 +135,8 @@ read -d $"" ShowText << EOF
           <div>
             <a href="#" class="secundary round extra elevate tiny-padding" data-ui="#dialog-modal2">
               <i>attach_file</i>
-            </a> 
-          </div>  
+            </a>
+          </div>
           <span class="helper"></span>
         </div>
       </div>
@@ -143,7 +144,7 @@ read -d $"" ShowText << EOF
   </div>
 
   <nav class="center-align large-padding">
-    <a class="button no-border tertiary" onclick="window.location.href='desktop.sh.htm?option=$option';">
+    <a class="button no-border tertiary" onclick="window.location.href='advanced.sh.htm?option=$option';">
       <i>arrow_circle_left</i>
       <span>$BACK</span>
     </a>
@@ -175,7 +176,7 @@ read -d $"" ShowText << EOF
       </a>
       
     </nav>
-  </dialog>  
+  </dialog>
   
   <dialog class="modal" id="dialog-modal">
     <h5 class="small bold">$TXT_INTROINSTALL</h5>
@@ -193,7 +194,7 @@ read -d $"" ShowText << EOF
       <div class="max">
         <h6 class="small bold">$TXT_INTROINSTALL_STEP2</h5>
       </div>
-    </div> 
+    </div>
 
     <div class="row">
       <i class="light-green-text">check_circle</i>
@@ -201,7 +202,7 @@ read -d $"" ShowText << EOF
         <h6 class="small bold">$TXT_INTROINSTALL_STEP3</h5>
         <p>$TXT_INTROINSTALL_STEP3_DESC</p>
       </div>
-    </div>    
+    </div>
 
     <nav class="right-align">
       <a class="chip circle">
@@ -215,7 +216,7 @@ read -d $"" ShowText << EOF
       
       <a class="chip" data-ui="#dialog-modal">$TXT_CONTINUE</a>
     </nav>
-  </dialog>  
+  </dialog>
   
   <dialog class="modal" id="dialog-modal2">
     <h5 class="small bold">$TXT_INTROREMOVE</h5>
@@ -241,7 +242,7 @@ read -d $"" ShowText << EOF
         <h6 class="small bold">$TXT_INTROINSTALL_STEP3</h5>
         <p>$TXT_INTROINSTALL_STEP3_DESC</p>
       </div>
-    </div>      
+    </div>
 
     <nav class="right-align">
       <a class="chip circle">
@@ -255,7 +256,7 @@ read -d $"" ShowText << EOF
       
       <a class="chip" data-ui="#dialog-modal2">$TXT_CONTINUE</a>
     </nav>
-  </dialog>    
+  </dialog>
 
 </form>
 
@@ -266,7 +267,7 @@ read -d $"" ShowText << EOF
 </main>
 <!--</article>  -->
   <script type="module" src="js/beer.min.js"></script>
-</body>  
+</body>
 EOF
 echo "$ShowText"
 

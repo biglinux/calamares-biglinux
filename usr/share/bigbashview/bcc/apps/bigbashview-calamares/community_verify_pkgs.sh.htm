@@ -1,19 +1,19 @@
 #!/bin/bash
 ##################################
-#  Author1: Bruno Goncalves (www.biglinux.com.br) 
+#  Author1: Bruno Goncalves (www.biglinux.com.br)
 #  Author2: Rafael Ruscher (rruscher@gmail.com)
 #  Author3: Barnabe di Kartola (barnabedikartola@gmail.com)
-#  Date:     2022/02/28 
-#  Modified: 2023/11/08 
-#  
+#  Date:     2022/02/28
+#  Modified: 2023/11/08
+#
 #  Description: Calamares modified usage of BigLinux 
-#  
+#
 # Licensed by GPL V2 or greaterf
 ##################################
 
 export LANGUAGE=$(cat /tmp/big_language)
 export LANG=$(cat /tmp/big_language)
- 
+
 #Translation
 LANGUAGE=$LANG:en
 export TEXTDOMAINDIR="/usr/share/locale"
@@ -45,7 +45,7 @@ read -d $"" ShowText << EOF
   <progress class="circle"></progress>
   <h5 class="center-align small">$VerifyPkgs</h5>
 
-  <form action=selected_desktop_verify_pkgs2.sh.htm>
+  <form action=community_verify_pkgs2.sh.htm>
     <input type="hidden" id="use_custom_desktop" name="use_custom_desktop" value="yes">
     <input type="hidden" id="option" name="option" value="$option">
     <input type="hidden" id="install_packages" name="install_packages" value="$install_packages">
@@ -60,7 +60,7 @@ read -d $"" ShowText << EOF
 </main>
 <!--</article>  -->
   <script type="module" src="js/beer.min.js"></script>
-</body>  
+</body>
 EOF
 echo "$ShowText"
 

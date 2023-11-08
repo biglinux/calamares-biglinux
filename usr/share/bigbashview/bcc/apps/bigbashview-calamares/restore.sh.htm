@@ -1,18 +1,19 @@
 #!/bin/bash
 ##################################
-#  Author1:  Bruno Goncalves (www.biglinux.com.br) 
-#  Author2:  Rafael Ruscher (rruscher@gmail.com)  
-#  Date:     2022/02/28 
-#  Modified: 2023/11/04 
-#  
+#  Author1:  Bruno Goncalves (www.biglinux.com.br)
+#  Author2:  Rafael Ruscher (rruscher@gmail.com)
+#  Author3:  Barnabe di Kartola (barnabedikartola@gmail.com)
+#  Date:     2022/02/28
+#  Modified: 2023/11/04
+#
 #  Description: Calamares modified usage of BigLinux 
-#  
+#
 # Licensed by GPL V2 or greaterf
 ##################################
 
 export LANGUAGE=$(cat /tmp/big_language)
 export LANG=$(cat /tmp/big_language)
- 
+
 #Translation
 LANGUAGE=$LANG:en
 export TEXTDOMAINDIR="/usr/share/locale"
@@ -35,9 +36,9 @@ BACK=$"VOLTAR"
 
 #Testing Verify Start
 if [ -n "$(cat /etc/big-release | grep -E "development|beta" )" ];then
-  File_to_go="desktop.sh.htm"
+  File_to_go="advanced.sh.htm"
 else
-  File_to_go="wait.sh.htm"
+  File_to_go="install.sh.htm"
 fi
 
 read -d $"" ShowText << EOF
@@ -127,9 +128,9 @@ read -d $"" ShowText << EOF
   </label>
   <div class="overlay center-align middle-align" id="overlay"></div>
 </main>
-<!--</article>-->  
+<!--</article>-->
   <script type="module" src="js/beer.min.js"></script>
-</body>  
+</body>
 EOF
-echo "$ShowText" 
+echo "$ShowText"
 

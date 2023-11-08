@@ -10,26 +10,26 @@ touch /tmp/biglinux-wait-install
 OIFS=$IFS
 IFS=$'\n'
 
-rm -f /tmp/start_calamares 
+rm -f /tmp/start_calamares
 
-if [ "$option" = "btrfs_disable_sync" ]; then
-    > /tmp/use_disable_fsync
-    cp -f /usr/share/bigbashview/bcc/apps/bigbashview-calamares/partition.conf /etc/calamares/modules/partition.conf
-    > /tmp/start_calamares
-fi
+# if [ "$option" = "btrfs_disable_sync" ]; then
+#     > /tmp/use_disable_fsync
+#     cp -f /usr/share/bigbashview/bcc/apps/bigbashview-calamares/partition.conf /etc/calamares/modules/partition.conf
+#     > /tmp/start_calamares
+# fi
 
-if [ "$option" = "btrfs_sync" ]; then
-    rm -f /tmp/use_disable_fsync
+if [ "$option" = "btrfs" ]; then
+#     rm -f /tmp/use_disable_fsync
     cp -f /usr/share/bigbashview/bcc/apps/bigbashview-calamares/partition.conf /etc/calamares/modules/partition.conf
-    > /tmp/start_calamares
+#     > /tmp/start_calamares
 fi
 
 if [ "$option" = "ext4" ]; then
-    rm -f /tmp/use_disable_fsync
+#     rm -f /tmp/use_disable_fsync
     #rm -f /etc/calamares/modules/partition.conf
     cp -f /usr/share/bigbashview/bcc/apps/bigbashview-calamares/partition.conf /etc/calamares/modules/partition.conf
     sed -i 's/defaultFileSystemType.*/defaultFileSystemType: "ext4"/' /etc/calamares/modules/partition.conf
-    > /tmp/start_calamares
+#     > /tmp/start_calamares
 fi
 
 if [ "$use_custom_desktop" = "yes" ]; then

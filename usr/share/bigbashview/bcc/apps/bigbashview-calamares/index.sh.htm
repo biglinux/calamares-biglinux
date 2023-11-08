@@ -1,18 +1,19 @@
 #!/bin/bash
 ##################################
-#  Author1:  Bruno Goncalves (www.biglinux.com.br) 
-#  Author2:  Rafael Ruscher (rruscher@gmail.com)  
-#  Date:     2022/02/28 
-#  Modified: 2023/11/04 
-#  
-#  Description: Calamares modified usage of BigLinux 
-#  
+#  Author1:  Bruno Goncalves (www.biglinux.com.br)
+#  Author2:  Rafael Ruscher (rruscher@gmail.com)
+#  Author3:  Barnabe di Kartola (barnabedikartola@gmail.com)
+#  Date:     2022/02/28
+#  Modified: 2023/11/04
+#
+#  Description: Calamares modified usage of BigLinux
+#
 # Licensed by GPL V2 or greaterf
 ##################################
 
 export LANGUAGE=$(cat /tmp/big_language)
 export LANG=$(cat /tmp/big_language)
- 
+
 #Translation
 LANGUAGE=$LANG:en
 export TEXTDOMAINDIR="/usr/share/locale"
@@ -40,9 +41,9 @@ VERSION_BIOS="$([ -d /sys/firmware/efi ] && echo ' UEFI' || echo ' BIOS (Legacy)
 
 #Testing Verify Start
 if [ -n "$(cat /etc/big-release | grep -E "development|beta" )" ];then
-  File_to_go="desktop.sh.htm"
+  File_to_go="advanced.sh.htm"
 else
-  File_to_go="wait.sh.htm"
+  File_to_go="install.sh.htm"
 fi
 
 read -d $"" ShowText << EOF
@@ -77,7 +78,7 @@ read -d $"" ShowText << EOF
       <p class="bold">
       $VERSION_BIOS
       </p>
-      &nbsp; 
+      &nbsp;
       $HEAD_KERNEL
       &nbsp;
       <p class="bold">$VERSION_KERNEL</p>
@@ -105,7 +106,7 @@ read -d $"" ShowText << EOF
           </nav>
         </div>
       </div>
-    </div>        
+    </div>
 
     <div class="s12 l4 round">
       <div class="fill medium-height middle-align center-align">
@@ -115,7 +116,7 @@ read -d $"" ShowText << EOF
           <p>$TXT_INSTALL_DESC</p>
           <div class="space"></div>
           <nav class="center-align">
-            <button class="border tertiary" onclick="window.location.href='wait.sh.htm?option=btrfs_disable_sync';">
+            <button class="border tertiary" onclick="window.location.href='install.sh.htm?option=btrfs';">
               <i>install_desktop</i>
               <span>$TXT_INSTALL_BUTTON</span>
             </button>
@@ -132,10 +133,10 @@ read -d $"" ShowText << EOF
           <p>$TXT_ADVANCED_DESC</p>
           <div class="space"></div>
           <nav class="center-align">
-            <button class="border tertiary" onclick="window.location.href='file-system.sh.htm';">
+            <button class="border tertiary" onclick="window.location.href='advanced-file-system.sh.htm';">
               <i>tune</i>
               <span>$TXT_ADVANCED_BUTTON</span>
-            </button>                
+            </button>
           </nav>
         </div>
       </div>
@@ -155,7 +156,7 @@ read -d $"" ShowText << EOF
 </main>
 <!--</article>  -->
   <script type="module" src="js/beer.min.js"></script>
-</body>  
+</body>
 EOF
-echo "$ShowText" 
+echo "$ShowText"
 

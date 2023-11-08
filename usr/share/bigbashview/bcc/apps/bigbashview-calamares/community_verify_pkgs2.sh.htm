@@ -1,19 +1,19 @@
 #!/bin/bash
 ##################################
-#  Author1: Bruno Goncalves (www.biglinux.com.br) 
+#  Author1: Bruno Goncalves (www.biglinux.com.br)
 #  Author2: Rafael Ruscher (rruscher@gmail.com)
 #  Author3: Barnabe di Kartola (barnabedikartola@gmail.com)
-#  Date:     2022/02/28 
-#  Modified: 2023/11/08 
-#  
+#  Date:     2022/02/28
+#  Modified: 2023/11/08
+#
 #  Description: Calamares modified usage of BigLinux 
-#  
+#
 # Licensed by GPL V2 or greaterf
 ##################################
 
 export LANGUAGE=$(cat /tmp/big_language)
 export LANG=$(cat /tmp/big_language)
- 
+
 #Translation
 LANGUAGE=$LANG:en
 export TEXTDOMAINDIR="/usr/share/locale"
@@ -22,7 +22,7 @@ export TEXTDOMAIN=calamares-biglinux
 
 NotPossibleInstall=$"Não é possível instalar. "
 NotPossibleRemove=$"Não é possível remover."
-NotPossibleLogin=$"Não é possível encontrar Gerenciador de Login." 
+NotPossibleLogin=$"Não é possível encontrar Gerenciador de Login."
 BACK_HISTORY=$"VOLTAR"
 CONTINUE_HISTORY=$"AVANÇAR"
 ERRO_MSG=$"ERRO!"
@@ -86,7 +86,7 @@ elif [ "$desktop_selected" != "cli" ];then
     else
         msg_not_login=""
     fi
-fi 
+fi
 
 read -d $"" ShowText << EOF
 <!DOCTYPE html>
@@ -123,11 +123,11 @@ if ([ "$pkgProblemInstall" = "yes" ]) || ([ "$pkgProblemRemove" = "yes" ]) || ([
   echo '<pre class="error-text margin">'
   if [ "$pkgProblemInstall" = "yes" ]; then
     echo "$msg_not_install"
-  fi  
+  fi
     
   if [ "$pkgProblemRemove" = "yes" ]; then
     echo "$msg_not_remove"
-  fi  
+  fi
     
   if [ "$pkgProblem" = "yes" ]; then
     echo "$msg_not_login"
@@ -146,7 +146,7 @@ echo '</div>'
 
 read -d $"" ShowText << EOF
 
-<form action=wait.sh.htm>
+<form action=install.sh.htm>
 <input type="hidden" id="use_custom_desktop" name="use_custom_desktop" value="yes">
 <input type=\"hidden\" id=\"option\" name=\"option\" value=\"$option\">
 <input type=\"hidden\" id=\"install_packages\" name=\"install_packages\" value=\"$install_packages\">
@@ -163,13 +163,13 @@ echo "$ShowText"
     echo '      <i>arrow_circle_left</i>'
     echo '      <span>'$BACK_HISTORY'</span>'
     echo '    </a>'
-  else    
+  else
     echo '    <a class="button no-border tertiary" onclick="document.forms[0].submit()">'
     echo '      <i>arrow_circle_left</i>'
     echo '      <span>'$CONTINUE_HISTORY'</span>'
     echo '    </a>'
   fi
-read -d $"" ShowText << EOF    
+read -d $"" ShowText << EOF
   </nav>
 </form>
 </div>
@@ -181,6 +181,6 @@ read -d $"" ShowText << EOF
 </main>
 <!--</article>  -->
   <script type="module" src="js/beer.min.js"></script>
-</body>  
+</body>
 EOF
 echo "$ShowText"
