@@ -3,26 +3,31 @@
 #  Author1: Bruno Goncalves (www.biglinux.com.br) 
 #  Author2: Rafael Ruscher (rruscher@gmail.com)
 #  Author3: Barnabe di Kartola (barnabedikartola@gmail.com)
-#  Date:    2022/02/28 
-#  Modified:2023/04/03 
+#  Date:     2022/02/28 
+#  Modified: 2023/11/08 
 #  
 #  Description: Calamares modified usage of BigLinux 
 #  
-# Licensed by GPL V2 or greater
+# Licensed by GPL V2 or greaterf
 ##################################
 
+export LANGUAGE=$(cat /tmp/big_language)
+export LANG=$(cat /tmp/big_language)
+ 
 #Translation
 LANGUAGE=$LANG:en
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=calamares-biglinux
 
-NotPossibleInstall=$"<font color='red'><b>Não é possível instalar.</b></font><br><br> "
-NotPossibleRemove=$"<font color='red'><b>Não é possível remover.</b></font><br><br>"
-NotPossibleLogin=$"<font color='red'><b>Não é possível encontrar Gerenciador de Login</b></font><br><br>" 
+
+NotPossibleInstall=$"Não é possível instalar. "
+NotPossibleRemove=$"Não é possível remover."
+NotPossibleLogin=$"Não é possível encontrar Gerenciador de Login." 
 BACK_HISTORY=$"VOLTAR"
 CONTINUE_HISTORY=$"AVANÇAR"
 ERRO_MSG=$"ERRO!"
 SUCCESS_MSG=$"SUCESSO!"
+
 
 windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
 
@@ -53,13 +58,13 @@ if [ "$remove_packages" != "" ]; then
 fi
 
 if [ -e "/tmp/biglinux-calamares-pkg-install.err" ]; then
-  msg_not_install="$NotPossibleInstall $(cat /tmp/biglinux-calamares-pkg-install.err | sed 's/\"/<b>/;s/\"/<\/b>/')<br><br>"
+  msg_not_install="$NotPossibleInstall<br>$(cat /tmp/biglinux-calamares-pkg-install.err | sed 's/\"/<b>/;s/\"/<\/b>/')<br>"
 else
   msg_not_install=""
 fi
 
 if [ -e "/tmp/biglinux-calamares-pkg-remove.err" ]; then
-  msg_not_remove="$NotPossibleRemove $(cat /tmp/biglinux-calamares-pkg-remove.err)<br><br>"
+  msg_not_remove="$NotPossibleRemove<br>$(cat /tmp/biglinux-calamares-pkg-remove.err)<br>"
 else
   msg_not_remove=""
 fi
@@ -69,108 +74,113 @@ fi
 
 if [ "$desktop_selected" = "cli" -a -n "$login_manager" ];then
     if [ -z "$(echo $install_packages | grep $login_manager)" ];then
-        msg_not_login="$NotPossibleLogin <b>$login_manager</b><br>"
+        msg_not_login="$NotPossibleLogin  $login_manager "
         pkgProblem="yes"
     else
         msg_not_login=""
     fi
 elif [ "$desktop_selected" != "cli" ];then 
     if [ -z "$(echo $install_packages | grep $login_manager)" ];then
-        msg_not_login="$NotPossibleLogin <b>$login_manager</b><br>"
+        msg_not_login="$NotPossibleLogin  $login_manager "
         pkgProblem="yes"
     else
         msg_not_login=""
     fi
 fi 
 
-cat << EOF
+read -d $"" ShowText << EOF
+<!DOCTYPE html>
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>$TITLE</title>
-  <script src="/usr/share/bigbashview/bcc/materialize/js/jquery.js"></script>
-  <link rel="stylesheet" href="./style.css">
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Imports -->
+    <link href="css/beer.min.css" rel="stylesheet">
+    <link href="css/biglinux.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- JS Imports -->
+    <script type="module" src="js/biglinux.js"></script>
+    <script type="module" src="js/material-dynamic-colors.min.js"></script>
 </head>
+
+<body class="dark secondary-container" x-data="getItems()" x-init="loadConfig">
+<main class="responsive max center-align middle-align">
+
+
+
+    <div class="max">
 EOF
+echo "$ShowText"
 
-# Get body tag with color light or not
-/usr/share/bigbashview/bcc/shell/getbgcolor.sh
-
-cat << EOF
-<div class="dark-light">
-    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
-    </svg>
-</div>
-EOF
-
-echo '<div class=info>'
-echo $"O sistema está em modo"
-echo '<strong>'
-[ -d /sys/firmware/efi ] && echo ' UEFI' || echo ' BIOS (Legacy)'
-echo '</strong>'
-echo $"e com o kernel" 
-echo '<strong>'
-echo "$(uname -r | cut -f1 -d-)" 
-echo '</strong>'
-echo '</div>'
-
-cat << EOF
-  <div class="container" style="display: grid;"> 
-    <div class="panel calamares-big-table"> 
-      <div class="calamares-big-plan" id=customSystem>
-EOF
 if ([ "$pkgProblemInstall" = "yes" ]) || ([ "$pkgProblemRemove" = "yes" ]) || ([ "$pkgProblem" = "yes" ]) then
 
-  echo '<h3 class="calamares-big-header" style="text-transform: uppercase;">'"$ERRO_MSG"'</h3>'
-  echo '<div class="p"></div>'
-  echo "<pre>"
+  echo '<h6>'"$ERRO_MSG"'</h6>'
+  echo '<div class="invalid border error-border">'
+  echo '<pre class="error-text margin">'
   if [ "$pkgProblemInstall" = "yes" ]; then
     echo "$msg_not_install"
   fi  
     
   if [ "$pkgProblemRemove" = "yes" ]; then
-    echo "<b>$msg_not_remove</b>"
+    echo "$msg_not_remove"
   fi  
     
   if [ "$pkgProblem" = "yes" ]; then
     echo "$msg_not_login"
   fi
-  echo "</pre>"
+  echo '</pre>'
+  
   
 else
 
-cat << EOF
-<h3 class="calamares-big-header" style="text-transform: uppercase;">$SUCCESS_MSG</h3>
-<script>
-  window.onload = function(){
-    document.forms[0].submit();
-  }
-</script>
-EOF
-
+    echo '<h6>'$SUCCESS_MSG'</h6>'
+    #  echo '<script>window.onload = function(){document.forms[0].submit();}</script>'
+  
 fi
+echo '</div>'
 
-echo '<form action=wait.sh.htm>'
-echo '<input type="hidden" id="use_custom_desktop" name="use_custom_desktop" value="yes">'
-echo "<input type=\"hidden\" id=\"option\" name=\"option\" value=\"$option\">"
-echo "<input type=\"hidden\" id=\"install_packages\" name=\"install_packages\" value=\"$install_packages\">"
-echo "<input type=\"hidden\" id=\"remove_packages\" name=\"remove_packages\" value=\"$remove_packages\">"
-echo "<input type=\"hidden\" id=\"login_manager\" name=\"login_manager\" value=\"$login_manager\">"
 
-if ([ "$pkgProblemInstall" = "yes" ]) || ([ "$pkgProblemRemove" = "yes" ]) || ([ "$pkgProblem" = "yes" ]) then
-  echo '<a href="#" onclick="window.history.go(-1);" class="calamares-big-button is-featured">'"$BACK_HISTORY"'</a>'
-else
-  echo '<a href="#" onclick="document.forms[0].submit()" class="calamares-big-button is-featured">'"$CONTINUE_HISTORY"'</a>'
-fi
+read -d $"" ShowText << EOF
 
-cat << EOF
-      </div>
-    </div>
-  </div>
-  <div class="logo">
-      <img id="btn-big" src="logo.svg" class="logo-biglinux">
-  </div>
-<script  src="./script.js"></script>
-</body>
-</html>
+<form action=wait.sh.htm>
+<input type="hidden" id="use_custom_desktop" name="use_custom_desktop" value="yes">
+<input type=\"hidden\" id=\"option\" name=\"option\" value=\"$option\">
+<input type=\"hidden\" id=\"install_packages\" name=\"install_packages\" value=\"$install_packages\">
+<input type=\"hidden\" id=\"remove_packages\" name=\"remove_packages\" value=\"$remove_packages\">
+<input type=\"hidden\" id=\"login_manager\" name=\"login_manager\" value=\"$login_manager\">
+
+
+  <nav class="center-align padding">
+
 EOF
+echo "$ShowText"
+  if ([ "$pkgProblemInstall" = "yes" ]) || ([ "$pkgProblemRemove" = "yes" ]) || ([ "$pkgProblem" = "yes" ]) then  
+    echo '    <a class="button no-border tertiary" onclick="window.history.go(-1);">'
+    echo '      <i>arrow_circle_left</i>'
+    echo '      <span>'$BACK_HISTORY'</span>'
+    echo '    </a>'
+  else    
+    echo '    <a class="button no-border tertiary" onclick="document.forms[0].submit()">'
+    echo '      <i>arrow_circle_left</i>'
+    echo '      <span>'$CONTINUE_HISTORY'</span>'
+    echo '    </a>'
+  fi
+read -d $"" ShowText << EOF    
+  </nav>
+</form>
+</div>
+
+  <label class="switch icon large-margin absolute bottom right">
+    <a class="circle small secondary" onclick="ui('mode', ui('mode') == 'dark' ? 'light' : 'dark')"><i>dark_mode</i></a>
+  </label>
+  <div class="overlay center-align middle-align" id="overlay"></div>
+</main>
+<!--</article>  -->
+  <script type="module" src="js/beer.min.js"></script>
+</body>  
+EOF
+echo "$ShowText"
