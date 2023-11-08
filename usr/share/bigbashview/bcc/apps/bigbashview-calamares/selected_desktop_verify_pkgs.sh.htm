@@ -3,14 +3,17 @@
 #  Author1: Bruno Goncalves (www.biglinux.com.br) 
 #  Author2: Rafael Ruscher (rruscher@gmail.com)
 #  Author3: Barnabe di Kartola (barnabedikartola@gmail.com)
-#  Date:    2022/02/28 
-#  Modified:2023/04/03 
+#  Date:     2022/02/28 
+#  Modified: 2023/11/06 
 #  
 #  Description: Calamares modified usage of BigLinux 
 #  
-# Licensed by GPL V2 or greater
+# Licensed by GPL V2 or greaterf
 ##################################
 
+export LANGUAGE=$(cat /tmp/big_language)
+export LANG=$(cat /tmp/big_language)
+ 
 #Translation
 LANGUAGE=$LANG:en
 export TEXTDOMAINDIR="/usr/share/locale"
@@ -18,107 +21,46 @@ export TEXTDOMAIN=calamares-biglinux
 
 VerifyPkgs=$"Verificando pacotes, aguarde..."
 
-cat << EOF
+read -d $"" ShowText << EOF
+<!DOCTYPE html>
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>$TITLE</title>
-  <script src="/usr/share/bigbashview/bcc/materialize/js/jquery.js"></script>
-  <link rel="stylesheet" href="./style.css">
-  <style>
-.loading span {
-  display: inline-block;
-  vertical-align: middle;
-  width: .6em;
-  height: .6em;
-  margin: .19em;
-  background: #87CEFA;
-  border-radius: .6em;
-  animation: loading 1s infinite alternate;
-}
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-.loading span:nth-of-type(2) {
-  background: #00BFFF;
-  animation-delay: 0.2s;
-}
-.loading span:nth-of-type(3) {
-  background: #1E90FF;
-  animation-delay: 0.4s;
-}
-.loading span:nth-of-type(4) {
-  background: #4168E1;
-  animation-delay: 0.6s;
-}
+    <!-- CSS Imports -->
+    <link href="css/beer.min.css" rel="stylesheet">
+    <link href="css/biglinux.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
-@keyframes loading {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}  
-  </style>  
+    <!-- JS Imports -->
+    <script type="module" src="js/biglinux.js"></script>
+    <script type="module" src="js/material-dynamic-colors.min.js"></script>
 </head>
+
+<body class="dark secondary-container" x-data="getItems()" x-init="loadConfig" onload="document.forms[0].submit()">
+<main class="responsive max center-align middle-align">
+  <progress class="circle"></progress>
+  <h5 class="center-align small">$VerifyPkgs</h5>
+
+  <form action=selected_desktop_verify_pkgs2.sh.htm>
+    <input type="hidden" id="use_custom_desktop" name="use_custom_desktop" value="yes">
+    <input type="hidden" id="option" name="option" value="$option">
+    <input type="hidden" id="install_packages" name="install_packages" value="$install_packages">
+    <input type="hidden" id="remove_packages" name="remove_packages" value="$remove_packages">
+    <input type="hidden" id="login_manager" name="login_manager" value="$login_manager">
+  </form>
+
+  <label class="switch icon large-margin absolute bottom right">
+    <a class="circle small secondary" onclick="ui('mode', ui('mode') == 'dark' ? 'light' : 'dark')"><i>dark_mode</i></a>
+  </label>
+  <div class="overlay center-align middle-align" id="overlay"></div>
+</main>
+<!--</article>  -->
+  <script type="module" src="js/beer.min.js"></script>
+</body>  
 EOF
+echo "$ShowText"
 
-# Get body tag with color light or not
-/usr/share/bigbashview/bcc/shell/getbgcolor.sh
-
-cat << EOF
-<div class="dark-light">
-    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
-    </svg>
-</div>
-EOF
-
-echo '<div class=info>'
-echo $"O sistema está em modo"
-echo '<strong>'
-[ -d /sys/firmware/efi ] && echo ' UEFI' || echo ' BIOS (Legacy)'
-echo '</strong>'
-echo $"e com o kernel" 
-echo '<strong>'
-echo "$(uname -r | cut -f1 -d-)" 
-echo '</strong>'
-echo '</div>'
-
-cat << EOF
-
-  <div class="container" style="display: grid;"> 
-    <div class="panel calamares-big-table"> 
-      <div class="calamares-big-plan" id=customSystem>
-        <h3 class="calamares-big-header" style="text-transform: uppercase;">$VerifyPkgs</h3>
-        <h3 class="calamares-big-header">$CUSTOM_PKGS</h3>
-        <div class="p"></div>
-        <div class="loading">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        
-EOF
-
-
-echo '<form action=selected_desktop_verify_pkgs2.sh.htm>'
-echo '<input type="hidden" id="use_custom_desktop" name="use_custom_desktop" value="yes">'
-echo "<input type=\"hidden\" id=\"option\" name=\"option\" value=\"$option\">"
-echo "<input type=\"hidden\" id=\"install_packages\" name=\"install_packages\" value=\"$install_packages\">"
-echo "<input type=\"hidden\" id=\"remove_packages\" name=\"remove_packages\" value=\"$remove_packages\">"
-echo "<input type=\"hidden\" id=\"login_manager\" name=\"login_manager\" value=\"$login_manager\">"
-#echo "<input type=\"hidden\" id=\"desktop_selected\" name=\"desktop_selected\" value=\"$desktop_selected\">"
-
-
-cat << EOF
-        <body onload="document.forms[0].submit()">
-      </div>
-    </div>
-  </div>
-  <div class="logo">
-      <img id="btn-big" src="logo.svg" class="logo-biglinux">
-  </div>
-<script  src="./script.js"></script>
-</body>
-</html>
-EOF
