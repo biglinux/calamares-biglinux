@@ -30,7 +30,3 @@ style:
    sidebarText:          "#ffffff"
    sidebarTextSelect:    "#00ffff"
    sidebarTextHighlight: "#242832"
-
-css:
-  .sidebarTextHighlight:
-    border-radius: 50px;
