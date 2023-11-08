@@ -663,3 +663,12 @@ msgstr "Какие пакеты вы хотите удалить?"
 
 msgid "Restaurar configurações do sistema"
 msgstr "Восстановление системных настроек"
+
+msgid "Não é possível instalar. "
+msgstr "Не удается установить. "
+
+msgid "Não é possível remover."
+msgstr "Не может быть удален."
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "Не удается найти Login Manager."

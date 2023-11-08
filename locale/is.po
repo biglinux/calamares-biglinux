@@ -655,3 +655,12 @@ msgstr "Hvaða pakka viltu fjarlægja?"
 
 msgid "Restaurar configurações do sistema"
 msgstr "Endurheimta kerfisstillingar"
+
+msgid "Não é possível instalar. "
+msgstr "Get ekki sett upp. "
+
+msgid "Não é possível remover."
+msgstr "Ekki hægt að fjarlægja."
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "Innskráningarstjóri finnst ekki."

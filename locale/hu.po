@@ -664,3 +664,12 @@ msgstr "Mely csomagokat szeretné eltávolítani?"
 
 msgid "Restaurar configurações do sistema"
 msgstr "Rendszerbeállítások visszaállítása"
+
+msgid "Não é possível instalar. "
+msgstr "Nem lehet telepíteni. "
+
+msgid "Não é possível remover."
+msgstr "Nem távolítható el."
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "A Bejelentkezéskezelő nem található."

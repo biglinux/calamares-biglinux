@@ -659,3 +659,12 @@ msgstr "Koje pakete želite ukloniti?"
 
 msgid "Restaurar configurações do sistema"
 msgstr "Vraćanje postavki sustava"
+
+msgid "Não é possível instalar. "
+msgstr "Instalacija nije moguća. "
+
+msgid "Não é possível remover."
+msgstr "Nije moguće ukloniti."
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "Upravitelj prijave nije moguće pronaći."

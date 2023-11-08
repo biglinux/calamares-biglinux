@@ -665,3 +665,12 @@ msgstr "Які пакунки ви хочете видалити?"
 
 msgid "Restaurar configurações do sistema"
 msgstr "Відновлення налаштувань системи"
+
+msgid "Não é possível instalar. "
+msgstr "Не вдається встановити. "
+
+msgid "Não é possível remover."
+msgstr "Не підлягає видаленню."
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "Не вдається знайти диспетчер входу."

@@ -618,3 +618,12 @@ msgstr "您要删除哪些包？"
 
 msgid "Restaurar configurações do sistema"
 msgstr "恢复系统设置"
+
+msgid "Não é possível instalar. "
+msgstr "无法安装。 "
+
+msgid "Não é possível remover."
+msgstr "无法删除。"
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "找不到登录管理器。"

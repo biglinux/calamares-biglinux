@@ -671,3 +671,12 @@ msgstr "Quali pacchetti vuoi rimuovere?"
 
 msgid "Restaurar configurações do sistema"
 msgstr "Ripristina le impostazioni di sistema"
+
+msgid "Não é possível instalar. "
+msgstr "Impossibile eseguire l'installazione. "
+
+msgid "Não é possível remover."
+msgstr "Non può essere rimosso."
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "Impossibile trovare Login Manager."

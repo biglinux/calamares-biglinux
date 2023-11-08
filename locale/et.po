@@ -652,3 +652,12 @@ msgstr "Milliseid pakette soovite eemaldada?"
 
 msgid "Restaurar configurações do sistema"
 msgstr "Taastage süsteemi seaded"
+
+msgid "Não é possível instalar. "
+msgstr "Ei saa installida. "
+
+msgid "Não é possível remover."
+msgstr "Ei saa eemaldada."
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "Sisselogimishaldurit ei leita."

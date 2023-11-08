@@ -665,3 +665,12 @@ msgstr "Welke pakketten wilt u verwijderen?"
 
 msgid "Restaurar configurações do sistema"
 msgstr "Systeeminstellingen herstellen"
+
+msgid "Não é possível instalar. "
+msgstr "Kan niet installeren. "
+
+msgid "Não é possível remover."
+msgstr "Kan niet worden verwijderd."
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "Aanmeldingsbeheer kan niet worden gevonden."

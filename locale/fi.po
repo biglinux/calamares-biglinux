@@ -656,3 +656,12 @@ msgstr "Mitkä paketit haluat poistaa?"
 
 msgid "Restaurar configurações do sistema"
 msgstr "Palauta järjestelmäasetukset"
+
+msgid "Não é possível instalar. "
+msgstr "Asennus ei onnistu. "
+
+msgid "Não é possível remover."
+msgstr "Ei voi poistaa."
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "Kirjautumisen hallintaa ei löydy."

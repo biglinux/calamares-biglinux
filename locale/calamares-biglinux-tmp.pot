@@ -531,3 +531,12 @@ msgstr  ""
 #
 msgid   "Restaurar configurações do sistema"
 msgstr  ""
+#
+msgid   "Não é possível instalar. "
+msgstr  ""
+#
+msgid   "Não é possível remover."
+msgstr  ""
+#
+msgid   "Não é possível encontrar Gerenciador de Login."
+msgstr  ""

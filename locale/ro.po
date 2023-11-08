@@ -660,3 +660,12 @@ msgstr "Ce pachete doriți să eliminați?"
 
 msgid "Restaurar configurações do sistema"
 msgstr "Restabiliți setările de sistem"
+
+msgid "Não é possível instalar. "
+msgstr "Imposibil de instalat. "
+
+msgid "Não é possível remover."
+msgstr "Nu poate fi eliminat."
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "Managerul de conectare nu poate fi găsit."

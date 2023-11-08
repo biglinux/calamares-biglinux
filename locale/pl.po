@@ -663,3 +663,12 @@ msgstr "Które pakiety chcesz usunąć?"
 
 msgid "Restaurar configurações do sistema"
 msgstr "Przywróć ustawienia systemowe"
+
+msgid "Não é possível instalar. "
+msgstr "Nie można zainstalować. "
+
+msgid "Não é possível remover."
+msgstr "Nie można usunąć."
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "Nie można odnaleźć Menedżera logowania."

@@ -660,3 +660,12 @@ msgstr "Кои пакети искате да премахнете?"
 
 msgid "Restaurar configurações do sistema"
 msgstr "Възстановяване на системните настройки"
+
+msgid "Não é possível instalar. "
+msgstr "Не може да се инсталира. "
+
+msgid "Não é possível remover."
+msgstr "Не може да бъде премахнат."
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "Мениджърът за вход не може да бъде намерен."

@@ -666,3 +666,12 @@ msgstr "Vilka paket vill du ta bort?"
 
 msgid "Restaurar configurações do sistema"
 msgstr "Återställa systeminställningar"
+
+msgid "Não é possível instalar. "
+msgstr "Det går inte att installera. "
+
+msgid "Não é possível remover."
+msgstr "Kan inte tas bort."
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "Det går inte att hitta Inloggningshanteraren."

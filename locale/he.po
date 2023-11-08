@@ -642,3 +642,12 @@ msgstr "אילו חבילות ברצונך להסיר?"
 
 msgid "Restaurar configurações do sistema"
 msgstr "שחזור הגדרות מערכת"
+
+msgid "Não é possível instalar. "
+msgstr "לא ניתן להתקין. "
+
+msgid "Não é possível remover."
+msgstr "לא ניתן להסיר."
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "לא ניתן למצוא את מנהל ההתחברות."

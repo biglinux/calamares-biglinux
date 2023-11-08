@@ -668,3 +668,12 @@ msgstr "Quais pacotes deseja remover?"
 
 msgid "Restaurar configurações do sistema"
 msgstr "Restaurar configurações do sistema"
+
+msgid "Não é possível instalar. "
+msgstr "Não é possível instalar. "
+
+msgid "Não é possível remover."
+msgstr "Não é possível remover."
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "Não é possível encontrar Gerenciador de Login."

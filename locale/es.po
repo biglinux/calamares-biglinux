@@ -666,3 +666,12 @@ msgstr "¿Qué paquetes desea eliminar?"
 
 msgid "Restaurar configurações do sistema"
 msgstr "Restaurar la configuración del sistema"
+
+msgid "Não é possível instalar. "
+msgstr "No se puede instalar. "
+
+msgid "Não é possível remover."
+msgstr "No se puede quitar."
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "No se puede encontrar el Administrador de inicio de sesión."

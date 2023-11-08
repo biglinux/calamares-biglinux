@@ -663,3 +663,12 @@ msgstr "Hvilke pakker vil du fjerne?"
 
 msgid "Restaurar configurações do sistema"
 msgstr "Gendan systemindstillinger"
+
+msgid "Não é possível instalar. "
+msgstr "Kan ikke installeres. "
+
+msgid "Não é possível remover."
+msgstr "Kan ikke fjernes."
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "Login Manager blev ikke fundet."

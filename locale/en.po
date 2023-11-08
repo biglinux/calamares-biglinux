@@ -655,3 +655,12 @@ msgstr "Which packages do you want to remove?"
 
 msgid "Restaurar configurações do sistema"
 msgstr "Restore system settings"
+
+msgid "Não é possível instalar. "
+msgstr "Unable to install. "
+
+msgid "Não é possível remover."
+msgstr "Cannot be removed."
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "Login Manager can't be found."

@@ -664,3 +664,12 @@ msgstr "Hangi paketleri kaldırmak istiyorsunuz?"
 
 msgid "Restaurar configurações do sistema"
 msgstr "Sistem ayarlarını geri yükle"
+
+msgid "Não é possível instalar. "
+msgstr "Yüklenemiyor. "
+
+msgid "Não é possível remover."
+msgstr "Kaldırılamaz."
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "Oturum Açma Yöneticisi bulunamıyor."

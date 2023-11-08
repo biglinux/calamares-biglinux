@@ -630,3 +630,12 @@ msgstr "どのパッケージを削除しますか?"
 
 msgid "Restaurar configurações do sistema"
 msgstr "システム設定の復元"
+
+msgid "Não é possível instalar. "
+msgstr "インストールできません。 "
+
+msgid "Não é possível remover."
+msgstr "削除できません。"
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "ログイン マネージャーが見つかりません。"

@@ -657,3 +657,12 @@ msgstr "Ktoré balíky chcete odstrániť?"
 
 msgid "Restaurar configurações do sistema"
 msgstr "Obnovenie systémových nastavení"
+
+msgid "Não é possível instalar. "
+msgstr "Inštalácia sa nedá nainštalovať. "
+
+msgid "Não é possível remover."
+msgstr "Nedá sa odstrániť."
+
+msgid "Não é possível encontrar Gerenciador de Login."
+msgstr "Správcu prihlásenia nemožno nájsť."
