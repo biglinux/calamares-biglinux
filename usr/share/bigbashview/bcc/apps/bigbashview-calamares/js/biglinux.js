@@ -1,3 +1,9 @@
+function addBlankLine() {
+  // Adiciona uma linha em branco no final de cada <textarea> no formulário
+  document.getElementById('install_packages').value += '\n';
+  document.getElementById('remove_packages').value += '\n';
+}
+
 const fileInput = document.getElementById("fileInput");
 const textArea = document.getElementById("install_packages");
 
