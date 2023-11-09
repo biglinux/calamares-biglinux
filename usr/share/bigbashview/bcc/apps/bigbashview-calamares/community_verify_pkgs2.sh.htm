@@ -133,7 +133,7 @@ if ([ "$pkgProblemInstall" = "yes" ]) || ([ "$pkgProblemRemove" = "yes" ]) || ([
     echo "$msg_not_login"
   fi
   echo '</pre>'
-  
+  echo '</div>'
   
 else
 
@@ -158,16 +158,20 @@ read -d $"" ShowText << EOF
 
 EOF
 echo "$ShowText"
-  if ([ "$pkgProblemInstall" = "yes" ]) || ([ "$pkgProblemRemove" = "yes" ]) || ([ "$pkgProblem" = "yes" ]) then  
+  if ([ "$pkgProblemInstall" = "yes" ]) || ([ "$pkgProblemRemove" = "yes" ]) || ([ "$pkgProblem" = "yes" ]) then
+    echo '    <div>'
     echo '    <a class="button no-border tertiary" onclick="window.history.go(-1);">'
     echo '      <i>arrow_circle_left</i>'
     echo '      <span>'$BACK_HISTORY'</span>'
     echo '    </a>'
+    echo '    </div>'
   else
+    echo '    <div>'
     echo '    <a class="button no-border tertiary" onclick="document.forms[0].submit()">'
     echo '      <i>arrow_circle_left</i>'
     echo '      <span>'$CONTINUE_HISTORY'</span>'
     echo '    </a>'
+    echo '    </div>'
   fi
 read -d $"" ShowText << EOF
   </nav>
