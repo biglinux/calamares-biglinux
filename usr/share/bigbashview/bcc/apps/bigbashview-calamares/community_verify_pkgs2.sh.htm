@@ -50,7 +50,7 @@ echo "</div>"
 
 if [ "$remove_packages" != "" ]; then
     for package in $(echo $remove_packages | tr -d '\r'); do
-        if [ -z "$(grep "$package" /rootfs-pkgs.txt)" ]; then
+        if [ -z "$(grep "\b$package\b" /rootfs-pkgs.txt)" ]; then
             echo $package >> /tmp/biglinux-calamares-pkg-remove.err
             pkgProblemRemove="yes"
         fi
@@ -72,21 +72,21 @@ fi
 
 #DESKTOP CLI
 
-if [ "$desktop_selected" = "cli" -a -n "$login_manager" ];then
+# if [ "$desktop_selected" = "cli" -a -n "$login_manager" ];then
+#     if [ -z "$(echo $install_packages | grep $login_manager)" ];then
+#         msg_not_login="$NotPossibleLogin  $login_manager "
+#         pkgProblem="yes"
+#     else
+#         msg_not_login=""
+#     fi
+# elif [ "$desktop_selected" != "cli" ];then 
     if [ -z "$(echo $install_packages | grep $login_manager)" ];then
         msg_not_login="$NotPossibleLogin  $login_manager "
         pkgProblem="yes"
     else
         msg_not_login=""
     fi
-elif [ "$desktop_selected" != "cli" ];then 
-    if [ -z "$(echo $install_packages | grep $login_manager)" ];then
-        msg_not_login="$NotPossibleLogin  $login_manager "
-        pkgProblem="yes"
-    else
-        msg_not_login=""
-    fi
-fi
+# fi
 
 read -d $"" ShowText << EOF
 <!DOCTYPE html>
