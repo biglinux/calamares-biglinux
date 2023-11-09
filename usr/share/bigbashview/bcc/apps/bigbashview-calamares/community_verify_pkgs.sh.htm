@@ -21,6 +21,37 @@ export TEXTDOMAIN=calamares-biglinux
 
 VerifyPkgs=$"Verificando pacotes, aguarde..."
 
+# read -r -d '' install_packages
+# read -r -d '' remove_packages
+# 
+# # Adiciona uma linha em branco no final se não houver
+# if [[ "${install_packages: -1}" != $'\n' ]]; then
+#     install_packages="${install_packages}
+# "
+# fi
+# if [[ "${remove_packages: -1}" != $'\n' ]]; then
+#     remove_packages="${remove_packages}
+# "
+# fi
+
+read -r -d '' install_packages
+read -r -d '' remove_packages
+
+# Função para adicionar uma linha em branco no final, se necessário
+add_blank_line() {
+    if [[ "${1: -1}" != $'\n' ]]; then
+        echo "${1}
+"
+    else
+        echo "$1"
+    fi
+}
+
+# Atualiza as variáveis
+install_packages=$(add_blank_line "$install_packages")
+remove_packages=$(add_blank_line "$remove_packages")
+
+
 read -d $"" ShowText << EOF
 <!DOCTYPE html>
 <html>
