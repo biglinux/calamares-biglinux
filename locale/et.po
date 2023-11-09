@@ -661,3 +661,6 @@ msgstr "Ei saa eemaldada."
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "Sisselogimishaldurit ei leita."
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "Ei leia sisselogimishaldurit:"

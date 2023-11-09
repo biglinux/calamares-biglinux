@@ -665,3 +665,6 @@ msgstr "Ei voi poistaa."
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "Kirjautumisen hallintaa ei löydy."
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "Kirjautumisen hallintaa ei löydy:"

@@ -674,3 +674,6 @@ msgstr "Не підлягає видаленню."
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "Не вдається знайти диспетчер входу."
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "Не вдається знайти диспетчер входу:"

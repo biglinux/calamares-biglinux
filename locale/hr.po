@@ -668,3 +668,6 @@ msgstr "Nije moguće ukloniti."
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "Upravitelj prijave nije moguće pronaći."
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "Nije moguće pronaći Upravitelj prijave:"

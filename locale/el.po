@@ -680,3 +680,6 @@ msgstr "Δεν είναι δυνατή η κατάργηση."
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "Δεν είναι δυνατή η εύρεση του Login Manager."
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "Δεν μπορείτε να βρείτε τη Διαχείριση σύνδεσης:"

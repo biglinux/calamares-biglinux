@@ -673,3 +673,6 @@ msgstr "Kaldırılamaz."
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "Oturum Açma Yöneticisi bulunamıyor."
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "Oturum Açma Yöneticisi'ni bulamıyorum:"

@@ -680,3 +680,6 @@ msgstr "Non può essere rimosso."
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "Impossibile trovare Login Manager."
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "Impossibile trovare Login Manager:"

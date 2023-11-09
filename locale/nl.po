@@ -674,3 +674,6 @@ msgstr "Kan niet worden verwijderd."
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "Aanmeldingsbeheer kan niet worden gevonden."
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "Kan Login Manager niet vinden:"

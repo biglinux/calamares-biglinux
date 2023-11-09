@@ -679,3 +679,6 @@ msgstr "Kann nicht entfernt werden."
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "Der Login-Manager kann nicht gefunden werden."
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "Ich kann den Login-Manager nicht finden:"

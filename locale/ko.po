@@ -633,3 +633,6 @@ msgstr "제거할 수 없습니다."
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "로그인 관리자를 찾을 수 없습니다."
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "로그인 관리자를 찾을 수 없습니다."

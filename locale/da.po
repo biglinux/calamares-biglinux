@@ -672,3 +672,6 @@ msgstr "Kan ikke fjernes."
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "Login Manager blev ikke fundet."
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "Kan ikke finde Login Manager:"

@@ -666,3 +666,6 @@ msgstr "Nedá sa odstrániť."
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "Správcu prihlásenia nemožno nájsť."
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "Správca prihlásení sa nedá nájsť:"

@@ -664,3 +664,6 @@ msgstr "Ekki hægt að fjarlægja."
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "Innskráningarstjóri finnst ekki."
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "Finn ekki Login Manager:"

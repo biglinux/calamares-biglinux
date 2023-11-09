@@ -627,3 +627,6 @@ msgstr "无法删除。"
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "找不到登录管理器。"
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "找不到登录管理器："

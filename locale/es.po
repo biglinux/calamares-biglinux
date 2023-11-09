@@ -675,3 +675,6 @@ msgstr "No se puede quitar."
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "No se puede encontrar el Administrador de inicio de sesión."
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "No puedo encontrar el Administrador de inicio de sesión:"

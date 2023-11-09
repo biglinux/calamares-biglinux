@@ -680,3 +680,6 @@ msgstr "Ne peut pas être supprimé."
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "Le Gestionnaire de connexion est introuvable."
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "Impossible de trouver le Gestionnaire de connexion :"

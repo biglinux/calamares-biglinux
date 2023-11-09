@@ -757,3 +757,7 @@ msgstr  ""
 #
 msgid   "Não é possível encontrar Gerenciador de Login."
 msgstr  ""
+
+#
+msgid   "Não é possível encontrar Gerenciador de Login:"
+msgstr  ""

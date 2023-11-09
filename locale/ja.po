@@ -639,3 +639,6 @@ msgstr "削除できません。"
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "ログイン マネージャーが見つかりません。"
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "ログイン・マネージャが見つかりません:"

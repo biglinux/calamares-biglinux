@@ -669,3 +669,6 @@ msgstr "Не може да бъде премахнат."
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "Мениджърът за вход не може да бъде намерен."
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "Не може да се намери мениджър за влизане:"

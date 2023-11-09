@@ -677,3 +677,6 @@ msgstr "Não é possível remover."
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "Não é possível encontrar Gerenciador de Login."
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "Não é possível encontrar Gerenciador de Login:"

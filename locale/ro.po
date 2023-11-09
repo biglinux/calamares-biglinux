@@ -669,3 +669,6 @@ msgstr "Nu poate fi eliminat."
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "Managerul de conectare nu poate fi găsit."
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "Nu pot găsi Managerul de conectare:"

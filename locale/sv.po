@@ -675,3 +675,6 @@ msgstr "Kan inte tas bort."
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "Det går inte att hitta Inloggningshanteraren."
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "Kan inte hitta Inloggningshanteraren:"

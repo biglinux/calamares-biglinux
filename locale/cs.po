@@ -661,3 +661,6 @@ msgstr "Nelze odstranit."
 
 msgid "Não é possível encontrar Gerenciador de Login."
 msgstr "Správce přihlášení nelze nalézt."
+
+msgid "Não é possível encontrar Gerenciador de Login:"
+msgstr "Nelze najít Správce přihlášení:"
