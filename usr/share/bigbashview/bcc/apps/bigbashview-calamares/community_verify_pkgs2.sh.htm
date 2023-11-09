@@ -159,19 +159,17 @@ read -d $"" ShowText << EOF
 EOF
 echo "$ShowText"
   if ([ "$pkgProblemInstall" = "yes" ]) || ([ "$pkgProblemRemove" = "yes" ]) || ([ "$pkgProblem" = "yes" ]) then
-    echo '    <div>'
+    echo '    <div class="space"></div>'
     echo '    <a class="button no-border tertiary" onclick="window.history.go(-1);">'
     echo '      <i>arrow_circle_left</i>'
     echo '      <span>'$BACK_HISTORY'</span>'
     echo '    </a>'
-    echo '    </div>'
   else
-    echo '    <div>'
+    echo '    <div class="space"></div>'
     echo '    <a class="button no-border tertiary" onclick="document.forms[0].submit()">'
     echo '      <i>arrow_circle_left</i>'
     echo '      <span>'$CONTINUE_HISTORY'</span>'
     echo '    </a>'
-    echo '    </div>'
   fi
 read -d $"" ShowText << EOF
   </nav>
