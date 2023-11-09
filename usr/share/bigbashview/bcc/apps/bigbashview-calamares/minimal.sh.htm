@@ -48,7 +48,7 @@ read -d $"" ShowText << EOF
 
 <!--<article class="small-blur no-padding secondary-container">-->
 <main class="responsive max">
-  <nav class="padding">
+  <nav class="no-padding">
     <i class="extra">
       <img src="icon/advanced.svg">
     </i>
@@ -61,13 +61,13 @@ read -d $"" ShowText << EOF
     <i></i>
   </nav>
 
-  <h5 class="center-align small">$TXT_TITLE_DESC</h5>
+<!--  <h5 class="center-align small">$TXT_TITLE_DESC</h5>-->
   
   <form action=install.sh.htm>
   <input type="hidden" id="less_pkgs" name="less_pkgs" value="yes">
   <input type="hidden" id="option" name="option" value="$option">
 
-   <nav class="center-align padding">
+   <nav class="center-align no-padding">
     <button class="no-border tertiary" type="button" onclick='deSelect()' value="$SELECT_ALL">
       <i>check_box_outline_blank</i>
       <span>$SELECT_ALL</span>
