@@ -76,7 +76,6 @@ read -d $"" ShowText << EOF
     <link href="css/style.css" rel="stylesheet">
 
     <!-- JS Imports -->
-    <script type="module" src="js/biglinux.js"></script>
     <script type="module" src="js/material-dynamic-colors.min.js"></script>
 </head>
 
@@ -95,7 +94,7 @@ read -d $"" ShowText << EOF
     <i></i>
   </nav>
 
-<form action=community_verify_pkgs.sh.htm>
+<form action="community_verify_pkgs.sh.htm"  onsubmit="addBlankLine()">
   <input type="hidden" id="use_custom_desktop" name="use_custom_desktop" value="yes">
   <input type="hidden" id="option" name="option" value="$option">
   <!--<input type="hidden" id="desktop_selected" name="desktop_selected" value="$desktop_selected">  -->
@@ -265,6 +264,7 @@ read -d $"" ShowText << EOF
 </main>
 <!--</article>  -->
   <script type="module" src="js/beer.min.js"></script>
+  <script src="js/biglinux.js"></script>
 </body>
 EOF
 echo "$ShowText"
