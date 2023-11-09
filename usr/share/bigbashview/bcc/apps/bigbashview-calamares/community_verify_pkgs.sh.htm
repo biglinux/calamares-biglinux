@@ -38,12 +38,13 @@ read -d $"" ShowText << EOF
     <!-- JS Imports -->
     <script type="module" src="js/biglinux.js"></script>
     <script type="module" src="js/material-dynamic-colors.min.js"></script>
+    <script type="module" src="js/beer.min.js"></script>
 </head>
 
 <body class="dark secondary-container" x-data="getItems()" x-init="loadConfig" onload="document.forms[0].submit()">
 <main class="responsive max center-align middle-align">
-  <progress class="circle"></progress>
-  <h5 class="center-align small">$VerifyPkgs</h5>
+  <progress class="circle padding"></progress>
+  <h5 class="center-align small padding">$VerifyPkgs</h5>
 
   <form action=community_verify_pkgs2.sh.htm>
     <input type="hidden" id="use_custom_desktop" name="use_custom_desktop" value="yes">
@@ -58,8 +59,6 @@ read -d $"" ShowText << EOF
   </label>
   <div class="overlay center-align middle-align" id="overlay"></div>
 </main>
-<!--</article>  -->
-  <script type="module" src="js/beer.min.js"></script>
 </body>
 EOF
 echo "$ShowText"
