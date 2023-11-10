@@ -127,8 +127,8 @@ if ([ "$pkgProblemInstall" = "yes" ]) || ([ "$pkgProblemRemove" = "yes" ]) || ([
   
 else
 
-    echo '<h6>'$SUCCESS_MSG'</h6>'
-    echo '<script>window.onload = function(){document.forms[0].submit();}</script>'
+    echo '<h6 class="max center-align padding">'$SUCCESS_MSG'</h6>'
+    #echo '<script>window.onload = function(){document.forms[0].submit();}</script>'
   
 fi
 
@@ -148,16 +148,15 @@ read -d $"" ShowText << EOF
 EOF
 echo "$ShowText"
   if ([ "$pkgProblemInstall" = "yes" ]) || ([ "$pkgProblemRemove" = "yes" ]) || ([ "$pkgProblem" = "yes" ]) then
-    echo '    <div class="space"></div>'
     echo '    <a class="button no-border tertiary" onclick="window.history.go(-1);">'
     echo '      <i>arrow_circle_left</i>'
     echo '      <span>'$BACK_HISTORY'</span>'
     echo '    </a>'
   else
-    echo '    <div class="space"></div>'
+
     echo '    <a class="button no-border tertiary" onclick="document.forms[0].submit()">'
-    echo '      <i>arrow_circle_left</i>'
     echo '      <span>'$CONTINUE_HISTORY'</span>'
+    echo '      <i>resume</i>'
     echo '    </a>'
   fi
 read -d $"" ShowText << EOF
@@ -171,7 +170,7 @@ read -d $"" ShowText << EOF
   </label>
   <div class="overlay center-align middle-align" id="overlay"></div>
 </main>
-<!--</article>  -->
+
   <script type="module" src="js/beer.min.js"></script>
 </body>
 EOF
