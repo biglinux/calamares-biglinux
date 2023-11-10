@@ -70,23 +70,13 @@ else
 fi
 
 
-#DESKTOP CLI
+if [ -z "$(echo $install_packages | grep $login_manager)" ];then
+    msg_not_login="$NotPossibleLogin  $login_manager "
+    pkgProblem="yes"
+else
+    msg_not_login=""
+fi
 
-# if [ "$desktop_selected" = "cli" -a -n "$login_manager" ];then
-#     if [ -z "$(echo $install_packages | grep $login_manager)" ];then
-#         msg_not_login="$NotPossibleLogin  $login_manager "
-#         pkgProblem="yes"
-#     else
-#         msg_not_login=""
-#     fi
-# elif [ "$desktop_selected" != "cli" ];then 
-    if [ -z "$(echo $install_packages | grep $login_manager)" ];then
-        msg_not_login="$NotPossibleLogin  $login_manager "
-        pkgProblem="yes"
-    else
-        msg_not_login=""
-    fi
-# fi
 
 read -d $"" ShowText << EOF
 <!DOCTYPE html>
@@ -141,7 +131,6 @@ else
     echo '<script>window.onload = function(){document.forms[0].submit();}</script>'
   
 fi
-echo '</div>'
 
 
 read -d $"" ShowText << EOF
@@ -174,7 +163,8 @@ echo "$ShowText"
 read -d $"" ShowText << EOF
   </nav>
 </form>
-</div>
+
+  </div>
 
   <label class="switch icon large-margin absolute bottom right">
     <a class="circle small secondary" onclick="ui('mode', ui('mode') == 'dark' ? 'light' : 'dark')"><i>dark_mode</i></a>
