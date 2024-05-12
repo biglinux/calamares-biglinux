@@ -9,7 +9,14 @@ sed -i 's|BOOT_IMAGE=/boot/vmlinuz-x86_64||g;s|misobasedir=manjaro misolabel=BIG
 
 sed -i 's|GRUB_THEME=.*|GRUB_THEME="/boot/grub/themes/biglinux/theme.txt"|g' $*
 
-sed -i 's|GRUB_SAVEDEFAULT=true|GRUB_SAVEDEFAULT=false\nGRUB_EARLY_INITRD_LINUX_STOCK=""|g;s|quiet quiet|quiet|g' $*
+sed -i 's|GRUB_SAVEDEFAULT=true|GRUB_SAVEDEFAULT=false|g;s|quiet quiet|quiet|g' $*
+
+if ! grep -q GRUB_EARLY_INITRD_LINUX_STOCK $*; then
+    echo "GRUB_EARLY_INITRD_LINUX_STOCK=''" >> $*
+fi
+
+
+\nGRUB_EARLY_INITRD_LINUX_STOCK=""
 
 #remove multiples splash
 while [ "$(grep -o '[^[:space:]]*splash[^[:space:]]*' $* | sed 's/\"//' | wc -w)" -gt "1" ];do
