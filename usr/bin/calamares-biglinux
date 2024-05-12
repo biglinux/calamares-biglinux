@@ -45,7 +45,7 @@ fi
 # disable swap on disk
 for diskswap in $(blkid | grep 'TYPE="swap"' | grep -v zram | cut -f1 -d:)
 do
-    sudo swapoff $diskswap
+    swapoff $diskswap
 done
 
 if [ "${LANG:0:2}" = "pt" ]
@@ -381,8 +381,8 @@ QT_QUICK_BACKEND=software QMLSCENE_DEVICE=softwarecontext QTWEBENGINE_CHROMIUM_F
 
 # Start calamares
 if [ -e "/tmp/start_calamares" ]; then
-    sudo cp -f /usr/share/biglinux/themes/biglinux/.config/kdeglobals /root/.config/kdeglobals
-    pkexec -E /usr/bin/calamares-manjaro -d
+    cp -f /usr/share/biglinux/themes/biglinux/.config/kdeglobals /root/.config/kdeglobals
+    /usr/bin/calamares-manjaro -d
 
   #Calamares failed to install
   if [ "$(grep -w completion /root/.cache/calamares/session.log | grep -v bash-completion | rev | cut -d ":" -f1 | rev | sed 's/^[ \t]*//;s/[ \t]*$//')" != "succeeded" ];then
