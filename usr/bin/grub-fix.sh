@@ -26,8 +26,8 @@ Session=/usr/share/xsessions/plasma-biglinux-x11.desktop" > $(echo "$*" | sed 's
 
 sed -i "s|Session=plasma.desktop|Session=plasma-biglinux-x11.desktop|g" $(echo "$*" | sed 's|etc/default/grub|etc/sddm.conf|g')
 
-# use compress-force=zstd:5 in /git 
-sed -i 's|subvol=/@,defaults,noatime,compress=zstd|subvol=/@,defaults,noatime,compress-force=zstd:5|g' $(echo "$*" | sed 's|etc/default/grub|/etc/fstab|g')
+# use compress-force=zstd:5 in / and not number in all other
+sed -i -e '/\s\/\s/ s/zstd:9/zstd:5/' -e '/\s\/\s/! s/zstd:9/zstd/' $(echo "$*" | sed 's|etc/default/grub|/etc/fstab|g')
 
 # Save default KDE configuration
 
