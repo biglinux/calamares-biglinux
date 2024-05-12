@@ -42,77 +42,11 @@ if [ "$(echo $(( $(date +%s) / 86400 )))" -gt "$(( $(cat /etc/big-release | grep
     fi
 fi
 
-#se a release tiver mais 11 digitos é por que é testing se tiver menos é stable
-ruscherrelease=$(cat /etc/big-release | grep RELEASE | awk -F'=' '{print $2}')
-ruschertimestamp=$(cat /etc/big-release | grep TIMESTAMP | awk -F'=' '{print $2}')
-
-# Define the shells to be tested
-shells=("/bin/bash" "/bin/zsh")
-
-# Verifica se está em uma versão de desenvolvimento
-if [ -n "$(cat /etc/big-release | grep development)" ]; then
-    # Check the validity of the ISO
-    if [ -z "$(curl -s https://raw.githubusercontent.com/BigLinux-Package-Build/big-releases/main/testing | grep $ruscherrelease | grep -v "#")" ]; then
-        echo "ISO invalida"
-        yad --attach="$windowID" --image=emblem-warning --image-on-top --form --width=500 --height=100 --fixed \
-        --align=center \
-        --field=$"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>
-        :LBL" \
-        --button=$" OK":0 \
-        --center --on-top --borders=20 --title=$"Versão Desatualizada" \
-        --window-icon=emblem-warning
-        sudo pacman -R calamares-biglinux calamares --noconfirm
-        find $HOME -name calamares-biglinux.desktop -exec rm {} +
-        exit 1
-    else
-        # Try to use the defined shells
-        for shell in "${shells[@]}"; do
-            if [ -x "$shell" ]; then
-                userShell="$shell"
-                break
-            fi
-        done
-
-        # Check if a valid shell was found
-        if [ -z "$userShell" ]; then
-            echo "Nenhum shell válido encontrado."
-            exit 1
-        fi
-    fi
-fi
-
-# # Default Shell in stable
-# # userShell="/bin/bash"
-# userShell="/bin/zsh"
-# if [ -n "$(cat /etc/big-release | grep development)" ];then
-#     # Default Shell in testing
-# #     userShell="/bin/zsh"
-#     if [ -z "$(curl -s https://raw.githubusercontent.com/BigLinux-Package-Build/big-releases/main/testing | grep $ruscherrelease | grep -v "#")" ]; then
-#         echo "ISO invalida"
-#         yad --attach="$windowID" --image=emblem-warning --image-on-top --form --width=500 --height=100 --fixed \
-#         --align=center \
-#         --field=$"<b>Essa Versão de desenvolvimento está ultrapassada e não pode mais ser usada.</b>
-#         :LBL" \
-#         --button=$" OK":0 \
-#         --center --on-top --borders=20 --title=$"Versão Desatualizada" \
-#         --window-icon=emblem-warning
-#         sudo pacman -R calamares-biglinux calamares --noconfirm
-#         find $HOME -name calamares-biglinux.desktop -exec rm {} +
-#         exit 1
-#     fi
-# fi
-
 # disable swap on disk
 for diskswap in $(blkid | grep 'TYPE="swap"' | grep -v zram | cut -f1 -d:)
 do
     sudo swapoff $diskswap
 done
-
-#Translation
-LANGUAGE=$LANG:en
-export TEXTDOMAINDIR="/usr/share/locale"
-export TEXTDOMAIN=calamares-biglinux
-
 
 if [ "${LANG:0:2}" = "pt" ]
 then
@@ -136,7 +70,7 @@ showKnownIssuesUrl:     false
 showReleaseNotesUrl:    false
 
 requirements:
-    internetCheckUrl: http://networkcheck.kde.org
+    internetCheckUrl: https://google.com
     requiredStorage:    4
     requiredRam:        0.5
     check:
@@ -148,17 +82,21 @@ requirements:
     required:
       - storage
       - ram
-      - root' > /etc/calamares/modules/welcome.conf
+      - root
 
-sed -i 's|systemctl reboot|reboot|g' /etc/calamares/modules/finished.conf
-      
+geoip:
+    style:    "none"
+    url:      "https://geoip.kde.org/v1/ubiquity"
+    selector: "CountryCode"
+      ' > /etc/calamares/modules/welcome.conf
+
 # Force btrfs compression using zstd
-sed -i 's|mount_option,|mount_option, "compress-force=zstd:9",|g' /usr/lib/calamares/modules/mount/main.py
+sed -i '/filesystem: btrfs/!b; :a; n; /^\s\{6\}options:/ s/defaults.*/defaults, noatime, compress-force=zstd:9 ]\n      ssdOptions: [ discard=async ]\n      hddOptions: [ autodefrag ]/; ta' /usr/share/calamares/modules/mount.conf
 
 # btrfs: defaults,noatime,autodefrag,compress=zstd
-sed -i 's|btrfs: defaults|btrfs: defaults,noatime,compress=zstd|g' /usr/share/calamares/modules/fstab.conf
-sed -i 's|btrfs: discard=async,ssd|#btrfs: discard=async,ssd|g' /usr/share/calamares/modules/fstab.conf
-sed -i 's|ssdExtraMountOptions:|#ssdExtraMountOptions:|g' /usr/share/calamares/modules/fstab.conf
+#sed -i 's|btrfs: defaults|btrfs: defaults,noatime,compress=zstd|g' /usr/share/calamares/modules/fstab.conf
+#sed -i 's|btrfs: discard=async,ssd|#btrfs: discard=async,ssd|g' /usr/share/calamares/modules/fstab.conf
+#sed -i 's|ssdExtraMountOptions:|#ssdExtraMountOptions:|g' /usr/share/calamares/modules/fstab.conf
 
 # Use btrfs for default
 sed -i 's|defaultFileSystemType.*"ext4"|defaultFileSystemType:  "btrfs"|g' /usr/share/calamares/modules/partition.conf
@@ -270,11 +208,11 @@ setRootPassword: false
 doReusePassword: false
 availableShells: /bin/bash, /bin/zsh
 avatarFilePath:  ~/.face
-userShell:       $userShell
+userShell:       /bin/bash
 passwordRequirements:
     nonempty: true" > /etc/calamares/modules/users.conf
 
-    
+
 echo '---
 keyrings:
     - archlinux
@@ -316,8 +254,8 @@ sequence:
         - hwclock
         - services
         - grubcfg
-        - grubcfg-fix
         - bootloader
+        - grubcfg-fix
         - postcfg
         - btrfs-fix
         - umount
@@ -444,7 +382,7 @@ QT_QUICK_BACKEND=software QMLSCENE_DEVICE=softwarecontext QTWEBENGINE_CHROMIUM_F
 # Start calamares
 if [ -e "/tmp/start_calamares" ]; then
     sudo cp -f /usr/share/biglinux/themes/biglinux/.config/kdeglobals /root/.config/kdeglobals
-    sudo QT_QUICK_BACKEND=software QSG_RENDER_LOOP=basic QT_XCB_GL_INTEGRATION=none /usr/bin/calamares-manjaro -d
+    pkexec -E /usr/bin/calamares-manjaro -d
 
   #Calamares failed to install
   if [ "$(grep -w completion /root/.cache/calamares/session.log | grep -v bash-completion | rev | cut -d ":" -f1 | rev | sed 's/^[ \t]*//;s/[ \t]*$//')" != "succeeded" ];then
@@ -475,7 +413,7 @@ if [ -e "/tmp/start_calamares" ]; then
       case $? in
           1) sudo -u $user kate /home/$user/calamares.log;;
           2) send;;
-          3) echo "Fechando arquivo..." ;;
+          3) echo $"Fechando arquivo..." ;;
       esac
   fi
 fi
