@@ -29,14 +29,11 @@ msgstr  "#-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#\n"
         "Content-Transfer-Encoding: 8bit\n"
         "Generated-By: pygettext.py 1.5\n"
 #
-# File: calamares-biglinux/usr/share/bigbashview/bcc/apps/bigbashview-calamares/js/daisy.js, line: 19
 msgid   "bracket"
 msgstr  ""
 #
-# File: calamares-biglinux/usr/share/bigbashview/bcc/apps/bigbashview-calamares/js/daisy.js, line: 19
 msgid   "string"
 msgstr  ""
 #
-# File: calamares-biglinux/usr/share/bigbashview/bcc/apps/bigbashview-calamares/js/daisy.js, line: 19
 msgid   "comment"
 msgstr  ""
