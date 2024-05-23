@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Important tips for manual partitioning"
+msgstr "Σημαντικές συμβουλές για τη χειροκίνητη διαμερισμοποίηση"
+
+msgid "If you opt for automatic partitioning, these tips will be applied."
+msgstr "Εάν επιλέξετε την αυτόματη διαίρεση, αυτές οι συμβουλές θα εφαρμοστούν."
+
+msgid "Use BTRFS."
+msgstr "Χρησιμοποιήστε το BTRFS."
+
+msgid "This file system allows for automatic compression and restore points."
+msgstr "Αυτό το σύστημα αρχείων επιτρέπει την αυτόματη συμπίεση και τα σημεία επαναφοράς."
+
+msgid "Keep /boot within the / partition."
+msgstr "Διατηρήστε το /boot μέσα στο διαμέρισμα /."
+
+msgid "Placing it in a separate partition hampers BTRFS snapshots."
+msgstr "Η τοποθέτησή του σε ξεχωριστό διαμέρισμα εμποδίζει τις στιγμιότυπες BTRFS."
+
+msgid "Do not create a SWAP partition."
+msgstr "Να μη δημιουργηθεί διαμέρισμα SWAP."
+
+msgid "We have implemented dynamic virtual memory management with Zram and SWAP files."
+msgstr "Έχουμε υλοποιήσει δυναμική διαχείριση εικονικής μνήμης με Zram και αρχεία SWAP."
+
+msgid "SWAP partitions will not be used."
+msgstr "Οι διανομές SWAP δεν θα χρησιμοποιηθούν."
+
+msgid "Continue"
+msgstr "Συνέχεια"
+
+msgid "The system is in"
+msgstr "Το σύστημα είναι σε"
+
+msgid ", kernel"
+msgstr "πυρήνας"
+
+msgid "and graphical mode"
+msgstr "και γραφική λειτουργία"
+
+msgid "This is a collaborative system, if you need help consult our forum: https://forum.biglinux.com.br."
+msgstr ""
+"Αυτό είναι ένα σύστημα συνεργασίας, αν χρειάζεστε βοήθεια, συμβουλευτείτε το φόρουμ μας: "
+"https://forum.biglinux.com.br."
+
+msgid "Back"
+msgstr "Πίσω"
+
+msgid "Uncheck the programs you want to remove"
+msgstr "Αποεπιλέξτε τα προγράμματα που θέλετε να αφαιρέσετε"
+
+msgid "Uncheck All"
+msgstr "Αποεπιλογή όλων"
+
+msgid "Check All"
+msgstr "Επιλογή Όλων"

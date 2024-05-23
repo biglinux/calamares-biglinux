@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Important tips for manual partitioning"
+msgstr "Важливі поради щодо ручного розділення"
+
+msgid "If you opt for automatic partitioning, these tips will be applied."
+msgstr "Якщо ви виберете автоматичне розділення, ці поради будуть застосовані."
+
+msgid "Use BTRFS."
+msgstr "Використовуйте BTRFS."
+
+msgid "This file system allows for automatic compression and restore points."
+msgstr "Ця файлова система дозволяє автоматичне стискання та створення точок відновлення."
+
+msgid "Keep /boot within the / partition."
+msgstr "Зберігайте /boot у межах розділу /."
+
+msgid "Placing it in a separate partition hampers BTRFS snapshots."
+msgstr "Розміщення його в окремому розділі ускладнює знімки BTRFS."
+
+msgid "Do not create a SWAP partition."
+msgstr "Не створюйте розділ SWAP."
+
+msgid "We have implemented dynamic virtual memory management with Zram and SWAP files."
+msgstr "Ми реалізували динамічне управління віртуальною пам'яттю за допомогою Zram та файлів SWAP."
+
+msgid "SWAP partitions will not be used."
+msgstr "SWAP розділи не будуть використовуватися."
+
+msgid "Continue"
+msgstr "Продовжити"
+
+msgid "The system is in"
+msgstr "Система увімкнена"
+
+msgid ", kernel"
+msgstr "ядру"
+
+msgid "and graphical mode"
+msgstr "та графічний режим"
+
+msgid "This is a collaborative system, if you need help consult our forum: https://forum.biglinux.com.br."
+msgstr ""
+"Це спільна система, якщо вам потрібна допомога, звертайтеся до нашого форуму: "
+"https://forum.biglinux.com.br."
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Uncheck the programs you want to remove"
+msgstr "Зняти позначку з програм, які потрібно видалити"
+
+msgid "Uncheck All"
+msgstr "Зняти всі позначки"
+
+msgid "Check All"
+msgstr "Перевірити всі"

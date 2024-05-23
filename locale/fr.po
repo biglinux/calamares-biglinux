@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Important tips for manual partitioning"
+msgstr "Conseils importants pour le partitionnement manuel"
+
+msgid "If you opt for automatic partitioning, these tips will be applied."
+msgstr "Si vous optez pour le partitionnement automatique, ces conseils seront appliqués."
+
+msgid "Use BTRFS."
+msgstr "Utilisez BTRFS."
+
+msgid "This file system allows for automatic compression and restore points."
+msgstr "Ce système de fichiers permet la compression automatique et la création de points de restauration."
+
+msgid "Keep /boot within the / partition."
+msgstr "Conserver /boot dans la partition /."
+
+msgid "Placing it in a separate partition hampers BTRFS snapshots."
+msgstr "Placer le dans une partition séparée entrave les instantanés BTRFS."
+
+msgid "Do not create a SWAP partition."
+msgstr "Ne créez pas de partition SWAP."
+
+msgid "We have implemented dynamic virtual memory management with Zram and SWAP files."
+msgstr ""
+"Nous avons mis en œuvre une gestion dynamique de la mémoire virtuelle avec Zram et des fichiers "
+"SWAP."
+
+msgid "SWAP partitions will not be used."
+msgstr "Les partitions SWAP ne seront pas utilisées."
+
+msgid "Continue"
+msgstr "Continuer"
+
+msgid "The system is in"
+msgstr "Le système est en"
+
+msgid ", kernel"
+msgstr "noyau"
+
+msgid "and graphical mode"
+msgstr "et mode graphique"
+
+msgid "This is a collaborative system, if you need help consult our forum: https://forum.biglinux.com.br."
+msgstr ""
+"Il s'agit d'un système collaboratif, si vous avez besoin d'aide, consultez notre forum : "
+"https://forum.biglinux.com.br."
+
+msgid "Back"
+msgstr "Retour"
+
+msgid "Uncheck the programs you want to remove"
+msgstr "Décochez les programmes que vous souhaitez supprimer"
+
+msgid "Uncheck All"
+msgstr "Tout décocher"
+
+msgid "Check All"
+msgstr "Tout cocher"

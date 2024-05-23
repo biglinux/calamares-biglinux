@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the calamares-biglinux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calamares-biglinux\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Important tips for manual partitioning"
+msgstr "Olulised näpunäited käsitsi partitsioneerimiseks"
+
+msgid "If you opt for automatic partitioning, these tips will be applied."
+msgstr "Kui valite automaatse partitsioneerimise, rakendatakse neid näpunäiteid."
+
+msgid "Use BTRFS."
+msgstr "Kasuta BTRFS-i."
+
+msgid "This file system allows for automatic compression and restore points."
+msgstr "See failisüsteem võimaldab automaatset tihendamist ja taastepunkte."
+
+msgid "Keep /boot within the / partition."
+msgstr "Hoidke /boot / partitsiooni sees."
+
+msgid "Placing it in a separate partition hampers BTRFS snapshots."
+msgstr "Paigutamine eraldi partitsioonile takistab BTRFS-i hetktõmmiste tegemist."
+
+msgid "Do not create a SWAP partition."
+msgstr "Ärge looge vahetuspartitsiooni."
+
+msgid "We have implemented dynamic virtual memory management with Zram and SWAP files."
+msgstr "Oleme rakendanud dünaamilise virtuaalmälu halduse Zrami ja SWAP-failidega."
+
+msgid "SWAP partitions will not be used."
+msgstr "SWAP partitsioone ei kasutata."
+
+msgid "Continue"
+msgstr "Jätka"
+
+msgid "The system is in"
+msgstr "Süsteem on käivitatud"
+
+msgid ", kernel"
+msgstr "tuumik"
+
+msgid "and graphical mode"
+msgstr "ja graafilises režiimis"
+
+msgid "This is a collaborative system, if you need help consult our forum: https://forum.biglinux.com.br."
+msgstr "See on ühistöö süsteem, kui vajate abi, konsulteerige meie foorumiga: https://forum.biglinux.com.br."
+
+msgid "Back"
+msgstr "Tagasi"
+
+msgid "Uncheck the programs you want to remove"
+msgstr "Tühista märkeruudud nende programmide eemaldamiseks"
+
+msgid "Uncheck All"
+msgstr "Tühista kõik"
+
+msgid "Check All"
+msgstr "Kontrolli kõik"
