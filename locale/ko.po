@@ -61,6 +61,53 @@ msgstr "이것은 협업 시스템입니다. 도움이 필요하면 포럼을 �
 msgid "Back"
 msgstr "뒤로"
 
+msgid "Maintenance"
+msgstr "유지보수"
+
+msgid "Tools that facilitate the maintenance of the installed system."
+msgstr "설치된 시스템의 유지보수를 용이하게 하는 도구들."
+
+msgid "Restore"
+msgstr "복원"
+
+msgid "Installation"
+msgstr "설치"
+
+msgid "The system is in live mode, which has limitations."
+msgstr "시스템은 라이브 모드로 작동 중이며 제한 사항이 있습니다."
+
+msgid "Install it for a complete experience."
+msgstr "완전한 경험을 위해 설치하세요."
+
+msgid "Install"
+msgstr "설치"
+
+msgid "Minimal"
+msgstr "최소한"
+
+msgid "Choose which programs to install, ensuring a highly customized experience."
+msgstr "고객 맞춤형 경험을 보장하도록 설치할 프로그램을 선택하세요."
+
+msgid "Restore system settings"
+msgstr "시스템 설정 복원"
+
+msgid ""
+"Utility that facilitates the restoration of the installed system, especially the restoration of the "
+"system boot (Grub)."
+msgstr "설치된 시스템의 복원을 용이하게 하는 유틸리티, 특히 시스템 부팅 (Grub)의 복원을 지원합니다."
+
+msgid "It can also be used to access the package manager and terminal of the installed system."
+msgstr "설치된 시스템의 패키지 관리자와 터미널에 액세스하는 데 사용할 수도 있습니다."
+
+msgid "Start"
+msgstr "시작"
+
+msgid "Snapshot and backups"
+msgstr "스냅샷 및 백업"
+
+msgid "Restore restore points of the installed system."
+msgstr "설치된 시스템의 복원 지점을 복원합니다."
+
 msgid "Uncheck the programs you want to remove"
 msgstr "제거하려는 프로그램을 선택 취소하세요"
 

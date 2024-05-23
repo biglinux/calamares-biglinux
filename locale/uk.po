@@ -63,6 +63,55 @@ msgstr ""
 msgid "Back"
 msgstr "Назад"
 
+msgid "Maintenance"
+msgstr "Обслуговування"
+
+msgid "Tools that facilitate the maintenance of the installed system."
+msgstr "Інструменти, які сприяють збереженню встановленої системи."
+
+msgid "Restore"
+msgstr "Відновити"
+
+msgid "Installation"
+msgstr "Встановлення"
+
+msgid "The system is in live mode, which has limitations."
+msgstr "Система перебуває в режимі реального часу, який має обмеження."
+
+msgid "Install it for a complete experience."
+msgstr "Встановіть його для повного досвіду."
+
+msgid "Install"
+msgstr "Встановити"
+
+msgid "Minimal"
+msgstr "Мінімальний"
+
+msgid "Choose which programs to install, ensuring a highly customized experience."
+msgstr "Виберіть програми для встановлення, забезпечуючи високо налаштований досвід."
+
+msgid "Restore system settings"
+msgstr "Відновити налаштування системи"
+
+msgid ""
+"Utility that facilitates the restoration of the installed system, especially the restoration of the "
+"system boot (Grub)."
+msgstr ""
+"Утиліта, яка сприяє відновленню встановленої системи, особливо відновленню завантаження системи "
+"(Grub)."
+
+msgid "It can also be used to access the package manager and terminal of the installed system."
+msgstr "Це також може бути використано для доступу до менеджера пакунків та терміналу встановленої системи."
+
+msgid "Start"
+msgstr "Почати"
+
+msgid "Snapshot and backups"
+msgstr "Знімок та резервні копії"
+
+msgid "Restore restore points of the installed system."
+msgstr "Відновити точки відновлення встановленої системи."
+
 msgid "Uncheck the programs you want to remove"
 msgstr "Зняти позначку з програм, які потрібно видалити"
 

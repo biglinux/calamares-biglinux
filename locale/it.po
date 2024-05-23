@@ -63,6 +63,57 @@ msgstr ""
 msgid "Back"
 msgstr "Indietro"
 
+msgid "Maintenance"
+msgstr "Manutenzione"
+
+msgid "Tools that facilitate the maintenance of the installed system."
+msgstr "Strumenti che facilitano la manutenzione del sistema installato."
+
+msgid "Restore"
+msgstr "Ripristina"
+
+msgid "Installation"
+msgstr "Installazione"
+
+msgid "The system is in live mode, which has limitations."
+msgstr "Il sistema è in modalità live, che ha delle limitazioni."
+
+msgid "Install it for a complete experience."
+msgstr "Installalo per un'esperienza completa."
+
+msgid "Install"
+msgstr "Install"
+
+msgid "Minimal"
+msgstr "Minimale"
+
+msgid "Choose which programs to install, ensuring a highly customized experience."
+msgstr "Scegli quali programmi installare, garantendo un'esperienza altamente personalizzata."
+
+msgid "Restore system settings"
+msgstr "Ripristina le impostazioni di sistema"
+
+msgid ""
+"Utility that facilitates the restoration of the installed system, especially the restoration of the "
+"system boot (Grub)."
+msgstr ""
+"Utilità che facilita il ripristino del sistema installato, in particolare il ripristino dell'avvio "
+"del sistema (Grub)."
+
+msgid "It can also be used to access the package manager and terminal of the installed system."
+msgstr ""
+"Può anche essere utilizzato per accedere al gestore di pacchetti e al terminale del sistema "
+"installato."
+
+msgid "Start"
+msgstr "Inizia"
+
+msgid "Snapshot and backups"
+msgstr "Istantanea e backup"
+
+msgid "Restore restore points of the installed system."
+msgstr "Ripristina i punti di ripristino del sistema installato."
+
 msgid "Uncheck the programs you want to remove"
 msgstr "Deseleziona i programmi che desideri rimuovere"
 

@@ -63,6 +63,57 @@ msgstr ""
 msgid "Back"
 msgstr "Tillbaka"
 
+msgid "Maintenance"
+msgstr "Underhåll"
+
+msgid "Tools that facilitate the maintenance of the installed system."
+msgstr "Verktyg som underlättar underhållet av det installerade systemet."
+
+msgid "Restore"
+msgstr "Återställ"
+
+msgid "Installation"
+msgstr "Installation"
+
+msgid "The system is in live mode, which has limitations."
+msgstr "Systemet är i live-läge, vilket har begränsningar."
+
+msgid "Install it for a complete experience."
+msgstr "Installera det för en komplett upplevelse."
+
+msgid "Install"
+msgstr "Installera"
+
+msgid "Minimal"
+msgstr "Minimal"
+
+msgid "Choose which programs to install, ensuring a highly customized experience."
+msgstr "Välj vilka program att installera, vilket säkerställer en högt anpassad upplevelse."
+
+msgid "Restore system settings"
+msgstr "Återställ systeminställningar"
+
+msgid ""
+"Utility that facilitates the restoration of the installed system, especially the restoration of the "
+"system boot (Grub)."
+msgstr ""
+"Verktyg som underlättar återställningen av det installerade systemet, särskilt återställningen av "
+"systemstarten (Grub)."
+
+msgid "It can also be used to access the package manager and terminal of the installed system."
+msgstr ""
+"Det kan också användas för att komma åt pakethanteraren och terminalen för det installerade "
+"systemet."
+
+msgid "Start"
+msgstr "Börja"
+
+msgid "Snapshot and backups"
+msgstr "Ögonblicksbild och säkerhetskopior"
+
+msgid "Restore restore points of the installed system."
+msgstr "Återställ återställningspunkter för det installerade systemet."
+
 msgid "Uncheck the programs you want to remove"
 msgstr "Avmarkera programmen du vill ta bort"
 

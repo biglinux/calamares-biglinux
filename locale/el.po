@@ -63,6 +63,57 @@ msgstr ""
 msgid "Back"
 msgstr "Πίσω"
 
+msgid "Maintenance"
+msgstr "Συντήρηση"
+
+msgid "Tools that facilitate the maintenance of the installed system."
+msgstr "Εργαλεία που διευκολύνουν τη συντήρηση του εγκατεστημένου συστήματος."
+
+msgid "Restore"
+msgstr "Επαναφορά"
+
+msgid "Installation"
+msgstr "Εγκατάσταση"
+
+msgid "The system is in live mode, which has limitations."
+msgstr "Το σύστημα βρίσκεται σε λειτουργία ζωντανής ροής, η οποία έχει περιορισμούς."
+
+msgid "Install it for a complete experience."
+msgstr "Εγκαταστήστε το για μια πλήρη εμπειρία."
+
+msgid "Install"
+msgstr "Εγκατάσταση"
+
+msgid "Minimal"
+msgstr "Ελάχιστο"
+
+msgid "Choose which programs to install, ensuring a highly customized experience."
+msgstr "Επιλέξτε ποια προγράμματα θέλετε να εγκαταστήσετε, εξασφαλίζοντας μια υψηλά προσαρμοσμένη εμπειρία."
+
+msgid "Restore system settings"
+msgstr "Επαναφορά ρυθμίσεων συστήματος"
+
+msgid ""
+"Utility that facilitates the restoration of the installed system, especially the restoration of the "
+"system boot (Grub)."
+msgstr ""
+"Πρόγραμμα χρησιμότητας που διευκολύνει την αποκατάσταση του εγκατεστημένου συστήματος, ειδικά την "
+"αποκατάσταση της εκκίνησης του συστήματος (Grub)."
+
+msgid "It can also be used to access the package manager and terminal of the installed system."
+msgstr ""
+"Μπορεί επίσης να χρησιμοποιηθεί για πρόσβαση στον διαχειριστή πακέτων και το τερματικό του "
+"εγκατεστημένου συστήματος."
+
+msgid "Start"
+msgstr "Έναρξη"
+
+msgid "Snapshot and backups"
+msgstr "Στιγμιότυπο και αντίγραφα ασφαλείας"
+
+msgid "Restore restore points of the installed system."
+msgstr "Επαναφορά σημείων επαναφοράς του εγκατεστημένου συστήματος."
+
 msgid "Uncheck the programs you want to remove"
 msgstr "Αποεπιλέξτε τα προγράμματα που θέλετε να αφαιρέσετε"
 

@@ -61,6 +61,53 @@ msgstr "זהו מערכת שיתופי, אם נדרשת עזרה יש להתיי
 msgid "Back"
 msgstr "אחורה"
 
+msgid "Maintenance"
+msgstr "תחזוקה"
+
+msgid "Tools that facilitate the maintenance of the installed system."
+msgstr "כלים שמקלים על תחזוקת המערכת שמותקנת."
+
+msgid "Restore"
+msgstr "שחזור"
+
+msgid "Installation"
+msgstr "התקנה"
+
+msgid "The system is in live mode, which has limitations."
+msgstr "המערכת פועלת במצב חי, שיש לו הגבלות."
+
+msgid "Install it for a complete experience."
+msgstr "התקן אותו עבור חוויית משתמש מלאה."
+
+msgid "Install"
+msgstr "התקן"
+
+msgid "Minimal"
+msgstr "מינימלי"
+
+msgid "Choose which programs to install, ensuring a highly customized experience."
+msgstr "בחר אילו תוכניות להתקין, וודא שהחוויה תהיה מותאמת אישית."
+
+msgid "Restore system settings"
+msgstr "שחזור הגדרות המערכת"
+
+msgid ""
+"Utility that facilitates the restoration of the installed system, especially the restoration of the "
+"system boot (Grub)."
+msgstr "תוכנת עזר שמקלה על שחזור המערכת המותקנת, במיוחד שחזור האתחול של המערכת (Grub)."
+
+msgid "It can also be used to access the package manager and terminal of the installed system."
+msgstr "ניתן גם להשתמש בו כדי לגשת למנהל החבילות ולטרמינל של המערכת שהותקנה."
+
+msgid "Start"
+msgstr "התחלה"
+
+msgid "Snapshot and backups"
+msgstr "צילום מסך וגיבויים"
+
+msgid "Restore restore points of the installed system."
+msgstr "שחזור נקודות שחזור של המערכת שמותקנת."
+
 msgid "Uncheck the programs you want to remove"
 msgstr "בטל את התוכניות שתרצה להסיר"
 

@@ -63,6 +63,55 @@ msgstr ""
 msgid "Back"
 msgstr "Geri"
 
+msgid "Maintenance"
+msgstr "Bakım"
+
+msgid "Tools that facilitate the maintenance of the installed system."
+msgstr "Yüklü sistem bakımını kolaylaştıran araçlar."
+
+msgid "Restore"
+msgstr "Geri Yükle"
+
+msgid "Installation"
+msgstr "Kurulum"
+
+msgid "The system is in live mode, which has limitations."
+msgstr "Sistem canlı modda, kısıtlamaları bulunmaktadır."
+
+msgid "Install it for a complete experience."
+msgstr "Tam bir deneyim için yükleyin."
+
+msgid "Install"
+msgstr "Yükle"
+
+msgid "Minimal"
+msgstr "Minimum"
+
+msgid "Choose which programs to install, ensuring a highly customized experience."
+msgstr "Yüklemek istediğiniz programları seçin ve yüksek özelleştirilmiş bir deneyim yaşayın."
+
+msgid "Restore system settings"
+msgstr "Sistem ayarlarını geri yükle"
+
+msgid ""
+"Utility that facilitates the restoration of the installed system, especially the restoration of the "
+"system boot (Grub)."
+msgstr ""
+"Yüklü sistemin geri yüklenmesini kolaylaştıran bir yardımcı program, özellikle sistem önyükleme "
+"(Grub) geri yükleme işlemini sağlar."
+
+msgid "It can also be used to access the package manager and terminal of the installed system."
+msgstr "Ayrıca yüklü sistemin paket yöneticisine ve terminaline erişmek için de kullanılabilir."
+
+msgid "Start"
+msgstr "Başlat"
+
+msgid "Snapshot and backups"
+msgstr "Anlık görüntü ve yedeklemeler"
+
+msgid "Restore restore points of the installed system."
+msgstr "Yüklü sistem geri yükleme noktalarını geri yükle."
+
 msgid "Uncheck the programs you want to remove"
 msgstr "Kaldırmak istediğiniz programları işaretlemeyin"
 

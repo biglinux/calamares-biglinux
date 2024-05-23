@@ -63,6 +63,53 @@ msgstr ""
 msgid "Back"
 msgstr "Kembali"
 
+msgid "Maintenance"
+msgstr "Pemeliharaan"
+
+msgid "Tools that facilitate the maintenance of the installed system."
+msgstr "Alat yang memudahkan pemeliharaan sistem yang terpasang."
+
+msgid "Restore"
+msgstr "Pulihkan"
+
+msgid "Installation"
+msgstr "Pemasangan"
+
+msgid "The system is in live mode, which has limitations."
+msgstr "Sistem berada dalam mode langsung, yang memiliki batasan."
+
+msgid "Install it for a complete experience."
+msgstr "Pasang untuk pengalaman lengkap."
+
+msgid "Install"
+msgstr "Pasang"
+
+msgid "Minimal"
+msgstr "Minimal"
+
+msgid "Choose which programs to install, ensuring a highly customized experience."
+msgstr "Pilih program mana yang ingin diinstal, memastikan pengalaman yang sangat disesuaikan."
+
+msgid "Restore system settings"
+msgstr "Pulihkan pengaturan sistem"
+
+msgid ""
+"Utility that facilitates the restoration of the installed system, especially the restoration of the "
+"system boot (Grub)."
+msgstr "Utilitas yang memudahkan pemulihan sistem yang diinstal, terutama pemulihan boot sistem (Grub)."
+
+msgid "It can also be used to access the package manager and terminal of the installed system."
+msgstr "Ia juga dapat digunakan untuk mengakses pengelola paket dan terminal sistem yang terpasang."
+
+msgid "Start"
+msgstr "Mulai"
+
+msgid "Snapshot and backups"
+msgstr "Snapshot dan sandaran"
+
+msgid "Restore restore points of the installed system."
+msgstr "Pulihkan titik pemulihan sistem yang terpasang."
+
 msgid "Uncheck the programs you want to remove"
 msgstr "Hapus centang pada program yang ingin Anda hapus"
 

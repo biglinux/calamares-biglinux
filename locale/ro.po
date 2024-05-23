@@ -63,6 +63,55 @@ msgstr ""
 msgid "Back"
 msgstr "Înapoi"
 
+msgid "Maintenance"
+msgstr "Întreținere"
+
+msgid "Tools that facilitate the maintenance of the installed system."
+msgstr "Instrumente care facilitează întreținerea sistemului instalat."
+
+msgid "Restore"
+msgstr "Restabilire"
+
+msgid "Installation"
+msgstr "Instalare"
+
+msgid "The system is in live mode, which has limitations."
+msgstr "Sistemul este în modul live, care are limitări."
+
+msgid "Install it for a complete experience."
+msgstr "Instalați-l pentru o experiență completă."
+
+msgid "Install"
+msgstr "Instalare"
+
+msgid "Minimal"
+msgstr "Minimale"
+
+msgid "Choose which programs to install, ensuring a highly customized experience."
+msgstr "Alegeți programele pe care doriți să le instalați, asigurându-vă o experiență personalizată."
+
+msgid "Restore system settings"
+msgstr "Restabilire setările sistemului"
+
+msgid ""
+"Utility that facilitates the restoration of the installed system, especially the restoration of the "
+"system boot (Grub)."
+msgstr ""
+"Utilitar care facilitează restaurarea sistemului instalat, în special restaurarea boot-ului "
+"sistemului (Grub)."
+
+msgid "It can also be used to access the package manager and terminal of the installed system."
+msgstr "Poate fi folosit și pentru a accesa managerul de pachete și terminalul sistemului instalat."
+
+msgid "Start"
+msgstr "Începe"
+
+msgid "Snapshot and backups"
+msgstr "Captură și backup-uri"
+
+msgid "Restore restore points of the installed system."
+msgstr "Restaurați punctele de restaurare ale sistemului instalat."
+
 msgid "Uncheck the programs you want to remove"
 msgstr "Deselectați programele pe care doriți să le eliminați"
 

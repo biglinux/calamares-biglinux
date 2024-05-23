@@ -63,6 +63,53 @@ msgstr ""
 msgid "Back"
 msgstr "Vissza"
 
+msgid "Maintenance"
+msgstr "Karbantartás"
+
+msgid "Tools that facilitate the maintenance of the installed system."
+msgstr "Az telepített rendszer karbantartását segítő eszközök."
+
+msgid "Restore"
+msgstr "Visszaállítás"
+
+msgid "Installation"
+msgstr "Telepítés"
+
+msgid "The system is in live mode, which has limitations."
+msgstr "A rendszer élő módban van, amely korlátozásokkal jár."
+
+msgid "Install it for a complete experience."
+msgstr "Telepítse a teljes élményért."
+
+msgid "Install"
+msgstr "Telepítés"
+
+msgid "Minimal"
+msgstr "Minimális"
+
+msgid "Choose which programs to install, ensuring a highly customized experience."
+msgstr "Válassza ki, mely programokat telepíti, biztosítva a nagyon testreszabott élményt."
+
+msgid "Restore system settings"
+msgstr "Rendszerbeállítások visszaállítása"
+
+msgid ""
+"Utility that facilitates the restoration of the installed system, especially the restoration of the "
+"system boot (Grub)."
+msgstr "Rendszer helyreállítását segítő segédprogram, különösen a rendszerindítás (Grub) helyreállítását."
+
+msgid "It can also be used to access the package manager and terminal of the installed system."
+msgstr "Ez is használható a telepített rendszer csomagkezelőjének és termináljának elérésére."
+
+msgid "Start"
+msgstr "Indítás"
+
+msgid "Snapshot and backups"
+msgstr "Képernyőkép és biztonsági másolatok"
+
+msgid "Restore restore points of the installed system."
+msgstr "Visszaállítja a telepített rendszer visszaállítási pontjait."
+
 msgid "Uncheck the programs you want to remove"
 msgstr "Jelölje be azokat a programokat, amelyeket el szeretne távolítani."
 

@@ -61,6 +61,53 @@ msgstr "これは共同作業システムです。ヘルプが必要な場合は
 msgid "Back"
 msgstr "戻る"
 
+msgid "Maintenance"
+msgstr "メンテナンス"
+
+msgid "Tools that facilitate the maintenance of the installed system."
+msgstr "インストールされたシステムのメンテナンスを容易にするツール。"
+
+msgid "Restore"
+msgstr "復元"
+
+msgid "Installation"
+msgstr "インストール"
+
+msgid "The system is in live mode, which has limitations."
+msgstr "システムはライブモードで稼働しており、制限があります。"
+
+msgid "Install it for a complete experience."
+msgstr "完全な体験のためにインストールしてください。"
+
+msgid "Install"
+msgstr "インストール"
+
+msgid "Minimal"
+msgstr "最小"
+
+msgid "Choose which programs to install, ensuring a highly customized experience."
+msgstr "高度にカスタマイズされたエクスペリエンスを確保するために、インストールするプログラムを選択してください。"
+
+msgid "Restore system settings"
+msgstr "システム設定を復元する"
+
+msgid ""
+"Utility that facilitates the restoration of the installed system, especially the restoration of the "
+"system boot (Grub)."
+msgstr "インストールされたシステムの復元を容易にするユーティリティ、特にシステムブート（Grub）の復元を支援します。"
+
+msgid "It can also be used to access the package manager and terminal of the installed system."
+msgstr "インストールされたシステムのパッケージマネージャやターミナルにアクセスするためにも使用できます。"
+
+msgid "Start"
+msgstr "開始"
+
+msgid "Snapshot and backups"
+msgstr "スナップショットとバックアップ"
+
+msgid "Restore restore points of the installed system."
+msgstr "インストールされたシステムの復元ポイントを復元します。"
+
 msgid "Uncheck the programs you want to remove"
 msgstr "削除したいプログラムのチェックを外してください"
 

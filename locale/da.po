@@ -63,6 +63,55 @@ msgstr ""
 msgid "Back"
 msgstr "Tilbage"
 
+msgid "Maintenance"
+msgstr "Vedligeholdelse"
+
+msgid "Tools that facilitate the maintenance of the installed system."
+msgstr "Værktøjer, der letter vedligeholdelsen af det installerede system."
+
+msgid "Restore"
+msgstr "Gendan"
+
+msgid "Installation"
+msgstr "Installation"
+
+msgid "The system is in live mode, which has limitations."
+msgstr "Systemet kører i live-tilstand, hvilket har begrænsninger."
+
+msgid "Install it for a complete experience."
+msgstr "Installer det for en komplet oplevelse."
+
+msgid "Install"
+msgstr "Install"
+
+msgid "Minimal"
+msgstr "Minimal"
+
+msgid "Choose which programs to install, ensuring a highly customized experience."
+msgstr "Vælg hvilke programmer der skal installeres for at sikre en højt tilpasset oplevelse."
+
+msgid "Restore system settings"
+msgstr "Gendan systemindstillinger"
+
+msgid ""
+"Utility that facilitates the restoration of the installed system, especially the restoration of the "
+"system boot (Grub)."
+msgstr ""
+"Værktøj, der letter genoprettelsen af det installerede system, især genoprettelsen af systemstarten "
+"(Grub)."
+
+msgid "It can also be used to access the package manager and terminal of the installed system."
+msgstr "Det kan også bruges til at få adgang til pakkehåndteringen og terminalen i det installerede system."
+
+msgid "Start"
+msgstr "Begynd"
+
+msgid "Snapshot and backups"
+msgstr "Øjebliksbillede og sikkerhedskopier"
+
+msgid "Restore restore points of the installed system."
+msgstr "Gendan gendannelsespunkter for det installerede system."
+
 msgid "Uncheck the programs you want to remove"
 msgstr "Fjern markeringen af de programmer, du vil fjerne"
 

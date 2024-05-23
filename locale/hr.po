@@ -63,6 +63,53 @@ msgstr ""
 msgid "Back"
 msgstr "Natrag"
 
+msgid "Maintenance"
+msgstr "Održavanje"
+
+msgid "Tools that facilitate the maintenance of the installed system."
+msgstr "Alati koji olakšavaju održavanje instaliranog sustava."
+
+msgid "Restore"
+msgstr "Obnovi"
+
+msgid "Installation"
+msgstr "Instalacija"
+
+msgid "The system is in live mode, which has limitations."
+msgstr "Sustav je u živom načinu rada, koji ima ograničenja."
+
+msgid "Install it for a complete experience."
+msgstr "Instalirajte ga za potpuno iskustvo."
+
+msgid "Install"
+msgstr "Instaliraj"
+
+msgid "Minimal"
+msgstr "Minimalno"
+
+msgid "Choose which programs to install, ensuring a highly customized experience."
+msgstr "Odaberite koje programe instalirati kako biste osigurali visoko prilagođeno iskustvo."
+
+msgid "Restore system settings"
+msgstr "Vrati postavke sustava"
+
+msgid ""
+"Utility that facilitates the restoration of the installed system, especially the restoration of the "
+"system boot (Grub)."
+msgstr "Alat koji olakšava obnovu instaliranog sustava, posebno obnovu pokretanja sustava (Grub)."
+
+msgid "It can also be used to access the package manager and terminal of the installed system."
+msgstr "Može se koristiti i za pristup upravitelju paketa i terminalu instaliranog sustava."
+
+msgid "Start"
+msgstr "Početak"
+
+msgid "Snapshot and backups"
+msgstr "Snimka i sigurnosne kopije"
+
+msgid "Restore restore points of the installed system."
+msgstr "Vratite točke vraćanja instaliranog sustava."
+
 msgid "Uncheck the programs you want to remove"
 msgstr "Označite programe koje želite ukloniti"
 

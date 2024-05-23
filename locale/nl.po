@@ -63,6 +63,57 @@ msgstr ""
 msgid "Back"
 msgstr "Terug"
 
+msgid "Maintenance"
+msgstr "Onderhoud"
+
+msgid "Tools that facilitate the maintenance of the installed system."
+msgstr "Hulpprogramma's die het onderhoud van het geïnstalleerde systeem vergemakkelijken."
+
+msgid "Restore"
+msgstr "Herstellen"
+
+msgid "Installation"
+msgstr "Installatie"
+
+msgid "The system is in live mode, which has limitations."
+msgstr "Het systeem is in de live modus, die beperkingen heeft."
+
+msgid "Install it for a complete experience."
+msgstr "Installeer het voor een complete ervaring."
+
+msgid "Install"
+msgstr "Installeren"
+
+msgid "Minimal"
+msgstr "Minimaal"
+
+msgid "Choose which programs to install, ensuring a highly customized experience."
+msgstr "Kies welke programma's te installeren, zodat je een zeer gepersonaliseerde ervaring hebt."
+
+msgid "Restore system settings"
+msgstr "Systeeminstellingen herstellen"
+
+msgid ""
+"Utility that facilitates the restoration of the installed system, especially the restoration of the "
+"system boot (Grub)."
+msgstr ""
+"Hulpprogramma dat het herstel van het geïnstalleerde systeem vergemakkelijkt, met name het herstel "
+"van het systeemopstarten (Grub)."
+
+msgid "It can also be used to access the package manager and terminal of the installed system."
+msgstr ""
+"Het kan ook worden gebruikt om toegang te krijgen tot de pakketbeheerder en terminal van het "
+"geïnstalleerde systeem."
+
+msgid "Start"
+msgstr "Beginnen"
+
+msgid "Snapshot and backups"
+msgstr "Momentopname en back-ups"
+
+msgid "Restore restore points of the installed system."
+msgstr "Herstel herstelpunten van het geïnstalleerde systeem."
+
 msgid "Uncheck the programs you want to remove"
 msgstr "Deselecteer de programma's die u wilt verwijderen"
 

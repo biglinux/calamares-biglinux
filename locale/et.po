@@ -61,6 +61,55 @@ msgstr "See on ühistöö süsteem, kui vajate abi, konsulteerige meie foorumiga
 msgid "Back"
 msgstr "Tagasi"
 
+msgid "Maintenance"
+msgstr "Hooldus"
+
+msgid "Tools that facilitate the maintenance of the installed system."
+msgstr "Paigaldatud süsteemi hooldamist hõlbustavad tööriistad."
+
+msgid "Restore"
+msgstr "Taasta"
+
+msgid "Installation"
+msgstr "Paigaldamine"
+
+msgid "The system is in live mode, which has limitations."
+msgstr "Süsteem on otseülekande režiimis, mis omab piiranguid."
+
+msgid "Install it for a complete experience."
+msgstr "Paigaldage see täielikuks kogemuseks."
+
+msgid "Install"
+msgstr "Paigalda"
+
+msgid "Minimal"
+msgstr "Minimaalne"
+
+msgid "Choose which programs to install, ensuring a highly customized experience."
+msgstr "Valige installitavad programmid, tagades kohandatud kogemuse."
+
+msgid "Restore system settings"
+msgstr "Taasta süsteemi seaded"
+
+msgid ""
+"Utility that facilitates the restoration of the installed system, especially the restoration of the "
+"system boot (Grub)."
+msgstr ""
+"Tööriist, mis hõlbustab paigaldatud süsteemi taastamist, eriti süsteemi käivitamise (Grub) "
+"taastamist."
+
+msgid "It can also be used to access the package manager and terminal of the installed system."
+msgstr "Seda saab kasutada ka paigaldatud süsteemi pakihalduri ja terminali juurdepääsuks."
+
+msgid "Start"
+msgstr "Alusta"
+
+msgid "Snapshot and backups"
+msgstr "Hetkepilt ja varundused"
+
+msgid "Restore restore points of the installed system."
+msgstr "Taasta süsteemi installitud taastepunktid."
+
 msgid "Uncheck the programs you want to remove"
 msgstr "Tühista märkeruudud nende programmide eemaldamiseks"
 

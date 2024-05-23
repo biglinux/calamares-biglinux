@@ -61,6 +61,55 @@ msgstr "Tämä on yhteistyöjärjestelmä, jos tarvitset apua, katso foorumiamme
 msgid "Back"
 msgstr "Takaisin"
 
+msgid "Maintenance"
+msgstr "Ylläpito"
+
+msgid "Tools that facilitate the maintenance of the installed system."
+msgstr "Työkalut, jotka helpottavat asennetun järjestelmän ylläpitoa."
+
+msgid "Restore"
+msgstr "Palauta"
+
+msgid "Installation"
+msgstr "Asennus"
+
+msgid "The system is in live mode, which has limitations."
+msgstr "Järjestelmä on käyttötilassa, jossa on rajoituksia."
+
+msgid "Install it for a complete experience."
+msgstr "Asenna se täydellisen kokemuksen saamiseksi."
+
+msgid "Install"
+msgstr "Asenna"
+
+msgid "Minimal"
+msgstr "Pienin"
+
+msgid "Choose which programs to install, ensuring a highly customized experience."
+msgstr "Valitse asennettavat ohjelmat ja varmista erittäin mukautettu käyttökokemus."
+
+msgid "Restore system settings"
+msgstr "Palauta järjestelmän asetukset"
+
+msgid ""
+"Utility that facilitates the restoration of the installed system, especially the restoration of the "
+"system boot (Grub)."
+msgstr ""
+"Apuohjelma, joka helpottaa asennetun järjestelmän palauttamista, erityisesti järjestelmän "
+"käynnistyksen (Grub) palauttamista."
+
+msgid "It can also be used to access the package manager and terminal of the installed system."
+msgstr "Sitä voidaan käyttää myös asennetun järjestelmän paketinhallintaan ja terminaaliin."
+
+msgid "Start"
+msgstr "Aloita"
+
+msgid "Snapshot and backups"
+msgstr "Tilannevedos ja varmuuskopiot"
+
+msgid "Restore restore points of the installed system."
+msgstr "Palauta asennetun järjestelmän palautuspisteet."
+
 msgid "Uncheck the programs you want to remove"
 msgstr "Poista valintamerkintä ohjelmista, jotka haluat poistaa"
 

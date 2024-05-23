@@ -84,6 +84,76 @@ msgid "Back"
 msgstr "Back"
 
 #
+msgid "Maintenance"
+msgstr "Maintenance"
+
+#
+msgid "Tools that facilitate the maintenance of the installed system."
+msgstr "Tools that facilitate the maintenance of the installed system."
+
+#
+msgid "Restore"
+msgstr "Restore"
+
+#
+msgid "Installation"
+msgstr "Installation"
+
+#
+msgid "The system is in live mode, which has limitations."
+msgstr "The system is in live mode, which has limitations."
+
+#
+msgid "Install it for a complete experience."
+msgstr "Install it for a complete experience."
+
+#
+msgid "Install"
+msgstr "Install"
+
+#
+msgid "Minimal"
+msgstr "Minimal"
+
+#
+msgid ""
+"Choose which programs to install, ensuring a highly customized experience."
+msgstr ""
+"Choose which programs to install, ensuring a highly customized experience."
+
+#
+msgid "Restore system settings"
+msgstr "Restore system settings"
+
+#
+msgid ""
+"Utility that facilitates the restoration of the installed system, especially "
+"the restoration of the system boot (Grub)."
+msgstr ""
+"Utility that facilitates the restoration of the installed system, especially "
+"the restoration of the system boot (Grub)."
+
+#
+msgid ""
+"It can also be used to access the package manager and terminal of the "
+"installed system."
+msgstr ""
+"It can also be used to access the package manager and terminal of the "
+"installed system."
+
+#
+msgid "Start"
+msgstr "Start"
+
+#
+msgid "Snapshot and backups"
+msgstr "Snapshot and backups"
+
+#
+msgid "Restore restore points of the installed system."
+msgstr "Restore restore points of the installed system."
+
+#
 msgid "Uncheck the programs you want to remove"
 msgstr "Uncheck the programs you want to remove"
 

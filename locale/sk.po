@@ -63,6 +63,53 @@ msgstr ""
 msgid "Back"
 msgstr "Späť"
 
+msgid "Maintenance"
+msgstr "Údržba"
+
+msgid "Tools that facilitate the maintenance of the installed system."
+msgstr "Nástroje, ktoré uľahčujú údržbu nainštalovaného systému."
+
+msgid "Restore"
+msgstr "Obnoviť"
+
+msgid "Installation"
+msgstr "Inštalácia"
+
+msgid "The system is in live mode, which has limitations."
+msgstr "Systém je v režime naživo, ktorý má obmedzenia."
+
+msgid "Install it for a complete experience."
+msgstr "Inštalujte ho pre úplný zážitok."
+
+msgid "Install"
+msgstr "Inštalovať"
+
+msgid "Minimal"
+msgstr "Minimálny"
+
+msgid "Choose which programs to install, ensuring a highly customized experience."
+msgstr "Vyberte, ktoré programy nainštalovať, zabezpečujúc tak veľmi prispôsobený zážitok."
+
+msgid "Restore system settings"
+msgstr "Obnoviť nastavenia systému"
+
+msgid ""
+"Utility that facilitates the restoration of the installed system, especially the restoration of the "
+"system boot (Grub)."
+msgstr "Nástroj umožňujúci obnovu nainštalovaného systému, najmä obnovu štartovania systému (Grub)."
+
+msgid "It can also be used to access the package manager and terminal of the installed system."
+msgstr "Môže byť tiež použitý na prístup k správcovi balíkov a terminálu nainštalovaného systému."
+
+msgid "Start"
+msgstr "Spustiť"
+
+msgid "Snapshot and backups"
+msgstr "Snímka a zálohy"
+
+msgid "Restore restore points of the installed system."
+msgstr "Obnoviť body obnovenia nainštalovaného systému."
+
 msgid "Uncheck the programs you want to remove"
 msgstr "Odznačte programy, ktoré chcete odstrániť"
 

@@ -61,6 +61,53 @@ msgstr "这是一个协作系统，如果需要帮助，请查阅我们的论坛
 msgid "Back"
 msgstr "返回"
 
+msgid "Maintenance"
+msgstr "维护"
+
+msgid "Tools that facilitate the maintenance of the installed system."
+msgstr "简化已安装系统维护的工具。"
+
+msgid "Restore"
+msgstr "恢复"
+
+msgid "Installation"
+msgstr "安装"
+
+msgid "The system is in live mode, which has limitations."
+msgstr "系统处于实时模式，存在一些限制。"
+
+msgid "Install it for a complete experience."
+msgstr "安装它以获得完整体验。"
+
+msgid "Install"
+msgstr "安装"
+
+msgid "Minimal"
+msgstr "最小化"
+
+msgid "Choose which programs to install, ensuring a highly customized experience."
+msgstr "选择要安装的程序，确保高度定制的体验。"
+
+msgid "Restore system settings"
+msgstr "恢复系统设置"
+
+msgid ""
+"Utility that facilitates the restoration of the installed system, especially the restoration of the "
+"system boot (Grub)."
+msgstr "用于恢复已安装系统的实用程序，特别是恢复系统引导（Grub）。"
+
+msgid "It can also be used to access the package manager and terminal of the installed system."
+msgstr "它还可以用于访问已安装系统的软件包管理器和终端。"
+
+msgid "Start"
+msgstr "开始"
+
+msgid "Snapshot and backups"
+msgstr "快照和备份"
+
+msgid "Restore restore points of the installed system."
+msgstr "恢复已安装系统的还原点。"
+
 msgid "Uncheck the programs you want to remove"
 msgstr "取消选择要移除的程序"
 
