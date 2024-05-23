@@ -49,8 +49,8 @@ msgstr "Συνέχεια"
 msgid "The system is in"
 msgstr "Το σύστημα είναι σε"
 
-msgid ", kernel"
-msgstr "πυρήνας"
+msgid ", Linux"
+msgstr ", Linux"
 
 msgid "and graphical mode"
 msgstr "και γραφική λειτουργία"

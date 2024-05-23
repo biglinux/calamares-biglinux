@@ -49,8 +49,8 @@ msgstr "계속"
 msgid "The system is in"
 msgstr "시스템이 실행 중입니다."
 
-msgid ", kernel"
-msgstr "커널"
+msgid ", Linux"
+msgstr "Linux"
 
 msgid "and graphical mode"
 msgstr "그래픽 모드"

@@ -49,8 +49,8 @@ msgstr "Folytatás"
 msgid "The system is in"
 msgstr "A rendszer be van állítva"
 
-msgid ", kernel"
-msgstr "kernel"
+msgid ", Linux"
+msgstr "Linux"
 
 msgid "and graphical mode"
 msgstr "és grafikus mód"

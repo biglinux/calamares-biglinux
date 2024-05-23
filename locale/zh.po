@@ -49,8 +49,8 @@ msgstr "继续"
 msgid "The system is in"
 msgstr "系统在"
 
-msgid ", kernel"
-msgstr "内核"
+msgid ", Linux"
+msgstr "Linux"
 
 msgid "and graphical mode"
 msgstr "和图形模式"

@@ -49,8 +49,8 @@ msgstr "Продовжити"
 msgid "The system is in"
 msgstr "Система увімкнена"
 
-msgid ", kernel"
-msgstr "ядру"
+msgid ", Linux"
+msgstr ", Linux"
 
 msgid "and graphical mode"
 msgstr "та графічний режим"

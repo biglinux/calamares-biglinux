@@ -49,8 +49,8 @@ msgstr "Продължи"
 msgid "The system is in"
 msgstr "Системата е в"
 
-msgid ", kernel"
-msgstr "ядро"
+msgid ", Linux"
+msgstr "Линукс"
 
 msgid "and graphical mode"
 msgstr "и графичен режим"

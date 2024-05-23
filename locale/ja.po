@@ -49,8 +49,8 @@ msgstr "続行"
 msgid "The system is in"
 msgstr "システムはオンラインです"
 
-msgid ", kernel"
-msgstr "カーネル"
+msgid ", Linux"
+msgstr "Linux"
 
 msgid "and graphical mode"
 msgstr "およびグラフィカルモード"

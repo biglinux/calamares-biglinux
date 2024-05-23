@@ -49,8 +49,8 @@ msgstr "המשך"
 msgid "The system is in"
 msgstr "המערכת נמצאת ב"
 
-msgid ", kernel"
-msgstr "ליבה"
+msgid ", Linux"
+msgstr "לינוקס"
 
 msgid "and graphical mode"
 msgstr "ומצב גרפי"

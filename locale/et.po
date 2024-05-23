@@ -49,8 +49,8 @@ msgstr "Jätka"
 msgid "The system is in"
 msgstr "Süsteem on käivitatud"
 
-msgid ", kernel"
-msgstr "tuumik"
+msgid ", Linux"
+msgstr "Linux"
 
 msgid "and graphical mode"
 msgstr "ja graafilises režiimis"

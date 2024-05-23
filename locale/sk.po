@@ -49,8 +49,8 @@ msgstr "Pokračovať"
 msgid "The system is in"
 msgstr "Systém je v"
 
-msgid ", kernel"
-msgstr "jadro"
+msgid ", Linux"
+msgstr "Linux"
 
 msgid "and graphical mode"
 msgstr "a grafický režim"

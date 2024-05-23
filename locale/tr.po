@@ -49,8 +49,8 @@ msgstr "Devam et"
 msgid "The system is in"
 msgstr "Sistem açık"
 
-msgid ", kernel"
-msgstr ", çekirdek"
+msgid ", Linux"
+msgstr ", Linux"
 
 msgid "and graphical mode"
 msgstr "ve grafiksel mod"

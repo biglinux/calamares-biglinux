@@ -49,8 +49,8 @@ msgstr "Terus"
 msgid "The system is in"
 msgstr "Sistem ini dalam"
 
-msgid ", kernel"
-msgstr ", kernel"
+msgid ", Linux"
+msgstr ", Linux"
 
 msgid "and graphical mode"
 msgstr "dan mod grafis"

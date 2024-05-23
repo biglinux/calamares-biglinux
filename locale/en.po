@@ -64,8 +64,8 @@ msgid "The system is in"
 msgstr "The system is in"
 
 #
-msgid ", kernel"
-msgstr ", kernel"
+msgid ", Linux"
+msgstr ", Linux"
 
 #
 msgid "and graphical mode"

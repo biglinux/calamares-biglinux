@@ -49,8 +49,8 @@ msgstr "Fortsett"
 msgid "The system is in"
 msgstr "Systemet er på"
 
-msgid ", kernel"
-msgstr "kjernen"
+msgid ", Linux"
+msgstr ", Linux"
 
 msgid "and graphical mode"
 msgstr "og grafisk modus"
