@@ -10,8 +10,8 @@ cd /run/miso/bootmnt/manjaro/x86_64/
 
 rm -f  /tmp/md5sum_big_fail
 
-Message=$"Verificando o arquivo:"
-Message2=$"Verificando se ocorreram erros no download ou pendrive, pode demorar alguns minutos..."
+Message=$"Checking the file:"
+Message2=$"Checking for download or USB drive errors, this may take a few minutes..."
 
 (
 echo "10"
@@ -40,7 +40,7 @@ if [ "$?" != "0" ] ; then
 fi
 ) |
 zenity --auto-close --progress \
-  --title=$"Verificando integridade do sistema" \
+  --title=$"Checking system integrity" \
   --text="$Message2" \
   --percentage=0
 
@@ -48,12 +48,12 @@ verify=$?
 
 if [ "$verify" = -1 ] || [ "$(cat /tmp/md5sum_big_fail 2>/dev/null)" = "1" ] ; then
         zenity --error \
-          --text=$"Erro encontrado, baixe novamente o sistema ou utilize outro pendrive."
+          --text=$"Error found, please download the system again or use another USB drive."
 elif [ "$verify" = 0 ] ; then
         zenity --info \
-          --text=$"Os arquivos estão integros."
+          --text=$"The files are intact."
 else
         zenity --info \
-          --text=$"Verificação cancelada."
+          --text=$"Verification canceled."
         echo 1 > /tmp/md5sum_big_fail
 fi

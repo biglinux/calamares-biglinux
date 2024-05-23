@@ -1,0 +1,182 @@
+    <!-- Name of JSON file with translation -->
+    <script>const projectName = 'calamares-biglinux';</script> 
+    <!-- Include the generic header (CSS and JS) -->
+    <?include html /usr/share/bigbashview/framework/html/genericHeader.html?>
+
+    <!-- Include window control side decorator -->
+    <link href="/usr/share/bigbashview/framework/css/client-side-decorator.css" rel="stylesheet">
+    <script src="qrc:///qtwebchannel/qwebchannel.js"></script>
+    <script src="/usr/share/bigbashview/framework/js/client-side-decorator.js" defer></script>
+
+    <!-- Includes the window control side shell script -->
+    <?include bash /usr/share/bigbashview/framework/shell/windowControlSide.sh 2> /dev/null ?>
+
+<style>
+  /* Background semi transparent */
+  #page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 15;
+    right: 15;
+    bottom: 15;
+    border-radius: 9px;
+    background: var(--background);
+    opacity: 0.8;
+    z-index: -1;
+  }
+
+  /* Background semi transparent in maximized window */
+  #page.maximized-mode::before {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 0px;
+}
+
+.container {
+          width: 100vw;
+          height: 86vh;
+          margin: 0 auto;
+          display: flex;
+          flex-direction: column;
+          padding-top: 20px;
+          padding-bottom: 20px;
+      }
+      .controls {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 1rem;
+      }
+      .grid-container {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 1rem;
+          flex-grow: 1;
+          overflow-y: auto;
+      }
+      .grid-item {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 0.5rem;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          margin-right: 10px;
+          margin-left: 10px;
+          border-radius: 10px;
+      }
+      .grid-item img {
+          margin-right: 1rem;
+      }
+      .actions {
+          text-align: center;
+          margin-top: 1rem;
+      }
+      .padding-title {
+          margin-top: 10px;
+          margin-bottom: 25px;
+      }
+
+      .packageManager {
+        margin-top: 15px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 14px;
+        padding-right: 8px;
+      }
+
+</style>
+</head>
+
+<body>
+<div id="page" class="background-transparent window-shadow background-opacity-50 drag-area">
+    <p class="absolute center drag-area padding-title" stonejs>Uncheck the programs you want to remove</p>
+    <div x-data="packageManager('minimal-pkgs.sh')" class="container middle drag-area">
+        <div class="grid-container drag-area packageManager">
+            <template x-for="package in data.packages" :key="package.pkg">
+                <div class="grid-item system-background-color medium-elevate">
+                    <img :src="package.icon" width="32px" height="32px" alt="Icon">
+                    <span x-text="package.pkg"></span>
+                    <label class="switch">
+                        <input type="checkbox" x-model="package.checked">
+                        <span></span>
+                    </label>
+                </div>
+            </template>
+        </div>
+    
+        <div class="medium-elevate no-padding large-margin">
+            <article class="system-background-color no-padding no-margin">
+            <!-- Any component with drag-area class is used to drag and move window -->
+            <nav class="padding center-align no-space drag-area">
+                <button @click="window.location.href = 'index.html'" class="tertiary left absolute margin" stonejs>Back</button>
+                <button @click="uncheckAll" class="margin" stonejs>Uncheck All</button>
+                <button @click="checkAll" class="margin" stonejs>Check All</button>
+                <button @click="submitForm" class="tertiary right absolute margin" stonejs>Continue</button>
+            </nav>
+            </article>
+        </div>
+    </div>
+    </div>
+      
+
+  <script>
+      function packageManager(url) {
+          return {
+              data: {
+                  packages: []
+              },
+              init() {
+                  fetch(url)
+                      .then(response => response.json())
+                      .then(data => {
+                          this.data.packages = data.packages.map(pkg => ({ ...pkg, checked: true }));
+                      });
+              },
+              checkAll() {
+                  this.data.packages.forEach(pkg => {
+                      pkg.checked = true;
+                  });
+              },
+              uncheckAll() {
+                  this.data.packages.forEach(pkg => {
+                      pkg.checked = false;
+                  });
+              },
+              submitForm() {
+                  const selectedPackages = this.data.packages.filter(pkg => pkg.checked);
+                  const form = document.createElement('form');
+                  form.method = 'POST';
+                  form.action = 'install.sh.htm';
+
+                  const inputLessPkgs = document.createElement('input');
+                  inputLessPkgs.type = 'hidden';
+                  inputLessPkgs.name = 'less_pkgs';
+                  inputLessPkgs.value = 'yes';
+                  form.appendChild(inputLessPkgs);
+
+                  const inputOption = document.createElement('input');
+                  inputOption.type = 'hidden';
+                  inputOption.name = 'option';
+                  inputOption.value = 'btrfs';
+                  form.appendChild(inputOption);
+
+                  selectedPackages.forEach(pkg => {
+                      const input = document.createElement('input');
+                      input.type = 'hidden';
+                      input.name = 'pkg_rm';
+                      input.value = pkg.pkg;
+                      form.appendChild(input);
+                  });
+                  
+                  document.body.appendChild(form);
+                  form.submit();
+              }
+          };
+      }
+  </script>
+  </div>
+</body>
+</html>

@@ -1,0 +1,160 @@
+    <!-- Name of JSON file with translation -->
+    <script>const projectName = 'calamares-biglinux';</script> 
+    <!-- Include the generic header (CSS and JS) -->
+    <?include html /usr/share/bigbashview/framework/html/genericHeader.html?>
+
+    <!-- Include window control side decorator -->
+    <link href="/usr/share/bigbashview/framework/css/client-side-decorator.css" rel="stylesheet">
+    <script src="qrc:///qtwebchannel/qwebchannel.js"></script>
+    <script src="/usr/share/bigbashview/framework/js/client-side-decorator.js" defer></script>
+
+    <!-- Includes the window control side shell script -->
+    <?include bash /usr/share/bigbashview/framework/shell/windowControlSide.sh 2> /dev/null ?>
+
+<style>
+  /* Background semi transparent */
+  #page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 15;
+    right: 15;
+    bottom: 15;
+    border-radius: 9px;
+    background: var(--background);
+    opacity: 0.8;
+    z-index: -1;
+  }
+
+  /* Background semi transparent in maximized window */
+  #page.maximized-mode::before {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 0px;
+}
+</style>
+</head>
+
+<body x-data="{ activePage: 'firstPage' }">
+  <!-- Using Client Side Decoration use body transparent to make shadow, and page work like real body -->
+  <div id="page" class="background-transparent window-shadow background-opacity-50 drag-area">
+<!-- firstPage -->
+<main x-show="activePage === 'firstPage'" class="middle no-padding system-background-color-surface drag-area" x-init="autoAdjustGrid()">
+  <div class="grid padding grid-container-auto-adjust center">
+  <div class="medium-elevate no-padding margin background-bgcolor">
+    <div component="card-model-1" x-data='{
+      textIcon: "precision_manufacturing",
+      title: _("Maintenance"), 
+      description: _("Tools that facilitate the maintenance of the installed system."), 
+      buttonText: _("Restore"), 
+      buttonAction: () => activePage = "restorePage"}'>
+    </div>
+  </div>
+  <div class="medium-elevate no-padding margin background-bgcolor">
+    <div component="card-model-1" x-data='{
+      title: _("Installation"),
+      description: _("The system is in live mode, which has limitations."), 
+      description2: _("Install it for a complete experience."), 
+      textIcon: "save",
+      buttonText: _("Install"), 
+      buttonClass: "tertiary",
+      buttonAction: () => window.location.href = "install.sh.htm?option=btrfs"}'>
+    </div>
+  </div>
+  <div class="medium-elevate no-padding margin background-bgcolor">
+    <div component="card-model-1" x-data='{
+      textIcon: "list_alt",
+      title: _("Minimal"), 
+      description: _("Choose which programs to install, ensuring a highly customized experience."),
+      buttonText: _("Continue"),
+      buttonAction: () => window.location.href = "minimal.html"}'>
+    </div>
+    </div>
+  </div>
+
+  <div class="medium-elevate no-padding large-margin">
+  <article class="system-background-color no-padding no-margin">
+    <!-- Any component with drag-area class is used to drag and move window -->
+    <nav class="padding center-align no-space drag-area">
+      <p stonejs>The system is in</p>&nbsp;
+      <p class="bold">
+        <?include bash [ -d /sys/firmware/efi ] && echo ' UEFI' || echo ' BIOS (Legacy)'?>
+      </p>
+      <p stonejs>, kernel</p>&nbsp;
+      <p class="bold">
+        <?include bash uname -r | cut -f1 -d-?>
+      </p>&nbsp;
+      <p stonejs>and graphical mode</p>&nbsp;
+      <p class="bold">
+        <?include bash echo ${XDG_SESSION_TYPE^}.?>
+      </p>
+    </nav>
+    <div class="center-align large-padding">
+      <a onclick="_run('xdg-open https://forum.biglinux.com.br')" stonejs>This is a collaborative system, if you need help consult our forum: https://forum.biglinux.com.br.</a>
+    </div>
+  </article>
+  </div>
+</main>
+
+<!-- restorePage -->
+<main x-show="activePage === 'restorePage'" class="responsive no-padding drag-area" x-init="autoAdjustGrid()">
+<div class="middle">
+    <div class="grid padding grid-container-auto-adjust center">
+      <div class="medium-elevate no-padding margin background-bgcolor">
+      <div component="card-model-1" x-data='{
+        textIcon: "medical_services",
+        title: _("Restore system settings"), 
+        description: _("Utility that facilitates the restoration of the installed system, especially the restoration of the system boot (Grub)."), 
+        description2: _("It can also be used to access the package manager and terminal of the installed system."), 
+        buttonText: _("Start"),
+        buttonAction: () => _run("biglinux-grub-restore")}'>
+      </div>
+      </div>
+
+      <div class="medium-elevate no-padding margin background-bgcolor">
+      <div component="card-model-1" x-data='{
+        textIcon: "history",
+        title: _("Snapshot and backups"), 
+        description: _("Restore restore points of the installed system."),
+        buttonText: _("Start"),
+        buttonAction: () => _run("timeshift-launcher")}'>
+      </div>
+      </div>
+    </div>
+
+
+
+    <div class="medium-elevate no-padding large-margin">
+      <article class="system-background-color no-padding no-margin">
+        <!-- Any component with drag-area class is used to drag and move window -->
+        <nav class="padding center-align no-space drag-area">
+          <p stonejs>The system is in</p>&nbsp;
+          <p class="bold">
+            <?include bash [ -d /sys/firmware/efi ] && echo ' UEFI' || echo ' BIOS (Legacy)'?>
+          </p>
+          <p stonejs>, kernel</p>&nbsp;
+          <p class="bold">
+            <?include bash uname -r | cut -f1 -d-?>
+          </p>&nbsp;
+          <p stonejs>and graphical mode</p>&nbsp;
+          <p class="bold">
+            <?include bash echo ${XDG_SESSION_TYPE^}.?>
+          </p>
+        </nav>
+          <button class="tertiary margin" @click="activePage = 'firstPage'">
+            <i>arrow_back</i>
+            <span stonejs>Back</span>
+          </button>
+      </article>
+      </div>
+      </div>
+    </main>
+
+
+
+
+
+</body>
+</html>

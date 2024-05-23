@@ -1,0 +1,10 @@
+ufw gufw
+rustdesk-bin rustdesk
+pavucontrol-qt pavucontrol
+pamac-updates-menu update-manager
+manjaro-printer printer
+libreoffice-fresh libreoffice
+libreoffice-still libreoffice
+ksystemlog activity-log-manager
+helvum org.pipewire.Helvum
+gnome-sound-recorder org.gnome.SoundRecorder

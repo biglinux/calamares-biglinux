@@ -6,17 +6,17 @@ if [ "$(file -i /usr/bin/calamares | grep shellscript)" = "" ]; then
 cat << 'EOF' > /usr/bin/calamares
 #!/bin/bash
 ruscherrelease=$(cat /etc/big-release | grep RELEASE | awk -F'=' '{print $2}')
-if [ -n "$(cat /etc/big-release | grep development )" ];then
+if [ -n "$(cat /etc/big-release | grep development )" ]; then
     windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
-    sleep 600 | zenity --attach="$windowID" --width=300 --progress --title=$"Aguarde..." --pulsate --no-cancel --auto-close --text $"Atualizando o Instalador..." &       
-    #esperar terminar de gerar as chaves
+    sleep 600 | zenity --attach="$windowID" --width=300 --progress --title=$"Please wait..." --pulsate --no-cancel --auto-close --text $"Updating the Installer..." &       
+    # wait for key generation to finish
     while [ -n "$(top -b -d1 n1 | grep gpg$)" ]; do
         sleep 0.5
     done
     sudo pacman -Sy calamares-biglinux --noconfirm --needed
-    if [ "$?" = "1" ];then
+    if [ "$?" = "1" ]; then
         killall zenity
-        zenity --error --width=300 --title="Internet" --text $"Sem conexão com a Internet..."
+        zenity --error --width=300 --title="Internet" --text $"No Internet connection..."
         sudo killall python3
         exit 1
     else

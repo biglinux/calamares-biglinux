@@ -1,0 +1,89 @@
+    <!-- Name of JSON file with translation -->
+    <script>const projectName = 'calamares-biglinux';</script> 
+    <!-- Include the generic header (CSS and JS) -->
+    <?include html /usr/share/bigbashview/framework/html/genericHeader.html?>
+
+    <!-- Include window control side decorator -->
+    <link href="/usr/share/bigbashview/framework/css/client-side-decorator.css" rel="stylesheet">
+    <script src="qrc:///qtwebchannel/qwebchannel.js"></script>
+    <script src="/usr/share/bigbashview/framework/js/client-side-decorator.js" defer></script>
+
+    <!-- Includes the window control side shell script -->
+    <?include bash /usr/share/bigbashview/framework/shell/windowControlSide.sh 2> /dev/null ?>
+
+<style>
+  /* Background semi transparent */
+  #page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 15;
+    right: 15;
+    bottom: 15;
+    border-radius: 9px;
+    background: var(--background);
+    opacity: 0.8;
+    z-index: -1;
+  }
+
+  /* Background semi transparent in maximized window */
+  #page.maximized-mode::before {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 0px;
+}
+
+
+.title-tips {
+    background: var(--surface);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    place-content: center;
+    height: 6em;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.tips-card {
+    width: 70%;
+    height: 68%;
+}
+
+.button-continue {
+  margin-top: 30px;
+}
+
+.text-tips {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+</style>
+</head>
+
+<body x-data="{ activePage: 'firstPage' }">
+  <!-- Using Client Side Decoration use body transparent to make shadow, and page work like real body -->
+  <div id="page" class="background-transparent window-shadow background-opacity-50 drag-area">
+    <article class="medium-elevate system-background-color no-padding no-margin no-padding middle center left-align tips-card">
+      <div class="title-tips center-align">
+        <h5 class="small center-align" stonejs>Important tips for manual partitioning</h5>
+        <p stonejs>If you opt for automatic partitioning, these tips will be applied.</p>
+      </div>
+      <div class="text-tips">
+        <li class="small-padding"><span class="bold" stonejs>Use BTRFS.</span><br>&nbsp;&nbsp;&nbsp;&nbsp;
+        <span stonejs>This file system allows for automatic compression and restore points.</span></li>
+        <li class="small-padding"><span class="bold" stonejs>Keep /boot within the / partition.</span><br>&nbsp;&nbsp;&nbsp;&nbsp;
+        <span stonejs>Placing it in a separate partition hampers BTRFS snapshots.</span></li>
+        <li class="small-padding"><span class="bold" stonejs>Do not create a SWAP partition.</span><br>&nbsp;&nbsp;&nbsp;&nbsp;
+        <span stonejs>We have implemented dynamic virtual memory management with Zram and SWAP files.</span><br>&nbsp;&nbsp;&nbsp;&nbsp;
+        <span stonejs>SWAP partitions will not be used.</span></li>
+      </div>
+      <button class="button tertiary center button-continue" @click='window.location="/usr/share/bigbashview/close.sh"' stonejs>Continue</button>
+    </article>
+  </div>
+</body>
+</html>
