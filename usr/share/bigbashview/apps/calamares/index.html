@@ -82,7 +82,7 @@
       <p class="bold">
         <?include bash [ -d /sys/firmware/efi ] && echo ' UEFI' || echo ' BIOS (Legacy)'?>
       </p>
-      <p stonejs>, kernel</p>&nbsp;
+      <p stonejs>, Linux</p>&nbsp;
       <p class="bold">
         <?include bash uname -r | cut -f1 -d-?>
       </p>&nbsp;
@@ -134,7 +134,7 @@
           <p class="bold">
             <?include bash [ -d /sys/firmware/efi ] && echo ' UEFI' || echo ' BIOS (Legacy)'?>
           </p>
-          <p stonejs>, kernel</p>&nbsp;
+          <p stonejs>, Linux</p>&nbsp;
           <p class="bold">
             <?include bash uname -r | cut -f1 -d-?>
           </p>&nbsp;
