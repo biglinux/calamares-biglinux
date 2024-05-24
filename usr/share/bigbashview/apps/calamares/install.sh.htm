@@ -15,14 +15,14 @@ rm -f /tmp/start_calamares
 
 if [ "$option" = "btrfs" ]; then
 #     rm -f /tmp/use_disable_fsync
-    cp -f /usr/share/bigbashview/bcc/apps/bigbashview-calamares/partition.conf /etc/calamares/modules/partition.conf
+    cp -f /usr/share/bigbashview/apps/bigbashview-calamares/partition.conf /etc/calamares/modules/partition.conf
     > /tmp/start_calamares
 fi
 
 if [ "$option" = "ext4" ]; then
 #     rm -f /tmp/use_disable_fsync
     #rm -f /etc/calamares/modules/partition.conf
-    cp -f /usr/share/bigbashview/bcc/apps/bigbashview-calamares/partition.conf /etc/calamares/modules/partition.conf
+    cp -f /usr/share/bigbashview/apps/bigbashview-calamares/partition.conf /etc/calamares/modules/partition.conf
     sed -i 's/defaultFileSystemType.*/defaultFileSystemType: "ext4"/' /etc/calamares/modules/partition.conf
     > /tmp/start_calamares
 fi
@@ -233,8 +233,8 @@ pacman:
         sudo sed -i '/shellprocess_displaymanager/{p;s/.*/\n- id:       xivastudio\n  module:   netinstall\n  config:   netinstall-xivastudio.conf/;}' /etc/calamares/settings.conf
         sudo sed -i "$(sed -n '/partition/{=;q}' /etc/calamares/settings.conf)s/partition/partition\n        - netinstall@xivastudio/" /etc/calamares/settings.conf
         sudo sed -i '/localecfg/{h;s/.*/        - shellprocess@initialize_pacman\n        - packages/;p;x;}' /etc/calamares/settings.conf
-        sudo cp -fa /usr/share/bigbashview/bcc/apps/bigbashview-calamares/netinstall-xivastudio.conf  /etc/calamares/modules/
-        sudo cp -fa /usr/share/bigbashview/bcc/apps/bigbashview-calamares/netinstall-xivastudio.yaml  /etc/calamares/modules/
+        sudo cp -fa /usr/share/bigbashview/apps/bigbashview-calamares/netinstall-xivastudio.conf  /etc/calamares/modules/
+        sudo cp -fa /usr/share/bigbashview/apps/bigbashview-calamares/netinstall-xivastudio.yaml  /etc/calamares/modules/
         killall zenity
     else
         killall zenity
