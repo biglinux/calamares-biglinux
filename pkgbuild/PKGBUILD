@@ -6,6 +6,7 @@ pkgrel=$(date +%H%M)
 arch=('any')
 license=('BSD-2-Clause AND CC0-1.0 AND CC-BY-4.0 AND GPL-3.0-or-later AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-or-later AND MIT')
 #depends=('biglinux-calamares-i3wm' 'biglinux-calamares-wmaker' 'biglinux-calamares-bspwm' 'biglinux-calamares-xivastudio' 'biglinux-calamares-gnome' 'biglinux-calamares-xfce' 'biglinux-calamares-lxqt')
+depends=('bbv-framework')
 url="https://github.com/biglinux/calamares-biglinux"
 pkgdesc="Calamares tweaks to BigLinux, like using btrfs+zstd for default"
 source=('git+https://github.com/biglinux/calamares-biglinux.git')
