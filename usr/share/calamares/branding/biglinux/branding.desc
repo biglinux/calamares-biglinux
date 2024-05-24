@@ -23,7 +23,7 @@ images:
     productWelcome:      "big-welcome.svg"
 
 slideshow:               "show.qml"
-slideshowAPI:            2
+slideshowAPI:            1
 
 style:
    SidebarBackground:    "#31363b"
