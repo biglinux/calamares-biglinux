@@ -93,6 +93,8 @@ fi
 
 # Remove packages
 if [ "$less_pkgs" = "yes" ]; then
+    # Remove old list if exist
+    rm -f /tmp/listPkgsNoRemove.txt
     # Write list of packages to remove to a file in tmp
     echo $pkg_rm | sudo tee /tmp/listPkgsNoRemove.txt
     # Change ; to line break
