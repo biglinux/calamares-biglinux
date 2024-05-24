@@ -16,6 +16,126 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "Please wait..."
+msgstr "请稍候..."
+
+msgid "Checking the integrity of the download and storage device..."
+msgstr "检查下载和存储设备的完整性..."
+
+msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>您是否要继续安装这个旧版本？</b>\n"
+"    :LBL"
+
+msgid ""
+"BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
+"We recommend downloading a more recent version.\n"
+"    "
+msgstr ""
+"BigLinux是一个每周更新的系统，这个版本发布已经超过一个月了。\\n"
+"我们建议下载一个更新更多的版本。"
+
+msgid "Continue"
+msgstr "继续"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "Outdated Version"
+msgstr "过时版本"
+
+msgid "Do you want to proceed with the installation in EFI mode?"
+msgstr "您是否要继续以EFI模式安装？"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
+"partition on this computer.\n"
+"\n"
+"If this computer already has another system installed and you intend \n"
+"to keep it installed, you will probably need to change the \n"
+"configuration in the BIOS to boot in Legacy mode, also \n"
+"called BIOS mode."
+msgstr ""
+"当前引导使用 <span color='#CC2222'>EFI</span> 模式，但我在这台计算机上没有找到任何 EFI 分区。\n"
+"\n"
+"如果这台计算机已经安装了另一个系统，并且您打算保留它安装，您可能需要更改 BIOS 中的配置以在传统模式下引导，也称为 BIOS 模式。"
+
+msgid "Install the system"
+msgstr "安装系统"
+
+msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
+msgstr "您是否要继续在传统/BIOS模式下安装？"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
+"EFI partition on this computer. \n"
+"\n"
+"For the installation to be successful, you will probably need to \n"
+"change the configuration in the BIOS to boot in EFI or UEFI mode."
+msgstr ""
+"当前引导正在使用<span color='#CC2222'>传统/BIOS</span>模式，但我发现这台计算机上至少有一个EFI分区。\n"
+"\n"
+"为了安装成功，您可能需要更改BIOS配置以在EFI或UEFI模式下引导。"
+
+msgid "Sending, please wait..."
+msgstr "发送中，请稍候..."
+
+msgid "Open"
+msgstr "打开"
+
+msgid "Send to the cloud"
+msgstr "发送到云端"
+
+msgid "calamares LOG"
+msgstr "Calamares 日志"
+
+msgid ""
+"\\n"
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups.\\n"
+msgstr ""
+"您想查看或发送安装日志文件到云端吗？\\n"
+"生成一个链接以发送到支持群组中。\\n"
+
+msgid "Closing file..."
+msgstr "关闭文件..."
+
+msgid "Checking the file:"
+msgstr "检查文件："
+
+msgid "Checking for download or USB drive errors, this may take a few minutes..."
+msgstr "检查下载或USB驱动器错误，可能需要几分钟..."
+
+msgid "Checking system integrity"
+msgstr "检查系统完整性"
+
+msgid "Error found, please download the system again or use another USB drive."
+msgstr "发现错误，请重新下载系统或使用另一个USB驱动器。"
+
+msgid "The files are intact."
+msgstr "文件完好无损。"
+
+msgid "Verification canceled."
+msgstr "验证已取消。"
+
+msgid "Wait..."
+msgstr "等待..."
+
+msgid "Checking internet connection..."
+msgstr "检查互联网连接..."
+
+msgid "Internet"
+msgstr "互联网"
+
+msgid ""
+"Without internet connection...\\n"
+"Extra packages installation disabled."
+msgstr ""
+"没有互联网连接...\\n"
+"禁用额外软件包安装。"
+
 msgid "Important tips for manual partitioning"
 msgstr "手动分区的重要提示"
 
@@ -42,9 +162,6 @@ msgstr "我们已经使用Zram和SWAP文件实现了动态虚拟内存管理。"
 
 msgid "SWAP partitions will not be used."
 msgstr "SWAP分区将不会被使用。"
-
-msgid "Continue"
-msgstr "继续"
 
 msgid "The system is in"
 msgstr "系统在"

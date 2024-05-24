@@ -16,6 +16,131 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "Please wait..."
+msgstr "Počkejte prosím..."
+
+msgid "Checking the integrity of the download and storage device..."
+msgstr "Kontrola integrity stahování a úložného zařízení..."
+
+msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Chcete pokračovat v instalaci této staré verze?</b>\n"
+"    :LBL"
+
+msgid ""
+"BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
+"We recommend downloading a more recent version.\n"
+"    "
+msgstr ""
+"BigLinux je systém s týdenními aktualizacemi a tato verze byla vydána před více než měsícem.\\n"
+"Doporučujeme stáhnout novější verzi."
+
+msgid "Continue"
+msgstr "Pokračovat"
+
+msgid "Close"
+msgstr "Zavřít"
+
+msgid "Outdated Version"
+msgstr "Zastaralá verze"
+
+msgid "Do you want to proceed with the installation in EFI mode?"
+msgstr "Chcete pokračovat s instalací v režimu EFI?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
+"partition on this computer.\n"
+"\n"
+"If this computer already has another system installed and you intend \n"
+"to keep it installed, you will probably need to change the \n"
+"configuration in the BIOS to boot in Legacy mode, also \n"
+"called BIOS mode."
+msgstr ""
+"Aktuální zavádění používá režim <span color='#CC2222'>EFI</span>, ale na tomto počítači jsem "
+"nenašel žádnou oddílovou EFI. \n"
+"\n"
+"Pokud je na tomto počítači již nainstalován jiný systém a chcete ho ponechat nainstalovaný, "
+"pravděpodobně budete muset změnit konfiguraci v BIOSu pro zavádění v režimu Legacy, také nazývaném "
+"režim BIOS."
+
+msgid "Install the system"
+msgstr "Nainstalovat systém"
+
+msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
+msgstr "Chcete pokračovat s instalací v režimu Legacy/BIOS?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
+"EFI partition on this computer. \n"
+"\n"
+"For the installation to be successful, you will probably need to \n"
+"change the configuration in the BIOS to boot in EFI or UEFI mode."
+msgstr ""
+"Aktuální zavádění používá režim <span color='#CC2222'>Legacy/BIOS</span>, ale na tomto počítači "
+"jsem našel alespoň jednu oddílovou tabulku EFI. \n"
+"\n"
+"Pro úspěšnou instalaci pravděpodobně budete muset změnit konfiguraci v BIOSu pro zavádění v režimu "
+"EFI nebo UEFI."
+
+msgid "Sending, please wait..."
+msgstr "Odesílání, čekejte prosím..."
+
+msgid "Open"
+msgstr "Otevřít"
+
+msgid "Send to the cloud"
+msgstr "Odeslat do cloudu"
+
+msgid "calamares LOG"
+msgstr "calamares ZÁZNAM"
+
+msgid ""
+"\\n"
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups.\\n"
+msgstr ""
+"Chcete zobrazit nebo odeslat instalační protokol do cloudu?\\n"
+"Vygenerovat odkaz k odeslání ve skupinách podpory.\\n"
+
+msgid "Closing file..."
+msgstr "Uzavírání souboru..."
+
+msgid "Checking the file:"
+msgstr "Kontrola souboru:"
+
+msgid "Checking for download or USB drive errors, this may take a few minutes..."
+msgstr "Kontrola chyb stahování nebo chyb USB disku, může to trvat několik minut..."
+
+msgid "Checking system integrity"
+msgstr "Kontrola integrity systému"
+
+msgid "Error found, please download the system again or use another USB drive."
+msgstr "Chyba nalezena, stáhněte prosím systém znovu nebo použijte jiný USB disk."
+
+msgid "The files are intact."
+msgstr "Soubory jsou nedotčeny."
+
+msgid "Verification canceled."
+msgstr "Ověření zrušeno."
+
+msgid "Wait..."
+msgstr "N/A"
+
+msgid "Checking internet connection..."
+msgstr "Kontrola připojení k internetu..."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid ""
+"Without internet connection...\\n"
+"Extra packages installation disabled."
+msgstr ""
+"Bez připojení k internetu...\\n"
+"Instalace dodatečných balíčků zakázána."
+
 msgid "Important tips for manual partitioning"
 msgstr "Důležité tipy pro ruční rozdělení disku"
 
@@ -42,9 +167,6 @@ msgstr "Implementovali jsme dynamické řízení virtuální paměti s Zramem a 
 
 msgid "SWAP partitions will not be used."
 msgstr "SWAP oddíly nebudou použity."
-
-msgid "Continue"
-msgstr "Pokračovat"
 
 msgid "The system is in"
 msgstr "Systém je v"

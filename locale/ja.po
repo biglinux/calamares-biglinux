@@ -16,6 +16,126 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "Please wait..."
+msgstr "お待ちください..."
+
+msgid "Checking the integrity of the download and storage device..."
+msgstr "ダウンロードとストレージデバイスの整合性をチェックしています..."
+
+msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>この古いバージョンのインストールを続行しますか？</b>\n"
+"    :LBL"
+
+msgid ""
+"BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
+"We recommend downloading a more recent version.\n"
+"    "
+msgstr ""
+"BigLinuxは、週次のアップデートを備えたシステムで、このバージョンは1か月以上前にリリースされました。\\n"
+"より新しいバージョンをダウンロードすることをお勧めします。"
+
+msgid "Continue"
+msgstr "続行"
+
+msgid "Close"
+msgstr "閉じる"
+
+msgid "Outdated Version"
+msgstr "古いバージョン"
+
+msgid "Do you want to proceed with the installation in EFI mode?"
+msgstr "EFIモードでインストールを続行しますか？"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
+"partition on this computer.\n"
+"\n"
+"If this computer already has another system installed and you intend \n"
+"to keep it installed, you will probably need to change the \n"
+"configuration in the BIOS to boot in Legacy mode, also \n"
+"called BIOS mode."
+msgstr ""
+"現在のブートは<span color='#CC2222'>EFI</span>モードを使用していますが、このコンピューターにEFIパーティションは見つかりませんでした。\n"
+"\n"
+"このコンピューターにすでに他のシステムがインストールされており、インストールされたままにしたい場合は、おそらくBIOSの設定を変更してレガシーモード、またはBIOSモードでブートする必要があります。"
+
+msgid "Install the system"
+msgstr "システムをインストールします"
+
+msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
+msgstr "レガシー/BIOSモードでインストールを続行しますか？"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
+"EFI partition on this computer. \n"
+"\n"
+"For the installation to be successful, you will probably need to \n"
+"change the configuration in the BIOS to boot in EFI or UEFI mode."
+msgstr ""
+"現在のブートは<span color='#CC2222'>Legacy/BIOS</span>モードを使用していますが、このコンピューターに少なくとも1つのEFIパーティションが見つかりました。\n"
+"\n"
+"インストールが成功するためには、おそらくBIOSの設定を変更してEFIまたはUEFIモードでブートする必要があります。"
+
+msgid "Sending, please wait..."
+msgstr "送信中、お待ちください..."
+
+msgid "Open"
+msgstr "オープン"
+
+msgid "Send to the cloud"
+msgstr "クラウドに送信"
+
+msgid "calamares LOG"
+msgstr "Calamares ログ"
+
+msgid ""
+"\\n"
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups.\\n"
+msgstr ""
+"インストールログファイルを表示またはクラウドに送信しますか？\\n"
+"サポートグループに送信するためのリンクを生成します。\\n"
+
+msgid "Closing file..."
+msgstr "ファイルを閉じています..."
+
+msgid "Checking the file:"
+msgstr "ファイルをチェック中:"
+
+msgid "Checking for download or USB drive errors, this may take a few minutes..."
+msgstr "ダウンロードまたはUSBドライブのエラーをチェックしています。数分かかる場合があります..."
+
+msgid "Checking system integrity"
+msgstr "システムの整合性をチェックしています"
+
+msgid "Error found, please download the system again or use another USB drive."
+msgstr "エラーが見つかりました。システムを再度ダウンロードするか、別のUSBドライブを使用してください。"
+
+msgid "The files are intact."
+msgstr "ファイルは無傷です。"
+
+msgid "Verification canceled."
+msgstr "検証がキャンセルされました。"
+
+msgid "Wait..."
+msgstr "お待ちください..."
+
+msgid "Checking internet connection..."
+msgstr "インターネット接続を確認しています..."
+
+msgid "Internet"
+msgstr "インターネット"
+
+msgid ""
+"Without internet connection...\\n"
+"Extra packages installation disabled."
+msgstr ""
+"インターネット接続なし...\\n"
+"追加パッケージのインストールが無効になっています。"
+
 msgid "Important tips for manual partitioning"
 msgstr "手動パーティション作成の重要なヒント"
 
@@ -42,9 +162,6 @@ msgstr "ZramとSWAPファイルを使用した動的仮想メモリ管理を実�
 
 msgid "SWAP partitions will not be used."
 msgstr "SWAPパーティションは使用されません。"
-
-msgid "Continue"
-msgstr "続行"
 
 msgid "The system is in"
 msgstr "システムはオンラインです"

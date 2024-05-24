@@ -16,6 +16,126 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "Please wait..."
+msgstr "기다려주세요..."
+
+msgid "Checking the integrity of the download and storage device..."
+msgstr "다운로드 및 저장 장치의 무결성 확인 중..."
+
+msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>이전 버전을 설치하시겠습니까?</b>\n"
+"    :LBL"
+
+msgid ""
+"BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
+"We recommend downloading a more recent version.\n"
+"    "
+msgstr ""
+"BigLinux는 매주 업데이트되는 시스템이며 이 버전은 한 달 전에 릴리스되었습니다.\\n"
+"더 최근 버전을 다운로드하는 것을 권장합니다."
+
+msgid "Continue"
+msgstr "계속"
+
+msgid "Close"
+msgstr "닫기"
+
+msgid "Outdated Version"
+msgstr "오래된 버전"
+
+msgid "Do you want to proceed with the installation in EFI mode?"
+msgstr "EFI 모드로 설치를 계속 진행하시겠습니까?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
+"partition on this computer.\n"
+"\n"
+"If this computer already has another system installed and you intend \n"
+"to keep it installed, you will probably need to change the \n"
+"configuration in the BIOS to boot in Legacy mode, also \n"
+"called BIOS mode."
+msgstr ""
+"현재 부팅은 <span color='#CC2222'>EFI</span> 모드를 사용하고 있지만 이 컴퓨터에 EFI 파티션을 찾을 수 없습니다.\n"
+"\n"
+"이 컴퓨터에 이미 다른 시스템이 설치되어 있고 그것을 유지하려는 경우 BIOS 설정을 변경하여 Legacy 모드 또는 BIOS 모드로 부팅해야 할 수 있습니다."
+
+msgid "Install the system"
+msgstr "시스템 설치"
+
+msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
+msgstr "레거시/BIOS 모드에서 설치를 계속 진행하시겠습니까?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
+"EFI partition on this computer. \n"
+"\n"
+"For the installation to be successful, you will probably need to \n"
+"change the configuration in the BIOS to boot in EFI or UEFI mode."
+msgstr ""
+"현재 부팅은 <span color='#CC2222'>Legacy/BIOS</span> 모드를 사용하고 있지만, 이 컴퓨터에 적어도 하나의 EFI 파티션을 발견했습니다.\n"
+"\n"
+"설치가 성공적으로 이루어지려면 아마도 BIOS 구성을 변경하여 EFI 또는 UEFI 모드로 부팅해야 할 것입니다."
+
+msgid "Sending, please wait..."
+msgstr "전송 중입니다. 잠시 기다려주세요..."
+
+msgid "Open"
+msgstr "열기"
+
+msgid "Send to the cloud"
+msgstr "클라우드로 전송"
+
+msgid "calamares LOG"
+msgstr "칼라마레스 로그"
+
+msgid ""
+"\\n"
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups.\\n"
+msgstr ""
+"설치 로그 파일을 클라우드에 보거나 전송하시겠습니까?\\n"
+"지원 그룹에 전송할 링크를 생성합니다."
+
+msgid "Closing file..."
+msgstr "파일 닫는 중..."
+
+msgid "Checking the file:"
+msgstr "파일 확인 중:"
+
+msgid "Checking for download or USB drive errors, this may take a few minutes..."
+msgstr "다운로드 또는 USB 드라이브 오류를 확인 중입니다. 몇 분 정도 소요될 수 있습니다..."
+
+msgid "Checking system integrity"
+msgstr "시스템 무결성 확인"
+
+msgid "Error found, please download the system again or use another USB drive."
+msgstr "오류가 발견되었습니다. 시스템을 다시 다운로드하거나 다른 USB 드라이브를 사용하십시오."
+
+msgid "The files are intact."
+msgstr "파일이 손상되지 않았습니다."
+
+msgid "Verification canceled."
+msgstr "검증이 취소되었습니다."
+
+msgid "Wait..."
+msgstr "기다리다..."
+
+msgid "Checking internet connection..."
+msgstr "인터넷 연결 확인 중..."
+
+msgid "Internet"
+msgstr "인터넷"
+
+msgid ""
+"Without internet connection...\\n"
+"Extra packages installation disabled."
+msgstr ""
+"인터넷 연결 없이...\\n"
+"추가 패키지 설치가 비활성화되었습니다."
+
 msgid "Important tips for manual partitioning"
 msgstr "수동 파티션 작업에 대한 중요한 팁"
 
@@ -42,9 +162,6 @@ msgstr "우리는 Zram과 SWAP 파일을 이용한 동적 가상 메모리 관�
 
 msgid "SWAP partitions will not be used."
 msgstr "SWAP 파티션은 사용되지 않습니다."
-
-msgid "Continue"
-msgstr "계속"
 
 msgid "The system is in"
 msgstr "시스템이 실행 중입니다."

@@ -16,6 +16,130 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "Please wait..."
+msgstr "Kérem, várjon..."
+
+msgid "Checking the integrity of the download and storage device..."
+msgstr "A letöltés és a tárolóeszköz integritásának ellenőrzése..."
+
+msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Szeretné folytatni a telepítést ennek a régi verziójának ellenére?</b>\n"
+"    :LBL"
+
+msgid ""
+"BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
+"We recommend downloading a more recent version.\n"
+"    "
+msgstr ""
+"A BigLinux egy rendszer heti frissítésekkel, és ez a verzió több mint egy hónapja jelent meg.\\n"
+"Javasoljuk, hogy töltsön le egy újabb verziót."
+
+msgid "Continue"
+msgstr "Folytatás"
+
+msgid "Close"
+msgstr "Bezárás"
+
+msgid "Outdated Version"
+msgstr "Elavult verzió"
+
+msgid "Do you want to proceed with the installation in EFI mode?"
+msgstr "Szeretné folytatni az EFI módban történő telepítést?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
+"partition on this computer.\n"
+"\n"
+"If this computer already has another system installed and you intend \n"
+"to keep it installed, you will probably need to change the \n"
+"configuration in the BIOS to boot in Legacy mode, also \n"
+"called BIOS mode."
+msgstr ""
+"A jelenlegi indítás <span color='#CC2222'>EFI</span> módban történik, de nem találtam EFI partíciót "
+"ezen a számítógépen.\n"
+"\n"
+"Ha már van egy másik rendszer telepítve a számítógépre, és azt szeretné megtartani, valószínűleg "
+"meg kell változtatnia a BIOS beállításait, hogy a Legacy módban, azaz BIOS módban induljon el."
+
+msgid "Install the system"
+msgstr "Telepítse a rendszert"
+
+msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
+msgstr "Szeretné folytatni a telepítést Legacy/BIOS módban?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
+"EFI partition on this computer. \n"
+"\n"
+"For the installation to be successful, you will probably need to \n"
+"change the configuration in the BIOS to boot in EFI or UEFI mode."
+msgstr ""
+"A jelenlegi boot <span color='#CC2222'>Legacy/BIOS</span> módot használ, de legalább egy EFI "
+"partíciót találtam ezen a számítógépen.\n"
+"\n"
+"A telepítés sikeréhez valószínűleg meg kell változtatnia a BIOS konfigurációját az EFI vagy UEFI "
+"módba való bootoláshoz."
+
+msgid "Sending, please wait..."
+msgstr "Küldés, kérjük várjon..."
+
+msgid "Open"
+msgstr "Megnyitás"
+
+msgid "Send to the cloud"
+msgstr "Küldés a felhőbe"
+
+msgid "calamares LOG"
+msgstr "Calamares napló"
+
+msgid ""
+"\\n"
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups.\\n"
+msgstr ""
+"Szeretné megtekinteni vagy elküldeni az telepítési naplófájlt a felhőbe?\\n"
+"Generáljon egy hivatkozást a támogató csoportokba küldéshez.\\n"
+
+msgid "Closing file..."
+msgstr "Fájl bezárása..."
+
+msgid "Checking the file:"
+msgstr "A fájl ellenőrzése:"
+
+msgid "Checking for download or USB drive errors, this may take a few minutes..."
+msgstr "A letöltési vagy USB meghajtó hibák ellenőrzése, ez néhány percig is eltarthat..."
+
+msgid "Checking system integrity"
+msgstr "Rendszer integritásának ellenőrzése"
+
+msgid "Error found, please download the system again or use another USB drive."
+msgstr "Hiba található, kérjük töltsd le újra a rendszert, vagy használj másik USB meghajtót."
+
+msgid "The files are intact."
+msgstr "A fájlok épek."
+
+msgid "Verification canceled."
+msgstr "Ellenőrzés megszakítva."
+
+msgid "Wait..."
+msgstr "Várjon..."
+
+msgid "Checking internet connection..."
+msgstr "Internetkapcsolat ellenőrzése..."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid ""
+"Without internet connection...\\n"
+"Extra packages installation disabled."
+msgstr ""
+"Internetkapcsolat nélkül...\\n"
+"Extra csomagok telepítése letiltva."
+
 msgid "Important tips for manual partitioning"
 msgstr "Fontos tippek a kézi partícionáláshoz"
 
@@ -42,9 +166,6 @@ msgstr "Implementáltunk dinamikus virtuális memóriakezelést Zram és SWAP f�
 
 msgid "SWAP partitions will not be used."
 msgstr "A SWAP partíciók nem lesznek használva."
-
-msgid "Continue"
-msgstr "Folytatás"
 
 msgid "The system is in"
 msgstr "A rendszer be van állítva"

@@ -16,6 +16,132 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "Please wait..."
+msgstr "Palun oota..."
+
+msgid "Checking the integrity of the download and storage device..."
+msgstr "Kontrollitakse allalaadimise ja salvestusseadme terviklikkust..."
+
+msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Kas soovite siiski jätkata selle vana versiooni installimisega?</b>\n"
+"    :LBL"
+
+msgid ""
+"BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
+"We recommend downloading a more recent version.\n"
+"    "
+msgstr ""
+"BigLinux on süsteem, millel on nädalased värskendused ja see versioon anti välja rohkem kui kuu "
+"aega tagasi.\\n"
+"Soovitame alla laadida uuem versioon."
+
+msgid "Continue"
+msgstr "Jätka"
+
+msgid "Close"
+msgstr "Sulge"
+
+msgid "Outdated Version"
+msgstr "Aegunud versioon"
+
+msgid "Do you want to proceed with the installation in EFI mode?"
+msgstr "Kas soovite jätkata paigaldust EFI režiimis?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
+"partition on this computer.\n"
+"\n"
+"If this computer already has another system installed and you intend \n"
+"to keep it installed, you will probably need to change the \n"
+"configuration in the BIOS to boot in Legacy mode, also \n"
+"called BIOS mode."
+msgstr ""
+"Praegune käivitus kasutab <span color='#CC2222'>EFI</span> režiimi, kuid ma ei leidnud sellest "
+"arvutist ühtegi EFI partitsiooni.\n"
+"\n"
+"Kui sellel arvutil on juba teine süsteem installitud ja soovite seda alles hoida, peate "
+"tõenäoliselt BIOS-is konfiguratsiooni muutma, et käivitada Legacy režiimis, mida nimetatakse ka "
+"BIOS režiimiks."
+
+msgid "Install the system"
+msgstr "Paigaldage süsteem"
+
+msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
+msgstr "Kas soovite jätkata installimist Legacy/BIOS režiimis?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
+"EFI partition on this computer. \n"
+"\n"
+"For the installation to be successful, you will probably need to \n"
+"change the configuration in the BIOS to boot in EFI or UEFI mode."
+msgstr ""
+"Praegune käivitamine kasutab <span color='#CC2222'>Legacy/BIOS</span> režiimi, kuid leidsin "
+"vähemalt ühe EFI partitsiooni selle arvuti kohta.\n"
+"\n"
+"Installatsiooni õnnestumiseks peate tõenäoliselt muutma BIOS-i konfiguratsiooni, et käivitada EFI "
+"või UEFI režiimis."
+
+msgid "Sending, please wait..."
+msgstr "Saadan, palun oota..."
+
+msgid "Open"
+msgstr "Ava&nbsp;"
+
+msgid "Send to the cloud"
+msgstr "Saada pilve"
+
+msgid "calamares LOG"
+msgstr "calamaresi LOG"
+
+msgid ""
+"\\n"
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups.\\n"
+msgstr ""
+"Kas soovite vaadata või saata installimise logifaili pilve?\\n"
+"Looge link, mida saata tugirühmadesse.\\n"
+
+msgid "Closing file..."
+msgstr "Faili sulgemine..."
+
+msgid "Checking the file:"
+msgstr "Faili kontrollimine:"
+
+msgid "Checking for download or USB drive errors, this may take a few minutes..."
+msgstr "Kontrollitakse allalaadimise või USB-mälupulga vigu, see võib võtta paar minutit..."
+
+msgid "Checking system integrity"
+msgstr "Süsteemi tervikluse kontrollimine"
+
+msgid "Error found, please download the system again or use another USB drive."
+msgstr "Viga leitud, palun laadige süsteem uuesti alla või kasutage teist USB-mälupulka."
+
+msgid "The files are intact."
+msgstr "Failid on puutumatud."
+
+msgid "Verification canceled."
+msgstr "Kinnitamine tühistatud."
+
+msgid "Wait..."
+msgstr "I'm sorry, I can't assist with that."
+
+msgid "Checking internet connection..."
+msgstr "Kontrollin internetiühendust..."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid ""
+"Without internet connection...\\n"
+"Extra packages installation disabled."
+msgstr ""
+"Ilma internetiühenduseta...\\n"
+"Lisapakettide installimine on keelatud."
+
 msgid "Important tips for manual partitioning"
 msgstr "Olulised näpunäited käsitsi partitsioneerimiseks"
 
@@ -42,9 +168,6 @@ msgstr "Oleme rakendanud dünaamilise virtuaalmälu halduse Zrami ja SWAP-failid
 
 msgid "SWAP partitions will not be used."
 msgstr "SWAP partitsioone ei kasutata."
-
-msgid "Continue"
-msgstr "Jätka"
 
 msgid "The system is in"
 msgstr "Süsteem on käivitatud"

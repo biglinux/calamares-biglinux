@@ -16,6 +16,132 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "Please wait..."
+msgstr "Vă rugăm să așteptați..."
+
+msgid "Checking the integrity of the download and storage device..."
+msgstr "Verificarea integrității descărcării și a dispozitivului de stocare..."
+
+msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Doriți să continuați cu instalarea acestei versiuni vechi oricum?</b>\n"
+"    :LBL"
+
+msgid ""
+"BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
+"We recommend downloading a more recent version.\n"
+"    "
+msgstr ""
+"BigLinux este un sistem cu actualizări săptămânale și această versiune a fost lansată acum mai mult "
+"de o lună.\\n"
+"Recomandăm descărcarea unei versiuni mai recente."
+
+msgid "Continue"
+msgstr "Continua"
+
+msgid "Close"
+msgstr "Închide"
+
+msgid "Outdated Version"
+msgstr "Versiune învechită"
+
+msgid "Do you want to proceed with the installation in EFI mode?"
+msgstr "Doriți să continuați cu instalarea în modul EFI?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
+"partition on this computer.\n"
+"\n"
+"If this computer already has another system installed and you intend \n"
+"to keep it installed, you will probably need to change the \n"
+"configuration in the BIOS to boot in Legacy mode, also \n"
+"called BIOS mode."
+msgstr ""
+"Boot-ul curent folosește modul <span color='#CC2222'>EFI</span>, dar nu am găsit nicio partiție EFI "
+"pe acest computer.\n"
+"\n"
+"Dacă acest computer are deja un alt sistem instalat și intenționați să-l păstrați instalat, "
+"probabil va trebui să schimbați configurația în BIOS pentru a porni în modul Legacy, numit și mod "
+"BIOS."
+
+msgid "Install the system"
+msgstr "Instalați sistemul"
+
+msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
+msgstr "Doriți să continuați cu instalarea în modul Legacy/BIOS?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
+"EFI partition on this computer. \n"
+"\n"
+"For the installation to be successful, you will probably need to \n"
+"change the configuration in the BIOS to boot in EFI or UEFI mode."
+msgstr ""
+"Boot-ul curent folosește modul <span color='#CC2222'>Legacy/BIOS</span>, dar am găsit cel puțin o "
+"partiție EFI pe acest calculator.\n"
+"\n"
+"Pentru ca instalarea să fie reușită, probabil va trebui să schimbați configurația în BIOS pentru a "
+"porni în modul EFI sau UEFI."
+
+msgid "Sending, please wait..."
+msgstr "Trimitere, vă rugăm să așteptați..."
+
+msgid "Open"
+msgstr "Deschide"
+
+msgid "Send to the cloud"
+msgstr "Trimite în nor"
+
+msgid "calamares LOG"
+msgstr "jurnalul Calamares"
+
+msgid ""
+"\\n"
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups.\\n"
+msgstr ""
+"Doriți să vizualizați sau să trimiteți fișierul jurnal de instalare în cloud?\\n"
+"Generați un link de trimitere în grupurile de suport."
+
+msgid "Closing file..."
+msgstr "Închidere fișier..."
+
+msgid "Checking the file:"
+msgstr "Verificând fișierul:"
+
+msgid "Checking for download or USB drive errors, this may take a few minutes..."
+msgstr "Verificare erori de descărcare sau de pe unitatea USB, acest proces poate dura câteva minute..."
+
+msgid "Checking system integrity"
+msgstr "Verificarea integrității sistemului"
+
+msgid "Error found, please download the system again or use another USB drive."
+msgstr "Eroare găsită, vă rugăm descărcați din nou sistemul sau folosiți un alt USB."
+
+msgid "The files are intact."
+msgstr "Fișierele sunt intacte."
+
+msgid "Verification canceled."
+msgstr "Verificarea a fost anulată."
+
+msgid "Wait..."
+msgstr "Așteaptă..."
+
+msgid "Checking internet connection..."
+msgstr "Verificare conexiune internet..."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid ""
+"Without internet connection...\\n"
+"Extra packages installation disabled."
+msgstr ""
+"Fără conexiune la internet...\n"
+"Instalarea pachetelor suplimentare este dezactivată."
+
 msgid "Important tips for manual partitioning"
 msgstr "Sfaturi importante pentru partajarea manuală"
 
@@ -42,9 +168,6 @@ msgstr "Am implementat gestionarea dinamică a memoriei virtuale cu Zram și fi�
 
 msgid "SWAP partitions will not be used."
 msgstr "Partițiile SWAP nu vor fi utilizate."
-
-msgid "Continue"
-msgstr "Continua"
 
 msgid "The system is in"
 msgstr "Sistemul este în"

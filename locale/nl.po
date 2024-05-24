@@ -16,6 +16,132 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "Please wait..."
+msgstr "Even geduld a.u.b."
+
+msgid "Checking the integrity of the download and storage device..."
+msgstr "De integriteit van de download en opslagapparaat controleren..."
+
+msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Wilt u toch doorgaan met de installatie van deze oude versie?</b>\n"
+"    :LBL"
+
+msgid ""
+"BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
+"We recommend downloading a more recent version.\n"
+"    "
+msgstr ""
+"BigLinux is een systeem met wekelijkse updates en deze versie is meer dan een maand geleden "
+"uitgebracht.\\n"
+"We raden aan om een meer recente versie te downloaden."
+
+msgid "Continue"
+msgstr "Doorgaan"
+
+msgid "Close"
+msgstr "Sluiten"
+
+msgid "Outdated Version"
+msgstr "Verouderde versie"
+
+msgid "Do you want to proceed with the installation in EFI mode?"
+msgstr "Wilt u doorgaan met de installatie in EFI-modus?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
+"partition on this computer.\n"
+"\n"
+"If this computer already has another system installed and you intend \n"
+"to keep it installed, you will probably need to change the \n"
+"configuration in the BIOS to boot in Legacy mode, also \n"
+"called BIOS mode."
+msgstr ""
+"De huidige opstart maakt gebruik van de <span color='#CC2222'>EFI</span>-modus, maar ik heb geen "
+"EFI-partitie op deze computer gevonden.\n"
+"\n"
+"Als er al een ander systeem op deze computer is geïnstalleerd en je van plan bent om dit te "
+"behouden, moet je waarschijnlijk de configuratie in de BIOS wijzigen om op te starten in de "
+"Legacy-modus, ook wel BIOS-modus genoemd."
+
+msgid "Install the system"
+msgstr "Installeer het systeem"
+
+msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
+msgstr "Wilt u doorgaan met de installatie in Legacy/BIOS-modus?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
+"EFI partition on this computer. \n"
+"\n"
+"For the installation to be successful, you will probably need to \n"
+"change the configuration in the BIOS to boot in EFI or UEFI mode."
+msgstr ""
+"De huidige opstart maakt gebruik van de <span color='#CC2222'>Legacy/BIOS</span>-modus, maar ik heb "
+"ten minste één EFI-partitie op deze computer gevonden.\n"
+"\n"
+"Voor een succesvolle installatie moet je waarschijnlijk de configuratie in de BIOS wijzigen om op "
+"te starten in EFI- of UEFI-modus."
+
+msgid "Sending, please wait..."
+msgstr "Verzenden, even geduld..."
+
+msgid "Open"
+msgstr "Openen"
+
+msgid "Send to the cloud"
+msgstr "Versturen naar de cloud"
+
+msgid "calamares LOG"
+msgstr "Calamares-log"
+
+msgid ""
+"\\n"
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups.\\n"
+msgstr ""
+"Wilt u het installatielogbestand bekijken of naar de cloud verzenden?\\n"
+"Genereer een link om te verzenden naar ondersteuningsgroepen.\\n"
+
+msgid "Closing file..."
+msgstr "Bestand sluiten..."
+
+msgid "Checking the file:"
+msgstr "Het bestand controleren:"
+
+msgid "Checking for download or USB drive errors, this may take a few minutes..."
+msgstr "Controleren op download- of USB-drivefouten, dit kan enkele minuten duren..."
+
+msgid "Checking system integrity"
+msgstr "Systeemintegriteit controleren"
+
+msgid "Error found, please download the system again or use another USB drive."
+msgstr "Fout gevonden, download het systeem opnieuw of gebruik een andere USB-drive."
+
+msgid "The files are intact."
+msgstr "De bestanden zijn intact."
+
+msgid "Verification canceled."
+msgstr "Verificatie geannuleerd."
+
+msgid "Wait..."
+msgstr "Wachten..."
+
+msgid "Checking internet connection..."
+msgstr "Internetverbinding controleren..."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid ""
+"Without internet connection...\\n"
+"Extra packages installation disabled."
+msgstr ""
+"Zonder internetverbinding...\\n"
+"Extra pakketten installatie uitgeschakeld."
+
 msgid "Important tips for manual partitioning"
 msgstr "Belangrijke tips voor handmatig partitioneren"
 
@@ -42,9 +168,6 @@ msgstr "We hebben dynamisch virtueel geheugenbeheer geïmplementeerd met Zram en
 
 msgid "SWAP partitions will not be used."
 msgstr "SWAP-partities zullen niet worden gebruikt."
-
-msgid "Continue"
-msgstr "Doorgaan"
 
 msgid "The system is in"
 msgstr "Het systeem is in"

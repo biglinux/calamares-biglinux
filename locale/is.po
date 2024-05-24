@@ -16,6 +16,134 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "Please wait..."
+msgstr "Harap tunggu..."
+
+msgid "Checking the integrity of the download and storage device..."
+msgstr "Memeriksa integritas unduhan dan perangkat penyimpanan..."
+
+msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Apakah Anda ingin melanjutkan dengan instalasi versi lama ini?</b>\n"
+"    :LBL"
+
+msgid ""
+"BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
+"We recommend downloading a more recent version.\n"
+"    "
+msgstr ""
+"BigLinux adalah sistem dengan pembaruan mingguan dan versi ini dirilis lebih dari sebulan yang "
+"lalu.\\n"
+"Kami merekomendasikan untuk mengunduh versi yang lebih baru."
+
+msgid "Continue"
+msgstr "Terus"
+
+msgid "Close"
+msgstr "Tutup"
+
+msgid "Outdated Version"
+msgstr "Versi Lama"
+
+msgid "Do you want to proceed with the installation in EFI mode?"
+msgstr "Apakah Anda ingin melanjutkan instalasi dalam mode EFI?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
+"partition on this computer.\n"
+"\n"
+"If this computer already has another system installed and you intend \n"
+"to keep it installed, you will probably need to change the \n"
+"configuration in the BIOS to boot in Legacy mode, also \n"
+"called BIOS mode."
+msgstr ""
+"Saat ini boot yang digunakan adalah mode <span color='#CC2222'>EFI</span>, tetapi saya tidak "
+"menemukan partisi EFI di komputer ini.\n"
+"\n"
+"Jika komputer ini sudah memiliki sistem lain yang terinstal dan Anda berniat \n"
+"untuk tetap menginstalnya, Anda mungkin perlu mengubah \n"
+"konfigurasi di BIOS untuk boot dalam mode Legacy, juga \n"
+"disebut mode BIOS."
+
+msgid "Install the system"
+msgstr "Pasang sistem"
+
+msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
+msgstr "Apakah Anda ingin melanjutkan instalasi dalam mode Legacy/BIOS?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
+"EFI partition on this computer. \n"
+"\n"
+"For the installation to be successful, you will probably need to \n"
+"change the configuration in the BIOS to boot in EFI or UEFI mode."
+msgstr ""
+"Boot semasa menggunakan mod <span color='#CC2222'>Legacy/BIOS</span>, tetapi saya dapati "
+"sekurang-kurangnya satu bahagian EFI pada komputer ini.\n"
+"\n"
+"Untuk pemasangan berjaya, anda mungkin perlu menukar konfigurasi dalam BIOS untuk memulakan dalam "
+"mod EFI atau UEFI."
+
+msgid "Sending, please wait..."
+msgstr "Menghantar, sila tunggu..."
+
+msgid "Open"
+msgstr "Buka"
+
+msgid "Send to the cloud"
+msgstr "Kirim ke cloud"
+
+msgid "calamares LOG"
+msgstr "catatan calamares"
+
+msgid ""
+"\\n"
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups.\\n"
+msgstr ""
+"\\n"
+"Apakah Anda ingin melihat atau mengirim file log instalasi ke cloud?\\n"
+"Buat tautan untuk dikirim ke grup dukungan.\\n"
+
+msgid "Closing file..."
+msgstr "Menutup berkas..."
+
+msgid "Checking the file:"
+msgstr "Memeriksa berkas:"
+
+msgid "Checking for download or USB drive errors, this may take a few minutes..."
+msgstr "Memeriksa kesalahan unduhan atau USB drive, ini mungkin memerlukan beberapa menit..."
+
+msgid "Checking system integrity"
+msgstr "Memeriksa integritas sistem"
+
+msgid "Error found, please download the system again or use another USB drive."
+msgstr "Ralat ditemui, sila muat turun sistem semula atau gunakan pemacu USB lain."
+
+msgid "The files are intact."
+msgstr "Fail ini utuh."
+
+msgid "Verification canceled."
+msgstr "Pengesahan dibatalkan."
+
+msgid "Wait..."
+msgstr "Menunggu..."
+
+msgid "Checking internet connection..."
+msgstr "Memeriksa koneksi internet..."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid ""
+"Without internet connection...\\n"
+"Extra packages installation disabled."
+msgstr ""
+"Tanpa sambungan internet...\\n"
+"Pemasangan paket tambahan dinonaktifkan."
+
 msgid "Important tips for manual partitioning"
 msgstr "Petua penting untuk pengasingan manual"
 
@@ -42,9 +170,6 @@ msgstr "Kami telah melaksanakan pengelolaan memori virtual dinamis dengan Zram d
 
 msgid "SWAP partitions will not be used."
 msgstr "Partisi SWAP tidak akan digunakan."
-
-msgid "Continue"
-msgstr "Terus"
 
 msgid "The system is in"
 msgstr "Sistem ini dalam"

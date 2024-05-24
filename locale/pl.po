@@ -16,6 +16,131 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "Please wait..."
+msgstr "Proszę czekać..."
+
+msgid "Checking the integrity of the download and storage device..."
+msgstr "Sprawdzanie integralności pobrania i urządzenia przechowywania..."
+
+msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Czy chcesz mimo to kontynuować instalację tej starej wersji?</b>\n"
+"    :LBL"
+
+msgid ""
+"BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
+"We recommend downloading a more recent version.\n"
+"    "
+msgstr ""
+"BigLinux to system z cotygodniowymi aktualizacjami, a ta wersja została wydana ponad miesiąc temu.\\n"
+"Zalecamy pobranie nowszej wersji."
+
+msgid "Continue"
+msgstr "Kontynuuj"
+
+msgid "Close"
+msgstr "Zamknij"
+
+msgid "Outdated Version"
+msgstr "Przestarzała wersja"
+
+msgid "Do you want to proceed with the installation in EFI mode?"
+msgstr "Czy chcesz kontynuować instalację w trybie EFI?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
+"partition on this computer.\n"
+"\n"
+"If this computer already has another system installed and you intend \n"
+"to keep it installed, you will probably need to change the \n"
+"configuration in the BIOS to boot in Legacy mode, also \n"
+"called BIOS mode."
+msgstr ""
+"Aktualne uruchomienie korzysta z trybu <span color='#CC2222'>EFI</span>, ale nie znalazłem żadnej "
+"partycji EFI na tym komputerze.\n"
+"\n"
+"Jeśli na tym komputerze jest już zainstalowany inny system i chcesz go zachować, prawdopodobnie "
+"będziesz musiał zmienić konfigurację w BIOSie, aby uruchamiać w trybie Legacy, zwany również trybem "
+"BIOS."
+
+msgid "Install the system"
+msgstr "Zainstaluj system"
+
+msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
+msgstr "Czy chcesz kontynuować instalację w trybie Legacy/BIOS?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
+"EFI partition on this computer. \n"
+"\n"
+"For the installation to be successful, you will probably need to \n"
+"change the configuration in the BIOS to boot in EFI or UEFI mode."
+msgstr ""
+"Aktualne uruchomienie korzysta z trybu <span color='#CC2222'>Legacy/BIOS</span>, ale znalazłem "
+"przynajmniej jedną partycję EFI na tym komputerze.\n"
+"\n"
+"Aby instalacja zakończyła się sukcesem, prawdopodobnie będziesz musiał zmienić konfigurację w "
+"BIOSie, aby uruchamiać w trybie EFI lub UEFI."
+
+msgid "Sending, please wait..."
+msgstr "Wysyłanie, proszę czekać..."
+
+msgid "Open"
+msgstr "Otwórz"
+
+msgid "Send to the cloud"
+msgstr "Prześlij do chmury"
+
+msgid "calamares LOG"
+msgstr "Dziennik calamares"
+
+msgid ""
+"\\n"
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups.\\n"
+msgstr ""
+"Czy chcesz wyświetlić lub wysłać plik dziennika instalacji do chmury?\\n"
+"Wygeneruj link do wysłania w grupach wsparcia.\\n"
+
+msgid "Closing file..."
+msgstr "Zamykanie pliku..."
+
+msgid "Checking the file:"
+msgstr "Sprawdzanie pliku:"
+
+msgid "Checking for download or USB drive errors, this may take a few minutes..."
+msgstr "Sprawdzanie błędów pobierania lub napędu USB, może to potrwać kilka minut..."
+
+msgid "Checking system integrity"
+msgstr "Sprawdzanie integralności systemu"
+
+msgid "Error found, please download the system again or use another USB drive."
+msgstr "Błąd znaleziony, proszę ponownie pobrać system lub użyć innego dysku USB."
+
+msgid "The files are intact."
+msgstr "Pliki są nietknięte."
+
+msgid "Verification canceled."
+msgstr "Weryfikacja anulowana."
+
+msgid "Wait..."
+msgstr "Czekaj..."
+
+msgid "Checking internet connection..."
+msgstr "Sprawdzanie połączenia internetowego..."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid ""
+"Without internet connection...\\n"
+"Extra packages installation disabled."
+msgstr ""
+"Bez połączenia z internetem...\\n"
+"Instalacja dodatkowych pakietów wyłączona."
+
 msgid "Important tips for manual partitioning"
 msgstr "Ważne wskazówki dotyczące ręcznego partycjonowania"
 
@@ -42,9 +167,6 @@ msgstr "Wdrożyliśmy dynamiczne zarządzanie pamięcią wirtualną za pomocą Z
 
 msgid "SWAP partitions will not be used."
 msgstr "Partycje SWAP nie będą używane."
-
-msgid "Continue"
-msgstr "Kontynuuj"
 
 msgid "The system is in"
 msgstr "System jest w"

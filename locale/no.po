@@ -16,6 +16,133 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "Please wait..."
+msgstr "Vennligst vent..."
+
+msgid "Checking the integrity of the download and storage device..."
+msgstr "Sjekker integriteten til nedlastingen og lagringsenheten..."
+
+msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Ønsker du å fortsette med installasjonen av denne gamle versjonen uansett?</b>\n"
+"    :LBL"
+
+msgid ""
+"BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
+"We recommend downloading a more recent version.\n"
+"    "
+msgstr ""
+"BigLinux er et system med ukentlige oppdateringer, og denne versjonen ble utgitt for mer enn en "
+"måned siden.\\n"
+"Vi anbefaler å laste ned en nyere versjon."
+
+msgid "Continue"
+msgstr "Fortsett"
+
+msgid "Close"
+msgstr "Lukk"
+
+msgid "Outdated Version"
+msgstr "Utdatert versjon"
+
+msgid "Do you want to proceed with the installation in EFI mode?"
+msgstr "Ønsker du å fortsette med installasjonen i EFI-modus?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
+"partition on this computer.\n"
+"\n"
+"If this computer already has another system installed and you intend \n"
+"to keep it installed, you will probably need to change the \n"
+"configuration in the BIOS to boot in Legacy mode, also \n"
+"called BIOS mode."
+msgstr ""
+"Den nåværende oppstarten bruker <span color='#CC2222'>EFI</span>-modus, men jeg fant ingen "
+"EFI-partisjon på denne datamaskinen.\n"
+"\n"
+"Hvis denne datamaskinen allerede har et annet system installert og du har til hensikt å beholde det "
+"installert, må du sannsynligvis endre konfigurasjonen i BIOS for å starte i Legacy-modus, også kalt "
+"BIOS-modus."
+
+msgid "Install the system"
+msgstr "Installer systemet"
+
+msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
+msgstr "Ønsker du å fortsette med installasjonen i Legacy/BIOS-modus?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
+"EFI partition on this computer. \n"
+"\n"
+"For the installation to be successful, you will probably need to \n"
+"change the configuration in the BIOS to boot in EFI or UEFI mode."
+msgstr ""
+"Den gjeldende oppstarten bruker <span color='#CC2222'>Legacy/BIOS</span>-modus, men jeg fant minst "
+"en EFI-partisjon på denne datamaskinen.\n"
+"\n"
+"For at installasjonen skal lykkes, må du sannsynligvis endre konfigurasjonen i BIOS for å starte i "
+"EFI- eller UEFI-modus."
+
+msgid "Sending, please wait..."
+msgstr "Sender, vennligst vent..."
+
+msgid "Open"
+msgstr "Åpne"
+
+msgid "Send to the cloud"
+msgstr "Send til skyen"
+
+msgid "calamares LOG"
+msgstr "calamares LOG"
+
+msgid ""
+"\\n"
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups.\\n"
+msgstr ""
+"\\n"
+"Ønsker du å vise eller sende installasjonsloggen til skyen?\\n"
+"Generer en lenke for å sende til støttegrupper.\\n"
+
+msgid "Closing file..."
+msgstr "Lukker fil..."
+
+msgid "Checking the file:"
+msgstr "Sjekker filen:"
+
+msgid "Checking for download or USB drive errors, this may take a few minutes..."
+msgstr "Sjekker for nedlastings- eller USB-stasjonsfeil, dette kan ta noen minutter..."
+
+msgid "Checking system integrity"
+msgstr "Sjekker systemintegritet"
+
+msgid "Error found, please download the system again or use another USB drive."
+msgstr "Feil funnet, vennligst last ned systemet på nytt eller bruk en annen USB-stasjon."
+
+msgid "The files are intact."
+msgstr "Filene er intakte."
+
+msgid "Verification canceled."
+msgstr "Verifisering avbrutt."
+
+msgid "Wait..."
+msgstr "Vent..."
+
+msgid "Checking internet connection..."
+msgstr "Sjekker internettforbindelsen..."
+
+msgid "Internet"
+msgstr "Internett"
+
+msgid ""
+"Without internet connection...\\n"
+"Extra packages installation disabled."
+msgstr ""
+"Uten internettforbindelse...\\n"
+"Ekstra pakkeinstallasjon deaktivert."
+
 msgid "Important tips for manual partitioning"
 msgstr "Viktige tips for manuell partisjonering"
 
@@ -42,9 +169,6 @@ msgstr "Vi har implementert dynamisk virtuell minnehåndtering med Zram og SWAP-
 
 msgid "SWAP partitions will not be used."
 msgstr "SWAP-partisjoner vil ikke bli brukt."
-
-msgid "Continue"
-msgstr "Fortsett"
 
 msgid "The system is in"
 msgstr "Systemet er på"

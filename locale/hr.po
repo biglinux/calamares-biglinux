@@ -16,6 +16,134 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "Please wait..."
+msgstr "Molimo pričekajte..."
+
+msgid "Checking the integrity of the download and storage device..."
+msgstr "Provjeravanje integriteta preuzimanja i uređaja za pohranu..."
+
+msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Želite li ipak nastaviti s instalacijom ove stare verzije?</b>\n"
+"    :LBL"
+
+msgid ""
+"BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
+"We recommend downloading a more recent version.\n"
+"    "
+msgstr ""
+"BigLinux je sustav s tjednim ažuriranjima, a ova verzija je objavljena prije više od mjesec dana.\\n"
+"Preporučujemo preuzimanje novije verzije."
+
+msgid "Continue"
+msgstr "Nastavi"
+
+msgid "Close"
+msgstr "Zatvori"
+
+msgid "Outdated Version"
+msgstr "Zastarjela verzija"
+
+msgid "Do you want to proceed with the installation in EFI mode?"
+msgstr "Želite li nastaviti s instalacijom u EFI načinu rada?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
+"partition on this computer.\n"
+"\n"
+"If this computer already has another system installed and you intend \n"
+"to keep it installed, you will probably need to change the \n"
+"configuration in the BIOS to boot in Legacy mode, also \n"
+"called BIOS mode."
+msgstr ""
+"Trenutačno pokretanje koristi <span color='#CC2222'>EFI</span> način rada, ali nisam pronašao "
+"nijednu EFI particiju na ovom računalu.\n"
+"\n"
+"Ako je na ovom računalu već instaliran drugi sustav i namjeravate ga zadržati instaliranim, "
+"vjerojatno ćete trebati promijeniti konfiguraciju u BIOS-u kako biste pokrenuli u Legacy načinu "
+"rada, također nazvanom BIOS način rada."
+
+msgid "Install the system"
+msgstr "Instalirajte sustav"
+
+msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
+msgstr "Želite li nastaviti s instalacijom u Legacy/BIOS načinu rada?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
+"EFI partition on this computer. \n"
+"\n"
+"For the installation to be successful, you will probably need to \n"
+"change the configuration in the BIOS to boot in EFI or UEFI mode."
+msgstr ""
+"Trenutno pokretanje koristi način <span color='#CC2222'>Legacy/BIOS</span>, ali pronašao sam barem "
+"jednu EFI particiju na ovom računalu.\n"
+"\n"
+"Za uspješnu instalaciju vjerojatno će biti potrebno promijeniti konfiguraciju u BIOS-u kako bi se "
+"pokrenulo u EFI ili UEFI načinu rada."
+
+msgid "Sending, please wait..."
+msgstr "Slanje, pričekajte..."
+
+msgid "Open"
+msgstr "Otvori"
+
+msgid "Send to the cloud"
+msgstr "Pošalji u oblak"
+
+msgid "calamares LOG"
+msgstr "calamares ZAPISNIK"
+
+msgid ""
+"\\n"
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups.\\n"
+msgstr ""
+"\\n"
+"Želite li pregledati ili poslati datoteku dnevnika instalacije u oblak?\\n"
+"Generirajte poveznicu za slanje u grupama za podršku.\\n"
+
+msgid "Closing file..."
+msgstr "Zatvaranje datoteke..."
+
+msgid "Checking the file:"
+msgstr "Provjeravanje datoteke:"
+
+msgid "Checking for download or USB drive errors, this may take a few minutes..."
+msgstr ""
+"Provjeravanje grešaka prilikom preuzimanja ili na USB uređaju, postupak može potrajati nekoliko "
+"minuta..."
+
+msgid "Checking system integrity"
+msgstr "Provjera integriteta sustava"
+
+msgid "Error found, please download the system again or use another USB drive."
+msgstr "Pronađena je pogreška, molimo preuzmite sustav ponovno ili koristite drugi USB pogon."
+
+msgid "The files are intact."
+msgstr "Datoteke su netaknute."
+
+msgid "Verification canceled."
+msgstr "Verifikacija otkazana."
+
+msgid "Wait..."
+msgstr "Pričekajte..."
+
+msgid "Checking internet connection..."
+msgstr "Provjeravanje internetske veze..."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid ""
+"Without internet connection...\\n"
+"Extra packages installation disabled."
+msgstr ""
+"Bez internetske veze...\\n"
+"Instalacija dodatnih paketa onemogućena."
+
 msgid "Important tips for manual partitioning"
 msgstr "Važni savjeti za ručno particioniranje"
 
@@ -42,9 +170,6 @@ msgstr "Implementirali smo dinamičko upravljanje virtualnom memorijom pomoću Z
 
 msgid "SWAP partitions will not be used."
 msgstr "SWAP particije neće biti korištene."
-
-msgid "Continue"
-msgstr "Nastavi"
 
 msgid "The system is in"
 msgstr "Sustav je u"

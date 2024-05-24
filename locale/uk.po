@@ -16,6 +16,132 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "Please wait..."
+msgstr "Будь ласка, зачекайте..."
+
+msgid "Checking the integrity of the download and storage device..."
+msgstr "Перевірка цілісності завантаження та пристрою зберігання..."
+
+msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Ви хочете продовжити встановлення цієї старої версії все одно?</b>\n"
+"    :LBL"
+
+msgid ""
+"BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
+"We recommend downloading a more recent version.\n"
+"    "
+msgstr ""
+"BigLinux - це система з щотижневими оновленнями, а ця версія була випущена більше місяця тому.\\n"
+"Ми рекомендуємо завантажити більш нову версію."
+
+msgid "Continue"
+msgstr "Продовжити"
+
+msgid "Close"
+msgstr "Закрити"
+
+msgid "Outdated Version"
+msgstr "Застаріла версія"
+
+msgid "Do you want to proceed with the installation in EFI mode?"
+msgstr "Чи бажаєте ви продовжити у режимі EFI під час встановлення?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
+"partition on this computer.\n"
+"\n"
+"If this computer already has another system installed and you intend \n"
+"to keep it installed, you will probably need to change the \n"
+"configuration in the BIOS to boot in Legacy mode, also \n"
+"called BIOS mode."
+msgstr ""
+"Поточний завантаження використовує режим <span color='#CC2222'>EFI</span>, але я не знайшов жодного "
+"розділу EFI на цьому комп'ютері.\n"
+"\n"
+"Якщо на цьому комп'ютері вже встановлена інша система, і ви плануєте її залишити, вам, ймовірно, "
+"потрібно змінити конфігурацію в BIOS для завантаження в режимі спадщини, також відомому як режим "
+"BIOS."
+
+msgid "Install the system"
+msgstr "Встановити систему"
+
+msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
+msgstr "Чи бажаєте ви продовжити установку у режимі спадковості/BIOS?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
+"EFI partition on this computer. \n"
+"\n"
+"For the installation to be successful, you will probably need to \n"
+"change the configuration in the BIOS to boot in EFI or UEFI mode."
+msgstr ""
+"Поточний завантаження використовує режим <span color='#CC2222'>Legacy/BIOS</span>, але я виявив "
+"принаймні один розділ EFI на цьому комп'ютері.\n"
+"\n"
+"Для успішного встановлення, ймовірно, вам потрібно змінити конфігурацію в BIOS, щоб завантажувати в "
+"режимі EFI або UEFI."
+
+msgid "Sending, please wait..."
+msgstr "Відправка, зачекайте..."
+
+msgid "Open"
+msgstr "Відкрити"
+
+msgid "Send to the cloud"
+msgstr "Надіслати в хмару"
+
+msgid "calamares LOG"
+msgstr "calamares ЖУРНАЛ"
+
+msgid ""
+"\\n"
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups.\\n"
+msgstr ""
+"\\n"
+"Чи бажаєте ви переглянути або надіслати файл журналу встановлення в хмару?\\n"
+"Створити посилання для надсилання у групи підтримки.\\n"
+
+msgid "Closing file..."
+msgstr "Закриття файлу..."
+
+msgid "Checking the file:"
+msgstr "Перевірка файлу:"
+
+msgid "Checking for download or USB drive errors, this may take a few minutes..."
+msgstr "Перевірка помилок завантаження або USB-накопичувача, це може зайняти кілька хвилин..."
+
+msgid "Checking system integrity"
+msgstr "Перевірка цілісності системи"
+
+msgid "Error found, please download the system again or use another USB drive."
+msgstr "Помилка знайдена, будь ласка, завантажте систему знову або скористайтеся іншим USB-накопичувачем."
+
+msgid "The files are intact."
+msgstr "Файли цілі."
+
+msgid "Verification canceled."
+msgstr "Перевірка скасована."
+
+msgid "Wait..."
+msgstr "Зачекайте..."
+
+msgid "Checking internet connection..."
+msgstr "Перевірка підключення до Інтернету..."
+
+msgid "Internet"
+msgstr "Інтернет"
+
+msgid ""
+"Without internet connection...\\n"
+"Extra packages installation disabled."
+msgstr ""
+"Без підключення до Інтернету...\\n"
+"Встановлення додаткових пакетів вимкнено."
+
 msgid "Important tips for manual partitioning"
 msgstr "Важливі поради щодо ручного розділення"
 
@@ -42,9 +168,6 @@ msgstr "Ми реалізували динамічне управління ві
 
 msgid "SWAP partitions will not be used."
 msgstr "SWAP розділи не будуть використовуватися."
-
-msgid "Continue"
-msgstr "Продовжити"
 
 msgid "The system is in"
 msgstr "Система увімкнена"

@@ -16,6 +16,131 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "Please wait..."
+msgstr "Por favor, aguarde..."
+
+msgid "Checking the integrity of the download and storage device..."
+msgstr "Verificando a integridade do download e do dispositivo de armazenamento..."
+
+msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Deseja prosseguir com a instalação desta versão antiga mesmo assim?</b>\n"
+"    :LBL"
+
+msgid ""
+"BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
+"We recommend downloading a more recent version.\n"
+"    "
+msgstr ""
+"BigLinux é um sistema com atualizações semanais e esta versão foi lançada há mais de um mês.\\n"
+"Recomendamos baixar uma versão mais recente."
+
+msgid "Continue"
+msgstr "Continuar"
+
+msgid "Close"
+msgstr "Fechar"
+
+msgid "Outdated Version"
+msgstr "Versão desatualizada"
+
+msgid "Do you want to proceed with the installation in EFI mode?"
+msgstr "Deseja prosseguir com a instalação no modo EFI?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
+"partition on this computer.\n"
+"\n"
+"If this computer already has another system installed and you intend \n"
+"to keep it installed, you will probably need to change the \n"
+"configuration in the BIOS to boot in Legacy mode, also \n"
+"called BIOS mode."
+msgstr ""
+"O boot atual está usando o modo <span color='#CC2222'>EFI</span>, mas não encontrei nenhuma "
+"partição EFI neste computador.\n"
+"\n"
+"Se este computador já tiver outro sistema instalado e você pretende mantê-lo instalado, "
+"provavelmente precisará alterar a configuração na BIOS para inicializar no modo Legacy, também "
+"chamado de modo BIOS."
+
+msgid "Install the system"
+msgstr "Instalar o sistema"
+
+msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
+msgstr "Deseja prosseguir com a instalação no modo Legacy/BIOS?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
+"EFI partition on this computer. \n"
+"\n"
+"For the installation to be successful, you will probably need to \n"
+"change the configuration in the BIOS to boot in EFI or UEFI mode."
+msgstr ""
+"O boot atual está usando o modo <span color='#CC2222'>Legacy/BIOS</span>, mas encontrei pelo menos "
+"uma partição EFI neste computador.\n"
+"\n"
+"Para que a instalação seja bem-sucedida, provavelmente será necessário \n"
+"alterar a configuração na BIOS para inicializar no modo EFI ou UEFI."
+
+msgid "Sending, please wait..."
+msgstr "Enviando, por favor aguarde..."
+
+msgid "Open"
+msgstr "Abrir"
+
+msgid "Send to the cloud"
+msgstr "Enviar para a nuvem"
+
+msgid "calamares LOG"
+msgstr "Registo do Calamares"
+
+msgid ""
+"\\n"
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups.\\n"
+msgstr ""
+"Deseja visualizar ou enviar o arquivo de log de instalação para a nuvem?\\n"
+"Gerar um link para enviar em grupos de suporte.\\n"
+
+msgid "Closing file..."
+msgstr "Fechando arquivo..."
+
+msgid "Checking the file:"
+msgstr "Verificando o arquivo:"
+
+msgid "Checking for download or USB drive errors, this may take a few minutes..."
+msgstr "Verificando erros de download ou de unidade USB, isso pode levar alguns minutos..."
+
+msgid "Checking system integrity"
+msgstr "Verificando a integridade do sistema"
+
+msgid "Error found, please download the system again or use another USB drive."
+msgstr "Erro encontrado, por favor faça o download do sistema novamente ou utilize outro pen drive USB."
+
+msgid "The files are intact."
+msgstr "Os arquivos estão intactos."
+
+msgid "Verification canceled."
+msgstr "Verificação cancelada."
+
+msgid "Wait..."
+msgstr "Esperar..."
+
+msgid "Checking internet connection..."
+msgstr "Verificando conexão com a internet..."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid ""
+"Without internet connection...\\n"
+"Extra packages installation disabled."
+msgstr ""
+"Sem conexão com a internet...\\n"
+"Instalação de pacotes extras desativada."
+
 msgid "Important tips for manual partitioning"
 msgstr "Dicas importantes para particionamento manual"
 
@@ -42,9 +167,6 @@ msgstr "Implementamos gerenciamento dinâmico de memória virtual com Zram e arq
 
 msgid "SWAP partitions will not be used."
 msgstr "As partições SWAP não serão usadas."
-
-msgid "Continue"
-msgstr "Continuar"
 
 msgid "The system is in"
 msgstr "O sistema está em"

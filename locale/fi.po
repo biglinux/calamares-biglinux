@@ -16,6 +16,132 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "Please wait..."
+msgstr "Odota hetki..."
+
+msgid "Checking the integrity of the download and storage device..."
+msgstr "Tarkistetaan latauksen ja tallennuslaitteen eheys..."
+
+msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Haluatko silti jatkaa tämän vanhan version asennusta?</b>\n"
+"    :LBL"
+
+msgid ""
+"BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
+"We recommend downloading a more recent version.\n"
+"    "
+msgstr ""
+"BigLinux on järjestelmä, jossa on viikoittaisia päivityksiä, ja tämä versio julkaistiin yli "
+"kuukausi sitten.\\n"
+"Suosittelemme lataamaan uudemman version."
+
+msgid "Continue"
+msgstr "Jatka"
+
+msgid "Close"
+msgstr "Sulje"
+
+msgid "Outdated Version"
+msgstr "Vanhentunut versio"
+
+msgid "Do you want to proceed with the installation in EFI mode?"
+msgstr "Haluatko jatkaa asennusta EFI-tilassa?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
+"partition on this computer.\n"
+"\n"
+"If this computer already has another system installed and you intend \n"
+"to keep it installed, you will probably need to change the \n"
+"configuration in the BIOS to boot in Legacy mode, also \n"
+"called BIOS mode."
+msgstr ""
+"Nykyinen käynnistys käyttää <span color='#CC2222'>EFI</span>-tilaa, mutta en löytänyt tältä "
+"tietokoneelta mitään EFI-osioita.\n"
+"\n"
+"Jos tällä tietokoneella on jo toinen käyttöjärjestelmä asennettuna ja aiot pitää sen asennettuna, "
+"sinun todennäköisesti täytyy muuttaa asetukset BIOSissa käynnistääksesi Legacy-tilassa, jota "
+"kutsutaan myös BIOS-tilaksi."
+
+msgid "Install the system"
+msgstr "Asenna järjestelmä"
+
+msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
+msgstr "Haluatko jatkaa asennusta Legacy/BIOS-tilassa?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
+"EFI partition on this computer. \n"
+"\n"
+"For the installation to be successful, you will probably need to \n"
+"change the configuration in the BIOS to boot in EFI or UEFI mode."
+msgstr ""
+"Nykyinen käynnistys käyttää <span color='#CC2222'>Legacy/BIOS</span> -tilaa, mutta löysin vähintään "
+"yhden EFI-osion tästä tietokoneesta.\n"
+"\n"
+"Asennuksen onnistumiseksi sinun on todennäköisesti muutettava BIOSin asetukset käynnistämään EFI- "
+"tai UEFI-tilassa."
+
+msgid "Sending, please wait..."
+msgstr "Lähetetään, odota..."
+
+msgid "Open"
+msgstr "Avaa"
+
+msgid "Send to the cloud"
+msgstr "Lähetä pilveen"
+
+msgid "calamares LOG"
+msgstr "calamares LOKI"
+
+msgid ""
+"\\n"
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups.\\n"
+msgstr ""
+"Haluatko tarkastella tai lähettää asennuslokitiedoston pilveen?\\n"
+"Luo linkki lähetettäväksi tukiryhmiin.\\n"
+
+msgid "Closing file..."
+msgstr "Suljetaan tiedostoa..."
+
+msgid "Checking the file:"
+msgstr "Tarkistetaan tiedostoa:"
+
+msgid "Checking for download or USB drive errors, this may take a few minutes..."
+msgstr "Tarkistetaan lataus- tai USB-aseman virheitä, tämä saattaa kestää muutaman minuutin..."
+
+msgid "Checking system integrity"
+msgstr "Järjestelmän eheys tarkistetaan"
+
+msgid "Error found, please download the system again or use another USB drive."
+msgstr "Virhe löydetty, lataa järjestelmä uudelleen tai käytä toista USB-asemaa."
+
+msgid "The files are intact."
+msgstr "Tiedostot ovat ehjät."
+
+msgid "Verification canceled."
+msgstr "Vahvistus peruutettu."
+
+msgid "Wait..."
+msgstr "Odota..."
+
+msgid "Checking internet connection..."
+msgstr "Tarkistetaan internet-yhteyttä..."
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid ""
+"Without internet connection...\\n"
+"Extra packages installation disabled."
+msgstr ""
+"Ilman internet-yhteyttä...\\n"
+"Lisäpakettien asennus on poistettu käytöstä."
+
 msgid "Important tips for manual partitioning"
 msgstr "Tärkeitä vinkkejä manuaaliseen osiointiin"
 
@@ -42,9 +168,6 @@ msgstr "Olemme toteuttaneet dynaamisen virtuaalimuistin hallinnan Zramin ja SWAP
 
 msgid "SWAP partitions will not be used."
 msgstr "SWAP-osioita ei käytetä."
-
-msgid "Continue"
-msgstr "Jatka"
 
 msgid "The system is in"
 msgstr "Järjestelmä on käynnissä"

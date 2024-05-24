@@ -16,6 +16,133 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid "Please wait..."
+msgstr "Lütfen bekleyin..."
+
+msgid "Checking the integrity of the download and storage device..."
+msgstr "İndirme ve depolama cihazının bütünlüğünü kontrol ediliyor..."
+
+msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
+"    :LBL"
+msgstr ""
+"<b>Bu eski sürümün yüklenmesine devam etmek istiyor musunuz?</b>\n"
+"    :LBL"
+
+msgid ""
+"BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
+"We recommend downloading a more recent version.\n"
+"    "
+msgstr ""
+"BigLinux haftalık güncellemelerle gelen bir sistemdir ve bu sürüm bir aydan daha uzun bir süre önce "
+"yayınlandı.\\n"
+"Daha yeni bir sürümü indirmenizi öneririz."
+
+msgid "Continue"
+msgstr "Devam et"
+
+msgid "Close"
+msgstr "Kapat"
+
+msgid "Outdated Version"
+msgstr "Eski Sürüm"
+
+msgid "Do you want to proceed with the installation in EFI mode?"
+msgstr "EFI modunda kurulumu devam ettirmek istiyor musunuz?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
+"partition on this computer.\n"
+"\n"
+"If this computer already has another system installed and you intend \n"
+"to keep it installed, you will probably need to change the \n"
+"configuration in the BIOS to boot in Legacy mode, also \n"
+"called BIOS mode."
+msgstr ""
+"Mevcut önyükleme <span color='#CC2222'>EFI</span> modunu kullanıyor, ancak bu bilgisayarda herhangi "
+"bir EFI bölümü bulamadım.\n"
+"\n"
+"Bu bilgisayarda zaten başka bir sistem yüklü ise ve yüklü tutmayı düşünüyorsanız, muhtemelen "
+"BIOS'ta Legacy modunda, ayrıca BIOS modu olarak da adlandırılan bir önyükleme yapılandırması "
+"değiştirmeniz gerekecektir."
+
+msgid "Install the system"
+msgstr "Sistemi yükle"
+
+msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
+msgstr "Kurulumu Legacy/BIOS modunda devam etmek istiyor musunuz?"
+
+msgid ""
+"The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
+"EFI partition on this computer. \n"
+"\n"
+"For the installation to be successful, you will probably need to \n"
+"change the configuration in the BIOS to boot in EFI or UEFI mode."
+msgstr ""
+"Mevcut önyükleme <span color='#CC2222'>Legacy/BIOS</span> modunu kullanıyor, ancak bu bilgisayarda "
+"en az bir EFI bölümü buldum.\n"
+"\n"
+"Kurulumun başarılı olması için muhtemelen BIOS'ta yapılandırmayı değiştirmeniz gerekecek ve EFI "
+"veya UEFI modunda önyükleme yapmanız gerekecek."
+
+msgid "Sending, please wait..."
+msgstr "Gönderiliyor, lütfen bekleyin..."
+
+msgid "Open"
+msgstr "Açık"
+
+msgid "Send to the cloud"
+msgstr "Buluta gönder"
+
+msgid "calamares LOG"
+msgstr "calamares GÜNLÜK KAYDI"
+
+msgid ""
+"\\n"
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups.\\n"
+msgstr ""
+"\\n"
+"Yükleme günlüğü dosyasını görüntülemek veya buluta göndermek ister misiniz?\\n"
+"Destek gruplarına göndermek için bir bağlantı oluşturun.\\n"
+
+msgid "Closing file..."
+msgstr "Dosya kapatılıyor..."
+
+msgid "Checking the file:"
+msgstr "Dosyayı kontrol ediliyor:"
+
+msgid "Checking for download or USB drive errors, this may take a few minutes..."
+msgstr "İndirme veya USB sürücü hataları kontrol ediliyor, bu birkaç dakika sürebilir..."
+
+msgid "Checking system integrity"
+msgstr "Sistem bütünlüğünü kontrol etme"
+
+msgid "Error found, please download the system again or use another USB drive."
+msgstr "Hata bulundu, lütfen sistemi tekrar indirin veya başka bir USB sürücü kullanın."
+
+msgid "The files are intact."
+msgstr "Dosyalar sağlam."
+
+msgid "Verification canceled."
+msgstr "Doğrulama iptal edildi."
+
+msgid "Wait..."
+msgstr "Bekle..."
+
+msgid "Checking internet connection..."
+msgstr "İnternet bağlantısını kontrol ediliyor..."
+
+msgid "Internet"
+msgstr "İnternet"
+
+msgid ""
+"Without internet connection...\\n"
+"Extra packages installation disabled."
+msgstr ""
+"İnternet bağlantısı olmadan...\\n"
+"Ek paket kurulumu devre dışı bırakıldı."
+
 msgid "Important tips for manual partitioning"
 msgstr "El ile bölümlendirme için önemli ipuçları"
 
@@ -42,9 +169,6 @@ msgstr "Zram ve SWAP dosyaları ile dinamik sanal bellek yönetimini uyguladık.
 
 msgid "SWAP partitions will not be used."
 msgstr "SWAP bölümleri kullanılmayacak."
-
-msgid "Continue"
-msgstr "Devam et"
 
 msgid "The system is in"
 msgstr "Sistem açık"
