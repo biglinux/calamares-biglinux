@@ -375,7 +375,7 @@ bigbashview -s 1100x600 -n calamares-biglinux -p calamares-biglinux -c transpare
 # Start calamares
 if [ -e "/tmp/start_calamares" ]; then
     cp -f /usr/share/biglinux/themes/biglinux/.config/kdeglobals /root/.config/kdeglobals
-    /usr/bin/calamares-manjaro -d
+    sudo /usr/bin/calamares-manjaro
 
   #Calamares failed to install
   if [ "$(grep -w completion /root/.cache/calamares/session.log | grep -v bash-completion | rev | cut -d ":" -f1 | rev | sed 's/^[ \t]*//;s/[ \t]*$//')" != "succeeded" ];then
