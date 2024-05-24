@@ -22,7 +22,7 @@ images:
     productIcon:         "/usr/share/icons/hicolor/scalable/apps/icon-big-hd-install.svg"
     productWelcome:      "big-welcome.svg"
 
-slideshow:               "show.qml"
+slideshow:               "mines.qml"
 slideshowAPI:            1
 
 style:
