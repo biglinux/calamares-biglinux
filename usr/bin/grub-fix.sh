@@ -28,10 +28,15 @@ while [ "$(grep -o '[^[:space:]]*quiet[^[:space:]]*' $* | sed 's/\"//' | wc -w)"
 done
 
 #Change default desktop in sddm to use in livecd
-echo "[Last]
-Session=/usr/share/xsessions/plasma-biglinux-x11.desktop" > $(echo "$*" | sed 's|etc/default/grub|var/lib/sddm/state.conf|g')
+if grep -q wayland /proc/cmdline; then
+    echo "[Last]
+    Session=/usr/share/wayland-sessions/plasmawayland.desktop" > $(echo "$*" | sed 's|etc/default/grub|var/lib/sddm/state.conf|g')
+else
+    echo "[Last]
+    Session=/usr/share/xsessions/plasma.desktop" > $(echo "$*" | sed 's|etc/default/grub|var/lib/sddm/state.conf|g')
+fi
 
-sed -i "s|Session=plasma.desktop|Session=plasma-biglinux-x11.desktop|g" $(echo "$*" | sed 's|etc/default/grub|etc/sddm.conf|g')
+# sed -i "s|Session=plasma.desktop|Session=plasma-biglinux-x11.desktop|g" $(echo "$*" | sed 's|etc/default/grub|etc/sddm.conf|g')
 
 # use compress-force=zstd:5 in / and not number in all other
 sed -i -e '/\s\/\s/ s/zstd:9/zstd:5/' -e '/\s\/\s/! s/zstd:9/zstd/' $(echo "$*" | sed 's|etc/default/grub|/etc/fstab|g')
