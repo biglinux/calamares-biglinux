@@ -38,6 +38,25 @@ msgstr ""
 "sedan.\\n"
 "Vi rekommenderar att ladda ner en nyare version."
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Continue"
 msgstr "Fortsätt"
 
@@ -142,80 +161,555 @@ msgstr ""
 "Utan internetanslutning...\n"
 "Installation av extra paket inaktiverad."
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Important tips for manual partitioning"
 msgstr "Viktiga tips för manuell partitionering"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "If you opt for automatic partitioning, these tips will be applied."
 msgstr "Om du väljer automatisk partitionering kommer dessa tips att tillämpas."
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Use BTRFS."
 msgstr "Använd BTRFS."
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "This file system allows for automatic compression and restore points."
 msgstr "Detta filsystem tillåter automatisk komprimering och återställningspunkter."
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Keep /boot within the / partition."
 msgstr "Håll /boot inom / partitionen."
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Placing it in a separate partition hampers BTRFS snapshots."
 msgstr "Att placera den i en separat partition hindrar BTRFS-ögonblicksbilder."
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Do not create a SWAP partition."
 msgstr "Skapa inte en SWAP-partition."
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "We have implemented dynamic virtual memory management with Zram and SWAP files."
 msgstr "Vi har implementerat dynamisk virtuell minneshantering med Zram och SWAP-filer."
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "SWAP partitions will not be used."
 msgstr "SWAP-partitioner kommer inte att användas."
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "The system is in"
 msgstr "Systemet är igång"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid ", Linux"
 msgstr ", Linux"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "and graphical mode"
 msgstr "och grafiskt läge"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "This is a collaborative system, if you need help consult our forum: https://forum.biglinux.com.br."
 msgstr ""
 "Detta är ett samarbets system, om du behöver hjälp, konsultera vårt forum: "
 "https://forum.biglinux.com.br."
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Back"
 msgstr "Tillbaka"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Maintenance"
 msgstr "Underhåll"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Tools that facilitate the maintenance of the installed system."
 msgstr "Verktyg som underlättar underhållet av det installerade systemet."
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Restore"
 msgstr "Återställ"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Installation"
 msgstr "Installation"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "The system is in live mode, which has limitations."
 msgstr "Systemet är i live-läge, vilket har begränsningar."
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Install it for a complete experience."
 msgstr "Installera det för en komplett upplevelse."
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Install"
 msgstr "Installera"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Minimal"
 msgstr "Minimal"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Choose which programs to install, ensuring a highly customized experience."
 msgstr "Välj vilka program att installera, vilket säkerställer en högt anpassad upplevelse."
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Restore system settings"
 msgstr "Återställ systeminställningar"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid ""
 "Utility that facilitates the restoration of the installed system, especially the restoration of the "
 "system boot (Grub)."
@@ -223,25 +717,161 @@ msgstr ""
 "Verktyg som underlättar återställningen av det installerade systemet, särskilt återställningen av "
 "systemstarten (Grub)."
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "It can also be used to access the package manager and terminal of the installed system."
 msgstr ""
 "Det kan också användas för att komma åt pakethanteraren och terminalen för det installerade "
 "systemet."
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Start"
 msgstr "Börja"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Snapshot and backups"
 msgstr "Ögonblicksbild och säkerhetskopior"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Restore restore points of the installed system."
 msgstr "Återställ återställningspunkter för det installerade systemet."
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Uncheck the programs you want to remove"
 msgstr "Avmarkera programmen du vill ta bort"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Uncheck All"
 msgstr "Avmarkera alla"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Check All"
 msgstr "Markera alla"
+
+msgid "Install System"
+msgstr "Installera systemet"
