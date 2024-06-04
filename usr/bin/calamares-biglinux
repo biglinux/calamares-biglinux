@@ -369,7 +369,7 @@ fi
 rm -f /tmp/start_calamares
 
 cd /usr/share/bigbashview/apps/calamares/
-bigbashview -s 1100x600 -n $"Install System" -p calamares-biglinux -c transparent -w frameless index.html
+bigbashview -s 1100x600 -n $"Install System" -p bbv-calamares -c transparent -w frameless index.html
 
 # Start calamares
 if [ -e "/tmp/start_calamares" ]; then

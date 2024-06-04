@@ -191,3 +191,9 @@ Name[tr_TR]=Sistemi Yükle
 Icon[tr_TR]=icon-big-hd-install
 GenericName[tr_TR]=Sistem Yükleyici
 Comment[tr_TR]=Calamares — Sistem Yükleyici
+
+Actions=SoftwareRender;
+
+[Desktop Action SoftwareRender]
+Name=Software Render
+Exec=SoftwareRender /usr/bin/calamares_polkit %f

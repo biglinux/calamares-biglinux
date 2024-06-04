@@ -2,7 +2,7 @@
 Type=Application
 Name=Install System
 Keywords=calamares;system;installer
-Exec=/usr/bin/calamares_polkit %f
+Exec=bbv-calamares
 Icon=icon-big-hd-install
 Terminal=false
 StartupNotify=true
