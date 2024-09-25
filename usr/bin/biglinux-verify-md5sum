@@ -5,7 +5,7 @@ LANGUAGE=$LANG:en
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=calamares-biglinux
 
-cd /run/miso/bootmnt/manjaro/x86_64/
+cd /run/miso/bootmnt/$HOSTNAME/x86_64/
 #cd /home/biglinux/x86_64/
 
 rm -f  /tmp/md5sum_big_fail
