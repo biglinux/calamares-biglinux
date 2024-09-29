@@ -27,23 +27,40 @@ if [ "$option" = "ext4" ]; then
     > /tmp/start_calamares
 fi
 
+
+###### Detecting folder with sfs files
+# Try with manjaro folder
+if [[ -e /run/miso/bootmnt/manjaro/x86_64/ ]]; then
+  sfsFolder=manjaro
+  
+# Try with folder same as HOSTNAME
+elif [[ -e /run/miso/bootmnt/$HOSTNAME/x86_64/ ]]; then
+  sfsFolder="$HOSTNAME"
+  
+# Try folder removing efi and boot folder
+elif [[ -e $(ls -d1 /run/miso/bootmnt/*/ | grep -ve '/efi/' -ve '/boot/') ]]; then
+    sfsFolder="$(ls -d1 /run/miso/bootmnt/*/ | grep -ve '/efi/' -ve '/boot/')"
+fi
+######
+
+
 if [ "$use_custom_desktop" = "yes" ]; then
-echo '---
+echo "---
 unpack:
-    - source: "/run/miso/bootmnt/manjaro/x86_64/rootfs.sfs"
-      sourcefs: "squashfs"
-      destination: ""' > /etc/calamares/modules/unpackfs.conf
+    - source: \"/run/miso/bootmnt/$sfsFolder/x86_64/rootfs.sfs\"
+      sourcefs: \"squashfs\"
+      destination: \"\"" > /etc/calamares/modules/unpackfs.conf
 
 else
 
-echo '---
+echo "---
 unpack:
-    - source: "/run/miso/bootmnt/manjaro/x86_64/rootfs.sfs"
-      sourcefs: "squashfs"
-      destination: ""
-    - source: "/run/miso/bootmnt/manjaro/x86_64/desktopfs.sfs"
-      sourcefs: "squashfs"
-      destination: ""' > /etc/calamares/modules/unpackfs.conf
+    - source: \"/run/miso/bootmnt/$sfsFolder/x86_64/rootfs.sfs\"
+      sourcefs: \"squashfs\"
+      destination: \"\"
+    - source: \"/run/miso/bootmnt/$sfsFolder/x86_64/desktopfs.sfs\"
+      sourcefs: \"squashfs\"
+      destination: \"\"" > /etc/calamares/modules/unpackfs.conf
 fi
 
 if [ -e "/etc/calamares/modules/packages.conf" ];then
