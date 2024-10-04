@@ -106,10 +106,6 @@ sed -i 's|defaultFileSystemType.*"ext4"|defaultFileSystemType:  "btrfs"|g' /usr/
 # Clean initcpio
 #sed -i 's|, "keyboard", "keymap", "consolefont"||g' /usr/lib/calamares/modules/initcpiocfg/main.py
 
-# Change initcpio plymouth to sd version
-sed -i 's|"plymouth"|"kms plymouth"|g' /usr/lib/calamares/modules/initcpiocfg/main.py
-
-
 # not disable pacman-init
 # sed -i '/^disable:/,$d' /usr/share/calamares/modules/services.conf
 
