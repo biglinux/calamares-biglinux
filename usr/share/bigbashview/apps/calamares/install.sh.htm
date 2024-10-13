@@ -190,7 +190,7 @@ echo '        - shellprocess@initialize_pacman
 fi
 
 # Only remove packages
-if [ "$pkg_rm" != "" ]; then
+if [ "$(</tmp/listPkgsRemove)" != "" ]; then
 echo '        - packages' >> /etc/calamares/settings.conf
 fi
 
