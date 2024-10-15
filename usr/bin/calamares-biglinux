@@ -267,6 +267,10 @@ disable-cancel: false
 disable-cancel-during-exec: false
 quit-at-end: false' > /etc/calamares/settings.conf
 
+# Remove mhwd if using drivers free
+if grep -q driver=free /proc/cmdline; then
+  sed -i '/- mhwdcfg/d' /etc/calamares/settings.conf
+fi
 
 touch /etc/calamares/biglinux
 
