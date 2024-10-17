@@ -22,7 +22,7 @@
     bottom: 15;
     border-radius: 9px;
     background: var(--background);
-    opacity: 0.8;
+    opacity: 0.9;
     z-index: -1;
   }
 
@@ -91,6 +91,15 @@
         <?include bash echo ${XDG_SESSION_TYPE^}.?>
       </p>
     </nav>
+
+    <!--  Using x-show from alpinejs to only show EFI Entry Manager if system running in EFI mode  -->
+    <div x-show="<?include bash [ -d /sys/firmware/efi ] && echo 'true' || echo 'false'?>" class="center-align no-padding">
+      <nav class="center-align">
+        <p stonejs>Manage EFI entries on the motherboard (NVRAM):</p>
+        <button :class="buttonClass" @click="_run('sudo  QEFIEntryManager')" stonejs>EFI Entry Manager</button>
+      </nav>
+    </div>
+
     <div class="center-align large-padding">
       <a onclick="_run('xdg-open https://forum.biglinux.com.br')" stonejs>This is a collaborative system, if you need help consult our forum: https://forum.biglinux.com.br.</a>
     </div>
@@ -151,10 +160,6 @@
       </div>
       </div>
     </main>
-
-
-
-
-
+    
 </body>
 </html>
