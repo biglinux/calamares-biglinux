@@ -873,3 +873,9 @@ msgstr "Перевірити всі"
 
 msgid "Install System"
 msgstr "Встановити систему"
+
+msgid "Manage EFI entries on the motherboard (NVRAM):"
+msgstr "Керуйте записами EFI на материнській платі (NVRAM):"
+
+msgid "EFI Entry Manager"
+msgstr "EFI Вхідний Менеджер"

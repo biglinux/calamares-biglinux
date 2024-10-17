@@ -872,3 +872,9 @@ msgstr "Marcar Todos"
 
 msgid "Install System"
 msgstr "Instalar Sistema"
+
+msgid "Manage EFI entries on the motherboard (NVRAM):"
+msgstr "Gerenciar entradas EFI na placa-mãe (NVRAM):"
+
+msgid "EFI Entry Manager"
+msgstr "Gerenciador de Entrada EFI"

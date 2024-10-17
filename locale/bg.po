@@ -872,3 +872,9 @@ msgstr "Провери всички"
 
 msgid "Install System"
 msgstr "Инсталиране на системата"
+
+msgid "Manage EFI entries on the motherboard (NVRAM):"
+msgstr "Управление на EFI записи на дънната платка (NVRAM):"
+
+msgid "EFI Entry Manager"
+msgstr "EFI Мениджър на Записите"

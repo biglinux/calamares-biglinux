@@ -873,3 +873,9 @@ msgstr "Označi sve"
 
 msgid "Install System"
 msgstr "Instaliraj sustav"
+
+msgid "Manage EFI entries on the motherboard (NVRAM):"
+msgstr "Upravljajte EFI unosima na matičnoj ploči (NVRAM):"
+
+msgid "EFI Entry Manager"
+msgstr "EFI Upravitelj Unosa"

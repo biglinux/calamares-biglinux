@@ -875,3 +875,9 @@ msgstr "Επιλογή Όλων"
 
 msgid "Install System"
 msgstr "Εγκατάσταση Συστήματος"
+
+msgid "Manage EFI entries on the motherboard (NVRAM):"
+msgstr "Διαχείριση εγγραφών EFI στη μητρική πλακέτα (NVRAM):"
+
+msgid "EFI Entry Manager"
+msgstr "Διαχειριστής Εισόδου EFI"

@@ -876,3 +876,9 @@ msgstr "Merk alt"
 
 msgid "Install System"
 msgstr "Installer systemet"
+
+msgid "Manage EFI entries on the motherboard (NVRAM):"
+msgstr "Administrer EFI-poster på hovedkortet (NVRAM):"
+
+msgid "EFI Entry Manager"
+msgstr "EFI Inngangsbehandler"

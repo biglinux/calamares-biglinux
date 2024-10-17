@@ -875,3 +875,9 @@ msgstr "Markera alla"
 
 msgid "Install System"
 msgstr "Installera systemet"
+
+msgid "Manage EFI entries on the motherboard (NVRAM):"
+msgstr "Hantera EFI-poster på moderkortet (NVRAM):"
+
+msgid "EFI Entry Manager"
+msgstr "EFI Inmatningshanterare"

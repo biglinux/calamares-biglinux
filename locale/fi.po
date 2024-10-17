@@ -871,3 +871,9 @@ msgstr "Valitse kaikki"
 
 msgid "Install System"
 msgstr "Asenna järjestelmä"
+
+msgid "Manage EFI entries on the motherboard (NVRAM):"
+msgstr "Hallitse EFI-tietueita emolevyllä (NVRAM):"
+
+msgid "EFI Entry Manager"
+msgstr "EFI-käynnistysmanageri"
