@@ -873,3 +873,9 @@ msgstr "Periksa Semua"
 
 msgid "Install System"
 msgstr "Pasang Sistem"
+
+msgid "Manage EFI entries on the motherboard (NVRAM):"
+msgstr "Stjórna EFI færslum á móðurborðinu (NVRAM):"
+
+msgid "EFI Entry Manager"
+msgstr "EFI Inngangsstjóri"

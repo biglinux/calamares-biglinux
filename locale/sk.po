@@ -870,3 +870,9 @@ msgstr "Skontrolovať všetko"
 
 msgid "Install System"
 msgstr "Inštalovať systém"
+
+msgid "Manage EFI entries on the motherboard (NVRAM):"
+msgstr "Spravujte EFI položky na základnej doske (NVRAM):"
+
+msgid "EFI Entry Manager"
+msgstr "Správca vstupu EFI"

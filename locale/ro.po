@@ -873,3 +873,9 @@ msgstr "Bifați Toate"
 
 msgid "Install System"
 msgstr "Instalare sistem"
+
+msgid "Manage EFI entries on the motherboard (NVRAM):"
+msgstr "Gestionați intrările EFI de pe placa de bază (NVRAM):"
+
+msgid "EFI Entry Manager"
+msgstr "Manager de Intrare EFI"

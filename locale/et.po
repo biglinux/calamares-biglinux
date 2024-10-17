@@ -871,3 +871,9 @@ msgstr "Kontrolli kõik"
 
 msgid "Install System"
 msgstr "Süsteemi installimine"
+
+msgid "Manage EFI entries on the motherboard (NVRAM):"
+msgstr "Haldage EFI kirjeid emaplaadil (NVRAM):"
+
+msgid "EFI Entry Manager"
+msgstr "EFI sisenemise haldur"

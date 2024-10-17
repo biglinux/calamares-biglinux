@@ -869,3 +869,9 @@ msgstr "Összes ellenőrzése"
 
 msgid "Install System"
 msgstr "Rendszer telepítése"
+
+msgid "Manage EFI entries on the motherboard (NVRAM):"
+msgstr "Kezeled az EFI bejegyzéseket az alaplapon (NVRAM):"
+
+msgid "EFI Entry Manager"
+msgstr "EFI Bejegyzéskezelő"

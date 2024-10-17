@@ -875,3 +875,9 @@ msgstr "Alles controleren"
 
 msgid "Install System"
 msgstr "Systeem installeren"
+
+msgid "Manage EFI entries on the motherboard (NVRAM):"
+msgstr "Beheer EFI-invoeren op het moederbord (NVRAM):"
+
+msgid "EFI Entry Manager"
+msgstr "EFI-invoergestuurder"

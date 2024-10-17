@@ -866,3 +866,9 @@ msgstr "בדוק הכל"
 
 msgid "Install System"
 msgstr "התקן מערכת"
+
+msgid "Manage EFI entries on the motherboard (NVRAM):"
+msgstr "נהל רשומות EFI בלוח האם (NVRAM):"
+
+msgid "EFI Entry Manager"
+msgstr "מנהל כניסת EFI"

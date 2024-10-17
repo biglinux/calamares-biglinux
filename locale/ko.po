@@ -863,3 +863,9 @@ msgstr "모두 확인"
 
 msgid "Install System"
 msgstr "시스템 설치"
+
+msgid "Manage EFI entries on the motherboard (NVRAM):"
+msgstr "마더보드에서 EFI 항목 관리 (NVRAM):"
+
+msgid "EFI Entry Manager"
+msgstr "EFI 항목 관리자"

@@ -863,3 +863,9 @@ msgstr "すべてをチェック"
 
 msgid "Install System"
 msgstr "システムをインストール"
+
+msgid "Manage EFI entries on the motherboard (NVRAM):"
+msgstr "マザーボード上のEFIエントリを管理する（NVRAM）："
+
+msgid "EFI Entry Manager"
+msgstr "EFIエントリーマネージャー"

@@ -874,3 +874,9 @@ msgstr "Tümünü Kontrol Et"
 
 msgid "Install System"
 msgstr "Sistem Kurulumu"
+
+msgid "Manage EFI entries on the motherboard (NVRAM):"
+msgstr "Anakarttaki EFI girişlerini yönet (NVRAM):"
+
+msgid "EFI Entry Manager"
+msgstr "EFI Giriş Yöneticisi"
