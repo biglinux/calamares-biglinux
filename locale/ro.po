@@ -874,8 +874,32 @@ msgstr "Bifați Toate"
 msgid "Install System"
 msgstr "Instalare sistem"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Manage EFI entries on the motherboard (NVRAM):"
 msgstr "Gestionați intrările EFI de pe placa de bază (NVRAM):"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "EFI Entry Manager"
 msgstr "Manager de Intrare EFI"
+
+msgid "Open the EFI manager"
+msgstr "Deschide managerul EFI"
+
+msgid ""
+"\\n"
+"It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
+"\\n"
+"Check the EFI manager for any entries that can be deleted and try installing the system again.\\n"
+msgstr ""
+"\\n"
+"Nu a fost posibil să se scrie intrarea EFI pe placa de bază, probabil din cauza lipsei de spațiu.\\n"
+"\\n"
+"Verifică managerul EFI pentru orice intrări care pot fi șterse și încearcă să instalezi sistemul "
+"din nou.\\n"
+
+msgid "Don't open QEFIEntryManager..."
+msgstr "Nu deschide QEFIEntryManager..."

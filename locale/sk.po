@@ -871,8 +871,32 @@ msgstr "Skontrolovať všetko"
 msgid "Install System"
 msgstr "Inštalovať systém"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Manage EFI entries on the motherboard (NVRAM):"
 msgstr "Spravujte EFI položky na základnej doske (NVRAM):"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "EFI Entry Manager"
 msgstr "Správca vstupu EFI"
+
+msgid "Open the EFI manager"
+msgstr "Otvorenie správcu EFI"
+
+msgid ""
+"\\n"
+"It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
+"\\n"
+"Check the EFI manager for any entries that can be deleted and try installing the system again.\\n"
+msgstr ""
+"\\n"
+"Nebolo možné zapísať EFI záznam do základnej dosky, pravdepodobne kvôli nedostatočnému priestoru.\\n"
+"\\n"
+"Skontrolujte správcu EFI na akékoľvek záznamy, ktoré je možné odstrániť, a skúste systém "
+"nainštalovať znova.\\n"
+
+msgid "Don't open QEFIEntryManager..."
+msgstr "Nehrajte QEFIEntryManager..."

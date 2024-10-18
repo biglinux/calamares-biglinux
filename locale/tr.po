@@ -875,8 +875,32 @@ msgstr "Tümünü Kontrol Et"
 msgid "Install System"
 msgstr "Sistem Kurulumu"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Manage EFI entries on the motherboard (NVRAM):"
 msgstr "Anakarttaki EFI girişlerini yönet (NVRAM):"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "EFI Entry Manager"
 msgstr "EFI Giriş Yöneticisi"
+
+msgid "Open the EFI manager"
+msgstr "EFI yöneticisini açın"
+
+msgid ""
+"\\n"
+"It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
+"\\n"
+"Check the EFI manager for any entries that can be deleted and try installing the system again.\\n"
+msgstr ""
+"\\n"
+"Anakartın EFI girişini yazmak mümkün olmadı, muhtemelen yetersiz alan nedeniyle.\\n"
+"\\n"
+"Silinebilecek herhangi bir giriş için EFI yöneticisini kontrol edin ve sistemi tekrar kurmayı "
+"deneyin.\\n"
+
+msgid "Don't open QEFIEntryManager..."
+msgstr "QEFIEntryManager'ı açmayın..."

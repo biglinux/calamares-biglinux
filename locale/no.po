@@ -877,8 +877,32 @@ msgstr "Merk alt"
 msgid "Install System"
 msgstr "Installer systemet"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Manage EFI entries on the motherboard (NVRAM):"
 msgstr "Administrer EFI-poster på hovedkortet (NVRAM):"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "EFI Entry Manager"
 msgstr "EFI Inngangsbehandler"
+
+msgid "Open the EFI manager"
+msgstr "Åpne EFI-behandleren"
+
+msgid ""
+"\\n"
+"It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
+"\\n"
+"Check the EFI manager for any entries that can be deleted and try installing the system again.\\n"
+msgstr ""
+"Det var ikke mulig å skrive EFI-inngangen til hovedkortet, sannsynligvis på grunn av utilstrekkelig "
+"plass. \n"
+"\n"
+"Sjekk EFI-behandleren for eventuelle oppføringer som kan slettes, og prøv å installere systemet på "
+"nytt."
+
+msgid "Don't open QEFIEntryManager..."
+msgstr "Ikke åpne QEFIEntryManager..."

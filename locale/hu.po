@@ -870,8 +870,32 @@ msgstr "Összes ellenőrzése"
 msgid "Install System"
 msgstr "Rendszer telepítése"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Manage EFI entries on the motherboard (NVRAM):"
 msgstr "Kezeled az EFI bejegyzéseket az alaplapon (NVRAM):"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "EFI Entry Manager"
 msgstr "EFI Bejegyzéskezelő"
+
+msgid "Open the EFI manager"
+msgstr "Nyissa meg az EFI menedzsert"
+
+msgid ""
+"\\n"
+"It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
+"\\n"
+"Check the EFI manager for any entries that can be deleted and try installing the system again.\\n"
+msgstr ""
+"\\n"
+"Nem volt lehetséges az EFI bejegyzést a alaplapra írni, valószínűleg a helyhiány miatt.\\n"
+"\\n"
+"Ellenőrizze az EFI kezelőt, hogy vannak-e törölhető bejegyzések, és próbálja meg újra telepíteni a "
+"rendszert.\\n"
+
+msgid "Don't open QEFIEntryManager..."
+msgstr "Ne nyisd meg a QEFIEntryManager-t..."

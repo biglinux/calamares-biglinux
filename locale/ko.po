@@ -864,8 +864,31 @@ msgstr "모두 확인"
 msgid "Install System"
 msgstr "시스템 설치"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Manage EFI entries on the motherboard (NVRAM):"
 msgstr "마더보드에서 EFI 항목 관리 (NVRAM):"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "EFI Entry Manager"
 msgstr "EFI 항목 관리자"
+
+msgid "Open the EFI manager"
+msgstr "EFI 관리자 열기"
+
+msgid ""
+"\\n"
+"It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
+"\\n"
+"Check the EFI manager for any entries that can be deleted and try installing the system again.\\n"
+msgstr ""
+"\\n"
+"마더보드에 EFI 항목을 기록할 수 없었습니다. 아마도 공간이 부족하기 때문입니다.\\n"
+"\\n"
+"삭제할 수 있는 항목이 있는지 EFI 관리자에서 확인하고 시스템 설치를 다시 시도하십시오.\\n"
+
+msgid "Don't open QEFIEntryManager..."
+msgstr "QEFIEntryManager를 열지 마세요..."

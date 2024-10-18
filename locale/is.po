@@ -874,8 +874,31 @@ msgstr "Periksa Semua"
 msgid "Install System"
 msgstr "Pasang Sistem"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Manage EFI entries on the motherboard (NVRAM):"
 msgstr "Stjórna EFI færslum á móðurborðinu (NVRAM):"
 
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "EFI Entry Manager"
 msgstr "EFI Inngangsstjóri"
+
+msgid "Open the EFI manager"
+msgstr "Opnaðu EFI stjórnandann"
+
+msgid ""
+"\\n"
+"It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
+"\\n"
+"Check the EFI manager for any entries that can be deleted and try installing the system again.\\n"
+msgstr ""
+"\\n"
+"Ek var ekki hægt að skrifa EFI skráninguna á móðurborðið, líklega vegna ófullnægjandi pláss.\\n"
+"\\n"
+"Athugaðu EFI stjórnandann fyrir skráningar sem hægt er að eyða og reyndu að setja kerfið upp aftur.\\n"
+
+msgid "Don't open QEFIEntryManager..."
+msgstr "Ekki opna QEFIEntryManager..."
