@@ -393,6 +393,23 @@ if [ -e "/tmp/start_calamares" ]; then
         fi
     }
 
+    # If have error with efibootmgr show yad dialog
+    if grep -q 'grub-install: error: efibootmgr failed to register the boot entry: Input/output error.' /home/$user/calamares.log; then
+
+      yad --buttons-layout=center \
+          --width=480 \
+          --button=$"Open the EFI manager":1 \
+          --button=$"Close":2 \
+          --title=$"calamares LOG" \
+          --text=$"\nIt was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\n\nCheck the EFI manager for any entries that can be deleted and try installing the system again.\n"
+          
+      case $? in
+          1) sudo QEFIEntryManager ;;
+          2) echo $"Don't open QEFIEntryManager..." ;;
+      esac
+    
+    fi
+
     yad --buttons-layout=center \
         --width=480 \
         --button=$"Open":1 \
