@@ -4,6 +4,42 @@
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=calamares-biglinux
 
+# New Function to Detect the Appropriate Text Editor
+get_text_editor() {
+    # Checks Which DE Is in Use and Selects the Appropriate Editor
+    case "$XDG_CURRENT_DESKTOP" in
+        "KDE")
+            if [ -f /usr/bin/kate ]; then
+                echo "kate"
+                return
+            fi
+            ;;
+        "GNOME")
+            if [ -f /usr/bin/gnome-text-editor ]; then
+                echo "gnome-text-editor"
+                return
+            fi
+            ;;
+        "XFCE"|"X-Cinnamon")
+            if [ -f /usr/bin/xed ]; then
+                echo "xed"
+                return
+            fi
+            ;;
+    esac
+
+    # Fallback in Case the Specific DE Editor Is Not Found
+    if [ -f /usr/bin/xed ]; then
+        echo "xed"
+    elif [ -f /usr/bin/kate ]; then
+        echo "kate"
+    elif [ -f /usr/bin/gnome-text-editor ]; then
+        echo "gnome-text-editor"
+    else
+        echo "nano"
+    fi
+}
+
 # md5sum
 if [ "$(ps -e | grep biglinux-verify)" != "" ]; then
     windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
@@ -376,25 +412,49 @@ if [ -e "/tmp/start_calamares" ]; then
     cp -f /usr/share/biglinux/themes/biglinux/.config/kdeglobals /root/.config/kdeglobals
     sudo QT_QUICK_BACKEND=software /usr/bin/calamares-manjaro
 
+  # Calamares finished install - Geral log
+  user=$(ls /home)
+  cp /root/.cache/calamares/session.log /home/$user/calamares_complete.log
+  chown $user:$user /home/$user/calamares_complete.log
+  
   #Calamares failed to install
   if [ "$(grep -w completion /root/.cache/calamares/session.log | grep -v bash-completion | rev | cut -d ":" -f1 | rev | sed 's/^[ \t]*//;s/[ \t]*$//')" != "succeeded" ];then
   # if [ "$(grep completion /root/.cache/calamares/session.log | rev | cut -d ":" -f1 | rev | sed 's/^ \+//')" = "failed" ];then
       user=$(ls /home)
-      cp /root/.cache/calamares/session.log /home/$user/calamares.log
-      chown $user:$user /home/$user/calamares.log
+      cp /root/.cache/calamares/session.log /home/$user/calamares_error.log
+      chown $user:$user /home/$user/calamares_error.log
       
     send () {
-        sudo -u $user curl --data-binary -H "filename: /home/$user/calamares.log" https://filebin.net | tee "/home/$user/transfer.url" | zenity --modal --progress --pulsate --no-cancel --auto-close --text $"Sending, please wait..."
+        # Upload the file to filebin.net
+        sudo -u $user curl --data-binary -H "filename: /home/$user/calamares_error.log" https://filebin.net | tee "/home/$user/transfer.url" | zenity --modal --progress --pulsate --no-cancel --auto-close --text $"Sending, please wait..."
         
-        if [ -f /usr/bin/falkon ]; then
-            sudo -u $user falkon https://filebin.net/$(cat "/home/$user/transfer.url" | grep '"id": "' | cut -f4 -d'"')
+        # Retrieve the file URL
+        fileUrl="https://filebin.net/$(cat "/home/$user/transfer.url" | grep '"id": "' | cut -f4 -d'"')"
+        
+        # Search for installed browsers
+        if [ -f /usr/bin/firefox ]; then
+            sudo -u $user firefox "$fileUrl"
+        elif [ -f /usr/bin/google-chrome ]; then
+            sudo -u $user google-chrome "$fileUrl"
+        elif [ -f /usr/bin/chromium ]; then
+            sudo -u $user chromium "$fileUrl"
+        elif [ -f /usr/bin/falkon ]; then
+            sudo -u $user falkon "$fileUrl"
         elif [ -f /usr/bin/brave ]; then
-            sudo -u $user brave-browser --new-window --no-sandbox https://filebin.net/$(cat "/home/$user/transfer.url" | grep '"id": "' | cut -f4 -d'"')
+            sudo -u $user brave --new-window --no-sandbox "$fileUrl"
+        else
+          # If no browser is found, display the URL to the user
+          yad --info \
+            --title=$"Log Sent" \
+            --text=$"Log successfully sent!\n\nURL: $fileUrl\n\nYou can use this URL to share the log." \
+            --width=400 \
+            --center \
+            --button=gtk-ok:0
         fi
     }
 
     # If have error with efibootmgr show yad dialog
-    if grep -q 'grub-install: error: efibootmgr failed to register the boot entry: Input/output error.' /home/$user/calamares.log; then
+    if grep -q 'grub-install: error: efibootmgr failed to register the boot entry: Input/output error.' /home/$user/calamares_error.log; then
 
       yad --buttons-layout=center \
           --width=480 \
@@ -419,7 +479,7 @@ if [ -e "/tmp/start_calamares" ]; then
         --text=$"\nDo you want to view or send the installation log file to the cloud?\nGenerate a link to send in support groups.\n"
 
     case $? in
-        1) sudo -u $user kate /home/$user/calamares.log ;;
+        1) sudo -u $user $(get_text_editor) /home/$user/calamares_error.log ;;
         2) send ;;
         3) echo $"Closing file..." ;;
     esac
