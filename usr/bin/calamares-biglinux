@@ -244,12 +244,17 @@ passwordRequirements:
     nonempty: true" > /etc/calamares/modules/users.conf
 
 
+# Clean postcfg
 echo '---
-keyrings:
-    - archlinux
-    - manjaro
-    - biglinux' > /etc/calamares/modules/postcfg.conf
-    
+keyrings:' > /etc/calamares/modules/postcfg.conf
+
+# Add all keys except puring and trustdb in postcfg
+cd /usr/share/pacman/keyrings
+for keyfile in $(ls -1 *.gpg | grep -v -e pubring.gpg -e trustdb.gpg); do
+    echo "    - ${keyfile%%.gpg}" >> /etc/calamares/modules/postcfg.conf
+done
+cd -
+
 
 #sed -i 's|initialSwapChoice: none|initialSwapChoice: small|g' /etc/calamares/modules/partition.conf
 
