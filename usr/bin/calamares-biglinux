@@ -4,6 +4,9 @@
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=calamares-biglinux
 
+
+user=$(ls /home)
+
 # Determine the appropriate text editor
 if [ -f /usr/bin/kate ]; then
     text_editor="kate"
@@ -359,11 +362,17 @@ bigbashview -s 1100x600 -n $"Install System" -p bbv-calamares -c transparent -w 
 
 # Start Calamares installation if flagged
 if [ -e "/tmp/start_calamares" ]; then
-    cp -f /usr/share/biglinux/themes/biglinux/.config/kdeglobals /root/.config/kdeglobals
-    sudo QT_QUICK_BACKEND=software /usr/bin/calamares-manjaro
+    if [ -e /usr/share/biglinux/themes/biglinux/.config/kdeglobals ]; then
+        cp -f /usr/share/biglinux/themes/biglinux/.config/kdeglobals /root/.config/kdeglobals
+        cp -Rf /usr/share/biglinux/themes/biglinux/.config/Kvantum /root/.config/Kvantum
+    else
+        cp -f /etc/skel/.config/kdeglobals /root/.config/kdeglobals
+        cp -Rf /etc/skel/.config/Kvantum /root/.config/Kvantum
+    fi
+
+    sudo QT_QPA_PLATFORMTHEME=kde QT_QUICK_BACKEND=software /usr/bin/calamares-manjaro
 
     # Copy the installation log to the user's home directory
-    user=$(ls /home)
     cp /root/.cache/calamares/session.log /home/$user/calamares_complete.log
     chown $user:$user /home/$user/calamares_complete.log
 
