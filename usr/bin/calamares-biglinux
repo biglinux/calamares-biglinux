@@ -370,7 +370,7 @@ if [ -e "/tmp/start_calamares" ]; then
         cp -Rf /etc/skel/.config/Kvantum /root/.config/Kvantum
     fi
 
-    sudo QT_QPA_PLATFORMTHEME=kde QT_QUICK_BACKEND=software /usr/bin/calamares-manjaro
+    sudo QT_QPA_PLATFORMTHEME=kde QT_QUICK_BACKEND=software dbus-launch /usr/bin/calamares-manjaro
 
     # Copy the installation log to the user's home directory
     cp /root/.cache/calamares/session.log /home/$user/calamares_complete.log
