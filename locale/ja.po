@@ -907,3 +907,6 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "このURLを使用してログを共有できます。"
+
+msgid "Restore points of the installed system."
+msgstr "インストールされたシステムの復元ポイント。"

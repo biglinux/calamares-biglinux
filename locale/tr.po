@@ -920,3 +920,6 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Bu URL'yi günlük paylaşmak için kullanabilirsiniz."
+
+msgid "Restore points of the installed system."
+msgstr "Yüklenen sistemin geri yükleme noktaları."

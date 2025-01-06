@@ -918,3 +918,6 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Możesz użyć tego URL, aby udostępnić log."
+
+msgid "Restore points of the installed system."
+msgstr "Punkty przywracania zainstalowanego systemu."

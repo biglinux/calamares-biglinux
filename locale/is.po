@@ -918,3 +918,6 @@ msgstr ""
 "Vefslóð: $fileUrl\\n"
 "\\n"
 "Þú getur notað þessa vefslóð til að deila skýrslunni."
+
+msgid "Restore points of the installed system."
+msgstr "Endurupunktar fyrir uppsetta kerfið."

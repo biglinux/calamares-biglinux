@@ -915,3 +915,6 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Toto URL můžete použít ke sdílení žurnálu."
+
+msgid "Restore points of the installed system."
+msgstr "Obnovení bodů nainstalovaného systému."
