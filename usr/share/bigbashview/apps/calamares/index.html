@@ -11,6 +11,8 @@
     <!-- Includes the window control side shell script -->
     <?include bash /usr/share/bigbashview/framework/shell/windowControlSide.sh 2> /dev/null ?>
 
+    <title>Install the system</title>
+
 <style>
   /* Background semi transparent */
   #page::before {
@@ -77,31 +79,31 @@
   <div class="medium-elevate no-padding large-margin">
   <article class="system-background-color no-padding no-margin">
     <!-- Any component with drag-area class is used to drag and move window -->
-    <nav class="padding center-align no-space drag-area">
-      <p stonejs>The system is in</p>&nbsp;
-      <p class="bold">
+     <div class="center-align large-padding" tabindex="0">
+      <span stonejs>The system is in</span>&nbsp;
+      <span class="bold">
         <?include bash [ -d /sys/firmware/efi ] && echo ' UEFI' || echo ' BIOS (Legacy)'?>
-      </p>
-      <p stonejs>, Linux</p>&nbsp;
-      <p class="bold">
+      </span>
+      <span stonejs>, Linux</span>&nbsp;
+      <span class="bold">
         <?include bash uname -r | cut -f1 -d-?>
-      </p>&nbsp;
-      <p stonejs>and graphical mode</p>&nbsp;
-      <p class="bold">
+      </span>&nbsp;
+      <span stonejs>and graphical mode</span>&nbsp;
+      <span class="bold">
         <?include bash echo ${XDG_SESSION_TYPE^}.?>
-      </p>
     </nav>
+  </div>
 
     <!--  Using x-show from alpinejs to only show EFI Entry Manager if system running in EFI mode  -->
     <div x-show="<?include bash [ -d /sys/firmware/efi ] && echo 'true' || echo 'false'?>" class="center-align no-padding">
       <nav class="center-align">
-        <p stonejs>Manage EFI entries on the motherboard (NVRAM):</p>
+        <p stonejs tabindex="0">Manage EFI entries on the motherboard (NVRAM):</p>
         <button :class="buttonClass" @click="_run('sudo  QEFIEntryManager')" stonejs>EFI Entry Manager</button>
       </nav>
     </div>
 
     <div class="center-align large-padding">
-      <a onclick="_run('xdg-open https://forum.biglinux.com.br')" stonejs>This is a collaborative system, if you need help consult our forum: https://forum.biglinux.com.br.</a>
+      <a onclick="_run('xdg-open https://forum.biglinux.com.br')" tabindex="0" stonejs>This is a collaborative system, if you need help consult our forum: https://forum.biglinux.com.br.</a>
     </div>
   </article>
   </div>
@@ -126,7 +128,7 @@
       <div component="card-model-1" x-data='{
         textIcon: "history",
         title: _("Snapshot and backups"), 
-        description: _("Restore restore points of the installed system."),
+        description: _("Restore points of the installed system."),
         buttonText: _("Start"),
         buttonAction: () => _run("timeshift-launcher")}'>
       </div>
@@ -153,7 +155,7 @@
           </p>
         </nav>
           <button class="tertiary margin" @click="activePage = 'firstPage'">
-            <i>arrow_back</i>
+            <i aria-hidden="true">arrow_back</i>
             <span stonejs>Back</span>
           </button>
       </article>
