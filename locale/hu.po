@@ -915,3 +915,6 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Ezt az URL-t használhatja a napló megosztásához."
+
+msgid "Restore points of the installed system."
+msgstr "A telepített rendszer visszaállítási pontjai."

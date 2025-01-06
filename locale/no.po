@@ -922,3 +922,6 @@ msgstr ""
 "URL: $fileUrl \\n"
 "\\n"
 "Du kan bruke denne URL-en til å dele loggen."
+
+msgid "Restore points of the installed system."
+msgstr "Gjenopprettingspunkter for det installerte systemet."

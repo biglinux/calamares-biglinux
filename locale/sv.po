@@ -922,3 +922,6 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Du kan använda denna URL för att dela loggen."
+
+msgid "Restore points of the installed system."
+msgstr "Återställningspunkter för det installerade systemet."

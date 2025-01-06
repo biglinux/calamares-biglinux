@@ -919,3 +919,6 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Ви можете використовувати це URL для спільного доступу до логу."
+
+msgid "Restore points of the installed system."
+msgstr "Точки відновлення встановленої системи."

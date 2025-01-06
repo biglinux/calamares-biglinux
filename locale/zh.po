@@ -907,3 +907,6 @@ msgstr ""
 "网址：$fileUrl\\n"
 "\\n"
 "您可以使用此网址分享日志。"
+
+msgid "Restore points of the installed system."
+msgstr "已安装系统的还原点。"

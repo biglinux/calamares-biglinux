@@ -917,3 +917,6 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Sa saad kasutada seda URL-i logi jagamiseks."
+
+msgid "Restore points of the installed system."
+msgstr "Installitud süsteemi taastamispunktid."

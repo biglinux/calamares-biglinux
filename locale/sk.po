@@ -916,3 +916,6 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Túto URL môžete použiť na zdieľanie logu."
+
+msgid "Restore points of the installed system."
+msgstr "Obnovovacie body nainštalovaného systému."

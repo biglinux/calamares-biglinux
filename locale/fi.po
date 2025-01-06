@@ -918,3 +918,6 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Voit käyttää tätä URL-osoitetta jakamiseen lokista."
+
+msgid "Restore points of the installed system."
+msgstr "Asennettujen järjestelmän palautuspisteet."

@@ -922,3 +922,6 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Je kunt deze URL gebruiken om de log te delen."
+
+msgid "Restore points of the installed system."
+msgstr "Herstelpunten van het geïnstalleerde systeem."

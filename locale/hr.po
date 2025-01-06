@@ -919,3 +919,6 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Možete koristiti ovu URL adresu za dijeljenje zapisa."
+
+msgid "Restore points of the installed system."
+msgstr "Točke vraćanja instaliranog sustava."

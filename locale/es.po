@@ -919,3 +919,6 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Puedes usar esta URL para compartir el registro."
+
+msgid "Restore points of the installed system."
+msgstr "Puntos de restauración del sistema instalado."
