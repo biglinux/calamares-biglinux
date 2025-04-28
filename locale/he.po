@@ -15,20 +15,16 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-
 msgid "Please wait..."
 msgstr "המתן בבקשה..."
-
 msgid "Checking the integrity of the download and storage device..."
 msgstr "בדיקת תקינות ההורדה והתקן אחסון..."
-
 msgid ""
 "<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
 "    :LBL"
 msgstr ""
 "<b>האם ברצונך להמשיך עם ההתקנה של גרסה ישנה זו בכל זאת?</b>\n"
 "    :LBL"
-
 msgid ""
 "BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
 "We recommend downloading a more recent version.\n"
@@ -36,7 +32,6 @@ msgid ""
 msgstr ""
 "BigLinux היא מערכת עם עדכונים שבועיים וגרסה זו הושקה לפני יותר מחודש.\n"
 "אנו ממליצים להוריד גרסה עדכנית יותר."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -58,16 +53,12 @@ msgstr ""
 # 
 msgid "Continue"
 msgstr "המשך"
-
 msgid "Close"
 msgstr "סגור"
-
 msgid "Outdated Version"
 msgstr "גרסה מיושנת"
-
 msgid "Do you want to proceed with the installation in EFI mode?"
 msgstr "האם ברצונך להמשיך עם ההתקנה במצב EFI?"
-
 msgid ""
 "The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
 "partition on this computer.\n"
@@ -81,13 +72,10 @@ msgstr ""
 "\n"
 "אם במחשב זה כבר מותקן מערכת אחרת ותכוון לשמור על ההתקנה, כנראה תצטרך לשנות את ההגדרות ב-BIOS כדי "
 "להפעיל במצב לגססי, המכונה גם מצב BIOS."
-
 msgid "Install the system"
 msgstr "התקן את המערכת"
-
 msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
 msgstr "האם ברצונך להמשיך עם ההתקנה במצב לגסי/BIOS?"
-
 msgid ""
 "The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
 "EFI partition on this computer. \n"
@@ -100,19 +88,14 @@ msgstr ""
 "\n"
 "כדי שההתקנה תצליח, כנראה תצטרך \n"
 "לשנות את ההגדרות ב-BIOS כך שההפעלה תתבצע במצב EFI או UEFI."
-
 msgid "Sending, please wait..."
 msgstr "שולח, אנא המתן..."
-
 msgid "Open"
 msgstr "פתח"
-
 msgid "Send to the cloud"
 msgstr "שלח לענן"
-
 msgid "calamares LOG"
 msgstr "יומן Calamares"
-
 msgid ""
 "\\n"
 "Do you want to view or send the installation log file to the cloud?\\n"
@@ -120,44 +103,32 @@ msgid ""
 msgstr ""
 "האם ברצונך להציג או לשלוח את קובץ היומן של ההתקנה לענן?\\n"
 "צור קישור לשליחה בקבוצות תמיכה."
-
 msgid "Closing file..."
 msgstr "סגירת קובץ..."
-
 msgid "Checking the file:"
 msgstr "בודק את הקובץ:"
-
 msgid "Checking for download or USB drive errors, this may take a few minutes..."
 msgstr "בודק תקלות בהורדה או בכונן USB, זה עשוי לקחת כמה דקות..."
-
 msgid "Checking system integrity"
 msgstr "בדיקת תקינות המערכת"
-
 msgid "Error found, please download the system again or use another USB drive."
 msgstr "שגיאה נמצאה, אנא הורד את המערכת שוב או השתמש בכונן USB אחר."
-
 msgid "The files are intact."
 msgstr "הקבצים שלמים."
-
 msgid "Verification canceled."
 msgstr "האימות בוטל."
-
 msgid "Wait..."
 msgstr "המתן..."
-
 msgid "Checking internet connection..."
 msgstr "בודק חיבור אינטרנט..."
-
 msgid "Internet"
 msgstr "אינטרנט"
-
 msgid ""
 "Without internet connection...\\n"
 "Extra packages installation disabled."
 msgstr ""
 "בלי חיבור לאינטרנט...\n"
 "התקנת חבילות נוספות מושבתת."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -179,7 +150,6 @@ msgstr ""
 # 
 msgid "Important tips for manual partitioning"
 msgstr "טיפים חשובים למיתוג ידני"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -201,7 +171,6 @@ msgstr "טיפים חשובים למיתוג ידני"
 # 
 msgid "If you opt for automatic partitioning, these tips will be applied."
 msgstr "אם תבחר במיצוב אוטומטי, הטיפים הללו ייושמו."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -223,7 +192,6 @@ msgstr "אם תבחר במיצוב אוטומטי, הטיפים הללו ייו�
 # 
 msgid "Use BTRFS."
 msgstr "השתמש ב-BTRFS."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -245,7 +213,6 @@ msgstr "השתמש ב-BTRFS."
 # 
 msgid "This file system allows for automatic compression and restore points."
 msgstr "מערכת הקבצים הזו מאפשרת דחיסה אוטומטית ונקודות שחזור."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -267,7 +234,6 @@ msgstr "מערכת הקבצים הזו מאפשרת דחיסה אוטומטית 
 # 
 msgid "Keep /boot within the / partition."
 msgstr "שמור את /boot בתוך המחיצה של /"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -289,7 +255,6 @@ msgstr "שמור את /boot בתוך המחיצה של /"
 # 
 msgid "Placing it in a separate partition hampers BTRFS snapshots."
 msgstr "שימוש במחיצה נפרדת מונע צילומי BTRFS."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -311,7 +276,6 @@ msgstr "שימוש במחיצה נפרדת מונע צילומי BTRFS."
 # 
 msgid "Do not create a SWAP partition."
 msgstr "אל תיצור מחיצת SWAP."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -333,7 +297,6 @@ msgstr "אל תיצור מחיצת SWAP."
 # 
 msgid "We have implemented dynamic virtual memory management with Zram and SWAP files."
 msgstr "השתמשנו בניהול זיכרון וירטואלי דינמי עם Zram וקבצי SWAP."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -355,7 +318,6 @@ msgstr "השתמשנו בניהול זיכרון וירטואלי דינמי ע�
 # 
 msgid "SWAP partitions will not be used."
 msgstr "המחלקות SWAP לא יועשה בהן שימוש."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -377,7 +339,6 @@ msgstr "המחלקות SWAP לא יועשה בהן שימוש."
 # 
 msgid "The system is in"
 msgstr "המערכת נמצאת ב"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -399,7 +360,6 @@ msgstr "המערכת נמצאת ב"
 # 
 msgid ", Linux"
 msgstr "לינוקס"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -421,7 +381,6 @@ msgstr "לינוקס"
 # 
 msgid "and graphical mode"
 msgstr "ומצב גרפי"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -443,7 +402,6 @@ msgstr "ומצב גרפי"
 # 
 msgid "This is a collaborative system, if you need help consult our forum: https://forum.biglinux.com.br."
 msgstr "זהו מערכת שיתופי, אם נדרשת עזרה יש להתייעץ בפורום שלנו: https://forum.biglinux.com.br."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -465,7 +423,6 @@ msgstr "זהו מערכת שיתופי, אם נדרשת עזרה יש להתיי
 # 
 msgid "Back"
 msgstr "אחורה"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -487,7 +444,6 @@ msgstr "אחורה"
 # 
 msgid "Maintenance"
 msgstr "תחזוקה"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -509,7 +465,6 @@ msgstr "תחזוקה"
 # 
 msgid "Tools that facilitate the maintenance of the installed system."
 msgstr "כלים שמקלים על תחזוקת המערכת שמותקנת."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -531,7 +486,6 @@ msgstr "כלים שמקלים על תחזוקת המערכת שמותקנת."
 # 
 msgid "Restore"
 msgstr "שחזור"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -553,7 +507,6 @@ msgstr "שחזור"
 # 
 msgid "Installation"
 msgstr "התקנה"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -575,7 +528,6 @@ msgstr "התקנה"
 # 
 msgid "The system is in live mode, which has limitations."
 msgstr "המערכת פועלת במצב חי, שיש לו הגבלות."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -597,7 +549,6 @@ msgstr "המערכת פועלת במצב חי, שיש לו הגבלות."
 # 
 msgid "Install it for a complete experience."
 msgstr "התקן אותו עבור חוויית משתמש מלאה."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -619,7 +570,6 @@ msgstr "התקן אותו עבור חוויית משתמש מלאה."
 # 
 msgid "Install"
 msgstr "התקן"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -641,7 +591,6 @@ msgstr "התקן"
 # 
 msgid "Minimal"
 msgstr "מינימלי"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -663,7 +612,6 @@ msgstr "מינימלי"
 # 
 msgid "Choose which programs to install, ensuring a highly customized experience."
 msgstr "בחר אילו תוכניות להתקין, וודא שהחוויה תהיה מותאמת אישית."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -685,7 +633,6 @@ msgstr "בחר אילו תוכניות להתקין, וודא שהחוויה ת�
 # 
 msgid "Restore system settings"
 msgstr "שחזור הגדרות המערכת"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -709,7 +656,6 @@ msgid ""
 "Utility that facilitates the restoration of the installed system, especially the restoration of the "
 "system boot (Grub)."
 msgstr "תוכנת עזר שמקלה על שחזור המערכת המותקנת, במיוחד שחזור האתחול של המערכת (Grub)."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -731,7 +677,6 @@ msgstr "תוכנת עזר שמקלה על שחזור המערכת המותקנת
 # 
 msgid "It can also be used to access the package manager and terminal of the installed system."
 msgstr "ניתן גם להשתמש בו כדי לגשת למנהל החבילות ולטרמינל של המערכת שהותקנה."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -753,7 +698,6 @@ msgstr "ניתן גם להשתמש בו כדי לגשת למנהל החבילו�
 # 
 msgid "Start"
 msgstr "התחלה"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -775,7 +719,6 @@ msgstr "התחלה"
 # 
 msgid "Snapshot and backups"
 msgstr "צילום מסך וגיבויים"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -797,7 +740,6 @@ msgstr "צילום מסך וגיבויים"
 # 
 msgid "Restore restore points of the installed system."
 msgstr "שחזור נקודות שחזור של המערכת שמותקנת."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -819,7 +761,6 @@ msgstr "שחזור נקודות שחזור של המערכת שמותקנת."
 # 
 msgid "Uncheck the programs you want to remove"
 msgstr "בטל את התוכניות שתרצה להסיר"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -841,7 +782,6 @@ msgstr "בטל את התוכניות שתרצה להסיר"
 # 
 msgid "Uncheck All"
 msgstr "בטל את כל הסימונים"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -863,25 +803,20 @@ msgstr "בטל את כל הסימונים"
 # 
 msgid "Check All"
 msgstr "בדוק הכל"
-
 msgid "Install System"
 msgstr "התקן מערכת"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
 msgid "Manage EFI entries on the motherboard (NVRAM):"
 msgstr "נהל רשומות EFI בלוח האם (NVRAM):"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
 msgid "EFI Entry Manager"
 msgstr "מנהל כניסת EFI"
-
 msgid "Open the EFI manager"
 msgstr "פתח את מנהל EFI"
-
 msgid ""
 "\\n"
 "It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
@@ -891,13 +826,10 @@ msgstr ""
 "לא היה אפשר לכתוב את כניסת ה-EFI ללוח האם, כנראה בגלל חוסר מקום מספיק. \n"
 "\n"
 "בדוק את מנהל ה-EFI עבור כל כניסות שניתן למחוק ונסה להתקין את המערכת שוב."
-
 msgid "Don't open QEFIEntryManager..."
 msgstr "אל תפתח את QEFIEntryManager..."
-
 msgid "Log Sent"
 msgstr "יומן נשלח"
-
 msgid ""
 "Log successfully sent!\\n"
 "\\n"
@@ -910,6 +842,5 @@ msgstr ""
 "כתובת URL: $fileUrl\\n"
 "\\n"
 "אתה יכול להשתמש בכתובת URL זו כדי לשתף את היומן."
-
 msgid "Restore points of the installed system."
 msgstr "נקודות שחזור של המערכת המותקנת."

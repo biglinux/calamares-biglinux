@@ -15,20 +15,16 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-
 msgid "Please wait..."
 msgstr "Molimo pričekajte..."
-
 msgid "Checking the integrity of the download and storage device..."
 msgstr "Provjeravanje integriteta preuzimanja i uređaja za pohranu..."
-
 msgid ""
 "<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
 "    :LBL"
 msgstr ""
 "<b>Želite li ipak nastaviti s instalacijom ove stare verzije?</b>\n"
 "    :LBL"
-
 msgid ""
 "BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
 "We recommend downloading a more recent version.\n"
@@ -36,7 +32,6 @@ msgid ""
 msgstr ""
 "BigLinux je sustav s tjednim ažuriranjima, a ova verzija je objavljena prije više od mjesec dana.\\n"
 "Preporučujemo preuzimanje novije verzije."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -58,16 +53,12 @@ msgstr ""
 # 
 msgid "Continue"
 msgstr "Nastavi"
-
 msgid "Close"
 msgstr "Zatvori"
-
 msgid "Outdated Version"
 msgstr "Zastarjela verzija"
-
 msgid "Do you want to proceed with the installation in EFI mode?"
 msgstr "Želite li nastaviti s instalacijom u EFI načinu rada?"
-
 msgid ""
 "The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
 "partition on this computer.\n"
@@ -83,13 +74,10 @@ msgstr ""
 "Ako je na ovom računalu već instaliran drugi sustav i namjeravate ga zadržati instaliranim, "
 "vjerojatno ćete trebati promijeniti konfiguraciju u BIOS-u kako biste pokrenuli u Legacy načinu "
 "rada, također nazvanom BIOS način rada."
-
 msgid "Install the system"
 msgstr "Instalirajte sustav"
-
 msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
 msgstr "Želite li nastaviti s instalacijom u Legacy/BIOS načinu rada?"
-
 msgid ""
 "The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
 "EFI partition on this computer. \n"
@@ -102,19 +90,14 @@ msgstr ""
 "\n"
 "Za uspješnu instalaciju vjerojatno će biti potrebno promijeniti konfiguraciju u BIOS-u kako bi se "
 "pokrenulo u EFI ili UEFI načinu rada."
-
 msgid "Sending, please wait..."
 msgstr "Slanje, pričekajte..."
-
 msgid "Open"
 msgstr "Otvori"
-
 msgid "Send to the cloud"
 msgstr "Pošalji u oblak"
-
 msgid "calamares LOG"
 msgstr "calamares ZAPISNIK"
-
 msgid ""
 "\\n"
 "Do you want to view or send the installation log file to the cloud?\\n"
@@ -123,46 +106,34 @@ msgstr ""
 "\\n"
 "Želite li pregledati ili poslati datoteku dnevnika instalacije u oblak?\\n"
 "Generirajte poveznicu za slanje u grupama za podršku.\\n"
-
 msgid "Closing file..."
 msgstr "Zatvaranje datoteke..."
-
 msgid "Checking the file:"
 msgstr "Provjeravanje datoteke:"
-
 msgid "Checking for download or USB drive errors, this may take a few minutes..."
 msgstr ""
 "Provjeravanje grešaka prilikom preuzimanja ili na USB uređaju, postupak može potrajati nekoliko "
 "minuta..."
-
 msgid "Checking system integrity"
 msgstr "Provjera integriteta sustava"
-
 msgid "Error found, please download the system again or use another USB drive."
 msgstr "Pronađena je pogreška, molimo preuzmite sustav ponovno ili koristite drugi USB pogon."
-
 msgid "The files are intact."
 msgstr "Datoteke su netaknute."
-
 msgid "Verification canceled."
 msgstr "Verifikacija otkazana."
-
 msgid "Wait..."
 msgstr "Pričekajte..."
-
 msgid "Checking internet connection..."
 msgstr "Provjeravanje internetske veze..."
-
 msgid "Internet"
 msgstr "Internet"
-
 msgid ""
 "Without internet connection...\\n"
 "Extra packages installation disabled."
 msgstr ""
 "Bez internetske veze...\\n"
 "Instalacija dodatnih paketa onemogućena."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -184,7 +155,6 @@ msgstr ""
 # 
 msgid "Important tips for manual partitioning"
 msgstr "Važni savjeti za ručno particioniranje"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -206,7 +176,6 @@ msgstr "Važni savjeti za ručno particioniranje"
 # 
 msgid "If you opt for automatic partitioning, these tips will be applied."
 msgstr "Ako odaberete automatsko particioniranje, primijenit će se ovi savjeti."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -228,7 +197,6 @@ msgstr "Ako odaberete automatsko particioniranje, primijenit će se ovi savjeti.
 # 
 msgid "Use BTRFS."
 msgstr "Koristite BTRFS."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -250,7 +218,6 @@ msgstr "Koristite BTRFS."
 # 
 msgid "This file system allows for automatic compression and restore points."
 msgstr "Ovaj sustav datoteka omogućuje automatsku kompresiju i točke vraćanja."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -272,7 +239,6 @@ msgstr "Ovaj sustav datoteka omogućuje automatsku kompresiju i točke vraćanja
 # 
 msgid "Keep /boot within the / partition."
 msgstr "Zadržite /boot unutar / particije."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -294,7 +260,6 @@ msgstr "Zadržite /boot unutar / particije."
 # 
 msgid "Placing it in a separate partition hampers BTRFS snapshots."
 msgstr "Smještanjem u zasebnu particiju ometa BTRFS snimke."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -316,7 +281,6 @@ msgstr "Smještanjem u zasebnu particiju ometa BTRFS snimke."
 # 
 msgid "Do not create a SWAP partition."
 msgstr "Nemojte stvarati SWAP particiju."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -338,7 +302,6 @@ msgstr "Nemojte stvarati SWAP particiju."
 # 
 msgid "We have implemented dynamic virtual memory management with Zram and SWAP files."
 msgstr "Implementirali smo dinamičko upravljanje virtualnom memorijom pomoću Zram-a i SWAP datoteka."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -360,7 +323,6 @@ msgstr "Implementirali smo dinamičko upravljanje virtualnom memorijom pomoću Z
 # 
 msgid "SWAP partitions will not be used."
 msgstr "SWAP particije neće biti korištene."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -382,7 +344,6 @@ msgstr "SWAP particije neće biti korištene."
 # 
 msgid "The system is in"
 msgstr "Sustav je u"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -404,7 +365,6 @@ msgstr "Sustav je u"
 # 
 msgid ", Linux"
 msgstr ", Linux"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -426,7 +386,6 @@ msgstr ", Linux"
 # 
 msgid "and graphical mode"
 msgstr "i grafički način"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -450,7 +409,6 @@ msgid "This is a collaborative system, if you need help consult our forum: https
 msgstr ""
 "Ovo je suradnički sustav, ako vam treba pomoć, konzultirajte naš forum: "
 "https://forum.biglinux.com.br."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -472,7 +430,6 @@ msgstr ""
 # 
 msgid "Back"
 msgstr "Natrag"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -494,7 +451,6 @@ msgstr "Natrag"
 # 
 msgid "Maintenance"
 msgstr "Održavanje"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -516,7 +472,6 @@ msgstr "Održavanje"
 # 
 msgid "Tools that facilitate the maintenance of the installed system."
 msgstr "Alati koji olakšavaju održavanje instaliranog sustava."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -538,7 +493,6 @@ msgstr "Alati koji olakšavaju održavanje instaliranog sustava."
 # 
 msgid "Restore"
 msgstr "Obnovi"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -560,7 +514,6 @@ msgstr "Obnovi"
 # 
 msgid "Installation"
 msgstr "Instalacija"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -582,7 +535,6 @@ msgstr "Instalacija"
 # 
 msgid "The system is in live mode, which has limitations."
 msgstr "Sustav je u živom načinu rada, koji ima ograničenja."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -604,7 +556,6 @@ msgstr "Sustav je u živom načinu rada, koji ima ograničenja."
 # 
 msgid "Install it for a complete experience."
 msgstr "Instalirajte ga za potpuno iskustvo."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -626,7 +577,6 @@ msgstr "Instalirajte ga za potpuno iskustvo."
 # 
 msgid "Install"
 msgstr "Instaliraj"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -648,7 +598,6 @@ msgstr "Instaliraj"
 # 
 msgid "Minimal"
 msgstr "Minimalno"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -670,7 +619,6 @@ msgstr "Minimalno"
 # 
 msgid "Choose which programs to install, ensuring a highly customized experience."
 msgstr "Odaberite koje programe instalirati kako biste osigurali visoko prilagođeno iskustvo."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -692,7 +640,6 @@ msgstr "Odaberite koje programe instalirati kako biste osigurali visoko prilago�
 # 
 msgid "Restore system settings"
 msgstr "Vrati postavke sustava"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -716,7 +663,6 @@ msgid ""
 "Utility that facilitates the restoration of the installed system, especially the restoration of the "
 "system boot (Grub)."
 msgstr "Alat koji olakšava obnovu instaliranog sustava, posebno obnovu pokretanja sustava (Grub)."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -738,7 +684,6 @@ msgstr "Alat koji olakšava obnovu instaliranog sustava, posebno obnovu pokretan
 # 
 msgid "It can also be used to access the package manager and terminal of the installed system."
 msgstr "Može se koristiti i za pristup upravitelju paketa i terminalu instaliranog sustava."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -760,7 +705,6 @@ msgstr "Može se koristiti i za pristup upravitelju paketa i terminalu instalira
 # 
 msgid "Start"
 msgstr "Početak"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -782,7 +726,6 @@ msgstr "Početak"
 # 
 msgid "Snapshot and backups"
 msgstr "Snimka i sigurnosne kopije"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -804,7 +747,6 @@ msgstr "Snimka i sigurnosne kopije"
 # 
 msgid "Restore restore points of the installed system."
 msgstr "Vratite točke vraćanja instaliranog sustava."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -826,7 +768,6 @@ msgstr "Vratite točke vraćanja instaliranog sustava."
 # 
 msgid "Uncheck the programs you want to remove"
 msgstr "Označite programe koje želite ukloniti"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -848,7 +789,6 @@ msgstr "Označite programe koje želite ukloniti"
 # 
 msgid "Uncheck All"
 msgstr "Poništi odabir"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -870,25 +810,20 @@ msgstr "Poništi odabir"
 # 
 msgid "Check All"
 msgstr "Označi sve"
-
 msgid "Install System"
 msgstr "Instaliraj sustav"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
 msgid "Manage EFI entries on the motherboard (NVRAM):"
 msgstr "Upravljajte EFI unosima na matičnoj ploči (NVRAM):"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
 msgid "EFI Entry Manager"
 msgstr "EFI Upravitelj Unosa"
-
 msgid "Open the EFI manager"
 msgstr "Otvorite EFI upravitelj"
-
 msgid ""
 "\\n"
 "It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
@@ -900,13 +835,10 @@ msgstr ""
 "\\n"
 "Provjerite EFI upravitelja za bilo kakve unose koji se mogu izbrisati i pokušajte ponovno "
 "instalirati sustav.\\n"
-
 msgid "Don't open QEFIEntryManager..."
 msgstr "Ne otvarajte QEFIEntryManager..."
-
 msgid "Log Sent"
 msgstr "Zapis poslan"
-
 msgid ""
 "Log successfully sent!\\n"
 "\\n"
@@ -919,6 +851,5 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Možete koristiti ovu URL adresu za dijeljenje zapisa."
-
 msgid "Restore points of the installed system."
 msgstr "Točke vraćanja instaliranog sustava."

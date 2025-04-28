@@ -15,20 +15,16 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-
 msgid "Please wait..."
 msgstr "기다려주세요..."
-
 msgid "Checking the integrity of the download and storage device..."
 msgstr "다운로드 및 저장 장치의 무결성 확인 중..."
-
 msgid ""
 "<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
 "    :LBL"
 msgstr ""
 "<b>이전 버전을 설치하시겠습니까?</b>\n"
 "    :LBL"
-
 msgid ""
 "BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
 "We recommend downloading a more recent version.\n"
@@ -36,7 +32,6 @@ msgid ""
 msgstr ""
 "BigLinux는 매주 업데이트되는 시스템이며 이 버전은 한 달 전에 릴리스되었습니다.\\n"
 "더 최근 버전을 다운로드하는 것을 권장합니다."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -58,16 +53,12 @@ msgstr ""
 # 
 msgid "Continue"
 msgstr "계속"
-
 msgid "Close"
 msgstr "닫기"
-
 msgid "Outdated Version"
 msgstr "오래된 버전"
-
 msgid "Do you want to proceed with the installation in EFI mode?"
 msgstr "EFI 모드로 설치를 계속 진행하시겠습니까?"
-
 msgid ""
 "The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
 "partition on this computer.\n"
@@ -80,13 +71,10 @@ msgstr ""
 "현재 부팅은 <span color='#CC2222'>EFI</span> 모드를 사용하고 있지만 이 컴퓨터에 EFI 파티션을 찾을 수 없습니다.\n"
 "\n"
 "이 컴퓨터에 이미 다른 시스템이 설치되어 있고 그것을 유지하려는 경우 BIOS 설정을 변경하여 Legacy 모드 또는 BIOS 모드로 부팅해야 할 수 있습니다."
-
 msgid "Install the system"
 msgstr "시스템 설치"
-
 msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
 msgstr "레거시/BIOS 모드에서 설치를 계속 진행하시겠습니까?"
-
 msgid ""
 "The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
 "EFI partition on this computer. \n"
@@ -97,19 +85,14 @@ msgstr ""
 "현재 부팅은 <span color='#CC2222'>Legacy/BIOS</span> 모드를 사용하고 있지만, 이 컴퓨터에 적어도 하나의 EFI 파티션을 발견했습니다.\n"
 "\n"
 "설치가 성공적으로 이루어지려면 아마도 BIOS 구성을 변경하여 EFI 또는 UEFI 모드로 부팅해야 할 것입니다."
-
 msgid "Sending, please wait..."
 msgstr "전송 중입니다. 잠시 기다려주세요..."
-
 msgid "Open"
 msgstr "열기"
-
 msgid "Send to the cloud"
 msgstr "클라우드로 전송"
-
 msgid "calamares LOG"
 msgstr "칼라마레스 로그"
-
 msgid ""
 "\\n"
 "Do you want to view or send the installation log file to the cloud?\\n"
@@ -117,44 +100,32 @@ msgid ""
 msgstr ""
 "설치 로그 파일을 클라우드에 보거나 전송하시겠습니까?\\n"
 "지원 그룹에 전송할 링크를 생성합니다."
-
 msgid "Closing file..."
 msgstr "파일 닫는 중..."
-
 msgid "Checking the file:"
 msgstr "파일 확인 중:"
-
 msgid "Checking for download or USB drive errors, this may take a few minutes..."
 msgstr "다운로드 또는 USB 드라이브 오류를 확인 중입니다. 몇 분 정도 소요될 수 있습니다..."
-
 msgid "Checking system integrity"
 msgstr "시스템 무결성 확인"
-
 msgid "Error found, please download the system again or use another USB drive."
 msgstr "오류가 발견되었습니다. 시스템을 다시 다운로드하거나 다른 USB 드라이브를 사용하십시오."
-
 msgid "The files are intact."
 msgstr "파일이 손상되지 않았습니다."
-
 msgid "Verification canceled."
 msgstr "검증이 취소되었습니다."
-
 msgid "Wait..."
 msgstr "기다리다..."
-
 msgid "Checking internet connection..."
 msgstr "인터넷 연결 확인 중..."
-
 msgid "Internet"
 msgstr "인터넷"
-
 msgid ""
 "Without internet connection...\\n"
 "Extra packages installation disabled."
 msgstr ""
 "인터넷 연결 없이...\\n"
 "추가 패키지 설치가 비활성화되었습니다."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -176,7 +147,6 @@ msgstr ""
 # 
 msgid "Important tips for manual partitioning"
 msgstr "수동 파티션 작업에 대한 중요한 팁"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -198,7 +168,6 @@ msgstr "수동 파티션 작업에 대한 중요한 팁"
 # 
 msgid "If you opt for automatic partitioning, these tips will be applied."
 msgstr "자동 파티션 설정을 선택하면 이 팁이 적용됩니다."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -220,7 +189,6 @@ msgstr "자동 파티션 설정을 선택하면 이 팁이 적용됩니다."
 # 
 msgid "Use BTRFS."
 msgstr "BTRFS를 사용하세요."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -242,7 +210,6 @@ msgstr "BTRFS를 사용하세요."
 # 
 msgid "This file system allows for automatic compression and restore points."
 msgstr "이 파일 시스템은 자동 압축 및 복원 지점을 지원합니다."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -264,7 +231,6 @@ msgstr "이 파일 시스템은 자동 압축 및 복원 지점을 지원합니�
 # 
 msgid "Keep /boot within the / partition."
 msgstr "/boot를 / 파티션 내에 유지하십시오."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -286,7 +252,6 @@ msgstr "/boot를 / 파티션 내에 유지하십시오."
 # 
 msgid "Placing it in a separate partition hampers BTRFS snapshots."
 msgstr "BTRFS 스냅샷을 방해하는 별도의 파티션에 배치합니다."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -308,7 +273,6 @@ msgstr "BTRFS 스냅샷을 방해하는 별도의 파티션에 배치합니다."
 # 
 msgid "Do not create a SWAP partition."
 msgstr "스왑 파티션을 생성하지 마십시오."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -330,7 +294,6 @@ msgstr "스왑 파티션을 생성하지 마십시오."
 # 
 msgid "We have implemented dynamic virtual memory management with Zram and SWAP files."
 msgstr "우리는 Zram과 SWAP 파일을 이용한 동적 가상 메모리 관리를 구현했습니다."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -352,7 +315,6 @@ msgstr "우리는 Zram과 SWAP 파일을 이용한 동적 가상 메모리 관�
 # 
 msgid "SWAP partitions will not be used."
 msgstr "SWAP 파티션은 사용되지 않습니다."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -374,7 +336,6 @@ msgstr "SWAP 파티션은 사용되지 않습니다."
 # 
 msgid "The system is in"
 msgstr "시스템이 실행 중입니다."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -396,7 +357,6 @@ msgstr "시스템이 실행 중입니다."
 # 
 msgid ", Linux"
 msgstr "Linux"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -418,7 +378,6 @@ msgstr "Linux"
 # 
 msgid "and graphical mode"
 msgstr "그래픽 모드"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -440,7 +399,6 @@ msgstr "그래픽 모드"
 # 
 msgid "This is a collaborative system, if you need help consult our forum: https://forum.biglinux.com.br."
 msgstr "이것은 협업 시스템입니다. 도움이 필요하면 포럼을 참조하십시오: https://forum.biglinux.com.br."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -462,7 +420,6 @@ msgstr "이것은 협업 시스템입니다. 도움이 필요하면 포럼을 �
 # 
 msgid "Back"
 msgstr "뒤로"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -484,7 +441,6 @@ msgstr "뒤로"
 # 
 msgid "Maintenance"
 msgstr "유지보수"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -506,7 +462,6 @@ msgstr "유지보수"
 # 
 msgid "Tools that facilitate the maintenance of the installed system."
 msgstr "설치된 시스템의 유지보수를 용이하게 하는 도구들."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -528,7 +483,6 @@ msgstr "설치된 시스템의 유지보수를 용이하게 하는 도구들."
 # 
 msgid "Restore"
 msgstr "복원"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -550,7 +504,6 @@ msgstr "복원"
 # 
 msgid "Installation"
 msgstr "설치"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -572,7 +525,6 @@ msgstr "설치"
 # 
 msgid "The system is in live mode, which has limitations."
 msgstr "시스템은 라이브 모드로 작동 중이며 제한 사항이 있습니다."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -594,7 +546,6 @@ msgstr "시스템은 라이브 모드로 작동 중이며 제한 사항이 있�
 # 
 msgid "Install it for a complete experience."
 msgstr "완전한 경험을 위해 설치하세요."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -616,7 +567,6 @@ msgstr "완전한 경험을 위해 설치하세요."
 # 
 msgid "Install"
 msgstr "설치"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -638,7 +588,6 @@ msgstr "설치"
 # 
 msgid "Minimal"
 msgstr "최소한"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -660,7 +609,6 @@ msgstr "최소한"
 # 
 msgid "Choose which programs to install, ensuring a highly customized experience."
 msgstr "고객 맞춤형 경험을 보장하도록 설치할 프로그램을 선택하세요."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -682,7 +630,6 @@ msgstr "고객 맞춤형 경험을 보장하도록 설치할 프로그램을 선
 # 
 msgid "Restore system settings"
 msgstr "시스템 설정 복원"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -706,7 +653,6 @@ msgid ""
 "Utility that facilitates the restoration of the installed system, especially the restoration of the "
 "system boot (Grub)."
 msgstr "설치된 시스템의 복원을 용이하게 하는 유틸리티, 특히 시스템 부팅 (Grub)의 복원을 지원합니다."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -728,7 +674,6 @@ msgstr "설치된 시스템의 복원을 용이하게 하는 유틸리티, 특�
 # 
 msgid "It can also be used to access the package manager and terminal of the installed system."
 msgstr "설치된 시스템의 패키지 관리자와 터미널에 액세스하는 데 사용할 수도 있습니다."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -750,7 +695,6 @@ msgstr "설치된 시스템의 패키지 관리자와 터미널에 액세스하�
 # 
 msgid "Start"
 msgstr "시작"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -772,7 +716,6 @@ msgstr "시작"
 # 
 msgid "Snapshot and backups"
 msgstr "스냅샷 및 백업"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -794,7 +737,6 @@ msgstr "스냅샷 및 백업"
 # 
 msgid "Restore restore points of the installed system."
 msgstr "설치된 시스템의 복원 지점을 복원합니다."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -816,7 +758,6 @@ msgstr "설치된 시스템의 복원 지점을 복원합니다."
 # 
 msgid "Uncheck the programs you want to remove"
 msgstr "제거하려는 프로그램을 선택 취소하세요"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -838,7 +779,6 @@ msgstr "제거하려는 프로그램을 선택 취소하세요"
 # 
 msgid "Uncheck All"
 msgstr "모두 선택 해제"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -860,25 +800,20 @@ msgstr "모두 선택 해제"
 # 
 msgid "Check All"
 msgstr "모두 확인"
-
 msgid "Install System"
 msgstr "시스템 설치"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
 msgid "Manage EFI entries on the motherboard (NVRAM):"
 msgstr "마더보드에서 EFI 항목 관리 (NVRAM):"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
 msgid "EFI Entry Manager"
 msgstr "EFI 항목 관리자"
-
 msgid "Open the EFI manager"
 msgstr "EFI 관리자 열기"
-
 msgid ""
 "\\n"
 "It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
@@ -889,13 +824,10 @@ msgstr ""
 "마더보드에 EFI 항목을 기록할 수 없었습니다. 아마도 공간이 부족하기 때문입니다.\\n"
 "\\n"
 "삭제할 수 있는 항목이 있는지 EFI 관리자에서 확인하고 시스템 설치를 다시 시도하십시오.\\n"
-
 msgid "Don't open QEFIEntryManager..."
 msgstr "QEFIEntryManager를 열지 마세요..."
-
 msgid "Log Sent"
 msgstr "로그 전송됨"
-
 msgid ""
 "Log successfully sent!\\n"
 "\\n"
@@ -908,6 +840,5 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "이 URL을 사용하여 로그를 공유할 수 있습니다."
-
 msgid "Restore points of the installed system."
 msgstr "설치된 시스템의 복원 지점."

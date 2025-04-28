@@ -15,20 +15,16 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-
 msgid "Please wait..."
 msgstr "お待ちください..."
-
 msgid "Checking the integrity of the download and storage device..."
 msgstr "ダウンロードとストレージデバイスの整合性をチェックしています..."
-
 msgid ""
 "<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
 "    :LBL"
 msgstr ""
 "<b>この古いバージョンのインストールを続行しますか？</b>\n"
 "    :LBL"
-
 msgid ""
 "BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
 "We recommend downloading a more recent version.\n"
@@ -36,7 +32,6 @@ msgid ""
 msgstr ""
 "BigLinuxは、週次のアップデートを備えたシステムで、このバージョンは1か月以上前にリリースされました。\\n"
 "より新しいバージョンをダウンロードすることをお勧めします。"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -58,16 +53,12 @@ msgstr ""
 # 
 msgid "Continue"
 msgstr "続行"
-
 msgid "Close"
 msgstr "閉じる"
-
 msgid "Outdated Version"
 msgstr "古いバージョン"
-
 msgid "Do you want to proceed with the installation in EFI mode?"
 msgstr "EFIモードでインストールを続行しますか？"
-
 msgid ""
 "The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
 "partition on this computer.\n"
@@ -80,13 +71,10 @@ msgstr ""
 "現在のブートは<span color='#CC2222'>EFI</span>モードを使用していますが、このコンピューターにEFIパーティションは見つかりませんでした。\n"
 "\n"
 "このコンピューターにすでに他のシステムがインストールされており、インストールされたままにしたい場合は、おそらくBIOSの設定を変更してレガシーモード、またはBIOSモードでブートする必要があります。"
-
 msgid "Install the system"
 msgstr "システムをインストールします"
-
 msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
 msgstr "レガシー/BIOSモードでインストールを続行しますか？"
-
 msgid ""
 "The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
 "EFI partition on this computer. \n"
@@ -97,19 +85,14 @@ msgstr ""
 "現在のブートは<span color='#CC2222'>Legacy/BIOS</span>モードを使用していますが、このコンピューターに少なくとも1つのEFIパーティションが見つかりました。\n"
 "\n"
 "インストールが成功するためには、おそらくBIOSの設定を変更してEFIまたはUEFIモードでブートする必要があります。"
-
 msgid "Sending, please wait..."
 msgstr "送信中、お待ちください..."
-
 msgid "Open"
 msgstr "オープン"
-
 msgid "Send to the cloud"
 msgstr "クラウドに送信"
-
 msgid "calamares LOG"
 msgstr "Calamares ログ"
-
 msgid ""
 "\\n"
 "Do you want to view or send the installation log file to the cloud?\\n"
@@ -117,44 +100,32 @@ msgid ""
 msgstr ""
 "インストールログファイルを表示またはクラウドに送信しますか？\\n"
 "サポートグループに送信するためのリンクを生成します。\\n"
-
 msgid "Closing file..."
 msgstr "ファイルを閉じています..."
-
 msgid "Checking the file:"
 msgstr "ファイルをチェック中:"
-
 msgid "Checking for download or USB drive errors, this may take a few minutes..."
 msgstr "ダウンロードまたはUSBドライブのエラーをチェックしています。数分かかる場合があります..."
-
 msgid "Checking system integrity"
 msgstr "システムの整合性をチェックしています"
-
 msgid "Error found, please download the system again or use another USB drive."
 msgstr "エラーが見つかりました。システムを再度ダウンロードするか、別のUSBドライブを使用してください。"
-
 msgid "The files are intact."
 msgstr "ファイルは無傷です。"
-
 msgid "Verification canceled."
 msgstr "検証がキャンセルされました。"
-
 msgid "Wait..."
 msgstr "お待ちください..."
-
 msgid "Checking internet connection..."
 msgstr "インターネット接続を確認しています..."
-
 msgid "Internet"
 msgstr "インターネット"
-
 msgid ""
 "Without internet connection...\\n"
 "Extra packages installation disabled."
 msgstr ""
 "インターネット接続なし...\\n"
 "追加パッケージのインストールが無効になっています。"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -176,7 +147,6 @@ msgstr ""
 # 
 msgid "Important tips for manual partitioning"
 msgstr "手動パーティション作成の重要なヒント"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -198,7 +168,6 @@ msgstr "手動パーティション作成の重要なヒント"
 # 
 msgid "If you opt for automatic partitioning, these tips will be applied."
 msgstr "自動パーティショニングを選択すると、これらのヒントが適用されます。"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -220,7 +189,6 @@ msgstr "自動パーティショニングを選択すると、これらのヒン
 # 
 msgid "Use BTRFS."
 msgstr "BTRFSを使用してください。"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -242,7 +210,6 @@ msgstr "BTRFSを使用してください。"
 # 
 msgid "This file system allows for automatic compression and restore points."
 msgstr "このファイルシステムには自動圧縮とリストアポイントが可能です。"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -264,7 +231,6 @@ msgstr "このファイルシステムには自動圧縮とリストアポイン
 # 
 msgid "Keep /boot within the / partition."
 msgstr "/bootを/パーティション内に保持します。"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -286,7 +252,6 @@ msgstr "/bootを/パーティション内に保持します。"
 # 
 msgid "Placing it in a separate partition hampers BTRFS snapshots."
 msgstr "別のパーティションに配置すると、BTRFSスナップショットの機能が制限されます。"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -308,7 +273,6 @@ msgstr "別のパーティションに配置すると、BTRFSスナップショ�
 # 
 msgid "Do not create a SWAP partition."
 msgstr "スワップパーティションを作成しないでください。"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -330,7 +294,6 @@ msgstr "スワップパーティションを作成しないでください。"
 # 
 msgid "We have implemented dynamic virtual memory management with Zram and SWAP files."
 msgstr "ZramとSWAPファイルを使用した動的仮想メモリ管理を実装しました。"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -352,7 +315,6 @@ msgstr "ZramとSWAPファイルを使用した動的仮想メモリ管理を実�
 # 
 msgid "SWAP partitions will not be used."
 msgstr "SWAPパーティションは使用されません。"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -374,7 +336,6 @@ msgstr "SWAPパーティションは使用されません。"
 # 
 msgid "The system is in"
 msgstr "システムはオンラインです"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -396,7 +357,6 @@ msgstr "システムはオンラインです"
 # 
 msgid ", Linux"
 msgstr "Linux"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -418,7 +378,6 @@ msgstr "Linux"
 # 
 msgid "and graphical mode"
 msgstr "およびグラフィカルモード"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -440,7 +399,6 @@ msgstr "およびグラフィカルモード"
 # 
 msgid "This is a collaborative system, if you need help consult our forum: https://forum.biglinux.com.br."
 msgstr "これは共同作業システムです。ヘルプが必要な場合は、当社のフォーラムを参照してください: https://forum.biglinux.com.br。"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -462,7 +420,6 @@ msgstr "これは共同作業システムです。ヘルプが必要な場合は
 # 
 msgid "Back"
 msgstr "戻る"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -484,7 +441,6 @@ msgstr "戻る"
 # 
 msgid "Maintenance"
 msgstr "メンテナンス"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -506,7 +462,6 @@ msgstr "メンテナンス"
 # 
 msgid "Tools that facilitate the maintenance of the installed system."
 msgstr "インストールされたシステムのメンテナンスを容易にするツール。"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -528,7 +483,6 @@ msgstr "インストールされたシステムのメンテナンスを容易に
 # 
 msgid "Restore"
 msgstr "復元"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -550,7 +504,6 @@ msgstr "復元"
 # 
 msgid "Installation"
 msgstr "インストール"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -572,7 +525,6 @@ msgstr "インストール"
 # 
 msgid "The system is in live mode, which has limitations."
 msgstr "システムはライブモードで稼働しており、制限があります。"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -594,7 +546,6 @@ msgstr "システムはライブモードで稼働しており、制限があり
 # 
 msgid "Install it for a complete experience."
 msgstr "完全な体験のためにインストールしてください。"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -616,7 +567,6 @@ msgstr "完全な体験のためにインストールしてください。"
 # 
 msgid "Install"
 msgstr "インストール"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -638,7 +588,6 @@ msgstr "インストール"
 # 
 msgid "Minimal"
 msgstr "最小"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -660,7 +609,6 @@ msgstr "最小"
 # 
 msgid "Choose which programs to install, ensuring a highly customized experience."
 msgstr "高度にカスタマイズされたエクスペリエンスを確保するために、インストールするプログラムを選択してください。"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -682,7 +630,6 @@ msgstr "高度にカスタマイズされたエクスペリエンスを確保す
 # 
 msgid "Restore system settings"
 msgstr "システム設定を復元する"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -706,7 +653,6 @@ msgid ""
 "Utility that facilitates the restoration of the installed system, especially the restoration of the "
 "system boot (Grub)."
 msgstr "インストールされたシステムの復元を容易にするユーティリティ、特にシステムブート（Grub）の復元を支援します。"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -728,7 +674,6 @@ msgstr "インストールされたシステムの復元を容易にするユー
 # 
 msgid "It can also be used to access the package manager and terminal of the installed system."
 msgstr "インストールされたシステムのパッケージマネージャやターミナルにアクセスするためにも使用できます。"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -750,7 +695,6 @@ msgstr "インストールされたシステムのパッケージマネージャ
 # 
 msgid "Start"
 msgstr "開始"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -772,7 +716,6 @@ msgstr "開始"
 # 
 msgid "Snapshot and backups"
 msgstr "スナップショットとバックアップ"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -794,7 +737,6 @@ msgstr "スナップショットとバックアップ"
 # 
 msgid "Restore restore points of the installed system."
 msgstr "インストールされたシステムの復元ポイントを復元します。"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -816,7 +758,6 @@ msgstr "インストールされたシステムの復元ポイントを復元し
 # 
 msgid "Uncheck the programs you want to remove"
 msgstr "削除したいプログラムのチェックを外してください"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -838,7 +779,6 @@ msgstr "削除したいプログラムのチェックを外してください"
 # 
 msgid "Uncheck All"
 msgstr "すべてのチェックを外す"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -860,25 +800,20 @@ msgstr "すべてのチェックを外す"
 # 
 msgid "Check All"
 msgstr "すべてをチェック"
-
 msgid "Install System"
 msgstr "システムをインストール"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
 msgid "Manage EFI entries on the motherboard (NVRAM):"
 msgstr "マザーボード上のEFIエントリを管理する（NVRAM）："
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
 msgid "EFI Entry Manager"
 msgstr "EFIエントリーマネージャー"
-
 msgid "Open the EFI manager"
 msgstr "EFIマネージャーを開く"
-
 msgid ""
 "\\n"
 "It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
@@ -888,13 +823,10 @@ msgstr ""
 "マザーボードにEFIエントリを書き込むことはできませんでした。おそらく、空き容量が不足しているためです。\n"
 "\n"
 "EFIマネージャーで削除できるエントリを確認し、システムの再インストールを試みてください。"
-
 msgid "Don't open QEFIEntryManager..."
 msgstr "QEFIEntryManagerを開かないでください..."
-
 msgid "Log Sent"
 msgstr "ログが送信されました"
-
 msgid ""
 "Log successfully sent!\\n"
 "\\n"
@@ -907,6 +839,5 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "このURLを使用してログを共有できます。"
-
 msgid "Restore points of the installed system."
 msgstr "インストールされたシステムの復元ポイント。"

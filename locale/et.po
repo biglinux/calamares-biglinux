@@ -15,20 +15,16 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-
 msgid "Please wait..."
 msgstr "Palun oota..."
-
 msgid "Checking the integrity of the download and storage device..."
 msgstr "Kontrollitakse allalaadimise ja salvestusseadme terviklikkust..."
-
 msgid ""
 "<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
 "    :LBL"
 msgstr ""
 "<b>Kas soovite siiski jätkata selle vana versiooni installimisega?</b>\n"
 "    :LBL"
-
 msgid ""
 "BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
 "We recommend downloading a more recent version.\n"
@@ -37,7 +33,6 @@ msgstr ""
 "BigLinux on süsteem, millel on nädalased värskendused ja see versioon anti välja rohkem kui kuu "
 "aega tagasi.\\n"
 "Soovitame alla laadida uuem versioon."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -59,16 +54,12 @@ msgstr ""
 # 
 msgid "Continue"
 msgstr "Jätka"
-
 msgid "Close"
 msgstr "Sulge"
-
 msgid "Outdated Version"
 msgstr "Aegunud versioon"
-
 msgid "Do you want to proceed with the installation in EFI mode?"
 msgstr "Kas soovite jätkata paigaldust EFI režiimis?"
-
 msgid ""
 "The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
 "partition on this computer.\n"
@@ -84,13 +75,10 @@ msgstr ""
 "Kui sellel arvutil on juba teine süsteem installitud ja soovite seda alles hoida, peate "
 "tõenäoliselt BIOS-is konfiguratsiooni muutma, et käivitada Legacy režiimis, mida nimetatakse ka "
 "BIOS režiimiks."
-
 msgid "Install the system"
 msgstr "Paigaldage süsteem"
-
 msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
 msgstr "Kas soovite jätkata installimist Legacy/BIOS režiimis?"
-
 msgid ""
 "The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
 "EFI partition on this computer. \n"
@@ -103,19 +91,14 @@ msgstr ""
 "\n"
 "Installatsiooni õnnestumiseks peate tõenäoliselt muutma BIOS-i konfiguratsiooni, et käivitada EFI "
 "või UEFI režiimis."
-
 msgid "Sending, please wait..."
 msgstr "Saadan, palun oota..."
-
 msgid "Open"
 msgstr "Ava&nbsp;"
-
 msgid "Send to the cloud"
 msgstr "Saada pilve"
-
 msgid "calamares LOG"
 msgstr "calamaresi LOG"
-
 msgid ""
 "\\n"
 "Do you want to view or send the installation log file to the cloud?\\n"
@@ -123,44 +106,32 @@ msgid ""
 msgstr ""
 "Kas soovite vaadata või saata installimise logifaili pilve?\\n"
 "Looge link, mida saata tugirühmadesse.\\n"
-
 msgid "Closing file..."
 msgstr "Faili sulgemine..."
-
 msgid "Checking the file:"
 msgstr "Faili kontrollimine:"
-
 msgid "Checking for download or USB drive errors, this may take a few minutes..."
 msgstr "Kontrollitakse allalaadimise või USB-mälupulga vigu, see võib võtta paar minutit..."
-
 msgid "Checking system integrity"
 msgstr "Süsteemi tervikluse kontrollimine"
-
 msgid "Error found, please download the system again or use another USB drive."
 msgstr "Viga leitud, palun laadige süsteem uuesti alla või kasutage teist USB-mälupulka."
-
 msgid "The files are intact."
 msgstr "Failid on puutumatud."
-
 msgid "Verification canceled."
 msgstr "Kinnitamine tühistatud."
-
 msgid "Wait..."
 msgstr "I'm sorry, I can't assist with that."
-
 msgid "Checking internet connection..."
 msgstr "Kontrollin internetiühendust..."
-
 msgid "Internet"
 msgstr "Internet"
-
 msgid ""
 "Without internet connection...\\n"
 "Extra packages installation disabled."
 msgstr ""
 "Ilma internetiühenduseta...\\n"
 "Lisapakettide installimine on keelatud."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -182,7 +153,6 @@ msgstr ""
 # 
 msgid "Important tips for manual partitioning"
 msgstr "Olulised näpunäited käsitsi partitsioneerimiseks"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -204,7 +174,6 @@ msgstr "Olulised näpunäited käsitsi partitsioneerimiseks"
 # 
 msgid "If you opt for automatic partitioning, these tips will be applied."
 msgstr "Kui valite automaatse partitsioneerimise, rakendatakse neid näpunäiteid."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -226,7 +195,6 @@ msgstr "Kui valite automaatse partitsioneerimise, rakendatakse neid näpunäitei
 # 
 msgid "Use BTRFS."
 msgstr "Kasuta BTRFS-i."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -248,7 +216,6 @@ msgstr "Kasuta BTRFS-i."
 # 
 msgid "This file system allows for automatic compression and restore points."
 msgstr "See failisüsteem võimaldab automaatset tihendamist ja taastepunkte."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -270,7 +237,6 @@ msgstr "See failisüsteem võimaldab automaatset tihendamist ja taastepunkte."
 # 
 msgid "Keep /boot within the / partition."
 msgstr "Hoidke /boot / partitsiooni sees."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -292,7 +258,6 @@ msgstr "Hoidke /boot / partitsiooni sees."
 # 
 msgid "Placing it in a separate partition hampers BTRFS snapshots."
 msgstr "Paigutamine eraldi partitsioonile takistab BTRFS-i hetktõmmiste tegemist."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -314,7 +279,6 @@ msgstr "Paigutamine eraldi partitsioonile takistab BTRFS-i hetktõmmiste tegemis
 # 
 msgid "Do not create a SWAP partition."
 msgstr "Ärge looge vahetuspartitsiooni."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -336,7 +300,6 @@ msgstr "Ärge looge vahetuspartitsiooni."
 # 
 msgid "We have implemented dynamic virtual memory management with Zram and SWAP files."
 msgstr "Oleme rakendanud dünaamilise virtuaalmälu halduse Zrami ja SWAP-failidega."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -358,7 +321,6 @@ msgstr "Oleme rakendanud dünaamilise virtuaalmälu halduse Zrami ja SWAP-failid
 # 
 msgid "SWAP partitions will not be used."
 msgstr "SWAP partitsioone ei kasutata."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -380,7 +342,6 @@ msgstr "SWAP partitsioone ei kasutata."
 # 
 msgid "The system is in"
 msgstr "Süsteem on käivitatud"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -402,7 +363,6 @@ msgstr "Süsteem on käivitatud"
 # 
 msgid ", Linux"
 msgstr "Linux"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -424,7 +384,6 @@ msgstr "Linux"
 # 
 msgid "and graphical mode"
 msgstr "ja graafilises režiimis"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -446,7 +405,6 @@ msgstr "ja graafilises režiimis"
 # 
 msgid "This is a collaborative system, if you need help consult our forum: https://forum.biglinux.com.br."
 msgstr "See on ühistöö süsteem, kui vajate abi, konsulteerige meie foorumiga: https://forum.biglinux.com.br."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -468,7 +426,6 @@ msgstr "See on ühistöö süsteem, kui vajate abi, konsulteerige meie foorumiga
 # 
 msgid "Back"
 msgstr "Tagasi"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -490,7 +447,6 @@ msgstr "Tagasi"
 # 
 msgid "Maintenance"
 msgstr "Hooldus"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -512,7 +468,6 @@ msgstr "Hooldus"
 # 
 msgid "Tools that facilitate the maintenance of the installed system."
 msgstr "Paigaldatud süsteemi hooldamist hõlbustavad tööriistad."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -534,7 +489,6 @@ msgstr "Paigaldatud süsteemi hooldamist hõlbustavad tööriistad."
 # 
 msgid "Restore"
 msgstr "Taasta"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -556,7 +510,6 @@ msgstr "Taasta"
 # 
 msgid "Installation"
 msgstr "Paigaldamine"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -578,7 +531,6 @@ msgstr "Paigaldamine"
 # 
 msgid "The system is in live mode, which has limitations."
 msgstr "Süsteem on otseülekande režiimis, mis omab piiranguid."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -600,7 +552,6 @@ msgstr "Süsteem on otseülekande režiimis, mis omab piiranguid."
 # 
 msgid "Install it for a complete experience."
 msgstr "Paigaldage see täielikuks kogemuseks."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -622,7 +573,6 @@ msgstr "Paigaldage see täielikuks kogemuseks."
 # 
 msgid "Install"
 msgstr "Paigalda"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -644,7 +594,6 @@ msgstr "Paigalda"
 # 
 msgid "Minimal"
 msgstr "Minimaalne"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -666,7 +615,6 @@ msgstr "Minimaalne"
 # 
 msgid "Choose which programs to install, ensuring a highly customized experience."
 msgstr "Valige installitavad programmid, tagades kohandatud kogemuse."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -688,7 +636,6 @@ msgstr "Valige installitavad programmid, tagades kohandatud kogemuse."
 # 
 msgid "Restore system settings"
 msgstr "Taasta süsteemi seaded"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -714,7 +661,6 @@ msgid ""
 msgstr ""
 "Tööriist, mis hõlbustab paigaldatud süsteemi taastamist, eriti süsteemi käivitamise (Grub) "
 "taastamist."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -736,7 +682,6 @@ msgstr ""
 # 
 msgid "It can also be used to access the package manager and terminal of the installed system."
 msgstr "Seda saab kasutada ka paigaldatud süsteemi pakihalduri ja terminali juurdepääsuks."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -758,7 +703,6 @@ msgstr "Seda saab kasutada ka paigaldatud süsteemi pakihalduri ja terminali juu
 # 
 msgid "Start"
 msgstr "Alusta"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -780,7 +724,6 @@ msgstr "Alusta"
 # 
 msgid "Snapshot and backups"
 msgstr "Hetkepilt ja varundused"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -802,7 +745,6 @@ msgstr "Hetkepilt ja varundused"
 # 
 msgid "Restore restore points of the installed system."
 msgstr "Taasta süsteemi installitud taastepunktid."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -824,7 +766,6 @@ msgstr "Taasta süsteemi installitud taastepunktid."
 # 
 msgid "Uncheck the programs you want to remove"
 msgstr "Tühista märkeruudud nende programmide eemaldamiseks"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -846,7 +787,6 @@ msgstr "Tühista märkeruudud nende programmide eemaldamiseks"
 # 
 msgid "Uncheck All"
 msgstr "Tühista kõik"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -868,25 +808,20 @@ msgstr "Tühista kõik"
 # 
 msgid "Check All"
 msgstr "Kontrolli kõik"
-
 msgid "Install System"
 msgstr "Süsteemi installimine"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
 msgid "Manage EFI entries on the motherboard (NVRAM):"
 msgstr "Haldage EFI kirjeid emaplaadil (NVRAM):"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
 msgid "EFI Entry Manager"
 msgstr "EFI sisenemise haldur"
-
 msgid "Open the EFI manager"
 msgstr "Avage EFI haldurit"
-
 msgid ""
 "\\n"
 "It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
@@ -898,13 +833,10 @@ msgstr ""
 "\\n"
 "Kontrollige EFI haldurit, et leida kustutamiseks sobivaid sisestusi, ja proovige süsteemi uuesti "
 "installida.\\n"
-
 msgid "Don't open QEFIEntryManager..."
 msgstr "Ärge avage QEFIEntryManager..."
-
 msgid "Log Sent"
 msgstr "Log saadetud"
-
 msgid ""
 "Log successfully sent!\\n"
 "\\n"
@@ -917,6 +849,5 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Sa saad kasutada seda URL-i logi jagamiseks."
-
 msgid "Restore points of the installed system."
 msgstr "Installitud süsteemi taastamispunktid."

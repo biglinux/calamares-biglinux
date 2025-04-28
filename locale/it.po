@@ -15,20 +15,16 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-
 msgid "Please wait..."
 msgstr "Attendere prego..."
-
 msgid "Checking the integrity of the download and storage device..."
 msgstr "Verifica dell'integrità del download e del dispositivo di archiviazione..."
-
 msgid ""
 "<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
 "    :LBL"
 msgstr ""
 "<b>Vuoi procedere con l'installazione di questa vecchia versione comunque?</b>\n"
 "    :LBL"
-
 msgid ""
 "BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
 "We recommend downloading a more recent version.\n"
@@ -37,7 +33,6 @@ msgstr ""
 "BigLinux è un sistema con aggiornamenti settimanali e questa versione è stata rilasciata più di un "
 "mese fa.\\n"
 "Ti consigliamo di scaricare una versione più recente."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -59,16 +54,12 @@ msgstr ""
 # 
 msgid "Continue"
 msgstr "Continua"
-
 msgid "Close"
 msgstr "Chiudi"
-
 msgid "Outdated Version"
 msgstr "Versione obsoleta"
-
 msgid "Do you want to proceed with the installation in EFI mode?"
 msgstr "Desideri procedere con l'installazione in modalità EFI?"
-
 msgid ""
 "The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
 "partition on this computer.\n"
@@ -84,13 +75,10 @@ msgstr ""
 "Se su questo computer è già installato un altro sistema e intendi mantenerlo installato, "
 "probabilmente dovrai modificare la configurazione nel BIOS per avviare in modalità Legacy, anche "
 "chiamata modalità BIOS."
-
 msgid "Install the system"
 msgstr "Installare il sistema"
-
 msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
 msgstr "Desideri procedere con l'installazione in modalità Legacy/BIOS?"
-
 msgid ""
 "The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
 "EFI partition on this computer. \n"
@@ -103,19 +91,14 @@ msgstr ""
 "\n"
 "Perché l'installazione sia completata con successo, probabilmente dovrai modificare la "
 "configurazione nel BIOS per avviare in modalità EFI o UEFI."
-
 msgid "Sending, please wait..."
 msgstr "Invio in corso, attendere..."
-
 msgid "Open"
 msgstr "Apri"
-
 msgid "Send to the cloud"
 msgstr "Invia al cloud"
-
 msgid "calamares LOG"
 msgstr "Registro di Calamares"
-
 msgid ""
 "\\n"
 "Do you want to view or send the installation log file to the cloud?\\n"
@@ -123,44 +106,32 @@ msgid ""
 msgstr ""
 "Desideri visualizzare o inviare il file di registro dell'installazione al cloud?\\n"
 "Genera un link da inviare nei gruppi di supporto.\\n"
-
 msgid "Closing file..."
 msgstr "Chiusura del file..."
-
 msgid "Checking the file:"
 msgstr "Controllando il file:"
-
 msgid "Checking for download or USB drive errors, this may take a few minutes..."
 msgstr "Verifica degli errori di download o della chiavetta USB, potrebbe richiedere alcuni minuti..."
-
 msgid "Checking system integrity"
 msgstr "Verifica dell'integrità del sistema"
-
 msgid "Error found, please download the system again or use another USB drive."
 msgstr "Errore trovato, si prega di scaricare nuovamente il sistema o utilizzare un'altra chiavetta USB."
-
 msgid "The files are intact."
 msgstr "I file sono integri."
-
 msgid "Verification canceled."
 msgstr "Verifica annullata."
-
 msgid "Wait..."
 msgstr "Aspetta..."
-
 msgid "Checking internet connection..."
 msgstr "Verifica della connessione internet..."
-
 msgid "Internet"
 msgstr "Internet"
-
 msgid ""
 "Without internet connection...\\n"
 "Extra packages installation disabled."
 msgstr ""
 "Senza connessione internet...\\n"
 "Installazione pacchetti extra disabilitata."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -182,7 +153,6 @@ msgstr ""
 # 
 msgid "Important tips for manual partitioning"
 msgstr "Suggerimenti importanti per la partizione manuale"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -204,7 +174,6 @@ msgstr "Suggerimenti importanti per la partizione manuale"
 # 
 msgid "If you opt for automatic partitioning, these tips will be applied."
 msgstr "Se scegli la partizione automatica, questi suggerimenti verranno applicati."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -226,7 +195,6 @@ msgstr "Se scegli la partizione automatica, questi suggerimenti verranno applica
 # 
 msgid "Use BTRFS."
 msgstr "Usa BTRFS."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -248,7 +216,6 @@ msgstr "Usa BTRFS."
 # 
 msgid "This file system allows for automatic compression and restore points."
 msgstr "Questo sistema di file consente la compressione automatica e i punti di ripristino."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -270,7 +237,6 @@ msgstr "Questo sistema di file consente la compressione automatica e i punti di 
 # 
 msgid "Keep /boot within the / partition."
 msgstr "Mantieni /boot all'interno della partizione /."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -292,7 +258,6 @@ msgstr "Mantieni /boot all'interno della partizione /."
 # 
 msgid "Placing it in a separate partition hampers BTRFS snapshots."
 msgstr "Posizionarlo in una partizione separata ostacola gli snapshot di BTRFS."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -314,7 +279,6 @@ msgstr "Posizionarlo in una partizione separata ostacola gli snapshot di BTRFS."
 # 
 msgid "Do not create a SWAP partition."
 msgstr "Non creare una partizione SWAP."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -336,7 +300,6 @@ msgstr "Non creare una partizione SWAP."
 # 
 msgid "We have implemented dynamic virtual memory management with Zram and SWAP files."
 msgstr "Abbiamo implementato la gestione dinamica della memoria virtuale con Zram e file SWAP."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -358,7 +321,6 @@ msgstr "Abbiamo implementato la gestione dinamica della memoria virtuale con Zra
 # 
 msgid "SWAP partitions will not be used."
 msgstr "Le partizioni SWAP non verranno utilizzate."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -380,7 +342,6 @@ msgstr "Le partizioni SWAP non verranno utilizzate."
 # 
 msgid "The system is in"
 msgstr "Il sistema è in"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -402,7 +363,6 @@ msgstr "Il sistema è in"
 # 
 msgid ", Linux"
 msgstr ", Linux"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -424,7 +384,6 @@ msgstr ", Linux"
 # 
 msgid "and graphical mode"
 msgstr "e modalità grafica"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -448,7 +407,6 @@ msgid "This is a collaborative system, if you need help consult our forum: https
 msgstr ""
 "Questo è un sistema collaborativo, se hai bisogno di aiuto consulta il nostro forum: "
 "https://forum.biglinux.com.br."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -470,7 +428,6 @@ msgstr ""
 # 
 msgid "Back"
 msgstr "Indietro"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -492,7 +449,6 @@ msgstr "Indietro"
 # 
 msgid "Maintenance"
 msgstr "Manutenzione"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -514,7 +470,6 @@ msgstr "Manutenzione"
 # 
 msgid "Tools that facilitate the maintenance of the installed system."
 msgstr "Strumenti che facilitano la manutenzione del sistema installato."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -536,7 +491,6 @@ msgstr "Strumenti che facilitano la manutenzione del sistema installato."
 # 
 msgid "Restore"
 msgstr "Ripristina"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -558,7 +512,6 @@ msgstr "Ripristina"
 # 
 msgid "Installation"
 msgstr "Installazione"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -580,7 +533,6 @@ msgstr "Installazione"
 # 
 msgid "The system is in live mode, which has limitations."
 msgstr "Il sistema è in modalità live, che ha delle limitazioni."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -602,7 +554,6 @@ msgstr "Il sistema è in modalità live, che ha delle limitazioni."
 # 
 msgid "Install it for a complete experience."
 msgstr "Installalo per un'esperienza completa."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -624,7 +575,6 @@ msgstr "Installalo per un'esperienza completa."
 # 
 msgid "Install"
 msgstr "Install"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -646,7 +596,6 @@ msgstr "Install"
 # 
 msgid "Minimal"
 msgstr "Minimale"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -668,7 +617,6 @@ msgstr "Minimale"
 # 
 msgid "Choose which programs to install, ensuring a highly customized experience."
 msgstr "Scegli quali programmi installare, garantendo un'esperienza altamente personalizzata."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -690,7 +638,6 @@ msgstr "Scegli quali programmi installare, garantendo un'esperienza altamente pe
 # 
 msgid "Restore system settings"
 msgstr "Ripristina le impostazioni di sistema"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -716,7 +663,6 @@ msgid ""
 msgstr ""
 "Utilità che facilita il ripristino del sistema installato, in particolare il ripristino dell'avvio "
 "del sistema (Grub)."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -740,7 +686,6 @@ msgid "It can also be used to access the package manager and terminal of the ins
 msgstr ""
 "Può anche essere utilizzato per accedere al gestore di pacchetti e al terminale del sistema "
 "installato."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -762,7 +707,6 @@ msgstr ""
 # 
 msgid "Start"
 msgstr "Inizia"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -784,7 +728,6 @@ msgstr "Inizia"
 # 
 msgid "Snapshot and backups"
 msgstr "Istantanea e backup"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -806,7 +749,6 @@ msgstr "Istantanea e backup"
 # 
 msgid "Restore restore points of the installed system."
 msgstr "Ripristina i punti di ripristino del sistema installato."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -828,7 +770,6 @@ msgstr "Ripristina i punti di ripristino del sistema installato."
 # 
 msgid "Uncheck the programs you want to remove"
 msgstr "Deseleziona i programmi che desideri rimuovere"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -850,7 +791,6 @@ msgstr "Deseleziona i programmi che desideri rimuovere"
 # 
 msgid "Uncheck All"
 msgstr "Deseleziona tutto"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -872,25 +812,20 @@ msgstr "Deseleziona tutto"
 # 
 msgid "Check All"
 msgstr "Seleziona tutto"
-
 msgid "Install System"
 msgstr "Installare sistema"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
 msgid "Manage EFI entries on the motherboard (NVRAM):"
 msgstr "Gestisci le voci EFI sulla scheda madre (NVRAM):"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
 msgid "EFI Entry Manager"
 msgstr "Gestore di Entrata EFI"
-
 msgid "Open the EFI manager"
 msgstr "Apri il gestore EFI"
-
 msgid ""
 "\\n"
 "It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
@@ -902,13 +837,10 @@ msgstr ""
 "\n"
 "Controlla il gestore EFI per eventuali entry che possono essere eliminate e prova a installare "
 "nuovamente il sistema."
-
 msgid "Don't open QEFIEntryManager..."
 msgstr "Non aprire QEFIEntryManager..."
-
 msgid "Log Sent"
 msgstr "Log inviato"
-
 msgid ""
 "Log successfully sent!\\n"
 "\\n"
@@ -921,6 +853,5 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Puoi utilizzare questo URL per condividere il log."
-
 msgid "Restore points of the installed system."
 msgstr "Punti di ripristino del sistema installato."

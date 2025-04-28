@@ -15,20 +15,16 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-
 msgid "Please wait..."
 msgstr "Моля, изчакайте..."
-
 msgid "Checking the integrity of the download and storage device..."
 msgstr "Проверка на целостта на изтеглянето и устройството за съхранение..."
-
 msgid ""
 "<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
 "    :LBL"
 msgstr ""
 "<b>Искате ли да продължите с инсталирането на тази стара версия все пак?</b>\n"
 "    :LBL"
-
 msgid ""
 "BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
 "We recommend downloading a more recent version.\n"
@@ -36,7 +32,6 @@ msgid ""
 msgstr ""
 "BigLinux е система със седмични актуализации и тази версия беше пусната преди повече от месец. "
 "Препоръчваме ви да изтеглите по-нова версия."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -58,16 +53,12 @@ msgstr ""
 # 
 msgid "Continue"
 msgstr "Продължи"
-
 msgid "Close"
 msgstr "Затвори"
-
 msgid "Outdated Version"
 msgstr "Стара версия"
-
 msgid "Do you want to proceed with the installation in EFI mode?"
 msgstr "Искате ли да продължите с инсталацията в режим EFI?"
-
 msgid ""
 "The current boot is using <span color='#CC2222'>EFI</span> mode, but I did not find any EFI "
 "partition on this computer.\n"
@@ -82,13 +73,10 @@ msgstr ""
 "\n"
 "Ако на този компютър вече е инсталирана друга система и намерите да я запазите, вероятно ще трябва "
 "да промените конфигурацията в BIOS, за да стартирате в режим Legacy, наричан също и BIOS режим."
-
 msgid "Install the system"
 msgstr "Инсталирайте системата"
-
 msgid "Do you want to proceed with the installation in Legacy/BIOS mode?"
 msgstr "Искате ли да продължите с инсталацията в режим Legacy/BIOS?"
-
 msgid ""
 "The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mode, but I found at least one "
 "EFI partition on this computer. \n"
@@ -101,19 +89,14 @@ msgstr ""
 "\n"
 "За успешната инсталация вероятно ще трябва да промените конфигурацията в BIOS, за да стартирате в "
 "режим EFI или UEFI."
-
 msgid "Sending, please wait..."
 msgstr "Изпращане, моля изчакайте..."
-
 msgid "Open"
 msgstr "Отвори"
-
 msgid "Send to the cloud"
 msgstr "Изпрати към облака"
-
 msgid "calamares LOG"
 msgstr "calamares ДНЕВНИК"
-
 msgid ""
 "\\n"
 "Do you want to view or send the installation log file to the cloud?\\n"
@@ -122,44 +105,32 @@ msgstr ""
 "\\n"
 "Искате ли да прегледате или изпратите лог файл за инсталиране в облака?\\n"
 "Генерирайте връзка за изпращане в групи за поддръжка.\\n"
-
 msgid "Closing file..."
 msgstr "Затваряне на файла..."
-
 msgid "Checking the file:"
 msgstr "Проверка на файла:"
-
 msgid "Checking for download or USB drive errors, this may take a few minutes..."
 msgstr "Проверка за грешки при изтегляне или USB устройство, това може да отнеме няколко минути..."
-
 msgid "Checking system integrity"
 msgstr "Проверка на целостта на системата"
-
 msgid "Error found, please download the system again or use another USB drive."
 msgstr "Грешка открита, моля изтеглете системата отново или използвайте друг USB устройство."
-
 msgid "The files are intact."
 msgstr "Файловете са неповредени."
-
 msgid "Verification canceled."
 msgstr "Отмяна на потвърждението."
-
 msgid "Wait..."
 msgstr "Изчакайте..."
-
 msgid "Checking internet connection..."
 msgstr "Проверка на интернет връзка..."
-
 msgid "Internet"
 msgstr "Интернет"
-
 msgid ""
 "Without internet connection...\\n"
 "Extra packages installation disabled."
 msgstr ""
 "Без интернет връзка...\\n"
 "Инсталирането на допълнителни пакети е деактивирано."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -181,7 +152,6 @@ msgstr ""
 # 
 msgid "Important tips for manual partitioning"
 msgstr "Важни съвети за ръчно разделяне на дялове"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -203,7 +173,6 @@ msgstr "Важни съвети за ръчно разделяне на дяло
 # 
 msgid "If you opt for automatic partitioning, these tips will be applied."
 msgstr "Ако изберете автоматично разделяне на разделите, тези съвети ще бъдат приложени."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -225,7 +194,6 @@ msgstr "Ако изберете автоматично разделяне на �
 # 
 msgid "Use BTRFS."
 msgstr "Използвайте BTRFS."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -247,7 +215,6 @@ msgstr "Използвайте BTRFS."
 # 
 msgid "This file system allows for automatic compression and restore points."
 msgstr "Тази файлова система позволява автоматично компресиране и възстановяване на точки."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -269,7 +236,6 @@ msgstr "Тази файлова система позволява автомат
 # 
 msgid "Keep /boot within the / partition."
 msgstr "Запазете /boot в рамките на / раздела."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -291,7 +257,6 @@ msgstr "Запазете /boot в рамките на / раздела."
 # 
 msgid "Placing it in a separate partition hampers BTRFS snapshots."
 msgstr "Поставянето му в отделна разделена затруднява снимките на BTRFS."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -313,7 +278,6 @@ msgstr "Поставянето му в отделна разделена зат�
 # 
 msgid "Do not create a SWAP partition."
 msgstr "Не създавайте SWAP раздел."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -335,7 +299,6 @@ msgstr "Не създавайте SWAP раздел."
 # 
 msgid "We have implemented dynamic virtual memory management with Zram and SWAP files."
 msgstr "Използвахме динамично управление на виртуалната памет с Zram и SWAP файлове."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -357,7 +320,6 @@ msgstr "Използвахме динамично управление на ви
 # 
 msgid "SWAP partitions will not be used."
 msgstr "SWAP разделите няма да бъдат използвани."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -379,7 +341,6 @@ msgstr "SWAP разделите няма да бъдат използвани."
 # 
 msgid "The system is in"
 msgstr "Системата е в"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -401,7 +362,6 @@ msgstr "Системата е в"
 # 
 msgid ", Linux"
 msgstr "Линукс"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -423,7 +383,6 @@ msgstr "Линукс"
 # 
 msgid "and graphical mode"
 msgstr "и графичен режим"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -447,7 +406,6 @@ msgid "This is a collaborative system, if you need help consult our forum: https
 msgstr ""
 "Това е колаборативна система, ако се нуждаете от помощ, консултирайте се с нашия форум: "
 "https://forum.biglinux.com.br."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -469,7 +427,6 @@ msgstr ""
 # 
 msgid "Back"
 msgstr "Назад"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -491,7 +448,6 @@ msgstr "Назад"
 # 
 msgid "Maintenance"
 msgstr "Поддръжка"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -513,7 +469,6 @@ msgstr "Поддръжка"
 # 
 msgid "Tools that facilitate the maintenance of the installed system."
 msgstr "Инструменти, които улесняват поддръжката на инсталираната система."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -535,7 +490,6 @@ msgstr "Инструменти, които улесняват поддръжка
 # 
 msgid "Restore"
 msgstr "Възстановяване"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -557,7 +511,6 @@ msgstr "Възстановяване"
 # 
 msgid "Installation"
 msgstr "Инсталиране"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -579,7 +532,6 @@ msgstr "Инсталиране"
 # 
 msgid "The system is in live mode, which has limitations."
 msgstr "Системата е в реално време, която има ограничения."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -601,7 +553,6 @@ msgstr "Системата е в реално време, която има ог
 # 
 msgid "Install it for a complete experience."
 msgstr "Инсталирайте го за пълно изживяване."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -623,7 +574,6 @@ msgstr "Инсталирайте го за пълно изживяване."
 # 
 msgid "Install"
 msgstr "Инсталиране"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -645,7 +595,6 @@ msgstr "Инсталиране"
 # 
 msgid "Minimal"
 msgstr "Минимален"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -667,7 +616,6 @@ msgstr "Минимален"
 # 
 msgid "Choose which programs to install, ensuring a highly customized experience."
 msgstr "Изберете кои програми да инсталирате, като гарантирате високо персонализирано изживяване."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -689,7 +637,6 @@ msgstr "Изберете кои програми да инсталирате, к
 # 
 msgid "Restore system settings"
 msgstr "Възстановяване на системни настройки"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -715,7 +662,6 @@ msgid ""
 msgstr ""
 "Инструмент за улесняване на възстановяването на инсталираната система, особено възстановяването на "
 "системния бут (Grub)."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -737,7 +683,6 @@ msgstr ""
 # 
 msgid "It can also be used to access the package manager and terminal of the installed system."
 msgstr "Тя може да се използва и за достъп до пакетния мениджър и терминала на инсталираната система."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -759,7 +704,6 @@ msgstr "Тя може да се използва и за достъп до па�
 # 
 msgid "Start"
 msgstr "Старт"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -781,7 +725,6 @@ msgstr "Старт"
 # 
 msgid "Snapshot and backups"
 msgstr "Снимка и резервни копия"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -803,7 +746,6 @@ msgstr "Снимка и резервни копия"
 # 
 msgid "Restore restore points of the installed system."
 msgstr "Възстановяване на точките за възстановяване на инсталираната система."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -825,7 +767,6 @@ msgstr "Възстановяване на точките за възстанов
 # 
 msgid "Uncheck the programs you want to remove"
 msgstr "Премахнете отметките на програмите, които искате да премахнете."
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -847,7 +788,6 @@ msgstr "Премахнете отметките на програмите, ко�
 # 
 msgid "Uncheck All"
 msgstr "Премахни всички"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -869,25 +809,20 @@ msgstr "Премахни всички"
 # 
 msgid "Check All"
 msgstr "Провери всички"
-
 msgid "Install System"
 msgstr "Инсталиране на системата"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
 msgid "Manage EFI entries on the motherboard (NVRAM):"
 msgstr "Управление на EFI записи на дънната платка (NVRAM):"
-
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
 msgid "EFI Entry Manager"
 msgstr "EFI Мениджър на Записите"
-
 msgid "Open the EFI manager"
 msgstr "Отворете мениджъра на EFI"
-
 msgid ""
 "\\n"
 "It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
@@ -899,13 +834,10 @@ msgstr ""
 "\n"
 "Проверете EFI мениджъра за записи, които могат да бъдат изтрити, и опитайте отново да инсталирате "
 "системата."
-
 msgid "Don't open QEFIEntryManager..."
 msgstr "Не отваряйте QEFIEntryManager..."
-
 msgid "Log Sent"
 msgstr "Логът е изпратен"
-
 msgid ""
 "Log successfully sent!\\n"
 "\\n"
@@ -918,6 +850,5 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Можете да използвате този URL, за да споделите лог файла."
-
 msgid "Restore points of the installed system."
 msgstr "Точки за възстановяване на инсталираната система."
