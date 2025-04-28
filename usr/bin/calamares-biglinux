@@ -354,6 +354,11 @@ yad --image=drive-harddisk --image-on-top --form --width=500 --height=100 --fixe
     fi
 fi
 
+# fix crc32c-intel in kernel 6.14
+if [ -n "$(uname -r | grep 6.14)" ];then
+    sed -i 's/crc32c-intel/crc32c/' /usr/lib/calamares/modules/initcpiocfg/main.py
+fi
+
 rm -f /tmp/start_calamares
 
 # Launch the BigBashView interface
