@@ -853,5 +853,219 @@ msgstr ""
 "Διεύθυνση URL: $fileUrl\\n"
 "\\n"
 "Μπορείτε να χρησιμοποιήσετε αυτή τη διεύθυνση URL για να μοιραστείτε το αρχείο καταγραφής."
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Restore points of the installed system."
 msgstr "Σημεία επαναφοράς του εγκατεστημένου συστήματος."
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 46
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 156
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 162
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 99
+#: NEEDS WORK
+msgid "BigLinux Calamares Config"
+msgstr "BigLinux Calamares Ρύθμιση"
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 157
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 76
+#: NEEDS WORK
+msgid "System Maintenance"
+msgstr "Συντήρηση Συστήματος"
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 158
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 84
+#: NEEDS WORK
+msgid "Package Selection"
+msgstr "Επιλογή Πακέτου"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 159
+#: NEEDS WORK
+msgid "Installation Tips"
+msgstr "Συμβουλές Εγκατάστασης"
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 169
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 320
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 226
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 234
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 259
+#: NEEDS WORK
+msgid "Starting..."
+msgstr "Αρχή..."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 180
+#: NEEDS WORK
+msgid "EFI Entry Manager started successfully"
+msgstr "Ο διαχειριστής εισόδου EFI ξεκίνησε με επιτυχία."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 182
+#: NEEDS WORK
+msgid "Failed to start EFI Entry Manager"
+msgstr "Αποτυχία εκκίνησης του Διαχειριστή Εισόδου EFI"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 189
+#: NEEDS WORK
+msgid "Error starting EFI Entry Manager"
+msgstr "Σφάλμα κατά την εκκίνηση του Διαχειριστή Εισόδου EFI"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/package_row.py, line: 120
+#: NEEDS WORK
+msgid "Package Information"
+msgstr "Πληροφορίες Πακέτου"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/package_row.py, line: 139
+#: NEEDS WORK
+msgid "Select {} for removal"
+msgstr "Επιλέξτε {} για αφαίρεση"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 116
+#: NEEDS WORK
+msgid "Forum"
+msgstr "Φόρουμ"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 117
+#: NEEDS WORK
+msgid "Documentation"
+msgstr "Τεκμηρίωση"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 128
+#: NEEDS WORK
+msgid "Preferences not implemented yet"
+msgstr "Οι προτιμήσεις δεν έχουν υλοποιηθεί ακόμα."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149
+#: NEEDS WORK
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 167
+#: NEEDS WORK
+#: NEEDS WORK
+msgid "Cancel"
+msgstr "Ακύρωση"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 168
+#: NEEDS WORK
+msgid "Confirm"
+msgstr "Επιβεβαίωση"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 253
+#: NEEDS WORK
+msgid "Installation process will continue with Calamares"
+msgstr "Η διαδικασία εγκατάστασης θα συνεχιστεί με το Calamares."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 262
+#: NEEDS WORK
+msgid "Error proceeding to installation"
+msgstr "Σφάλμα κατά την προχώρηση στην εγκατάσταση"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 123
+#: NEEDS WORK
+msgid "Loading packages..."
+msgstr "Φόρτωση πακέτων..."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 242
+#: NEEDS WORK
+msgid "Failed to load packages: {}"
+msgstr "Αποτυχία φόρτωσης πακέτων: {}"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 291
+#: NEEDS WORK
+msgid "All packages selected"
+msgstr "Όλα τα πακέτα επιλέχθηκαν"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 301
+#: NEEDS WORK
+msgid "All packages deselected"
+msgstr "Όλα τα πακέτα έχουν αποεπιλεγεί"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 315
+#: NEEDS WORK
+msgid "No packages selected for removal"
+msgstr "Δεν έχουν επιλεγεί πακέτα προς αφαίρεση."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 326
+#: NEEDS WORK
+msgid "Invalid package selection"
+msgstr "Μη έγκυρη επιλογή πακέτου"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 345
+#: NEEDS WORK
+msgid "Minimal installation started successfully"
+msgstr "Η ελάχιστη εγκατάσταση ξεκίνησε με επιτυχία."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 349
+#: NEEDS WORK
+msgid "Failed to start minimal installation"
+msgstr "Αποτυχία εκκίνησης ελάχιστης εγκατάστασης"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 355
+#: NEEDS WORK
+msgid "Error starting minimal installation"
+msgstr "Σφάλμα κατά την εκκίνηση της ελάχιστης εγκατάστασης"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 234
+#: NEEDS WORK
+msgid "Installation requirements not met: {}"
+msgstr "Οι απαιτήσεις εγκατάστασης δεν πληρούνται: {}"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 245
+#: NEEDS WORK
+msgid "Installation started successfully"
+msgstr "Η εγκατάσταση ξεκίνησε με επιτυχία"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 249
+#: NEEDS WORK
+msgid "Failed to start installation"
+msgstr "Αποτυχία εκκίνησης εγκατάστασης"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 255
+#: NEEDS WORK
+msgid "Error starting installation"
+msgstr "Σφάλμα κατά την εκκίνηση της εγκατάστασης"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 240
+#: NEEDS WORK
+msgid "System restore tool started successfully"
+msgstr "Το εργαλείο επαναφοράς συστήματος ξεκίνησε με επιτυχία."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 242
+#: NEEDS WORK
+msgid "Failed to start system restore tool"
+msgstr "Αποτυχία εκκίνησης του εργαλείου αποκατάστασης συστήματος"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 249
+#: NEEDS WORK
+msgid "Error starting system restore tool"
+msgstr "Σφάλμα κατά την εκκίνηση του εργαλείου επαναφοράς συστήματος"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 265
+#: NEEDS WORK
+msgid "Snapshot backup tool started successfully"
+msgstr "Το εργαλείο δημιουργίας αντιγράφων ασφαλείας στιγμιότυπου ξεκίνησε με επιτυχία."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 267
+#: NEEDS WORK
+msgid "Failed to start snapshot backup tool"
+msgstr "Αποτυχία εκκίνησης εργαλείου δημιουργίας αντιγράφων ασφαλείας στιγμιότυπου"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 274
+#: NEEDS WORK
+msgid "Error starting snapshot backup tool"
+msgstr "Σφάλμα κατά την εκκίνηση του εργαλείου δημιουργίας αντιγράφων ασφαλείας στιγμιότυπου"

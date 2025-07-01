@@ -854,5 +854,219 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Je kunt deze URL gebruiken om de log te delen."
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Restore points of the installed system."
 msgstr "Herstelpunten van het geïnstalleerde systeem."
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 46
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 156
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 162
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 99
+#: NEEDS WORK
+msgid "BigLinux Calamares Config"
+msgstr "BigLinux Calamares Config"
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 157
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 76
+#: NEEDS WORK
+msgid "System Maintenance"
+msgstr "Systeemonderhoud"
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 158
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 84
+#: NEEDS WORK
+msgid "Package Selection"
+msgstr "Pakketselectie"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 159
+#: NEEDS WORK
+msgid "Installation Tips"
+msgstr "Installatietips"
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 169
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 320
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 226
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 234
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 259
+#: NEEDS WORK
+msgid "Starting..."
+msgstr "Starten..."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 180
+#: NEEDS WORK
+msgid "EFI Entry Manager started successfully"
+msgstr "EFI-invoergestuurder is succesvol gestart"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 182
+#: NEEDS WORK
+msgid "Failed to start EFI Entry Manager"
+msgstr "Kon het EFI Entry Manager niet starten."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 189
+#: NEEDS WORK
+msgid "Error starting EFI Entry Manager"
+msgstr "Fout bij het starten van EFI Entry Manager"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/package_row.py, line: 120
+#: NEEDS WORK
+msgid "Package Information"
+msgstr "Pakketinformatie"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/package_row.py, line: 139
+#: NEEDS WORK
+msgid "Select {} for removal"
+msgstr "Selecteer {} voor verwijdering"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 116
+#: NEEDS WORK
+msgid "Forum"
+msgstr "Forum"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 117
+#: NEEDS WORK
+msgid "Documentation"
+msgstr "Documentatie"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 128
+#: NEEDS WORK
+msgid "Preferences not implemented yet"
+msgstr "Voorkeuren nog niet geïmplementeerd"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149
+#: NEEDS WORK
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 167
+#: NEEDS WORK
+#: NEEDS WORK
+msgid "Cancel"
+msgstr "Annuleren"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 168
+#: NEEDS WORK
+msgid "Confirm"
+msgstr "Bevestigen"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 253
+#: NEEDS WORK
+msgid "Installation process will continue with Calamares"
+msgstr "Het installatieproces gaat verder met Calamares."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 262
+#: NEEDS WORK
+msgid "Error proceeding to installation"
+msgstr "Fout bij het doorgaan met de installatie"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 123
+#: NEEDS WORK
+msgid "Loading packages..."
+msgstr "Pakketten laden..."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 242
+#: NEEDS WORK
+msgid "Failed to load packages: {}"
+msgstr "Pakketten laden is mislukt: {}"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 291
+#: NEEDS WORK
+msgid "All packages selected"
+msgstr "Alle geselecteerde pakketten"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 301
+#: NEEDS WORK
+msgid "All packages deselected"
+msgstr "Alle pakketten niet geselecteerd"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 315
+#: NEEDS WORK
+msgid "No packages selected for removal"
+msgstr "Geen pakketten geselecteerd voor verwijdering"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 326
+#: NEEDS WORK
+msgid "Invalid package selection"
+msgstr "Ongeldige pakketselectie"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 345
+#: NEEDS WORK
+msgid "Minimal installation started successfully"
+msgstr "Minimale installatie is succesvol gestart."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 349
+#: NEEDS WORK
+msgid "Failed to start minimal installation"
+msgstr "Mislukt om minimale installatie te starten"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 355
+#: NEEDS WORK
+msgid "Error starting minimal installation"
+msgstr "Fout bij het starten van minimale installatie"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 234
+#: NEEDS WORK
+msgid "Installation requirements not met: {}"
+msgstr "Installatievereisten niet voldaan: {}"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 245
+#: NEEDS WORK
+msgid "Installation started successfully"
+msgstr "Installatie is succesvol gestart"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 249
+#: NEEDS WORK
+msgid "Failed to start installation"
+msgstr "Installatie is mislukt om te starten."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 255
+#: NEEDS WORK
+msgid "Error starting installation"
+msgstr "Fout bij het starten van de installatie"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 240
+#: NEEDS WORK
+msgid "System restore tool started successfully"
+msgstr "Systeemhersteltool succesvol gestart"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 242
+#: NEEDS WORK
+msgid "Failed to start system restore tool"
+msgstr "Het starten van de systeemhersteltool is mislukt."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 249
+#: NEEDS WORK
+msgid "Error starting system restore tool"
+msgstr "Fout bij het starten van de systeemhersteltool"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 265
+#: NEEDS WORK
+msgid "Snapshot backup tool started successfully"
+msgstr "Snapshot-back-up-tool succesvol gestart"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 267
+#: NEEDS WORK
+msgid "Failed to start snapshot backup tool"
+msgstr "Het starten van de snapshot-backuptool is mislukt."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 274
+#: NEEDS WORK
+msgid "Error starting snapshot backup tool"
+msgstr "Fout bij het starten van de snapshot-backuptool"

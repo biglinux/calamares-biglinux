@@ -847,5 +847,218 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Ezt az URL-t használhatja a napló megosztásához."
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Restore points of the installed system."
 msgstr "A telepített rendszer visszaállítási pontjai."
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 46
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 156
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 162
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 99
+#: NEEDS WORK
+msgid "BigLinux Calamares Config"
+msgstr "BigLinux Calamares Beállítás"
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 157
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 76
+#: NEEDS WORK
+msgid "System Maintenance"
+msgstr "Rendszerkarbantartás"
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 158
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 84
+#: NEEDS WORK
+msgid "Package Selection"
+msgstr "Csomagválasztás"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 159
+#: NEEDS WORK
+msgid "Installation Tips"
+msgstr "Telepítési tippek"
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 169
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 320
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 226
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 234
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 259
+#: NEEDS WORK
+msgid "Starting..."
+msgstr "Indulás..."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 180
+#: NEEDS WORK
+msgid "EFI Entry Manager started successfully"
+msgstr "EFI Bejegyzéskezelő sikeresen elindult"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 182
+#: NEEDS WORK
+msgid "Failed to start EFI Entry Manager"
+msgstr "Nem sikerült elindítani az EFI Bejegyzéskezelőt."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 189
+#: NEEDS WORK
+msgid "Error starting EFI Entry Manager"
+msgstr "Hiba az EFI Bejegyzéskezelő indításakor"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/package_row.py, line: 120
+#: NEEDS WORK
+msgid "Package Information"
+msgstr "Csomag információ"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/package_row.py, line: 139
+#: NEEDS WORK
+msgid "Select {} for removal"
+msgstr "Válassza ki a {} eltávolításához"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 116
+#: NEEDS WORK
+msgid "Forum"
+msgstr "Fórum"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 117
+#: NEEDS WORK
+msgid "Documentation"
+msgstr "Dokumentáció"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 128
+#: NEEDS WORK
+msgid "Preferences not implemented yet"
+msgstr "A beállítások még nincsenek megvalósítva."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149
+#: NEEDS WORK
+msgid "OK"
+msgstr "Rendben"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 167
+#: NEEDS WORK
+msgid "Cancel"
+msgstr "Mégse"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 168
+#: NEEDS WORK
+msgid "Confirm"
+msgstr "Megerősítjük"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 253
+#: NEEDS WORK
+msgid "Installation process will continue with Calamares"
+msgstr "A telepítési folyamat a Calamaresszel folytatódik."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 262
+#: NEEDS WORK
+msgid "Error proceeding to installation"
+msgstr "Hiba történt a telepítés folytatása során"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 123
+#: NEEDS WORK
+msgid "Loading packages..."
+msgstr "Csomagok betöltése..."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 242
+#: NEEDS WORK
+msgid "Failed to load packages: {}"
+msgstr "A csomagok betöltése nem sikerült: {}"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 291
+#: NEEDS WORK
+msgid "All packages selected"
+msgstr "Minden csomag kiválasztva"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 301
+#: NEEDS WORK
+msgid "All packages deselected"
+msgstr "Minden csomag ki van választva."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 315
+#: NEEDS WORK
+msgid "No packages selected for removal"
+msgstr "Nincs eltávolításra kiválasztott csomag."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 326
+#: NEEDS WORK
+msgid "Invalid package selection"
+msgstr "Érvénytelen csomagválasztás"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 345
+#: NEEDS WORK
+msgid "Minimal installation started successfully"
+msgstr "A minimális telepítés sikeresen elindult."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 349
+#: NEEDS WORK
+msgid "Failed to start minimal installation"
+msgstr "A minimális telepítés indítása nem sikerült"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 355
+#: NEEDS WORK
+msgid "Error starting minimal installation"
+msgstr "Hiba a minimális telepítés indításakor"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 234
+#: NEEDS WORK
+msgid "Installation requirements not met: {}"
+msgstr "A telepítési követelmények nem teljesültek: {}"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 245
+#: NEEDS WORK
+msgid "Installation started successfully"
+msgstr "A telepítés sikeresen megkezdődött."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 249
+#: NEEDS WORK
+msgid "Failed to start installation"
+msgstr "A telepítés indítása nem sikerült"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 255
+#: NEEDS WORK
+msgid "Error starting installation"
+msgstr "Hiba a telepítés indításakor"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 240
+#: NEEDS WORK
+msgid "System restore tool started successfully"
+msgstr "A rendszer-visszaállító eszköz sikeresen elindult."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 242
+#: NEEDS WORK
+msgid "Failed to start system restore tool"
+msgstr "A rendszer-visszaállító eszköz indítása nem sikerült."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 249
+#: NEEDS WORK
+msgid "Error starting system restore tool"
+msgstr "Hiba a rendszer-visszaállító eszköz indításakor"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 265
+#: NEEDS WORK
+msgid "Snapshot backup tool started successfully"
+msgstr "A pillanatkép biztonsági mentési eszköz sikeresen elindult."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 267
+#: NEEDS WORK
+msgid "Failed to start snapshot backup tool"
+msgstr "A pillanatkép biztonsági mentési eszköz indítása nem sikerült."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 274
+#: NEEDS WORK
+msgid "Error starting snapshot backup tool"
+msgstr "Hiba a pillanatkép biztonsági mentési eszköz indításakor"
