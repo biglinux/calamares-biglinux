@@ -847,5 +847,217 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Toto URL můžete použít ke sdílení žurnálu."
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
 msgid "Restore points of the installed system."
 msgstr "Obnovení bodů nainstalovaného systému."
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 46
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 156
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 162
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 99
+#: NEEDS WORK
+msgid "BigLinux Calamares Config"
+msgstr "BigLinux Calamares Konfigurace"
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 157
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 76
+#: NEEDS WORK
+msgid "System Maintenance"
+msgstr "Údržba systému"
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 158
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 84
+#: NEEDS WORK
+msgid "Package Selection"
+msgstr "Výběr balíčku"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 159
+#: NEEDS WORK
+msgid "Installation Tips"
+msgstr "Tipy pro instalaci"
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 169
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 320
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 226
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 234
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 259
+#: NEEDS WORK
+msgid "Starting..."
+msgstr "Spouštění..."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 180
+#: NEEDS WORK
+msgid "EFI Entry Manager started successfully"
+msgstr "EFI správce záznamů byl úspěšně spuštěn"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 182
+#: NEEDS WORK
+msgid "Failed to start EFI Entry Manager"
+msgstr "Nepodařilo se spustit správce záznamu EFI."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 189
+#: NEEDS WORK
+msgid "Error starting EFI Entry Manager"
+msgstr "Chyba při spuštění správce záznamů EFI"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/package_row.py, line: 120
+#: NEEDS WORK
+msgid "Package Information"
+msgstr "Informace o balíčku"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/package_row.py, line: 139
+#: NEEDS WORK
+msgid "Select {} for removal"
+msgstr "Vyberte {} k odstranění"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 116
+#: NEEDS WORK
+msgid "Forum"
+msgstr "Fórum"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 117
+#: NEEDS WORK
+msgid "Documentation"
+msgstr "Dokumentace"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 128
+#: NEEDS WORK
+msgid "Preferences not implemented yet"
+msgstr "Nastavení zatím nebylo implementováno."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149
+#: NEEDS WORK
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 167
+#: NEEDS WORK
+#: NEEDS WORK
+msgid "Cancel"
+msgstr "Zrušit"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 168
+#: NEEDS WORK
+msgid "Confirm"
+msgstr "Potvrdit"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 253
+#: NEEDS WORK
+msgid "Installation process will continue with Calamares"
+msgstr "Instalační proces bude pokračovat s Calamares."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 262
+#: NEEDS WORK
+msgid "Error proceeding to installation"
+msgstr "Chyba při pokračování v instalaci"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 123
+#: NEEDS WORK
+msgid "Loading packages..."
+msgstr "Načítání balíčků..."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 242
+#: NEEDS WORK
+msgid "Failed to load packages: {}"
+msgstr "Nepodařilo se načíst balíčky: {}"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 291
+#: NEEDS WORK
+msgid "All packages selected"
+msgstr "Všechny vybrané balíčky"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 301
+#: NEEDS WORK
+msgid "All packages deselected"
+msgstr "Všechny balíčky byly zrušeny."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 315
+#: NEEDS WORK
+msgid "No packages selected for removal"
+msgstr "Žádné balíčky nebyly vybrány k odstranění."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 326
+#: NEEDS WORK
+msgid "Invalid package selection"
+msgstr "Neplatný výběr balíčku"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 345
+#: NEEDS WORK
+msgid "Minimal installation started successfully"
+msgstr "Minimální instalace byla úspěšně zahájena."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 349
+#: NEEDS WORK
+msgid "Failed to start minimal installation"
+msgstr "Nepodařilo se spustit minimální instalaci"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 355
+#: NEEDS WORK
+msgid "Error starting minimal installation"
+msgstr "Chyba při spuštění minimální instalace"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 234
+#: NEEDS WORK
+msgid "Installation requirements not met: {}"
+msgstr "Požadavky na instalaci nejsou splněny: {}"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 245
+#: NEEDS WORK
+msgid "Installation started successfully"
+msgstr "Instalace byla úspěšně zahájena."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 249
+#: NEEDS WORK
+msgid "Failed to start installation"
+msgstr "Nepodařilo se spustit instalaci"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 255
+#: NEEDS WORK
+msgid "Error starting installation"
+msgstr "Chyba při spuštění instalace"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 240
+#: NEEDS WORK
+msgid "System restore tool started successfully"
+msgstr "Nástroj pro obnovení systému byl úspěšně spuštěn."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 242
+#: NEEDS WORK
+msgid "Failed to start system restore tool"
+msgstr "Nepodařilo se spustit nástroj pro obnovení systému"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 249
+#: NEEDS WORK
+msgid "Error starting system restore tool"
+msgstr "Chyba při spuštění nástroje pro obnovení systému"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 265
+#: NEEDS WORK
+msgid "Snapshot backup tool started successfully"
+msgstr "Nástroj pro zálohování snapshotů byl úspěšně spuštěn."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 267
+#: NEEDS WORK
+msgid "Failed to start snapshot backup tool"
+msgstr "Nepodařilo se spustit nástroj pro zálohování snímků."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 274
+#: NEEDS WORK
+msgid "Error starting snapshot backup tool"
+msgstr "Chyba při spuštění nástroje pro zálohování snímků"
