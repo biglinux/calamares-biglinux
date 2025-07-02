@@ -14,7 +14,6 @@ gi.require_version('Adw', '1')
 from gi.repository import Gtk, Adw, GObject
 from ..utils.i18n import _
 from ..services import get_system_service, get_install_service
-from ..widgets import OptionCard, SystemInfoWidget
 
 
 class MainPage(Gtk.Box):
@@ -27,7 +26,7 @@ class MainPage(Gtk.Box):
     def __init__(self):
         super().__init__(
             orientation=Gtk.Orientation.VERTICAL,
-            spacing=24,  # Adds space between the main cards and the bottom info bar
+            spacing=24,
             halign=Gtk.Align.FILL,
             valign=Gtk.Align.FILL,
             hexpand=True,
@@ -40,9 +39,6 @@ class MainPage(Gtk.Box):
 
         self.add_css_class("main-page")
         
-        # Design Justification: Add margins around the entire page content
-        # to prevent elements from touching the window edges, creating a more
-        # balanced and professional layout as seen in the reference image.
         self.set_margin_top(24)
         self.set_margin_bottom(24)
         self.set_margin_start(24)
@@ -50,6 +46,97 @@ class MainPage(Gtk.Box):
 
         self.create_content()
         self.logger.debug("MainPage initialized")
+
+    def _create_option_card(self, icon_name, title, description, button_text, button_style, callback, description2=None):
+        """Factory function to create a card widget."""
+        card_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=16)
+        card_box.set_size_request(280, 320)
+        card_box.set_valign(Gtk.Align.CENTER)
+        card_box.set_halign(Gtk.Align.CENTER)
+
+        card_bin = Adw.Bin()
+        card_bin.add_css_class("card")
+        card_box.append(card_bin)
+
+        content_box = Gtk.Box(
+            orientation=Gtk.Orientation.VERTICAL,
+            spacing=16,
+            halign=Gtk.Align.FILL,
+            valign=Gtk.Align.FILL,
+            hexpand=True,
+            vexpand=True,
+            margin_top=24, margin_bottom=24, margin_start=24, margin_end=24
+        )
+        card_bin.set_child(content_box)
+
+        icon = Gtk.Image.new_from_icon_name(icon_name)
+        icon.set_pixel_size(64)
+        icon.add_css_class("option-icon")
+        content_box.append(icon)
+
+        title_label = Gtk.Label(label=title, halign=Gtk.Align.CENTER)
+        title_label.add_css_class("title-2")
+        content_box.append(title_label)
+
+        desc_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=4, vexpand=True, valign=Gtk.Align.CENTER)
+        content_box.append(desc_box)
+        
+        desc_label = Gtk.Label(
+            label=description, wrap=True, justify=Gtk.Justification.CENTER,
+            halign=Gtk.Align.CENTER, max_width_chars=35
+        )
+        desc_label.add_css_class("body")
+        desc_box.append(desc_label)
+
+        if description2:
+            desc2_label = Gtk.Label(
+                label=description2, wrap=True, justify=Gtk.Justification.CENTER,
+                halign=Gtk.Align.CENTER, max_width_chars=35
+            )
+            desc2_label.add_css_class("body")
+            desc_box.append(desc2_label)
+
+        button = Gtk.Button(label=button_text, halign=Gtk.Align.CENTER, valign=Gtk.Align.END)
+        button.add_css_class(button_style)
+        button.add_css_class("pill")
+        button.connect("clicked", callback)
+        content_box.append(button)
+        
+        # Store button for later access if needed
+        card_box.action_button = button
+        return card_box
+
+    def _create_system_info_bar(self):
+        """Factory function to create the system info bar."""
+        system_info_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=4)
+        system_info_box.set_margin_top(8)
+        system_info_box.set_margin_bottom(8)
+        system_info_box.set_margin_start(12)
+        system_info_box.set_margin_end(12)
+
+        boot_mode = self.system_service.get_boot_mode()
+        kernel_version = self.system_service.get_kernel_version()
+        session_type = self.system_service.get_session_type()
+        
+        markup = (
+            f"{_('The system is in')} <b>{boot_mode}</b>, "
+            f"Linux <b>{kernel_version}</b> {_('and graphical mode')} <b>{session_type}</b>."
+        )
+        
+        info_label = Gtk.Label(
+            use_markup=True, label=markup, wrap=True,
+            justify=Gtk.Justification.CENTER, halign=Gtk.Align.CENTER
+        )
+        system_info_box.append(info_label)
+
+        forum_link = Gtk.LinkButton(
+            uri="https://forum.biglinux.com.br",
+            label=_("This is a collaborative system, if you need help consult our forum.")
+        )
+        forum_link.set_halign(Gtk.Align.CENTER)
+        system_info_box.append(forum_link)
+        
+        return system_info_box
 
     def create_content(self):
         """Create the main page content."""
@@ -72,55 +159,52 @@ class MainPage(Gtk.Box):
         )
         clamp.set_child(grid_box)
 
-        maintenance_card = OptionCard(
+        maintenance_card = self._create_option_card(
             icon_name="applications-utilities",
             title=_("Maintenance"),
             description=_("Tools that facilitate the maintenance of the installed system."),
             button_text=_("Restore"),
-            button_style="secondary"
+            button_style="secondary",
+            callback=self.on_maintenance_clicked
         )
-        maintenance_card.connect('clicked', self.on_maintenance_clicked)
         grid_box.append(maintenance_card)
 
-        installation_card = OptionCard(
+        self.installation_card = self._create_option_card(
             icon_name="system-software-install",
             title=_("Installation"),
             description=_("The system is in live mode, which has limitations."),
             description2=_("Install it for a complete experience."),
             button_text=_("Install"),
-            button_style="suggested-action"
+            button_style="suggested-action",
+            callback=self.on_installation_clicked
         )
-        installation_card.connect('clicked', self.on_installation_clicked)
-        grid_box.append(installation_card)
+        grid_box.append(self.installation_card)
 
-        minimal_card = OptionCard(
+        minimal_card = self._create_option_card(
             icon_name="preferences-system",
             title=_("Minimal"),
             description=_("Remove pre-selected software to create a lean, personalized system."),
             button_text=_("Continue"),
-            button_style="secondary"
+            button_style="secondary",
+            callback=self.on_minimal_clicked
         )
-        minimal_card.connect('clicked', self.on_minimal_clicked)
         grid_box.append(minimal_card)
         
-        # Add system info widget at the bottom
         system_info_container = Gtk.Box(
             orientation=Gtk.Orientation.VERTICAL,
             valign=Gtk.Align.END,
             vexpand=False
         )
         self.append(system_info_container)
-        system_info_widget = SystemInfoWidget()
+        system_info_widget = self._create_system_info_bar()
         system_info_container.append(system_info_widget)
 
-
-    def on_maintenance_clicked(self, card):
+    def on_maintenance_clicked(self, button):
         self.logger.info("Maintenance option selected")
         self.emit('navigate', 'maintenance', None)
 
-    def on_installation_clicked(self, card):
+    def on_installation_clicked(self, button):
         self.logger.info("Installation option selected")
-        button = card.get_action_button()
         try:
             button.set_sensitive(False)
             button.set_label(_("Starting..."))
@@ -141,7 +225,7 @@ class MainPage(Gtk.Box):
             self.show_error_message(_("Error starting installation"))
             self.reset_button_state(button, _("Install"))
 
-    def on_minimal_clicked(self, card):
+    def on_minimal_clicked(self, button):
         self.logger.info("Minimal installation option selected")
         self.emit('navigate', 'minimal', None)
 

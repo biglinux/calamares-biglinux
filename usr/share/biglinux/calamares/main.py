@@ -57,23 +57,6 @@ def setup_translations():
 
         builtins.__dict__["_"] = lambda x: x
 
-
-def check_dependencies():
-    """Check if required system dependencies are available"""
-    required_commands = ["pacman", "calamares"]
-    missing = []
-
-    for cmd in required_commands:
-        if os.system(f"command -v {cmd} >/dev/null 2>&1") != 0:
-            missing.append(cmd)
-
-    if missing:
-        logging.error(f"Missing required commands: {', '.join(missing)}")
-        return False
-
-    return True
-
-
 def load_custom_css():
     """Load custom CSS for application-wide styling."""
     css_provider = Gtk.CssProvider()
@@ -104,11 +87,6 @@ def main():
 
         # Setup translations
         setup_translations()
-
-        # Check system dependencies
-        if not check_dependencies():
-            logger.error("System dependencies check failed")
-            sys.exit(1)
 
         # Initialize Adwaita
         Adw.init()

@@ -11,10 +11,10 @@ import gi
 gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 
-from gi.repository import Gtk, Adw, GObject, GLib
+from gi.repository import Gtk, Adw, GObject, GLib, GdkPixbuf
 from ..utils.i18n import _
 from ..services import get_package_service, get_install_service
-from ..widgets import PackageRowWidget
+from ..services.package_service import Package
 
 
 class MinimalPage(Gtk.Box):
@@ -29,8 +29,10 @@ class MinimalPage(Gtk.Box):
         self.logger = logging.getLogger(__name__)
         self.package_service = get_package_service()
         self.install_service = get_install_service()
-        self.packages = []
-        self.package_widgets = []
+        
+        self.packages = []  # The data model: list of Package objects
+        self.package_rows = {} # The view: maps package name to its Adw.ActionRow
+
         self.loading_box = None
         self.packages_listbox = None
         self.add_css_class("minimal-page")
@@ -40,7 +42,6 @@ class MinimalPage(Gtk.Box):
 
     def create_content(self):
         """Create the minimal page content with proper Adwaita layout."""
-        # The instructional text is now moved to the window title, so the header box is removed.
         scrolled = Gtk.ScrolledWindow(vexpand=True)
         scrolled.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
         self.append(scrolled)
@@ -62,7 +63,6 @@ class MinimalPage(Gtk.Box):
 
         self.packages_listbox = Gtk.ListBox(selection_mode=Gtk.SelectionMode.NONE, visible=False)
         self.packages_listbox.add_css_class("boxed-list")
-        # Add vertical spacing for a cleaner layout
         self.packages_listbox.set_margin_top(12)
         self.packages_listbox.set_margin_bottom(12)
         content_box.append(self.packages_listbox)
@@ -79,17 +79,71 @@ class MinimalPage(Gtk.Box):
         import threading
         threading.Thread(target=load_async, daemon=True).start()
 
-    def on_packages_loaded(self, packages):
+    def on_packages_loaded(self, packages: list[Package]):
         self.packages = packages
         self.logger.info(f"Loaded {len(packages)} packages")
+        
+        # Clear previous state
+        self.package_rows.clear()
+        child = self.packages_listbox.get_first_child()
+        while child:
+            self.packages_listbox.remove(child)
+            child = self.packages_listbox.get_first_child()
+
         self.loading_box.set_visible(False)
         self.packages_listbox.set_visible(True)
+
         for package in self.packages:
-            # Default to all packages being kept (switch ON).
-            package.selected = True
-            package_widget = PackageRowWidget(package)
-            self.packages_listbox.append(package_widget)
-            self.package_widgets.append(package_widget)
+            package.selected = True # Default to keep all
+            row = self._create_package_row(package)
+            self.packages_listbox.append(row)
+            self.package_rows[package.name] = row
+
+    def _create_package_row(self, package: Package) -> Adw.ActionRow:
+        """Factory function to create a package row."""
+        row = Adw.ActionRow(title=package.name, title_lines=1, subtitle="")
+        row.add_css_class("package-row")
+
+        icon_image = Gtk.Image()
+        icon_image.set_pixel_size(36)
+        try:
+            if package.icon and package.icon.startswith('/'):
+                pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_scale(package.icon, 36, 36, True)
+                icon_image.set_from_pixbuf(pixbuf)
+            elif package.icon:
+                icon_image.set_from_icon_name(package.icon)
+            else:
+                icon_image.set_from_icon_name("package-x-generic")
+        except Exception as e:
+            self.logger.warning(f"Failed to load icon for {package.name}: {e}")
+            icon_image.set_from_icon_name("package-x-generic")
+        
+        row.add_prefix(icon_image)
+
+        switch = Gtk.Switch(valign=Gtk.Align.CENTER, active=package.selected)
+        switch.connect("notify::active", self.on_package_toggled, package)
+        row.add_suffix(switch)
+        row.set_activatable_widget(switch)
+
+        self._update_row_style(row, package.selected)
+        return row
+
+    def on_package_toggled(self, switch: Gtk.Switch, _, package: Package):
+        """Handle switch toggle for a package."""
+        to_keep = switch.get_active()
+        package.selected = to_keep
+        self.logger.debug(f"Package {package.name} will be kept: {to_keep}")
+        
+        row = self.package_rows.get(package.name)
+        if row:
+            self._update_row_style(row, to_keep)
+
+    def _update_row_style(self, row: Adw.ActionRow, to_keep: bool):
+        """Update visual state. Dim items that will be REMOVED (switch is OFF)."""
+        if to_keep:
+            row.remove_css_class("dim-label")
+        else:
+            row.add_css_class("dim-label")
 
     def on_packages_load_error(self, error_message):
         self.loading_box.get_first_child().stop()
@@ -106,15 +160,20 @@ class MinimalPage(Gtk.Box):
         self.set_all_selected(False)
         self.show_success_message(_("All optional programs selected for removal"))
 
-    def set_all_selected(self, selected):
-        for widget in self.package_widgets:
-            widget.set_selected(selected)
+    def set_all_selected(self, selected: bool):
+        for package in self.packages:
+            package.selected = selected
+        
+        for name, row in self.package_rows.items():
+            switch = row.get_activatable_widget()
+            if switch and switch.get_active() != selected:
+                switch.set_active(selected)
+            self._update_row_style(row, selected)
 
     def do_continue_action(self, button):
         """This method is called by the main window's continue button."""
         self.logger.info("Continue with minimal installation")
-        # Collect packages where the switch is OFF (selected=False means 'do not keep')
-        packages_to_remove = [w.get_package_name() for w in self.package_widgets if not w.get_selected()]
+        packages_to_remove = [pkg.name for pkg in self.packages if not pkg.selected]
 
         if not packages_to_remove:
             self.show_success_message(_("No programs selected for removal. Proceeding with standard installation."))
@@ -159,7 +218,7 @@ class MinimalPage(Gtk.Box):
 
     def cleanup(self):
         self.logger.debug("MinimalPage cleanup")
-        self.package_widgets.clear()
+        self.package_rows.clear()
         self.packages.clear()
 
 GObject.type_register(MinimalPage)
