@@ -9,7 +9,7 @@ from .i18n import _, setup_i18n
 # Import constants
 from .constants import (
     APP_NAME,
-    APP_ID, 
+    APP_ID,
     APP_VERSION,
     DATA_DIR,
     CALAMARES_CONFIG_DIR,
@@ -20,12 +20,10 @@ from .constants import (
     TEMP_FILES,
     COMMANDS,
     DEFAULTS,
-    INSTALLATION_OPTIONS,
     CALAMARES_CONFIGS,
     UI_SETTINGS,
     ERROR_MESSAGES,
     SUCCESS_MESSAGES,
-    URLS
 )
 
 # Import helper functions
@@ -42,8 +40,7 @@ from .helpers import (
     human_readable_size,
     cleanup_temp_files,
     validate_package_name,
-    get_file_modification_time,
-    truncate_text
+    truncate_text,
 )
 
 # Import shell execution utilities
@@ -59,7 +56,7 @@ from .shell import (
     pacman_query_installed,
     check_package_installed,
     get_system_info,
-    get_package_icon
+    get_package_icon,
 )
 
 # Package metadata
@@ -72,11 +69,10 @@ __all__ = [
     # Translation
     "_",
     "setup_i18n",
-    
     # Constants (most commonly used)
     "APP_NAME",
     "APP_ID",
-    "APP_VERSION", 
+    "APP_VERSION",
     "DATA_DIR",
     "CALAMARES_CONFIG_DIR",
     "BIGBASHVIEW_APPS_DIR",
@@ -86,7 +82,6 @@ __all__ = [
     "DEFAULTS",
     "ERROR_MESSAGES",
     "SUCCESS_MESSAGES",
-    
     # Helper functions
     "load_json_file",
     "save_json_file",
@@ -101,7 +96,6 @@ __all__ = [
     "cleanup_temp_files",
     "validate_package_name",
     "truncate_text",
-    
     # Shell utilities
     "CommandResult",
     "ShellExecutor",
@@ -114,7 +108,7 @@ __all__ = [
     "pacman_query_installed",
     "check_package_installed",
     "get_system_info",
-    "get_package_icon"
+    "get_package_icon",
 ]
 
 
@@ -122,12 +116,13 @@ def initialize_utils():
     """Initialize utilities package - call this at application startup"""
     # Setup translations
     setup_i18n()
-    
+
     # Ensure required directories exist
     ensure_directory(DATA_DIR)
-    
+
     # Log initialization
     import logging
+
     logger = logging.getLogger(__name__)
     logger.info("Utils package initialized")
 
@@ -136,12 +131,13 @@ def cleanup_utils():
     """Cleanup utilities package - call this at application shutdown"""
     # Cleanup shell resources
     cleanup_shell_resources()
-    
+
     # Cleanup any temporary files if needed
     temp_file_list = list(TEMP_FILES.values())
     cleanup_temp_files(temp_file_list)
-    
+
     # Log cleanup
     import logging
+
     logger = logging.getLogger(__name__)
     logger.info("Utils package cleaned up")

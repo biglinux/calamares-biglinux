@@ -1,8 +1,9 @@
+# src/utils/constants.py
+
 """
 Constants and configuration values for BigLinux Calamares Configuration Tool
 """
 
-import os
 from pathlib import Path
 
 # Application Information
@@ -28,13 +29,13 @@ BIGBASHVIEW_APPS_DIR = Path("/usr/share/bigbashview/apps/calamares")
 # Temporary Files (used by installation process)
 TEMP_FILES = {
     "wait_install": TEMP_DIR / "biglinux-wait-install",
-    "start_calamares": TEMP_DIR / "start_calamares", 
+    "start_calamares": TEMP_DIR / "start_calamares",
     "installed_packages": TEMP_DIR / "big-installed-packages.txt",
     "available_to_remove": TEMP_DIR / "pkgAvaliableToRemove.txt",
     "packages_to_remove": TEMP_DIR / "listPkgsRemove",
     "packages_no_remove": TEMP_DIR / "listPkgsNoRemove.txt",
     "package_remove_list": TEMP_DIR / "packageRemove",
-    "package_install_list": TEMP_DIR / "packageInstallList"
+    "package_install_list": TEMP_DIR / "packageInstallList",
 }
 
 # System Commands
@@ -46,15 +47,12 @@ COMMANDS = {
     "efi_check": "[ -d /sys/firmware/efi ]",
     "grub_restore": "biglinux-grub-restore",
     "timeshift": "timeshift-launcher",
-    "efi_manager": "sudo QEFIEntryManager",
-    "calamares": "calamares"
+    "efi_manager": "qefientrymanager-launcher",
+    "calamares": "calamares",
 }
 
 # File System Types
-FILESYSTEM_TYPES = {
-    "btrfs": "btrfs",
-    "ext4": "ext4"
-}
+FILESYSTEM_TYPES = {"btrfs": "btrfs", "ext4": "ext4"}
 
 # Default Settings
 DEFAULTS = {
@@ -63,22 +61,22 @@ DEFAULTS = {
     "partition_table": "gpt",
     "efi_partition": "/boot/efi",
     "icon_size": 48,
-    "window_width": 800,
-    "window_height": 600,
+    "window_width": 1080,
+    "window_height": 640,
     "min_window_width": 600,
-    "min_window_height": 400
+    "min_window_height": 400,
 }
 
 # Installation Options
 INSTALLATION_OPTIONS = {
     "btrfs": {
         "filesystem": "btrfs",
-        "config_source": BIGBASHVIEW_APPS_DIR / "partition.conf"
+        "config_source": BIGBASHVIEW_APPS_DIR / "partition.conf",
     },
     "ext4": {
-        "filesystem": "ext4", 
-        "config_source": BIGBASHVIEW_APPS_DIR / "partition.conf"
-    }
+        "filesystem": "ext4",
+        "config_source": BIGBASHVIEW_APPS_DIR / "partition.conf",
+    },
 }
 
 # Calamares Configuration Files
@@ -87,46 +85,42 @@ CALAMARES_CONFIGS = {
     "partition": CALAMARES_MODULES_DIR / "partition.conf",
     "packages": CALAMARES_MODULES_DIR / "packages.conf",
     "unpackfs": CALAMARES_MODULES_DIR / "unpackfs.conf",
-    "shellprocess_pacman": CALAMARES_MODULES_DIR / "shellprocess_initialize_pacman.conf",
-    "shellprocess_display": CALAMARES_MODULES_DIR / "shellprocess_displaymanager_biglinux.conf"
+    "shellprocess_pacman": CALAMARES_MODULES_DIR
+    / "shellprocess_initialize_pacman.conf",
+    "shellprocess_display": CALAMARES_MODULES_DIR
+    / "shellprocess_displaymanager_biglinux.conf",
 }
 
 # System Detection Patterns
 SYSTEM_PATTERNS = {
     "sfs_folders": ["manjaro", "$HOSTNAME"],
     "sfs_exclude": ["/efi/", "/boot/"],
-    "boot_modes": {
-        "uefi": "UEFI",
-        "bios": "BIOS (Legacy)"
-    },
-    "session_types": {
-        "wayland": "Wayland",
-        "x11": "X11"
-    }
+    "boot_modes": {"uefi": "UEFI", "bios": "BIOS (Legacy)"},
+    "session_types": {"wayland": "Wayland", "x11": "X11"},
 }
 
 # Package Categories (for future netinstall support)
 PACKAGE_CATEGORIES = {
     "image": {
         "name": "Image Editing",
-        "packages": ["gimp", "inkscape", "krita", "darktable"]
+        "packages": ["gimp", "inkscape", "krita", "darktable"],
     },
     "video": {
-        "name": "Video Editing", 
-        "packages": ["kdenlive", "shotcut", "blender", "obs-studio"]
+        "name": "Video Editing",
+        "packages": ["kdenlive", "shotcut", "blender", "obs-studio"],
     },
     "audio": {
         "name": "Audio Production",
-        "packages": ["audacity", "ardour", "lmms", "musescore"]
+        "packages": ["audacity", "ardour", "lmms", "musescore"],
     },
     "cad": {
         "name": "3D & CAD",
-        "packages": ["freecad", "blender", "openscad", "librecad"]
+        "packages": ["freecad", "blender", "openscad", "librecad"],
     },
     "browser": {
         "name": "Web Browsers",
-        "packages": ["brave-browser", "firefox", "chromium", "vivaldi"]
-    }
+        "packages": ["brave-browser", "firefox", "chromium", "vivaldi"],
+    },
 }
 
 # UI Settings
@@ -134,9 +128,9 @@ UI_SETTINGS = {
     "transition_duration": 300,
     "toast_timeout": 3,
     "error_toast_timeout": 5,
-    "grid_spacing": 12,
-    "margin_size": 18,
-    "icon_size": 48
+    "grid_spacing": 24,
+    "margin_size": 24,
+    "icon_size": 64,
 }
 
 # Error Messages
@@ -146,15 +140,15 @@ ERROR_MESSAGES = {
     "permission_denied": "Permission denied accessing: {path}",
     "command_failed": "Command failed: {command}",
     "invalid_filesystem": "Invalid filesystem type: {fs_type}",
-    "calamares_config_failed": "Failed to configure Calamares: {error}"
+    "calamares_config_failed": "Failed to configure Calamares: {error}",
 }
 
-# Success Messages  
+# Success Messages
 SUCCESS_MESSAGES = {
     "packages_updated": "Package selection updated successfully",
     "config_saved": "Configuration saved successfully",
     "installation_started": "Installation process started",
-    "backup_completed": "System backup completed"
+    "backup_completed": "System backup completed",
 }
 
 # URLs and Links
@@ -162,12 +156,8 @@ URLS = {
     "forum": "https://forum.biglinux.com.br",
     "website": "https://www.biglinux.com.br",
     "documentation": "https://github.com/biglinux/biglinux-calamares-config/wiki",
-    "issues": "https://github.com/biglinux/biglinux-calamares-config/issues"
+    "issues": "https://github.com/biglinux/biglinux-calamares-config/issues",
 }
 
 # Debug Settings
-DEBUG = {
-    "log_commands": True,
-    "save_temp_files": False,
-    "verbose_logging": True
-}
+DEBUG = {"log_commands": True, "save_temp_files": False, "verbose_logging": True}
