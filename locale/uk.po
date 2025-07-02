@@ -873,11 +873,6 @@ msgstr "Поради щодо встановлення"
 msgid "Finish and Install"
 msgstr "Завершити та встановити"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
-#: NEEDS WORK
-msgid "This is a collaborative system, if you need help consult our forum."
-msgstr "Це колаборативна система, якщо вам потрібна допомога, зверніться до нашого форуму."
-# 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 46
@@ -908,11 +903,17 @@ msgstr "Налаштування ще не реалізовані."
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
 # 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
+# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 167
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1028,6 +1029,11 @@ msgstr "Не вдалося розпочати мінімальну устано
 #: NEEDS WORK
 msgid "Error starting minimal installation"
 msgstr "Помилка при запуску мінімальної установки"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
+#: NEEDS WORK
+msgid "This is a collaborative system, if you need help consult our forum."
+msgstr "Це колаборативна система, якщо вам потрібна допомога, зверніться до нашого форуму."
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 99
 #: NEEDS WORK

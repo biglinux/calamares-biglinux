@@ -875,11 +875,6 @@ msgstr "Συμβουλές Εγκατάστασης"
 msgid "Finish and Install"
 msgstr "Ολοκλήρωση και Εγκατάσταση"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
-#: NEEDS WORK
-msgid "This is a collaborative system, if you need help consult our forum."
-msgstr "Αυτό είναι ένα συνεργατικό σύστημα, αν χρειάζεστε βοήθεια συμβουλευτείτε το φόρουμ μας."
-# 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 46
@@ -910,11 +905,17 @@ msgstr "Οι προτιμήσεις δεν έχουν υλοποιηθεί ακ�
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
 # 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
+# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 167
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1030,6 +1031,11 @@ msgstr "Αποτυχία εκκίνησης ελάχιστης εγκατάστ�
 #: NEEDS WORK
 msgid "Error starting minimal installation"
 msgstr "Σφάλμα κατά την εκκίνηση της ελάχιστης εγκατάστασης"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
+#: NEEDS WORK
+msgid "This is a collaborative system, if you need help consult our forum."
+msgstr "Αυτό είναι ένα συνεργατικό σύστημα, αν χρειάζεστε βοήθεια συμβουλευτείτε το φόρουμ μας."
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 99
 #: NEEDS WORK

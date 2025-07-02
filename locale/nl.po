@@ -876,11 +876,6 @@ msgstr "Installatietips"
 msgid "Finish and Install"
 msgstr "Voltooi en installeer"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
-#: NEEDS WORK
-msgid "This is a collaborative system, if you need help consult our forum."
-msgstr "Dit is een collaboratief systeem, als je hulp nodig hebt, raadpleeg dan ons forum."
-# 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 46
@@ -911,11 +906,17 @@ msgstr "Voorkeuren nog niet geïmplementeerd"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
 # 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
+# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 167
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1031,6 +1032,11 @@ msgstr "Mislukt om minimale installatie te starten"
 #: NEEDS WORK
 msgid "Error starting minimal installation"
 msgstr "Fout bij het starten van minimale installatie"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
+#: NEEDS WORK
+msgid "This is a collaborative system, if you need help consult our forum."
+msgstr "Dit is een collaboratief systeem, als je hulp nodig hebt, raadpleeg dan ons forum."
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 99
 #: NEEDS WORK

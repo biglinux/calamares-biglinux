@@ -876,11 +876,6 @@ msgstr "Installations tips"
 msgid "Finish and Install"
 msgstr "Avsluta och installera"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
-#: NEEDS WORK
-msgid "This is a collaborative system, if you need help consult our forum."
-msgstr "Detta är ett samarbetsystem, om du behöver hjälp, konsultera vårt forum."
-# 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 46
@@ -911,11 +906,17 @@ msgstr "Inställningar har ännu inte implementerats."
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
 # 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
+# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 167
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1031,6 +1032,11 @@ msgstr "Misslyckades med att starta minimal installation"
 #: NEEDS WORK
 msgid "Error starting minimal installation"
 msgstr "Fel vid start av minimal installation"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
+#: NEEDS WORK
+msgid "This is a collaborative system, if you need help consult our forum."
+msgstr "Detta är ett samarbetsystem, om du behöver hjälp, konsultera vårt forum."
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 99
 #: NEEDS WORK

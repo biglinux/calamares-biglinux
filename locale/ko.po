@@ -862,11 +862,6 @@ msgstr "설치 팁"
 msgid "Finish and Install"
 msgstr "완료 및 설치"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
-#: NEEDS WORK
-msgid "This is a collaborative system, if you need help consult our forum."
-msgstr "이것은 협업 시스템입니다. 도움이 필요하면 포럼을 참조하세요."
-# 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 46
@@ -894,6 +889,10 @@ msgstr "아직 구현되지 않은 기본 설정"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
 #: NEEDS WORK
+msgid "OK"
+msgstr "알겠습니다."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
 # 
@@ -902,6 +901,7 @@ msgstr "아직 구현되지 않은 기본 설정"
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 167
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1015,6 +1015,11 @@ msgstr "최소 설치 시작에 실패했습니다."
 #: NEEDS WORK
 msgid "Error starting minimal installation"
 msgstr "최소 설치 시작 오류"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
+#: NEEDS WORK
+msgid "This is a collaborative system, if you need help consult our forum."
+msgstr "이것은 협업 시스템입니다. 도움이 필요하면 포럼을 참조하세요."
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 99
 #: NEEDS WORK

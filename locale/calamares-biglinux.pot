@@ -87,8 +87,8 @@ msgstr  ""
 #
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 102
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 202
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 127
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 100
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 186
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 187
 msgid   "Continue"
 msgstr  ""
 
@@ -220,7 +220,7 @@ msgstr  ""
 #
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 89
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 142
 msgid   "EFI Entry Manager"
 msgstr  ""
 
@@ -232,59 +232,59 @@ msgstr  ""
 #
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 77
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 164
 msgid   "Maintenance"
 msgstr  ""
 
 #
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 78
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 165
 msgid   "Tools that facilitate the maintenance of the installed system."
 msgstr  ""
 
 #
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 79
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 166
 msgid   "Restore"
 msgstr  ""
 
 #
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 87
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 174
 msgid   "Installation"
 msgstr  ""
 
 #
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 88
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 175
 msgid   "The system is in live mode, which has limitations."
 msgstr  ""
 
 #
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 89
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 176
 msgid   "Install it for a complete experience."
 msgstr  ""
 
 #
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 90
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 131
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 138
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 142
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 177
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 215
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 222
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 226
 msgid   "Install"
 msgstr  ""
 
 #
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 98
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 185
 msgid   "Minimal"
 msgstr  ""
 
@@ -296,7 +296,7 @@ msgstr  ""
 #
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 77
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 131
 msgid   "Restore system settings"
 msgstr  ""
 
@@ -313,16 +313,16 @@ msgstr  ""
 #
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 68
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 79
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 91
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 123
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 133
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 144
 msgid   "Start"
 msgstr  ""
 
 #
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 66
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 121
 msgid   "Snapshot and backups"
 msgstr  ""
 
@@ -403,11 +403,6 @@ msgstr  ""
 #
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 211
 msgid   "Finish and Install"
-msgstr  ""
-
-#
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
-msgid   "This is a collaborative system, if you need help consult our forum."
 msgstr  ""
 
 #
@@ -493,27 +488,27 @@ msgid   "Error proceeding to installation"
 msgstr  ""
 
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 57
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 58
 msgid   "Loading packages..."
 msgstr  ""
 
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 96
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 150
 msgid   "Failed to load packages: {}"
 msgstr  ""
 
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 102
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 156
 msgid   "All optional programs will be kept"
 msgstr  ""
 
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 107
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 161
 msgid   "All optional programs selected for removal"
 msgstr  ""
 
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 120
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 179
 msgid   "No programs selected for removal. Proceeding with standard "
         "installation."
 msgstr  ""
@@ -521,58 +516,63 @@ msgstr  ""
 #
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 123
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 126
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 182
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 210
 msgid   "Starting..."
 msgstr  ""
 
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 135
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 194
 msgid   "Minimal installation started successfully"
 msgstr  ""
 
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 138
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 197
 msgid   "Failed to start minimal installation"
 msgstr  ""
 
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 142
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 201
 msgid   "Error starting minimal installation"
 msgstr  ""
 
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 99
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 134
+msgid   "This is a collaborative system, if you need help consult our forum."
+msgstr  ""
+
+#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 186
 msgid   "Remove pre-selected software to create a lean, personalized system."
 msgstr  ""
 
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 130
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 214
 msgid   "Installation requirements not met: {}"
 msgstr  ""
 
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 134
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 218
 msgid   "Installation started successfully"
 msgstr  ""
 
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 137
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 221
 msgid   "Failed to start installation"
 msgstr  ""
 
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 141
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 225
 msgid   "Error starting installation"
 msgstr  ""
 
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 67
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 122
 msgid   "Restore restore points of the installed system."
 msgstr  ""
 
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 78
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 132
 msgid   "Utility that facilitates the restoration of the installed system, "
         "especially the restoration of the system boot (Grub).\n"
         "\n"
@@ -581,7 +581,7 @@ msgid   "Utility that facilitates the restoration of the installed system, "
 msgstr  ""
 
 #
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 90
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 143
 msgid   "Advanced tool to add, remove, or change boot entries in the UEFI "
         "firmware."
 msgstr  ""
