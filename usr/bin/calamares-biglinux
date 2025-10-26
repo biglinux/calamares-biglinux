@@ -360,18 +360,18 @@ if [ "$kernel_ver" -gt "613" ];then
      sed -i 's/crc32c-intel/crc32c/' /usr/lib/calamares/modules/initcpiocfg/main.py
 fi
 
-# fix bios legacy install grub => 3.4.x
-calamaresBootLoaderModule="/usr/lib/calamares/modules/bootloader/main.py"
-calamaresBootLoaderModuleCheck='    efi_directory = None'
-calamaresBootLoaderModulePattern='^    efi_directory = libcalamares.globalstorage.value("efiSystemPartition")$'
-calamaresBootLoaderModuleReplace='    efi_directory = None\
-    if fw_type == "efi" or install_hybrid_grub:\
-        efi_directory = libcalamares.globalstorage.value("efiSystemPartition")'
-# Apenas executa a substituição se o novo código ainda NÃO estiver presente
-if ! grep -qF "$calamaresBootLoaderModuleCheck" "$calamaresBootLoaderModule"; then
-    # Substitui as duas linhas do código antigo pelo novo bloco de código
-    sed -i "/${calamaresBootLoaderModulePattern}/,+1c\\${calamaresBootLoaderModuleReplace}" "$calamaresBootLoaderModule"
-fi
+# # fix bios legacy install grub => 3.4.x
+# calamaresBootLoaderModule="/usr/lib/calamares/modules/bootloader/main.py"
+# calamaresBootLoaderModuleCheck='    efi_directory = None'
+# calamaresBootLoaderModulePattern='^    efi_directory = libcalamares.globalstorage.value("efiSystemPartition")$'
+# calamaresBootLoaderModuleReplace='    efi_directory = None\
+#     if fw_type == "efi" or install_hybrid_grub:\
+#         efi_directory = libcalamares.globalstorage.value("efiSystemPartition")'
+# # Apenas executa a substituição se o novo código ainda NÃO estiver presente
+# if ! grep -qF "$calamaresBootLoaderModuleCheck" "$calamaresBootLoaderModule"; then
+#     # Substitui as duas linhas do código antigo pelo novo bloco de código
+#     sed -i "/${calamaresBootLoaderModulePattern}/,+1c\\${calamaresBootLoaderModuleReplace}" "$calamaresBootLoaderModule"
+# fi
 
 rm -f /tmp/start_calamares
 
