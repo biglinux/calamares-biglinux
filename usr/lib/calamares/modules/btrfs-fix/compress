@@ -1,16 +1,4 @@
 #!/bin/bash
   
-# find $1/usr -type d -exec btrfs property set {} compression zstd \;
-# find $1/etc -type d -exec btrfs property set {} compression zstd \;
-# find $1/home -type d -exec btrfs property set {} compression zstd \;
-# find $1/opt -type d -exec btrfs property set {} compression zstd \;
-# find $1/root -type d -exec btrfs property set {} compression zstd \;
-# find $1/srv -type d -exec btrfs property set {} compression zstd \;
-# find $1/var -type d -exec btrfs property set {} compression zstd \;
-# find $1/tmp -type d -exec btrfs property set {} compression zstd \;
-
-find $1/usr/share/grub -exec btrfs property set {} compression lzo \;
-find $1/boot -exec btrfs property set {} compression lzo \;
-
-btrfs filesystem defragment -clzo -r $1/usr/share/grub
-btrfs filesystem defragment -clzo -r $1/boot
+btrfs filesystem defragment --nocomp -r $1/usr/share/grub
+btrfs filesystem defragment --nocomp -r $1/boot

@@ -44,7 +44,7 @@ def run():
     subprocess.call(["btrfs", "property", "set", root_mount_point, "compression", "zstd"])
     subprocess.call(["btrfs", "property", "set", root_mount_point + '/home/', "compression", "zstd"])
     subprocess.call(["btrfs", "property", "set", root_mount_point + '/@home/', "compression", "zstd"])
-    subprocess.call(["btrfs", "property", "set", root_mount_point + '/boot/', "compression", "lzo"])
+    subprocess.call(["btrfs", "property", "set", root_mount_point + '/boot/', "compression", ""])
 
 
     return None
