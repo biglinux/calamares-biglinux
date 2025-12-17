@@ -394,14 +394,14 @@ i18n:
         self, filesystem_type: str = "btrfs", packages_to_remove: List[str] = None
     ) -> bool:
         """
-        Start the installation process
+        Configure the installation process without launching Calamares.
 
         Args:
             filesystem_type: Type of filesystem (btrfs or ext4)
             packages_to_remove: List of packages to remove
 
         Returns:
-            True if installation started successfully
+            True if installation was configured successfully
         """
         try:
             # Prepare configuration
@@ -413,15 +413,8 @@ i18n:
             # Configure Calamares
             if not self.configure_installation(config):
                 return False
-
-            # Start Calamares
-            self.logger.info("Starting Calamares installation")
-            result = execute_command(COMMANDS["calamares"], timeout=None)
-
-            if not result.success:
-                self.logger.error(f"Failed to start Calamares: {result.stderr}")
-                return False
-
+            
+            self.logger.info("Installation configured successfully. Calamares can be launched externally.")
             return True
 
         except Exception as e:
@@ -493,9 +486,6 @@ i18n:
             Dictionary with requirement check results
         """
         requirements = {}
-
-        # Check Calamares availability
-        requirements["calamares"] = run_command_simple("command -v calamares")
 
         # Check required directories
         requirements["config_dir"] = CALAMARES_CONFIG_DIR.exists()

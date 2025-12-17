@@ -191,14 +191,14 @@ class MinimalPage(Gtk.Box):
                 packages_to_remove=packages_to_remove
             )
             if success:
-                self.show_success_message(_("Minimal installation started successfully"))
+                self.show_success_message(_("Minimal installation configured successfully"))
                 self.emit('navigate', 'tips', None)
             else:
-                self.show_error_message(_("Failed to start minimal installation"))
+                self.show_error_message(_("Failed to configure minimal installation"))
                 reset_button_state()
         except Exception as e:
-            self.logger.error(f"Failed to start minimal installation: {e}", exc_info=True)
-            self.show_error_message(_("Error starting minimal installation"))
+            self.logger.error(f"Failed to configure minimal installation: {e}", exc_info=True)
+            self.show_error_message(_("Error configuring installation"))
             reset_button_state()
 
     def show_success_message(self, message):

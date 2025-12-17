@@ -214,15 +214,17 @@ class MainPage(Gtk.Box):
                 self.show_error_message(_("Installation requirements not met: {}").format(", ".join(missing)))
                 self.reset_button_state(button, _("Install"))
                 return
-            if self.install_service.start_installation("btrfs"):
-                self.show_success_message(_("Installation started successfully"))
+            # Configure for a standard installation and then navigate to the tips page.
+            # The application will close from the tips page, and Calamares is expected to be launched externally.
+            if self.install_service.start_installation("btrfs", packages_to_remove=[]):
+                self.show_success_message(_("Installation configured successfully"))
                 self.emit('navigate', 'tips', None)
             else:
-                self.show_error_message(_("Failed to start installation"))
-            self.reset_button_state(button, _("Install"))
+                self.show_error_message(_("Failed to configure installation"))
+                self.reset_button_state(button, _("Install"))
         except Exception as e:
-            self.logger.error(f"Installation start failed: {e}")
-            self.show_error_message(_("Error starting installation"))
+            self.logger.error(f"Installation configuration failed: {e}")
+            self.show_error_message(_("Error configuring installation"))
             self.reset_button_state(button, _("Install"))
 
     def on_minimal_clicked(self, button):
