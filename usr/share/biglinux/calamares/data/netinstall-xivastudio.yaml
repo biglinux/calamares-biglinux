@@ -17,7 +17,6 @@
     - opentoonz
     - scribus
     - synfigstudio
-    - sozi
 
 - name: "Video"
   #description: "Instalação do Plasma"
@@ -63,7 +62,6 @@
     - linuxsampler
     - lsp-plugins
     - qsampler
-    - ft2-clone
     - reaper
 
 - name: "3D & CAD"

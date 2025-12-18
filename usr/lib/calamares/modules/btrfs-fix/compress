@@ -1,25 +1,4 @@
 #!/bin/bash
   
-# find $1/usr -type d -exec btrfs property set {} compression zstd \;
-# find $1/etc -type d -exec btrfs property set {} compression zstd \;
-# find $1/home -type d -exec btrfs property set {} compression zstd \;
-# find $1/opt -type d -exec btrfs property set {} compression zstd \;
-# find $1/root -type d -exec btrfs property set {} compression zstd \;
-# find $1/srv -type d -exec btrfs property set {} compression zstd \;
-# find $1/var -type d -exec btrfs property set {} compression zstd \;
-# find $1/tmp -type d -exec btrfs property set {} compression zstd \;
-
-find $1/usr/share/grub -exec btrfs property set {} compression lzo \;
-
-# fix compression in kernel 6.15+
-kernel_ver=$(uname -r | sed -E 's/([0-9]+).([0-9]+).*/\1\2/g')
-if [ "$kernel_ver" -gt "614" ];then
-    kernelDotVer=$(uname -r | sed -E 's/([0-9]+).([0-9]+).*/\1.\2/g')
-    cp -a --reflink=never --sparse=never $1/boot/vmlinuz-$kernelDotVer-x86_64 $1/boot/vmlinuz-$kernelDotVer-x86_64_2
-    mv $1/boot/vmlinuz-$kernelDotVer-x86_64_2 $1/boot/vmlinuz-$kernelDotVer-x86_64
-else
-    find $1/boot -exec btrfs property set {} compression lzo \;
-fi
-
-btrfs filesystem defragment -clzo -r $1/usr/share/grub
-btrfs filesystem defragment -clzo -r $1/boot
+btrfs filesystem defragment --nocomp -r $1/usr/share/grub
+btrfs filesystem defragment --nocomp -r $1/boot
