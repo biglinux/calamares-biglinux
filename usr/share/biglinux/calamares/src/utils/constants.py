@@ -20,11 +20,13 @@ CALAMARES_MODULES_DIR = CALAMARES_CONFIG_DIR / "modules"
 # Data Files
 ICON_MAPPING_FILE = DATA_DIR / "icon-mapping.json"
 MINIMAL_PACKAGES_FILE = DATA_DIR / "minimal-packages.json"
+PARTITION_CONF_FILE = DATA_DIR / "partition.conf"
+NETINSTALL_XIVASTUDIO_CONF = DATA_DIR / "netinstall-xivastudio.conf"
+NETINSTALL_XIVASTUDIO_YAML = DATA_DIR / "netinstall-xivastudio.yaml"
 
 # System Paths
 BOOT_MOUNT_DIR = Path("/run/miso/bootmnt")
 TEMP_DIR = Path("/tmp")
-BIGBASHVIEW_APPS_DIR = Path("/usr/share/bigbashview/apps/calamares")
 
 # Temporary Files (used by installation process)
 TEMP_FILES = {
@@ -71,11 +73,11 @@ DEFAULTS = {
 INSTALLATION_OPTIONS = {
     "btrfs": {
         "filesystem": "btrfs",
-        "config_source": BIGBASHVIEW_APPS_DIR / "partition.conf",
+        "config_source": PARTITION_CONF_FILE,
     },
     "ext4": {
         "filesystem": "ext4",
-        "config_source": BIGBASHVIEW_APPS_DIR / "partition.conf",
+        "config_source": PARTITION_CONF_FILE,
     },
 }
 

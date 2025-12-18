@@ -18,7 +18,9 @@ from ..utils import (
     CALAMARES_CONFIG_DIR,
     CALAMARES_MODULES_DIR,
     CALAMARES_CONFIGS,
-    BIGBASHVIEW_APPS_DIR,
+    PARTITION_CONF_FILE,
+    NETINSTALL_XIVASTUDIO_CONF,
+    NETINSTALL_XIVASTUDIO_YAML,
     TEMP_FILES,
     COMMANDS,
 )
@@ -144,7 +146,7 @@ class InstallService:
     def _configure_partition_settings(self) -> bool:
         """Configure partition.conf for Calamares"""
         try:
-            source_config = BIGBASHVIEW_APPS_DIR / "partition.conf"
+            source_config = PARTITION_CONF_FILE
 
             if not source_config.exists():
                 self.logger.error(
@@ -492,9 +494,7 @@ i18n:
         requirements["modules_dir"] = CALAMARES_MODULES_DIR.exists()
 
         # Check partition config template
-        requirements["partition_template"] = (
-            BIGBASHVIEW_APPS_DIR / "partition.conf"
-        ).exists()
+        requirements["partition_template"] = PARTITION_CONF_FILE.exists()
 
         # Check system requirements
         from . import get_system_service
@@ -508,6 +508,147 @@ i18n:
     def get_current_config(self) -> InstallationConfig:
         """Get current installation configuration"""
         return self._current_config
+
+    def configure_xivastudio_netinstall(self) -> bool:
+        """
+        Configure Calamares to show XivaStudio netinstall page.
+
+        This should only be called when:
+        1. System is detected as XivaStudio
+        2. Internet connection is available
+
+        The method modifies /etc/calamares/settings.conf to include
+        the netinstall@xivastudio module and copies the required
+        configuration files.
+
+        Returns:
+            True if configuration was successful, False otherwise
+        """
+        self.logger.info("Configuring XivaStudio netinstall...")
+
+        try:
+            # Verify netinstall config files exist
+            if not NETINSTALL_XIVASTUDIO_CONF.exists():
+                self.logger.error(
+                    f"XivaStudio netinstall config not found: {NETINSTALL_XIVASTUDIO_CONF}"
+                )
+                return False
+
+            if not NETINSTALL_XIVASTUDIO_YAML.exists():
+                self.logger.error(
+                    f"XivaStudio netinstall YAML not found: {NETINSTALL_XIVASTUDIO_YAML}"
+                )
+                return False
+
+            # Copy netinstall configuration files to Calamares modules directory
+            netinstall_conf_dest = CALAMARES_MODULES_DIR / "netinstall-xivastudio.conf"
+            netinstall_yaml_dest = CALAMARES_MODULES_DIR / "netinstall-xivastudio.yaml"
+
+            if not copy_file_safe(NETINSTALL_XIVASTUDIO_CONF, netinstall_conf_dest):
+                self.logger.error("Failed to copy netinstall config")
+                return False
+
+            if not copy_file_safe(NETINSTALL_XIVASTUDIO_YAML, netinstall_yaml_dest):
+                self.logger.error("Failed to copy netinstall YAML")
+                return False
+
+            # Read current settings.conf
+            settings_file = CALAMARES_CONFIGS["settings"]
+            if not settings_file.exists():
+                self.logger.error(f"Calamares settings.conf not found: {settings_file}")
+                return False
+
+            settings_content = read_text_file(settings_file)
+            if not settings_content:
+                self.logger.error("Failed to read settings.conf")
+                return False
+
+            # Check if netinstall@xivastudio is already configured
+            if "netinstall@xivastudio" in settings_content:
+                self.logger.info("XivaStudio netinstall already configured")
+                return True
+
+            # Add netinstall instance definition after displaymanager_biglinux
+            instance_block = """
+- id:       xivastudio
+  module:   netinstall
+  config:   netinstall-xivastudio.conf
+"""
+            # Insert after the displaymanager_biglinux instance
+            settings_content = settings_content.replace(
+                "- id:       displaymanager_biglinux\n  module:   shellprocess\n  config:   shellprocess_displaymanager_biglinux.conf",
+                "- id:       displaymanager_biglinux\n  module:   shellprocess\n  config:   shellprocess_displaymanager_biglinux.conf"
+                + instance_block,
+            )
+
+            # Add netinstall@xivastudio to sequence after partition in show section
+            settings_content = settings_content.replace(
+                "        - partition\n        - users",
+                "        - partition\n        - netinstall@xivastudio\n        - users",
+            )
+
+            # Ensure packages.conf exists for netinstall to work
+            packages_conf = CALAMARES_CONFIGS["packages"]
+            if not packages_conf.exists():
+                packages_content = """---
+
+backend: pacman
+
+skip_if_no_internet: false
+update_db: true
+update_system: true
+
+pacman:
+    num_retries: 10
+    disable_download_timeout: true
+    needed_only: true
+"""
+                write_text_file(packages_content, packages_conf)
+
+            # Ensure shellprocess@initialize_pacman and packages are in exec sequence
+            if "shellprocess@initialize_pacman" not in settings_content:
+                settings_content = settings_content.replace(
+                    "        - localecfg",
+                    "        - shellprocess@initialize_pacman\n        - packages\n        - localecfg",
+                )
+
+            # Write updated settings
+            write_text_file(settings_content, settings_file)
+
+            self.logger.info("XivaStudio netinstall configured successfully")
+            return True
+
+        except Exception as e:
+            self.logger.error(f"Failed to configure XivaStudio netinstall: {e}")
+            return False
+
+    def check_internet_connection(self) -> bool:
+        """
+        Check if internet connection is available by running pacman -Sy.
+
+        Returns:
+            True if internet is available, False otherwise
+        """
+        self.logger.info("Checking internet connection via pacman -Sy...")
+
+        try:
+            result = subprocess.run(
+                ["sudo", "pacman", "-Sy"], capture_output=True, timeout=60
+            )
+
+            if result.returncode == 0:
+                self.logger.info("Internet connection available")
+                return True
+            else:
+                self.logger.warning("pacman -Sy failed - no internet connection")
+                return False
+
+        except subprocess.TimeoutExpired:
+            self.logger.warning("pacman -Sy timed out - no internet connection")
+            return False
+        except Exception as e:
+            self.logger.error(f"Failed to check internet connection: {e}")
+            return False
 
     def reset_configuration(self):
         """Reset installation configuration to defaults"""

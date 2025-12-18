@@ -19,12 +19,7 @@ __author__ = "BigLinux Team"
 logger = logging.getLogger(__name__)
 
 # Expose main page classes
-__all__ = [
-    "MainPage",
-    "MaintenancePage", 
-    "MinimalPage",
-    "TipsPage"
-]
+__all__ = ["MainPage", "MaintenancePage", "MinimalPage", "TipsPage"]
 
 
 def initialize_pages():

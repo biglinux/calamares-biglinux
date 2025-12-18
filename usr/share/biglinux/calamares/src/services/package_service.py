@@ -155,30 +155,42 @@ class PackageService:
             package_name: Name of the package
 
         Returns:
-            Icon path or None if not found
+            Icon path (if file exists) or icon name for GTK IconTheme lookup
         """
+        import os
+        
         try:
             # Check icon mapping first
             mapped_icon = self._icon_mapping.get(package_name, package_name)
+            icon_size = UI_SETTINGS["icon_size"]
 
-            # Try to get icon using geticons command
-            icon_path = get_package_icon(mapped_icon, UI_SETTINGS["icon_size"])
+            self.logger.debug(f"Looking for icon: package='{package_name}', mapped='{mapped_icon}', size={icon_size}")
 
-            if icon_path:
-                return icon_path
+            # Try to get icon using geticons command (returns path or name)
+            icon_result = get_package_icon(mapped_icon, icon_size)
+
+            if icon_result:
+                # Check if it's a file path (starts with /)
+                if icon_result.startswith('/') and os.path.exists(icon_result):
+                    self.logger.debug(f"Found icon file for '{package_name}': {icon_result}")
+                    return icon_result
+                # Otherwise it's an icon name for GTK lookup
+                self.logger.debug(f"Using icon name for '{package_name}': {icon_result}")
 
             # Fallback to package name if mapping didn't work
             if mapped_icon != package_name:
-                icon_path = get_package_icon(package_name, UI_SETTINGS["icon_size"])
-                if icon_path:
-                    return icon_path
+                icon_result = get_package_icon(package_name, icon_size)
+                if icon_result and icon_result.startswith('/') and os.path.exists(icon_result):
+                    self.logger.debug(f"Found icon via fallback for '{package_name}': {icon_result}")
+                    return icon_result
 
-            # Final fallback to generic icon
-            return get_package_icon("package-x-generic", UI_SETTINGS["icon_size"])
+            # Return the mapped icon name for GTK IconTheme to handle
+            self.logger.debug(f"No file icon found for '{package_name}', returning '{mapped_icon}' for GTK lookup")
+            return mapped_icon
 
         except Exception as e:
             self.logger.warning(f"Failed to get icon for package {package_name}: {e}")
-            return None
+            return package_name  # Return package name as icon name fallback
 
     def is_package_installed(self, package_name: str) -> bool:
         """

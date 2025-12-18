@@ -344,6 +344,36 @@ def get_system_info() -> Dict[str, str]:
 
 
 def get_package_icon(package: str, size: int = 48) -> Optional[str]:
-    """Get icon path for a package"""
+    """Get icon path for a package using multiple methods.
+
+    Tries in order:
+    1. geticons command (returns full path)
+    2. Direct file search in common icon locations
+    3. Returns package name for GTK IconTheme lookup
+    """
+    # Try geticons command first
     result = execute_command(f"geticons -s {size} {shlex.quote(package)}")
-    return result.stdout.strip() if result.success else None
+    if result.success and result.stdout.strip():
+        icon_path = result.stdout.strip()
+        if os.path.exists(icon_path):
+            logger.debug(f"Found icon via geticons for {package}: {icon_path}")
+            return icon_path
+
+    # Try common icon locations
+    icon_dirs = [
+        f"/usr/share/icons/hicolor/{size}x{size}/apps",
+        f"/usr/share/icons/hicolor/scalable/apps",
+        f"/usr/share/pixmaps",
+    ]
+    extensions = [".png", ".svg", ".xpm"]
+
+    for icon_dir in icon_dirs:
+        for ext in extensions:
+            icon_path = os.path.join(icon_dir, f"{package}{ext}")
+            if os.path.exists(icon_path):
+                logger.debug(f"Found icon in {icon_dir} for {package}: {icon_path}")
+                return icon_path
+
+    # Return package name for GTK IconTheme fallback
+    logger.debug(f"No icon file found for {package}, returning name for GTK lookup")
+    return package

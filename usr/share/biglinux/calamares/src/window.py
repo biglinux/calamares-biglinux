@@ -6,6 +6,7 @@ Manages navigation between different pages using Gtk.Stack
 """
 
 import logging
+import os
 import gi
 
 gi.require_version('Gtk', '4.0')
@@ -15,6 +16,21 @@ from gi.repository import Gtk, Adw
 from .utils.i18n import _
 from .utils.constants import DEFAULTS
 from .pages import MainPage, MaintenancePage, MinimalPage, TipsPage
+
+
+# XivaStudio detection paths
+XIVASTUDIO_LOGO_PNG = "/usr/share/pixmaps/icon-logo-xivastudio.png"
+XIVASTUDIO_LOGO_GIF = "/usr/share/pixmaps/icon-logo-xivastudio.gif"
+
+
+def is_xivastudio_system() -> bool:
+    """
+    Check if the system is XivaStudio by looking for logo files.
+    
+    Returns:
+        True if XivaStudio is detected, False otherwise.
+    """
+    return os.path.exists(XIVASTUDIO_LOGO_PNG) or os.path.exists(XIVASTUDIO_LOGO_GIF)
 
 
 class CalamaresWindow(Adw.ApplicationWindow):
@@ -29,6 +45,10 @@ class CalamaresWindow(Adw.ApplicationWindow):
         self.uncheck_all_handler = None
         self.back_signal_handler = None
 
+        # Detect XivaStudio system for branding
+        self.is_xivastudio = is_xivastudio_system()
+        self.distro_name = "XivaStudio" if self.is_xivastudio else "BigLinux"
+
         self.setup_window()
         self.create_layout()
         self.create_pages()
@@ -38,7 +58,7 @@ class CalamaresWindow(Adw.ApplicationWindow):
 
     def setup_window(self):
         """Configure window properties."""
-        self.set_title(_("BigLinux Installation"))
+        self.set_title(_("{distro} Installation").format(distro=self.distro_name))
         # Use constants for window sizing to ensure configurability.
         self.set_default_size(DEFAULTS['window_width'], DEFAULTS['window_height'])
         self.set_size_request(DEFAULTS['min_window_width'], DEFAULTS['min_window_height'])
@@ -112,6 +132,7 @@ class CalamaresWindow(Adw.ApplicationWindow):
             "minimal": MinimalPage(),
             "tips": TipsPage()
         }
+
         for name, page in self.pages.items():
             page.connect("navigate", self.on_navigate_requested)
             self.stack.add_named(page, name)
@@ -124,15 +145,20 @@ class CalamaresWindow(Adw.ApplicationWindow):
         if page_name == "back":
             self.navigate_back()
         else:
-            self.navigate_to(page_name)
+            self.navigate_to(page_name, data)
 
-    def navigate_to(self, page_name):
+    def navigate_to(self, page_name, data=None):
         if page_name not in self.pages:
             self.logger.error(f"Page '{page_name}' not found")
             return
         self.stack.set_visible_child_name(page_name)
         self.update_navigation_state(page_name)
         current_page = self.stack.get_visible_child()
+        
+        # Pass data to the page if it supports it
+        if data and hasattr(current_page, 'set_navigation_data'):
+            current_page.set_navigation_data(data)
+        
         if hasattr(current_page, 'on_page_activated'):
             current_page.on_page_activated()
 
@@ -175,16 +201,19 @@ class CalamaresWindow(Adw.ApplicationWindow):
         is_main_page = (page_name == "main")
         
         self.nav_bar.set_visible(not is_main_page)
-        self.back_button.remove_css_class("suggested-action") # Reset style
+        self.back_button.remove_css_class("suggested-action")  # Reset style
 
-        # Define titles
+        # Define titles - use distro_name for branding
         titles = {
-            "main": _("BigLinux Installation"),
+            "main": _("{distro} Installation").format(distro=self.distro_name),
             "maintenance": _("System Maintenance"),
             "minimal": _("Uncheck the programs you want to remove"),
-            "tips": _("Installation Tips")
+            "tips": _("Installation Tips"),
         }
-        self.header_bar.set_title_widget(Adw.WindowTitle(title=titles.get(page_name, _("BigLinux Installation"))))
+        default_title = _("{distro} Installation").format(distro=self.distro_name)
+        self.header_bar.set_title_widget(
+            Adw.WindowTitle(title=titles.get(page_name, default_title))
+        )
 
         if not is_main_page:
             self.back_signal_handler = self.back_button.connect("clicked", self.navigate_back)

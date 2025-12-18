@@ -362,9 +362,8 @@ fi
 
 rm -f /tmp/start_calamares
 
-# Launch the BigBashView interface
-cd /usr/share/bigbashview/apps/calamares/
-bigbashview -s 1100x600 -n $"Install System" -p bbv-calamares -c transparent -w frameless index.html
+# Launch the GTK4/Adwaita interface
+python3 /usr/share/biglinux/calamares/main.py
 
 # Start Calamares installation if flagged
 if [ -e "/tmp/start_calamares" ]; then

@@ -65,6 +65,7 @@ class TipsPage(Gtk.Box):
     def do_continue_action(self, button):
         """This method is called by the main window's continue button."""
         self.logger.info("Continue from tips page - closing application")
+
         try:
             self.show_success_message(_("The installer will now proceed..."))
             application = self.get_root().get_application()

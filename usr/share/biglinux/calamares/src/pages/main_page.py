@@ -6,6 +6,7 @@ Initial page with three main options: Maintenance, Installation, and Minimal
 """
 
 import logging
+import os
 import gi
 
 gi.require_version('Gtk', '4.0')
@@ -13,7 +14,23 @@ gi.require_version('Adw', '1')
 
 from gi.repository import Gtk, Adw, GObject
 from ..utils.i18n import _
+from ..utils.widgets import create_option_card
 from ..services import get_system_service, get_install_service
+
+
+# XivaStudio detection paths
+XIVASTUDIO_LOGO_PNG = "/usr/share/pixmaps/icon-logo-xivastudio.png"
+XIVASTUDIO_LOGO_GIF = "/usr/share/pixmaps/icon-logo-xivastudio.gif"
+
+
+def is_xivastudio_system() -> bool:
+    """
+    Check if the system is XivaStudio by looking for logo files.
+    
+    Returns:
+        True if XivaStudio is detected, False otherwise.
+    """
+    return os.path.exists(XIVASTUDIO_LOGO_PNG) or os.path.exists(XIVASTUDIO_LOGO_GIF)
 
 
 class MainPage(Gtk.Box):
@@ -37,6 +54,10 @@ class MainPage(Gtk.Box):
         self.system_service = get_system_service()
         self.install_service = get_install_service()
 
+        # Detect XivaStudio for branding
+        self.is_xivastudio = is_xivastudio_system()
+        self.distro_name = "XivaStudio" if self.is_xivastudio else "BigLinux"
+
         self.add_css_class("main-page")
         
         self.set_margin_top(24)
@@ -48,63 +69,16 @@ class MainPage(Gtk.Box):
         self.logger.debug("MainPage initialized")
 
     def _create_option_card(self, icon_name, title, description, button_text, button_style, callback, description2=None):
-        """Factory function to create a card widget."""
-        card_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=16)
-        card_box.set_size_request(280, 320)
-        card_box.set_valign(Gtk.Align.CENTER)
-        card_box.set_halign(Gtk.Align.CENTER)
-
-        card_bin = Adw.Bin()
-        card_bin.add_css_class("card")
-        card_box.append(card_bin)
-
-        content_box = Gtk.Box(
-            orientation=Gtk.Orientation.VERTICAL,
-            spacing=16,
-            halign=Gtk.Align.FILL,
-            valign=Gtk.Align.FILL,
-            hexpand=True,
-            vexpand=True,
-            margin_top=24, margin_bottom=24, margin_start=24, margin_end=24
+        """Factory function to create a card widget. Delegates to shared utility."""
+        return create_option_card(
+            icon_name=icon_name,
+            title=title,
+            description=description,
+            button_text=button_text,
+            button_style=button_style,
+            callback=callback,
+            description2=description2
         )
-        card_bin.set_child(content_box)
-
-        icon = Gtk.Image.new_from_icon_name(icon_name)
-        icon.set_pixel_size(64)
-        icon.add_css_class("option-icon")
-        content_box.append(icon)
-
-        title_label = Gtk.Label(label=title, halign=Gtk.Align.CENTER)
-        title_label.add_css_class("title-2")
-        content_box.append(title_label)
-
-        desc_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=4, vexpand=True, valign=Gtk.Align.CENTER)
-        content_box.append(desc_box)
-        
-        desc_label = Gtk.Label(
-            label=description, wrap=True, justify=Gtk.Justification.CENTER,
-            halign=Gtk.Align.CENTER, max_width_chars=35
-        )
-        desc_label.add_css_class("body")
-        desc_box.append(desc_label)
-
-        if description2:
-            desc2_label = Gtk.Label(
-                label=description2, wrap=True, justify=Gtk.Justification.CENTER,
-                halign=Gtk.Align.CENTER, max_width_chars=35
-            )
-            desc2_label.add_css_class("body")
-            desc_box.append(desc2_label)
-
-        button = Gtk.Button(label=button_text, halign=Gtk.Align.CENTER, valign=Gtk.Align.END)
-        button.add_css_class(button_style)
-        button.add_css_class("pill")
-        button.connect("clicked", callback)
-        content_box.append(button)
-        
-        # Store button for later access if needed
-        card_box.action_button = button
-        return card_box
 
     def _create_system_info_bar(self):
         """Factory function to create the system info bar."""
@@ -189,7 +163,7 @@ class MainPage(Gtk.Box):
             callback=self.on_minimal_clicked
         )
         grid_box.append(minimal_card)
-        
+
         system_info_container = Gtk.Box(
             orientation=Gtk.Orientation.VERTICAL,
             valign=Gtk.Align.END,
@@ -204,24 +178,53 @@ class MainPage(Gtk.Box):
         self.emit('navigate', 'maintenance', None)
 
     def on_installation_clicked(self, button):
+        """Handle installation button click.
+        
+        For XivaStudio systems with internet:
+        - Configures Calamares to show netinstall page for multimedia packages
+        
+        For all systems:
+        - Configures standard installation and proceeds to tips page
+        """
         self.logger.info("Installation option selected")
         try:
             button.set_sensitive(False)
             button.set_label(_("Starting..."))
+            
+            # Check installation requirements
             requirements = self.install_service.check_installation_requirements()
             missing = [k for k, v in requirements.items() if not v]
             if missing:
                 self.show_error_message(_("Installation requirements not met: {}").format(", ".join(missing)))
                 self.reset_button_state(button, _("Install"))
                 return
-            # Configure for a standard installation and then navigate to the tips page.
-            # The application will close from the tips page, and Calamares is expected to be launched externally.
+            
+            # Configure XivaStudio netinstall if applicable
+            # This modifies Calamares settings to show multimedia package selection
+            if self.is_xivastudio:
+                self.logger.info("XivaStudio detected, checking internet for netinstall...")
+                button.set_label(_("Checking connection..."))
+                
+                if self.install_service.check_internet_connection():
+                    self.logger.info("Internet available, configuring XivaStudio netinstall")
+                    if self.install_service.configure_xivastudio_netinstall():
+                        self.show_success_message(_("XivaStudio packages will be available during installation"))
+                    else:
+                        self.logger.warning("Failed to configure XivaStudio netinstall")
+                else:
+                    self.logger.info("No internet - XivaStudio netinstall disabled")
+                    self.show_error_message(_("No internet connection - extra packages disabled"))
+            
+            button.set_label(_("Configuring..."))
+            
+            # Configure standard installation
             if self.install_service.start_installation("btrfs", packages_to_remove=[]):
                 self.show_success_message(_("Installation configured successfully"))
                 self.emit('navigate', 'tips', None)
             else:
                 self.show_error_message(_("Failed to configure installation"))
                 self.reset_button_state(button, _("Install"))
+                
         except Exception as e:
             self.logger.error(f"Installation configuration failed: {e}")
             self.show_error_message(_("Error configuring installation"))

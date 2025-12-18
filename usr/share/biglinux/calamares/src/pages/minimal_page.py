@@ -107,12 +107,20 @@ class MinimalPage(Gtk.Box):
         icon_image = Gtk.Image()
         icon_image.set_pixel_size(36)
         try:
+            self.logger.debug(
+                f"Creating icon for package '{package.name}': icon='{package.icon}'"
+            )
             if package.icon and package.icon.startswith('/'):
+                # Icon is a file path
+                self.logger.debug(f"Using file path icon: {package.icon}")
                 pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_scale(package.icon, 36, 36, True)
                 icon_image.set_from_pixbuf(pixbuf)
             elif package.icon:
+                # Icon is a theme icon name
+                self.logger.debug(f"Using icon name: {package.icon}")
                 icon_image.set_from_icon_name(package.icon)
             else:
+                self.logger.debug(f"No icon for '{package.name}', using generic")
                 icon_image.set_from_icon_name("package-x-generic")
         except Exception as e:
             self.logger.warning(f"Failed to load icon for {package.name}: {e}")
