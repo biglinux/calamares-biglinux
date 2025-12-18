@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the calamares-biglinux package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: calamares-biglinux\n"
@@ -15,30 +14,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "Wait..."
-msgstr "Vent..."
-msgid "Checking internet connection..."
-msgstr "Tjekker internetforbindelse..."
-msgid "Internet"
-msgstr "Internet"
-msgid ""
-"Without internet connection...\\n"
-"Extra packages installation disabled."
-msgstr ""
-"Uden internetforbindelse...\n"
-"Ekstra pakkeinstallation deaktiveret."
-msgid "Checking the file:"
-msgstr "Tjekker filen:"
-msgid "Checking for download or USB drive errors, this may take a few minutes..."
-msgstr "Tjekker for download- eller USB-drevfejl, dette kan tage et par minutter..."
-msgid "Checking system integrity"
-msgstr "Tjekker systemets integritet"
-msgid "Error found, please download the system again or use another USB drive."
-msgstr "Fejl fundet, download venligst systemet igen eller brug en anden USB-drev."
-msgid "The files are intact."
-msgstr "Filerne er intakte."
-msgid "Verification canceled."
-msgstr "Verifikation annulleret."
 msgid "Please wait..."
 msgstr "Vent venligst..."
 msgid "Checking the integrity of the download and storage device..."
@@ -115,8 +90,6 @@ msgstr ""
 "\n"
 "For at installationen skal lykkes, skal du sandsynligvis ændre konfigurationen i BIOS for at starte "
 "i EFI- eller UEFI-tilstand."
-msgid "Install System"
-msgstr "Installer system"
 msgid "Sending, please wait..."
 msgstr "Sender, vent venligst..."
 msgid "Log Sent"
@@ -161,69 +134,67 @@ msgid ""
 msgstr ""
 "Vil du se eller sende installationslogfilen til skyen?\\n"
 "Generer et link til at sende i supportgrupper."
+msgid "Checking the file:"
+msgstr "Tjekker filen:"
+msgid "Checking for download or USB drive errors, this may take a few minutes..."
+msgstr "Tjekker for download- eller USB-drevfejl, dette kan tage et par minutter..."
+msgid "Checking system integrity"
+msgstr "Tjekker systemets integritet"
+msgid "Error found, please download the system again or use another USB drive."
+msgstr "Fejl fundet, download venligst systemet igen eller brug en anden USB-drev."
+msgid "The files are intact."
+msgstr "Filerne er intakte."
+msgid "Verification canceled."
+msgstr "Verifikation annulleret."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Uncheck the programs you want to remove"
-msgstr "Fjern markeringen af de programmer, du vil fjerne"
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 123
+msgid "Loading packages..."
+msgstr "Indlæser pakker..."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 242
+msgid "Failed to load packages: {}"
+msgstr "Mislykkedes at indlæse pakker: {}"
 # 
-msgid "Back"
-msgstr "Tilbage"
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 102
+msgid "All optional programs will be kept"
+msgstr "Alle valgfrie programmer vil blive gemt."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 107
+msgid "All optional programs selected for removal"
+msgstr "Alle valgfri programmer valgt til fjernelse"
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 120
+msgid "No programs selected for removal. Proceeding with standard installation."
+msgstr "Ingen programmer valgt til fjernelse. Fortsætter med standardinstallation."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 169
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 320
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 226
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 234
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 259
+msgid "Starting..."
+msgstr "Starter..."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 202
+msgid "Minimal installation configured successfully"
+msgstr "Minimal installation konfigureret med succes"
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 205
+msgid "Failed to configure minimal installation"
+msgstr "Mislykkedes i at konfigurere minimal installation"
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
-msgid "Uncheck All"
-msgstr "Fjern markeringen for alle"
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 209
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 230
+msgid "Error configuring installation"
+msgstr "Fejl ved konfiguration af installation"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -243,8 +214,8 @@ msgstr "Fjern markeringen for alle"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
-msgid "Check All"
-msgstr "Marker alt"
+msgid "Snapshot and backups"
+msgstr "Øjebliksbillede og sikkerhedskopier"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -264,8 +235,8 @@ msgstr "Marker alt"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
-msgid "The system is in"
-msgstr "Systemet er i"
+msgid "Restore restore points of the installed system."
+msgstr "Gendan gendannelsespunkter for det installerede system."
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -285,8 +256,8 @@ msgstr "Systemet er i"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
-msgid ", Linux"
-msgstr "Linux"
+msgid "Start"
+msgstr "Begynd"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -306,41 +277,33 @@ msgstr "Linux"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
-msgid "and graphical mode"
-msgstr "og grafisk tilstand"
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+msgid "Restore system settings"
+msgstr "Gendan systemindstillinger"
 # 
-msgid "Manage EFI entries on the motherboard (NVRAM):"
-msgstr "Administrer EFI-poster på bundkortet (NVRAM):"
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 78
+msgid ""
+"Utility that facilitates the restoration of the installed system, especially the restoration of the "
+"system boot (Grub).\n"
+"\n"
+"It can also be used to access the package manager and terminal of the installed system."
+msgstr ""
+"Værktøj, der letter gendannelsen af det installerede system, især gendannelsen af systemstart "
+"(Grub).\n"
+"\n"
+"Det kan også bruges til at få adgang til pakkehåndtereren og terminalen i det installerede system."
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
 msgid "EFI Entry Manager"
 msgstr "EFI Indgangsadministrator"
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 90
+msgid "Advanced tool to add, remove, or change boot entries in the UEFI firmware."
+msgstr "Avanceret værktøj til at tilføje, fjerne eller ændre boot-indgange i UEFI-firmware."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "This is a collaborative system, if you need help consult our forum: https://forum.biglinux.com.br."
-msgstr ""
-"Dette er et samarbejdssystem, hvis du har brug for hjælp, kan du konsultere vores forum: "
-"https://forum.biglinux.com.br."
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
+msgid "This is a collaborative system, if you need help consult our forum."
+msgstr "Dette er et samarbejdssystem, hvis du har brug for hjælp, kan du konsultere vores forum."
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -510,207 +473,53 @@ msgstr "Install"
 msgid "Minimal"
 msgstr "Minimal"
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Choose which programs to install, ensuring a highly customized experience."
-msgstr "Vælg hvilke programmer der skal installeres for at sikre en højt tilpasset oplevelse."
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Restore system settings"
-msgstr "Gendan systemindstillinger"
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid ""
-"Utility that facilitates the restoration of the installed system, especially the restoration of the "
-"system boot (Grub)."
-msgstr ""
-"Værktøj, der letter genoprettelsen af det installerede system, især genoprettelsen af systemstarten "
-"(Grub)."
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "It can also be used to access the package manager and terminal of the installed system."
-msgstr "Det kan også bruges til at få adgang til pakkehåndteringen og terminalen i det installerede system."
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Start"
-msgstr "Begynd"
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Snapshot and backups"
-msgstr "Øjebliksbillede og sikkerhedskopier"
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Restore points of the installed system."
-msgstr "Gendannelsespunkter for det installerede system."
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Important tips for manual partitioning"
-msgstr "Vigtige tips til manuel opdeling"
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "If you opt for automatic partitioning, these tips will be applied."
-msgstr "Hvis du vælger automatisk opdeling, vil disse tips blive anvendt."
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Use BTRFS."
-msgstr "Brug BTRFS."
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 99
+msgid "Remove pre-selected software to create a lean, personalized system."
+msgstr "Fjern forudvalgt software for at skabe et slankt, personligt system."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 234
+msgid "Installation requirements not met: {}"
+msgstr "Installationskrav ikke opfyldt: {}"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 206
+msgid "Checking connection..."
+msgstr "Tjekker forbindelse..."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 211
+msgid "XivaStudio packages will be available during installation"
+msgstr "XivaStudio-pakker vil være tilgængelige under installationen."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 216
+msgid "No internet connection - extra packages disabled"
+msgstr "Ingen internetforbindelse - ekstra pakker deaktiveret"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 218
+msgid "Configuring..."
+msgstr "Konfigurerer..."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 222
+msgid "Installation configured successfully"
+msgstr "Installation konfigureret med succes"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 225
+msgid "Failed to configure installation"
+msgstr "Mislykkedes med at konfigurere installationen"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 39
+msgid "Important Tips"
+msgstr "Vigtige tips"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 48
+msgid "Manual Partitioning Recommendations"
+msgstr "Manuel partitioneringsanbefalinger"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 49
+msgid "If you opt for automatic partitioning, these tips will be applied by default."
+msgstr "Hvis du vælger automatisk partitionering, vil disse tips blive anvendt som standard."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 54
+msgid "Use BTRFS"
+msgstr "Brug BTRFS"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -733,26 +542,9 @@ msgstr "Brug BTRFS."
 msgid "This file system allows for automatic compression and restore points."
 msgstr "Dette filsystem tillader automatisk komprimering og gendannelsespunkter."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Keep /boot within the / partition."
-msgstr "Hold /boot inden for / partitionen."
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 55
+msgid "Keep /boot within the / partition"
+msgstr "Hold /boot inden for / partitionen"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -775,47 +567,32 @@ msgstr "Hold /boot inden for / partitionen."
 msgid "Placing it in a separate partition hampers BTRFS snapshots."
 msgstr "At placere det i en separat partition hæmmer BTRFS snapshots."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 56
+msgid "Do not create a SWAP partition"
+msgstr "Opret ikke en SWAP-partition"
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 56
+msgid ""
+"We have implemented dynamic virtual memory management with Zram and SWAP files. SWAP partitions "
+"will not be used."
+msgstr ""
+"Vi har implementeret dynamisk virtuel hukommelsesstyring med Zram og SWAP-filer. SWAP-partitioner "
+"vil ikke blive brugt."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 69
+msgid "The installer will now proceed..."
+msgstr "Installationsprogrammet vil nu fortsætte..."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 262
+msgid "Error proceeding to installation"
+msgstr "Fejl ved installation."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Do not create a SWAP partition."
-msgstr "Opret ikke en SWAP-partition."
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "We have implemented dynamic virtual memory management with Zram and SWAP files."
-msgstr "Vi har implementeret dynamisk virtuel hukommelsesstyring med Zram og SWAP-filer."
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 61
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 208
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 213
+#, python-brace-format
+msgid "{distro} Installation"
+msgstr "{distro} Installation"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -835,23 +612,14 @@ msgstr "Vi har implementeret dynamisk virtuel hukommelsesstyring med Zram og SWA
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
-msgid "SWAP partitions will not be used."
-msgstr "SWAP-partitioner vil ikke blive brugt."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 41
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 182
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 187
-#: NEEDS WORK
-msgid "BigLinux Installation"
-msgstr "BigLinux Installation"
+msgid "Back"
+msgstr "Tilbage"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 96
-#: NEEDS WORK
 msgid "Keep All"
 msgstr "Behold alt"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 99
-#: NEEDS WORK
 msgid "Remove All"
 msgstr "Fjern alle"
 # 
@@ -859,17 +627,35 @@ msgstr "Fjern alle"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 157
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 76
-#: NEEDS WORK
 msgid "System Maintenance"
 msgstr "Systemvedligeholdelse"
 # 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+msgid "Uncheck the programs you want to remove"
+msgstr "Fjern markeringen af de programmer, du vil fjerne"
+# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 159
-#: NEEDS WORK
 msgid "Installation Tips"
 msgstr "Installationsvejledning"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 211
-#: NEEDS WORK
 msgid "Finish and Install"
 msgstr "Afslut og installer"
 # 
@@ -879,27 +665,26 @@ msgstr "Afslut og installer"
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 156
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 162
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 99
-#: NEEDS WORK
 msgid "BigLinux Calamares Config"
 msgstr "BigLinux Calamares Konfiguration"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 116
-#: NEEDS WORK
 msgid "Forum"
 msgstr "Forum"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 117
-#: NEEDS WORK
 msgid "Documentation"
 msgstr "Dokumentation"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 128
-#: NEEDS WORK
 msgid "Preferences not implemented yet"
 msgstr "Præferencer ikke implementeret endnu"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
-#: NEEDS WORK
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
 # 
@@ -912,189 +697,9 @@ msgstr "Præferencer ikke implementeret endnu"
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 167
-#: NEEDS WORK
-#: NEEDS WORK
-#: NEEDS WORK
-#: NEEDS WORK
-#: NEEDS WORK
-#: NEEDS WORK
 msgid "Cancel"
 msgstr "Annuller"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 168
-#: NEEDS WORK
 msgid "Confirm"
 msgstr "Bekræft"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 39
-#: NEEDS WORK
-msgid "Important Tips"
-msgstr "Vigtige tips"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 48
-#: NEEDS WORK
-msgid "Manual Partitioning Recommendations"
-msgstr "Manuel partitioneringsanbefalinger"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 49
-#: NEEDS WORK
-msgid "If you opt for automatic partitioning, these tips will be applied by default."
-msgstr "Hvis du vælger automatisk partitionering, vil disse tips blive anvendt som standard."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 54
-#: NEEDS WORK
-msgid "Use BTRFS"
-msgstr "Brug BTRFS"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 55
-#: NEEDS WORK
-msgid "Keep /boot within the / partition"
-msgstr "Hold /boot inden for / partitionen"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 56
-#: NEEDS WORK
-msgid "Do not create a SWAP partition"
-msgstr "Opret ikke en SWAP-partition"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 56
-#: NEEDS WORK
-msgid ""
-"We have implemented dynamic virtual memory management with Zram and SWAP files. SWAP partitions "
-"will not be used."
-msgstr ""
-"Vi har implementeret dynamisk virtuel hukommelsesstyring med Zram og SWAP-filer. SWAP-partitioner "
-"vil ikke blive brugt."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 69
-#: NEEDS WORK
-msgid "The installer will now proceed..."
-msgstr "Installationsprogrammet vil nu fortsætte..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 262
-#: NEEDS WORK
-msgid "Error proceeding to installation"
-msgstr "Fejl ved installation."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 123
-#: NEEDS WORK
-msgid "Loading packages..."
-msgstr "Indlæser pakker..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 242
-#: NEEDS WORK
-msgid "Failed to load packages: {}"
-msgstr "Mislykkedes at indlæse pakker: {}"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 102
-#: NEEDS WORK
-msgid "All optional programs will be kept"
-msgstr "Alle valgfrie programmer vil blive gemt."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 107
-#: NEEDS WORK
-msgid "All optional programs selected for removal"
-msgstr "Alle valgfri programmer valgt til fjernelse"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 120
-#: NEEDS WORK
-msgid "No programs selected for removal. Proceeding with standard installation."
-msgstr "Ingen programmer valgt til fjernelse. Fortsætter med standardinstallation."
-# 
-# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 169
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 320
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 226
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 234
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 259
-#: NEEDS WORK
-msgid "Starting..."
-msgstr "Starter..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 345
-#: NEEDS WORK
-msgid "Minimal installation started successfully"
-msgstr "Minimal installation startede med succes"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 349
-#: NEEDS WORK
-msgid "Failed to start minimal installation"
-msgstr "Mislykkedes med at starte minimal installation"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 355
-#: NEEDS WORK
-msgid "Error starting minimal installation"
-msgstr "Fejl ved opstart af minimal installation"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
-#: NEEDS WORK
-msgid "This is a collaborative system, if you need help consult our forum."
-msgstr "Dette er et samarbejdssystem, hvis du har brug for hjælp, kan du konsultere vores forum."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 99
-#: NEEDS WORK
-msgid "Remove pre-selected software to create a lean, personalized system."
-msgstr "Fjern forudvalgt software for at skabe et slankt, personligt system."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 234
-#: NEEDS WORK
-msgid "Installation requirements not met: {}"
-msgstr "Installationskrav ikke opfyldt: {}"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 245
-#: NEEDS WORK
-msgid "Installation started successfully"
-msgstr "Installation startet med succes"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 249
-#: NEEDS WORK
-msgid "Failed to start installation"
-msgstr "Fejl ved opstart af installation"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 255
-#: NEEDS WORK
-msgid "Error starting installation"
-msgstr "Fejl ved opstart af installation"
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Restore restore points of the installed system."
-msgstr "Gendan gendannelsespunkter for det installerede system."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 78
-#: NEEDS WORK
-msgid ""
-"Utility that facilitates the restoration of the installed system, especially the restoration of the "
-"system boot (Grub).\n"
-"\n"
-"It can also be used to access the package manager and terminal of the installed system."
-msgstr ""
-"Værktøj, der letter gendannelsen af det installerede system, især gendannelsen af systemstart "
-"(Grub).\n"
-"\n"
-"Det kan også bruges til at få adgang til pakkehåndtereren og terminalen i det installerede system."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 90
-#: NEEDS WORK
-msgid "Advanced tool to add, remove, or change boot entries in the UEFI firmware."
-msgstr "Avanceret værktøj til at tilføje, fjerne eller ændre boot-indgange i UEFI-firmware."

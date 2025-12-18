@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the calamares-biglinux package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: calamares-biglinux\n"
@@ -15,30 +14,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "Wait..."
-msgstr "기다리다..."
-msgid "Checking internet connection..."
-msgstr "인터넷 연결 확인 중..."
-msgid "Internet"
-msgstr "인터넷"
-msgid ""
-"Without internet connection...\\n"
-"Extra packages installation disabled."
-msgstr ""
-"인터넷 연결 없이...\\n"
-"추가 패키지 설치가 비활성화되었습니다."
-msgid "Checking the file:"
-msgstr "파일 확인 중:"
-msgid "Checking for download or USB drive errors, this may take a few minutes..."
-msgstr "다운로드 또는 USB 드라이브 오류를 확인 중입니다. 몇 분 정도 소요될 수 있습니다..."
-msgid "Checking system integrity"
-msgstr "시스템 무결성 확인"
-msgid "Error found, please download the system again or use another USB drive."
-msgstr "오류가 발견되었습니다. 시스템을 다시 다운로드하거나 다른 USB 드라이브를 사용하십시오."
-msgid "The files are intact."
-msgstr "파일이 손상되지 않았습니다."
-msgid "Verification canceled."
-msgstr "검증이 취소되었습니다."
 msgid "Please wait..."
 msgstr "기다려주세요..."
 msgid "Checking the integrity of the download and storage device..."
@@ -109,8 +84,6 @@ msgstr ""
 "현재 부팅은 <span color='#CC2222'>Legacy/BIOS</span> 모드를 사용하고 있지만, 이 컴퓨터에 적어도 하나의 EFI 파티션을 발견했습니다.\n"
 "\n"
 "설치가 성공적으로 이루어지려면 아마도 BIOS 구성을 변경하여 EFI 또는 UEFI 모드로 부팅해야 할 것입니다."
-msgid "Install System"
-msgstr "시스템 설치"
 msgid "Sending, please wait..."
 msgstr "전송 중입니다. 잠시 기다려주세요..."
 msgid "Log Sent"
@@ -154,69 +127,67 @@ msgid ""
 msgstr ""
 "설치 로그 파일을 클라우드에 보거나 전송하시겠습니까?\\n"
 "지원 그룹에 전송할 링크를 생성합니다."
+msgid "Checking the file:"
+msgstr "파일 확인 중:"
+msgid "Checking for download or USB drive errors, this may take a few minutes..."
+msgstr "다운로드 또는 USB 드라이브 오류를 확인 중입니다. 몇 분 정도 소요될 수 있습니다..."
+msgid "Checking system integrity"
+msgstr "시스템 무결성 확인"
+msgid "Error found, please download the system again or use another USB drive."
+msgstr "오류가 발견되었습니다. 시스템을 다시 다운로드하거나 다른 USB 드라이브를 사용하십시오."
+msgid "The files are intact."
+msgstr "파일이 손상되지 않았습니다."
+msgid "Verification canceled."
+msgstr "검증이 취소되었습니다."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Uncheck the programs you want to remove"
-msgstr "제거하려는 프로그램을 선택 취소하세요"
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 123
+msgid "Loading packages..."
+msgstr "패키지 로딩 중..."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 242
+msgid "Failed to load packages: {}"
+msgstr "패키지를 로드하지 못했습니다: {}"
 # 
-msgid "Back"
-msgstr "뒤로"
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 102
+msgid "All optional programs will be kept"
+msgstr "모든 선택적 프로그램은 유지됩니다."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 107
+msgid "All optional programs selected for removal"
+msgstr "모든 선택된 선택적 프로그램이 제거됩니다."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 120
+msgid "No programs selected for removal. Proceeding with standard installation."
+msgstr "제거할 프로그램이 선택되지 않았습니다. 표준 설치를 진행합니다."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 169
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 320
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 226
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 234
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 259
+msgid "Starting..."
+msgstr "시작 중..."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 202
+msgid "Minimal installation configured successfully"
+msgstr "최소 설치가 성공적으로 구성되었습니다."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 205
+msgid "Failed to configure minimal installation"
+msgstr "최소 설치 구성을 실패했습니다."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
-msgid "Uncheck All"
-msgstr "모두 선택 해제"
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 209
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 230
+msgid "Error configuring installation"
+msgstr "설치 구성 오류"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -236,8 +207,8 @@ msgstr "모두 선택 해제"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
-msgid "Check All"
-msgstr "모두 확인"
+msgid "Snapshot and backups"
+msgstr "스냅샷 및 백업"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -257,8 +228,8 @@ msgstr "모두 확인"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
-msgid "The system is in"
-msgstr "시스템이 실행 중입니다."
+msgid "Restore restore points of the installed system."
+msgstr "설치된 시스템의 복원 지점을 복원합니다."
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -278,8 +249,8 @@ msgstr "시스템이 실행 중입니다."
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
-msgid ", Linux"
-msgstr "Linux"
+msgid "Start"
+msgstr "시작"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -299,39 +270,32 @@ msgstr "Linux"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
-msgid "and graphical mode"
-msgstr "그래픽 모드"
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+msgid "Restore system settings"
+msgstr "시스템 설정 복원"
 # 
-msgid "Manage EFI entries on the motherboard (NVRAM):"
-msgstr "마더보드에서 EFI 항목 관리 (NVRAM):"
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 78
+msgid ""
+"Utility that facilitates the restoration of the installed system, especially the restoration of the "
+"system boot (Grub).\n"
+"\n"
+"It can also be used to access the package manager and terminal of the installed system."
+msgstr ""
+"설치된 시스템의 복원을 용이하게 하는 유틸리티로, 특히 시스템 부트(Grub)의 복원에 사용됩니다.\n"
+"\n"
+"설치된 시스템의 패키지 관리자와 터미널에 접근하는 데에도 사용할 수 있습니다."
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
 msgid "EFI Entry Manager"
 msgstr "EFI 항목 관리자"
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 90
+msgid "Advanced tool to add, remove, or change boot entries in the UEFI firmware."
+msgstr "UEFI 펌웨어에서 부트 항목을 추가, 제거 또는 변경하는 고급 도구."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "This is a collaborative system, if you need help consult our forum: https://forum.biglinux.com.br."
-msgstr "이것은 협업 시스템입니다. 도움이 필요하면 포럼을 참조하십시오: https://forum.biglinux.com.br."
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
+msgid "This is a collaborative system, if you need help consult our forum."
+msgstr "이것은 협업 시스템입니다. 도움이 필요하면 포럼을 참조하세요."
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -501,205 +465,53 @@ msgstr "설치"
 msgid "Minimal"
 msgstr "최소한"
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Choose which programs to install, ensuring a highly customized experience."
-msgstr "고객 맞춤형 경험을 보장하도록 설치할 프로그램을 선택하세요."
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Restore system settings"
-msgstr "시스템 설정 복원"
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid ""
-"Utility that facilitates the restoration of the installed system, especially the restoration of the "
-"system boot (Grub)."
-msgstr "설치된 시스템의 복원을 용이하게 하는 유틸리티, 특히 시스템 부팅 (Grub)의 복원을 지원합니다."
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "It can also be used to access the package manager and terminal of the installed system."
-msgstr "설치된 시스템의 패키지 관리자와 터미널에 액세스하는 데 사용할 수도 있습니다."
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Start"
-msgstr "시작"
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Snapshot and backups"
-msgstr "스냅샷 및 백업"
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Restore points of the installed system."
-msgstr "설치된 시스템의 복원 지점."
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Important tips for manual partitioning"
-msgstr "수동 파티션 작업에 대한 중요한 팁"
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "If you opt for automatic partitioning, these tips will be applied."
-msgstr "자동 파티션 설정을 선택하면 이 팁이 적용됩니다."
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Use BTRFS."
-msgstr "BTRFS를 사용하세요."
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 99
+msgid "Remove pre-selected software to create a lean, personalized system."
+msgstr "미리 선택된 소프트웨어를 제거하여 간소화된 개인화된 시스템을 만드세요."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 234
+msgid "Installation requirements not met: {}"
+msgstr "설치 요구 사항이 충족되지 않았습니다: {}"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 206
+msgid "Checking connection..."
+msgstr "연결 확인 중..."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 211
+msgid "XivaStudio packages will be available during installation"
+msgstr "XivaStudio 패키지는 설치 중에 사용할 수 있습니다."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 216
+msgid "No internet connection - extra packages disabled"
+msgstr "인터넷 연결 없음 - 추가 패키지 비활성화"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 218
+msgid "Configuring..."
+msgstr "구성 중..."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 222
+msgid "Installation configured successfully"
+msgstr "설치가 성공적으로 구성되었습니다."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 225
+msgid "Failed to configure installation"
+msgstr "설치 구성에 실패했습니다."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 39
+msgid "Important Tips"
+msgstr "중요한 팁"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 48
+msgid "Manual Partitioning Recommendations"
+msgstr "수동 파티셔닝 권장 사항"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 49
+msgid "If you opt for automatic partitioning, these tips will be applied by default."
+msgstr "자동 파티셔닝을 선택하면 이러한 팁이 기본적으로 적용됩니다."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 54
+msgid "Use BTRFS"
+msgstr "BTRFS 사용하십시오."
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -722,26 +534,9 @@ msgstr "BTRFS를 사용하세요."
 msgid "This file system allows for automatic compression and restore points."
 msgstr "이 파일 시스템은 자동 압축 및 복원 지점을 지원합니다."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Keep /boot within the / partition."
-msgstr "/boot를 / 파티션 내에 유지하십시오."
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 55
+msgid "Keep /boot within the / partition"
+msgstr "/ 파티션 내에 /boot 유지"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -764,47 +559,30 @@ msgstr "/boot를 / 파티션 내에 유지하십시오."
 msgid "Placing it in a separate partition hampers BTRFS snapshots."
 msgstr "BTRFS 스냅샷을 방해하는 별도의 파티션에 배치합니다."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 56
+msgid "Do not create a SWAP partition"
+msgstr "SWAP 파티션을 생성하지 마십시오."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 56
+msgid ""
+"We have implemented dynamic virtual memory management with Zram and SWAP files. SWAP partitions "
+"will not be used."
+msgstr "Zram 및 SWAP 파일을 사용하여 동적 가상 메모리 관리를 구현했습니다. SWAP 파티션은 사용되지 않습니다."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 69
+msgid "The installer will now proceed..."
+msgstr "설치 프로그램이 이제 진행됩니다..."
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 262
+msgid "Error proceeding to installation"
+msgstr "설치 진행 중 오류 발생"
 # 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Do not create a SWAP partition."
-msgstr "스왑 파티션을 생성하지 마십시오."
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "We have implemented dynamic virtual memory management with Zram and SWAP files."
-msgstr "우리는 Zram과 SWAP 파일을 이용한 동적 가상 메모리 관리를 구현했습니다."
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 61
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 208
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 213
+#, python-brace-format
+msgid "{distro} Installation"
+msgstr "{distro} 설치"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -824,23 +602,14 @@ msgstr "우리는 Zram과 SWAP 파일을 이용한 동적 가상 메모리 관�
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
-msgid "SWAP partitions will not be used."
-msgstr "SWAP 파티션은 사용되지 않습니다."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 41
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 182
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 187
-#: NEEDS WORK
-msgid "BigLinux Installation"
-msgstr "빅리눅스 설치"
+msgid "Back"
+msgstr "뒤로"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 96
-#: NEEDS WORK
 msgid "Keep All"
 msgstr "모두 유지"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 99
-#: NEEDS WORK
 msgid "Remove All"
 msgstr "모두 제거"
 # 
@@ -848,17 +617,35 @@ msgstr "모두 제거"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 157
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 76
-#: NEEDS WORK
 msgid "System Maintenance"
 msgstr "시스템 유지보수"
 # 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
+# 
+msgid "Uncheck the programs you want to remove"
+msgstr "제거하려는 프로그램을 선택 취소하세요"
+# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 159
-#: NEEDS WORK
 msgid "Installation Tips"
 msgstr "설치 팁"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 211
-#: NEEDS WORK
 msgid "Finish and Install"
 msgstr "완료 및 설치"
 # 
@@ -868,27 +655,22 @@ msgstr "완료 및 설치"
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 156
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 162
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 99
-#: NEEDS WORK
 msgid "BigLinux Calamares Config"
 msgstr "빅리눅스 칼라마레스 설정"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 116
-#: NEEDS WORK
 msgid "Forum"
 msgstr "포럼"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 117
-#: NEEDS WORK
 msgid "Documentation"
 msgstr "문서화"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 128
-#: NEEDS WORK
 msgid "Preferences not implemented yet"
 msgstr "아직 구현되지 않은 기본 설정"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
-#: NEEDS WORK
 msgid "OK"
 msgstr "알겠습니다."
 # 
@@ -901,185 +683,9 @@ msgstr "알겠습니다."
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 167
-#: NEEDS WORK
-#: NEEDS WORK
-#: NEEDS WORK
-#: NEEDS WORK
-#: NEEDS WORK
 msgid "Cancel"
 msgstr "취소"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 168
-#: NEEDS WORK
 msgid "Confirm"
 msgstr "확인"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 39
-#: NEEDS WORK
-msgid "Important Tips"
-msgstr "중요한 팁"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 48
-#: NEEDS WORK
-msgid "Manual Partitioning Recommendations"
-msgstr "수동 파티셔닝 권장 사항"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 49
-#: NEEDS WORK
-msgid "If you opt for automatic partitioning, these tips will be applied by default."
-msgstr "자동 파티셔닝을 선택하면 이러한 팁이 기본적으로 적용됩니다."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 54
-#: NEEDS WORK
-msgid "Use BTRFS"
-msgstr "BTRFS 사용하십시오."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 55
-#: NEEDS WORK
-msgid "Keep /boot within the / partition"
-msgstr "/ 파티션 내에 /boot 유지"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 56
-#: NEEDS WORK
-msgid "Do not create a SWAP partition"
-msgstr "SWAP 파티션을 생성하지 마십시오."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 56
-#: NEEDS WORK
-msgid ""
-"We have implemented dynamic virtual memory management with Zram and SWAP files. SWAP partitions "
-"will not be used."
-msgstr "Zram 및 SWAP 파일을 사용하여 동적 가상 메모리 관리를 구현했습니다. SWAP 파티션은 사용되지 않습니다."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 69
-#: NEEDS WORK
-msgid "The installer will now proceed..."
-msgstr "설치 프로그램이 이제 진행됩니다..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 262
-#: NEEDS WORK
-msgid "Error proceeding to installation"
-msgstr "설치 진행 중 오류 발생"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 123
-#: NEEDS WORK
-msgid "Loading packages..."
-msgstr "패키지 로딩 중..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 242
-#: NEEDS WORK
-msgid "Failed to load packages: {}"
-msgstr "패키지를 로드하지 못했습니다: {}"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 102
-#: NEEDS WORK
-msgid "All optional programs will be kept"
-msgstr "모든 선택적 프로그램은 유지됩니다."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 107
-#: NEEDS WORK
-msgid "All optional programs selected for removal"
-msgstr "모든 선택된 선택적 프로그램이 제거됩니다."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 120
-#: NEEDS WORK
-msgid "No programs selected for removal. Proceeding with standard installation."
-msgstr "제거할 프로그램이 선택되지 않았습니다. 표준 설치를 진행합니다."
-# 
-# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 169
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 320
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 226
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 234
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 259
-#: NEEDS WORK
-msgid "Starting..."
-msgstr "시작 중..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 345
-#: NEEDS WORK
-msgid "Minimal installation started successfully"
-msgstr "최소 설치가 성공적으로 시작되었습니다."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 349
-#: NEEDS WORK
-msgid "Failed to start minimal installation"
-msgstr "최소 설치 시작에 실패했습니다."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 355
-#: NEEDS WORK
-msgid "Error starting minimal installation"
-msgstr "최소 설치 시작 오류"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
-#: NEEDS WORK
-msgid "This is a collaborative system, if you need help consult our forum."
-msgstr "이것은 협업 시스템입니다. 도움이 필요하면 포럼을 참조하세요."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 99
-#: NEEDS WORK
-msgid "Remove pre-selected software to create a lean, personalized system."
-msgstr "미리 선택된 소프트웨어를 제거하여 간소화된 개인화된 시스템을 만드세요."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 234
-#: NEEDS WORK
-msgid "Installation requirements not met: {}"
-msgstr "설치 요구 사항이 충족되지 않았습니다: {}"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 245
-#: NEEDS WORK
-msgid "Installation started successfully"
-msgstr "설치가 성공적으로 시작되었습니다."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 249
-#: NEEDS WORK
-msgid "Failed to start installation"
-msgstr "설치 시작에 실패했습니다."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 255
-#: NEEDS WORK
-msgid "Error starting installation"
-msgstr "설치 시작 오류"
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
-# 
-msgid "Restore restore points of the installed system."
-msgstr "설치된 시스템의 복원 지점을 복원합니다."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 78
-#: NEEDS WORK
-msgid ""
-"Utility that facilitates the restoration of the installed system, especially the restoration of the "
-"system boot (Grub).\n"
-"\n"
-"It can also be used to access the package manager and terminal of the installed system."
-msgstr ""
-"설치된 시스템의 복원을 용이하게 하는 유틸리티로, 특히 시스템 부트(Grub)의 복원에 사용됩니다.\n"
-"\n"
-"설치된 시스템의 패키지 관리자와 터미널에 접근하는 데에도 사용할 수 있습니다."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 90
-#: NEEDS WORK
-msgid "Advanced tool to add, remove, or change boot entries in the UEFI firmware."
-msgstr "UEFI 펌웨어에서 부트 항목을 추가, 제거 또는 변경하는 고급 도구."
