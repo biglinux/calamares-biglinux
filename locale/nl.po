@@ -700,6 +700,10 @@ msgstr "Voorkeuren nog niet geïmplementeerd"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
 # 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
+# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149

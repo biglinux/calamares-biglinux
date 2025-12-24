@@ -698,6 +698,10 @@ msgstr "Настройки еще не реализованы."
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
 # 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
+# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 149
