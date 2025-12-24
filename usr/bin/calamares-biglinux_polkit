@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Detect if 'prefer-dark'
+colorScheme=$(gsettings get org.gnome.desktop.interface color-scheme | tr -d "'")
+
+sudo -E env ADW_DEBUG_COLOR_SCHEME=$colorScheme /usr/bin/calamares "$@"

@@ -6,7 +6,6 @@
 # This script performs multiple post-installation setup tasks:
 # 1. GRUB configuration (theme, kernel parameters, cleanup)
 # 2. SDDM session configuration (Wayland/X11)
-# 3. Fstab optimization (btrfs compression)
 # 4. BigLinux live session config migration to installed system
 #    (theme, desktop, JamesDSP audio, display profile)
 #
@@ -24,7 +23,6 @@ fi
 # Define paths relative to root mount point
 GRUB_FILE="$ROOT_MOUNT/etc/default/grub"
 SDDM_STATE="$ROOT_MOUNT/var/lib/sddm/state.conf"
-FSTAB_FILE="$ROOT_MOUNT/etc/fstab"
 CONFIG_DIR="$ROOT_MOUNT/etc/big-default-config"
 
 # Fix GRUB configuration
@@ -65,12 +63,6 @@ if grep -q wayland /proc/cmdline; then
 else
     echo "[Last]
     Session=/usr/share/xsessions/plasma.desktop" > "$SDDM_STATE"
-fi
-
-# Optimize btrfs compression in fstab
-# Use compress-force=zstd:5 for root, zstd without level for other partitions
-if [ -f "$FSTAB_FILE" ]; then
-    sed -i -e '/\s\/\s/ s/zstd:9/zstd:5/' -e '/\s\/\s/! s/zstd:9/zstd/' "$FSTAB_FILE"
 fi
 
 # Copy BigLinux configuration files from /tmp to installed system

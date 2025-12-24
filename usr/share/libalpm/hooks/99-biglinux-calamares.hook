@@ -7,4 +7,4 @@ Target = usr/bin/calamares
 [Action]
 Description = Change calamares to biglinux
 When = PostTransaction
-Exec = /usr/share/biglinux-divert/calamares-biglinux
+Exec = /usr/share/libalpm/scripts/calamares-biglinux

@@ -1,15 +1,9 @@
 post_install() {
-    if [ "$(file -i /usr/bin/calamares | grep shellscript)" = "" ]; then
-        #mv -f /usr/bin/calamares /usr/bin/calamares-manjaro
-        #cp /usr/bin/calamares-biglinux /usr/bin/calamares
-        bash /usr/share/biglinux-divert/calamares-biglinux
-    fi
-    rm -f /usr/share/applications/calamares.desktop
-    
+    # Save to compare date of iso creation and date of installation
     echo $(( $(date +%s) / 86400 )) > /usr/share/bigbashview/bcc/apps/bigbashview-calamares/install_date
 }
 
 pre_remove() {
-    mv -f /usr/bin/calamares /usr/bin/calamares-biglinux
     mv -f /usr/bin/calamares-manjaro /usr/bin/calamares
+    mv -f /usr/bin/calamares-manjaro_polkit /usr/bin/calamares_polkit
 } 
