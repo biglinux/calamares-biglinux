@@ -39,18 +39,15 @@ fi
 
 # Alert the user if the ISO is older than 30 days if not using community version
 if [ "$(echo $(( $(date +%s) / 86400 )))" -gt "$(( $(cat /etc/big-release | grep UNIX_TIMESTAMP= | cut -d "=" -f2) + 30 ))" ]  && ! grep -qi community /etc/os-release; then
-    yad --image=emblem-warning --image-on-top --form --width=500 --height=100 --fixed \
-    --align=center \
-    --field=$"<b>Do you want to proceed with the installation of this old version anyway?</b>
-    :LBL" \
-    --text $"BigLinux is a system with weekly updates and this version was released more than a month ago.\nWe recommend downloading a more recent version.
-    " \
-    --button=$"Continue":0 \
-    --button=$"Close":1 \
-    --center --on-top --borders=20 --title=$"Outdated Version" \
-    --window-icon=emblem-warning
+    zenity --question \
+        --icon-name=emblem-warning \
+        --width=500 \
+        --title=$"Outdated Version" \
+        --text=$"<b>Do you want to proceed with the installation of this old version anyway?</b>\n\nBigLinux is a system with weekly updates and this version was released more than a month ago.\nWe recommend downloading a more recent version." \
+        --ok-label=$"Continue" \
+        --cancel-label=$"Close"
 
-    if [ "$?" = "1" ]; then
+    if [ "$?" != "0" ]; then
         exit 1
     fi
 fi
@@ -316,18 +313,15 @@ If this computer already has another system installed and you intend
 to keep it installed, you will probably need to change the 
 configuration in the BIOS to boot in Legacy mode, also 
 called BIOS mode."
-yad --image=drive-harddisk --image-on-top --form --width=500 --height=100 --fixed \
---align=center \
---field="<b>$TEXT_01</b>
-:LBL" \
---text "$TEXT_02
-" \
---button=$"Continue"!gtk-apply:0 \
---button=$"Close"!gtk-cancel:1 \
---center --on-top --borders=20 --title=$"Install the system" \
---window-icon="/usr/share/icons/hicolor/scalable/apps/icon-big-hd-install.svg"
+zenity --question \
+    --icon-name=drive-harddisk \
+    --width=500 \
+    --title=$"Install the system" \
+    --text="<b>$TEXT_01</b>\n\n$TEXT_02" \
+    --ok-label=$"Continue" \
+    --cancel-label=$"Close"
 
-    if [ "$?" = "1" ]; then
+    if [ "$?" != "0" ]; then
         exit
     fi
 fi
@@ -341,18 +335,15 @@ TEXT_04=$"The current boot is using <span color='#CC2222'>Legacy/BIOS</span> mod
 
 For the installation to be successful, you will probably need to 
 change the configuration in the BIOS to boot in EFI or UEFI mode."
-yad --image=drive-harddisk --image-on-top --form --width=500 --height=100 --fixed \
---align=center \
---field="<b>$TEXT_03</b>
-:LBL" \
---text "$TEXT_04
-" \
---button=$"Continue"!gtk-apply:0 \
---button=$"Close"!gtk-cancel:1 \
---center --on-top --borders=20 --title=$"Install the system" \
---window-icon="/usr/share/icons/hicolor/scalable/apps/icon-big-hd-install.svg"
+zenity --question \
+    --icon-name=drive-harddisk \
+    --width=500 \
+    --title=$"Install the system" \
+    --text="<b>$TEXT_03</b>\n\n$TEXT_04" \
+    --ok-label=$"Continue" \
+    --cancel-label=$"Close"
 
-    if [ "$?" = "1" ]; then
+    if [ "$?" != "0" ]; then
         exit
     fi
 fi
@@ -410,45 +401,45 @@ if [ -e "/tmp/start_calamares" ]; then
                 sudo -u $user falkon "$fileUrl"
             else
             # If no browser is found, display the URL to the user
-            yad --info \
+            zenity --info \
                 --title=$"Log Sent" \
                 --text=$"Log successfully sent!\n\nURL: $fileUrl\n\nYou can use this URL to share the log." \
-                --width=400 \
-                --center \
-                --button=gtk-ok:0
+                --width=400
             fi
         }
 
         # Handle specific efibootmgr errors
         if grep -q 'grub-install: error: efibootmgr failed to register the boot entry: Input/output error.' /home/$user/calamares_error.log; then
 
-        yad --buttons-layout=center \
+        zenity --question \
             --width=480 \
-            --button=$"Open the EFI manager":1 \
-            --button=$"Close":2 \
             --title=$"calamares LOG" \
-            --text=$"\nIt was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\n\nCheck the EFI manager for any entries that can be deleted and try installing the system again.\n"
+            --text=$"It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\n\nCheck the EFI manager for any entries that can be deleted and try installing the system again." \
+            --ok-label=$"Open the EFI manager" \
+            --cancel-label=$"Close"
             
-        case $? in
-            1) sudo QEFIEntryManager ;;
-            2) echo $"Don't open QEFIEntryManager..." ;;
-        esac
+        if [ "$?" = "0" ]; then
+            sudo QEFIEntryManager
+        fi
         
         fi
 
         # Prompt the user to view or send the log
-        yad --buttons-layout=center \
+        log_action=$(zenity --list \
             --width=480 \
-            --button=$"Open":1 \
-            --button=$"Send to the cloud":2 \
-            --button=$"Close":3 \
-            --title=$"calamares LOG" \
-            --text=$"\nDo you want to view or send the installation log file to the cloud?\nGenerate a link to send in support groups.\n"
+            --height=350 \
+            --title="Calamares LOG" \
+            --text=$"Do you want to view or send the installation log file to the cloud?\nGenerate a link to send in support groups." \
+            --radiolist \
+            --column="" --column=$"Action" \
+            TRUE $"Open" \
+            FALSE $"Send to the cloud" \
+            FALSE $"Close")
 
-        case $? in
-            1) sudo -u $user $text_editor /home/$user/calamares_error.log ;;
-            2) send_log ;;
-            3) echo "Closing file..." ;;
+        case "$log_action" in
+            *"Open"*) sudo -u $user $text_editor /home/$user/calamares_error.log ;;
+            *"Send"*) send_log ;;
+            *) echo "Closing file..." ;;
         esac
     fi
 fi

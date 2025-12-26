@@ -8,7 +8,7 @@ import gi
 gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
 
-from gi.repository import Gtk, Adw, Gio
+from gi.repository import Gtk, Adw, Gio, GLib
 from .window import CalamaresWindow
 from .utils.i18n import _
 
@@ -21,6 +21,10 @@ class CalamaresApp(Adw.Application):
             application_id="com.biglinux.calamares-config",
             flags=Gio.ApplicationFlags.DEFAULT_FLAGS,
         )
+        
+        # Set the desktop file and icon name for proper Wayland taskbar integration
+        GLib.set_prgname("com.biglinux.calamares-config")
+        GLib.set_application_name("BigLinux Installation")
 
         self.logger = logging.getLogger(__name__)
         self.window = None
