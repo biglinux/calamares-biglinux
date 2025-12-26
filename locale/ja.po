@@ -18,19 +18,18 @@ msgid "Please wait..."
 msgstr "お待ちください..."
 msgid "Checking the integrity of the download and storage device..."
 msgstr "ダウンロードとストレージデバイスの整合性をチェックしています..."
+msgid "Outdated Version"
+msgstr "古いバージョン"
 msgid ""
-"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
-"    :LBL"
-msgstr ""
-"<b>この古いバージョンのインストールを続行しますか？</b>\n"
-"    :LBL"
-msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\\n"
+"\\n"
 "BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
-"We recommend downloading a more recent version.\n"
-"    "
+"We recommend downloading a more recent version."
 msgstr ""
-"BigLinuxは、週次のアップデートを備えたシステムで、このバージョンは1か月以上前にリリースされました。\\n"
-"より新しいバージョンをダウンロードすることをお勧めします。"
+"<b>この古いバージョンのインストールを続行しますか？</b>\\n"
+"\\n"
+"BigLinuxは週次更新のあるシステムであり、このバージョンは1ヶ月以上前にリリースされました。\\n"
+"より新しいバージョンのダウンロードをお勧めします。"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -54,8 +53,6 @@ msgid "Continue"
 msgstr "続行"
 msgid "Close"
 msgstr "閉じる"
-msgid "Outdated Version"
-msgstr "古いバージョン"
 msgid "Do you want to proceed with the installation in EFI mode?"
 msgstr "EFIモードでインストールを続行しますか？"
 msgid ""
@@ -100,32 +97,30 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "このURLを使用してログを共有できます。"
-msgid "Open the EFI manager"
-msgstr "EFIマネージャーを開く"
 msgid "calamares LOG"
 msgstr "Calamares ログ"
 msgid ""
-"\\n"
 "It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
 "\\n"
-"Check the EFI manager for any entries that can be deleted and try installing the system again.\\n"
+"Check the EFI manager for any entries that can be deleted and try installing the system again."
 msgstr ""
-"マザーボードにEFIエントリを書き込むことはできませんでした。おそらく、空き容量が不足しているためです。\n"
-"\n"
-"EFIマネージャーで削除できるエントリを確認し、システムの再インストールを試みてください。"
-msgid "Don't open QEFIEntryManager..."
-msgstr "QEFIEntryManagerを開かないでください..."
+"マザーボードにEFIエントリを書き込むことはできませんでした。おそらく、空き容量が不足しているためです。\\n"
+"\\n"
+"削除できるエントリがないかEFIマネージャーを確認し、再度システムのインストールを試みてください。"
+msgid "Open the EFI manager"
+msgstr "EFIマネージャーを開く"
+msgid ""
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups."
+msgstr ""
+"クラウドにインストールログファイルを表示または送信しますか？\\n"
+"サポートグループに送信するリンクを生成します。"
+msgid "Action"
+msgstr "アクション"
 msgid "Open"
 msgstr "オープン"
 msgid "Send to the cloud"
 msgstr "クラウドに送信"
-msgid ""
-"\\n"
-"Do you want to view or send the installation log file to the cloud?\\n"
-"Generate a link to send in support groups.\\n"
-msgstr ""
-"インストールログファイルを表示またはクラウドに送信しますか？\\n"
-"サポートグループに送信するためのリンクを生成します。\\n"
 msgid "Checking the file:"
 msgstr "ファイルをチェック中:"
 msgid "Checking for download or USB drive errors, this may take a few minutes..."
@@ -147,18 +142,6 @@ msgstr "パッケージを読み込んでいます..."
 msgid "Failed to load packages: {}"
 msgstr "パッケージの読み込みに失敗しました: {}"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 102
-msgid "All optional programs will be kept"
-msgstr "すべてのオプションプログラムは保持されます。"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 107
-msgid "All optional programs selected for removal"
-msgstr "削除するために選択されたすべてのオプションプログラム"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 120
-msgid "No programs selected for removal. Proceeding with standard installation."
-msgstr "削除するプログラムは選択されていません。標準インストールを続行します。"
-# 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
@@ -172,21 +155,6 @@ msgstr "削除するプログラムは選択されていません。標準イン
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 259
 msgid "Starting..."
 msgstr "開始中..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 202
-msgid "Minimal installation configured successfully"
-msgstr "最小インストールが正常に構成されました。"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 205
-msgid "Failed to configure minimal installation"
-msgstr "最小インストールの構成に失敗しました。"
-# 
-# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 209
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 230
-msgid "Error configuring installation"
-msgstr "インストールの構成エラー"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -292,9 +260,11 @@ msgstr "EFIエントリーマネージャー"
 msgid "Advanced tool to add, remove, or change boot entries in the UEFI firmware."
 msgstr "UEFIファームウェアのブートエントリを追加、削除、または変更するための高度なツール。"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
-msgid "This is a collaborative system, if you need help consult our forum."
-msgstr "これは共同作業システムです。助けが必要な場合は、フォーラムを参照してください。"
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 147
+msgid ""
+"<a href=\"https://forum.biglinux.com.br\">This is a collaborative system, if you need help consult "
+"our forum.</a>"
+msgstr "<a href=\"https://forum.biglinux.com.br\">これは共同作業システムです。助けが必要な場合は、フォーラムをご覧ください。</a>"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -468,33 +438,13 @@ msgstr "最小"
 msgid "Remove pre-selected software to create a lean, personalized system."
 msgstr "事前に選択されたソフトウェアを削除して、スリムでパーソナライズされたシステムを作成します。"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 234
-msgid "Installation requirements not met: {}"
-msgstr "インストール要件が満たされていません: {}"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 206
 msgid "Checking connection..."
 msgstr "接続を確認しています..."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 211
-msgid "XivaStudio packages will be available during installation"
-msgstr "XivaStudioパッケージは、インストール中に利用可能です。"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 216
-msgid "No internet connection - extra packages disabled"
-msgstr "インターネット接続なし - 追加パッケージが無効になっています"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 218
 msgid "Configuring..."
 msgstr "設定中..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 222
-msgid "Installation configured successfully"
-msgstr "インストールが正常に構成されました"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 225
-msgid "Failed to configure installation"
-msgstr "インストールの構成に失敗しました"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 39
 msgid "Important Tips"
@@ -568,14 +518,6 @@ msgid ""
 "will not be used."
 msgstr "ZramとSWAPファイルを使用した動的仮想メモリ管理を実装しました。SWAPパーティションは使用されません。"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 69
-msgid "The installer will now proceed..."
-msgstr "インストーラーが進行中です..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 262
-msgid "Error proceeding to installation"
-msgstr "インストールに進む際にエラーが発生しました"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 61
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 208
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 213
@@ -644,10 +586,6 @@ msgstr "削除したいプログラムのチェックを外してください"
 msgid "Installation Tips"
 msgstr "インストールのヒント"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 211
-msgid "Finish and Install"
-msgstr "完了してインストール"
-# 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 46
@@ -668,6 +606,10 @@ msgstr "ドキュメント"
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 128
 msgid "Preferences not implemented yet"
 msgstr "まだ実装されていない設定"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 151
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 151
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
 # 

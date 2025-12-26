@@ -18,20 +18,19 @@ msgid "Please wait..."
 msgstr "Palun oota..."
 msgid "Checking the integrity of the download and storage device..."
 msgstr "Kontrollitakse allalaadimise ja salvestusseadme terviklikkust..."
+msgid "Outdated Version"
+msgstr "Aegunud versioon"
 msgid ""
-"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
-"    :LBL"
-msgstr ""
-"<b>Kas soovite siiski jätkata selle vana versiooni installimisega?</b>\n"
-"    :LBL"
-msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\\n"
+"\\n"
 "BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
-"We recommend downloading a more recent version.\n"
-"    "
+"We recommend downloading a more recent version."
 msgstr ""
-"BigLinux on süsteem, millel on nädalased värskendused ja see versioon anti välja rohkem kui kuu "
-"aega tagasi.\\n"
-"Soovitame alla laadida uuem versioon."
+"<b>Kas soovite ikkagi jätkata selle vana versiooni installimist?</b>\\n"
+"\\n"
+"BigLinux on süsteem, millel on iganädalased uuendused ja see versioon ilmus rohkem kui kuu aega "
+"tagasi.\\n"
+"Soovitame alla laadida uuema versiooni."
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -55,8 +54,6 @@ msgid "Continue"
 msgstr "Jätka"
 msgid "Close"
 msgstr "Sulge"
-msgid "Outdated Version"
-msgstr "Aegunud versioon"
 msgid "Do you want to proceed with the installation in EFI mode?"
 msgstr "Kas soovite jätkata paigaldust EFI režiimis?"
 msgid ""
@@ -106,34 +103,30 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Sa saad kasutada seda URL-i logi jagamiseks."
-msgid "Open the EFI manager"
-msgstr "Avage EFI haldurit"
 msgid "calamares LOG"
 msgstr "calamaresi LOG"
 msgid ""
-"\\n"
 "It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
 "\\n"
-"Check the EFI manager for any entries that can be deleted and try installing the system again.\\n"
+"Check the EFI manager for any entries that can be deleted and try installing the system again."
 msgstr ""
+"EFI sisenemist emaplaadile ei olnud võimalik kirjutada, tõenäoliselt ebapiisava ruumi tõttu.\\n"
 "\\n"
-"EFI sisestuse kirjutamine emaplaadile ei olnud võimalik, tõenäoliselt ebapiisava ruumi tõttu.\\n"
-"\\n"
-"Kontrollige EFI haldurit, et leida kustutamiseks sobivaid sisestusi, ja proovige süsteemi uuesti "
-"installida.\\n"
-msgid "Don't open QEFIEntryManager..."
-msgstr "Ärge avage QEFIEntryManager..."
+"Kontrollige EFI haldurit, et leida kustutatavaid sisenemisi, ja proovige süsteemi uuesti installida."
+msgid "Open the EFI manager"
+msgstr "Avage EFI haldurit"
+msgid ""
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups."
+msgstr ""
+"Kas soovite vaadata või saata installimise logifaili pilve?\\n"
+"Looge link, mida saata tugigruppidesse."
+msgid "Action"
+msgstr "Tegevus"
 msgid "Open"
 msgstr "Ava&nbsp;"
 msgid "Send to the cloud"
 msgstr "Saada pilve"
-msgid ""
-"\\n"
-"Do you want to view or send the installation log file to the cloud?\\n"
-"Generate a link to send in support groups.\\n"
-msgstr ""
-"Kas soovite vaadata või saata installimise logifaili pilve?\\n"
-"Looge link, mida saata tugirühmadesse.\\n"
 msgid "Checking the file:"
 msgstr "Faili kontrollimine:"
 msgid "Checking for download or USB drive errors, this may take a few minutes..."
@@ -155,18 +148,6 @@ msgstr "Laadimine..."
 msgid "Failed to load packages: {}"
 msgstr "Pakettide laadimine ebaõnnestus: {}"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 102
-msgid "All optional programs will be kept"
-msgstr "Kõik valikulised programmid hoitakse alles."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 107
-msgid "All optional programs selected for removal"
-msgstr "Kõik valikulised programmid on eemaldamiseks valitud"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 120
-msgid "No programs selected for removal. Proceeding with standard installation."
-msgstr "Eemaldamiseks ei ole valitud ühtegi programmi. Jätkan tavalise installatsiooniga."
-# 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
@@ -180,21 +161,6 @@ msgstr "Eemaldamiseks ei ole valitud ühtegi programmi. Jätkan tavalise install
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 259
 msgid "Starting..."
 msgstr "Alustamine..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 202
-msgid "Minimal installation configured successfully"
-msgstr "Minimaalne installatsioon on edukalt konfigureeritud"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 205
-msgid "Failed to configure minimal installation"
-msgstr "Minimaalse installatsiooni seadistamine ebaõnnestus"
-# 
-# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 209
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 230
-msgid "Error configuring installation"
-msgstr "Installatsiooni seadistamise viga"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -301,9 +267,13 @@ msgstr "EFI sisenemise haldur"
 msgid "Advanced tool to add, remove, or change boot entries in the UEFI firmware."
 msgstr "Täpsem tööriist käivituskanalite lisamiseks, eemaldamiseks või muutmiseks UEFI püsivara seadetes."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
-msgid "This is a collaborative system, if you need help consult our forum."
-msgstr "See on koostööline süsteem, kui vajate abi, konsulteerige meie foorumiga."
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 147
+msgid ""
+"<a href=\"https://forum.biglinux.com.br\">This is a collaborative system, if you need help consult "
+"our forum.</a>"
+msgstr ""
+"<a href=\"https://forum.biglinux.com.br\">See on koostööline süsteem, kui vajate abi, konsulteerige "
+"meie foorumiga.</a>"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -477,33 +447,13 @@ msgstr "Minimaalne"
 msgid "Remove pre-selected software to create a lean, personalized system."
 msgstr "Eemalda eelvalitud tarkvara, et luua kompaktne ja isikupärastatud süsteem."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 234
-msgid "Installation requirements not met: {}"
-msgstr "Installeerimise nõuded ei ole täidetud: {}"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 206
 msgid "Checking connection..."
 msgstr "Kontrollin ühendust..."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 211
-msgid "XivaStudio packages will be available during installation"
-msgstr "XivaStudio paketid on installimise ajal saadaval."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 216
-msgid "No internet connection - extra packages disabled"
-msgstr "Ei internetiühendust - lisapakettide tugi keelatud"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 218
 msgid "Configuring..."
 msgstr "Konfigureerimine..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 222
-msgid "Installation configured successfully"
-msgstr "Installeerimine on edukalt konfigureeritud"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 225
-msgid "Failed to configure installation"
-msgstr "Installatsiooni konfigureerimine ebaõnnestus"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 39
 msgid "Important Tips"
@@ -579,14 +529,6 @@ msgstr ""
 "Oleme rakendanud dünaamilist virtuaalset mälu haldust Zrami ja SWAP-failidega. SWAP-partitsioone ei "
 "kasutata."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 69
-msgid "The installer will now proceed..."
-msgstr "Installeerija jätkab nüüd..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 262
-msgid "Error proceeding to installation"
-msgstr "Viga installatsiooni jätkamise ajal"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 61
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 208
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 213
@@ -655,10 +597,6 @@ msgstr "Tühista märkeruudud nende programmide eemaldamiseks"
 msgid "Installation Tips"
 msgstr "Installeerimisnõuanded"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 211
-msgid "Finish and Install"
-msgstr "Lõpeta ja installi"
-# 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 46
@@ -679,6 +617,10 @@ msgstr "Dokumentatsioon"
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 128
 msgid "Preferences not implemented yet"
 msgstr "Eelistused pole veel rakendatud."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 151
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 151
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
 # 

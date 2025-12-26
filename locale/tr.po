@@ -18,20 +18,19 @@ msgid "Please wait..."
 msgstr "Lütfen bekleyin..."
 msgid "Checking the integrity of the download and storage device..."
 msgstr "İndirme ve depolama cihazının bütünlüğünü kontrol ediliyor..."
+msgid "Outdated Version"
+msgstr "Eski Sürüm"
 msgid ""
-"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
-"    :LBL"
-msgstr ""
-"<b>Bu eski sürümün yüklenmesine devam etmek istiyor musunuz?</b>\n"
-"    :LBL"
-msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\\n"
+"\\n"
 "BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
-"We recommend downloading a more recent version.\n"
-"    "
+"We recommend downloading a more recent version."
 msgstr ""
-"BigLinux haftalık güncellemelerle gelen bir sistemdir ve bu sürüm bir aydan daha uzun bir süre önce "
-"yayınlandı.\\n"
-"Daha yeni bir sürümü indirmenizi öneririz."
+"<b>Yine de bu eski sürümün kurulumu ile devam etmek istiyor musunuz?</b>\\n"
+"\\n"
+"BigLinux, haftalık güncellemeleri olan bir sistemdir ve bu sürüm bir aydan daha uzun bir süre önce "
+"yayımlandı.\\n"
+"Daha güncel bir sürüm indirmenizi öneririz."
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -55,8 +54,6 @@ msgid "Continue"
 msgstr "Devam et"
 msgid "Close"
 msgstr "Kapat"
-msgid "Outdated Version"
-msgstr "Eski Sürüm"
 msgid "Do you want to proceed with the installation in EFI mode?"
 msgstr "EFI modunda kurulumu devam ettirmek istiyor musunuz?"
 msgid ""
@@ -106,35 +103,31 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Bu URL'yi günlük paylaşmak için kullanabilirsiniz."
-msgid "Open the EFI manager"
-msgstr "EFI yöneticisini açın"
 msgid "calamares LOG"
 msgstr "calamares GÜNLÜK KAYDI"
 msgid ""
-"\\n"
 "It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
 "\\n"
-"Check the EFI manager for any entries that can be deleted and try installing the system again.\\n"
+"Check the EFI manager for any entries that can be deleted and try installing the system again."
 msgstr ""
-"\\n"
 "Anakartın EFI girişini yazmak mümkün olmadı, muhtemelen yetersiz alan nedeniyle.\\n"
 "\\n"
 "Silinebilecek herhangi bir giriş için EFI yöneticisini kontrol edin ve sistemi tekrar kurmayı "
-"deneyin.\\n"
-msgid "Don't open QEFIEntryManager..."
-msgstr "QEFIEntryManager'ı açmayın..."
+"deneyin."
+msgid "Open the EFI manager"
+msgstr "EFI yöneticisini açın"
+msgid ""
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups."
+msgstr ""
+"Kurulum günlük dosyasını buluta görüntülemek veya göndermek ister misiniz?\\n"
+"Destek gruplarında göndermek için bir bağlantı oluşturun."
+msgid "Action"
+msgstr "Eylem"
 msgid "Open"
 msgstr "Açık"
 msgid "Send to the cloud"
 msgstr "Buluta gönder"
-msgid ""
-"\\n"
-"Do you want to view or send the installation log file to the cloud?\\n"
-"Generate a link to send in support groups.\\n"
-msgstr ""
-"\\n"
-"Yükleme günlüğü dosyasını görüntülemek veya buluta göndermek ister misiniz?\\n"
-"Destek gruplarına göndermek için bir bağlantı oluşturun.\\n"
 msgid "Checking the file:"
 msgstr "Dosyayı kontrol ediliyor:"
 msgid "Checking for download or USB drive errors, this may take a few minutes..."
@@ -156,18 +149,6 @@ msgstr "Paketler yükleniyor..."
 msgid "Failed to load packages: {}"
 msgstr "Paketler yüklenemedi: {}"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 102
-msgid "All optional programs will be kept"
-msgstr "Tüm isteğe bağlı programlar saklanacaktır."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 107
-msgid "All optional programs selected for removal"
-msgstr "Tüm kaldırılacak isteğe bağlı programlar seçildi."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 120
-msgid "No programs selected for removal. Proceeding with standard installation."
-msgstr "Kaldırma için seçilen program yok. Standart kurulumla devam ediliyor."
-# 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
@@ -181,21 +162,6 @@ msgstr "Kaldırma için seçilen program yok. Standart kurulumla devam ediliyor.
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 259
 msgid "Starting..."
 msgstr "Başlatılıyor..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 202
-msgid "Minimal installation configured successfully"
-msgstr "Minimal kurulum başarıyla yapılandırıldı."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 205
-msgid "Failed to configure minimal installation"
-msgstr "Minimal kurulum yapılandırı başarısız oldu."
-# 
-# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 209
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 230
-msgid "Error configuring installation"
-msgstr "Kurulum yapılandırmasında hata"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -302,9 +268,13 @@ msgstr "EFI Giriş Yöneticisi"
 msgid "Advanced tool to add, remove, or change boot entries in the UEFI firmware."
 msgstr "UEFI yazılımında önyükleme girişlerini eklemek, kaldırmak veya değiştirmek için gelişmiş araç."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
-msgid "This is a collaborative system, if you need help consult our forum."
-msgstr "Bu, işbirlikçi bir sistemdir; yardıma ihtiyacınız olursa forumumuza danışın."
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 147
+msgid ""
+"<a href=\"https://forum.biglinux.com.br\">This is a collaborative system, if you need help consult "
+"our forum.</a>"
+msgstr ""
+"<a href=\"https://forum.biglinux.com.br\">Bu bir işbirlikçi sistemdir, yardıma ihtiyacınız varsa "
+"forumumuzu kontrol edin.</a>"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -478,33 +448,13 @@ msgstr "Minimum"
 msgid "Remove pre-selected software to create a lean, personalized system."
 msgstr "Önceden seçilmiş yazılımları kaldırarak daha sade, kişiselleştirilmiş bir sistem oluşturun."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 234
-msgid "Installation requirements not met: {}"
-msgstr "Kurulum gereksinimleri karşılanmadı: {}"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 206
 msgid "Checking connection..."
 msgstr "Bağlantı kontrol ediliyor..."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 211
-msgid "XivaStudio packages will be available during installation"
-msgstr "XivaStudio paketleri kurulum sırasında mevcut olacaktır."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 216
-msgid "No internet connection - extra packages disabled"
-msgstr "İnternet bağlantısı yok - ek paketler devre dışı bırakıldı"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 218
 msgid "Configuring..."
 msgstr "Yapılandırılıyor..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 222
-msgid "Installation configured successfully"
-msgstr "Kurulum başarıyla yapılandırıldı."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 225
-msgid "Failed to configure installation"
-msgstr "Kurulum yapılandırması başarısız oldu."
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 39
 msgid "Important Tips"
@@ -580,14 +530,6 @@ msgstr ""
 "Zram ve SWAP dosyaları ile dinamik sanal bellek yönetimi uyguladık. SWAP bölümleri "
 "kullanılmayacaktır."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 69
-msgid "The installer will now proceed..."
-msgstr "Kurulum şimdi devam edecek..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 262
-msgid "Error proceeding to installation"
-msgstr "Kurulum işlemine geçerken hata oluştu."
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 61
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 208
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 213
@@ -655,10 +597,6 @@ msgstr "Kaldırmak istediğiniz programları işaretlemeyin"
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 159
 msgid "Installation Tips"
 msgstr "Kurulum İpuçları"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 211
-msgid "Finish and Install"
-msgstr "Tamamla ve Yükle"
 # 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 

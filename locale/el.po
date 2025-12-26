@@ -18,19 +18,19 @@ msgid "Please wait..."
 msgstr "Παρακαλώ περιμένετε..."
 msgid "Checking the integrity of the download and storage device..."
 msgstr "Έλεγχος ακεραιότητας της λήψης και της συσκευής αποθήκευσης..."
+msgid "Outdated Version"
+msgstr "Παλαιότερη Έκδοση"
 msgid ""
-"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
-"    :LBL"
-msgstr ""
-"<b>Θέλετε να συνεχίσετε με την εγκατάσταση αυτής της παλιάς έκδοσης ούτως ή άλλως;</b>\n"
-"    :LBL"
-msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\\n"
+"\\n"
 "BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
-"We recommend downloading a more recent version.\n"
-"    "
+"We recommend downloading a more recent version."
 msgstr ""
+"<b>Θέλετε να προχωρήσετε με την εγκατάσταση αυτής της παλιάς έκδοσης ούτως ή άλλως;</b>\\n"
+"\\n"
 "Το BigLinux είναι ένα σύστημα με εβδομαδιαίες ενημερώσεις και αυτή η έκδοση κυκλοφόρησε πριν από "
-"περισσότερο από ένα μήνα. Συνιστούμε να κατεβάσετε μια πιο πρόσφατη έκδοση."
+"περισσότερο από ένα μήνα.\\n"
+"Συνιστούμε να κατεβάσετε μια πιο πρόσφατη έκδοση."
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -54,8 +54,6 @@ msgid "Continue"
 msgstr "Συνέχεια"
 msgid "Close"
 msgstr "Κλείσιμο"
-msgid "Outdated Version"
-msgstr "Παλαιότερη Έκδοση"
 msgid "Do you want to proceed with the installation in EFI mode?"
 msgstr "Θέλετε να συνεχίσετε την εγκατάσταση σε λειτουργία EFI;"
 msgid ""
@@ -105,35 +103,31 @@ msgstr ""
 "Διεύθυνση URL: $fileUrl\\n"
 "\\n"
 "Μπορείτε να χρησιμοποιήσετε αυτή τη διεύθυνση URL για να μοιραστείτε το αρχείο καταγραφής."
-msgid "Open the EFI manager"
-msgstr "Ανοίξτε τον διαχειριστή EFI"
 msgid "calamares LOG"
 msgstr "Καταγραφή Calamares"
 msgid ""
-"\\n"
 "It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
 "\\n"
-"Check the EFI manager for any entries that can be deleted and try installing the system again.\\n"
+"Check the EFI manager for any entries that can be deleted and try installing the system again."
 msgstr ""
-"\\n"
 "Δεν ήταν δυνατή η εγγραφή της εγγραφής EFI στη μητρική πλακέτα, πιθανώς λόγω ανεπαρκούς χώρου.\\n"
 "\\n"
 "Ελέγξτε τον διαχειριστή EFI για τυχόν εγγραφές που μπορούν να διαγραφούν και προσπαθήστε να "
-"εγκαταστήσετε το σύστημα ξανά.\\n"
-msgid "Don't open QEFIEntryManager..."
-msgstr "Μην ανοίξετε το QEFIEntryManager..."
+"εγκαταστήσετε το σύστημα ξανά."
+msgid "Open the EFI manager"
+msgstr "Ανοίξτε τον διαχειριστή EFI"
+msgid ""
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups."
+msgstr ""
+"Θέλετε να δείτε ή να στείλετε το αρχείο καταγραφής εγκατάστασης στο σύννεφο;\\n"
+"Δημιουργήστε έναν σύνδεσμο για να στείλετε σε ομάδες υποστήριξης."
+msgid "Action"
+msgstr "Ενέργεια"
 msgid "Open"
 msgstr "Άνοιγμα"
 msgid "Send to the cloud"
 msgstr "Στείλτε στο νέφος"
-msgid ""
-"\\n"
-"Do you want to view or send the installation log file to the cloud?\\n"
-"Generate a link to send in support groups.\\n"
-msgstr ""
-"\\n"
-"Θέλετε να προβάλετε ή να στείλετε το αρχείο καταγραφής εγκατάστασης στο cloud;\\n"
-"Δημιουργήστε ένα σύνδεσμο για να στείλετε σε ομάδες υποστήριξης.\\n"
 msgid "Checking the file:"
 msgstr "Έλεγχος του αρχείου:"
 msgid "Checking for download or USB drive errors, this may take a few minutes..."
@@ -155,18 +149,6 @@ msgstr "Φόρτωση πακέτων..."
 msgid "Failed to load packages: {}"
 msgstr "Αποτυχία φόρτωσης πακέτων: {}"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 102
-msgid "All optional programs will be kept"
-msgstr "Όλα τα προαιρετικά προγράμματα θα διατηρηθούν."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 107
-msgid "All optional programs selected for removal"
-msgstr "Όλα τα προαιρετικά προγράμματα επιλέχθηκαν για αφαίρεση"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 120
-msgid "No programs selected for removal. Proceeding with standard installation."
-msgstr "Δεν έχουν επιλεγεί προγράμματα προς αφαίρεση. Συνεχίζω με την κανονική εγκατάσταση."
-# 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
@@ -180,21 +162,6 @@ msgstr "Δεν έχουν επιλεγεί προγράμματα προς αφ�
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 259
 msgid "Starting..."
 msgstr "Αρχή..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 202
-msgid "Minimal installation configured successfully"
-msgstr "Η ελάχιστη εγκατάσταση διαμορφώθηκε με επιτυχία."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 205
-msgid "Failed to configure minimal installation"
-msgstr "Αποτυχία διαμόρφωσης ελάχιστης εγκατάστασης"
-# 
-# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 209
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 230
-msgid "Error configuring installation"
-msgstr "Σφάλμα κατά τη ρύθμιση της εγκατάστασης"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -304,9 +271,13 @@ msgstr ""
 "Προηγμένο εργαλείο για την προσθήκη, αφαίρεση ή αλλαγή καταχωρήσεων εκκίνησης στο υλικολογισμικό "
 "UEFI."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
-msgid "This is a collaborative system, if you need help consult our forum."
-msgstr "Αυτό είναι ένα συνεργατικό σύστημα, αν χρειάζεστε βοήθεια συμβουλευτείτε το φόρουμ μας."
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 147
+msgid ""
+"<a href=\"https://forum.biglinux.com.br\">This is a collaborative system, if you need help consult "
+"our forum.</a>"
+msgstr ""
+"<a href=\"https://forum.biglinux.com.br\">Αυτό είναι ένα συνεργατικό σύστημα, αν χρειάζεστε βοήθεια "
+"συμβουλευτείτε το φόρουμ μας.</a>"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -480,33 +451,13 @@ msgstr "Ελάχιστο"
 msgid "Remove pre-selected software to create a lean, personalized system."
 msgstr "Αφαιρέστε το προεπιλεγμένο λογισμικό για να δημιουργήσετε ένα λιτό, εξατομικευμένο σύστημα."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 234
-msgid "Installation requirements not met: {}"
-msgstr "Οι απαιτήσεις εγκατάστασης δεν πληρούνται: {}"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 206
 msgid "Checking connection..."
 msgstr "Έλεγχος σύνδεσης..."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 211
-msgid "XivaStudio packages will be available during installation"
-msgstr "Τα πακέτα XivaStudio θα είναι διαθέσιμα κατά την εγκατάσταση."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 216
-msgid "No internet connection - extra packages disabled"
-msgstr "Καμία σύνδεση στο διαδίκτυο - επιπλέον πακέτα απενεργοποιημένα"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 218
 msgid "Configuring..."
 msgstr "Ρύθμιση..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 222
-msgid "Installation configured successfully"
-msgstr "Η εγκατάσταση διαμορφώθηκε με επιτυχία"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 225
-msgid "Failed to configure installation"
-msgstr "Αποτυχία διαμόρφωσης εγκατάστασης"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 39
 msgid "Important Tips"
@@ -582,14 +533,6 @@ msgstr ""
 "Έχουμε εφαρμόσει δυναμική διαχείριση εικονικής μνήμης με Zram και αρχεία SWAP. Οι κατατμήσεις SWAP "
 "δεν θα χρησιμοποιηθούν."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 69
-msgid "The installer will now proceed..."
-msgstr "Ο εγκαταστάτης θα προχωρήσει τώρα..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 262
-msgid "Error proceeding to installation"
-msgstr "Σφάλμα κατά την προχώρηση στην εγκατάσταση"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 61
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 208
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 213
@@ -658,10 +601,6 @@ msgstr "Αποεπιλέξτε τα προγράμματα που θέλετε �
 msgid "Installation Tips"
 msgstr "Συμβουλές Εγκατάστασης"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 211
-msgid "Finish and Install"
-msgstr "Ολοκλήρωση και Εγκατάσταση"
-# 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 46
@@ -682,6 +621,10 @@ msgstr "Τεκμηρίωση"
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 128
 msgid "Preferences not implemented yet"
 msgstr "Οι προτιμήσεις δεν έχουν υλοποιηθεί ακόμα."
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 151
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 151
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
 # 

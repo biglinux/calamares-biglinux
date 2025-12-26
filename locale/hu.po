@@ -18,19 +18,19 @@ msgid "Please wait..."
 msgstr "Kérem, várjon..."
 msgid "Checking the integrity of the download and storage device..."
 msgstr "A letöltés és a tárolóeszköz integritásának ellenőrzése..."
+msgid "Outdated Version"
+msgstr "Elavult verzió"
 msgid ""
-"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
-"    :LBL"
-msgstr ""
-"<b>Szeretné folytatni a telepítést ennek a régi verziójának ellenére?</b>\n"
-"    :LBL"
-msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\\n"
+"\\n"
 "BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
-"We recommend downloading a more recent version.\n"
-"    "
+"We recommend downloading a more recent version."
 msgstr ""
-"A BigLinux egy rendszer heti frissítésekkel, és ez a verzió több mint egy hónapja jelent meg.\\n"
-"Javasoljuk, hogy töltsön le egy újabb verziót."
+"<b>Biztosan folytatni szeretné az ezen régi verzió telepítését?</b>\\n"
+"\\n"
+"A BigLinux egy heti frissítésekkel rendelkező rendszer, és ez a verzió több mint egy hónapja jelent "
+"meg.\\n"
+"Ajánljuk, hogy töltsön le egy újabb verziót."
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -54,8 +54,6 @@ msgid "Continue"
 msgstr "Folytatás"
 msgid "Close"
 msgstr "Bezárás"
-msgid "Outdated Version"
-msgstr "Elavult verzió"
 msgid "Do you want to proceed with the installation in EFI mode?"
 msgstr "Szeretné folytatni az EFI módban történő telepítést?"
 msgid ""
@@ -104,34 +102,31 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Ezt az URL-t használhatja a napló megosztásához."
-msgid "Open the EFI manager"
-msgstr "Nyissa meg az EFI menedzsert"
 msgid "calamares LOG"
 msgstr "Calamares napló"
 msgid ""
-"\\n"
 "It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
 "\\n"
-"Check the EFI manager for any entries that can be deleted and try installing the system again.\\n"
+"Check the EFI manager for any entries that can be deleted and try installing the system again."
 msgstr ""
-"\\n"
 "Nem volt lehetséges az EFI bejegyzést a alaplapra írni, valószínűleg a helyhiány miatt.\\n"
 "\\n"
 "Ellenőrizze az EFI kezelőt, hogy vannak-e törölhető bejegyzések, és próbálja meg újra telepíteni a "
-"rendszert.\\n"
-msgid "Don't open QEFIEntryManager..."
-msgstr "Ne nyisd meg a QEFIEntryManager-t..."
+"rendszert."
+msgid "Open the EFI manager"
+msgstr "Nyissa meg az EFI menedzsert"
+msgid ""
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups."
+msgstr ""
+"Szeretné megtekinteni vagy elküldeni az telepítési naplófájlt a felhőbe?\\n"
+"Generáljon egy linket, amelyet támogató csoportokban küldhet el."
+msgid "Action"
+msgstr "Akció"
 msgid "Open"
 msgstr "Megnyitás"
 msgid "Send to the cloud"
 msgstr "Küldés a felhőbe"
-msgid ""
-"\\n"
-"Do you want to view or send the installation log file to the cloud?\\n"
-"Generate a link to send in support groups.\\n"
-msgstr ""
-"Szeretné megtekinteni vagy elküldeni az telepítési naplófájlt a felhőbe?\\n"
-"Generáljon egy hivatkozást a támogató csoportokba küldéshez.\\n"
 msgid "Checking the file:"
 msgstr "A fájl ellenőrzése:"
 msgid "Checking for download or USB drive errors, this may take a few minutes..."
@@ -153,18 +148,6 @@ msgstr "Csomagok betöltése..."
 msgid "Failed to load packages: {}"
 msgstr "A csomagok betöltése nem sikerült: {}"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 102
-msgid "All optional programs will be kept"
-msgstr "Minden opcionális programot megőrzünk."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 107
-msgid "All optional programs selected for removal"
-msgstr "Minden eltávolításra kiválasztott opcionális program."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 120
-msgid "No programs selected for removal. Proceeding with standard installation."
-msgstr "Nincs eltávolításra kiválasztott program. Folyamatban a szokásos telepítés."
-# 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
@@ -178,21 +161,6 @@ msgstr "Nincs eltávolításra kiválasztott program. Folyamatban a szokásos te
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 259
 msgid "Starting..."
 msgstr "Indulás..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 202
-msgid "Minimal installation configured successfully"
-msgstr "A minimális telepítés sikeresen konfigurálva."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 205
-msgid "Failed to configure minimal installation"
-msgstr "A minimális telepítés konfigurálása nem sikerült."
-# 
-# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 209
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 230
-msgid "Error configuring installation"
-msgstr "Hiba a telepítés konfigurálásakor"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -301,9 +269,13 @@ msgstr ""
 "Fejlett eszköz a rendszerindító bejegyzések hozzáadására, eltávolítására vagy módosítására az UEFI "
 "firmware-ben."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
-msgid "This is a collaborative system, if you need help consult our forum."
-msgstr "Ez egy együttműködő rendszer, ha segítségre van szüksége, kérjük, konzultáljon fórumunkkal."
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 147
+msgid ""
+"<a href=\"https://forum.biglinux.com.br\">This is a collaborative system, if you need help consult "
+"our forum.</a>"
+msgstr ""
+"<a href=\"https://forum.biglinux.com.br\">Ez egy együttműködő rendszer, ha segítségre van "
+"szükséged, nézd meg a fórumunkat.</a>"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -479,33 +451,13 @@ msgstr ""
 "Távolítsa el az előre kiválasztott szoftvereket, hogy egy karcsú, személyre szabott rendszert "
 "hozzon létre."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 234
-msgid "Installation requirements not met: {}"
-msgstr "A telepítési követelmények nem teljesültek: {}"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 206
 msgid "Checking connection..."
 msgstr "Kapcsolat ellenőrzése..."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 211
-msgid "XivaStudio packages will be available during installation"
-msgstr "A XivaStudio csomagok telepítés során elérhetők lesznek."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 216
-msgid "No internet connection - extra packages disabled"
-msgstr "Nincs internetkapcsolat - extra csomagok letiltva"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 218
 msgid "Configuring..."
 msgstr "Konfigurálás..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 222
-msgid "Installation configured successfully"
-msgstr "A telepítés sikeresen konfigurálva."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 225
-msgid "Failed to configure installation"
-msgstr "A telepítés konfigurálása nem sikerült."
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 39
 msgid "Important Tips"
@@ -583,14 +535,6 @@ msgstr ""
 "Dinamikus virtuális memória kezelését valósítottuk meg Zram és SWAP fájlokkal. SWAP partíciók nem "
 "lesznek használva."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 69
-msgid "The installer will now proceed..."
-msgstr "A telepítő most folytatja..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 262
-msgid "Error proceeding to installation"
-msgstr "Hiba történt a telepítés folytatása során"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 61
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 208
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 213
@@ -658,10 +602,6 @@ msgstr "Jelölje be azokat a programokat, amelyeket el szeretne távolítani."
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 159
 msgid "Installation Tips"
 msgstr "Telepítési tippek"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 211
-msgid "Finish and Install"
-msgstr "Befejezés és telepítés"
 # 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 

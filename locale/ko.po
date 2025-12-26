@@ -18,19 +18,18 @@ msgid "Please wait..."
 msgstr "기다려주세요..."
 msgid "Checking the integrity of the download and storage device..."
 msgstr "다운로드 및 저장 장치의 무결성 확인 중..."
+msgid "Outdated Version"
+msgstr "오래된 버전"
 msgid ""
-"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
-"    :LBL"
-msgstr ""
-"<b>이전 버전을 설치하시겠습니까?</b>\n"
-"    :LBL"
-msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\\n"
+"\\n"
 "BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
-"We recommend downloading a more recent version.\n"
-"    "
+"We recommend downloading a more recent version."
 msgstr ""
-"BigLinux는 매주 업데이트되는 시스템이며 이 버전은 한 달 전에 릴리스되었습니다.\\n"
-"더 최근 버전을 다운로드하는 것을 권장합니다."
+"<b>이 오래된 버전의 설치를 계속 진행하시겠습니까?</b>\\n"
+"\\n"
+"BigLinux는 주간 업데이트가 있는 시스템이며 이 버전은 한 달 이상 전에 출시되었습니다.\\n"
+"더 최신 버전을 다운로드하는 것을 권장합니다."
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -54,8 +53,6 @@ msgid "Continue"
 msgstr "계속"
 msgid "Close"
 msgstr "닫기"
-msgid "Outdated Version"
-msgstr "오래된 버전"
 msgid "Do you want to proceed with the installation in EFI mode?"
 msgstr "EFI 모드로 설치를 계속 진행하시겠습니까?"
 msgid ""
@@ -100,33 +97,30 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "이 URL을 사용하여 로그를 공유할 수 있습니다."
-msgid "Open the EFI manager"
-msgstr "EFI 관리자 열기"
 msgid "calamares LOG"
 msgstr "칼라마레스 로그"
 msgid ""
-"\\n"
 "It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
 "\\n"
-"Check the EFI manager for any entries that can be deleted and try installing the system again.\\n"
+"Check the EFI manager for any entries that can be deleted and try installing the system again."
 msgstr ""
+"마더보드에 EFI 항목을 작성할 수 없었습니다. 아마도 공간이 부족하기 때문입니다.\\n"
 "\\n"
-"마더보드에 EFI 항목을 기록할 수 없었습니다. 아마도 공간이 부족하기 때문입니다.\\n"
-"\\n"
-"삭제할 수 있는 항목이 있는지 EFI 관리자에서 확인하고 시스템 설치를 다시 시도하십시오.\\n"
-msgid "Don't open QEFIEntryManager..."
-msgstr "QEFIEntryManager를 열지 마세요..."
+"삭제할 수 있는 항목이 있는지 EFI 관리자에서 확인하고 시스템 설치를 다시 시도하십시오."
+msgid "Open the EFI manager"
+msgstr "EFI 관리자 열기"
+msgid ""
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups."
+msgstr ""
+"클라우드에 설치 로그 파일을 보거나 전송하시겠습니까?\\n"
+"지원 그룹에 보낼 링크를 생성합니다."
+msgid "Action"
+msgstr "작업"
 msgid "Open"
 msgstr "열기"
 msgid "Send to the cloud"
 msgstr "클라우드로 전송"
-msgid ""
-"\\n"
-"Do you want to view or send the installation log file to the cloud?\\n"
-"Generate a link to send in support groups.\\n"
-msgstr ""
-"설치 로그 파일을 클라우드에 보거나 전송하시겠습니까?\\n"
-"지원 그룹에 전송할 링크를 생성합니다."
 msgid "Checking the file:"
 msgstr "파일 확인 중:"
 msgid "Checking for download or USB drive errors, this may take a few minutes..."
@@ -148,18 +142,6 @@ msgstr "패키지 로딩 중..."
 msgid "Failed to load packages: {}"
 msgstr "패키지를 로드하지 못했습니다: {}"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 102
-msgid "All optional programs will be kept"
-msgstr "모든 선택적 프로그램은 유지됩니다."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 107
-msgid "All optional programs selected for removal"
-msgstr "모든 선택된 선택적 프로그램이 제거됩니다."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 120
-msgid "No programs selected for removal. Proceeding with standard installation."
-msgstr "제거할 프로그램이 선택되지 않았습니다. 표준 설치를 진행합니다."
-# 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
@@ -173,21 +155,6 @@ msgstr "제거할 프로그램이 선택되지 않았습니다. 표준 설치를
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 259
 msgid "Starting..."
 msgstr "시작 중..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 202
-msgid "Minimal installation configured successfully"
-msgstr "최소 설치가 성공적으로 구성되었습니다."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 205
-msgid "Failed to configure minimal installation"
-msgstr "최소 설치 구성을 실패했습니다."
-# 
-# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 209
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 230
-msgid "Error configuring installation"
-msgstr "설치 구성 오류"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -293,9 +260,11 @@ msgstr "EFI 항목 관리자"
 msgid "Advanced tool to add, remove, or change boot entries in the UEFI firmware."
 msgstr "UEFI 펌웨어에서 부트 항목을 추가, 제거 또는 변경하는 고급 도구."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
-msgid "This is a collaborative system, if you need help consult our forum."
-msgstr "이것은 협업 시스템입니다. 도움이 필요하면 포럼을 참조하세요."
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 147
+msgid ""
+"<a href=\"https://forum.biglinux.com.br\">This is a collaborative system, if you need help consult "
+"our forum.</a>"
+msgstr "<a href=\"https://forum.biglinux.com.br\">이것은 협업 시스템입니다. 도움이 필요하시면 저희 포럼을 참조하세요.</a>"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -469,33 +438,13 @@ msgstr "최소한"
 msgid "Remove pre-selected software to create a lean, personalized system."
 msgstr "미리 선택된 소프트웨어를 제거하여 간소화된 개인화된 시스템을 만드세요."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 234
-msgid "Installation requirements not met: {}"
-msgstr "설치 요구 사항이 충족되지 않았습니다: {}"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 206
 msgid "Checking connection..."
 msgstr "연결 확인 중..."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 211
-msgid "XivaStudio packages will be available during installation"
-msgstr "XivaStudio 패키지는 설치 중에 사용할 수 있습니다."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 216
-msgid "No internet connection - extra packages disabled"
-msgstr "인터넷 연결 없음 - 추가 패키지 비활성화"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 218
 msgid "Configuring..."
 msgstr "구성 중..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 222
-msgid "Installation configured successfully"
-msgstr "설치가 성공적으로 구성되었습니다."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 225
-msgid "Failed to configure installation"
-msgstr "설치 구성에 실패했습니다."
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 39
 msgid "Important Tips"
@@ -569,14 +518,6 @@ msgid ""
 "will not be used."
 msgstr "Zram 및 SWAP 파일을 사용하여 동적 가상 메모리 관리를 구현했습니다. SWAP 파티션은 사용되지 않습니다."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 69
-msgid "The installer will now proceed..."
-msgstr "설치 프로그램이 이제 진행됩니다..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 262
-msgid "Error proceeding to installation"
-msgstr "설치 진행 중 오류 발생"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 61
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 208
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 213
@@ -644,10 +585,6 @@ msgstr "제거하려는 프로그램을 선택 취소하세요"
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 159
 msgid "Installation Tips"
 msgstr "설치 팁"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 211
-msgid "Finish and Install"
-msgstr "완료 및 설치"
 # 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 

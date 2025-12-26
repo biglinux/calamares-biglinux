@@ -18,17 +18,16 @@ msgid "Please wait..."
 msgstr "Por favor, aguarde..."
 msgid "Checking the integrity of the download and storage device..."
 msgstr "Verificando a integridade do download e do dispositivo de armazenamento..."
+msgid "Outdated Version"
+msgstr "Versão desatualizada"
 msgid ""
-"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
-"    :LBL"
-msgstr ""
-"<b>Deseja prosseguir com a instalação desta versão antiga mesmo assim?</b>\n"
-"    :LBL"
-msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\\n"
+"\\n"
 "BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
-"We recommend downloading a more recent version.\n"
-"    "
+"We recommend downloading a more recent version."
 msgstr ""
+"<b>Você deseja prosseguir com a instalação desta versão antiga mesmo assim?</b>\\n"
+"\\n"
 "BigLinux é um sistema com atualizações semanais e esta versão foi lançada há mais de um mês.\\n"
 "Recomendamos baixar uma versão mais recente."
 # 
@@ -54,8 +53,6 @@ msgid "Continue"
 msgstr "Continuar"
 msgid "Close"
 msgstr "Fechar"
-msgid "Outdated Version"
-msgstr "Versão desatualizada"
 msgid "Do you want to proceed with the installation in EFI mode?"
 msgstr "Deseja prosseguir com a instalação no modo EFI?"
 msgid ""
@@ -105,34 +102,31 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Você pode usar esta URL para compartilhar o log."
-msgid "Open the EFI manager"
-msgstr "Abra o gerenciador EFI"
 msgid "calamares LOG"
 msgstr "Registo do Calamares"
 msgid ""
-"\\n"
 "It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
 "\\n"
-"Check the EFI manager for any entries that can be deleted and try installing the system again.\\n"
+"Check the EFI manager for any entries that can be deleted and try installing the system again."
 msgstr ""
-"\\n"
 "Não foi possível gravar a entrada EFI na placa-mãe, provavelmente devido a espaço insuficiente.\\n"
 "\\n"
 "Verifique o gerenciador EFI para quaisquer entradas que possam ser excluídas e tente instalar o "
-"sistema novamente.\\n"
-msgid "Don't open QEFIEntryManager..."
-msgstr "Não abra o QEFIEntryManager..."
+"sistema novamente."
+msgid "Open the EFI manager"
+msgstr "Abra o gerenciador EFI"
+msgid ""
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups."
+msgstr ""
+"Você deseja visualizar ou enviar o arquivo de log de instalação para a nuvem?\\n"
+"Gerar um link para enviar em grupos de suporte."
+msgid "Action"
+msgstr "Ação"
 msgid "Open"
 msgstr "Abrir"
 msgid "Send to the cloud"
 msgstr "Enviar para a nuvem"
-msgid ""
-"\\n"
-"Do you want to view or send the installation log file to the cloud?\\n"
-"Generate a link to send in support groups.\\n"
-msgstr ""
-"Deseja visualizar ou enviar o arquivo de log de instalação para a nuvem?\\n"
-"Gerar um link para enviar em grupos de suporte.\\n"
 msgid "Checking the file:"
 msgstr "Verificando o arquivo:"
 msgid "Checking for download or USB drive errors, this may take a few minutes..."
@@ -154,18 +148,6 @@ msgstr "Carregando pacotes..."
 msgid "Failed to load packages: {}"
 msgstr "Falha ao carregar pacotes: {}"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 102
-msgid "All optional programs will be kept"
-msgstr "Todos os programas opcionais serão mantidos."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 107
-msgid "All optional programs selected for removal"
-msgstr "Todos os programas opcionais selecionados para remoção"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 120
-msgid "No programs selected for removal. Proceeding with standard installation."
-msgstr "Nenhum programa selecionado para remoção. Prosseguindo com a instalação padrão."
-# 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
@@ -179,21 +161,6 @@ msgstr "Nenhum programa selecionado para remoção. Prosseguindo com a instalaç
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 259
 msgid "Starting..."
 msgstr "Iniciando..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 202
-msgid "Minimal installation configured successfully"
-msgstr "Instalação mínima configurada com sucesso"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 205
-msgid "Failed to configure minimal installation"
-msgstr "Falha ao configurar a instalação mínima"
-# 
-# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 209
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 230
-msgid "Error configuring installation"
-msgstr "Erro ao configurar a instalação"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -300,9 +267,13 @@ msgstr "Gerenciador de Entrada EFI"
 msgid "Advanced tool to add, remove, or change boot entries in the UEFI firmware."
 msgstr "Ferramenta avançada para adicionar, remover ou alterar entradas de inicialização no firmware UEFI."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
-msgid "This is a collaborative system, if you need help consult our forum."
-msgstr "Este é um sistema colaborativo, se você precisar de ajuda consulte nosso fórum."
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 147
+msgid ""
+"<a href=\"https://forum.biglinux.com.br\">This is a collaborative system, if you need help consult "
+"our forum.</a>"
+msgstr ""
+"<a href=\"https://forum.biglinux.com.br\">Este é um sistema colaborativo, se você precisar de ajuda "
+"consulte nosso fórum.</a>"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -476,33 +447,13 @@ msgstr "Mínimo"
 msgid "Remove pre-selected software to create a lean, personalized system."
 msgstr "Remova o software pré-selecionado para criar um sistema enxuto e personalizado."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 234
-msgid "Installation requirements not met: {}"
-msgstr "Requisitos de instalação não atendidos: {}"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 206
 msgid "Checking connection..."
 msgstr "Verificando conexão..."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 211
-msgid "XivaStudio packages will be available during installation"
-msgstr "Os pacotes do XivaStudio estarão disponíveis durante a instalação."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 216
-msgid "No internet connection - extra packages disabled"
-msgstr "Sem conexão com a internet - pacotes extras desativados"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 218
 msgid "Configuring..."
 msgstr "Configurando..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 222
-msgid "Installation configured successfully"
-msgstr "Instalação configurada com sucesso"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 225
-msgid "Failed to configure installation"
-msgstr "Falha ao configurar a instalação"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 39
 msgid "Important Tips"
@@ -578,14 +529,6 @@ msgstr ""
 "Implementamos gerenciamento dinâmico de memória virtual com Zram e arquivos SWAP. Partições SWAP "
 "não serão utilizadas."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 69
-msgid "The installer will now proceed..."
-msgstr "O instalador agora prosseguirá..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 262
-msgid "Error proceeding to installation"
-msgstr "Erro ao prosseguir com a instalação"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 61
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 208
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 213
@@ -654,10 +597,6 @@ msgstr "Desmarque os programas que deseja remover"
 msgid "Installation Tips"
 msgstr "Dicas de Instalação"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 211
-msgid "Finish and Install"
-msgstr "Concluir e Instalar"
-# 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 46
@@ -678,6 +617,10 @@ msgstr "Documentação"
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 128
 msgid "Preferences not implemented yet"
 msgstr "Preferências ainda não implementadas"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 151
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 151
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
 # 

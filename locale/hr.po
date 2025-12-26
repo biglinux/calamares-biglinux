@@ -18,18 +18,17 @@ msgid "Please wait..."
 msgstr "Molimo pričekajte..."
 msgid "Checking the integrity of the download and storage device..."
 msgstr "Provjeravanje integriteta preuzimanja i uređaja za pohranu..."
+msgid "Outdated Version"
+msgstr "Zastarjela verzija"
 msgid ""
-"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
-"    :LBL"
-msgstr ""
-"<b>Želite li ipak nastaviti s instalacijom ove stare verzije?</b>\n"
-"    :LBL"
-msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\\n"
+"\\n"
 "BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
-"We recommend downloading a more recent version.\n"
-"    "
+"We recommend downloading a more recent version."
 msgstr ""
-"BigLinux je sustav s tjednim ažuriranjima, a ova verzija je objavljena prije više od mjesec dana.\\n"
+"<b>Želite li nastaviti s instalacijom ove stare verzije?</b>\\n"
+"\\n"
+"BigLinux je sustav s tjednim ažuriranjima i ova verzija je objavljena prije više od mjesec dana.\\n"
 "Preporučujemo preuzimanje novije verzije."
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
@@ -54,8 +53,6 @@ msgid "Continue"
 msgstr "Nastavi"
 msgid "Close"
 msgstr "Zatvori"
-msgid "Outdated Version"
-msgstr "Zastarjela verzija"
 msgid "Do you want to proceed with the installation in EFI mode?"
 msgstr "Želite li nastaviti s instalacijom u EFI načinu rada?"
 msgid ""
@@ -105,35 +102,31 @@ msgstr ""
 "URL: $fileUrl\\n"
 "\\n"
 "Možete koristiti ovu URL adresu za dijeljenje zapisa."
-msgid "Open the EFI manager"
-msgstr "Otvorite EFI upravitelj"
 msgid "calamares LOG"
 msgstr "calamares ZAPISNIK"
 msgid ""
-"\\n"
 "It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
 "\\n"
-"Check the EFI manager for any entries that can be deleted and try installing the system again.\\n"
+"Check the EFI manager for any entries that can be deleted and try installing the system again."
 msgstr ""
-"\\n"
 "Nije bilo moguće zapisati EFI unos na matičnu ploču, vjerojatno zbog nedovoljnog prostora.\\n"
 "\\n"
 "Provjerite EFI upravitelja za bilo kakve unose koji se mogu izbrisati i pokušajte ponovno "
-"instalirati sustav.\\n"
-msgid "Don't open QEFIEntryManager..."
-msgstr "Ne otvarajte QEFIEntryManager..."
+"instalirati sustav."
+msgid "Open the EFI manager"
+msgstr "Otvorite EFI upravitelj"
+msgid ""
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups."
+msgstr ""
+"Želite li pregledati ili poslati datoteku instalacijskog dnevnika u oblak?\\n"
+"Generirajte vezu za slanje u grupe za podršku."
+msgid "Action"
+msgstr "Akcija"
 msgid "Open"
 msgstr "Otvori"
 msgid "Send to the cloud"
 msgstr "Pošalji u oblak"
-msgid ""
-"\\n"
-"Do you want to view or send the installation log file to the cloud?\\n"
-"Generate a link to send in support groups.\\n"
-msgstr ""
-"\\n"
-"Želite li pregledati ili poslati datoteku dnevnika instalacije u oblak?\\n"
-"Generirajte poveznicu za slanje u grupama za podršku.\\n"
 msgid "Checking the file:"
 msgstr "Provjeravanje datoteke:"
 msgid "Checking for download or USB drive errors, this may take a few minutes..."
@@ -157,18 +150,6 @@ msgstr "Učitavanje paketa..."
 msgid "Failed to load packages: {}"
 msgstr "Nije moguće učitati pakete: {}"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 102
-msgid "All optional programs will be kept"
-msgstr "Svi opcionalni programi će biti zadržani."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 107
-msgid "All optional programs selected for removal"
-msgstr "Svi opcionalni programi odabrani za uklanjanje"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 120
-msgid "No programs selected for removal. Proceeding with standard installation."
-msgstr "Nema programa odabranih za uklanjanje. Nastavlja se s standardnom instalacijom."
-# 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
@@ -182,21 +163,6 @@ msgstr "Nema programa odabranih za uklanjanje. Nastavlja se s standardnom instal
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 259
 msgid "Starting..."
 msgstr "Pokretanje..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 202
-msgid "Minimal installation configured successfully"
-msgstr "Minimalna instalacija uspješno konfigurirana"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 205
-msgid "Failed to configure minimal installation"
-msgstr "Neuspješno konfiguriranje minimalne instalacije"
-# 
-# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 209
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 230
-msgid "Error configuring installation"
-msgstr "Greška prilikom konfiguracije instalacije"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -302,9 +268,13 @@ msgstr "EFI Upravitelj Unosa"
 msgid "Advanced tool to add, remove, or change boot entries in the UEFI firmware."
 msgstr "Napredni alat za dodavanje, uklanjanje ili promjenu stavki pokretanja u UEFI firmveru."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
-msgid "This is a collaborative system, if you need help consult our forum."
-msgstr "Ovo je kolaborativni sustav, ako trebate pomoć konzultirajte naš forum."
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 147
+msgid ""
+"<a href=\"https://forum.biglinux.com.br\">This is a collaborative system, if you need help consult "
+"our forum.</a>"
+msgstr ""
+"<a href=\"https://forum.biglinux.com.br\">Ovo je kolaborativni sustav, ako trebate pomoć "
+"konzultirajte naš forum.</a>"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -478,33 +448,13 @@ msgstr "Minimalno"
 msgid "Remove pre-selected software to create a lean, personalized system."
 msgstr "Uklonite unaprijed odabrani softver kako biste stvorili vitak, personalizirani sustav."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 234
-msgid "Installation requirements not met: {}"
-msgstr "Zahtevi za instalaciju nisu ispunjeni: {}"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 206
 msgid "Checking connection..."
 msgstr "Provjera veze..."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 211
-msgid "XivaStudio packages will be available during installation"
-msgstr "XivaStudio paketi bit će dostupni tijekom instalacije."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 216
-msgid "No internet connection - extra packages disabled"
-msgstr "Nema internetske veze - dodatni paketi onemogućeni"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 218
 msgid "Configuring..."
 msgstr "Konfiguriranje..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 222
-msgid "Installation configured successfully"
-msgstr "Instalacija je uspješno konfigurirana"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 225
-msgid "Failed to configure installation"
-msgstr "Neuspješno konfiguriranje instalacije"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 39
 msgid "Important Tips"
@@ -582,14 +532,6 @@ msgstr ""
 "Implementirali smo dinamičko upravljanje virtualnom memorijom s Zram i SWAP datotekama. SWAP "
 "particije neće biti korištene."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 69
-msgid "The installer will now proceed..."
-msgstr "Instalacijski program će sada nastaviti..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 262
-msgid "Error proceeding to installation"
-msgstr "Greška prilikom nastavka instalacije"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 61
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 208
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 213
@@ -657,10 +599,6 @@ msgstr "Označite programe koje želite ukloniti"
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 159
 msgid "Installation Tips"
 msgstr "Savjeti za instalaciju"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 211
-msgid "Finish and Install"
-msgstr "Završi i instaliraj"
 # 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 

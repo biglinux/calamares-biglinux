@@ -18,20 +18,19 @@ msgid "Please wait..."
 msgstr "Harap tunggu..."
 msgid "Checking the integrity of the download and storage device..."
 msgstr "Memeriksa integritas unduhan dan perangkat penyimpanan..."
+msgid "Outdated Version"
+msgstr "Versi Lama"
 msgid ""
-"<b>Do you want to proceed with the installation of this old version anyway?</b>\n"
-"    :LBL"
-msgstr ""
-"<b>Apakah Anda ingin melanjutkan dengan instalasi versi lama ini?</b>\n"
-"    :LBL"
-msgid ""
+"<b>Do you want to proceed with the installation of this old version anyway?</b>\\n"
+"\\n"
 "BigLinux is a system with weekly updates and this version was released more than a month ago.\\n"
-"We recommend downloading a more recent version.\n"
-"    "
+"We recommend downloading a more recent version."
 msgstr ""
-"BigLinux adalah sistem dengan pembaruan mingguan dan versi ini dirilis lebih dari sebulan yang "
-"lalu.\\n"
-"Kami merekomendasikan untuk mengunduh versi yang lebih baru."
+"<b>Viltu halda áfram með uppsetningu á þessari gömlu útgáfu samt sem áður?</b>\\n"
+"\\n"
+"BigLinux er kerfi með vikulegum uppfærslum og þessi útgáfa var gefin út fyrir meira en mánuði "
+"síðan.\\n"
+"Við mælum með að hlaða niður nýrri útgáfu."
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -55,8 +54,6 @@ msgid "Continue"
 msgstr "Terus"
 msgid "Close"
 msgstr "Tutup"
-msgid "Outdated Version"
-msgstr "Versi Lama"
 msgid "Do you want to proceed with the installation in EFI mode?"
 msgstr "Apakah Anda ingin melanjutkan instalasi dalam mode EFI?"
 msgid ""
@@ -107,34 +104,30 @@ msgstr ""
 "Vefslóð: $fileUrl\\n"
 "\\n"
 "Þú getur notað þessa vefslóð til að deila skýrslunni."
-msgid "Open the EFI manager"
-msgstr "Opnaðu EFI stjórnandann"
 msgid "calamares LOG"
 msgstr "catatan calamares"
 msgid ""
-"\\n"
 "It was not possible to write the EFI entry to the motherboard, likely due to insufficient space.\\n"
 "\\n"
-"Check the EFI manager for any entries that can be deleted and try installing the system again.\\n"
+"Check the EFI manager for any entries that can be deleted and try installing the system again."
 msgstr ""
+"Ekki var hægt að skrifa EFI skráninguna á móðurborðið, líklega vegna ófullnægjandi plásss.\\n"
 "\\n"
-"Ek var ekki hægt að skrifa EFI skráninguna á móðurborðið, líklega vegna ófullnægjandi pláss.\\n"
-"\\n"
-"Athugaðu EFI stjórnandann fyrir skráningar sem hægt er að eyða og reyndu að setja kerfið upp aftur.\\n"
-msgid "Don't open QEFIEntryManager..."
-msgstr "Ekki opna QEFIEntryManager..."
+"Athugaðu EFI stjórnandann fyrir skráningar sem hægt er að eyða og reyndu að setja kerfið upp aftur."
+msgid "Open the EFI manager"
+msgstr "Opnaðu EFI stjórnandann"
+msgid ""
+"Do you want to view or send the installation log file to the cloud?\\n"
+"Generate a link to send in support groups."
+msgstr ""
+"Viltu skoða eða senda skrána um uppsetningu í skýið?\\n"
+"Búðu til tengil til að senda í stuðningshópa."
+msgid "Action"
+msgstr "Aðgerð"
 msgid "Open"
 msgstr "Buka"
 msgid "Send to the cloud"
 msgstr "Kirim ke cloud"
-msgid ""
-"\\n"
-"Do you want to view or send the installation log file to the cloud?\\n"
-"Generate a link to send in support groups.\\n"
-msgstr ""
-"\\n"
-"Apakah Anda ingin melihat atau mengirim file log instalasi ke cloud?\\n"
-"Buat tautan untuk dikirim ke grup dukungan.\\n"
 msgid "Checking the file:"
 msgstr "Memeriksa berkas:"
 msgid "Checking for download or USB drive errors, this may take a few minutes..."
@@ -156,18 +149,6 @@ msgstr "Hlaða pakka..."
 msgid "Failed to load packages: {}"
 msgstr "Ekki tókst að hlaða pakka: {}"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 102
-msgid "All optional programs will be kept"
-msgstr "Öll valfrí forrit verða varðveitt."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 107
-msgid "All optional programs selected for removal"
-msgstr "Öll valfrjáls forrit valin til að fjarlægja"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 120
-msgid "No programs selected for removal. Proceeding with standard installation."
-msgstr "Engin valin ekki valin til að fjarlægja. Framkvæmi staðlaða uppsetningu."
-# 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
@@ -181,21 +162,6 @@ msgstr "Engin valin ekki valin til að fjarlægja. Framkvæmi staðlaða uppsetn
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/maintenance_page.py, line: 259
 msgid "Starting..."
 msgstr "Byrjar..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 202
-msgid "Minimal installation configured successfully"
-msgstr "Minimal uppsetning stilltist vel."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 205
-msgid "Failed to configure minimal installation"
-msgstr "Mistók að stilla lágmarksuppsetningu"
-# 
-# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/minimal_page.py, line: 209
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 230
-msgid "Error configuring installation"
-msgstr "Villa við að stilla uppsetningu"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -301,9 +267,13 @@ msgstr "EFI Inngangsstjóri"
 msgid "Advanced tool to add, remove, or change boot entries in the UEFI firmware."
 msgstr "Fyrirferðarmikill tól til að bæta við, fjarlægja eða breyta ræsingu skráningum í UEFI vélbúnaðinum."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/widgets/system_info.py, line: 60
-msgid "This is a collaborative system, if you need help consult our forum."
-msgstr "Þetta er samvinnukerfi, ef þú þarft aðstoð, ráðfærðu þig við umræðuvettvanginn okkar."
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 147
+msgid ""
+"<a href=\"https://forum.biglinux.com.br\">This is a collaborative system, if you need help consult "
+"our forum.</a>"
+msgstr ""
+"<a href=\"https://forum.biglinux.com.br\">Þetta er samstarfskerfi, ef þú þarft aðstoð, skoðaðu "
+"umræðuforðið okkar.</a>"
 # 
 # #-#-#-#-#  calamares-biglinux-bash.pot (calamares-biglinux)  #-#-#-#-#
 # 
@@ -477,33 +447,13 @@ msgstr "Minimal"
 msgid "Remove pre-selected software to create a lean, personalized system."
 msgstr "Fjarlægðu fyrirvalda hugbúnaðinn til að búa til létt, persónulegt kerfi."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 234
-msgid "Installation requirements not met: {}"
-msgstr "Kröfur um uppsetningu ekki uppfylltar: {}"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 206
 msgid "Checking connection..."
 msgstr "Athugun tengingu..."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 211
-msgid "XivaStudio packages will be available during installation"
-msgstr "XivaStudio pakkar verða tiltækir við uppsetningu"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 216
-msgid "No internet connection - extra packages disabled"
-msgstr "Engin tengingur - aukapakkar óvirkir"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 218
 msgid "Configuring..."
 msgstr "Stillir..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 222
-msgid "Installation configured successfully"
-msgstr "Þjónustuinngangur var stilltur með góðum árangri"
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 225
-msgid "Failed to configure installation"
-msgstr "Mistók að stilla uppsetningu"
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 39
 msgid "Important Tips"
@@ -579,14 +529,6 @@ msgstr ""
 "Við höfum innleitt dýnamíska sýndarminnisstjórnun með Zram og SWAP skrám. SWAP skiptingar verða "
 "ekki notaðar."
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 69
-msgid "The installer will now proceed..."
-msgstr "Installerinn mun nú halda áfram..."
-# 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/tips_page.py, line: 262
-msgid "Error proceeding to installation"
-msgstr "Villa við uppsetningu"
-# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 61
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 208
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 213
@@ -655,10 +597,6 @@ msgstr "Hapus centang pada program yang ingin Anda hapus"
 msgid "Installation Tips"
 msgstr "Uppsetningartips"
 # 
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 211
-msgid "Finish and Install"
-msgstr "Klára og setja upp"
-# 
 # #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 46
@@ -679,6 +617,10 @@ msgstr "Skjalagerð"
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 128
 msgid "Preferences not implemented yet"
 msgstr "Valkostir ekki innleiddar ennþá"
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 151
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 151
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
 # 
