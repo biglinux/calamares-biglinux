@@ -202,6 +202,10 @@ class CalamaresWindow(Adw.ApplicationWindow):
         
         self.nav_bar.set_visible(not is_main_page)
         self.back_button.remove_css_class("suggested-action")  # Reset style
+        
+        # Reset button states - they may have been disabled by previous page
+        self.continue_button.set_sensitive(True)
+        self.back_button.set_sensitive(True)
 
         # Define titles - use distro_name for branding
         titles = {
@@ -234,10 +238,10 @@ class CalamaresWindow(Adw.ApplicationWindow):
                 self.uncheck_all_handler = self.uncheck_all_button.connect("clicked", current_page.on_uncheck_all_clicked)
 
             elif page_name == "tips":
-                self.start_box.append(self.back_button)
-                self.end_box.append(self.continue_button)
+                # Tips page only has centered Install button, no back button
+                self.center_box.append(self.continue_button)
                 
-                self.continue_button.set_label(_("Finish and Install"))
+                self.continue_button.set_label(_("Install"))
                 self.continue_signal_handler = self.continue_button.connect("clicked", lambda btn: current_page.do_continue_action(btn))
 
     def show_toast(self, toast):

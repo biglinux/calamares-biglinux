@@ -7,6 +7,7 @@ Initial page with three main options: Maintenance, Installation, and Minimal
 
 import logging
 import os
+import subprocess
 import gi
 
 gi.require_version('Gtk', '4.0')
@@ -80,6 +81,43 @@ class MainPage(Gtk.Box):
             description2=description2
         )
 
+    def _get_normal_user(self):
+        """Detect normal user by finding the first folder in /home."""
+        try:
+            home_dirs = [d for d in os.listdir('/home') if os.path.isdir(os.path.join('/home', d))]
+            if home_dirs:
+                return home_dirs[0]
+        except Exception as e:
+            self.logger.warning(f"Failed to detect normal user: {e}")
+        return None
+
+    def _on_forum_link_activated(self, label, uri):
+        """Handle forum link click - open with normal user, not root."""
+        user = self._get_normal_user()
+        
+        try:
+            if user:
+                # Open browser as normal user
+                subprocess.Popen(
+                    ['sudo', '-u', user, 'xdg-open', uri],
+                    start_new_session=True,
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL
+                )
+            else:
+                # Fallback to direct open
+                subprocess.Popen(
+                    ['xdg-open', uri],
+                    start_new_session=True,
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL
+                )
+        except Exception as e:
+            self.logger.error(f"Failed to open forum link: {e}")
+        
+        # Return True to prevent default handler from opening the link as root
+        return True
+
     def _create_system_info_bar(self):
         """Factory function to create the system info bar."""
         system_info_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=4)
@@ -103,12 +141,15 @@ class MainPage(Gtk.Box):
         )
         system_info_box.append(info_label)
 
-        forum_link = Gtk.LinkButton(
-            uri="https://forum.biglinux.com.br",
-            label=_("This is a collaborative system, if you need help consult our forum.")
+        # Use a label with markup for the forum link
+        forum_label = Gtk.Label(
+            use_markup=True,
+            label=_('<a href="https://forum.biglinux.com.br">This is a collaborative system, if you need help consult our forum.</a>'),
+            halign=Gtk.Align.CENTER
         )
-        forum_link.set_halign(Gtk.Align.CENTER)
-        system_info_box.append(forum_link)
+        # Connect to activate-link to handle the click ourselves
+        forum_label.connect("activate-link", self._on_forum_link_activated)
+        system_info_box.append(forum_label)
         
         return system_info_box
 
@@ -195,7 +236,7 @@ class MainPage(Gtk.Box):
             requirements = self.install_service.check_installation_requirements()
             missing = [k for k, v in requirements.items() if not v]
             if missing:
-                self.show_error_message(_("Installation requirements not met: {}").format(", ".join(missing)))
+                self.logger.warning(f"Installation requirements not met: {missing}")
                 self.reset_button_state(button, _("Install"))
                 return
             
@@ -207,27 +248,23 @@ class MainPage(Gtk.Box):
                 
                 if self.install_service.check_internet_connection():
                     self.logger.info("Internet available, configuring XivaStudio netinstall")
-                    if self.install_service.configure_xivastudio_netinstall():
-                        self.show_success_message(_("XivaStudio packages will be available during installation"))
-                    else:
+                    if not self.install_service.configure_xivastudio_netinstall():
                         self.logger.warning("Failed to configure XivaStudio netinstall")
                 else:
                     self.logger.info("No internet - XivaStudio netinstall disabled")
-                    self.show_error_message(_("No internet connection - extra packages disabled"))
             
             button.set_label(_("Configuring..."))
             
             # Configure standard installation
             if self.install_service.start_installation("btrfs", packages_to_remove=[]):
-                self.show_success_message(_("Installation configured successfully"))
+                self.logger.info("Installation configured successfully")
                 self.emit('navigate', 'tips', None)
             else:
-                self.show_error_message(_("Failed to configure installation"))
+                self.logger.error("Failed to configure installation")
                 self.reset_button_state(button, _("Install"))
                 
         except Exception as e:
             self.logger.error(f"Installation configuration failed: {e}")
-            self.show_error_message(_("Error configuring installation"))
             self.reset_button_state(button, _("Install"))
 
     def on_minimal_clicked(self, button):
@@ -238,18 +275,11 @@ class MainPage(Gtk.Box):
         button.set_sensitive(True)
         button.set_label(original_text)
 
-    def show_success_message(self, message):
-        toplevel = self.get_root()
-        if hasattr(toplevel, 'show_success_toast'):
-            toplevel.show_success_toast(message)
-
-    def show_error_message(self, message):
-        toplevel = self.get_root()
-        if hasattr(toplevel, 'show_error_toast'):
-            toplevel.show_error_toast(message)
-
     def on_page_activated(self):
         self.logger.debug("MainPage activated")
+        # Reset installation button state when returning to this page
+        if hasattr(self, 'installation_card') and hasattr(self.installation_card, 'action_button'):
+            self.reset_button_state(self.installation_card.action_button, _("Install"))
 
     def cleanup(self):
         self.logger.debug("MainPage cleanup")

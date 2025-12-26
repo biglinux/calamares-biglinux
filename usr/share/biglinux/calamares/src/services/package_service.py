@@ -8,13 +8,11 @@ from pathlib import Path
 from typing import Dict, List, Optional, Any
 from ..utils import (
     load_json_file,
-    get_package_icon,
     pacman_query_installed,
     validate_package_name,
     ICON_MAPPING_FILE,
     MINIMAL_PACKAGES_FILE,
     TEMP_FILES,
-    UI_SETTINGS,
 )
 
 
@@ -149,43 +147,18 @@ class PackageService:
 
     def get_package_icon_path(self, package_name: str) -> Optional[str]:
         """
-        Get icon path for a package
+        Get icon name for a package.
 
         Args:
             package_name: Name of the package
 
         Returns:
-            Icon path (if file exists) or icon name for GTK IconTheme lookup
+            Icon name for GTK IconTheme lookup
         """
-        import os
-        
         try:
-            # Check icon mapping first
+            # Check icon mapping first - this maps package names to icon names
             mapped_icon = self._icon_mapping.get(package_name, package_name)
-            icon_size = UI_SETTINGS["icon_size"]
-
-            self.logger.debug(f"Looking for icon: package='{package_name}', mapped='{mapped_icon}', size={icon_size}")
-
-            # Try to get icon using geticons command (returns path or name)
-            icon_result = get_package_icon(mapped_icon, icon_size)
-
-            if icon_result:
-                # Check if it's a file path (starts with /)
-                if icon_result.startswith('/') and os.path.exists(icon_result):
-                    self.logger.debug(f"Found icon file for '{package_name}': {icon_result}")
-                    return icon_result
-                # Otherwise it's an icon name for GTK lookup
-                self.logger.debug(f"Using icon name for '{package_name}': {icon_result}")
-
-            # Fallback to package name if mapping didn't work
-            if mapped_icon != package_name:
-                icon_result = get_package_icon(package_name, icon_size)
-                if icon_result and icon_result.startswith('/') and os.path.exists(icon_result):
-                    self.logger.debug(f"Found icon via fallback for '{package_name}': {icon_result}")
-                    return icon_result
-
-            # Return the mapped icon name for GTK IconTheme to handle
-            self.logger.debug(f"No file icon found for '{package_name}', returning '{mapped_icon}' for GTK lookup")
+            self.logger.debug(f"Icon for '{package_name}': mapped to '{mapped_icon}'")
             return mapped_icon
 
         except Exception as e:

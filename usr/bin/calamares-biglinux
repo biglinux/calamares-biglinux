@@ -95,6 +95,9 @@ geoip:
 
     # Set btrfs as the default filesystem
     sed -i 's|defaultFileSystemType.*"ext4"|defaultFileSystemType:  "btrfs"|g' /usr/share/calamares/modules/partition.conf
+    
+    # Change remove package to use recursive
+    sed -i 's|"-Rs",|"-Rcs",|g' /usr/lib/calamares/modules/packages/main.py
 
     # Ensure services.conf has the necessary entries
     if [ "$(cat /etc/calamares/modules/services.conf | wc -l)" -lt "15" ]; then

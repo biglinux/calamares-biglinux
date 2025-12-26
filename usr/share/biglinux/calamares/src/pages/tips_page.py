@@ -67,24 +67,13 @@ class TipsPage(Gtk.Box):
         self.logger.info("Continue from tips page - closing application")
 
         try:
-            self.show_success_message(_("The installer will now proceed..."))
+            self.logger.info("The installer will now proceed...")
             application = self.get_root().get_application()
             if application:
                 button.set_sensitive(False)
                 GObject.timeout_add(1000, application.quit)
         except Exception as e:
             self.logger.error(f"Error closing application: {e}")
-            self.show_error_message(_("Error proceeding to installation"))
-
-    def show_success_message(self, message):
-        toplevel = self.get_root()
-        if hasattr(toplevel, 'show_success_toast'):
-            toplevel.show_success_toast(message)
-
-    def show_error_message(self, message):
-        toplevel = self.get_root()
-        if hasattr(toplevel, 'show_error_toast'):
-            toplevel.show_error_toast(message)
 
     def on_page_activated(self):
         self.logger.info("User reached tips page - installation configured")

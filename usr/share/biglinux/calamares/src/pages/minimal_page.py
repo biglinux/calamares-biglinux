@@ -11,7 +11,7 @@ import gi
 gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 
-from gi.repository import Gtk, Adw, GObject, GLib, GdkPixbuf
+from gi.repository import Gtk, Adw, GObject, GLib
 from ..utils.i18n import _
 from ..services import get_package_service, get_install_service
 from ..services.package_service import Package
@@ -106,25 +106,12 @@ class MinimalPage(Gtk.Box):
 
         icon_image = Gtk.Image()
         icon_image.set_pixel_size(36)
-        try:
-            self.logger.debug(
-                f"Creating icon for package '{package.name}': icon='{package.icon}'"
-            )
-            if package.icon and package.icon.startswith('/'):
-                # Icon is a file path
-                self.logger.debug(f"Using file path icon: {package.icon}")
-                pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_scale(package.icon, 36, 36, True)
-                icon_image.set_from_pixbuf(pixbuf)
-            elif package.icon:
-                # Icon is a theme icon name
-                self.logger.debug(f"Using icon name: {package.icon}")
-                icon_image.set_from_icon_name(package.icon)
-            else:
-                self.logger.debug(f"No icon for '{package.name}', using generic")
-                icon_image.set_from_icon_name("package-x-generic")
-        except Exception as e:
-            self.logger.warning(f"Failed to load icon for {package.name}: {e}")
-            icon_image.set_from_icon_name("package-x-generic")
+        
+        # Use GTK icon name lookup - this works correctly as root
+        # and properly handles icon themes without sandbox issues
+        icon_name = package.icon if package.icon else "package-x-generic"
+        self.logger.debug(f"Setting icon for '{package.name}': {icon_name}")
+        icon_image.set_from_icon_name(icon_name)
         
         row.add_prefix(icon_image)
 
@@ -161,12 +148,12 @@ class MinimalPage(Gtk.Box):
     def on_check_all_clicked(self, button):
         """Corresponds to 'Keep All'"""
         self.set_all_selected(True)
-        self.show_success_message(_("All optional programs will be kept"))
+        self.logger.info("All optional programs will be kept")
 
     def on_uncheck_all_clicked(self, button):
         """Corresponds to 'Remove All'"""
         self.set_all_selected(False)
-        self.show_success_message(_("All optional programs selected for removal"))
+        self.logger.info("All optional programs selected for removal")
 
     def set_all_selected(self, selected: bool):
         for package in self.packages:
@@ -184,7 +171,7 @@ class MinimalPage(Gtk.Box):
         packages_to_remove = [pkg.name for pkg in self.packages if not pkg.selected]
 
         if not packages_to_remove:
-            self.show_success_message(_("No programs selected for removal. Proceeding with standard installation."))
+            self.logger.info("No programs selected for removal. Proceeding with standard installation.")
         
         button.set_sensitive(False)
         button.set_label(_("Starting..."))
@@ -199,25 +186,14 @@ class MinimalPage(Gtk.Box):
                 packages_to_remove=packages_to_remove
             )
             if success:
-                self.show_success_message(_("Minimal installation configured successfully"))
+                self.logger.info("Minimal installation configured successfully")
                 self.emit('navigate', 'tips', None)
             else:
-                self.show_error_message(_("Failed to configure minimal installation"))
+                self.logger.error("Failed to configure minimal installation")
                 reset_button_state()
         except Exception as e:
             self.logger.error(f"Failed to configure minimal installation: {e}", exc_info=True)
-            self.show_error_message(_("Error configuring installation"))
             reset_button_state()
-
-    def show_success_message(self, message):
-        toplevel = self.get_root()
-        if hasattr(toplevel, 'show_success_toast'):
-            toplevel.show_success_toast(message)
-
-    def show_error_message(self, message):
-        toplevel = self.get_root()
-        if hasattr(toplevel, 'show_error_toast'):
-            toplevel.show_error_toast(message)
 
     def on_page_activated(self):
         self.logger.debug("MinimalPage activated")
