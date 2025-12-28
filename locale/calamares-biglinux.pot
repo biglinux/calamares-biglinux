@@ -42,6 +42,7 @@ msgstr  ""
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 202
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 122
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 235
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 244
 msgid   "Continue"
 msgstr  ""
 
@@ -247,14 +248,11 @@ msgid   "Install it for a complete experience."
 msgstr  ""
 
 #
-# #-#-#-#-#  calamares-biglinux.pot (calamares-biglinux)  #-#-#-#-#
-#
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 192
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 240
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 264
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 268
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/pages/main_page.py, line: 282
-# File: calamares-biglinux/usr/share/biglinux/calamares/src/window.py, line: 244
 msgid   "Install"
 msgstr  ""
 

@@ -382,11 +382,24 @@ if [ -e "/tmp/start_calamares" ]; then
 
         # Function to send the error log to the cloud
         send_log() {
-            # Upload the file to filebin.net
-            sudo -u $user curl --data-binary -H "filename: /home/$user/calamares_error.log" https://filebin.net | tee "/home/$user/transfer.url" | zenity --modal --progress --pulsate --no-cancel --auto-close --text $"Sending, please wait..."
+            # Generate a unique bin ID
+            binId="biglinux-$(date +%Y%m%d%H%M%S)-$(head -c 8 /dev/urandom | xxd -p)"
+            fileName="calamares_error.log"
             
-            # Retrieve the file URL
-            fileUrl="https://filebin.net/$(cat "/home/$user/transfer.url" | grep '"id": "' | cut -f4 -d'"')"
+            # Upload the file to filebin.net using the correct API format: POST /{bin}/{filename}
+            sudo -u $user curl -X POST --data-binary "@/home/$user/calamares_error.log" \
+                -H "Content-Type: application/octet-stream" \
+                "https://filebin.net/$binId/$fileName" 2>/dev/null | tee "/home/$user/transfer.url" | \
+                zenity --modal --progress --pulsate --no-cancel --auto-close --text $"Sending, please wait..."
+            
+            # Retrieve the bin from the response and construct the file URL
+            responseBin=$(cat "/home/$user/transfer.url" | grep -o '"bin":"[^"]*"' | cut -d'"' -f4)
+            if [ -n "$responseBin" ]; then
+                fileUrl="https://filebin.net/$responseBin"
+            else
+                # Fallback to our generated bin ID
+                fileUrl="https://filebin.net/$binId"
+            fi
             
             # Search for installed browsers
             if [ -f /usr/bin/firefox ]; then
@@ -419,26 +432,30 @@ if [ -e "/tmp/start_calamares" ]; then
             --cancel-label=$"Close"
             
         if [ "$?" = "0" ]; then
-            sudo QEFIEntryManager
+            QEFIEntryManager
         fi
         
         fi
 
         # Prompt the user to view or send the log
+        # Using hidden column for fixed values to avoid translation issues
         log_action=$(zenity --list \
             --width=480 \
             --height=350 \
             --title="Calamares LOG" \
             --text=$"Do you want to view or send the installation log file to the cloud?\nGenerate a link to send in support groups." \
             --radiolist \
-            --column="" --column=$"Action" \
-            TRUE $"Open" \
-            FALSE $"Send to the cloud" \
-            FALSE $"Close")
+            --hide-column=2 \
+            --print-column=2 \
+            --column="" --column="ID" --column=$"Action" \
+            TRUE "open" $"Open" \
+            FALSE "send" $"Send to the cloud" \
+            FALSE "close" $"Close")
 
+            echo "log action: $log_action"
         case "$log_action" in
-            *"Open"*) sudo -u $user $text_editor /home/$user/calamares_error.log ;;
-            *"Send"*) send_log ;;
+            "open") sudo -u $user $text_editor /home/$user/calamares_error.log ;;
+            "send") send_log ;;
             *) echo "Closing file..." ;;
         esac
     fi
