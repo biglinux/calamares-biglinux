@@ -241,7 +241,7 @@ class CalamaresWindow(Adw.ApplicationWindow):
                 # Tips page only has centered Install button, no back button
                 self.center_box.append(self.continue_button)
                 
-                self.continue_button.set_label(_("Install"))
+                self.continue_button.set_label(_("Continue"))
                 self.continue_signal_handler = self.continue_button.connect("clicked", lambda btn: current_page.do_continue_action(btn))
 
     def show_toast(self, toast):

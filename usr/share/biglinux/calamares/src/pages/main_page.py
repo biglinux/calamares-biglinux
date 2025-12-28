@@ -97,9 +97,9 @@ class MainPage(Gtk.Box):
         
         try:
             if user:
-                # Open browser as normal user
+                # Open browser as normal user using su
                 subprocess.Popen(
-                    ['sudo', '-u', user, 'xdg-open', uri],
+                    ['su', user, '-c', f'xdg-open {uri}'],
                     start_new_session=True,
                     stdout=subprocess.DEVNULL,
                     stderr=subprocess.DEVNULL
