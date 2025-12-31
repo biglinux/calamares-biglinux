@@ -34,7 +34,7 @@ if [ -f "$GRUB_FILE" ]; then
     sed -i 's|BOOT_IMAGE=/boot/vmlinuz-x86_64||g;s|misobasedir=manjaro misolabel=BIGLINUXLIVE ||g' "$GRUB_FILE"
 
     # Set BigLinux GRUB theme
-    sed -i 's|GRUB_THEME=.*|GRUB_THEME="/boot/grub/themes/biglinux/theme.txt"|g' "$GRUB_FILE"
+    #sed -i 's|GRUB_THEME=.*|GRUB_THEME="/boot/grub/themes/biglinux/theme.txt"|g' "$GRUB_FILE"
 
     # Disable GRUB savedefault and fix duplicate quiet
     sed -i 's|GRUB_SAVEDEFAULT=true|GRUB_SAVEDEFAULT=false|g;s|quiet quiet|quiet|g' "$GRUB_FILE"

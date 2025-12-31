@@ -4,17 +4,19 @@ BigLinux Calamares Configuration Tool
 Main entry point for the GTK4 application
 """
 
-import sys
-import os
-import logging
 import gettext
+import logging
+import os
+import sys
+
 import gi
 
 # Ensure we're using the correct GTK version
 gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
 
-from gi.repository import Gtk, Adw, Gdk
+from gi.repository import Adw, Gdk, Gtk
+
 from src.app import CalamaresApp
 
 
@@ -76,6 +78,23 @@ def load_custom_css():
         )
 
 
+def setup_icon_theme():
+    """Set the preferred icon theme to bigicons-papient for better icon coverage."""
+    display = Gdk.Display.get_default()
+    if display:
+        icon_theme = Gtk.IconTheme.get_for_display(display)
+        # Add bigicons-papient as the primary search path for icons
+        # This ensures that app icons from this theme are prioritized
+        icon_theme.add_search_path("/usr/share/icons/bigicons-papient/48x48/apps")
+        icon_theme.add_search_path("/usr/share/icons/bigicons-papient/scalable/apps")
+        icon_theme.add_search_path("/usr/share/icons/bigicons-papient/22x22/panel")
+        icon_theme.add_search_path("/usr/share/icons/bigicons-papient/16x16/panel")
+        # Also add the dark variant as fallback
+        icon_theme.add_search_path("/usr/share/icons/bigicons-papient-dark/48x48/apps")
+        icon_theme.add_search_path("/usr/share/icons/bigicons-papient-dark/scalable/apps")
+        logging.getLogger(__name__).info("Icon theme search paths configured for bigicons-papient")
+
+
 def main():
     """Main application entry point"""
     # Setup logging first
@@ -93,6 +112,9 @@ def main():
 
         # Load custom application styling for effects like transparency.
         load_custom_css()
+
+        # Configure icon theme to use bigicons-papient for better coverage
+        setup_icon_theme()
 
         # Create and run the application
         app = CalamaresApp()

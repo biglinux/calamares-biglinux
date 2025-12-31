@@ -7,22 +7,21 @@ Handles Calamares configuration and installation process
 
 import logging
 import subprocess
-from typing import Dict, List, Any
+from typing import Any, Dict, List
+
 from ..utils import (
-    execute_command,
-    run_command_simple,
-    copy_file_safe,
-    write_text_file,
-    read_text_file,
-    ensure_directory,
     CALAMARES_CONFIG_DIR,
-    CALAMARES_MODULES_DIR,
     CALAMARES_CONFIGS,
-    PARTITION_CONF_FILE,
+    CALAMARES_MODULES_DIR,
+    COMMANDS,
     NETINSTALL_XIVASTUDIO_CONF,
     NETINSTALL_XIVASTUDIO_YAML,
+    PARTITION_CONF_FILE,
     TEMP_FILES,
-    COMMANDS,
+    copy_file_safe,
+    ensure_directory,
+    read_text_file,
+    write_text_file,
 )
 
 
@@ -37,6 +36,7 @@ class InstallationConfig:
         self.login_manager = ""
         self.use_minimal = False
         self.sfs_folder = ""
+        self.enable_xivastudio_netinstall = False
 
     def to_dict(self) -> Dict[str, Any]:
         """Convert config to dictionary"""
@@ -48,6 +48,7 @@ class InstallationConfig:
             "login_manager": self.login_manager,
             "use_minimal": self.use_minimal,
             "sfs_folder": self.sfs_folder,
+            "enable_xivastudio_netinstall": self.enable_xivastudio_netinstall,
         }
 
 
@@ -120,8 +121,8 @@ class InstallService:
             if not self._configure_unpack_settings():
                 return False
 
-            # Configure package settings if needed
-            if config.packages_to_remove or config.use_minimal:
+            # Configure package settings if needed (for minimal, explicit packages, or netinstall)
+            if config.packages_to_remove or config.use_minimal or config.enable_xivastudio_netinstall:
                 if not self._configure_package_settings():
                     return False
 
@@ -220,10 +221,7 @@ unpack:
             packages_to_remove = self._current_config.packages_to_remove
             packages_to_install = self._current_config.packages_to_install
 
-            if not packages_to_remove and not packages_to_install:
-                return True
-
-            # Base configuration
+            # Base configuration - always create if netinstall is enabled
             config_content = """---
 
 backend: pacman
@@ -236,21 +234,25 @@ pacman:
     num_retries: 10
     disable_download_timeout: true
     needed_only: true
+"""
 
+            # Add operations section only if there are packages to manage
+            if packages_to_remove or packages_to_install:
+                config_content += """
 operations:
 """
 
-            # Add remove operations
-            if packages_to_remove:
-                config_content += "    - remove:\n"
-                for package in packages_to_remove:
-                    config_content += f"        - {package}\n"
+                # Add remove operations
+                if packages_to_remove:
+                    config_content += "    - remove:\n"
+                    for package in packages_to_remove:
+                        config_content += f"        - {package}\n"
 
-            # Add install operations
-            if packages_to_install:
-                config_content += "    - install:\n"
-                for package in packages_to_install:
-                    config_content += f"        - {package}\n"
+                # Add install operations
+                if packages_to_install:
+                    config_content += "    - install:\n"
+                    for package in packages_to_install:
+                        config_content += f"        - {package}\n"
 
             write_text_file(config_content, CALAMARES_CONFIGS["packages"])
             self.logger.debug("Package configuration completed")
@@ -263,11 +265,8 @@ operations:
     def _configure_main_settings(self) -> bool:
         """Configure main settings.conf for Calamares"""
         try:
-            config_content = """---
-modules-search: [ local ]
-
-instances:
-
+            # Build instances block
+            instances_block = """
 - id:       initialize_pacman
   module:   shellprocess
   config:   shellprocess_initialize_pacman.conf
@@ -275,15 +274,39 @@ instances:
 - id:       displaymanager_biglinux
   module:   shellprocess
   config:   shellprocess_displaymanager_biglinux.conf
+"""
 
-sequence:
-    - show:
+            # Add XivaStudio netinstall instance if enabled
+            if self._current_config.enable_xivastudio_netinstall:
+                instances_block += """
+- id:       xivastudio
+  module:   netinstall
+  config:   netinstall-xivastudio.conf
+"""
+
+            # Build show sequence
+            show_sequence = """    - show:
         - welcome
         - locale
         - keyboard
-        - partition
+        - partition"""
+
+            # Add netinstall@xivastudio to show sequence if enabled
+            if self._current_config.enable_xivastudio_netinstall:
+                show_sequence += """
+        - netinstall@xivastudio"""
+
+            show_sequence += """
         - users
-        - summary
+        - summary"""
+
+            config_content = f"""---
+modules-search: [ local ]
+
+instances:
+{instances_block}
+sequence:
+{show_sequence}
     - exec:
         - partition
         - mount
@@ -295,11 +318,12 @@ sequence:
         - keyboard
 """
 
-            # Add package operations if needed
+            # Add package operations if needed (for netinstall, minimal, or explicit packages)
             if (
                 self._current_config.packages_to_remove
                 or self._current_config.packages_to_install
                 or self._current_config.use_minimal
+                or self._current_config.enable_xivastudio_netinstall
             ):
                 config_content += """        - shellprocess@initialize_pacman
         - packages
@@ -406,11 +430,14 @@ i18n:
             True if installation was configured successfully
         """
         try:
-            # Prepare configuration
+            # Prepare configuration (preserve netinstall flag if already set)
+            enable_netinstall = self._current_config.enable_xivastudio_netinstall
+            
             config = InstallationConfig()
             config.filesystem_type = filesystem_type
             config.packages_to_remove = packages_to_remove or []
             config.use_minimal = bool(packages_to_remove)
+            config.enable_xivastudio_netinstall = enable_netinstall
 
             # Configure Calamares
             if not self.configure_installation(config):
@@ -511,20 +538,21 @@ i18n:
 
     def configure_xivastudio_netinstall(self) -> bool:
         """
-        Configure Calamares to show XivaStudio netinstall page.
+        Prepare XivaStudio netinstall configuration files.
 
         This should only be called when:
         1. System is detected as XivaStudio
         2. Internet connection is available
 
-        The method modifies /etc/calamares/settings.conf to include
-        the netinstall@xivastudio module and copies the required
-        configuration files.
+        The method copies the required configuration files to the
+        Calamares modules directory. The actual settings.conf modification
+        is handled by _configure_main_settings() when enable_xivastudio_netinstall
+        is True.
 
         Returns:
-            True if configuration was successful, False otherwise
+            True if configuration files were copied successfully, False otherwise
         """
-        self.logger.info("Configuring XivaStudio netinstall...")
+        self.logger.info("Preparing XivaStudio netinstall configuration files...")
 
         try:
             # Verify netinstall config files exist
@@ -552,74 +580,14 @@ i18n:
                 self.logger.error("Failed to copy netinstall YAML")
                 return False
 
-            # Read current settings.conf
-            settings_file = CALAMARES_CONFIGS["settings"]
-            if not settings_file.exists():
-                self.logger.error(f"Calamares settings.conf not found: {settings_file}")
-                return False
+            # Set the flag to enable netinstall in the configuration
+            self._current_config.enable_xivastudio_netinstall = True
 
-            settings_content = read_text_file(settings_file)
-            if not settings_content:
-                self.logger.error("Failed to read settings.conf")
-                return False
-
-            # Check if netinstall@xivastudio is already configured
-            if "netinstall@xivastudio" in settings_content:
-                self.logger.info("XivaStudio netinstall already configured")
-                return True
-
-            # Add netinstall instance definition after displaymanager_biglinux
-            instance_block = """
-- id:       xivastudio
-  module:   netinstall
-  config:   netinstall-xivastudio.conf
-"""
-            # Insert after the displaymanager_biglinux instance
-            settings_content = settings_content.replace(
-                "- id:       displaymanager_biglinux\n  module:   shellprocess\n  config:   shellprocess_displaymanager_biglinux.conf",
-                "- id:       displaymanager_biglinux\n  module:   shellprocess\n  config:   shellprocess_displaymanager_biglinux.conf"
-                + instance_block,
-            )
-
-            # Add netinstall@xivastudio to sequence after partition in show section
-            settings_content = settings_content.replace(
-                "        - partition\n        - users",
-                "        - partition\n        - netinstall@xivastudio\n        - users",
-            )
-
-            # Ensure packages.conf exists for netinstall to work
-            packages_conf = CALAMARES_CONFIGS["packages"]
-            if not packages_conf.exists():
-                packages_content = """---
-
-backend: pacman
-
-skip_if_no_internet: false
-update_db: true
-update_system: true
-
-pacman:
-    num_retries: 10
-    disable_download_timeout: true
-    needed_only: true
-"""
-                write_text_file(packages_content, packages_conf)
-
-            # Ensure shellprocess@initialize_pacman and packages are in exec sequence
-            if "shellprocess@initialize_pacman" not in settings_content:
-                settings_content = settings_content.replace(
-                    "        - localecfg",
-                    "        - shellprocess@initialize_pacman\n        - packages\n        - localecfg",
-                )
-
-            # Write updated settings
-            write_text_file(settings_content, settings_file)
-
-            self.logger.info("XivaStudio netinstall configured successfully")
+            self.logger.info("XivaStudio netinstall files prepared successfully")
             return True
 
         except Exception as e:
-            self.logger.error(f"Failed to configure XivaStudio netinstall: {e}")
+            self.logger.error(f"Failed to prepare XivaStudio netinstall: {e}")
             return False
 
     def check_internet_connection(self) -> bool:
