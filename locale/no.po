@@ -637,6 +637,10 @@ msgstr "Innstillinger er ikke implementert ennå."
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 151
 # 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 151
+# 
+# File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 151
+# 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
 # 
 # File: calamares-biglinux/usr/share/biglinux/calamares/src/app.py, line: 147
